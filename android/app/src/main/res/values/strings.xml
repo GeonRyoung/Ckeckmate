@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CHECKMATE</string>
+    <string name="current_warnings">현재 경고</string>
+    <string name="not_connected">차량 데이터 미연결</string>
+    <string name="setup_description">아직 차량 정보를 수신하지 않았습니다.
+경고 수신 기능을 연결하면 현재 상태가 여기에 표시됩니다.</string>
+</resources>

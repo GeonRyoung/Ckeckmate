@@ -1,0 +1,13 @@
+[versions]
+agp = "9.4.1"
+appcompat = "1.6.1"
+coreKtx = "1.10.1"
+pleosVehicle = "2.3.2"
+
+[libraries]
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+pleos-vehicle = { module = "ai.pleos.playground:Vehicle", version.ref = "pleosVehicle" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }

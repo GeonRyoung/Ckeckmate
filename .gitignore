@@ -1,2 +1,24 @@
-//문서
-docs*
+# Local planning documents (existing repository policy)
+/docs/
+
+# Android / Gradle
+.gradle/
+.kotlin/
+**/build/
+local.properties
+.idea/
+*.iml
+.externalNativeBuild/
+.cxx/
+
+# Credentials and signing
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+keystore.properties
+
+# Local tools
+.DS_Store
+Thumbs.db
