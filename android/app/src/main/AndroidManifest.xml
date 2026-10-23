@@ -3,7 +3,10 @@
     <uses-feature android:name="android.hardware.type.automotive" android:required="true" />
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
 
-    <!-- Vehicle permissions will be added with the verified API integration. -->
+    <!-- Telltales SDK 2.3.2 requires PRIVATE_CAR_SAFETY for capability/listener APIs.
+         A declaration does not grant privileged access on production vehicles. -->
+    <uses-permission android:name="pleos.car.permission.CAR_SAFETY" />
+    <uses-permission android:name="pleos.car.permission.PRIVATE_CAR_SAFETY" />
     <application
         android:allowBackup="false"
         android:fullBackupContent="false"

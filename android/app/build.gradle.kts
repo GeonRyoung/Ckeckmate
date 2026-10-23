@@ -5,6 +5,7 @@ plugins {
 android {
     namespace = "com.checkmate.pleos"
     compileSdk = 35
+    useLibrary("android.car")
 
     defaultConfig {
         applicationId = "com.checkmate.pleos"
@@ -35,4 +36,5 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.core.ktx)
     implementation(libs.pleos.vehicle)
+    testImplementation("junit:junit:4.13.2")
 }
