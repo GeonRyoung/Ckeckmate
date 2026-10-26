@@ -28,3 +28,17 @@ uv run pytest -q
 ```
 
 이 서버는 로컬 개발용입니다. 공개 배포 전 HTTPS·인증·요청 제한과 운영 설정이 필요합니다.
+
+## 검색 서버 실행
+
+```bash
+uv run uvicorn checkmate.main:app --host 127.0.0.1 --port 8000
+```
+
+- `GET /health`: 프로세스·데이터 준비 상태. 모델의 실제 응답 성공을 뜻하지 않습니다.
+- `GET /v1/manual-profiles`: 지원 프로필.
+- `POST /v1/explanations`: 프로필·경고 태그로 먼저 제한한 뒤 관련 용어로 근거를 정렬합니다.
+  현재는 고정 의도 `WARNING_OVERVIEW`에 대한 작은 어휘·태그 검색입니다.
+- 업무상 미지원·근거 없음은 HTTP 200의 `status`로, 잘못된 JSON은 422로,
+  모델/서비스 장애는 503으로 구분합니다. 자동 재요청하지 않습니다.
+- 실행 중 `/docs`, `/openapi.json`에서 실제 API 계약을 확인할 수 있습니다.
