@@ -1,8 +1,12 @@
+from pathlib import Path
+from dotenv import load_dotenv
+
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 
 from .contracts import ExplanationRequest, ExplanationResponse, Status
 from .service import ExplanationService
+from .generation import configured_service
 
 
 def create_app(service: ExplanationService | None = None) -> FastAPI:
@@ -27,4 +31,5 @@ def create_app(service: ExplanationService | None = None) -> FastAPI:
     return app
 
 
-app = create_app()
+load_dotenv(Path(__file__).resolve().parent.parent / ".env", override=False)
+app = create_app(configured_service())

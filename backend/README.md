@@ -42,3 +42,32 @@ uv run uvicorn checkmate.main:app --host 127.0.0.1 --port 8000
 - 업무상 미지원·근거 없음은 HTTP 200의 `status`로, 잘못된 JSON은 422로,
   모델/서비스 장애는 503으로 구분합니다. 자동 재요청하지 않습니다.
 - 실행 중 `/docs`, `/openapi.json`에서 실제 API 계약을 확인할 수 있습니다.
+
+## Qwen 및 Ollama 연결
+
+```bash
+cp .env.example .env
+# .env의 CHECKMATE_GENERATION을 ollama로 변경
+uv run uvicorn checkmate.main:app --host 127.0.0.1 --port 8000
+```
+
+`OLLAMA_BASE_URL`과 `OLLAMA_MODEL`을 실행 환경에 맞게 설정합니다. 현재 개발 환경에는
+`qwen2.5:7b`가 설치되어 있어 이 모델로 확인했습니다. OpenAI 키나 SDK는 사용하지 않습니다.
+Ollama `/api/chat`의 JSON schema 출력으로 설명을 받고 서버에서 다시 검증합니다.
+근거 ID·종류·모든 근거 포함 여부·새 수치 유입을 검사하며, 출처 URL과 한계 안내는
+모델이 생성하지 않고 서버가 붙입니다. 이 검사는 문장 전체의 사실성을 증명하지 않으므로
+새 문서·모델 추가 시 사례별 내용 평가가 필요합니다.
+
+모델은 동시에 한 요청만 처리하며, 사용 중·60초 초과·응답 오류·검증 실패 시 503을 반환합니다.
+이때 검증되지 않은 문장을 반환하지 않습니다. 앱은 같은 프로필의 로컬 요약으로 복귀합니다.
+
+2026-10-26 검증:
+
+- 계약·검색·HTTP·모델 어댑터 테스트 27개 통과.
+- 실제 `qwen2.5:7b` 호출: TPMS ON 40.57초(첫 호출), BLINK 3.31초.
+- 두 응답 모두 READY, AI_GENERATED, 실제 근거 3개 인용. 설명의 조건과 점검 안내 유지 확인.
+- 이 두 사례는 전체 모델 품질이나 지연 보장을 의미하지 않습니다.
+- 모델 미완료·잘못된 JSON·가짜 출처·근거 누락·새 수치·타임아웃은 모의 응답으로 차단 검증.
+
+API 구현 참고: [Ollama 구조화 출력](https://docs.ollama.com/capabilities/structured-outputs),
+[Ollama Chat API](https://docs.ollama.com/api/chat).
