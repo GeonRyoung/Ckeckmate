@@ -1,0 +1,76 @@
+{
+  "indexVersion": "reviewed-tpms-2026-10-26-v1",
+  "profiles": [
+    {
+      "id": "hyundai-ioniq5-2025-ev-kr-ko-r1.27",
+      "model": "현대 아이오닉 5",
+      "modelYear": 2025,
+      "powertrain": "EV",
+      "market": "KR",
+      "language": "ko-KR",
+      "documentId": "hyundai-ne1-2025-ko-r1.27",
+      "supportedWarnings": [
+        "TPMS"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "hyundai-ne1-2025-ko-r1.27",
+      "profileId": "hyundai-ioniq5-2025-ev-kr-ko-r1.27",
+      "title": "2025 아이오닉 5 디지털 취급 설명서",
+      "revision": "1.27",
+      "url": "https://ownersmanual.hyundai.com/full_webhelp/NE1/2025/ko_KR/id23C5E0QD0YK.html",
+      "sourceSha256": "f921142b9e9ce9e8745b7546a4959a93ad5f1fd507e110e75cd91c9d95e8d360",
+      "checkedOn": "2026-10-26",
+      "originalIngestionApproved": false
+    }
+  ],
+  "chunks": [
+    {
+      "id": "tpms-overview",
+      "documentId": "hyundai-ne1-2025-ko-r1.27",
+      "profileId": "hyundai-ioniq5-2025-ev-kr-ko-r1.27",
+      "warningTags": [
+        "TPMS"
+      ],
+      "sectionTitle": "시스템 개요",
+      "kind": "MEANING",
+      "text": "TPMS는 타이어의 압력을 감시하여 낮은 공기압을 알리는 장치입니다.",
+      "textSha256": "a96fa23f35f7164129dfc99c2fbd1104ab6ba951b8d39ab08b3f3fc4508a556b",
+      "contentKind": "REVIEWED_SUMMARY",
+      "retrievalApproved": true,
+      "page": null
+    },
+    {
+      "id": "tpms-low-pressure",
+      "documentId": "hyundai-ne1-2025-ko-r1.27",
+      "profileId": "hyundai-ioniq5-2025-ev-kr-ko-r1.27",
+      "warningTags": [
+        "TPMS"
+      ],
+      "sectionTitle": "저압 타이어 감지",
+      "kind": "MANUAL_GUIDANCE",
+      "text": "매뉴얼은 저압 경고가 켜지면 감속하고 급격한 방향 전환을 피하며, 현대 하이테크센터 또는 블루핸즈에서 타이어 점검과 공기압 조정을 받도록 안내합니다.",
+      "textSha256": "4ec9f8c2cb9a39a5836039e341d92c2dc525b1eed13b3a1d70c84488749c132f",
+      "contentKind": "REVIEWED_SUMMARY",
+      "retrievalApproved": true,
+      "page": null
+    },
+    {
+      "id": "tpms-system-alert",
+      "documentId": "hyundai-ne1-2025-ko-r1.27",
+      "profileId": "hyundai-ioniq5-2025-ev-kr-ko-r1.27",
+      "warningTags": [
+        "TPMS"
+      ],
+      "sectionTitle": "타이어 공기압 경보 시스템 이상",
+      "kind": "MANUAL_GUIDANCE",
+      "text": "매뉴얼은 TPMS 경고가 깜빡인 뒤 계속 켜지는 패턴을 시스템 이상 안내로 설명하며, 즉시 현대 하이테크센터 또는 블루핸즈에서 점검하도록 안내합니다.",
+      "textSha256": "90e2151fd9e61f7e8c6b2ecf667dc0822a165c64a7b36204d26762b2c6f61743",
+      "contentKind": "REVIEWED_SUMMARY",
+      "retrievalApproved": true,
+      "page": null
+    }
+  ]
+}
