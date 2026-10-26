@@ -13,6 +13,20 @@
     <string name="no_warnings">수신된 경고가 없습니다. 차량 전체의 정상 여부를 뜻하지 않습니다.</string>
     <string name="reconnect">다시 연결</string>
     <string name="event_heading">최근 관측 변화</string>
-    <string name="event_scope">현재 화면 세션의 최근 50개 기록입니다. 앱 종료·화면 재생성 시 초기화되며, 목록 제외는 수리 완료를 뜻하지 않습니다.</string>
+    <string name="event_scope">현재 화면의 최근 변화입니다. 저장된 과거 기록은 경고 이력에서 확인하세요. 목록 제외는 수리 완료를 뜻하지 않습니다.</string>
     <string name="no_events">아직 관측 변화가 없습니다.</string>
+    <string name="show_history">경고 이력 보기</string>
+    <string name="show_current">현재 경고로 돌아가기</string>
+    <string name="storage_pending">로컬 DB 저장 중…</string>
+    <string name="storage_ready">로컬 DB 저장 완료</string>
+    <string name="storage_failed">기록 저장 실패 (%1$s) · 일부 기록이 저장되지 않았을 수 있습니다.</string>
+    <string name="history_heading">저장된 경고 이력</string>
+    <string name="history_description">과거 관측 기록입니다. 현재 차량 상태를 뜻하지 않습니다. 시각은 기기의 시간대 기준입니다.</string>
+    <string name="history_page">총 %1$d개 · %2$d–%3$d번째 기록</string>
+    <string name="history_loading">저장된 기록을 불러오는 중…</string>
+    <string name="history_empty">저장된 관측 변화가 없습니다.</string>
+    <string name="history_read_failed">기록을 읽지 못했습니다. 최신 기록 새로고침으로 다시 시도하세요.</string>
+    <string name="history_refresh">최신 기록 새로고침</string>
+    <string name="history_previous">더 최근 기록</string>
+    <string name="history_next">이전 기록</string>
 </resources>

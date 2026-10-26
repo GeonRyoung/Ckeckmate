@@ -64,6 +64,18 @@ class WarningMonitorTest {
         assertEquals(1L, monitor.lastReceivedAt)
     }
 
+    @Test fun persistedTypesResumeAfterRestartWithoutInventingARecurrence() {
+        val saved = mutableListOf<Observation>()
+        val monitor = WarningMonitor { saved.add(it) }
+        monitor.restoreSeen(listOf("TPMS"))
+        monitor.accept(listOf(tpms), 1)
+        monitor.accept(listOf(tpms), 2)
+        assertEquals(1, saved.size)
+        assertEquals("OBSERVATION_RESUMED", saved.single().kind)
+        assertEquals("TPMS", saved.single().warningType)
+        assertEquals("ON", saved.single().rawState)
+    }
+
     @Test fun historyIsBounded() {
         val monitor = WarningMonitor()
         repeat(100) { monitor.accept(listOf(tpms.copy(state = "$it")), it.toLong()) }

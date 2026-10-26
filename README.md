@@ -9,8 +9,11 @@ Pleos 차량 경고를 매뉴얼 기반 설명, 관측 이력, 정비 전달용 
 - 경고 종류·원시 상태·관측 시각·마지막 수신 시각 표시
 - 오류/null과 유효한 빈 목록 구분, 반복 상태 중복 제거, 관측 공백 표시
 - `CarUxRestrictions` 확인 전 또는 제한 중에는 상세 영역과 재연결 조작 차단
-- 최근 50개 관측 변화는 메모리에만 보관 (프로세스 종료·Activity 재생성 시 초기화)
-- Room 영속 저장, FastAPI, RAG는 후속 구현
+- Room 2.8.4 + SQLite로 관측 구간과 구조화된 경고 이벤트를 영구 저장
+- 경고 이력 화면: 최신순 50개씩 조회, 이전/최근 페이지 및 새로고침
+- 강제 종료 후 종료 시각 미확인 공백을 기록하고 기존 경고를 관측 재개로 구분
+- 현재 화면의 최근 변화는 50개 메모리 목록이며, 전체 저장 이력은 별도 조회
+- FastAPI, RAG, 사용자 메모는 후속 구현
 - 근처 현대·기아 정비점 검색 및 전화 연결은 지원 여부 검증 후 추가할 옵션
 
 ## 프로젝트 구조
@@ -18,6 +21,7 @@ Pleos 차량 경고를 매뉴얼 기반 설명, 관측 이력, 정비 전달용 
 ```text
 android/                 Android Studio에서 열 프로젝트
   app/src/main/          Kotlin 코드, 화면 리소스, Manifest
+  app/schemas/           Room DB 버전별 스키마 (Git 관리)
   gradle/                버전 카탈로그 및 Gradle Wrapper
 docs/                    기존 기획 문서 (기존 정책에 따라 Git 제외)
 ```
@@ -65,6 +69,8 @@ cd android
 - `vehicle/PleosWarningSource`: SDK 연결, capability 조회, 초기/실시간 응답, 연결 세대별 늦은 콜백 무시
 - `vehicle/WarningMonitor`: 일반 Kotlin 상태 처리, 중복 제거, 관측 공백 및 제한된 메모리 로그
 - `vehicle/UxRestrictionSource`: AAOS 서비스와 UX 제한 상태 구독
+- `history/HistoryDatabase`: 관측 구간·경고 이벤트 Entity, DAO, Room Database
+- `history/HistoryRepository`: 프로세스 단일 DB 작업 큐, 세션 복구, 저장 및 페이지 조회
 - `MainActivity`: 화면 생명주기 및 UI 연결
 
 Telltales SDK 2.3.2 소스에서 capability/리스너는 `PRIVATE_CAR_SAFETY`를 요구합니다.
@@ -86,10 +92,13 @@ Telltales SDK 2.3.2 소스에서 capability/리스너는 `PRIVATE_CAR_SAFETY`를
 2026-10-23 검증:
 
 - debug APK 빌드, 서명 전 release APK 빌드, Android Lint 통과
-- 상태 처리 단위 테스트 7개 통과: 중복, 목록 제외/재관측, null/공백, 다중 경고,
+- 상태 처리 단위 테스트 8개 통과 (저장된 경고 종류 복원 포함): 중복, 목록 제외/재관측, null/공백, 다중 경고,
   상태 변경, 잘못된 중복 종류 입력, 로그 크기 제한
 - 실행 중인 API 34 Pleos 에뮬레이터에 debug APK 설치·실행 성공
 - 초기 조회와 리스너의 유효한 빈 목록 수신, 사용 제한 없음 상태 및 UI 표시 확인
+- Room 에뮬레이터 테스트 2개 통과: DB 재열기, 중복 이벤트 ID 재저장, 미종료 세션 복구,
+  정상 세션 종료, 같은 시각의 안정적 페이지 조회, FK 위반 시 저장 오류 반환
+- 실제 TPMS ON을 DB 저장 후 앱 강제 종료·재실행: 기존 기록 유지 + 관측 공백 + 관측 재개 확인
 - Lint에는 기존 의존성/SDK 버전의 업데이트 권고가 남아 있습니다.
 
 다음 항목은 실제 Virtual Console 조작으로 추가 확인해야 합니다.
@@ -104,6 +113,38 @@ Telltales SDK 2.3.2 소스에서 capability/리스너는 `PRIVATE_CAR_SAFETY`를
 
 Logcat 태그: `CHECKMATE_VEHICLE`, `CHECKMATE_UX`.
 위 단위 테스트는 실제 차량/SDK 계약 검증을 대신하지 않습니다.
+
+## Room 저장 확인 방법
+
+1. 새 버전을 실행하고 주차 상태에서 `로컬 DB 저장 완료`를 확인합니다.
+2. Virtual Console에서 TPMS를 ON → OFF → ON으로 바꿉니다.
+3. 앱의 **경고 이력 보기**를 누릅니다. 기존 상태에 따라 최초 관측 또는 관측 재개,
+   목록 제외 관측, 재관측이 시간순으로 저장되어야 합니다.
+4. 저장 완료를 확인한 뒤 앱을 중지하고 다시 실행합니다. **경고 이력 보기**에서
+   이전 시각의 기록이 유지되는지 확인합니다. 신규 `관측 재개`는 새로운 고장 판정이 아닙니다.
+5. 강제 종료 때에는 `이전 수신 구간의 종료 기록 없음`이 추가될 수 있습니다.
+   정상적으로 화면을 나갔을 때에는 `관측 공백 시작`을 기록합니다.
+6. 기록이 50개를 넘으면 **이전 기록 / 더 최근 기록**으로 페이지를 이동합니다.
+   **최신 기록 새로고침**은 첫 페이지로 돌아갑니다.
+
+DB는 앱 내부 `databases/checkmate-history.db`에 있습니다. SQLite WAL 모드를 사용하므로
+실행 중 파일 하나만 복사하는 대신 Android Studio **App Inspection → Database Inspector**로 확인하세요.
+테이블은 `observation_sessions`, `warning_events`입니다. 타임스탬프는 UTC epoch 밀리초이며
+화면에서는 에뮬레이터에 설정된 시간대로 표시합니다.
+
+DB 파일·저널은 Git/서버에 전송하지 않습니다. 앱 삭제 또는 데이터 지우기를 하면 기록이 삭제됩니다.
+데이터 스키마 v1은 `android/app/schemas/`에 보존하며 자동 파괴 마이그레이션은 사용하지 않습니다.
+추후 DB 구조 변경 시 명시적 migration을 추가해야 합니다.
+저장 중 강제 종료하면 아직 커밋되지 않은 이벤트는 유실될 수 있으므로 확인은 `저장 완료` 후 수행하세요.
+
+Room 통합 테스트는 테스트용 DB 이름을 사용합니다. 실제 이력에 테스트 경고를 삽입하지 않습니다.
+Gradle의 connected test 실행 과정에서 앱이 제거될 수 있으므로 기존 기록이 중요한 에뮬레이터에서는
+별도 테스트 AVD를 사용하세요.
+
+```powershell
+cd android
+.\gradlew.bat :app:testDebugUnitTest :app:connectedDebugAndroidTest
+```
 
 ## 제출 빌드
 

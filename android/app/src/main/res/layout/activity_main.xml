@@ -14,6 +14,12 @@
         android:layout_weight="1" android:visibility="gone">
         <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
             android:orientation="vertical" android:padding="24dp">
+            <TextView android:id="@+id/storage_status" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textColor="@color/text_secondary" android:textSize="18sp" />
+            <Button android:id="@+id/show_history" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:minHeight="64dp" android:text="@string/show_history" />
+            <LinearLayout android:id="@+id/current_panel" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical">
             <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
                 android:text="@string/source_label" android:textColor="@color/text_secondary" android:textSize="16sp" />
             <TextView android:id="@+id/connection_status" android:layout_width="match_parent" android:layout_height="wrap_content"
@@ -36,6 +42,26 @@
                 android:textColor="@color/text_secondary" android:textSize="16sp" />
             <TextView android:id="@+id/event_log" android:layout_width="match_parent" android:layout_height="wrap_content"
                 android:layout_marginTop="16dp" android:textColor="@color/text_primary" android:textSize="18sp" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/history_panel" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical" android:visibility="gone">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:text="@string/history_heading" android:textColor="@color/text_primary" android:textSize="26sp" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:text="@string/history_description" android:textColor="@color/text_secondary" android:textSize="18sp" />
+                <TextView android:id="@+id/history_page" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp" android:textColor="@color/text_secondary" android:textSize="18sp" />
+                <Button android:id="@+id/refresh_history" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:minHeight="64dp" android:text="@string/history_refresh" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                    <Button android:id="@+id/previous_page" android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:minHeight="64dp" android:text="@string/history_previous" />
+                    <Button android:id="@+id/next_page" android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:minHeight="64dp" android:text="@string/history_next" />
+                </LinearLayout>
+                <TextView android:id="@+id/history_entries" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp" android:textColor="@color/text_primary" android:textSize="18sp" />
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

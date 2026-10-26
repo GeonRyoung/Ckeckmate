@@ -2,10 +2,15 @@ package com.checkmate.pleos.vehicle
 
 data class WarningReading(val type: String, val state: String)
 data class ObservedWarning(val reading: WarningReading, val observedAt: Long)
-data class Observation(val at: Long, val message: String)
+data class Observation(
+    val at: Long, val message: String,
+    val kind: String = "OBSERVATION", val warningType: String? = null, val rawState: String? = null,
+    val id: String = java.util.UUID.randomUUID().toString(),
+)
 
 /** Single-threaded, in-memory observations. Absence is not a repair/clear verdict. */
-class WarningMonitor {
+class WarningMonitor(private val onObservation: (Observation) -> Unit = {}) {
+    fun restoreSeen(types: List<String>) { seen.addAll(types) }
     var status = "차량 데이터 수신 대기"
         private set
     var current: List<ObservedWarning> = emptyList()
@@ -25,7 +30,7 @@ class WarningMonitor {
     }
 
     fun unavailable(reason: String, at: Long) {
-        if (continuous) record(at, "관측 공백 시작 · $reason")
+        if (continuous) record(at, "관측 공백 시작 · $reason", "OBSERVATION_GAP")
         continuous = false
         isCurrent = false
         status = "상태 확인 불가 · $reason"
@@ -43,7 +48,7 @@ class WarningMonitor {
         val old = current.associateBy { it.reading.type }
         val incoming = readings.associateBy { it.type }
         if (continuous) {
-            (old.keys - incoming.keys).forEach { record(at, "$it · 목록 제외 관측 (해제 의미 미검증)") }
+            (old.keys - incoming.keys).forEach { record(at, "$it · 목록 제외 관측 (해제 의미 미검증)", "REMOVED_FROM_LIST", it, old[it]?.reading?.state) }
         }
         current = readings.sortedBy { it.type }.map { reading ->
             val previous = old[reading.type]
@@ -55,7 +60,13 @@ class WarningMonitor {
                     reading.type in seen -> "재관측"
                     else -> "최초 관측"
                 }
-                record(at, "${reading.type} · ${reading.state} · $kind")
+                val eventKind = when {
+                    !continuous && reading.type in seen -> "OBSERVATION_RESUMED"
+                    continuous && previous != null -> "STATE_CHANGED"
+                    reading.type in seen -> "REOBSERVED"
+                    else -> "FIRST_OBSERVED"
+                }
+                record(at, "${reading.type} · ${reading.state} · $kind", eventKind, reading.type, reading.state)
             }
             seen.add(reading.type)
             ObservedWarning(reading, if (same) previous!!.observedAt else at)
@@ -66,8 +77,10 @@ class WarningMonitor {
         status = "유효한 차량 데이터 수신"
     }
 
-    private fun record(at: Long, message: String) {
-        history.addFirst(Observation(at, message))
+    private fun record(at: Long, message: String, kind: String, type: String? = null, state: String? = null) {
+        val observation = Observation(at, message, kind, type, state)
+        history.addFirst(observation)
+        onObservation(observation)
         while (history.size > 50) history.removeLast()
     }
 }
