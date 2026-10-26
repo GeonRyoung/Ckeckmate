@@ -1,6 +1,12 @@
 package com.checkmate.pleos
 
 import android.os.Bundle
+import android.graphics.Typeface
+import android.text.SpannableString
+import android.text.Spanned
+import android.text.style.RelativeSizeSpan
+import android.text.style.ForegroundColorSpan
+import androidx.core.view.doOnLayout
 import android.content.Intent
 import android.content.ActivityNotFoundException
 import android.net.Uri
@@ -71,6 +77,12 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         ViewCompat.requestApplyInsets(binding.root)
+        binding.contentScroll.doOnLayout { scroll ->
+            binding.content.layoutParams = binding.content.layoutParams.apply {
+                width = minOf(scroll.width, dp(1080))
+                (this as android.widget.FrameLayout.LayoutParams).gravity = android.view.Gravity.CENTER_HORIZONTAL
+            }
+        }
         repository = HistoryRepository.get(this)
         manualPreferences = ManualPreferences(this)
         savedInstanceState?.let { saved ->
@@ -272,6 +284,9 @@ class MainActivity : AppCompatActivity() {
         binding.diagnosticsPanel.isVisible = diagnosticsVisible
         binding.toggleDiagnostics.text = if (diagnosticsVisible) "최근 관측 변화 접기" else "최근 관측 변화 펼치기"
         binding.historyPanel.isVisible = historyVisible
+        binding.showCurrent.isSelected = screen == Screen.CURRENT || (screen == Screen.DETAIL && selection?.historical != true)
+        binding.showHistory.isSelected = screen == Screen.HISTORY || (screen == Screen.DETAIL && selection?.historical == true)
+        binding.showProfile.isSelected = screen == Screen.PROFILE
         binding.showCurrent.isEnabled = detailsAllowed && screen != Screen.CURRENT
         binding.showHistory.isEnabled = detailsAllowed && screen != Screen.HISTORY
         binding.showProfile.isEnabled = detailsAllowed && screen != Screen.PROFILE
@@ -302,21 +317,36 @@ class MainActivity : AppCompatActivity() {
         if (!detailsAllowed) return
         binding.sourceOpenStatus.text = ""
         screen = target
-        binding.contentScroll.scrollTo(0, 0)
         render()
+        binding.contentScroll.isFocusableInTouchMode = true
+        binding.contentScroll.requestFocus()
+        binding.contentScroll.post { binding.contentScroll.scrollTo(0, 0) }
     }
+
+    private fun dp(value: Int) = (value * resources.displayMetrics.density).toInt()
 
     private fun actionButton(label: String, action: () -> Unit) = Button(this).apply {
         id = View.generateViewId()
-        text = label
-        backgroundTintList = android.content.res.ColorStateList.valueOf(getColor(R.color.surface))
-        setTextColor(getColor(R.color.accent))
-        textSize = 20f
+        text = SpannableString(label).apply {
+            val split = label.indexOf('\n')
+            if (split >= 0) {
+                setSpan(RelativeSizeSpan(0.75f), split, length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+                setSpan(ForegroundColorSpan(getColor(R.color.text_secondary)), split, length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+            }
+        }
+        backgroundTintList = null
+        setBackgroundResource(R.drawable.button_background)
+        setTextColor(getColor(R.color.text_primary))
+        typeface = Typeface.create("sans-serif", Typeface.NORMAL)
+        textSize = 24f
+        setLineSpacing(dp(6).toFloat(), 1f)
         isAllCaps = false
         gravity = android.view.Gravity.START or android.view.Gravity.CENTER_VERTICAL
-        minHeight = (72 * resources.displayMetrics.density).toInt()
-        setPadding(20, 16, 20, 16)
-        layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT)
+        minHeight = dp(88)
+        setPadding(dp(24), dp(20), dp(24), dp(20))
+        layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT).apply {
+            bottomMargin = dp(16)
+        }
         setOnClickListener { if (detailsAllowed) action() }
     }
 
@@ -368,6 +398,8 @@ class MainActivity : AppCompatActivity() {
             "출처 · ${source.documentTitle}\n${source.section} — 저압 타이어 감지 / 타이어 공기압 경보 시스템 이상\n" +
                 "문서 버전 ${profile.documentRevision} · 확인 ${profile.checkedOn}\n${source.url}"
         }.orEmpty()
+        binding.sourceCard.isVisible = guide.source != null
+        binding.limitsCard.isVisible = guide.source != null
         binding.guideCitation.isVisible = guide.source != null
         binding.openSource.isVisible = guide.source != null
         binding.openSource.isEnabled = detailsAllowed && guide.source != null
