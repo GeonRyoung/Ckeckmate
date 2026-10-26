@@ -1,6 +1,10 @@
 package com.checkmate.pleos
 
 import android.os.Bundle
+import android.content.Intent
+import android.content.ActivityNotFoundException
+import android.net.Uri
+import com.checkmate.pleos.manual.TpmsGuide
 import android.widget.Button
 import android.widget.TextView
 import android.widget.LinearLayout
@@ -113,6 +117,21 @@ class MainActivity : AppCompatActivity() {
         binding.detailBack.setOnClickListener {
             navigate(if (selection?.historical == true) Screen.HISTORY else Screen.CURRENT)
             if (historyVisible) loadHistory()
+        }
+        binding.openSource.setOnClickListener {
+            if (!detailsAllowed) return@setOnClickListener
+            val item = selection ?: return@setOnClickListener
+            val current = monitor.current.firstOrNull { it.reading.type == item.type }
+            val rawState = if (!item.historical && current != null) current.reading.state else item.state
+            val source = TpmsGuide.get(manualPreferences.selectedId, item.type, rawState).source ?: return@setOnClickListener
+            try {
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(source.url)))
+                binding.sourceOpenStatus.text = ""
+            } catch (_: ActivityNotFoundException) {
+                binding.sourceOpenStatus.text = "원문을 열 수 있는 앱이 없습니다. 위의 원문 주소로 확인해 주세요."
+            } catch (_: SecurityException) {
+                binding.sourceOpenStatus.text = "이 환경에서는 외부 원문을 열 수 없습니다. 위의 원문 주소로 확인해 주세요."
+            }
         }
         binding.profileBack.setOnClickListener { navigate(Screen.DETAIL) }
         binding.clearProfile.setOnClickListener { manualPreferences.select(null); render() }
@@ -281,6 +300,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun navigate(target: Screen) {
         if (!detailsAllowed) return
+        binding.sourceOpenStatus.text = ""
         screen = target
         binding.contentScroll.scrollTo(0, 0)
         render()
@@ -337,8 +357,20 @@ class MainActivity : AppCompatActivity() {
         }
         val state = if (!item.historical && current != null) current.reading.state else item.state
         val at = if (!item.historical && current != null) current.observedAt else item.at
-        binding.detailFacts.text = "${item.type} · ${state ?: "상태값 없음"}\n관측 시각 ${time(at)}" +
+        binding.detailFacts.text = "${item.type} · 기록 상태값 ${state ?: "없음"}\n관측 시각 ${time(at)}" +
             if (item.historical) "\n${item.message}\n출처: Pleos Vehicle SDK" else ""
+        val guide = TpmsGuide.get(manualPreferences.selectedId, item.type, state)
+        binding.guideTitle.text = guide.title
+        binding.guideBody.text = guide.explanation
+        binding.guideLimits.text = guide.observationLimit
+        binding.guideCitation.text = guide.source?.let { source ->
+            val profile = manualPreferences.selected!!
+            "출처 · ${source.documentTitle}\n${source.section} — 저압 타이어 감지 / 타이어 공기압 경보 시스템 이상\n" +
+                "문서 버전 ${profile.documentRevision} · 확인 ${profile.checkedOn}\n${source.url}"
+        }.orEmpty()
+        binding.guideCitation.isVisible = guide.source != null
+        binding.openSource.isVisible = guide.source != null
+        binding.openSource.isEnabled = detailsAllowed && guide.source != null
     }
 
     override fun onSaveInstanceState(outState: Bundle) {

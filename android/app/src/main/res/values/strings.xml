@@ -56,4 +56,5 @@
     <string name="ui_profile_title">매뉴얼 설정</string>
     <string name="ui_profile_help">설명에 사용할 차량 매뉴얼을 선택하세요. 실제 연결 차량을 자동으로 식별한 결과가 아닙니다.</string>
     <string name="ui_clear_profile">프로필 선택 해제</string>
+    <string name="open_manual_source">현대 공식 원문 열기</string>
 </resources>
