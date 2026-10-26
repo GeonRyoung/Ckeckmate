@@ -59,4 +59,7 @@
     <string name="open_manual_source">현대 공식 원문 열기</string>
     <string name="limits_heading">이 정보로 알 수 없는 것</string>
     <string name="source_heading">설명의 근거</string>
+    <string name="server_notice">요청하면 선택한 매뉴얼 프로필·경고 종류·상태를 설명 서버로 전송합니다. 위치·차량 식별자·전체 이력·메모는 보내지 않습니다.</string>
+    <string name="request_server">서버 설명 요청</string>
+    <string name="use_local">로컬 요약 보기 · 요청 취소</string>
 </resources>

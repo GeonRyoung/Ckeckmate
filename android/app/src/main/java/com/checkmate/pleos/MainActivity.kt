@@ -1,6 +1,10 @@
 package com.checkmate.pleos
 
 import android.os.Bundle
+import com.checkmate.pleos.explanation.ExplanationClient
+import com.checkmate.pleos.explanation.RemoteContext
+import com.checkmate.pleos.explanation.RemoteExplanation
+import com.checkmate.pleos.explanation.RemoteRequestGate
 import android.graphics.Typeface
 import android.text.SpannableString
 import android.text.Spanned
@@ -32,6 +36,12 @@ import java.time.ZoneId
 import java.time.format.DateTimeFormatter
 
 class MainActivity : AppCompatActivity() {
+    private val explanationClient = ExplanationClient(BuildConfig.EXPLANATION_BASE_URL)
+    private val remoteGate = RemoteRequestGate()
+    private var remoteContext: RemoteContext? = null
+    private var remoteExplanation: RemoteExplanation? = null
+    private var remoteLoading = false
+    private var remoteMessage = ""
     private lateinit var binding: ActivityMainBinding
     private lateinit var repository: HistoryRepository
     private var sessionId: String? = null
@@ -114,6 +124,7 @@ class MainActivity : AppCompatActivity() {
             onError = { monitor.unavailable(it, System.currentTimeMillis()); render() },
         )
         uxSource = UxRestrictionSource(this) { allowed, message ->
+            if (!allowed) clearServerExplanation()
             detailsAllowed = allowed
             binding.uxStatus.text = message
             render()
@@ -130,6 +141,8 @@ class MainActivity : AppCompatActivity() {
             navigate(if (selection?.historical == true) Screen.HISTORY else Screen.CURRENT)
             if (historyVisible) loadHistory()
         }
+        binding.requestServer.setOnClickListener { requestServerExplanation() }
+        binding.useLocal.setOnClickListener { clearServerExplanation(); render() }
         binding.openSource.setOnClickListener {
             if (!detailsAllowed) return@setOnClickListener
             val item = selection ?: return@setOnClickListener
@@ -184,6 +197,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onStop() {
+        clearServerExplanation()
         source.stop()
         uxSource.stop()
         monitor.unavailable("화면 수신 중단", System.currentTimeMillis())
@@ -315,6 +329,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun navigate(target: Screen) {
         if (!detailsAllowed) return
+        clearServerExplanation()
         binding.sourceOpenStatus.text = ""
         screen = target
         render()
@@ -389,6 +404,13 @@ class MainActivity : AppCompatActivity() {
         val at = if (!item.historical && current != null) current.observedAt else item.at
         binding.detailFacts.text = "${item.type} · 기록 상태값 ${state ?: "없음"}\n관측 시각 ${time(at)}" +
             if (item.historical) "\n${item.message}\n출처: Pleos Vehicle SDK" else ""
+        val profile = manualPreferences.selected
+        val context = profile?.let { RemoteContext(it.id, item.type, state.orEmpty(), at,
+            item.historical, item.historical || (monitor.isCurrent && current != null)) }
+        if (context != remoteContext) {
+            clearServerExplanation()
+            remoteContext = context
+        }
         val guide = TpmsGuide.get(manualPreferences.selectedId, item.type, state)
         binding.guideTitle.text = guide.title
         binding.guideBody.text = guide.explanation
@@ -403,6 +425,68 @@ class MainActivity : AppCompatActivity() {
         binding.guideCitation.isVisible = guide.source != null
         binding.openSource.isVisible = guide.source != null
         binding.openSource.isEnabled = detailsAllowed && guide.source != null
+        val canRequest = guide.source != null && BuildConfig.EXPLANATION_BASE_URL.isNotEmpty()
+        binding.serverNotice.isVisible = canRequest
+        binding.requestServer.isVisible = canRequest
+        binding.requestServer.isEnabled = detailsAllowed && !remoteLoading && canRequest
+        binding.requestServer.text = if (remoteMessage.isEmpty()) "서버 설명 요청" else "서버 설명 다시 요청"
+        binding.useLocal.isVisible = remoteLoading || remoteExplanation != null
+        binding.useLocal.isEnabled = detailsAllowed
+        binding.serverStatus.text = when {
+            remoteLoading -> "설명을 요청하고 있습니다. 첫 요청은 모델 준비로 시간이 걸릴 수 있습니다."
+            remoteMessage.isNotEmpty() -> remoteMessage
+            else -> ""
+        }
+        remoteExplanation?.takeIf { it.status == "READY" }?.let { remote ->
+            binding.guideTitle.text = if (remote.mode == "AI_GENERATED") "AI 설명 · 서버" else "검토 요약 검색 · 서버"
+            binding.guideBody.text = remote.body
+            // Keep the local observation boundary even if a future server omits a specific warning.
+            binding.guideLimits.text = guide.observationLimit + "\n\n" + remote.limits
+            binding.guideCitation.text = remote.citations
+        }
+    }
+
+    private fun clearServerExplanation() {
+        remoteGate.invalidate()
+        explanationClient.cancel()
+        remoteContext = null
+        remoteExplanation = null
+        remoteLoading = false
+        remoteMessage = ""
+    }
+
+    private fun requestServerExplanation() {
+        if (!detailsAllowed || screen != Screen.DETAIL || remoteLoading) return
+        val profile = manualPreferences.selected ?: return
+        val context = remoteContext ?: return
+        if (BuildConfig.EXPLANATION_BASE_URL.isEmpty()) return
+        val ticket = remoteGate.begin()
+        val requestId = UUID.randomUUID().toString()
+        remoteLoading = true
+        remoteExplanation = null
+        remoteMessage = ""
+        render()
+        explanationClient.request(requestId, context, profile) { result ->
+            if (isDestroyed || !remoteGate.accepts(ticket) || !detailsAllowed ||
+                screen != Screen.DETAIL || remoteContext != context) return@request
+            remoteLoading = false
+            val response = result.getOrNull()
+            remoteExplanation = response?.takeIf { it.status == "READY" }
+            remoteMessage = when (response?.status) {
+                "READY" -> "서버 설명을 받았습니다. 문장에 표시된 번호로 근거를 확인하세요."
+                "PROFILE_REQUIRED", "PROFILE_UNSUPPORTED" -> "서버가 선택한 매뉴얼을 지원하지 않습니다. 로컬 요약을 표시합니다."
+                "WARNING_UNSUPPORTED", "STATE_UNSUPPORTED" -> "서버가 이 경고·상태를 지원하지 않습니다. 로컬 요약을 표시합니다."
+                "NO_EVIDENCE" -> "서버에서 근거를 찾지 못했습니다. 검토된 로컬 요약을 표시합니다."
+                else -> "서버 설명을 받지 못했습니다. 로컬 요약을 표시합니다. 잠시 후 다시 요청해 주세요."
+            }
+            render()
+        }
+    }
+
+    override fun onDestroy() {
+        remoteGate.invalidate()
+        explanationClient.close()
+        super.onDestroy()
     }
 
     override fun onSaveInstanceState(outState: Bundle) {

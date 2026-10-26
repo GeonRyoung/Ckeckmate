@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-feature android:name="android.hardware.type.automotive" android:required="true" />
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
 
@@ -8,6 +9,7 @@
     <uses-permission android:name="pleos.car.permission.CAR_SAFETY" />
     <uses-permission android:name="pleos.car.permission.PRIVATE_CAR_SAFETY" />
     <application
+        android:usesCleartextTraffic="false"
         android:allowBackup="false"
         android:fullBackupContent="false"
         android:dataExtractionRules="@xml/data_extraction_rules"
