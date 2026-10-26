@@ -1,67 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent"
-    android:orientation="vertical">
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:padding="24dp" android:text="@string/app_name"
-        android:textColor="@color/accent" android:textSize="24sp" android:textStyle="bold" />
-    <TextView android:id="@+id/ux_status" android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:paddingHorizontal="24dp" android:textColor="@color/text_secondary" android:textSize="18sp" />
-    <TextView android:id="@+id/restriction_notice" android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:padding="24dp" android:text="@string/restricted_notice"
-        android:textColor="@color/text_primary" android:textSize="22sp" />
-    <ScrollView android:id="@+id/details" android:layout_width="match_parent" android:layout_height="0dp"
-        android:layout_weight="1" android:visibility="gone">
-        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:orientation="vertical" android:padding="24dp">
-            <TextView android:id="@+id/storage_status" android:layout_width="match_parent" android:layout_height="wrap_content"
-                android:textColor="@color/text_secondary" android:textSize="18sp" />
-            <Button android:id="@+id/show_history" android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:minHeight="64dp" android:text="@string/show_history" />
-            <LinearLayout android:id="@+id/current_panel" android:layout_width="match_parent" android:layout_height="wrap_content"
-                android:orientation="vertical">
-            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-                android:text="@string/source_label" android:textColor="@color/text_secondary" android:textSize="16sp" />
-            <TextView android:id="@+id/connection_status" android:layout_width="match_parent" android:layout_height="wrap_content"
-                android:layout_marginTop="16dp" android:textColor="@color/text_primary" android:textSize="20sp" />
-            <TextView android:id="@+id/last_received" android:layout_width="match_parent" android:layout_height="wrap_content"
-                android:layout_marginTop="8dp" android:textColor="@color/text_secondary" android:textSize="16sp" />
-            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-                android:layout_marginTop="24dp" android:text="@string/current_warnings"
-                android:textColor="@color/text_primary" android:textSize="26sp" android:textStyle="bold" />
-            <TextView android:id="@+id/warning_list" android:layout_width="match_parent" android:layout_height="wrap_content"
-                android:layout_marginTop="12dp" android:padding="24dp" android:background="@drawable/status_background"
-                android:textColor="@color/text_primary" android:textSize="22sp" />
-            <Button android:id="@+id/retry" android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:minHeight="64dp" android:layout_marginTop="16dp" android:text="@string/reconnect" />
-            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-                android:layout_marginTop="24dp" android:text="@string/event_heading"
-                android:textColor="@color/text_primary" android:textSize="22sp" android:textStyle="bold" />
-            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-                android:layout_marginTop="8dp" android:text="@string/event_scope"
-                android:textColor="@color/text_secondary" android:textSize="16sp" />
-            <TextView android:id="@+id/event_log" android:layout_width="match_parent" android:layout_height="wrap_content"
-                android:layout_marginTop="16dp" android:textColor="@color/text_primary" android:textSize="18sp" />
-            </LinearLayout>
-            <LinearLayout android:id="@+id/history_panel" android:layout_width="match_parent" android:layout_height="wrap_content"
-                android:orientation="vertical" android:visibility="gone">
-                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-                    android:text="@string/history_heading" android:textColor="@color/text_primary" android:textSize="26sp" />
-                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-                    android:text="@string/history_description" android:textColor="@color/text_secondary" android:textSize="18sp" />
-                <TextView android:id="@+id/history_page" android:layout_width="match_parent" android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp" android:textColor="@color/text_secondary" android:textSize="18sp" />
-                <Button android:id="@+id/refresh_history" android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:minHeight="64dp" android:text="@string/history_refresh" />
-                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
-                    <Button android:id="@+id/previous_page" android:layout_width="0dp" android:layout_height="wrap_content"
-                        android:layout_weight="1" android:minHeight="64dp" android:text="@string/history_previous" />
-                    <Button android:id="@+id/next_page" android:layout_width="0dp" android:layout_height="wrap_content"
-                        android:layout_weight="1" android:minHeight="64dp" android:text="@string/history_next" />
-                </LinearLayout>
-                <TextView android:id="@+id/history_entries" android:layout_width="match_parent" android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp" android:textColor="@color/text_primary" android:textSize="18sp" />
-            </LinearLayout>
+<?xml version="1.0" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="24dp" android:background="@color/background">
+    <TextView android:id="@+id/brand" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/ui_brand" android:textSize="26sp" android:textColor="@color/text_primary"/>
+    <TextView android:id="@+id/ux_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/ui_ux_status" android:textSize="16sp" android:textColor="@color/text_secondary"/>
+    <TextView android:id="@+id/restriction_notice" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/ui_restriction_notice" android:textSize="22sp" android:textColor="@color/text_primary"/>
+    <LinearLayout android:id="@+id/details" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <Button android:backgroundTint="@color/surface" android:textColor="@color/button_text" android:id="@+id/show_current" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:minHeight="64dp" android:textAllCaps="false" android:text="@string/ui_show_current" android:textSize="18sp"/>
+            <Button android:backgroundTint="@color/surface" android:textColor="@color/button_text" android:id="@+id/show_history" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:minHeight="64dp" android:textAllCaps="false" android:text="@string/ui_show_history" android:textSize="18sp"/>
+            <Button android:backgroundTint="@color/surface" android:textColor="@color/button_text" android:id="@+id/show_profile" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:minHeight="64dp" android:textAllCaps="false" android:text="@string/ui_show_profile" android:textSize="18sp"/>
         </LinearLayout>
-    </ScrollView>
+        <ScrollView android:id="@+id/content_scroll" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:fillViewport="true">
+            <LinearLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <LinearLayout android:id="@+id/current_panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                    <TextView android:id="@+id/current_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/ui_current_title" android:textSize="28sp" android:textColor="@color/text_primary"/>
+                    <TextView android:id="@+id/warning_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/ui_warning_list" android:textSize="20sp" android:textColor="@color/text_primary"/>
+                    <LinearLayout android:id="@+id/warning_cards" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"/>
+                    <LinearLayout android:id="@+id/connection_card" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/status_background" android:padding="20dp" android:layout_marginBottom="20dp">
+                        <TextView android:id="@+id/connection_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/ui_connection_status" android:textSize="20sp" android:textColor="@color/text_primary"/>
+                        <TextView android:id="@+id/last_received" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="" android:textSize="16sp" android:textColor="@color/text_secondary"/>
+                        <Button android:backgroundTint="@color/surface" android:textColor="@color/button_text" android:id="@+id/retry" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64dp" android:textAllCaps="false" android:text="@string/ui_retry" android:textSize="18sp"/>
+                    </LinearLayout>
+                    <Button android:backgroundTint="@color/surface" android:textColor="@color/button_text" android:id="@+id/toggle_diagnostics" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64dp" android:textAllCaps="false" android:text="@string/ui_toggle_diagnostics" android:textSize="18sp"/>
+                    <LinearLayout android:id="@+id/diagnostics_panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                        <TextView android:id="@+id/event_scope" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/ui_event_scope" android:textSize="16sp" android:textColor="@color/text_secondary"/>
+                        <TextView android:id="@+id/event_log" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="" android:textSize="18sp" android:textColor="@color/text_primary"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/history_panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                    <TextView android:id="@+id/history_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/ui_history_title" android:textSize="28sp" android:textColor="@color/text_primary"/>
+                    <TextView android:id="@+id/history_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/ui_history_description" android:textSize="18sp" android:textColor="@color/text_secondary"/>
+                    <TextView android:id="@+id/history_page" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="" android:textSize="18sp" android:textColor="@color/text_primary"/>
+                    <Button android:backgroundTint="@color/surface" android:textColor="@color/button_text" android:id="@+id/refresh_history" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64dp" android:textAllCaps="false" android:text="@string/ui_refresh_history" android:textSize="18sp"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                        <Button android:backgroundTint="@color/surface" android:textColor="@color/button_text" android:id="@+id/previous_page" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:minHeight="64dp" android:textAllCaps="false" android:text="@string/ui_previous_page" android:textSize="18sp"/>
+                        <Button android:backgroundTint="@color/surface" android:textColor="@color/button_text" android:id="@+id/next_page" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:minHeight="64dp" android:textAllCaps="false" android:text="@string/ui_next_page" android:textSize="18sp"/>
+                    </LinearLayout>
+                    <TextView android:id="@+id/history_entries" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="" android:textSize="18sp" android:textColor="@color/text_primary"/>
+                    <LinearLayout android:id="@+id/history_cards" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"/>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/detail_panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                    <Button android:backgroundTint="@color/surface" android:textColor="@color/button_text" android:id="@+id/detail_back" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64dp" android:textAllCaps="false" android:text="@string/ui_detail_back" android:textSize="18sp"/>
+                    <TextView android:id="@+id/detail_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/ui_detail_title" android:textSize="28sp" android:textColor="@color/text_primary"/>
+                    <LinearLayout android:id="@+id/facts_card" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/status_background" android:padding="20dp" android:layout_marginBottom="20dp">
+                        <TextView android:id="@+id/detail_context" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="" android:textSize="18sp" android:textColor="@color/text_secondary"/>
+                        <TextView android:id="@+id/detail_facts" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="" android:textSize="22sp" android:textColor="@color/text_primary"/>
+                    </LinearLayout>
+                    <LinearLayout android:id="@+id/manual_card" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/status_background" android:padding="20dp" android:layout_marginBottom="20dp">
+                        <TextView android:id="@+id/manual_profile_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/ui_manual_profile_label" android:textSize="20sp" android:textColor="@color/text_primary"/>
+                        <TextView android:id="@+id/detail_profile" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/ui_detail_profile" android:textSize="18sp" android:textColor="@color/text_primary"/>
+                        <Button android:backgroundTint="@color/surface" android:textColor="@color/button_text" android:id="@+id/detail_choose_profile" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64dp" android:textAllCaps="false" android:text="@string/ui_detail_choose_profile" android:textSize="18sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/profile_panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                    <Button android:backgroundTint="@color/surface" android:textColor="@color/button_text" android:id="@+id/profile_back" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64dp" android:text="@string/ui_profile_back" android:textSize="18sp"/>
+                    <TextView android:id="@+id/profile_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/ui_profile_title" android:textSize="28sp" android:textColor="@color/text_primary"/>
+                    <TextView android:id="@+id/profile_help" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/ui_profile_help" android:textSize="18sp" android:textColor="@color/text_secondary"/>
+                    <TextView android:id="@+id/selected_profile" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="" android:textSize="20sp" android:textColor="@color/text_primary"/>
+                    <LinearLayout android:id="@+id/profile_options" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"/>
+                    <Button android:backgroundTint="@color/surface" android:textColor="@color/button_text" android:id="@+id/clear_profile" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64dp" android:textAllCaps="false" android:text="@string/ui_clear_profile" android:textSize="18sp"/>
+                    <TextView android:id="@+id/profile_source" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="" android:textSize="16sp" android:textColor="@color/text_secondary"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <TextView android:id="@+id/storage_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="" android:textSize="14sp" android:textColor="@color/text_secondary"/>
+    </LinearLayout>
 </LinearLayout>

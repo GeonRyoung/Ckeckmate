@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <resources>
     <string name="app_name">CHECKMATE</string>
     <string name="current_warnings">현재 경고</string>
@@ -29,4 +30,30 @@
     <string name="history_refresh">최신 기록 새로고침</string>
     <string name="history_previous">더 최근 기록</string>
     <string name="history_next">이전 기록</string>
+    <string name="ui_brand">CHECKMATE</string>
+    <string name="ui_ux_status">사용 가능 상태 확인 중</string>
+    <string name="ui_restriction_notice">상세 내용은 사용 가능한 상태에서 확인하세요.</string>
+    <string name="ui_show_current">현재 경고</string>
+    <string name="ui_show_history">이력</string>
+    <string name="ui_show_profile">매뉴얼</string>
+    <string name="ui_current_title">현재 경고</string>
+    <string name="ui_warning_list">차량 정보를 확인하고 있습니다.</string>
+    <string name="ui_connection_status">수신 대기</string>
+    <string name="ui_retry">다시 연결</string>
+    <string name="ui_toggle_diagnostics">최근 관측 변화 펼치기</string>
+    <string name="ui_event_scope">앱이 관측한 변화입니다. 목록 제외는 수리 완료를 뜻하지 않습니다.</string>
+    <string name="ui_history_title">경고 이력</string>
+    <string name="ui_history_description">과거 관측 기록입니다. 기록을 누르면 상세를 볼 수 있습니다.</string>
+    <string name="ui_refresh_history">최신 기록 새로고침</string>
+    <string name="ui_previous_page">더 최근 기록</string>
+    <string name="ui_next_page">이전 기록</string>
+    <string name="ui_detail_back">목록으로 돌아가기</string>
+    <string name="ui_detail_title">경고 상세</string>
+    <string name="ui_manual_profile_label">설명 기준</string>
+    <string name="ui_detail_profile">매뉴얼 프로필 미선택</string>
+    <string name="ui_detail_choose_profile">매뉴얼 설정</string>
+    <string name="ui_profile_back">선택한 경고로 돌아가기</string>
+    <string name="ui_profile_title">매뉴얼 설정</string>
+    <string name="ui_profile_help">설명에 사용할 차량 매뉴얼을 선택하세요. 실제 연결 차량을 자동으로 식별한 결과가 아닙니다.</string>
+    <string name="ui_clear_profile">프로필 선택 해제</string>
 </resources>

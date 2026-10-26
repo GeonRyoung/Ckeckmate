@@ -1,6 +1,12 @@
 package com.checkmate.pleos
 
 import android.os.Bundle
+import android.widget.Button
+import android.widget.TextView
+import android.widget.LinearLayout
+import android.view.View
+import com.checkmate.pleos.manual.ManualCatalog
+import com.checkmate.pleos.manual.ManualPreferences
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -22,7 +28,16 @@ class MainActivity : AppCompatActivity() {
     private var lifecycleEpoch = 0
     private var pendingWrites = 0
     private var storageError: String? = null
-    private var historyVisible = false
+    private enum class Screen { CURRENT, HISTORY, DETAIL, PROFILE }
+    private var screen = Screen.CURRENT
+    private val historyVisible get() = screen == Screen.HISTORY
+    private var diagnosticsVisible = false
+    private lateinit var manualPreferences: ManualPreferences
+    private var selection: WarningSelection? = null
+    private var renderedWarnings: List<com.checkmate.pleos.vehicle.ObservedWarning>? = null
+    private data class WarningSelection(val type: String, val state: String?, val at: Long,
+        val historical: Boolean, val message: String)
+
     private var historyOffset = 0
     private var historyRequest = 0
     private var historyDirty = false
@@ -47,11 +62,29 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         ViewCompat.setOnApplyWindowInsetsListener(binding.root) { view, insets ->
             val bars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            view.setPadding(bars.left, bars.top, bars.right, bars.bottom)
+            val margin = (24 * resources.displayMetrics.density).toInt()
+            view.setPadding(bars.left + margin, bars.top + margin, bars.right + margin, bars.bottom + margin)
             insets
         }
         ViewCompat.requestApplyInsets(binding.root)
         repository = HistoryRepository.get(this)
+        manualPreferences = ManualPreferences(this)
+        savedInstanceState?.let { saved ->
+            screen = runCatching { Screen.valueOf(saved.getString("screen").orEmpty()) }.getOrDefault(Screen.CURRENT)
+            historyOffset = saved.getInt("historyOffset")
+            diagnosticsVisible = saved.getBoolean("diagnostics")
+            saved.getString("warningType")?.let { type ->
+                selection = WarningSelection(type, saved.getString("warningState"), saved.getLong("warningAt"),
+                    saved.getBoolean("historical"), saved.getString("warningMessage").orEmpty())
+            }
+            if (screen == Screen.DETAIL && selection == null) screen = Screen.CURRENT
+        }
+        ManualCatalog.profiles.forEach { profile ->
+            binding.profileOptions.addView(actionButton(profile.label) {
+                manualPreferences.select(profile.id)
+                render()
+            })
+        }
         source = PleosWarningSource(this,
             onReadings = {
                 val at = System.currentTimeMillis()
@@ -69,10 +102,22 @@ class MainActivity : AppCompatActivity() {
             binding.uxStatus.text = message
             render()
         }
+        binding.showCurrent.setOnClickListener { navigate(Screen.CURRENT) }
         binding.showHistory.setOnClickListener {
-            historyVisible = !historyVisible
             historyOffset = 0
+            navigate(Screen.HISTORY)
+            loadHistory()
+        }
+        binding.showProfile.setOnClickListener { navigate(Screen.PROFILE) }
+        binding.detailChooseProfile.setOnClickListener { navigate(Screen.PROFILE) }
+        binding.detailBack.setOnClickListener {
+            navigate(if (selection?.historical == true) Screen.HISTORY else Screen.CURRENT)
             if (historyVisible) loadHistory()
+        }
+        binding.profileBack.setOnClickListener { navigate(Screen.DETAIL) }
+        binding.clearProfile.setOnClickListener { manualPreferences.select(null); render() }
+        binding.toggleDiagnostics.setOnClickListener {
+            diagnosticsVisible = !diagnosticsVisible
             render()
         }
         binding.previousPage.setOnClickListener {
@@ -95,6 +140,7 @@ class MainActivity : AppCompatActivity() {
             finishSession("RECONNECT")
             beginSession()
         }
+        if (historyVisible) loadHistory()
         render()
     }
 
@@ -154,6 +200,7 @@ class MainActivity : AppCompatActivity() {
         historyCount = 0
         val requestedOffset = historyOffset
         val request = ++historyRequest
+        binding.historyCards.removeAllViews()
         binding.historyEntries.text = getString(R.string.history_loading)
         binding.previousPage.isEnabled = false
         binding.nextPage.isEnabled = false
@@ -163,9 +210,22 @@ class MainActivity : AppCompatActivity() {
             result.fold(onSuccess = { page ->
                 historyTotal = page.total
                 historyCount = page.events.size
-                binding.historyEntries.text = page.events.joinToString("\n\n") {
-                    "${time(it.observedAt)} · ${it.message}\n출처: ${it.source}"
-                }.ifEmpty { getString(R.string.history_empty) }
+                binding.historyEntries.text = if (page.events.isEmpty()) getString(R.string.history_empty) else ""
+                page.events.forEach { event ->
+                    if (event.warningType != null) {
+                        binding.historyCards.addView(actionButton("${time(event.observedAt)}\n${event.message}  ›") {
+                            selection = WarningSelection(event.warningType, event.rawState, event.observedAt, true, event.message)
+                            navigate(Screen.DETAIL)
+                        })
+                    } else {
+                        binding.historyCards.addView(TextView(this).apply {
+                            text = "${time(event.observedAt)}\n${event.message}"
+                            textSize = 18f
+                            setTextColor(getColor(R.color.text_secondary))
+                            setPadding(16, 20, 16, 20)
+                        })
+                    }
+                }
                 binding.historyPage.text = getString(R.string.history_page,
                     page.total, if (page.events.isEmpty()) 0 else requestedOffset + 1,
                     requestedOffset + page.events.size)
@@ -187,9 +247,18 @@ class MainActivity : AppCompatActivity() {
         binding.nextPage.isEnabled = detailsAllowed && !historyLoading && historyCount > 0 &&
             historyOffset + historyCount < historyTotal
         binding.refreshHistory.isEnabled = detailsAllowed && !historyLoading
-        binding.currentPanel.isVisible = !historyVisible
+        binding.currentPanel.isVisible = screen == Screen.CURRENT
+        binding.detailPanel.isVisible = screen == Screen.DETAIL
+        binding.profilePanel.isVisible = screen == Screen.PROFILE
+        binding.diagnosticsPanel.isVisible = diagnosticsVisible
+        binding.toggleDiagnostics.text = if (diagnosticsVisible) "최근 관측 변화 접기" else "최근 관측 변화 펼치기"
         binding.historyPanel.isVisible = historyVisible
-        binding.showHistory.text = getString(if (historyVisible) R.string.show_current else R.string.show_history)
+        binding.showCurrent.isEnabled = detailsAllowed && screen != Screen.CURRENT
+        binding.showHistory.isEnabled = detailsAllowed && screen != Screen.HISTORY
+        binding.showProfile.isEnabled = detailsAllowed && screen != Screen.PROFILE
+        renderProfile()
+        renderWarningCards()
+        renderDetail()
         binding.storageStatus.text = when {
             storageError != null -> getString(R.string.storage_failed, storageError)
             pendingWrites > 0 -> getString(R.string.storage_pending)
@@ -203,11 +272,87 @@ class MainActivity : AppCompatActivity() {
             !monitor.isCurrent && monitor.lastReceivedAt == null -> getString(R.string.no_vehicle_data)
             !monitor.isCurrent -> getString(R.string.previous_data, warningText())
             monitor.current.isEmpty() -> getString(R.string.no_warnings)
-            else -> warningText()
+            else -> "${monitor.current.size}개의 경고가 관측됐습니다. 경고를 눌러 상세를 확인하세요."
         }
         binding.eventLog.text = monitor.events.joinToString("\n\n") {
             "${time(it.at)} · ${it.message}"
         }.ifEmpty { getString(R.string.no_events) }
+    }
+
+    private fun navigate(target: Screen) {
+        if (!detailsAllowed) return
+        screen = target
+        binding.contentScroll.scrollTo(0, 0)
+        render()
+    }
+
+    private fun actionButton(label: String, action: () -> Unit) = Button(this).apply {
+        id = View.generateViewId()
+        text = label
+        backgroundTintList = android.content.res.ColorStateList.valueOf(getColor(R.color.surface))
+        setTextColor(getColor(R.color.accent))
+        textSize = 20f
+        isAllCaps = false
+        gravity = android.view.Gravity.START or android.view.Gravity.CENTER_VERTICAL
+        minHeight = (72 * resources.displayMetrics.density).toInt()
+        setPadding(20, 16, 20, 16)
+        layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT)
+        setOnClickListener { if (detailsAllowed) action() }
+    }
+
+    private fun renderWarningCards() {
+        if (renderedWarnings == monitor.current) return
+        renderedWarnings = monitor.current.toList()
+        binding.warningCards.removeAllViews()
+        monitor.current.forEach { warning ->
+            binding.warningCards.addView(actionButton("${warning.reading.type} · ${warning.reading.state}  ›\n${time(warning.observedAt)} 관측") {
+                selection = WarningSelection(warning.reading.type, warning.reading.state, warning.observedAt, false, "")
+                navigate(Screen.DETAIL)
+            })
+        }
+    }
+
+    private fun renderProfile() {
+        val profile = manualPreferences.selected
+        val description = profile?.label ?: if (manualPreferences.selectedId == null)
+            "매뉴얼 프로필 미선택" else "선택했던 매뉴얼을 사용할 수 없습니다. 다시 선택하세요."
+        binding.profileBack.isVisible = selection != null
+        binding.selectedProfile.text = description
+        binding.detailProfile.text = description
+        binding.profileSource.text = profile?.let {
+            "${it.source.documentTitle}\n문서 버전 ${it.documentRevision} · 확인 ${it.checkedOn}\n${it.source.section}\n${it.source.url}"
+        }.orEmpty()
+        binding.clearProfile.isEnabled = detailsAllowed && manualPreferences.selectedId != null
+    }
+
+    private fun renderDetail() {
+        val item = selection ?: return
+        binding.detailTitle.text = "${item.type} 경고 상세"
+        val current = monitor.current.firstOrNull { it.reading.type == item.type }
+        binding.detailContext.text = when {
+            item.historical -> "과거 관측 기록 · 현재 차량 상태가 아닙니다."
+            !monitor.isCurrent -> "이전 수신 정보 · 현재 상태 확인 불가"
+            current == null -> "현재 수신 목록에 없는 경고 · 선택 당시 관측값입니다."
+            else -> "현재 수신 정보 · Pleos Vehicle SDK"
+        }
+        val state = if (!item.historical && current != null) current.reading.state else item.state
+        val at = if (!item.historical && current != null) current.observedAt else item.at
+        binding.detailFacts.text = "${item.type} · ${state ?: "상태값 없음"}\n관측 시각 ${time(at)}" +
+            if (item.historical) "\n${item.message}\n출처: Pleos Vehicle SDK" else ""
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        outState.putString("screen", screen.name)
+        outState.putInt("historyOffset", historyOffset)
+        outState.putBoolean("diagnostics", diagnosticsVisible)
+        selection?.let {
+            outState.putString("warningType", it.type)
+            outState.putString("warningState", it.state)
+            outState.putLong("warningAt", it.at)
+            outState.putBoolean("historical", it.historical)
+            outState.putString("warningMessage", it.message)
+        }
+        super.onSaveInstanceState(outState)
     }
 
     private fun warningText() = monitor.current.joinToString("\n\n") {
