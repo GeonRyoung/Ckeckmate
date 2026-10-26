@@ -101,7 +101,40 @@ Telltales SDK 2.3.2 소스에서 capability/리스너는 `PRIVATE_CAR_SAFETY`를
 - 실제 TPMS ON을 DB 저장 후 앱 강제 종료·재실행: 기존 기록 유지 + 관측 공백 + 관측 재개 확인
 - Lint에는 기존 의존성/SDK 버전의 업데이트 권고가 남아 있습니다.
 
-다음 항목은 실제 Virtual Console 조작으로 추가 확인해야 합니다.
+2026-10-26 추가 검증 (`08a3616`, 앱 0.2.0, API 34 Pleos Emulator):
+
+- debug 빌드·Lint 작업 성공 (변경 없는 작업은 Gradle 캐시 사용),
+  상태 처리 단위 테스트 8개는 `--rerun-tasks`로 다시 실행해 통과
+- 설치 APK와 로컬 debug APK의 SHA-256 일치 확인:
+  `83ef586fac337c2ae0fb21589d75e1599f61d7100a09786ca21ab8d7eaadebd1`
+- Virtual Console의 실제 제어 요청으로 TPMS ON → 동일 ON 2회 → OFF → ON 검증:
+  화면·DB에 중복 이벤트 없이 목록 제외와 재관측 기록
+- TPMS + ABS ON → TPMS만 OFF: SDK 콜백에 ABS가 남고 화면에서도 유지됨.
+  이 조합에서 전체 목록 동작을 확인했으며 다른 환경까지 계약을 일반화하지 않음
+- TPMS ON → BLINK: 원시 상태 표시와 `STATE_CHANGED` 저장 확인
+- 설정 앱으로 이동 후 복귀: `SCREEN_STOPPED`, 관측 공백 및 경고별 관측 재개 확인.
+  Home/Back 키만으로는 이 환경에서 앱이 숨겨지지 않아 화면 이탈 검증으로 사용하지 않음
+- D단·30 km/h에서 상세 영역·재연결 접근 차단, 0 km/h·P단 복귀 후 상세 표시 확인
+- 이력 화면을 연 상태에서도 주행 제한 시 숨김, 주차 복귀 후 같은 이력 화면 표시 확인
+- 다시 연결 버튼: 기존 세션 `RECONNECT` 종료 및 새 수신 구간의 관측 재개 확인
+- 이력 화면에서 과거 기록 유지 확인, 강제 종료·재실행 후 종료 기록 부재와 관측 재개 확인
+- 강제 종료 후 DB·WAL을 함께 복사한 로컬 검사에서 `integrity_check=ok`,
+  이벤트 42개와 고유 이벤트 ID 42개 확인 (복구 재실행 직전 스냅샷)
+- 기존 앱 데이터는 삭제하지 않았으며 테스트에서 만든 관측 이력이 추가됨.
+  종료 시 TPMS·ABS는 OFF, 기어 P·속도 0으로 복원
+
+이번 검증은 [Virtual Console 공식 연결 방식](https://document.pleos.ai/en/docs/connect/guide/getting-started/application-development/use-vehicle-emulator)의
+포트 전달 후, 로컬 콘솔 페이지가 사용하는 제어 요청으로 수행했습니다.
+화면 XML과 SDK 로그는 Git 제외 경로 `docs/verification/2026-10-26/`에 보관합니다.
+DB 파일·WAL은 이 증빙 폴더나 저장소에 넣지 않습니다.
+
+다음 항목은 추가 확인해야 합니다.
+
+- 차량 서비스·권한 오류의 실제 재현과 복구 (정상 재연결 검증과 별개)
+- 50개 초과 저장 이력의 실제 화면 페이지 이동 (Room 페이지 조회 통합 테스트와 별개)
+- 다른 경고 조합과 제출용 서명 release APK에서의 동일 시나리오
+
+수동 시연 재현 순서:
 
 1. 주차 상태에서 TPMS ON → 경고 종류·ON·관측 시각이 나타나는지 확인
 2. 동일 ON 반복 → 최근 변화 로그가 중복 추가되지 않는지 확인
