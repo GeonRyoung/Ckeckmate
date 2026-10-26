@@ -26,6 +26,9 @@ class MainActivity : AppCompatActivity() {
     private var historyOffset = 0
     private var historyRequest = 0
     private var historyDirty = false
+    private var historyLoading = false
+    private var historyTotal = 0
+    private var historyCount = 0
     private val monitor = WarningMonitor { observation ->
         sessionId?.let { id ->
             historyDirty = true
@@ -147,25 +150,30 @@ class MainActivity : AppCompatActivity() {
 
     private fun loadHistory() {
         historyDirty = false
+        historyLoading = true
+        historyCount = 0
+        val requestedOffset = historyOffset
         val request = ++historyRequest
         binding.historyEntries.text = getString(R.string.history_loading)
         binding.previousPage.isEnabled = false
         binding.nextPage.isEnabled = false
-        repository.page(historyOffset) { result ->
+        repository.page(requestedOffset) { result ->
             if (isDestroyed || request != historyRequest) return@page
+            historyLoading = false
             result.fold(onSuccess = { page ->
+                historyTotal = page.total
+                historyCount = page.events.size
                 binding.historyEntries.text = page.events.joinToString("\n\n") {
                     "${time(it.observedAt)} · ${it.message}\n출처: ${it.source}"
                 }.ifEmpty { getString(R.string.history_empty) }
                 binding.historyPage.text = getString(R.string.history_page,
-                    page.total, if (page.total == 0) 0 else historyOffset + 1,
-                    historyOffset + page.events.size)
-                binding.previousPage.isEnabled = detailsAllowed && historyOffset > 0
-                binding.nextPage.isEnabled = detailsAllowed && historyOffset + page.events.size < page.total
+                    page.total, if (page.events.isEmpty()) 0 else requestedOffset + 1,
+                    requestedOffset + page.events.size)
             }, onFailure = {
                 binding.historyPage.text = getString(R.string.history_read_failed)
                 binding.historyEntries.text = getString(R.string.history_read_failed)
             })
+            render()
         }
     }
 
@@ -175,6 +183,10 @@ class MainActivity : AppCompatActivity() {
         binding.details.isVisible = detailsAllowed
         binding.restrictionNotice.isVisible = !detailsAllowed
         binding.retry.isEnabled = detailsAllowed
+        binding.previousPage.isEnabled = detailsAllowed && !historyLoading && historyOffset > 0
+        binding.nextPage.isEnabled = detailsAllowed && !historyLoading && historyCount > 0 &&
+            historyOffset + historyCount < historyTotal
+        binding.refreshHistory.isEnabled = detailsAllowed && !historyLoading
         binding.currentPanel.isVisible = !historyVisible
         binding.historyPanel.isVisible = historyVisible
         binding.showHistory.text = getString(if (historyVisible) R.string.show_current else R.string.show_history)

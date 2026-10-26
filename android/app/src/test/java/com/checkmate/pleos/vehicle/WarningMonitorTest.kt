@@ -76,6 +76,25 @@ class WarningMonitorTest {
         assertEquals("ON", saved.single().rawState)
     }
 
+    @Test fun permissionAndServiceFailuresKeepFactsUntilSuccessfulRecovery() {
+        val saved = mutableListOf<Observation>()
+        val monitor = WarningMonitor(saved::add)
+        monitor.accept(listOf(tpms), 100)
+        monitor.unavailable("SecurityException: permission denied", 200)
+        monitor.unavailable("vehicle service unavailable", 300)
+        assertFalse(monitor.isCurrent)
+        assertEquals(100L, monitor.lastReceivedAt)
+        assertEquals(tpms, monitor.current.single().reading)
+        assertEquals(listOf("FIRST_OBSERVED", "OBSERVATION_GAP"), saved.map { it.kind })
+        monitor.waiting()
+        assertFalse(monitor.isCurrent)
+        monitor.accept(listOf(tpms), 400)
+        assertTrue(monitor.isCurrent)
+        assertEquals("OBSERVATION_RESUMED", saved.last().kind)
+        assertEquals(400L, monitor.lastReceivedAt)
+        assertFalse(saved.any { it.kind == "REMOVED_FROM_LIST" })
+    }
+
     @Test fun historyIsBounded() {
         val monitor = WarningMonitor()
         repeat(100) { monitor.accept(listOf(tpms.copy(state = "$it")), it.toLong()) }

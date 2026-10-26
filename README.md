@@ -131,7 +131,6 @@ DB 파일·WAL은 이 증빙 폴더나 저장소에 넣지 않습니다.
 다음 항목은 추가 확인해야 합니다.
 
 - 차량 서비스·권한 오류의 실제 재현과 복구 (정상 재연결 검증과 별개)
-- 50개 초과 저장 이력의 실제 화면 페이지 이동 (Room 페이지 조회 통합 테스트와 별개)
 - 다른 경고 조합과 제출용 서명 release APK에서의 동일 시나리오
 
 수동 시연 재현 순서:
@@ -192,3 +191,18 @@ cd android
 - [Pleos 앱 개발 시작](https://document.pleos.ai/en/docs/pleos-only/getting-started)
 - [주행 제한 구현](https://document.pleos.ai/en/docs/pleos-only/vehicle-app-developer-guide/driving-restriction-development-guide)
 - [하드웨어 접근 및 전화 기능 제한](https://document.pleos.ai/en/docs/pleos-only/vehicle-app-planning-guide/platform-api-architecture)
+
+## 단계별 기능 확정 기록
+
+### 1단계 이력과 오류 처리
+
+- 실제 콘솔 경고 변경으로 누적 75개 이력을 만들고 UI의 1–50 / 51–75 페이지,
+  앞뒤 이동, 최신 새로고침, 페이지 간 중복 없음, 주행 제한 후 페이지 이동 복구를 확인했습니다.
+- 이력 조회 완료 시점에만 버튼 상태를 설정하던 부분을 수정했습니다.
+  이제 조회 중 여부·페이지 범위·현재 UX 제한에 따라 활성 상태를 다시 계산합니다.
+- 단위 테스트 9개, debug 빌드, Lint 통과.
+  권한 오류·서비스 오류가 반복돼도 이전 관측값을 보존하고 공백을 한 번 기록한 후
+  유효 수신 시 관측 재개로 복구하는 상태 처리 테스트를 포함합니다.
+- 실제 `CAR_SAFETY` 권한 회수는 에뮬레이터에서 `not a changeable permission type`으로
+  거부되었습니다. 권한 설정은 변경되지 않았습니다. 실제 SDK의 권한 오류 및 서비스 장애는
+  미검증이며, 상태 처리 테스트 통과와 구분합니다.
