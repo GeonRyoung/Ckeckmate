@@ -27,6 +27,15 @@ uv sync --locked
 uv run pytest -q
 ```
 
+Windows에서도 같은 uv 명령을 사용합니다. 한글 매뉴얼 데이터는 코드에서 UTF-8로 읽으므로
+`PYTHONUTF8` 또는 `-X utf8`을 별도로 설정할 필요가 없습니다.
+PowerShell에서 Ollama 모드를 실행하려면 다음과 같이 설정합니다.
+
+```powershell
+$env:CHECKMATE_GENERATION = 'ollama'
+uv run uvicorn checkmate.main:app --host 127.0.0.1 --port 8000
+```
+
 이 서버는 로컬 개발용입니다. 공개 배포 전 HTTPS·인증·요청 제한과 운영 설정이 필요합니다.
 
 ## 검색 서버 실행

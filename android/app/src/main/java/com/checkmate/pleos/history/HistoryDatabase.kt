@@ -1,6 +1,9 @@
 package com.checkmate.pleos.history
 
 import androidx.room.*
+import com.checkmate.pleos.summary.SummaryEventCount
+import com.checkmate.pleos.summary.SummaryRecord
+import com.checkmate.pleos.summary.WarningRollup
 
 @Entity(tableName = "observation_sessions")
 data class ObservationSession(
@@ -47,6 +50,34 @@ interface HistoryDao {
     fun page(limit: Int, offset: Int): List<WarningEvent>
     @Query("SELECT COUNT(*) FROM warning_events") fun count(): Int
     @Query("SELECT * FROM observation_sessions WHERE id = :id") fun session(id: String): ObservationSession?
+
+    @Query("""
+        SELECT warningType AS type, COUNT(*) AS records,
+            MIN(observedAt) AS firstRecordedAt, MAX(observedAt) AS lastRecordedAt,
+            GROUP_CONCAT(DISTINCT rawState) AS recordedStates,
+            SUM(CASE WHEN eventKind = 'FIRST_OBSERVED' THEN 1 ELSE 0 END) AS firstObservations,
+            SUM(CASE WHEN eventKind = 'STATE_CHANGED' THEN 1 ELSE 0 END) AS stateChanges,
+            SUM(CASE WHEN eventKind = 'REOBSERVED' THEN 1 ELSE 0 END) AS reobservations,
+            SUM(CASE WHEN eventKind = 'OBSERVATION_RESUMED' THEN 1 ELSE 0 END) AS resumptions,
+            SUM(CASE WHEN eventKind = 'REMOVED_FROM_LIST' THEN 1 ELSE 0 END) AS removals
+        FROM warning_events
+        WHERE observedAt >= :start AND observedAt < :end AND warningType IS NOT NULL
+        GROUP BY warningType ORDER BY warningType
+    """)
+    fun summaryWarnings(start: Long, end: Long): List<WarningRollup>
+
+    @Query("""
+        SELECT eventKind AS kind, COUNT(*) AS records FROM warning_events
+        WHERE observedAt >= :start AND observedAt < :end GROUP BY eventKind ORDER BY eventKind
+    """)
+    fun summaryCounts(start: Long, end: Long): List<SummaryEventCount>
+
+    @Query("""
+        SELECT observedAt AS at, eventKind AS kind, warningType AS type, rawState
+        FROM warning_events WHERE observedAt >= :start AND observedAt < :end
+        ORDER BY observedAt DESC, id DESC LIMIT :limit
+    """)
+    fun summaryRecent(start: Long, end: Long, limit: Int): List<SummaryRecord>
 }
 
 @Database(entities = [ObservationSession::class, WarningEvent::class], version = 1, exportSchema = true)

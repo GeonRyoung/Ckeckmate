@@ -30,6 +30,8 @@ import com.checkmate.pleos.vehicle.PleosWarningSource
 import com.checkmate.pleos.vehicle.UxRestrictionSource
 import com.checkmate.pleos.vehicle.WarningMonitor
 import com.checkmate.pleos.history.HistoryRepository
+import com.checkmate.pleos.summary.ServiceSummaryPanel
+import com.checkmate.pleos.summary.SummaryPeriod
 import java.util.UUID
 import java.time.Instant
 import java.time.ZoneId
@@ -48,7 +50,8 @@ class MainActivity : AppCompatActivity() {
     private var lifecycleEpoch = 0
     private var pendingWrites = 0
     private var storageError: String? = null
-    private enum class Screen { CURRENT, HISTORY, DETAIL, PROFILE }
+    private enum class Screen { CURRENT, HISTORY, DETAIL, PROFILE, SUMMARY }
+    private lateinit var summaryPanel: ServiceSummaryPanel
     private var screen = Screen.CURRENT
     private val historyVisible get() = screen == Screen.HISTORY
     private var diagnosticsVisible = false
@@ -95,6 +98,13 @@ class MainActivity : AppCompatActivity() {
         }
         repository = HistoryRepository.get(this)
         manualPreferences = ManualPreferences(this)
+        val summaryPeriod = runCatching {
+            SummaryPeriod.valueOf(savedInstanceState?.getString("summaryPeriod").orEmpty())
+        }.getOrDefault(SummaryPeriod.SEVEN_DAYS)
+        summaryPanel = ServiceSummaryPanel(binding.serviceSummary, repository, summaryPeriod) {
+            navigate(Screen.HISTORY)
+            loadHistory()
+        }
         savedInstanceState?.let { saved ->
             screen = runCatching { Screen.valueOf(saved.getString("screen").orEmpty()) }.getOrDefault(Screen.CURRENT)
             historyOffset = saved.getInt("historyOffset")
@@ -136,6 +146,7 @@ class MainActivity : AppCompatActivity() {
             loadHistory()
         }
         binding.showProfile.setOnClickListener { navigate(Screen.PROFILE) }
+        binding.showSummary.setOnClickListener { navigate(Screen.SUMMARY) }
         binding.detailChooseProfile.setOnClickListener { navigate(Screen.PROFILE) }
         binding.detailBack.setOnClickListener {
             navigate(if (selection?.historical == true) Screen.HISTORY else Screen.CURRENT)
@@ -298,8 +309,11 @@ class MainActivity : AppCompatActivity() {
         binding.diagnosticsPanel.isVisible = diagnosticsVisible
         binding.toggleDiagnostics.text = if (diagnosticsVisible) "최근 관측 변화 접기" else "최근 관측 변화 펼치기"
         binding.historyPanel.isVisible = historyVisible
+        binding.serviceSummary.root.isVisible = screen == Screen.SUMMARY
+        binding.showSummary.isEnabled = detailsAllowed
+        summaryPanel.setActive(detailsAllowed && screen == Screen.SUMMARY)
         binding.showCurrent.isSelected = screen == Screen.CURRENT || (screen == Screen.DETAIL && selection?.historical != true)
-        binding.showHistory.isSelected = screen == Screen.HISTORY || (screen == Screen.DETAIL && selection?.historical == true)
+        binding.showHistory.isSelected = screen == Screen.HISTORY || screen == Screen.SUMMARY || (screen == Screen.DETAIL && selection?.historical == true)
         binding.showProfile.isSelected = screen == Screen.PROFILE
         binding.showCurrent.isEnabled = detailsAllowed && screen != Screen.CURRENT
         binding.showHistory.isEnabled = detailsAllowed && screen != Screen.HISTORY
@@ -484,6 +498,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onDestroy() {
+        summaryPanel.setActive(false)
         remoteGate.invalidate()
         explanationClient.close()
         super.onDestroy()
@@ -491,6 +506,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onSaveInstanceState(outState: Bundle) {
         outState.putString("screen", screen.name)
+        outState.putString("summaryPeriod", summaryPanel.period.name)
         outState.putInt("historyOffset", historyOffset)
         outState.putBoolean("diagnostics", diagnosticsVisible)
         selection?.let {

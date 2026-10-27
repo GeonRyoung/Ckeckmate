@@ -76,4 +76,4 @@ class Catalog(Contract):
 
 
 def load_catalog(path: Path | None = None) -> Catalog:
-    return Catalog.model_validate_json((path or Path(__file__).parent / "data/manuals.json").read_text())
+    return Catalog.model_validate_json((path or Path(__file__).parent / "data/manuals.json").read_text(encoding="utf-8"))

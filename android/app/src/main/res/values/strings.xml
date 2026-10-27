@@ -62,4 +62,15 @@
     <string name="server_notice">요청하면 선택한 매뉴얼 프로필·경고 종류·상태를 설명 서버로 전송합니다. 위치·차량 식별자·전체 이력·메모는 보내지 않습니다.</string>
     <string name="request_server">서버 설명 요청</string>
     <string name="use_local">로컬 요약 보기 · 요청 취소</string>
+    <string name="summary_title">정비 전달용 요약</string>
+    <string name="summary_back">경고 이력으로 돌아가기</string>
+    <string name="summary_help">정비 상담 때 보여줄 관측 기록입니다. 오늘을 포함한 기간을 선택하세요. 이 기기의 저장 기록으로 작성하며, 새 기록은 새로고침하면 반영됩니다.</string>
+    <string name="summary_today">오늘</string>
+    <string name="summary_week">최근 7일</string>
+    <string name="summary_month">최근 30일</string>
+    <string name="summary_refresh">요약 새로고침</string>
+    <string name="summary_loading">선택 기간의 전체 기록을 정리하는 중…</string>
+    <string name="summary_failed">요약을 불러오지 못했습니다. 요약 새로고침으로 다시 시도하세요.</string>
+    <string name="summary_ready">조회 시점의 저장 기록입니다. 경고별 집계는 전체 기록, 최근 변화 상세는 최대 50개입니다.</string>
+    <string name="summary_waiting">요약을 준비하고 있습니다.</string>
 </resources>

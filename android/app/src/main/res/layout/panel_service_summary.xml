@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/summary_back"
+        style="@style/Widget.Checkmate.SummaryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/summary_back" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/summary_title"
+        android:textColor="@color/text_primary"
+        android:textSize="32sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="6dp"
+        android:text="@string/summary_help"
+        android:textColor="@color/text_secondary"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/summary_today"
+            style="@style/Widget.Checkmate.SummaryPeriod"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/summary_today" />
+
+        <Button
+            android:id="@+id/summary_week"
+            style="@style/Widget.Checkmate.SummaryPeriod"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/summary_week" />
+
+        <Button
+            android:id="@+id/summary_month"
+            style="@style/Widget.Checkmate.SummaryPeriod"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/summary_month" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/summary_refresh"
+        style="@style/Widget.Checkmate.SummaryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/summary_refresh" />
+
+    <TextView
+        android:id="@+id/summary_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="6dp"
+        android:textColor="@color/text_secondary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/summary_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/status_background"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="8dp"
+        android:padding="24dp"
+        android:textColor="@color/text_primary"
+        android:textSize="22sp" />
+</LinearLayout>

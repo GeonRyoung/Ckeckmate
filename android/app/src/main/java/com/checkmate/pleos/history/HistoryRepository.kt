@@ -6,6 +6,8 @@ import android.os.Looper
 import android.util.Log
 import androidx.room.Room
 import com.checkmate.pleos.vehicle.Observation
+import com.checkmate.pleos.summary.ServiceSummary
+import com.checkmate.pleos.summary.SummaryWindow
 import java.util.UUID
 import java.util.concurrent.Executors
 
@@ -54,6 +56,17 @@ class HistoryRepository internal constructor(private val database: HistoryDataba
             page = HistoryPage(dao.page(PAGE_SIZE, offset), dao.count())
         }
         page
+    }
+
+    fun summary(window: SummaryWindow, callback: (Result<ServiceSummary>) -> Unit) = submit(callback) {
+        // One transaction keeps totals, rollups and the detail sample on the same snapshot.
+        database.runInTransaction(java.util.concurrent.Callable {
+            val dao = database.history()
+            ServiceSummary(window,
+                dao.summaryWarnings(window.startInclusive, window.endExclusive),
+                dao.summaryCounts(window.startInclusive, window.endExclusive),
+                dao.summaryRecent(window.startInclusive, window.endExclusive, PAGE_SIZE))
+        })
     }
 
     private fun <T> submit(callback: (Result<T>) -> Unit, block: () -> T) {
