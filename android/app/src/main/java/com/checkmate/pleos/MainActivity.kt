@@ -14,7 +14,9 @@ import androidx.core.view.doOnLayout
 import android.content.Intent
 import android.content.ActivityNotFoundException
 import android.net.Uri
+import com.checkmate.pleos.manual.GuideStatus
 import com.checkmate.pleos.manual.TpmsGuide
+import com.checkmate.pleos.manual.TpmsSignalMapping
 import android.widget.Button
 import android.widget.TextView
 import android.widget.LinearLayout
@@ -426,9 +428,11 @@ class MainActivity : AppCompatActivity() {
             remoteContext = context
         }
         val guide = TpmsGuide.get(manualPreferences.selectedId, item.type, state)
+        val pattern = if (guide.status == GuideStatus.READY) "관측 순서 대조\n" + TpmsSignalMapping.describe(state,
+            !item.historical && monitor.isCurrent && current != null, monitor.events).text + "\n\n" else ""
         binding.guideTitle.text = guide.title
         binding.guideBody.text = guide.explanation
-        binding.guideLimits.text = guide.observationLimit
+        binding.guideLimits.text = pattern + guide.observationLimit
         binding.guideCitation.text = guide.source?.let { source ->
             val profile = manualPreferences.selected!!
             "출처 · ${source.documentTitle}\n${source.section} — 저압 타이어 감지 / 타이어 공기압 경보 시스템 이상\n" +
@@ -455,7 +459,7 @@ class MainActivity : AppCompatActivity() {
             binding.guideTitle.text = if (remote.mode == "AI_GENERATED") "AI 설명 · 서버" else "검토 요약 검색 · 서버"
             binding.guideBody.text = remote.body
             // Keep the local observation boundary even if a future server omits a specific warning.
-            binding.guideLimits.text = guide.observationLimit + "\n\n" + remote.limits
+            binding.guideLimits.text = pattern + guide.observationLimit + "\n\n" + remote.limits
             binding.guideCitation.text = remote.citations
         }
     }

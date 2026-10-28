@@ -6,6 +6,8 @@ data class Observation(
     val at: Long, val message: String,
     val kind: String = "OBSERVATION", val warningType: String? = null, val rawState: String? = null,
     val id: String = java.util.UUID.randomUUID().toString(),
+    // False for the first batch after start or a gap: the previous state was not observed. Not persisted.
+    val afterContinuousReading: Boolean = false,
 )
 
 /** Single-threaded, in-memory observations. Absence is not a repair/clear verdict. */
@@ -78,7 +80,7 @@ class WarningMonitor(private val onObservation: (Observation) -> Unit = {}) {
     }
 
     private fun record(at: Long, message: String, kind: String, type: String? = null, state: String? = null) {
-        val observation = Observation(at, message, kind, type, state)
+        val observation = Observation(at, message, kind, type, state, afterContinuousReading = continuous)
         history.addFirst(observation)
         onObservation(observation)
         while (history.size > 50) history.removeLast()
