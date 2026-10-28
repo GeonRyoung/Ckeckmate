@@ -15,8 +15,15 @@ class ExplanationJsonTest {
         "sections":[{"kind":"MEANING","title":"의미","text":"매뉴얼 설명","citationIds":["a"]}],
         "limitations":["원인을 확정할 수 없습니다."],
         "citations":[{"id":"a","documentTitle":"매뉴얼","sectionTitle":"TPMS","url":"${profile.source.url}","contentKind":"REVIEWED_SUMMARY"}],
-        "versions":{"document":"1.27"}
+        "versions":{"document":"${profile.documentRevision}"}
     }""")
+
+    @Test fun citationPageIsShownAndInvalidPageIsRejected() {
+        val json = response().apply { getJSONArray("citations").getJSONObject(0).put("page", 495) }
+        assertTrue(ExplanationJson.parse(json.toString(), id, context, profile).citations.contains("PDF 495쪽"))
+        json.getJSONArray("citations").getJSONObject(0).put("page", 0)
+        assertTrue(runCatching { ExplanationJson.parse(json.toString(), id, context, profile) }.isFailure)
+    }
 
     @Test fun requestOnlyContainsAllowedFields() {
         val json = JSONObject(ExplanationJson.request(id, context))

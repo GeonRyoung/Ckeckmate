@@ -16,7 +16,8 @@ class ManualCatalogTest {
             val url = URI(profile.source.url)
             assertEquals("https", url.scheme)
             assertEquals("ownersmanual.hyundai.com", url.host)
-            assertTrue(url.path.contains("/${profile.projectCode}/${profile.modelYear}/ko_KR/"))
+            // Web pages live under .../ko_KR/, the official PDF URL ends at .../ko_KR.
+            assertTrue("${url.path}/".contains("/${profile.projectCode}/${profile.modelYear}/ko_KR/"))
             assertTrue(profile.source.contentSha256.matches(Regex("[a-f0-9]{64}")))
         }
     }

@@ -22,10 +22,13 @@ def test_ready_links_each_section_to_actual_source_and_preserves_request():
         assert data["requestId"] == req["requestId"]
         assert data["warning"] == req["warning"]
         assert data["mode"] == "REVIEWED_RETRIEVAL"
-        assert len(data["sections"]) == 3
+        assert len(data["sections"]) == 5
+        assert data["sections"][0]["kind"] == "MEANING"
         ids = {c["id"] for c in data["citations"]}
         assert all(set(s["citationIds"]) <= ids for s in data["sections"])
-        assert all("/NE1/2025/ko_KR/" in c["url"] and c["page"] is None for c in data["citations"])
+        assert all(c["url"] == "https://ownersmanual.hyundai.com/full_pdf/NE1/2025/ko_KR" for c in data["citations"])
+        assert [c["page"] for c in data["citations"]] == [493, 495, 495, 138, 496]
+        assert data["versions"]["document"] == "2025-04-16"
         assert client.get("/health").json()["status"] == "ok"
         assert client.get("/v1/manual-profiles").json()["profiles"][0]["id"] == PROFILE
 

@@ -1,7 +1,8 @@
 # CHECKMATE 설명 서버
 
 앱은 SDK 관측 사실을 관리하고 서버는 선택한 매뉴얼의 근거와 설명만 제공합니다.
-첫 데이터는 2025 아이오닉 5 국내용 한국어 TPMS의 직접 작성한 검토 요약 3개입니다.
+첫 데이터는 2025 아이오닉 5 국내용 한국어 TPMS의 직접 작성한 검토 요약 5개입니다
+(공식 PDF 138·493·495·496쪽 기준).
 공식 원문 전체를 복제한 데이터셋이 아니며 임베딩 검색은 아직 포함하지 않습니다.
 
 ## 데이터와 API 계약
@@ -9,13 +10,13 @@
 - `checkmate/contracts.py`: 요청·응답의 Pydantic 계약. 자유 질문·위치·VIN·이력·메모를 받지 않습니다.
 - `checkmate/catalog.py`: 프로필→문서→문단 연결, 원문 출처, 요약 해시, 수집 승인 검증.
 - `checkmate/data/manuals.json`: 검토 요약과 공식 문서 메타데이터. `sourceSha256`은 확인 당시
-  원문 HTML 해시이며 `textSha256`은 저장된 요약의 해시입니다.
+  원문 PDF 파일의 해시이며 `textSha256`은 저장된 요약의 해시입니다.
 - 원문은 권리 유보 문서입니다. 원문 수집은 `originalIngestionApproved=false`로 차단합니다.
   외부 원문을 추가하려면 이용 조건 확인과 데이터 검토가 먼저 필요합니다.
 - `READY`에는 설명·실제 인용·처리 방식이 필수입니다. 그 외 상태에는 설명을 넣지 않습니다.
 - 설명 상태에 `STATE_UNSUPPORTED`를 추가해 알 수 없는 SDK 상태를 구분합니다.
 - `mode`로 검토 요약 검색(`REVIEWED_RETRIEVAL`)과 모델 생성(`AI_GENERATED`)을 구분합니다.
-- HTML 출처의 `page`는 `null`이며 절 제목과 공식 URL을 사용합니다.
+- PDF 출처의 `page`는 1부터 세는 PDF 쪽 번호입니다(인쇄 쪽 번호와 다를 수 있음). HTML 출처는 `null`입니다.
 
 ## 개발 환경
 
@@ -77,6 +78,13 @@ Ollama `/api/chat`의 JSON schema 출력으로 설명을 받고 서버에서 다
 - 두 응답 모두 READY, AI_GENERATED, 실제 근거 3개 인용. 설명의 조건과 점검 안내 유지 확인.
 - 이 두 사례는 전체 모델 품질이나 지연 보장을 의미하지 않습니다.
 - 모델 미완료·잘못된 JSON·가짜 출처·근거 누락·새 수치·타임아웃은 모의 응답으로 차단 검증.
+
+2026-10-28 근거 교체(검토 요약 3개 → 5개, 공식 PDF 기준) 후:
+
+- 계약·검색·HTTP·모델 어댑터 테스트 28개 통과(모의 생성기 포함).
+- 실제 `qwen2.5:7b` 생성은 **미검증**. GPU가 없는 노트북(CPU 실행)에서 ON·BLINK 모두 60초 제한을
+  넘겨 503(`TEMPORARILY_UNAVAILABLE`)으로 처리됐고, 300초로 늘린 직접 호출도 끝나지 않았습니다.
+  기본 `reviewed` 모드는 모델을 사용하지 않습니다. GPU 환경에서 5개 근거 인용·검증 통과를 다시 확인해야 합니다.
 
 API 구현 참고: [Ollama 구조화 출력](https://docs.ollama.com/capabilities/structured-outputs),
 [Ollama Chat API](https://docs.ollama.com/api/chat).

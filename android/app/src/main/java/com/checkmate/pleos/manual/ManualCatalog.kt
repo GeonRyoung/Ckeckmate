@@ -32,13 +32,14 @@ object ManualCatalog {
         market = "대한민국",
         language = "한국어",
         projectCode = "NE1",
-        documentRevision = "1.27",
-        checkedOn = "2026-10-26",
+        // Official PDF revision date; the profile id is kept so saved selections stay valid.
+        documentRevision = "2025-04-16",
+        checkedOn = "2026-10-28",
         source = ManualSource(
-            documentTitle = "2025 아이오닉 5 디지털 취급 설명서",
-            section = "타이어 공기압 경보 시스템 (TPMS)",
-            url = "https://ownersmanual.hyundai.com/full_webhelp/NE1/2025/ko_KR/id23C5E0QD0YK.html",
-            contentSha256 = "f921142b9e9ce9e8745b7546a4959a93ad5f1fd507e110e75cd91c9d95e8d360",
+            documentTitle = "2025 아이오닉 5 취급설명서",
+            section = "타이어 공기압 경보 시스템 (TPMS) · PDF 138, 493–496쪽",
+            url = "https://ownersmanual.hyundai.com/full_pdf/NE1/2025/ko_KR",
+            contentSha256 = "7c92b1e3b1326d6811340e664111897fc66f23b6ae96788e2d76e6f99eb30725",
         ),
     ))
 

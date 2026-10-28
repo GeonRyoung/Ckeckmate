@@ -1,5 +1,5 @@
 {
-  "indexVersion": "reviewed-tpms-2026-10-26-v1",
+  "indexVersion": "reviewed-tpms-2026-10-28-v2",
   "profiles": [
     {
       "id": "hyundai-ioniq5-2025-ev-kr-ko-r1.27",
@@ -8,7 +8,7 @@
       "powertrain": "EV",
       "market": "KR",
       "language": "ko-KR",
-      "documentId": "hyundai-ne1-2025-ko-r1.27",
+      "documentId": "hyundai-ne1-2025-ko-pdf-20250416",
       "supportedWarnings": [
         "TPMS"
       ]
@@ -16,61 +16,91 @@
   ],
   "documents": [
     {
-      "id": "hyundai-ne1-2025-ko-r1.27",
+      "id": "hyundai-ne1-2025-ko-pdf-20250416",
       "profileId": "hyundai-ioniq5-2025-ev-kr-ko-r1.27",
-      "title": "2025 아이오닉 5 디지털 취급 설명서",
-      "revision": "1.27",
-      "url": "https://ownersmanual.hyundai.com/full_webhelp/NE1/2025/ko_KR/id23C5E0QD0YK.html",
-      "sourceSha256": "f921142b9e9ce9e8745b7546a4959a93ad5f1fd507e110e75cd91c9d95e8d360",
-      "checkedOn": "2026-10-26",
+      "title": "2025 아이오닉 5 취급설명서",
+      "revision": "2025-04-16",
+      "url": "https://ownersmanual.hyundai.com/full_pdf/NE1/2025/ko_KR",
+      "sourceSha256": "7c92b1e3b1326d6811340e664111897fc66f23b6ae96788e2d76e6f99eb30725",
+      "checkedOn": "2026-10-28",
       "originalIngestionApproved": false
     }
   ],
   "chunks": [
     {
-      "id": "tpms-overview",
-      "documentId": "hyundai-ne1-2025-ko-r1.27",
+      "id": "tpms-10-overview",
+      "documentId": "hyundai-ne1-2025-ko-pdf-20250416",
       "profileId": "hyundai-ioniq5-2025-ev-kr-ko-r1.27",
       "warningTags": [
         "TPMS"
       ],
       "sectionTitle": "시스템 개요",
       "kind": "MEANING",
-      "text": "TPMS는 타이어의 압력을 감시하여 낮은 공기압을 알리는 장치입니다.",
-      "textSha256": "a96fa23f35f7164129dfc99c2fbd1104ab6ba951b8d39ab08b3f3fc4508a556b",
+      "text": "TPMS는 휠에 장착된 센서로 타이어 공기압을 감시하고, 공기압이 일정 기준 이하로 떨어지면 운전자에게 경고하는 장치입니다. 매뉴얼은 저압 타이어 경고등이 켜지는 저압 감지와, TPMS 경고등이 깜빡인 뒤 켜지는 시스템 이상을 구분합니다. 개별 타이어 공기압은 주행을 시작하고 1-2분이 지나야 클러스터에서 확인할 수 있으며, 표시값은 압력 게이지로 잰 값과 다를 수 있습니다.",
+      "textSha256": "cd372dfafcc0965581a7a4cd25df5a4c4f800be187cacbf2d6108251db1fde0e",
       "contentKind": "REVIEWED_SUMMARY",
       "retrievalApproved": true,
-      "page": null
+      "page": 493
     },
     {
-      "id": "tpms-low-pressure",
-      "documentId": "hyundai-ne1-2025-ko-r1.27",
+      "id": "tpms-20-low-pressure",
+      "documentId": "hyundai-ne1-2025-ko-pdf-20250416",
       "profileId": "hyundai-ioniq5-2025-ev-kr-ko-r1.27",
       "warningTags": [
         "TPMS"
       ],
       "sectionTitle": "저압 타이어 감지",
       "kind": "MANUAL_GUIDANCE",
-      "text": "매뉴얼은 저압 경고가 켜지면 감속하고 급격한 방향 전환을 피하며, 현대 하이테크센터 또는 블루핸즈에서 타이어 점검과 공기압 조정을 받도록 안내합니다.",
-      "textSha256": "4ec9f8c2cb9a39a5836039e341d92c2dc525b1eed13b3a1d70c84488749c132f",
+      "text": "매뉴얼은 저압 타이어 경고등이 켜지면 속도를 낮추고 급격한 조향을 피하며, 현대 직영 하이테크센터나 블루핸즈에서 타이어 상태를 점검한 뒤 공기압을 조절하도록 안내합니다. 근처에 방문할 곳이 없으면 타이어 응급 처치 키트(TMK)로 보수하고 '타이어 및 휠 규격'의 추천 공기압으로 조절하도록 안내하며, 키트 사용 절차는 매뉴얼의 별도 항목을 따릅니다. 공기압은 주행 종료 후 3시간 이후 또는 주행 시작 후 1.6 km 이내에 조절합니다. 적정 공기압으로 맞춘 뒤에도 기온이 낮아지면 공기압이 줄어 경고등이 켜질 수 있으며, 매뉴얼은 이를 시스템 이상으로 보지 않습니다. 공기압이 낮은 상태로 계속 주행하면 타이어 과열·손상, 조작 능력과 제동력 저하, 차체 불안정이 생길 수 있다고 경고합니다.",
+      "textSha256": "a8c5b1ce9ae3bc90d84b7b7179bcc766ce1840a874d728360a33b02575f82f74",
       "contentKind": "REVIEWED_SUMMARY",
       "retrievalApproved": true,
-      "page": null
+      "page": 495
     },
     {
-      "id": "tpms-system-alert",
-      "documentId": "hyundai-ne1-2025-ko-r1.27",
+      "id": "tpms-30-system-alert",
+      "documentId": "hyundai-ne1-2025-ko-pdf-20250416",
       "profileId": "hyundai-ioniq5-2025-ev-kr-ko-r1.27",
       "warningTags": [
         "TPMS"
       ],
       "sectionTitle": "타이어 공기압 경보 시스템 이상",
       "kind": "MANUAL_GUIDANCE",
-      "text": "매뉴얼은 TPMS 경고가 깜빡인 뒤 계속 켜지는 패턴을 시스템 이상 안내로 설명하며, 즉시 현대 하이테크센터 또는 블루핸즈에서 점검하도록 안내합니다.",
-      "textSha256": "90e2151fd9e61f7e8c6b2ecf667dc0822a165c64a7b36204d26762b2c6f61743",
+      "text": "매뉴얼은 시스템에 이상이 생기면 TPMS 경고등이 깜빡인 뒤 켜진다고 설명하며, 이 경우 즉시 현대 직영 하이테크센터나 블루핸즈에서 차량을 점검하도록 안내합니다. 한 개 이상의 타이어에 저압이 표시된 상태에서 시스템 고장이 생겨도 경고등이 깜빡인 뒤 켜지고 저압 타이어 위치 표시가 사라집니다. 이때 위치 표시가 사라진 것은 저압이 해소되었다는 뜻이 아닙니다.",
+      "textSha256": "f6b8c8bc919123231f2abed9cd2ee0db691b0ac4112a58a8ca1663052f01d237",
       "contentKind": "REVIEWED_SUMMARY",
       "retrievalApproved": true,
-      "page": null
+      "page": 495
+    },
+    {
+      "id": "tpms-40-cluster-check",
+      "documentId": "hyundai-ne1-2025-ko-pdf-20250416",
+      "profileId": "hyundai-ioniq5-2025-ev-kr-ko-r1.27",
+      "warningTags": [
+        "TPMS"
+      ],
+      "sectionTitle": "클러스터 경고등 표",
+      "kind": "MANUAL_GUIDANCE",
+      "text": "클러스터 경고등 표는 저압 타이어 경고등(TPMS 경고등)이 정상 상태에서는 시동을 걸 때 켜지고 약 3초 후 꺼진다고 설명합니다. 경고등이 켜지면 타이어 공기압을 확인하고 필요하면 공기를 보충하도록 안내합니다. 공기를 보충한 뒤에도 시동 시 경고등이 켜지지 않거나 약 1분간 깜빡인 뒤 켜지면, 안전에 유의하며 현대 직영 하이테크센터나 블루핸즈에서 점검과 정비를 받도록 안내합니다. 공기압이 현저하게 낮으면 차량이 불안정해지고 제동 거리가 늘어나 매우 위험하다고 경고합니다.",
+      "textSha256": "47344c9e1d76c1e2e347524a35aef35a0fef4779e730ba50b39cf3ccf4277d15",
+      "contentKind": "REVIEWED_SUMMARY",
+      "retrievalApproved": true,
+      "page": 138
+    },
+    {
+      "id": "tpms-50-other-causes",
+      "documentId": "hyundai-ne1-2025-ko-pdf-20250416",
+      "profileId": "hyundai-ioniq5-2025-ev-kr-ko-r1.27",
+      "warningTags": [
+        "TPMS"
+      ],
+      "sectionTitle": "경고등이 켜질 수 있는 다른 경우와 주의 사항",
+      "kind": "MANUAL_GUIDANCE",
+      "text": "매뉴얼은 경찰서·관공서·방송국·군사 시설·송신탑 근처의 전파 간섭, 타이어 체인 장착, 별도로 구매해 장착한 전자 기기 사용으로도 TPMS 경고등이 켜지거나 깜빡인 뒤 켜질 수 있다고 설명합니다. 실런트(봉합제)로 수리했다면 센서와 휠에 묻은 실런트를 신속히 제거하고, 제거 후에도 증상이 지속되면 점검을 받도록 안내합니다. 센서가 없는 예비 타이어를 장착하고 출발하면 10분 이내에 경고등이 켜지며, 센서가 장착된 휠로 교체한 뒤 몇 분 동안 주행해도 꺼지지 않으면 점검을 받도록 안내합니다. 센서에 이상이 있어도 TPMS가 장착된 다른 차량 가까이 주행하면 경고등이 일시적으로 켜지지 않을 수 있습니다. 못이나 도로 파편으로 인한 갑작스러운 타이어 손상은 TPMS가 감지하지 못하므로, 주행 중 차체가 불안하면 즉시 가속 페달에서 발을 떼고 안전한 장소로 천천히 이동한 뒤 차량을 점검하도록 안내합니다. 시스템 부품을 임의로 조절·교체하거나 작동을 방해하도록 개조하지 말라고 경고합니다.",
+      "textSha256": "b84d82d2926ce804a9981ea53294ac0131a23e135d9322fe3f0177b2c25252eb",
+      "contentKind": "REVIEWED_SUMMARY",
+      "retrievalApproved": true,
+      "page": 496
     }
   ]
 }

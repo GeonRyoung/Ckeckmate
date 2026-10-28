@@ -270,11 +270,15 @@ cd android
 ### 2단계 매뉴얼 범위 확정
 
 - 최초 지원 프로필: **2025 현대 아이오닉 5 / 전기차 / 대한민국 / 한국어**.
-  공식 사이트의 프로젝트 코드 `NE1`, 웹 문서 `rev=1.27`, 확인일 2026-10-26.
+  공식 사이트의 프로젝트 코드 `NE1`. 2026-10-28부터 공식 PDF 취급설명서(최종 게시일
+  2025-04-16, SHA-256 `7c92b1e3…6eb30725`)를 근거로 사용합니다. 이전 기준은 웹 문서 `rev=1.27`
+  (확인일 2026-10-26)였으며, 저장된 선택이 유지되도록 프로필 ID는 바꾸지 않았습니다.
 - [공식 차종 선택 페이지](https://ownersmanual.hyundai.com/manual/%EC%95%84%EC%9D%B4%EC%98%A4%EB%8B%89%205?countryCode=A99&langCode=ko_KR&projCode=NE1&year=2025)
-- [TPMS 원문](https://ownersmanual.hyundai.com/full_webhelp/NE1/2025/ko_KR/id23C5E0QD0YK.html):
-  시스템 개요, `저압 타이어 감지`, `타이어 공기압 경보 시스템 이상`을 설명 범위로 사용합니다.
-  HTML 문서이므로 임의의 PDF 페이지를 표시하지 않고 문서명·절·URL을 출처로 표시합니다.
+- [TPMS 원문 PDF](https://ownersmanual.hyundai.com/full_pdf/NE1/2025/ko_KR): 시스템 개요(PDF 493쪽),
+  저압 타이어 감지·시스템 이상(495쪽), 다른 점등 원인과 주의 사항(496쪽), 클러스터 경고등 표(138쪽)를
+  검토 요약 5개로 사용합니다. 출처에는 문서명·절·PDF 쪽수를 표시합니다. 검토 근거는
+  `data/manual-review/2026-10-28/hyundai-pdf-tpms-review.json`과 `hyundai-pdf-table-review.json`입니다.
+  타이어 응급 처치 키트(TMK) 절차는 키트 사양 확인이 필요해 설명 범위에 넣지 않았습니다.
 - `manual/ManualCatalog`는 프로필과 원문 URL·SHA-256을 보존합니다.
   `ManualPreferences`는 사용자의 명시적 선택만 저장하며 처음에는 미선택입니다.
   알 수 없는 프로필 ID는 다른 차량으로 자동 대체하지 않습니다.

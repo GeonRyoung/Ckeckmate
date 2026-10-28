@@ -40,4 +40,13 @@ class TpmsGuideTest {
         assertTrue(blink.observationLimit.contains("BLINK 값만으로"))
         assertTrue(blink.observationLimit.contains("확정할 수 없습니다"))
     }
+
+    @Test fun offlineGuideKeepsLowPressureAndSystemFaultBranchesSeparate() {
+        val text = TpmsGuide.get(profile.id, "TPMS", "ON").explanation
+        assertTrue(text.contains("저압 타이어 감지"))
+        assertTrue(text.contains("시스템 이상 표시"))
+        assertTrue(text.contains("약 1분간 깜빡인 뒤 켜지는"))
+        assertTrue(text.contains("저압이 해소되었다는 뜻은 아닙니다"))
+        assertTrue(text.contains("감지하지 못합니다"))
+    }
 }

@@ -50,7 +50,8 @@ object ExplanationJson {
             numbers[sourceId] = i + 1
             require(c.getString("url") == profile.source.url)
             require(c.getString("contentKind") in setOf("REVIEWED_SUMMARY", "LICENSED_ORIGINAL"))
-            "[${i + 1}] ${c.getString("documentTitle")} · ${c.getString("sectionTitle")}"
+            val page = if (c.isNull("page")) "" else " · PDF ${c.getInt("page").also { require(it >= 1) }}쪽"
+            "[${i + 1}] ${c.getString("documentTitle")} · ${c.getString("sectionTitle")}$page"
         }.joinToString("\n\n") + "\n\n문서 버전 ${profile.documentRevision}\n${profile.source.url}"
         val body = (0 until sections.length()).map { i ->
             val s = sections.getJSONObject(i)
