@@ -14,14 +14,18 @@ def test_eval_cases_reference_existing_evidence_and_known_profile():
             assert case["mustInclude"], case["id"]
 
 
-def test_reviewed_mode_passes_every_case():
+def test_reviewed_overview_passes_every_case_and_reports_both_rankers():
     report = evaluate(ExplanationService(), load_cases())
-    assert report["failures"] == []
-    assert report["responsePassed"] == report["responseTotal"] == 26
+    assert report["WARNING_OVERVIEW"]["failures"] == []
+    assert report["WARNING_OVERVIEW"]["passed"] == 26
+    # Refusals hold for free questions too, whatever the ranker returns.
+    refusals = {"other-model", "other-warning", "off-is-normal", "no-profile"}
+    assert not refusals & {f["id"] for f in report["QUESTION"]["failures"]}
+    assert report["baseline"]["ranker"] == "lexical-bigram-v1"
+    assert report["baseline"]["hit@1"] == 0.5
 
 
 def test_forbidden_claim_is_detected():
     data = load_cases()
-    data["forbidden"] = ["공기압"]  # present in every READY answer
-    report = evaluate(ExplanationService(), data)
-    assert report["responsePassed"] == 4  # only the four refusal cases
+    data["forbidden"] = ["공기압"]  # present in every READY overview
+    assert evaluate(ExplanationService(), data)["WARNING_OVERVIEW"]["passed"] == 4

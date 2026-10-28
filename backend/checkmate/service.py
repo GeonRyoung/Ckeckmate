@@ -1,5 +1,8 @@
+import httpx
+
 from .catalog import Catalog, Chunk, load_catalog
 from .contracts import Citation, ExplanationRequest, ExplanationResponse, Section, Status, Versions
+from .retrieval import LexicalRanker, QuestionRanker
 
 LIMITATIONS = [
     "SDK의 ON 또는 BLINK 값만으로 저압이나 시스템 고장을 확정할 수 없습니다. 깜빡임의 지속 시간과 이후 점등 패턴은 별도 확인이 필요합니다.",
@@ -16,22 +19,31 @@ MESSAGES = {
 }
 
 
+# Measured on evals/tpms_ioniq5_2025.json with bge-m3: hit@2 0.909, hit@3 1.0 (2026-10-28).
+QUESTION_TOP_K = 3
+
+
+def candidates(catalog: Catalog, profile_id: str, warning_type: str) -> list[Chunk]:
+    # Filter before ranking. A high score can never cross a profile or warning boundary.
+    return [c for c in catalog.chunks if c.retrievalApproved
+            and c.profileId == profile_id and warning_type in c.warningTags]
+
+
 def retrieve(catalog: Catalog, profile_id: str, warning_type: str) -> list[Chunk]:
-    # Filter before ranking. A high lexical score can never cross a profile boundary.
-    candidates = [c for c in catalog.chunks if c.retrievalApproved
-                  and c.profileId == profile_id and warning_type in c.warningTags]
     terms = [warning_type.lower(), "공기압", "경고", "점검"]
     def score(chunk):
         text = (chunk.sectionTitle + " " + chunk.text).lower()
         return sum(term in text for term in terms)
-    return sorted((c for c in candidates if score(c) > 0), key=lambda c: (-score(c), c.id))[:5]
+    return sorted((c for c in candidates(catalog, profile_id, warning_type) if score(c) > 0),
+                  key=lambda c: (-score(c), c.id))[:5]
 
 
 class ExplanationService:
     mode = "reviewed"
 
-    def __init__(self, catalog: Catalog | None = None):
+    def __init__(self, catalog: Catalog | None = None, ranker: QuestionRanker | None = None):
         self.catalog = catalog if catalog is not None else load_catalog()
+        self.ranker = ranker or LexicalRanker()
 
     def failure(self, req: ExplanationRequest, status: Status) -> ExplanationResponse:
         return ExplanationResponse(requestId=req.requestId, profileId=req.profileId, warning=req.warning,
@@ -48,12 +60,20 @@ class ExplanationService:
             return self.failure(req, Status.WARNING_UNSUPPORTED)
         if req.warning.rawState not in {"ON", "BLINK"}:
             return self.failure(req, Status.STATE_UNSUPPORTED)
-        chunks = retrieve(self.catalog, profile.id, req.warning.type)
+        if req.intent == "QUESTION":
+            pool = candidates(self.catalog, profile.id, req.warning.type)
+            try:
+                # Ranking order is kept: the most relevant reviewed evidence comes first.
+                chunks = self.ranker.rank(req.question, pool)[:QUESTION_TOP_K] if pool else []
+            except (httpx.HTTPError, ValueError, KeyError, TypeError):
+                return self.failure(req, Status.TEMPORARILY_UNAVAILABLE)
+        else:
+            chunks = retrieve(self.catalog, profile.id, req.warning.type)
+            # The first overview uses the same reviewed evidence for ON and BLINK, not a diagnosis.
+            chunks.sort(key=lambda c: (c.kind != "MEANING", c.id))
         if not chunks:
             return self.failure(req, Status.NO_EVIDENCE)
         doc = next(d for d in self.catalog.documents if d.id == profile.documentId)
-        # The first overview uses the same reviewed evidence for ON and BLINK, not a diagnosis.
-        chunks.sort(key=lambda c: (c.kind != "MEANING", c.id))
         return self.compose(req, chunks, doc.revision)
 
     def compose(self, req: ExplanationRequest, chunks: list[Chunk], revision: str) -> ExplanationResponse:

@@ -18,7 +18,15 @@ class ExplanationRequest(Contract):
     requestId: UUID
     profileId: str | None = Field(default=None, max_length=128)
     warning: Warning
-    intent: Literal["WARNING_OVERVIEW"] = "WARNING_OVERVIEW"
+    intent: Literal["WARNING_OVERVIEW", "QUESTION"] = "WARNING_OVERVIEW"
+    # Only the driver's question about the selected warning; no vehicle data or identity.
+    question: str | None = Field(default=None, min_length=1, max_length=300)
+
+    @model_validator(mode="after")
+    def question_matches_intent(self):
+        if (self.intent == "QUESTION") != (self.question is not None and bool(self.question.strip())):
+            raise ValueError("QUESTION intent requires a question; overview must not carry one")
+        return self
 
 
 class Status(StrEnum):

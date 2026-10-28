@@ -1,20 +1,19 @@
 """Offline evaluation for the reviewed TPMS evidence.
 
-Two separate measurements:
 - response checks: the real service answer keeps required conditions, cites the right evidence,
-  avoids forbidden claims and refuses out-of-scope requests (works for reviewed and ollama modes);
-- question retrieval baseline: a simple character-bigram ranker over the same chunks. The API does
-  not take free questions yet; this number is the bar a future embedding/LangGraph retriever must beat.
+  avoids forbidden claims and refuses out-of-scope requests. Run for the fixed overview and for
+  QUESTION requests (reviewed and ollama generation modes alike);
+- retrieval: hit@k of the configured question ranker against the lexical baseline, inside the
+  same profile/warning filter the service uses.
 """
 import json
-import re
 import sys
-from collections import Counter
 from pathlib import Path
 from uuid import uuid4
 
-from .catalog import Catalog
 from .contracts import ExplanationRequest
+from .retrieval import LexicalRanker
+from .service import candidates
 
 DEFAULT_CASES = Path(__file__).parents[1] / "evals/tpms_ioniq5_2025.json"
 
@@ -23,10 +22,11 @@ def load_cases(path: Path = DEFAULT_CASES) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def check_case(service, data: dict, case: dict) -> list[str]:
+def check_case(service, data: dict, case: dict, intent: str = "WARNING_OVERVIEW") -> list[str]:
     """Returns failure reasons; an empty list means the case passed."""
     req = ExplanationRequest(requestId=uuid4(), profileId=case.get("profileId", data["profileId"]),
-        warning={"type": case.get("type", "TPMS"), "rawState": case["state"]})
+        warning={"type": case.get("type", "TPMS"), "rawState": case["state"]}, intent=intent,
+        question=case["question"] if intent == "QUESTION" else None)
     res = service.explain(req)
     expected = case.get("expectedStatus", "READY")
     if res.status != expected:
@@ -34,43 +34,43 @@ def check_case(service, data: dict, case: dict) -> list[str]:
     if expected != "READY":
         return []
     text = " ".join(s.title + " " + s.text for s in res.sections)
-    cited = {c.chunkId for c in res.citations}
-    failures = [f"missing evidence {c}" for c in case["relevantChunks"] if c not in cited]
-    failures += [f"missing one of {group}" for group in case["mustInclude"] if not any(p in text for p in group)]
+    cited = [c.chunkId for c in res.citations]
+    if intent == "QUESTION":
+        # A focused answer must include at least one right source, not every listed one.
+        failures = [] if set(cited) & set(case["relevantChunks"]) else [f"no relevant evidence in {cited}"]
+        groups = [g for g in case["mustInclude"]
+                  if any(any(p in c.text for p in g) for c in service.catalog.chunks if c.id in cited)]
+    else:
+        failures = [f"missing evidence {c}" for c in case["relevantChunks"] if c not in cited]
+        groups = case["mustInclude"]
+    failures += [f"missing one of {g}" for g in groups if not any(p in text for p in g)]
     failures += [f"forbidden '{p}'" for p in data["forbidden"] if p in text]
     return failures
 
 
-def _bigrams(text: str) -> Counter:
-    s = re.sub(r"\s+", "", text.lower())
-    return Counter(s[i:i + 2] for i in range(len(s) - 1))
-
-
-def rank_by_question(catalog: Catalog, profile_id: str, question: str) -> list[str]:
-    q = _bigrams(question)
-    def score(chunk):
-        c = _bigrams(chunk.sectionTitle + " " + chunk.text)
-        # Overlap normalised by chunk size so long chunks do not win by length alone.
-        return sum(min(n, c[g]) for g, n in q.items()) / (sum(c.values()) ** 0.5 or 1)
-    chunks = [c for c in catalog.chunks if c.profileId == profile_id and c.retrievalApproved]
-    return [c.id for c in sorted(chunks, key=lambda c: (-score(c), c.id))]
+def hit_rates(ranker, catalog, data: dict, ks=(1, 2)) -> dict:
+    ready = [c for c in data["cases"] if c.get("expectedStatus", "READY") == "READY"]
+    hits, misses = {k: 0 for k in ks}, []
+    for case in ready:
+        pool = candidates(catalog, data["profileId"], case.get("type", "TPMS"))
+        ranked = [c.id for c in ranker.rank(case["question"], pool)]
+        for k in ks:
+            hits[k] += bool(set(ranked[:k]) & set(case["relevantChunks"]))
+        if not set(ranked[:1]) & set(case["relevantChunks"]):
+            misses.append({"id": case["id"], "top1": ranked[0], "expected": case["relevantChunks"]})
+    return {"ranker": ranker.name, **{f"hit@{k}": round(v / len(ready), 3) for k, v in hits.items()},
+            "top1Misses": misses}
 
 
 def evaluate(service, data: dict) -> dict:
-    results, hits = [], {1: 0, 2: 0}
-    ready = [c for c in data["cases"] if c.get("expectedStatus", "READY") == "READY"]
-    for case in data["cases"]:
-        results.append({"id": case["id"], "failures": check_case(service, data, case)})
-    for case in ready:
-        ranked = rank_by_question(service.catalog, data["profileId"], case["question"])
-        for k in hits:
-            hits[k] += bool(set(ranked[:k]) & set(case["relevantChunks"]))
-    return {
-        "evalVersion": data["evalVersion"], "mode": service.mode,
-        "responsePassed": sum(not r["failures"] for r in results), "responseTotal": len(results),
-        "failures": [r for r in results if r["failures"]],
-        "questionRetrievalBaseline": {f"hit@{k}": round(v / len(ready), 3) for k, v in hits.items()},
-    }
+    report = {"evalVersion": data["evalVersion"], "mode": service.mode}
+    for intent in ("WARNING_OVERVIEW", "QUESTION"):
+        results = [{"id": c["id"], "failures": check_case(service, data, c, intent)} for c in data["cases"]]
+        report[intent] = {"passed": sum(not r["failures"] for r in results), "total": len(results),
+                          "failures": [r for r in results if r["failures"]]}
+    report["retrieval"] = hit_rates(service.ranker, service.catalog, data)
+    report["baseline"] = hit_rates(LexicalRanker(), service.catalog, data)
+    return report
 
 
 if __name__ == "__main__":
