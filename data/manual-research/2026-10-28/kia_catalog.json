@@ -1,0 +1,1281 @@
+{
+  "checked_at_utc": "2026-10-28T03:41:30.835942+00:00",
+  "catalog_url": "https://ownersmanual.kia.com/api/v2/kia/models?countryCode=A99&langCode=ko_KR",
+  "models": [
+    {
+      "model": "K3",
+      "catalog_model_code": "BD",
+      "available_years": [
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2012"
+      ],
+      "latest_catalog_year": "2024",
+      "scope": "archive_not_current_sales_lineup",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=K3",
+      "selected_variants": [
+        {
+          "modelId": "BD",
+          "modelName": "K3",
+          "projCode": "BD",
+          "modelType": "CARS",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2024",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/2474/DBSD22SWP_K3GT5DR.png",
+          "listImgUrl": "/api/v2/kia/files/2475/DBSD22SWP_K3GT5DR.png"
+        }
+      ]
+    },
+    {
+      "model": "K5",
+      "catalog_model_code": "DL3",
+      "available_years": [
+        "2027",
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2013"
+      ],
+      "latest_catalog_year": "2027",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=K5",
+      "selected_variants": [
+        {
+          "modelId": "DL3",
+          "modelName": "K5",
+          "projCode": "DL3",
+          "modelType": "CARS",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2027",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/2270/DLSD24SWP.png",
+          "listImgUrl": "/api/v2/kia/files/2516/DLSD24SWP.png"
+        }
+      ]
+    },
+    {
+      "model": "K7",
+      "catalog_model_code": "YG",
+      "available_years": [
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2012"
+      ],
+      "latest_catalog_year": "2021",
+      "scope": "archive_not_current_sales_lineup",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=K7",
+      "selected_variants": [
+        {
+          "modelId": "YG",
+          "modelName": "K7",
+          "projCode": "YG",
+          "modelType": "CARS",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2021",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/2271/YGSD20SWP.png",
+          "listImgUrl": "/api/v2/kia/files/2602/YGSD20SWP.png"
+        }
+      ]
+    },
+    {
+      "model": "K8",
+      "catalog_model_code": "GL3",
+      "available_years": [
+        "2027",
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022"
+      ],
+      "latest_catalog_year": "2027",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=K8",
+      "selected_variants": [
+        {
+          "modelId": "GL3",
+          "modelName": "K8",
+          "projCode": "GL3",
+          "modelType": "CARS",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2027",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/3650/6_k8_q.png",
+          "listImgUrl": "/api/v2/kia/files/3651/6_k8_q.png"
+        }
+      ]
+    },
+    {
+      "model": "K9",
+      "catalog_model_code": "RJ",
+      "available_years": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2012"
+      ],
+      "latest_catalog_year": "2026",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=K9",
+      "selected_variants": [
+        {
+          "modelId": "RJ",
+          "modelName": "K9",
+          "projCode": "RJ",
+          "modelType": "CARS",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2026",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/2273/RJSD22SWP.png",
+          "listImgUrl": "/api/v2/kia/files/2556/RJSD22SWP.png"
+        }
+      ]
+    },
+    {
+      "model": "레이",
+      "catalog_model_code": "TAM",
+      "available_years": [
+        "2027",
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2012"
+      ],
+      "latest_catalog_year": "2027",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EB%A0%88%EC%9D%B4",
+      "selected_variants": [
+        {
+          "modelId": "TAM",
+          "modelName": "레이",
+          "projCode": "TAM",
+          "modelType": "CARS",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2027",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/2281/TM.png",
+          "listImgUrl": "/api/v2/kia/files/2561/TMSD24UD_.png"
+        }
+      ]
+    },
+    {
+      "model": "모닝",
+      "catalog_model_code": "JA",
+      "available_years": [
+        "2027",
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2010"
+      ],
+      "latest_catalog_year": "2027",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EB%AA%A8%EB%8B%9D",
+      "selected_variants": [
+        {
+          "modelId": "JA",
+          "modelName": "모닝",
+          "projCode": "JA",
+          "modelType": "CARS",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2027",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/2276/JA.png",
+          "listImgUrl": "/api/v2/kia/files/2528/JASD24UD_.png"
+        }
+      ]
+    },
+    {
+      "model": "스팅어",
+      "catalog_model_code": "CK",
+      "available_years": [
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017"
+      ],
+      "latest_catalog_year": "2023",
+      "scope": "archive_not_current_sales_lineup",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EC%8A%A4%ED%8C%85%EC%96%B4",
+      "selected_variants": [
+        {
+          "modelId": "CK",
+          "modelName": "스팅어",
+          "projCode": "CK",
+          "modelType": "CARS",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2023",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/2287/CK.png",
+          "listImgUrl": "/api/v2/kia/files/2572/CKSD22SWP.png"
+        }
+      ]
+    },
+    {
+      "model": "포르테",
+      "catalog_model_code": "TD",
+      "available_years": [
+        "2012"
+      ],
+      "latest_catalog_year": "2012",
+      "scope": "archive_not_current_sales_lineup",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%ED%8F%AC%EB%A5%B4%ED%85%8C",
+      "selected_variants": [
+        {
+          "modelId": "TD",
+          "modelName": "포르테",
+          "projCode": "TD",
+          "modelType": "CARS",
+          "vin": "",
+          "year": "2012",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/4035/01_Forte 5 door.png",
+          "listImgUrl": "/api/v2/kia/files/4036/01_Forte 5 door.png"
+        }
+      ]
+    },
+    {
+      "model": "프라이드",
+      "catalog_model_code": "UB",
+      "available_years": [
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2012",
+        "2011"
+      ],
+      "latest_catalog_year": "2016",
+      "scope": "archive_not_current_sales_lineup",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%ED%94%84%EB%9D%BC%EC%9D%B4%EB%93%9C",
+      "selected_variants": [
+        {
+          "modelId": "UB",
+          "modelName": "프라이드",
+          "projCode": "UB",
+          "modelType": "CARS",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2016",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/3944/12_UB PE.png",
+          "listImgUrl": "/api/v2/kia/files/3945/12_UB PE.png"
+        }
+      ]
+    },
+    {
+      "model": "모하비",
+      "catalog_model_code": "HM",
+      "available_years": [
+        "2024",
+        "2023",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2012"
+      ],
+      "latest_catalog_year": "2024",
+      "scope": "archive_not_current_sales_lineup",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EB%AA%A8%ED%95%98%EB%B9%84",
+      "selected_variants": [
+        {
+          "modelId": "HM",
+          "modelName": "모하비",
+          "projCode": "HM",
+          "modelType": "SUV",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2024",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/2313/JSRV23SWP.png",
+          "listImgUrl": "/api/v2/kia/files/2521/JSRV23SWP.png"
+        }
+      ]
+    },
+    {
+      "model": "셀토스",
+      "catalog_model_code": "SP2",
+      "available_years": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020"
+      ],
+      "latest_catalog_year": "2026",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EC%85%80%ED%86%A0%EC%8A%A4",
+      "selected_variants": [
+        {
+          "modelId": "SP2",
+          "modelName": "셀토스",
+          "projCode": "SP2",
+          "modelType": "SUV",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2026",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/2345/SPRV24SWP.png",
+          "listImgUrl": "/api/v2/kia/files/2472/SPRV23SWP.png"
+        },
+        {
+          "modelId": "SP3",
+          "modelName": "셀토스",
+          "projCode": "SP3",
+          "modelType": "SUV",
+          "vin": "",
+          "year": "2026",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/5981/SP3i_260112.png",
+          "listImgUrl": "/api/v2/kia/files/5982/SP3i_260112.png"
+        }
+      ]
+    },
+    {
+      "model": "스토닉",
+      "catalog_model_code": "YBC",
+      "available_years": [
+        "2020",
+        "2019",
+        "2018"
+      ],
+      "latest_catalog_year": "2020",
+      "scope": "archive_not_current_sales_lineup",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EC%8A%A4%ED%86%A0%EB%8B%89",
+      "selected_variants": [
+        {
+          "modelId": "YBC",
+          "modelName": "스토닉",
+          "projCode": "YBC",
+          "modelType": "SUV",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2020",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/2568/YW.png",
+          "listImgUrl": "/api/v2/kia/files/2569/YW.png"
+        }
+      ]
+    },
+    {
+      "model": "스포티지",
+      "catalog_model_code": "NQ5",
+      "available_years": [
+        "2027",
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2012"
+      ],
+      "latest_catalog_year": "2027",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EC%8A%A4%ED%8F%AC%ED%8B%B0%EC%A7%80",
+      "selected_variants": [
+        {
+          "modelId": "NQ5",
+          "modelName": "스포티지",
+          "projCode": "NQ5",
+          "modelType": "SUV",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2027",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/4076/241220_NQ5_PE.png",
+          "listImgUrl": "/api/v2/kia/files/4077/241220_NQ5_PE.png"
+        }
+      ]
+    },
+    {
+      "model": "쏘렌토",
+      "catalog_model_code": "MQ4",
+      "available_years": [
+        "2027",
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2012"
+      ],
+      "latest_catalog_year": "2027",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EC%8F%98%EB%A0%8C%ED%86%A0",
+      "selected_variants": [
+        {
+          "modelId": "MQ4",
+          "modelName": "쏘렌토",
+          "projCode": "MQ4",
+          "modelType": "SUV",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2027",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/2279/MQRV24SWP.png",
+          "listImgUrl": "/api/v2/kia/files/2468/MQRV24SWP.png"
+        }
+      ]
+    },
+    {
+      "model": "쏘울",
+      "catalog_model_code": "SK3",
+      "available_years": [
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2012",
+        "2011"
+      ],
+      "latest_catalog_year": "2021",
+      "scope": "archive_not_current_sales_lineup",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EC%8F%98%EC%9A%B8",
+      "selected_variants": [
+        {
+          "modelId": "SK3",
+          "modelName": "쏘울",
+          "projCode": "SK3",
+          "modelType": "SUV",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2021",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/2344/SWSD19SWP.png",
+          "listImgUrl": "/api/v2/kia/files/2499/SWSD19SWP.png"
+        }
+      ]
+    },
+    {
+      "model": "카니발",
+      "catalog_model_code": "KA4",
+      "available_years": [
+        "2027",
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2012"
+      ],
+      "latest_catalog_year": "2027",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EC%B9%B4%EB%8B%88%EB%B0%9C",
+      "selected_variants": [
+        {
+          "modelId": "KA4",
+          "modelName": "카니발",
+          "projCode": "KA4",
+          "modelType": "SUV",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2027",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/2263/KP.png",
+          "listImgUrl": "/api/v2/kia/files/2467/KPRV24SWP.png"
+        }
+      ]
+    },
+    {
+      "model": "카니발 하이리무진",
+      "catalog_model_code": "KA4HI",
+      "available_years": [
+        "2025",
+        "2024",
+        "2023",
+        "2021",
+        "2017"
+      ],
+      "latest_catalog_year": "2025",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EC%B9%B4%EB%8B%88%EB%B0%9C+%ED%95%98%EC%9D%B4%EB%A6%AC%EB%AC%B4%EC%A7%84",
+      "selected_variants": [
+        {
+          "modelId": "KA4HI",
+          "modelName": "카니발 하이리무진",
+          "projCode": "KA4HI",
+          "modelType": "SUV",
+          "vin": "",
+          "year": "2025",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/3362/KA4_ABP_0006_1440.png",
+          "listImgUrl": "/api/v2/kia/files/3363/KA4_ABP_0006_1440.png"
+        }
+      ]
+    },
+    {
+      "model": "카렌스",
+      "catalog_model_code": "RP",
+      "available_years": [
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2012",
+        "2010"
+      ],
+      "latest_catalog_year": "2018",
+      "scope": "archive_not_current_sales_lineup",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EC%B9%B4%EB%A0%8C%EC%8A%A4",
+      "selected_variants": [
+        {
+          "modelId": "RP",
+          "modelName": "카렌스",
+          "projCode": "RP",
+          "modelType": "SUV",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2018",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/3934/06_RP PE.png",
+          "listImgUrl": "/api/v2/kia/files/3935/06_RP PE.png"
+        }
+      ]
+    },
+    {
+      "model": "타스만",
+      "catalog_model_code": "TK1",
+      "available_years": [
+        "2027",
+        "2026"
+      ],
+      "latest_catalog_year": "2027",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%ED%83%80%EC%8A%A4%EB%A7%8C",
+      "selected_variants": [
+        {
+          "modelId": "TK1",
+          "modelName": "타스만",
+          "projCode": "TK1",
+          "modelType": "SUV",
+          "vin": "",
+          "year": "2027",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/4202/tasman_q_tam_250325.png",
+          "listImgUrl": "/api/v2/kia/files/4203/tasman_q_tam_250325.png"
+        }
+      ]
+    },
+    {
+      "model": "PV5",
+      "catalog_model_code": "SW1K",
+      "available_years": [
+        "2027",
+        "2026"
+      ],
+      "latest_catalog_year": "2027",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=PV5",
+      "selected_variants": [
+        {
+          "modelId": "SW1K",
+          "modelName": "PV5",
+          "projCode": "SW1K",
+          "modelType": "COMMERCIAL",
+          "vin": "",
+          "year": "2027",
+          "fuel": "EV",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/5873/pv5-cargo_q_ud_250822.png",
+          "listImgUrl": "/api/v2/kia/files/5874/pv5-cargo_q_ud_250822.png"
+        }
+      ]
+    },
+    {
+      "model": "그랜버드",
+      "catalog_model_code": "GZ",
+      "available_years": [
+        "2026",
+        "2025",
+        "2024",
+        "2021"
+      ],
+      "latest_catalog_year": "2026",
+      "scope": "excluded_bus",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EA%B7%B8%EB%9E%9C%EB%B2%84%EB%93%9C",
+      "selected_variants": [
+        {
+          "modelId": "GZ",
+          "modelName": "그랜버드",
+          "projCode": "GZ",
+          "modelType": "COMMERCIAL",
+          "vin": "",
+          "year": "2026",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/3932/04_GZ PE NEW.png",
+          "listImgUrl": "/api/v2/kia/files/3933/04_GZ PE NEW.png"
+        }
+      ]
+    },
+    {
+      "model": "봉고Ⅲ",
+      "catalog_model_code": "PU",
+      "available_years": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014"
+      ],
+      "latest_catalog_year": "2026",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EB%B4%89%EA%B3%A0%E2%85%A2",
+      "selected_variants": [
+        {
+          "modelId": "PU",
+          "modelName": "봉고Ⅲ",
+          "projCode": "PU",
+          "modelType": "COMMERCIAL",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2026",
+          "fuel": "ICE",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/3785/14_bongo3_q_ud.png",
+          "listImgUrl": "/api/v2/kia/files/3786/14_bongo3_q_ud.png"
+        }
+      ]
+    },
+    {
+      "model": "EV3",
+      "catalog_model_code": "SV1",
+      "available_years": [
+        "2027",
+        "2026",
+        "2025"
+      ],
+      "latest_catalog_year": "2027",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=EV3",
+      "selected_variants": [
+        {
+          "modelId": "SV1",
+          "modelName": "EV3",
+          "projCode": "SV1",
+          "modelType": "ELECTRIC",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2027",
+          "fuel": "EV",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/3855/21_SV_swp_63.png",
+          "listImgUrl": "/api/v2/kia/files/3856/21_SV_swp_63.png"
+        }
+      ]
+    },
+    {
+      "model": "EV4",
+      "catalog_model_code": "CT1",
+      "available_years": [
+        "2027",
+        "2026"
+      ],
+      "latest_catalog_year": "2027",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=EV4",
+      "selected_variants": [
+        {
+          "modelId": "CT1",
+          "modelName": "EV4",
+          "projCode": "CT1",
+          "modelType": "ELECTRIC",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2027",
+          "fuel": "EV",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/4200/ev4_q_acw_250325.png",
+          "listImgUrl": "/api/v2/kia/files/4201/ev4_q_acw_250325.png"
+        }
+      ]
+    },
+    {
+      "model": "EV5",
+      "catalog_model_code": "OV1K",
+      "available_years": [
+        "2026"
+      ],
+      "latest_catalog_year": "2026",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=EV5",
+      "selected_variants": [
+        {
+          "modelId": "OV1K",
+          "modelName": "EV5",
+          "projCode": "OV1K",
+          "modelType": "ELECTRIC",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2026",
+          "fuel": "EV",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/3644/12_Snow White Pearl_SWP_61.png",
+          "listImgUrl": "/api/v2/kia/files/3645/12_Snow White Pearl_SWP_61.png"
+        }
+      ]
+    },
+    {
+      "model": "EV6",
+      "catalog_model_code": "CV1",
+      "available_years": [
+        "2027",
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022"
+      ],
+      "latest_catalog_year": "2027",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=EV6",
+      "selected_variants": [
+        {
+          "modelId": "CV1",
+          "modelName": "EV6",
+          "projCode": "CV1",
+          "modelType": "ELECTRIC",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2027",
+          "fuel": "EV",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/3648/4_EV6PE_LONG_GTLINE_SWP.0007.png",
+          "listImgUrl": "/api/v2/kia/files/3649/4_EV6PE_LONG_GTLINE_SWP.0007.png"
+        }
+      ]
+    },
+    {
+      "model": "EV9",
+      "catalog_model_code": "MV1",
+      "available_years": [
+        "2027",
+        "2026",
+        "2025",
+        "2024"
+      ],
+      "latest_catalog_year": "2027",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=EV9",
+      "selected_variants": [
+        {
+          "modelId": "MV1",
+          "modelName": "EV9",
+          "projCode": "MV1",
+          "modelType": "ELECTRIC",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2027",
+          "fuel": "EV",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/2268/MV.png",
+          "listImgUrl": "/api/v2/kia/files/2469/MV.png"
+        }
+      ]
+    },
+    {
+      "model": "K5 Hybrid",
+      "catalog_model_code": "DL3KH",
+      "available_years": [
+        "2027",
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2012",
+        "2011"
+      ],
+      "latest_catalog_year": "2027",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=K5+Hybrid",
+      "selected_variants": [
+        {
+          "modelId": "DL3KH",
+          "modelName": "K5 Hybrid",
+          "projCode": "DL3KH",
+          "modelType": "ELECTRIC",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2027",
+          "fuel": "HEV",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/2270/DLSD24SWP.png",
+          "listImgUrl": "/api/v2/kia/files/2516/DLSD24SWP.png"
+        }
+      ]
+    },
+    {
+      "model": "K7 Hybrid",
+      "catalog_model_code": "YGE",
+      "available_years": [
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013"
+      ],
+      "latest_catalog_year": "2020",
+      "scope": "archive_not_current_sales_lineup",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=K7+Hybrid",
+      "selected_variants": [
+        {
+          "modelId": "YGE",
+          "modelName": "K7 Hybrid",
+          "projCode": "YGE",
+          "modelType": "ELECTRIC",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2020",
+          "fuel": "HEV",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/2271/YGSD20SWP.png",
+          "listImgUrl": "/api/v2/kia/files/2602/YGSD20SWP.png"
+        }
+      ]
+    },
+    {
+      "model": "K8 Hybrid",
+      "catalog_model_code": "GL3KH",
+      "available_years": [
+        "2027",
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022"
+      ],
+      "latest_catalog_year": "2027",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=K8+Hybrid",
+      "selected_variants": [
+        {
+          "modelId": "GL3KH",
+          "modelName": "K8 Hybrid",
+          "projCode": "GL3KH",
+          "modelType": "ELECTRIC",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2027",
+          "fuel": "HEV",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/3650/6_k8_q.png",
+          "listImgUrl": "/api/v2/kia/files/3651/6_k8_q.png"
+        }
+      ]
+    },
+    {
+      "model": "니로",
+      "catalog_model_code": "SG2",
+      "available_years": [
+        "2027",
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016"
+      ],
+      "latest_catalog_year": "2027",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EB%8B%88%EB%A1%9C",
+      "selected_variants": [
+        {
+          "modelId": "SG2",
+          "modelName": "니로",
+          "projCode": "SG2",
+          "modelType": "ELECTRIC",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2027",
+          "fuel": "PHEV_HEV",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/6785/niro_.png",
+          "listImgUrl": "/api/v2/kia/files/6786/niro_.png"
+        }
+      ]
+    },
+    {
+      "model": "니로 EV",
+      "catalog_model_code": "SG2KV",
+      "available_years": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019"
+      ],
+      "latest_catalog_year": "2026",
+      "scope": "archive_not_current_sales_lineup",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EB%8B%88%EB%A1%9C+EV",
+      "selected_variants": [
+        {
+          "modelId": "SG2KV",
+          "modelName": "니로 EV",
+          "projCode": "SG2KV",
+          "modelType": "ELECTRIC",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2026",
+          "fuel": "EV",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/2341/SGEV23SWP.png",
+          "listImgUrl": "/api/v2/kia/files/2470/SGEV23SWP.png"
+        }
+      ]
+    },
+    {
+      "model": "니로 플러스",
+      "catalog_model_code": "DEE",
+      "available_years": [
+        "2023"
+      ],
+      "latest_catalog_year": "2023",
+      "scope": "archive_not_current_sales_lineup",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EB%8B%88%EB%A1%9C+%ED%94%8C%EB%9F%AC%EC%8A%A4",
+      "selected_variants": [
+        {
+          "modelId": "DEE",
+          "modelName": "니로 플러스",
+          "projCode": "DEE",
+          "modelType": "ELECTRIC",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2023",
+          "fuel": "PHEV_HEV",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/3629/DPEV22SWP.png",
+          "listImgUrl": "/api/v2/kia/files/3630/DPEV22SWP.png"
+        }
+      ]
+    },
+    {
+      "model": "레이 EV",
+      "catalog_model_code": "TAMEV",
+      "available_years": [
+        "2027",
+        "2026",
+        "2025",
+        "2024"
+      ],
+      "latest_catalog_year": "2027",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EB%A0%88%EC%9D%B4+EV",
+      "selected_variants": [
+        {
+          "modelId": "TAMEV",
+          "modelName": "레이 EV",
+          "projCode": "TAMEV",
+          "modelType": "ELECTRIC",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2027",
+          "fuel": "EV",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/2283/TMEV24AEQ.png",
+          "listImgUrl": "/api/v2/kia/files/2562/TMSD24AEQ.png"
+        }
+      ]
+    },
+    {
+      "model": "봉고Ⅲ EV",
+      "catalog_model_code": "PUEV",
+      "available_years": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020"
+      ],
+      "latest_catalog_year": "2026",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EB%B4%89%EA%B3%A0%E2%85%A2+EV",
+      "selected_variants": [
+        {
+          "modelId": "PUEV",
+          "modelName": "봉고Ⅲ EV",
+          "projCode": "PUEV",
+          "modelType": "ELECTRIC",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2026",
+          "fuel": "EV",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/3787/15_bongo3-ev_q_ud.png",
+          "listImgUrl": "/api/v2/kia/files/3788/15_bongo3-ev_q_ud.png"
+        }
+      ]
+    },
+    {
+      "model": "스포티지 Hybrid",
+      "catalog_model_code": "NQ5KH",
+      "available_years": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022"
+      ],
+      "latest_catalog_year": "2026",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EC%8A%A4%ED%8F%AC%ED%8B%B0%EC%A7%80+Hybrid",
+      "selected_variants": [
+        {
+          "modelId": "NQ5KH",
+          "modelName": "스포티지 Hybrid",
+          "projCode": "NQ5KH",
+          "modelType": "ELECTRIC",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2026",
+          "fuel": "PHEV_HEV",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/4076/241220_NQ5_PE.png",
+          "listImgUrl": "/api/v2/kia/files/4077/241220_NQ5_PE.png"
+        }
+      ]
+    },
+    {
+      "model": "쏘렌토 Hybrid",
+      "catalog_model_code": "MQ4KH",
+      "available_years": [
+        "2027",
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021"
+      ],
+      "latest_catalog_year": "2027",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EC%8F%98%EB%A0%8C%ED%86%A0+Hybrid",
+      "selected_variants": [
+        {
+          "modelId": "MQ4KH",
+          "modelName": "쏘렌토 Hybrid",
+          "projCode": "MQ4KH",
+          "modelType": "ELECTRIC",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2027",
+          "fuel": "PHEV_HEV",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/2279/MQRV24SWP.png",
+          "listImgUrl": "/api/v2/kia/files/2468/MQRV24SWP.png"
+        }
+      ]
+    },
+    {
+      "model": "쏘울 EV",
+      "catalog_model_code": "SK3KV",
+      "available_years": [
+        "2021",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014"
+      ],
+      "latest_catalog_year": "2021",
+      "scope": "archive_not_current_sales_lineup",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EC%8F%98%EC%9A%B8+EV",
+      "selected_variants": [
+        {
+          "modelId": "SK3KV",
+          "modelName": "쏘울 EV",
+          "projCode": "SK3KV",
+          "modelType": "ELECTRIC",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2021",
+          "fuel": "EV",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/2343/SWEV19SWP.png",
+          "listImgUrl": "/api/v2/kia/files/2498/SWEV19SWP.png"
+        }
+      ]
+    },
+    {
+      "model": "카니발 Hybrid",
+      "catalog_model_code": "KA4KH",
+      "available_years": [
+        "2027",
+        "2026",
+        "2025",
+        "2024"
+      ],
+      "latest_catalog_year": "2027",
+      "scope": "current_core_family",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%EC%B9%B4%EB%8B%88%EB%B0%9C+Hybrid",
+      "selected_variants": [
+        {
+          "modelId": "KA4KH",
+          "modelName": "카니발 Hybrid",
+          "projCode": "KA4KH",
+          "modelType": "ELECTRIC",
+          "vin": "KXXXXXXXXXXXXXXXX",
+          "year": "2027",
+          "fuel": "HEV",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/2323/KPRV24SWP.png",
+          "listImgUrl": "/api/v2/kia/files/2479/KPRV24SWP.png"
+        }
+      ]
+    },
+    {
+      "model": "포르테 Hybrid",
+      "catalog_model_code": "TDE",
+      "available_years": [
+        "2012"
+      ],
+      "latest_catalog_year": "2012",
+      "scope": "archive_not_current_sales_lineup",
+      "model_metadata_url": "https://ownersmanual.kia.com/api/v3/kia/model?countryCode=A99&langCode=ko_KR&modelName=%ED%8F%AC%EB%A5%B4%ED%85%8C+Hybrid",
+      "selected_variants": [
+        {
+          "modelId": "TDE",
+          "modelName": "포르테 Hybrid",
+          "projCode": "TDE",
+          "modelType": "ELECTRIC",
+          "vin": "",
+          "year": "2012",
+          "fuel": "HEV",
+          "langCode": "ko_KR",
+          "mainImgUrl": "/api/v2/kia/files/4035/01_Forte 5 door.png",
+          "listImgUrl": "/api/v2/kia/files/4036/01_Forte 5 door.png"
+        }
+      ]
+    }
+  ],
+  "scope_notes": "Core families checked against Korean current sales EV/sedan/RV/PBV/commercial pages. Special bodies and GT coverage require separate content verification. Archives are inventoried but not downloaded."
+}

@@ -1,0 +1,4334 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "AI",
+  "runtimeApproved": false,
+  "allCountermeasuresReviewed": false,
+  "rules": [
+    {
+      "ruleId": "HY-PROCEDURE-DN8-2026-OVERHEAT",
+      "documentIds": [
+        "HYUNDAI-DN8-2026"
+      ],
+      "topic": "OVERHEAT",
+      "conditions": [
+        "엔진 수온 과열·출력 저하·노킹 문맥. 증기/냉각수 분출 및 냉각팬 상태를 먼저 구분한다."
+      ],
+      "orderedActions": [
+        "비상등을 켜고 안전하게 정차하여 P·주차브레이크를 적용하고 에어컨을 끈다.",
+        "증기 또는 냉각수 분출이면 엔진을 끄고 정비 연락. 분출이 없을 때만 시동 상태에서 후드를 열어 냉각한다. 수온이 내려가지 않거나 팬이 돌지 않으면 시동을 끄고 충분히 식힌다.",
+        "충분히 식은 뒤 수량·누수·호스·펌프를 확인한다. 누수/팬 미회전/벨트 손상이 있으면 운전을 중단하고 점검한다. 누수 없이 부족한 경우 적정 냉각수를 천천히 소량씩 보충한다."
+      ],
+      "driverProhibitions": [
+        "뜨거운 냉각수/라디에이터/히터 호스 캡을 열지 않는다.",
+        "팬·벨트에 손이나 옷을 가까이하지 않는다.",
+        "뜨거운 엔진에 차가운 냉각수를 급하게 붓지 않는다."
+      ],
+      "applicationConstraints": [
+        "냉각팬이 멈출 때까지 OFF 금지라는 주의문을 분출·팬 미회전 분기에 무조건 적용하지 않는다.",
+        "정차/시동 조치는 차량별 원문 예외가 우선한다.",
+        "오일압력·화재·고전압 배터리 과열에 이 엔진 냉각 절차를 전이하지 않는다."
+      ],
+      "restartCriteria": "충분한 냉각과 원인 확인이 선행된다. 본문은 경고 소멸만으로 무조건 주행 허가하지 않는다.",
+      "sources": [
+        {
+          "id": "DN8-2026-OVERHEAT",
+          "documentId": "HYUNDAI-DN8-2026",
+          "topic": "OVERHEAT",
+          "title": "엔진 과열",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/DN8/2026/ko_KR",
+          "documentSha256": "f83f44abcf8f59c30fa4d0b0b419a8e7aaca54da7d6f5c5fc9b3f83cab650e23",
+          "locator": {
+            "pdfPages1Based": [
+              430,
+              431
+            ]
+          },
+          "sourceTextSha256": "b021227d0bbf99c759eb63a6c5f030025cc5bab1a3ff1270931168913e34305b",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/DN8-2026-OVERHEAT.txt",
+          "characters": 1958,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-DN8HEV-2026-OVERHEAT",
+      "documentIds": [
+        "HYUNDAI-DN8HEV-2026"
+      ],
+      "topic": "OVERHEAT",
+      "conditions": [
+        "엔진 수온 과열·출력 저하·노킹 문맥. 증기/냉각수 분출 및 냉각팬 상태를 먼저 구분한다."
+      ],
+      "orderedActions": [
+        "비상등을 켜고 안전하게 정차하여 P·주차브레이크를 적용하고 에어컨을 끈다.",
+        "증기 또는 냉각수 분출이면 엔진을 끄고 정비 연락. 분출이 없을 때만 시동 상태에서 후드를 열어 냉각한다. 수온이 내려가지 않거나 팬이 돌지 않으면 시동을 끄고 충분히 식힌다.",
+        "충분히 식은 뒤 수량·누수·호스·펌프를 확인한다. 누수/팬 미회전/벨트 손상이 있으면 운전을 중단하고 점검한다. 누수 없이 부족한 경우 적정 냉각수를 천천히 소량씩 보충한다."
+      ],
+      "driverProhibitions": [
+        "뜨거운 냉각수/라디에이터/히터 호스 캡을 열지 않는다.",
+        "팬·벨트에 손이나 옷을 가까이하지 않는다.",
+        "뜨거운 엔진에 차가운 냉각수를 급하게 붓지 않는다."
+      ],
+      "applicationConstraints": [
+        "냉각팬이 멈출 때까지 OFF 금지라는 주의문을 분출·팬 미회전 분기에 무조건 적용하지 않는다.",
+        "정차/시동 조치는 차량별 원문 예외가 우선한다.",
+        "오일압력·화재·고전압 배터리 과열에 이 엔진 냉각 절차를 전이하지 않는다."
+      ],
+      "restartCriteria": "충분한 냉각과 원인 확인이 선행된다. 본문은 경고 소멸만으로 무조건 주행 허가하지 않는다.",
+      "sources": [
+        {
+          "id": "DN8HEV-2026-OVERHEAT",
+          "documentId": "HYUNDAI-DN8HEV-2026",
+          "topic": "OVERHEAT",
+          "title": "엔진 과열",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/DN8HEV/2026/ko_KR",
+          "documentSha256": "5843551877e8a3279e67ca5830f64df2f7ac8cb0bbb4020f3415cd0e11dd3158",
+          "locator": {
+            "pdfPages1Based": [
+              455,
+              456,
+              457
+            ]
+          },
+          "sourceTextSha256": "dfee66f5a96be740a4792ee425399a75de4c7f0f4d4d85fe249bf8abaf352ab2",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/DN8HEV-2026-OVERHEAT.txt",
+          "characters": 2344,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-DN8c-2025-OVERHEAT",
+      "documentIds": [
+        "HYUNDAI-DN8c-2025"
+      ],
+      "topic": "OVERHEAT",
+      "conditions": [
+        "엔진 수온 과열·출력 저하·노킹 문맥. 증기/냉각수 분출 및 냉각팬 상태를 먼저 구분한다."
+      ],
+      "orderedActions": [
+        "비상등을 켜고 안전하게 정차하여 P·주차브레이크를 적용하고 에어컨을 끈다.",
+        "증기 또는 냉각수 분출이면 엔진을 끄고 정비 연락. 분출이 없을 때만 시동 상태에서 후드를 열어 냉각한다. 수온이 내려가지 않거나 팬이 돌지 않으면 시동을 끄고 충분히 식힌다.",
+        "충분히 식은 뒤 수량·누수·호스·펌프를 확인한다. 누수/팬 미회전/벨트 손상이 있으면 운전을 중단하고 점검한다. 누수 없이 부족한 경우 적정 냉각수를 천천히 소량씩 보충한다."
+      ],
+      "driverProhibitions": [
+        "뜨거운 냉각수/라디에이터/히터 호스 캡을 열지 않는다.",
+        "팬·벨트에 손이나 옷을 가까이하지 않는다.",
+        "뜨거운 엔진에 차가운 냉각수를 급하게 붓지 않는다."
+      ],
+      "applicationConstraints": [
+        "냉각팬이 멈출 때까지 OFF 금지라는 주의문을 분출·팬 미회전 분기에 무조건 적용하지 않는다.",
+        "정차/시동 조치는 차량별 원문 예외가 우선한다.",
+        "오일압력·화재·고전압 배터리 과열에 이 엔진 냉각 절차를 전이하지 않는다."
+      ],
+      "restartCriteria": "충분한 냉각과 원인 확인이 선행된다. 본문은 경고 소멸만으로 무조건 주행 허가하지 않는다.",
+      "sources": [
+        {
+          "id": "DN8c-2025-OVERHEAT",
+          "documentId": "HYUNDAI-DN8c-2025",
+          "topic": "OVERHEAT",
+          "title": "엔진 과열",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/DN8c/2025/ko_KR",
+          "documentSha256": "ebd8b03c59aa7f37640f2b8150f96fe7da75191ee907550a56547b647ebc7e2c",
+          "locator": {
+            "pdfPages1Based": [
+              310,
+              311,
+              312
+            ]
+          },
+          "sourceTextSha256": "a704a352f8889d807d4680fa839346242fcc9b206cde9c75d2d5bdfe221a4ffa",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/DN8c-2025-OVERHEAT.txt",
+          "characters": 2611,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-US4-2026-OVERHEAT",
+      "documentIds": [
+        "HYUNDAI-US4-2026"
+      ],
+      "topic": "OVERHEAT",
+      "conditions": [
+        "엔진 수온 과열·출력 저하·노킹 문맥. 증기/냉각수 분출 및 냉각팬 상태를 먼저 구분한다."
+      ],
+      "orderedActions": [
+        "비상등을 켜고 안전하게 정차하여 P·주차브레이크를 적용하고 에어컨을 끈다.",
+        "증기 또는 냉각수 분출이면 엔진을 끄고 정비 연락. 분출이 없을 때만 시동 상태에서 후드를 열어 냉각한다. 수온이 내려가지 않거나 팬이 돌지 않으면 시동을 끄고 충분히 식힌다.",
+        "충분히 식은 뒤 수량·누수·호스·펌프를 확인한다. 누수/팬 미회전/벨트 손상이 있으면 운전을 중단하고 점검한다. 누수 없이 부족한 경우 적정 냉각수를 천천히 소량씩 보충한다."
+      ],
+      "driverProhibitions": [
+        "뜨거운 냉각수/라디에이터/히터 호스 캡을 열지 않는다.",
+        "팬·벨트에 손이나 옷을 가까이하지 않는다.",
+        "뜨거운 엔진에 차가운 냉각수를 급하게 붓지 않는다."
+      ],
+      "applicationConstraints": [
+        "냉각팬이 멈출 때까지 OFF 금지라는 주의문을 분출·팬 미회전 분기에 무조건 적용하지 않는다.",
+        "정차/시동 조치는 차량별 원문 예외가 우선한다.",
+        "오일압력·화재·고전압 배터리 과열에 이 엔진 냉각 절차를 전이하지 않는다."
+      ],
+      "restartCriteria": "충분한 냉각과 원인 확인이 선행된다. 본문은 경고 소멸만으로 무조건 주행 허가하지 않는다.",
+      "sources": [
+        {
+          "id": "US4-2026-OVERHEAT",
+          "documentId": "HYUNDAI-US4-2026",
+          "topic": "OVERHEAT",
+          "title": "엔진 과열",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4/2026/ko_KR",
+          "documentSha256": "7627c80a2708e9918b9dca6227f383ddfb3f09c02c824ea69563a97780083519",
+          "locator": {
+            "pdfPages1Based": [
+              453,
+              454,
+              455
+            ]
+          },
+          "sourceTextSha256": "4f0853b552e308964975c020d119e8f1fbe1c86e75ea37e9b5d145cbea6e10fe",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/US4-2026-OVERHEAT.txt",
+          "characters": 2062,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-US4HEV-2026-OVERHEAT",
+      "documentIds": [
+        "HYUNDAI-US4HEV-2026"
+      ],
+      "topic": "OVERHEAT",
+      "conditions": [
+        "엔진 수온 과열·출력 저하·노킹 문맥. 증기/냉각수 분출 및 냉각팬 상태를 먼저 구분한다."
+      ],
+      "orderedActions": [
+        "비상등을 켜고 안전하게 정차하여 P·주차브레이크를 적용하고 에어컨을 끈다.",
+        "증기 또는 냉각수 분출이면 엔진을 끄고 정비 연락. 분출이 없을 때만 시동 상태에서 후드를 열어 냉각한다. 수온이 내려가지 않거나 팬이 돌지 않으면 시동을 끄고 충분히 식힌다.",
+        "충분히 식은 뒤 수량·누수·호스·펌프를 확인한다. 누수/팬 미회전/벨트 손상이 있으면 운전을 중단하고 점검한다. 누수 없이 부족한 경우 적정 냉각수를 천천히 소량씩 보충한다."
+      ],
+      "driverProhibitions": [
+        "뜨거운 냉각수/라디에이터/히터 호스 캡을 열지 않는다.",
+        "팬·벨트에 손이나 옷을 가까이하지 않는다.",
+        "뜨거운 엔진에 차가운 냉각수를 급하게 붓지 않는다."
+      ],
+      "applicationConstraints": [
+        "냉각팬이 멈출 때까지 OFF 금지라는 주의문을 분출·팬 미회전 분기에 무조건 적용하지 않는다.",
+        "정차/시동 조치는 차량별 원문 예외가 우선한다.",
+        "오일압력·화재·고전압 배터리 과열에 이 엔진 냉각 절차를 전이하지 않는다."
+      ],
+      "restartCriteria": "충분한 냉각과 원인 확인이 선행된다. 본문은 경고 소멸만으로 무조건 주행 허가하지 않는다.",
+      "sources": [
+        {
+          "id": "US4HEV-2026-OVERHEAT",
+          "documentId": "HYUNDAI-US4HEV-2026",
+          "topic": "OVERHEAT",
+          "title": "엔진 과열",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4HEV/2026/ko_KR",
+          "documentSha256": "393da16edb0b1e48d9fcf58aae0e37691f1ba26fa6cc53e5108d5566b9fd91f3",
+          "locator": {
+            "pdfPages1Based": [
+              489,
+              490,
+              491
+            ]
+          },
+          "sourceTextSha256": "65a233a0f723d820f7ae806e5e634fb5bf22dc2359e9f1f4f60a45bbebb1d8ad",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/US4HEV-2026-OVERHEAT.txt",
+          "characters": 2062,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-MX5-2026-OVERHEAT",
+      "documentIds": [
+        "HYUNDAI-MX5-2026"
+      ],
+      "topic": "OVERHEAT",
+      "conditions": [
+        "엔진 수온 과열·출력 저하·노킹 문맥. 증기/냉각수 분출 및 냉각팬 상태를 먼저 구분한다."
+      ],
+      "orderedActions": [
+        "비상등을 켜고 안전하게 정차하여 P·주차브레이크를 적용하고 에어컨을 끈다.",
+        "증기 또는 냉각수 분출이면 엔진을 끄고 정비 연락. 분출이 없을 때만 시동 상태에서 후드를 열어 냉각한다. 수온이 내려가지 않거나 팬이 돌지 않으면 시동을 끄고 충분히 식힌다.",
+        "충분히 식은 뒤 수량·누수·호스·펌프를 확인한다. 누수/팬 미회전/벨트 손상이 있으면 운전을 중단하고 점검한다. 누수 없이 부족한 경우 적정 냉각수를 천천히 소량씩 보충한다."
+      ],
+      "driverProhibitions": [
+        "뜨거운 냉각수/라디에이터/히터 호스 캡을 열지 않는다.",
+        "팬·벨트에 손이나 옷을 가까이하지 않는다.",
+        "뜨거운 엔진에 차가운 냉각수를 급하게 붓지 않는다."
+      ],
+      "applicationConstraints": [
+        "냉각팬이 멈출 때까지 OFF 금지라는 주의문을 분출·팬 미회전 분기에 무조건 적용하지 않는다.",
+        "정차/시동 조치는 차량별 원문 예외가 우선한다.",
+        "오일압력·화재·고전압 배터리 과열에 이 엔진 냉각 절차를 전이하지 않는다."
+      ],
+      "restartCriteria": "충분한 냉각과 원인 확인이 선행된다. 본문은 경고 소멸만으로 무조건 주행 허가하지 않는다.",
+      "sources": [
+        {
+          "id": "MX5-2026-OVERHEAT",
+          "documentId": "HYUNDAI-MX5-2026",
+          "topic": "OVERHEAT",
+          "title": "엔진 과열",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/MX5/2026/ko_KR",
+          "documentSha256": "5cf84f7e7f709383d711b7450321dde6c9a63e98b307649b366915f57eacece6",
+          "locator": {
+            "pdfPages1Based": [
+              633,
+              634,
+              635
+            ]
+          },
+          "sourceTextSha256": "35020d3253ab2efee52177f4a444aa8bd624b6ec2144de71d438c3657bc34c02",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/MX5-2026-OVERHEAT.txt",
+          "characters": 1801,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-MX5HEV-2026-OVERHEAT",
+      "documentIds": [
+        "HYUNDAI-MX5HEV-2026"
+      ],
+      "topic": "OVERHEAT",
+      "conditions": [
+        "엔진 수온 과열·출력 저하·노킹 문맥. 증기/냉각수 분출 및 냉각팬 상태를 먼저 구분한다."
+      ],
+      "orderedActions": [
+        "비상등을 켜고 안전하게 정차하여 P·주차브레이크를 적용하고 에어컨을 끈다.",
+        "증기 또는 냉각수 분출이면 엔진을 끄고 정비 연락. 분출이 없을 때만 시동 상태에서 후드를 열어 냉각한다. 수온이 내려가지 않거나 팬이 돌지 않으면 시동을 끄고 충분히 식힌다.",
+        "충분히 식은 뒤 수량·누수·호스·펌프를 확인한다. 누수/팬 미회전/벨트 손상이 있으면 운전을 중단하고 점검한다. 누수 없이 부족한 경우 적정 냉각수를 천천히 소량씩 보충한다."
+      ],
+      "driverProhibitions": [
+        "뜨거운 냉각수/라디에이터/히터 호스 캡을 열지 않는다.",
+        "팬·벨트에 손이나 옷을 가까이하지 않는다.",
+        "뜨거운 엔진에 차가운 냉각수를 급하게 붓지 않는다."
+      ],
+      "applicationConstraints": [
+        "냉각팬이 멈출 때까지 OFF 금지라는 주의문을 분출·팬 미회전 분기에 무조건 적용하지 않는다.",
+        "정차/시동 조치는 차량별 원문 예외가 우선한다.",
+        "오일압력·화재·고전압 배터리 과열에 이 엔진 냉각 절차를 전이하지 않는다."
+      ],
+      "restartCriteria": "충분한 냉각과 원인 확인이 선행된다. 본문은 경고 소멸만으로 무조건 주행 허가하지 않는다.",
+      "sources": [
+        {
+          "id": "MX5HEV-2026-OVERHEAT",
+          "documentId": "HYUNDAI-MX5HEV-2026",
+          "topic": "OVERHEAT",
+          "title": "엔진 과열",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/MX5HEV/2026/ko_KR",
+          "documentSha256": "8fef11ef06a5ec675868b54b00b49b40de6bd4445f9f123fd0b4f6e0c5daad1b",
+          "locator": {
+            "pdfPages1Based": [
+              667,
+              668,
+              669
+            ]
+          },
+          "sourceTextSha256": "c6785b816eca05ae4732885cfb1b953310bae20c2ea29c8ff8a2ee7c837510cd",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/MX5HEV-2026-OVERHEAT.txt",
+          "characters": 1801,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-AX-2027-OVERHEAT",
+      "documentIds": [
+        "HYUNDAI-AX-2027"
+      ],
+      "topic": "OVERHEAT",
+      "conditions": [
+        "엔진 수온 과열·출력 저하·노킹 문맥. 증기/냉각수 분출 및 냉각팬 상태를 먼저 구분한다."
+      ],
+      "orderedActions": [
+        "비상등을 켜고 안전하게 정차하여 P·주차브레이크를 적용하고 에어컨을 끈다.",
+        "증기 또는 냉각수 분출이면 엔진을 끄고 정비 연락. 분출이 없을 때만 시동 상태에서 후드를 열어 냉각한다. 수온이 내려가지 않거나 팬이 돌지 않으면 시동을 끄고 충분히 식힌다.",
+        "충분히 식은 뒤 수량·누수·호스·펌프를 확인한다. 누수/팬 미회전/벨트 손상이 있으면 운전을 중단하고 점검한다. 누수 없이 부족한 경우 적정 냉각수를 천천히 소량씩 보충한다."
+      ],
+      "driverProhibitions": [
+        "뜨거운 냉각수/라디에이터/히터 호스 캡을 열지 않는다.",
+        "팬·벨트에 손이나 옷을 가까이하지 않는다.",
+        "뜨거운 엔진에 차가운 냉각수를 급하게 붓지 않는다."
+      ],
+      "applicationConstraints": [
+        "냉각팬이 멈출 때까지 OFF 금지라는 주의문을 분출·팬 미회전 분기에 무조건 적용하지 않는다.",
+        "정차/시동 조치는 차량별 원문 예외가 우선한다.",
+        "오일압력·화재·고전압 배터리 과열에 이 엔진 냉각 절차를 전이하지 않는다."
+      ],
+      "restartCriteria": "충분한 냉각과 원인 확인이 선행된다. 본문은 경고 소멸만으로 무조건 주행 허가하지 않는다.",
+      "sources": [
+        {
+          "id": "AX-2027-OVERHEAT",
+          "documentId": "HYUNDAI-AX-2027",
+          "topic": "OVERHEAT",
+          "title": "엔진 과열",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/AX/2027/ko_KR",
+          "documentSha256": "f38683b42a7f71269b87ec96b1fb0a1ac20811e2a2330af22b9bc633f8a593e5",
+          "locator": {
+            "pdfPages1Based": [
+              329,
+              330,
+              331
+            ]
+          },
+          "sourceTextSha256": "4c3f231b3580ec5550bb5b633a50b9c89ded55e193bcab3e00e91b1d530d7e64",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/AX-2027-OVERHEAT.txt",
+          "characters": 1928,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-SX2-2027-OVERHEAT",
+      "documentIds": [
+        "HYUNDAI-SX2-2027"
+      ],
+      "topic": "OVERHEAT",
+      "conditions": [
+        "엔진 수온 과열·출력 저하·노킹 문맥. 증기/냉각수 분출 및 냉각팬 상태를 먼저 구분한다."
+      ],
+      "orderedActions": [
+        "비상등을 켜고 안전하게 정차하여 P·주차브레이크를 적용하고 에어컨을 끈다.",
+        "증기 또는 냉각수 분출이면 엔진을 끄고 정비 연락. 분출이 없을 때만 시동 상태에서 후드를 열어 냉각한다. 수온이 내려가지 않거나 팬이 돌지 않으면 시동을 끄고 충분히 식힌다.",
+        "충분히 식은 뒤 수량·누수·호스·펌프를 확인한다. 누수/팬 미회전/벨트 손상이 있으면 운전을 중단하고 점검한다. 누수 없이 부족한 경우 적정 냉각수를 천천히 소량씩 보충한다."
+      ],
+      "driverProhibitions": [
+        "뜨거운 냉각수/라디에이터/히터 호스 캡을 열지 않는다.",
+        "팬·벨트에 손이나 옷을 가까이하지 않는다.",
+        "뜨거운 엔진에 차가운 냉각수를 급하게 붓지 않는다."
+      ],
+      "applicationConstraints": [
+        "냉각팬이 멈출 때까지 OFF 금지라는 주의문을 분출·팬 미회전 분기에 무조건 적용하지 않는다.",
+        "정차/시동 조치는 차량별 원문 예외가 우선한다.",
+        "오일압력·화재·고전압 배터리 과열에 이 엔진 냉각 절차를 전이하지 않는다."
+      ],
+      "restartCriteria": "충분한 냉각과 원인 확인이 선행된다. 본문은 경고 소멸만으로 무조건 주행 허가하지 않는다.",
+      "sources": [
+        {
+          "id": "SX2-2027-OVERHEAT",
+          "documentId": "HYUNDAI-SX2-2027",
+          "topic": "OVERHEAT",
+          "title": "엔진 과열",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/SX2/2027/ko_KR",
+          "documentSha256": "bcf895c9dbbcb59d64275175141e76958d3ad2ac65412ae18a9b658550938126",
+          "locator": {
+            "pdfPages1Based": [
+              607,
+              608,
+              609
+            ]
+          },
+          "sourceTextSha256": "e2d081c03d62845c1b82b571384bf29d02427c2a983888ef79d672e2d47dce5b",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/SX2-2027-OVERHEAT.txt",
+          "characters": 1796,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-SX2HEV-2027-OVERHEAT",
+      "documentIds": [
+        "HYUNDAI-SX2HEV-2027"
+      ],
+      "topic": "OVERHEAT",
+      "conditions": [
+        "엔진 수온 과열·출력 저하·노킹 문맥. 증기/냉각수 분출 및 냉각팬 상태를 먼저 구분한다."
+      ],
+      "orderedActions": [
+        "비상등을 켜고 안전하게 정차하여 P·주차브레이크를 적용하고 에어컨을 끈다.",
+        "증기 또는 냉각수 분출이면 엔진을 끄고 정비 연락. 분출이 없을 때만 시동 상태에서 후드를 열어 냉각한다. 수온이 내려가지 않거나 팬이 돌지 않으면 시동을 끄고 충분히 식힌다.",
+        "충분히 식은 뒤 수량·누수·호스·펌프를 확인한다. 누수/팬 미회전/벨트 손상이 있으면 운전을 중단하고 점검한다. 누수 없이 부족한 경우 적정 냉각수를 천천히 소량씩 보충한다."
+      ],
+      "driverProhibitions": [
+        "뜨거운 냉각수/라디에이터/히터 호스 캡을 열지 않는다.",
+        "팬·벨트에 손이나 옷을 가까이하지 않는다.",
+        "뜨거운 엔진에 차가운 냉각수를 급하게 붓지 않는다."
+      ],
+      "applicationConstraints": [
+        "냉각팬이 멈출 때까지 OFF 금지라는 주의문을 분출·팬 미회전 분기에 무조건 적용하지 않는다.",
+        "정차/시동 조치는 차량별 원문 예외가 우선한다.",
+        "오일압력·화재·고전압 배터리 과열에 이 엔진 냉각 절차를 전이하지 않는다."
+      ],
+      "restartCriteria": "충분한 냉각과 원인 확인이 선행된다. 본문은 경고 소멸만으로 무조건 주행 허가하지 않는다.",
+      "sources": [
+        {
+          "id": "SX2HEV-2027-OVERHEAT",
+          "documentId": "HYUNDAI-SX2HEV-2027",
+          "topic": "OVERHEAT",
+          "title": "엔진 과열",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/SX2HEV/2027/ko_KR",
+          "documentSha256": "7a56521c4225093eba2421e74f789a81d2199cd9849eb68d711c55993d436bbe",
+          "locator": {
+            "pdfPages1Based": [
+              612,
+              613,
+              614
+            ]
+          },
+          "sourceTextSha256": "dd93c22e414b9c248180d06d30885356fba623a050ec66d9f7244d213cd1f691",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/SX2HEV-2027-OVERHEAT.txt",
+          "characters": 1792,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-LX3-2027-OVERHEAT",
+      "documentIds": [
+        "HYUNDAI-LX3-2027"
+      ],
+      "topic": "OVERHEAT",
+      "conditions": [
+        "엔진 수온 과열·출력 저하·노킹 문맥. 증기/냉각수 분출 및 냉각팬 상태를 먼저 구분한다."
+      ],
+      "orderedActions": [
+        "비상등을 켜고 안전하게 정차하여 P·주차브레이크를 적용하고 에어컨을 끈다.",
+        "증기 또는 냉각수 분출이면 엔진을 끄고 정비 연락. 분출이 없을 때만 시동 상태에서 후드를 열어 냉각한다. 수온이 내려가지 않거나 팬이 돌지 않으면 시동을 끄고 충분히 식힌다.",
+        "충분히 식은 뒤 수량·누수·호스·펌프를 확인한다. 누수/팬 미회전/벨트 손상이 있으면 운전을 중단하고 점검한다. 누수 없이 부족한 경우 적정 냉각수를 천천히 소량씩 보충한다."
+      ],
+      "driverProhibitions": [
+        "뜨거운 냉각수/라디에이터/히터 호스 캡을 열지 않는다.",
+        "팬·벨트에 손이나 옷을 가까이하지 않는다.",
+        "뜨거운 엔진에 차가운 냉각수를 급하게 붓지 않는다."
+      ],
+      "applicationConstraints": [
+        "냉각팬이 멈출 때까지 OFF 금지라는 주의문을 분출·팬 미회전 분기에 무조건 적용하지 않는다.",
+        "정차/시동 조치는 차량별 원문 예외가 우선한다.",
+        "오일압력·화재·고전압 배터리 과열에 이 엔진 냉각 절차를 전이하지 않는다."
+      ],
+      "restartCriteria": "충분한 냉각과 원인 확인이 선행된다. 본문은 경고 소멸만으로 무조건 주행 허가하지 않는다.",
+      "sources": [
+        {
+          "id": "LX3-2027-OVERHEAT",
+          "documentId": "HYUNDAI-LX3-2027",
+          "topic": "OVERHEAT",
+          "title": "엔진 과열",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/LX3/2027/ko_KR",
+          "documentSha256": "a77d7fb6b8c3520ff178ee21f616f403416395e04cd907638f141cb62e6e86d5",
+          "locator": {
+            "pdfPages1Based": [
+              514,
+              515,
+              516
+            ]
+          },
+          "sourceTextSha256": "2bc5c8f78b15c21ae00ca03f75abeacd6a18689798076fd950f53a436b98a481",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/LX3-2027-OVERHEAT.txt",
+          "characters": 1947,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-LX3HEV-2027-OVERHEAT",
+      "documentIds": [
+        "HYUNDAI-LX3HEV-2027"
+      ],
+      "topic": "OVERHEAT",
+      "conditions": [
+        "엔진 수온 과열·출력 저하·노킹 문맥. 증기/냉각수 분출 및 냉각팬 상태를 먼저 구분한다."
+      ],
+      "orderedActions": [
+        "비상등을 켜고 안전하게 정차하여 P·주차브레이크를 적용하고 에어컨을 끈다.",
+        "증기 또는 냉각수 분출이면 엔진을 끄고 정비 연락. 분출이 없을 때만 시동 상태에서 후드를 열어 냉각한다. 수온이 내려가지 않거나 팬이 돌지 않으면 시동을 끄고 충분히 식힌다.",
+        "충분히 식은 뒤 수량·누수·호스·펌프를 확인한다. 누수/팬 미회전/벨트 손상이 있으면 운전을 중단하고 점검한다. 누수 없이 부족한 경우 적정 냉각수를 천천히 소량씩 보충한다."
+      ],
+      "driverProhibitions": [
+        "뜨거운 냉각수/라디에이터/히터 호스 캡을 열지 않는다.",
+        "팬·벨트에 손이나 옷을 가까이하지 않는다.",
+        "뜨거운 엔진에 차가운 냉각수를 급하게 붓지 않는다."
+      ],
+      "applicationConstraints": [
+        "냉각팬이 멈출 때까지 OFF 금지라는 주의문을 분출·팬 미회전 분기에 무조건 적용하지 않는다.",
+        "정차/시동 조치는 차량별 원문 예외가 우선한다.",
+        "오일압력·화재·고전압 배터리 과열에 이 엔진 냉각 절차를 전이하지 않는다."
+      ],
+      "restartCriteria": "충분한 냉각과 원인 확인이 선행된다. 본문은 경고 소멸만으로 무조건 주행 허가하지 않는다.",
+      "sources": [
+        {
+          "id": "LX3HEV-2027-OVERHEAT",
+          "documentId": "HYUNDAI-LX3HEV-2027",
+          "topic": "OVERHEAT",
+          "title": "엔진 과열",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/LX3HEV/2027/ko_KR",
+          "documentSha256": "718aba1cf5613a13fb9ce501f8ecb20d9bf3b81c0c6a87e976f76d2925dbcc3f",
+          "locator": {
+            "pdfPages1Based": [
+              528,
+              529,
+              530
+            ]
+          },
+          "sourceTextSha256": "f527e9a2971ac1ac9565f7a7f2a4ff5f8ed0782a0f5eedd477871f01d96e2db3",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/LX3HEV-2027-OVERHEAT.txt",
+          "characters": 1947,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-CN7N-2026-OVERHEAT",
+      "documentIds": [
+        "HYUNDAI-CN7N-2026"
+      ],
+      "topic": "OVERHEAT",
+      "conditions": [
+        "엔진 수온 과열·출력 저하·노킹 문맥. 증기/냉각수 분출 및 냉각팬 상태를 먼저 구분한다."
+      ],
+      "orderedActions": [
+        "비상등을 켜고 안전하게 정차하여 P·주차브레이크를 적용하고 에어컨을 끈다.",
+        "증기 또는 냉각수 분출이면 엔진을 끄고 정비 연락. 분출이 없을 때만 시동 상태에서 후드를 열어 냉각한다. 수온이 내려가지 않거나 팬이 돌지 않으면 시동을 끄고 충분히 식힌다.",
+        "충분히 식은 뒤 수량·누수·호스·펌프를 확인한다. 누수/팬 미회전/벨트 손상이 있으면 운전을 중단하고 점검한다. 누수 없이 부족한 경우 적정 냉각수를 천천히 소량씩 보충한다."
+      ],
+      "driverProhibitions": [
+        "뜨거운 냉각수/라디에이터/히터 호스 캡을 열지 않는다.",
+        "팬·벨트에 손이나 옷을 가까이하지 않는다.",
+        "뜨거운 엔진에 차가운 냉각수를 급하게 붓지 않는다."
+      ],
+      "applicationConstraints": [
+        "냉각팬이 멈출 때까지 OFF 금지라는 주의문을 분출·팬 미회전 분기에 무조건 적용하지 않는다.",
+        "정차/시동 조치는 차량별 원문 예외가 우선한다.",
+        "오일압력·화재·고전압 배터리 과열에 이 엔진 냉각 절차를 전이하지 않는다."
+      ],
+      "restartCriteria": "충분한 냉각과 원인 확인이 선행된다. 본문은 경고 소멸만으로 무조건 주행 허가하지 않는다.",
+      "sources": [
+        {
+          "id": "CN7N-2026-OVERHEAT",
+          "documentId": "HYUNDAI-CN7N-2026",
+          "topic": "OVERHEAT",
+          "title": "엔진 과열",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/CN7N/2026/ko_KR",
+          "documentSha256": "02bf55203560b31d51bb9d963b8c04ca9842499c7f60bfc1b5296f31f995b22f",
+          "locator": {
+            "pdfPages1Based": [
+              365,
+              366
+            ]
+          },
+          "sourceTextSha256": "42e9d6348a6a6e92f7ec0a608b2018e76d367b8d93d5d2c97ab8b1a1cc1e5488",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/CN7N-2026-OVERHEAT.txt",
+          "characters": 1933,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-DN8-2026-OIL",
+      "documentIds": [
+        "HYUNDAI-DN8-2026"
+      ],
+      "topic": "OIL",
+      "conditions": [
+        "정기 오일량 점검 및 보충 절차. 엔진 유압 경고의 긴급 조치와 구분."
+      ],
+      "orderedActions": [
+        "평지에서 규정 온도까지 예열한 정기 점검 차량은 시동을 끄고 주입캡/게이지를 분리한 뒤 약15분 기다린다.",
+        "깨끗이 닦은 게이지를 다시 넣어 F–L 범위를 확인하고 L 이하이면 F까지 보충 후 재확인·밀봉한다."
+      ],
+      "driverProhibitions": [
+        "엔진 오일 첨가제 사용 금지.",
+        "주입구에 이물질 유입 금지."
+      ],
+      "applicationConstraints": [
+        "유압 경고가 이미 켜진 차량에 정기 점검의 예열 단계를 그대로 지시하지 않는다.",
+        "엔진별 규격·용량은 별도 원문 표와 대조해야 한다."
+      ],
+      "restartCriteria": "이 문서 정비 절은 유압 회복 후 재시동해야 경고/출력 제한이 해제된다고 명시한다.",
+      "sources": [
+        {
+          "id": "DN8-2026-OIL",
+          "documentId": "HYUNDAI-DN8-2026",
+          "topic": "OIL",
+          "title": "엔진 오일",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/DN8/2026/ko_KR",
+          "documentSha256": "f83f44abcf8f59c30fa4d0b0b419a8e7aaca54da7d6f5c5fc9b3f83cab650e23",
+          "locator": {
+            "pdfPages1Based": [
+              463,
+              464,
+              465,
+              466
+            ]
+          },
+          "sourceTextSha256": "f867634a8e934d5596f363506e84e5a16e92d204a158e7b877d2d02f844d0d04",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/DN8-2026-OIL.txt",
+          "characters": 3146,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-DN8HEV-2026-OIL",
+      "documentIds": [
+        "HYUNDAI-DN8HEV-2026"
+      ],
+      "topic": "OIL",
+      "conditions": [
+        "정기 오일량 점검 및 보충 절차. 엔진 유압 경고의 긴급 조치와 구분."
+      ],
+      "orderedActions": [
+        "평지에서 규정 온도까지 예열한 정기 점검 차량은 시동을 끄고 주입캡/게이지를 분리한 뒤 약15분 기다린다.",
+        "깨끗이 닦은 게이지를 다시 넣어 F–L 범위를 확인하고 L 이하이면 F까지 보충 후 재확인·밀봉한다."
+      ],
+      "driverProhibitions": [
+        "엔진 오일 첨가제 사용 금지.",
+        "주입구에 이물질 유입 금지."
+      ],
+      "applicationConstraints": [
+        "유압 경고가 이미 켜진 차량에 정기 점검의 예열 단계를 그대로 지시하지 않는다.",
+        "엔진별 규격·용량은 별도 원문 표와 대조해야 한다."
+      ],
+      "restartCriteria": "이 문서 정비 절은 유압 회복 후 재시동해야 경고/출력 제한이 해제된다고 명시한다.",
+      "sources": [
+        {
+          "id": "DN8HEV-2026-OIL",
+          "documentId": "HYUNDAI-DN8HEV-2026",
+          "topic": "OIL",
+          "title": "엔진 오일",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/DN8HEV/2026/ko_KR",
+          "documentSha256": "5843551877e8a3279e67ca5830f64df2f7ac8cb0bbb4020f3415cd0e11dd3158",
+          "locator": {
+            "pdfPages1Based": [
+              484,
+              485,
+              486
+            ]
+          },
+          "sourceTextSha256": "806aba6ab7267667634b82ae8238240d45d9814b2025950f36d43027afdad1e7",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/DN8HEV-2026-OIL.txt",
+          "characters": 2623,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "crossSectionReconciliation": "클러스터 단락에는 재시동 문장이 생략되어 있으나 연결된 엔진 오일 정비 절에 명시되어 있다. 클러스터만으로 재시동 불필요 결론을 내리지 않는다."
+    },
+    {
+      "ruleId": "HY-PROCEDURE-DN8c-2025-OIL",
+      "documentIds": [
+        "HYUNDAI-DN8c-2025"
+      ],
+      "topic": "OIL",
+      "conditions": [
+        "정기 오일량 점검 및 보충 절차. 엔진 유압 경고의 긴급 조치와 구분."
+      ],
+      "orderedActions": [
+        "평지에서 규정 온도까지 예열한 정기 점검 차량은 시동을 끄고 주입캡/게이지를 분리한 뒤 약15분 기다린다.",
+        "깨끗이 닦은 게이지를 다시 넣어 F–L 범위를 확인하고 L 이하이면 F까지 보충 후 재확인·밀봉한다."
+      ],
+      "driverProhibitions": [
+        "엔진 오일 첨가제 사용 금지.",
+        "주입구에 이물질 유입 금지."
+      ],
+      "applicationConstraints": [
+        "유압 경고가 이미 켜진 차량에 정기 점검의 예열 단계를 그대로 지시하지 않는다.",
+        "엔진별 규격·용량은 별도 원문 표와 대조해야 한다."
+      ],
+      "restartCriteria": "이 문서 정비 절은 유압 회복 후 재시동해야 경고/출력 제한이 해제된다고 명시한다.",
+      "sources": [
+        {
+          "id": "DN8c-2025-OIL",
+          "documentId": "HYUNDAI-DN8c-2025",
+          "topic": "OIL",
+          "title": "엔진 오일",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/DN8c/2025/ko_KR",
+          "documentSha256": "ebd8b03c59aa7f37640f2b8150f96fe7da75191ee907550a56547b647ebc7e2c",
+          "locator": {
+            "pdfPages1Based": [
+              344,
+              345,
+              346
+            ]
+          },
+          "sourceTextSha256": "361fd0008a88ef2b5717d10f337b7c991b90615530baefc3e0e0dbdd78405539",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/DN8c-2025-OIL.txt",
+          "characters": 2582,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-US4-2026-OIL",
+      "documentIds": [
+        "HYUNDAI-US4-2026"
+      ],
+      "topic": "OIL",
+      "conditions": [
+        "정기 오일량 점검 및 보충 절차. 엔진 유압 경고의 긴급 조치와 구분."
+      ],
+      "orderedActions": [
+        "평지에서 규정 온도까지 예열한 정기 점검 차량은 시동을 끄고 주입캡/게이지를 분리한 뒤 약15분 기다린다.",
+        "깨끗이 닦은 게이지를 다시 넣어 F–L 범위를 확인하고 L 이하이면 F까지 보충 후 재확인·밀봉한다."
+      ],
+      "driverProhibitions": [
+        "엔진 오일 첨가제 사용 금지.",
+        "주입구에 이물질 유입 금지."
+      ],
+      "applicationConstraints": [
+        "유압 경고가 이미 켜진 차량에 정기 점검의 예열 단계를 그대로 지시하지 않는다.",
+        "엔진별 규격·용량은 별도 원문 표와 대조해야 한다."
+      ],
+      "restartCriteria": "이 문서 정비 절은 유압 회복 후 재시동해야 경고/출력 제한이 해제된다고 명시한다.",
+      "sources": [
+        {
+          "id": "US4-2026-OIL",
+          "documentId": "HYUNDAI-US4-2026",
+          "topic": "OIL",
+          "title": "엔진 오일 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4/2026/ko_KR",
+          "documentSha256": "7627c80a2708e9918b9dca6227f383ddfb3f09c02c824ea69563a97780083519",
+          "locator": {
+            "pdfPages1Based": [
+              472,
+              473,
+              474
+            ]
+          },
+          "sourceTextSha256": "072ae0281cd7e5857c2b72d7fa40808c8405efd2b8f571c142f626da917ec86d",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/US4-2026-OIL.txt",
+          "characters": 3183,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-US4HEV-2026-OIL",
+      "documentIds": [
+        "HYUNDAI-US4HEV-2026"
+      ],
+      "topic": "OIL",
+      "conditions": [
+        "정기 오일량 점검 및 보충 절차. 엔진 유압 경고의 긴급 조치와 구분."
+      ],
+      "orderedActions": [
+        "평지에서 규정 온도까지 예열한 정기 점검 차량은 시동을 끄고 주입캡/게이지를 분리한 뒤 약15분 기다린다.",
+        "깨끗이 닦은 게이지를 다시 넣어 F–L 범위를 확인하고 L 이하이면 F까지 보충 후 재확인·밀봉한다."
+      ],
+      "driverProhibitions": [
+        "엔진 오일 첨가제 사용 금지.",
+        "주입구에 이물질 유입 금지."
+      ],
+      "applicationConstraints": [
+        "유압 경고가 이미 켜진 차량에 정기 점검의 예열 단계를 그대로 지시하지 않는다.",
+        "엔진별 규격·용량은 별도 원문 표와 대조해야 한다."
+      ],
+      "restartCriteria": "이 문서 정비 절은 유압 회복 후 재시동해야 경고/출력 제한이 해제된다고 명시한다.",
+      "sources": [
+        {
+          "id": "US4HEV-2026-OIL",
+          "documentId": "HYUNDAI-US4HEV-2026",
+          "topic": "OIL",
+          "title": "엔진 오일 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4HEV/2026/ko_KR",
+          "documentSha256": "393da16edb0b1e48d9fcf58aae0e37691f1ba26fa6cc53e5108d5566b9fd91f3",
+          "locator": {
+            "pdfPages1Based": [
+              507,
+              508,
+              509
+            ]
+          },
+          "sourceTextSha256": "6651002d9947a3e8e9d268a97fd72317b5e4086c49d04d1fc86d030a8168e3e8",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/US4HEV-2026-OIL.txt",
+          "characters": 3182,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-MX5-2026-OIL",
+      "documentIds": [
+        "HYUNDAI-MX5-2026"
+      ],
+      "topic": "OIL",
+      "conditions": [
+        "정기 오일량 점검 및 보충 절차. 엔진 유압 경고의 긴급 조치와 구분."
+      ],
+      "orderedActions": [
+        "평지에서 규정 온도까지 예열한 정기 점검 차량은 시동을 끄고 주입캡/게이지를 분리한 뒤 약15분 기다린다.",
+        "깨끗이 닦은 게이지를 다시 넣어 F–L 범위를 확인하고 L 이하이면 F까지 보충 후 재확인·밀봉한다."
+      ],
+      "driverProhibitions": [
+        "엔진 오일 첨가제 사용 금지.",
+        "주입구에 이물질 유입 금지."
+      ],
+      "applicationConstraints": [
+        "유압 경고가 이미 켜진 차량에 정기 점검의 예열 단계를 그대로 지시하지 않는다.",
+        "엔진별 규격·용량은 별도 원문 표와 대조해야 한다."
+      ],
+      "restartCriteria": "이 문서 정비 절은 유압 회복 후 재시동해야 경고/출력 제한이 해제된다고 명시한다.",
+      "sources": [
+        {
+          "id": "MX5-2026-OIL",
+          "documentId": "HYUNDAI-MX5-2026",
+          "topic": "OIL",
+          "title": "엔진 오일",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/MX5/2026/ko_KR",
+          "documentSha256": "5cf84f7e7f709383d711b7450321dde6c9a63e98b307649b366915f57eacece6",
+          "locator": {
+            "pdfPages1Based": [
+              670,
+              671,
+              672,
+              673
+            ]
+          },
+          "sourceTextSha256": "61d8252fce55be41f28828529260cbc572df4bf55419acaeaf6fdb2670251d97",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/MX5-2026-OIL.txt",
+          "characters": 2188,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-MX5HEV-2026-OIL",
+      "documentIds": [
+        "HYUNDAI-MX5HEV-2026"
+      ],
+      "topic": "OIL",
+      "conditions": [
+        "정기 오일량 점검 및 보충 절차. 엔진 유압 경고의 긴급 조치와 구분."
+      ],
+      "orderedActions": [
+        "평지에서 규정 온도까지 예열한 정기 점검 차량은 시동을 끄고 주입캡/게이지를 분리한 뒤 약15분 기다린다.",
+        "깨끗이 닦은 게이지를 다시 넣어 F–L 범위를 확인하고 L 이하이면 F까지 보충 후 재확인·밀봉한다."
+      ],
+      "driverProhibitions": [
+        "엔진 오일 첨가제 사용 금지.",
+        "주입구에 이물질 유입 금지."
+      ],
+      "applicationConstraints": [
+        "유압 경고가 이미 켜진 차량에 정기 점검의 예열 단계를 그대로 지시하지 않는다.",
+        "엔진별 규격·용량은 별도 원문 표와 대조해야 한다."
+      ],
+      "restartCriteria": "이 문서 정비 절은 유압 회복 후 재시동해야 경고/출력 제한이 해제된다고 명시한다.",
+      "sources": [
+        {
+          "id": "MX5HEV-2026-OIL",
+          "documentId": "HYUNDAI-MX5HEV-2026",
+          "topic": "OIL",
+          "title": "엔진 오일",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/MX5HEV/2026/ko_KR",
+          "documentSha256": "8fef11ef06a5ec675868b54b00b49b40de6bd4445f9f123fd0b4f6e0c5daad1b",
+          "locator": {
+            "pdfPages1Based": [
+              705,
+              706,
+              707,
+              708
+            ]
+          },
+          "sourceTextSha256": "19edfb7174653ec1b131b7648f9045d197b72a5c3f978bdecf4c150d8dc1c265",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/MX5HEV-2026-OIL.txt",
+          "characters": 2241,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-AX-2027-OIL",
+      "documentIds": [
+        "HYUNDAI-AX-2027"
+      ],
+      "topic": "OIL",
+      "conditions": [
+        "정기 오일량 점검 및 보충 절차. 엔진 유압 경고의 긴급 조치와 구분."
+      ],
+      "orderedActions": [
+        "평지에서 규정 온도까지 예열한 정기 점검 차량은 시동을 끄고 주입캡/게이지를 분리한 뒤 약15분 기다린다.",
+        "깨끗이 닦은 게이지를 다시 넣어 F–L 범위를 확인하고 L 이하이면 F까지 보충 후 재확인·밀봉한다."
+      ],
+      "driverProhibitions": [
+        "엔진 오일 첨가제 사용 금지.",
+        "주입구에 이물질 유입 금지."
+      ],
+      "applicationConstraints": [
+        "유압 경고가 이미 켜진 차량에 정기 점검의 예열 단계를 그대로 지시하지 않는다.",
+        "엔진별 규격·용량은 별도 원문 표와 대조해야 한다."
+      ],
+      "restartCriteria": "이 문서 정비 절은 유압 회복 후 재시동해야 경고/출력 제한이 해제된다고 명시한다.",
+      "sources": [
+        {
+          "id": "AX-2027-OIL",
+          "documentId": "HYUNDAI-AX-2027",
+          "topic": "OIL",
+          "title": "엔진 오일 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/AX/2027/ko_KR",
+          "documentSha256": "f38683b42a7f71269b87ec96b1fb0a1ac20811e2a2330af22b9bc633f8a593e5",
+          "locator": {
+            "pdfPages1Based": [
+              349,
+              350,
+              351,
+              352
+            ]
+          },
+          "sourceTextSha256": "d2807e863b1908b0728814f222e7c0fe31ffe429fe887c63ed8900d6502b11ec",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/AX-2027-OIL.txt",
+          "characters": 3476,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-SX2-2027-OIL",
+      "documentIds": [
+        "HYUNDAI-SX2-2027"
+      ],
+      "topic": "OIL",
+      "conditions": [
+        "정기 오일량 점검 및 보충 절차. 엔진 유압 경고의 긴급 조치와 구분."
+      ],
+      "orderedActions": [
+        "평지에서 규정 온도까지 예열한 정기 점검 차량은 시동을 끄고 주입캡/게이지를 분리한 뒤 약15분 기다린다.",
+        "깨끗이 닦은 게이지를 다시 넣어 F–L 범위를 확인하고 L 이하이면 F까지 보충 후 재확인·밀봉한다."
+      ],
+      "driverProhibitions": [
+        "엔진 오일 첨가제 사용 금지.",
+        "주입구에 이물질 유입 금지."
+      ],
+      "applicationConstraints": [
+        "유압 경고가 이미 켜진 차량에 정기 점검의 예열 단계를 그대로 지시하지 않는다.",
+        "엔진별 규격·용량은 별도 원문 표와 대조해야 한다."
+      ],
+      "restartCriteria": "이 문서 정비 절은 유압 회복 후 재시동해야 경고/출력 제한이 해제된다고 명시한다.",
+      "sources": [
+        {
+          "id": "SX2-2027-OIL",
+          "documentId": "HYUNDAI-SX2-2027",
+          "topic": "OIL",
+          "title": "엔진 오일",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/SX2/2027/ko_KR",
+          "documentSha256": "bcf895c9dbbcb59d64275175141e76958d3ad2ac65412ae18a9b658550938126",
+          "locator": {
+            "pdfPages1Based": [
+              648,
+              649,
+              650,
+              651,
+              652
+            ]
+          },
+          "sourceTextSha256": "ef1aa8b802ff20995d4b7b48a5746186e569793ee10f692e4e613351fa8dda75",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/SX2-2027-OIL.txt",
+          "characters": 2322,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-SX2HEV-2027-OIL",
+      "documentIds": [
+        "HYUNDAI-SX2HEV-2027"
+      ],
+      "topic": "OIL",
+      "conditions": [
+        "정기 오일량 점검 및 보충 절차. 엔진 유압 경고의 긴급 조치와 구분."
+      ],
+      "orderedActions": [
+        "평지에서 규정 온도까지 예열한 정기 점검 차량은 시동을 끄고 주입캡/게이지를 분리한 뒤 약15분 기다린다.",
+        "깨끗이 닦은 게이지를 다시 넣어 F–L 범위를 확인하고 L 이하이면 F까지 보충 후 재확인·밀봉한다."
+      ],
+      "driverProhibitions": [
+        "엔진 오일 첨가제 사용 금지.",
+        "주입구에 이물질 유입 금지."
+      ],
+      "applicationConstraints": [
+        "유압 경고가 이미 켜진 차량에 정기 점검의 예열 단계를 그대로 지시하지 않는다.",
+        "엔진별 규격·용량은 별도 원문 표와 대조해야 한다."
+      ],
+      "restartCriteria": "이 문서 정비 절은 유압 회복 후 재시동해야 경고/출력 제한이 해제된다고 명시한다.",
+      "sources": [
+        {
+          "id": "SX2HEV-2027-OIL",
+          "documentId": "HYUNDAI-SX2HEV-2027",
+          "topic": "OIL",
+          "title": "엔진 오일",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/SX2HEV/2027/ko_KR",
+          "documentSha256": "7a56521c4225093eba2421e74f789a81d2199cd9849eb68d711c55993d436bbe",
+          "locator": {
+            "pdfPages1Based": [
+              650,
+              651,
+              652,
+              653
+            ]
+          },
+          "sourceTextSha256": "7c71364826490bc829e3b09468418e7f982773622c13c7a623b3c0e531d0c267",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/SX2HEV-2027-OIL.txt",
+          "characters": 2238,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "crossSectionReconciliation": "클러스터 단락에는 재시동 문장이 생략되어 있으나 연결된 엔진 오일 정비 절에 명시되어 있다. 클러스터만으로 재시동 불필요 결론을 내리지 않는다."
+    },
+    {
+      "ruleId": "HY-PROCEDURE-LX3-2027-OIL",
+      "documentIds": [
+        "HYUNDAI-LX3-2027"
+      ],
+      "topic": "OIL",
+      "conditions": [
+        "정기 오일량 점검 및 보충 절차. 엔진 유압 경고의 긴급 조치와 구분."
+      ],
+      "orderedActions": [
+        "평지에서 규정 온도까지 예열한 정기 점검 차량은 시동을 끄고 주입캡/게이지를 분리한 뒤 약15분 기다린다.",
+        "깨끗이 닦은 게이지를 다시 넣어 F–L 범위를 확인하고 L 이하이면 F까지 보충 후 재확인·밀봉한다."
+      ],
+      "driverProhibitions": [
+        "엔진 오일 첨가제 사용 금지.",
+        "주입구에 이물질 유입 금지."
+      ],
+      "applicationConstraints": [
+        "유압 경고가 이미 켜진 차량에 정기 점검의 예열 단계를 그대로 지시하지 않는다.",
+        "엔진별 규격·용량은 별도 원문 표와 대조해야 한다."
+      ],
+      "restartCriteria": "이 문서 정비 절은 유압 회복 후 재시동해야 경고/출력 제한이 해제된다고 명시한다.",
+      "sources": [
+        {
+          "id": "LX3-2027-OIL",
+          "documentId": "HYUNDAI-LX3-2027",
+          "topic": "OIL",
+          "title": "엔진 오일 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/LX3/2027/ko_KR",
+          "documentSha256": "a77d7fb6b8c3520ff178ee21f616f403416395e04cd907638f141cb62e6e86d5",
+          "locator": {
+            "pdfPages1Based": [
+              532,
+              533,
+              534
+            ]
+          },
+          "sourceTextSha256": "6af45982c471ad070e11eebc03050225584ef00b30dc65645fc4d22162d338a2",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/LX3-2027-OIL.txt",
+          "characters": 3237,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-LX3HEV-2027-OIL",
+      "documentIds": [
+        "HYUNDAI-LX3HEV-2027"
+      ],
+      "topic": "OIL",
+      "conditions": [
+        "정기 오일량 점검 및 보충 절차. 엔진 유압 경고의 긴급 조치와 구분."
+      ],
+      "orderedActions": [
+        "평지에서 규정 온도까지 예열한 정기 점검 차량은 시동을 끄고 주입캡/게이지를 분리한 뒤 약15분 기다린다.",
+        "깨끗이 닦은 게이지를 다시 넣어 F–L 범위를 확인하고 L 이하이면 F까지 보충 후 재확인·밀봉한다."
+      ],
+      "driverProhibitions": [
+        "엔진 오일 첨가제 사용 금지.",
+        "주입구에 이물질 유입 금지."
+      ],
+      "applicationConstraints": [
+        "유압 경고가 이미 켜진 차량에 정기 점검의 예열 단계를 그대로 지시하지 않는다.",
+        "엔진별 규격·용량은 별도 원문 표와 대조해야 한다."
+      ],
+      "restartCriteria": "이 문서 정비 절은 유압 회복 후 재시동해야 경고/출력 제한이 해제된다고 명시한다.",
+      "sources": [
+        {
+          "id": "LX3HEV-2027-OIL",
+          "documentId": "HYUNDAI-LX3HEV-2027",
+          "topic": "OIL",
+          "title": "엔진 오일 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/LX3HEV/2027/ko_KR",
+          "documentSha256": "718aba1cf5613a13fb9ce501f8ecb20d9bf3b81c0c6a87e976f76d2925dbcc3f",
+          "locator": {
+            "pdfPages1Based": [
+              546,
+              547,
+              548
+            ]
+          },
+          "sourceTextSha256": "d830c81ea728d333fad75f349aae304a4d29749f964bea16d10004e9813025ac",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/LX3HEV-2027-OIL.txt",
+          "characters": 3237,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-NE1-2025-COOLANT",
+      "documentIds": [
+        "HYUNDAI-NE1-2025"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 차량의 엔진/전기 동력 장치 냉각수 점검. 충분히 냉각된 상태이며 HEV는 지정 냉각 회로를 구분한다."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "NE1-2025-COOLANT",
+          "documentId": "HYUNDAI-NE1-2025",
+          "topic": "COOLANT",
+          "title": "냉각수 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/NE1/2025/ko_KR",
+          "documentSha256": "7c92b1e3b1326d6811340e664111897fc66f23b6ae96788e2d76e6f99eb30725",
+          "locator": {
+            "pdfPages1Based": [
+              521,
+              522,
+              523
+            ]
+          },
+          "sourceTextSha256": "a9e11e9475fc248a1595a3761edf945af426ee215c3c6722fdbd2f6592823024",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/NE1-2025-COOLANT.txt",
+          "characters": 2599,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "혼합표: -15°C 35%, -25°C 40%, -35°C 50%, -45°C 60% 부동액. 경계값 금지 문장과 함께 보존하며 자동 배합 지시로 승인하지 않음."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-A01-2026-COOLANT",
+      "documentIds": [
+        "HYUNDAI-A01-2026"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 차량의 엔진/전기 동력 장치 냉각수 점검. 충분히 냉각된 상태이며 HEV는 지정 냉각 회로를 구분한다."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "A01-2026-COOLANT",
+          "documentId": "HYUNDAI-A01-2026",
+          "topic": "COOLANT",
+          "title": "냉각수 점검",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/A01/2026/ko_KR",
+          "documentSha256": "38fbe422b1b95dbf54da081734f2facbf8969e1bca2a2a978a3725f890e677f1",
+          "locator": {
+            "pdfPages1Based": [
+              377,
+              378,
+              379
+            ]
+          },
+          "sourceTextSha256": "e2e48881ee99512e1385b4e638552a08a5b44bbd380a9f688603fe645dd4baee",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/A01-2026-COOLANT.txt",
+          "characters": 2987,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "혼합표: -15°C 35%, -25°C 40%, -35°C 50%, -45°C 60% 부동액. 경계값 금지 문장과 함께 보존하며 자동 배합 지시로 승인하지 않음."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-NE1-2027-COOLANT",
+      "documentIds": [
+        "HYUNDAI-NE1-2027"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 차량의 엔진/전기 동력 장치 냉각수 점검. 충분히 냉각된 상태이며 HEV는 지정 냉각 회로를 구분한다."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "NE1-2027-COOLANT",
+          "documentId": "HYUNDAI-NE1-2027",
+          "topic": "COOLANT",
+          "title": "냉각수 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/NE1/2027/ko_KR",
+          "documentSha256": "e32d572bf61a989590d87925ed740b2795c714033a6ef4432a46852574ce26a1",
+          "locator": {
+            "pdfPages1Based": [
+              525,
+              526,
+              527
+            ]
+          },
+          "sourceTextSha256": "975cf2f1a56c2453b87a630b660a98a0c65faea6d161daa8d8d67533ab936223",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/NE1-2027-COOLANT.txt",
+          "characters": 2599,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "혼합표: -15°C 35%, -25°C 40%, -35°C 50%, -45°C 60% 부동액. 경계값 금지 문장과 함께 보존하며 자동 배합 지시로 승인하지 않음."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-CE1-2025-COOLANT",
+      "documentIds": [
+        "HYUNDAI-CE1-2025"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 차량의 엔진/전기 동력 장치 냉각수 점검. 충분히 냉각된 상태이며 HEV는 지정 냉각 회로를 구분한다."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "CE1-2025-COOLANT",
+          "documentId": "HYUNDAI-CE1-2025",
+          "topic": "COOLANT",
+          "title": "냉각수 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/CE1/2025/ko_KR",
+          "documentSha256": "778bd9cd9ba17bbe2fb8991499309d9dd22d8658fc5eb42d9c6aa673dac44335",
+          "locator": {
+            "pdfPages1Based": [
+              535,
+              536,
+              537
+            ]
+          },
+          "sourceTextSha256": "b43cd565070821057da538b870130407e05f046d72640861c9ef670eb23fd709",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/CE1-2025-COOLANT.txt",
+          "characters": 2789,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "혼합표: -15°C 35%, -25°C 40%, -35°C 50%, -45°C 60% 부동액. 경계값 금지 문장과 함께 보존하며 자동 배합 지시로 승인하지 않음."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-ME-2027-COOLANT",
+      "documentIds": [
+        "HYUNDAI-ME-2027"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 차량의 엔진/전기 동력 장치 냉각수 점검. 충분히 냉각된 상태이며 HEV는 지정 냉각 회로를 구분한다."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "ME-2027-COOLANT",
+          "documentId": "HYUNDAI-ME-2027",
+          "topic": "COOLANT",
+          "title": "냉각수 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/ME/2027/ko_KR",
+          "documentSha256": "527ba63f2d0106dc41775de2fb7e35b342f43ec8f88e606c7dd814cb44520fd0",
+          "locator": {
+            "pdfPages1Based": [
+              595,
+              596,
+              597
+            ]
+          },
+          "sourceTextSha256": "f1ef44b7e321d9789274bcff420baa9f392b208365db3f1d03f385d4b4bd7797",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/ME-2027-COOLANT.txt",
+          "characters": 3038,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "혼합표: -15°C 35%, -25°C 40%, -35°C 50%, -45°C 60% 부동액. 경계값 금지 문장과 함께 보존하며 자동 배합 지시로 승인하지 않음.",
+        "냉각수 보조 탱크 커버 제거 후 수량 확인."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-AXEV-2027-COOLANT",
+      "documentIds": [
+        "HYUNDAI-AXEV-2027"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 차량의 엔진/전기 동력 장치 냉각수 점검. 충분히 냉각된 상태이며 HEV는 지정 냉각 회로를 구분한다."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "AXEV-2027-COOLANT",
+          "documentId": "HYUNDAI-AXEV-2027",
+          "topic": "COOLANT",
+          "title": "냉각수 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/AXEV/2027/ko_KR",
+          "documentSha256": "aa1465589f86265c261fafb3c17c81eeac574c7bb7f7e60ab248715ebcfb8a96",
+          "locator": {
+            "pdfPages1Based": [
+              437,
+              438,
+              439
+            ]
+          },
+          "sourceTextSha256": "3d911d137094b82755eb636db84aa891076d56fbc1d26fb697342e7351f894b0",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/AXEV-2027-COOLANT.txt",
+          "characters": 3002,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "혼합표: -15°C 35%, -25°C 40%, -35°C 50%, -45°C 60% 부동액. 경계값 금지 문장과 함께 보존하며 자동 배합 지시로 승인하지 않음."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-SX2EV-2025-COOLANT",
+      "documentIds": [
+        "HYUNDAI-SX2EV-2025"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 차량의 엔진/전기 동력 장치 냉각수 점검. 충분히 냉각된 상태이며 HEV는 지정 냉각 회로를 구분한다."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "SX2EV-2025-COOLANT",
+          "documentId": "HYUNDAI-SX2EV-2025",
+          "topic": "COOLANT",
+          "title": "냉각수 점검",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/SX2EV/2025/ko_KR",
+          "documentSha256": "5adf6f2b7662d46b226ce357cd40341eb7e07392b5236fe5f46a5c804b28d549",
+          "locator": {
+            "pdfPages1Based": [
+              658,
+              659,
+              660,
+              661,
+              662
+            ]
+          },
+          "sourceTextSha256": "522b74523ed5df59eaa6920523018a888ea646069fc2a1b82808793b6980287c",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/SX2EV-2025-COOLANT.txt",
+          "characters": 2633,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "혼합표: -15°C 35%, -25°C 40%, -35°C 50%, -45°C 60% 부동액. 경계값 금지 문장과 함께 보존하며 자동 배합 지시로 승인하지 않음."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-DN8-2026-COOLANT",
+      "documentIds": [
+        "HYUNDAI-DN8-2026"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 차량의 엔진/전기 동력 장치 냉각수 점검. 충분히 냉각된 상태이며 HEV는 지정 냉각 회로를 구분한다."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "DN8-2026-COOLANT",
+          "documentId": "HYUNDAI-DN8-2026",
+          "topic": "COOLANT",
+          "title": "냉각수 점검",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/DN8/2026/ko_KR",
+          "documentSha256": "f83f44abcf8f59c30fa4d0b0b419a8e7aaca54da7d6f5c5fc9b3f83cab650e23",
+          "locator": {
+            "pdfPages1Based": [
+              466,
+              467,
+              468
+            ]
+          },
+          "sourceTextSha256": "6ae947d75b9adbe1c015924322e1657f225475967ad7aecbd035b8ae4abf6517",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/DN8-2026-COOLANT.txt",
+          "characters": 2427,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "혼합표: -15°C 35%, -25°C 40%, -35°C 50%, -45°C 60% 부동액. 경계값 금지 문장과 함께 보존하며 자동 배합 지시로 승인하지 않음."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-DN8HEV-2026-COOLANT",
+      "documentIds": [
+        "HYUNDAI-DN8HEV-2026"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 차량의 엔진/전기 동력 장치 냉각수 점검. 충분히 냉각된 상태이며 HEV는 지정 냉각 회로를 구분한다."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "DN8HEV-2026-COOLANT",
+          "documentId": "HYUNDAI-DN8HEV-2026",
+          "topic": "COOLANT",
+          "title": "냉각수 점검",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/DN8HEV/2026/ko_KR",
+          "documentSha256": "5843551877e8a3279e67ca5830f64df2f7ac8cb0bbb4020f3415cd0e11dd3158",
+          "locator": {
+            "pdfPages1Based": [
+              486,
+              487,
+              488
+            ]
+          },
+          "sourceTextSha256": "a0397d6fb8e1a80e7f490580be3ff7f745c2f478da0a2c3da65d05a24d23d61b",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/DN8HEV-2026-COOLANT.txt",
+          "characters": 2577,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "혼합표: -15°C 35%, -25°C 40%, -35°C 50%, -45°C 60% 부동액. 경계값 금지 문장과 함께 보존하며 자동 배합 지시로 승인하지 않음.",
+        "희석수는 증류수로 명시. 엔진 및 인버터/HSG/LDC 냉각 회로 구분. 팬 정비 시 엔진룸12V 전원 분리 커넥터 조건."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-DN8c-2025-COOLANT",
+      "documentIds": [
+        "HYUNDAI-DN8c-2025"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 차량의 엔진/전기 동력 장치 냉각수 점검. 충분히 냉각된 상태이며 HEV는 지정 냉각 회로를 구분한다."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "DN8c-2025-COOLANT",
+          "documentId": "HYUNDAI-DN8c-2025",
+          "topic": "COOLANT",
+          "title": "냉각수 점검",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/DN8c/2025/ko_KR",
+          "documentSha256": "ebd8b03c59aa7f37640f2b8150f96fe7da75191ee907550a56547b647ebc7e2c",
+          "locator": {
+            "pdfPages1Based": [
+              346,
+              347,
+              348
+            ]
+          },
+          "sourceTextSha256": "f6f7d2ebc6c67941dfff37d85b4482776cc4942926ffe3c663231e56126659f9",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/DN8c-2025-COOLANT.txt",
+          "characters": 2419,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "혼합표: -15°C 35%, -25°C 40%, -35°C 50%, -45°C 60% 부동액. 경계값 금지 문장과 함께 보존하며 자동 배합 지시로 승인하지 않음."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-US4-2026-COOLANT",
+      "documentIds": [
+        "HYUNDAI-US4-2026"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 차량의 엔진/전기 동력 장치 냉각수 점검. 충분히 냉각된 상태이며 HEV는 지정 냉각 회로를 구분한다."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "US4-2026-COOLANT",
+          "documentId": "HYUNDAI-US4-2026",
+          "topic": "COOLANT",
+          "title": "냉각수 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4/2026/ko_KR",
+          "documentSha256": "7627c80a2708e9918b9dca6227f383ddfb3f09c02c824ea69563a97780083519",
+          "locator": {
+            "pdfPages1Based": [
+              474,
+              475,
+              476
+            ]
+          },
+          "sourceTextSha256": "59bdc64c4a0a586a8412ae0ded875ea5af043582e7dba3e9ea169373da876fb5",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/US4-2026-COOLANT.txt",
+          "characters": 2877,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "혼합표: -15°C 35%, -25°C 40%, -35°C 50%, -45°C 60% 부동액. 경계값 금지 문장과 함께 보존하며 자동 배합 지시로 승인하지 않음."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-US4HEV-2026-COOLANT",
+      "documentIds": [
+        "HYUNDAI-US4HEV-2026"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 차량의 엔진/전기 동력 장치 냉각수 점검. 충분히 냉각된 상태이며 HEV는 지정 냉각 회로를 구분한다."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "US4HEV-2026-COOLANT",
+          "documentId": "HYUNDAI-US4HEV-2026",
+          "topic": "COOLANT",
+          "title": "냉각수 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4HEV/2026/ko_KR",
+          "documentSha256": "393da16edb0b1e48d9fcf58aae0e37691f1ba26fa6cc53e5108d5566b9fd91f3",
+          "locator": {
+            "pdfPages1Based": [
+              509,
+              510,
+              511,
+              512
+            ]
+          },
+          "sourceTextSha256": "1e991670dee88e481f0960dc3af5be5df26e97205deb490b3dab152c1bccae93",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/US4HEV-2026-COOLANT.txt",
+          "characters": 3422,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "혼합표: -15°C 35%, -25°C 40%, -35°C 50%, -45°C 60% 부동액. 경계값 금지 문장과 함께 보존하며 자동 배합 지시로 승인하지 않음."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-MX5-2026-COOLANT",
+      "documentIds": [
+        "HYUNDAI-MX5-2026"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 차량의 엔진/전기 동력 장치 냉각수 점검. 충분히 냉각된 상태이며 HEV는 지정 냉각 회로를 구분한다."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "MX5-2026-COOLANT",
+          "documentId": "HYUNDAI-MX5-2026",
+          "topic": "COOLANT",
+          "title": "냉각수 점검",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/MX5/2026/ko_KR",
+          "documentSha256": "5cf84f7e7f709383d711b7450321dde6c9a63e98b307649b366915f57eacece6",
+          "locator": {
+            "pdfPages1Based": [
+              673,
+              674,
+              675,
+              676,
+              677
+            ]
+          },
+          "sourceTextSha256": "0bac26ad3f8e4bf8a9f33c958300e01c372809f9268bf4db02f77652eeedafdc",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/MX5-2026-COOLANT.txt",
+          "characters": 2686,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "혼합표: -15°C 35%, -25°C 40%, -35°C 50%, -45°C 60% 부동액. 경계값 금지 문장과 함께 보존하며 자동 배합 지시로 승인하지 않음."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-MX5HEV-2026-COOLANT",
+      "documentIds": [
+        "HYUNDAI-MX5HEV-2026"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 차량의 엔진/전기 동력 장치 냉각수 점검. 충분히 냉각된 상태이며 HEV는 지정 냉각 회로를 구분한다."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "MX5HEV-2026-COOLANT",
+          "documentId": "HYUNDAI-MX5HEV-2026",
+          "topic": "COOLANT",
+          "title": "냉각수 점검",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/MX5HEV/2026/ko_KR",
+          "documentSha256": "8fef11ef06a5ec675868b54b00b49b40de6bd4445f9f123fd0b4f6e0c5daad1b",
+          "locator": {
+            "pdfPages1Based": [
+              708,
+              709,
+              710,
+              711,
+              712
+            ]
+          },
+          "sourceTextSha256": "dae6b02176d19aef0c133cd5579f40103ca912c75734e634ee2ffd80a2b14e14",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/MX5HEV-2026-COOLANT.txt",
+          "characters": 2729,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "혼합표: -15°C 35%, -25°C 40%, -35°C 50%, -45°C 60% 부동액. 경계값 금지 문장과 함께 보존하며 자동 배합 지시로 승인하지 않음."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-AX-2027-COOLANT",
+      "documentIds": [
+        "HYUNDAI-AX-2027"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 차량의 엔진/전기 동력 장치 냉각수 점검. 충분히 냉각된 상태이며 HEV는 지정 냉각 회로를 구분한다."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "AX-2027-COOLANT",
+          "documentId": "HYUNDAI-AX-2027",
+          "topic": "COOLANT",
+          "title": "냉각수 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/AX/2027/ko_KR",
+          "documentSha256": "f38683b42a7f71269b87ec96b1fb0a1ac20811e2a2330af22b9bc633f8a593e5",
+          "locator": {
+            "pdfPages1Based": [
+              352,
+              353,
+              354
+            ]
+          },
+          "sourceTextSha256": "4c26fab690591ec0d3f490335a640a2a0559a537c07b2d95bfe55178769349bc",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/AX-2027-COOLANT.txt",
+          "characters": 2369,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "혼합표: -15°C 35%, -25°C 40%, -35°C 50%, -45°C 60% 부동액. 경계값 금지 문장과 함께 보존하며 자동 배합 지시로 승인하지 않음."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-SX2-2027-COOLANT",
+      "documentIds": [
+        "HYUNDAI-SX2-2027"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 차량의 엔진/전기 동력 장치 냉각수 점검. 충분히 냉각된 상태이며 HEV는 지정 냉각 회로를 구분한다."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "SX2-2027-COOLANT",
+          "documentId": "HYUNDAI-SX2-2027",
+          "topic": "COOLANT",
+          "title": "냉각수 점검",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/SX2/2027/ko_KR",
+          "documentSha256": "bcf895c9dbbcb59d64275175141e76958d3ad2ac65412ae18a9b658550938126",
+          "locator": {
+            "pdfPages1Based": [
+              652,
+              653,
+              654,
+              655,
+              656
+            ]
+          },
+          "sourceTextSha256": "4687374df9d22e444413901d50e4852a1a091d9ffd09eba34a4d952f1ccbd32b",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/SX2-2027-COOLANT.txt",
+          "characters": 2446,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "혼합표: -15°C 35%, -25°C 40%, -35°C 50%, -45°C 60% 부동액. 경계값 금지 문장과 함께 보존하며 자동 배합 지시로 승인하지 않음."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-SX2HEV-2027-COOLANT",
+      "documentIds": [
+        "HYUNDAI-SX2HEV-2027"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 차량의 엔진/전기 동력 장치 냉각수 점검. 충분히 냉각된 상태이며 HEV는 지정 냉각 회로를 구분한다."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "SX2HEV-2027-COOLANT",
+          "documentId": "HYUNDAI-SX2HEV-2027",
+          "topic": "COOLANT",
+          "title": "냉각수 점검",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/SX2HEV/2027/ko_KR",
+          "documentSha256": "7a56521c4225093eba2421e74f789a81d2199cd9849eb68d711c55993d436bbe",
+          "locator": {
+            "pdfPages1Based": [
+              653,
+              654,
+              655,
+              656,
+              657
+            ]
+          },
+          "sourceTextSha256": "9123f978108b867ee74161f51cb235bca51bc485ebde98cf281d0d266d77f8d7",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/SX2HEV-2027-COOLANT.txt",
+          "characters": 2881,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "혼합표: -15°C 35%, -25°C 40%, -35°C 50%, -45°C 60% 부동액. 경계값 금지 문장과 함께 보존하며 자동 배합 지시로 승인하지 않음.",
+        "엔진 및 인버터/HSG/LDC 냉각 회로 구분. 팬 정비 시 엔진룸12V 전원 분리 커넥터 조건."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-LX3-2027-COOLANT",
+      "documentIds": [
+        "HYUNDAI-LX3-2027"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 차량의 엔진/전기 동력 장치 냉각수 점검. 충분히 냉각된 상태이며 HEV는 지정 냉각 회로를 구분한다."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "LX3-2027-COOLANT",
+          "documentId": "HYUNDAI-LX3-2027",
+          "topic": "COOLANT",
+          "title": "냉각수 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/LX3/2027/ko_KR",
+          "documentSha256": "a77d7fb6b8c3520ff178ee21f616f403416395e04cd907638f141cb62e6e86d5",
+          "locator": {
+            "pdfPages1Based": [
+              534,
+              535,
+              536
+            ]
+          },
+          "sourceTextSha256": "33e7bf0aef59d9436dbb2516193820879b5fddfbb043fdb76acda8680081ef56",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/LX3-2027-COOLANT.txt",
+          "characters": 2918,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "혼합표: -15°C 35%, -25°C 40%, -35°C 50%, -45°C 60% 부동액. 경계값 금지 문장과 함께 보존하며 자동 배합 지시로 승인하지 않음."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-LX3HEV-2027-COOLANT",
+      "documentIds": [
+        "HYUNDAI-LX3HEV-2027"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 차량의 엔진/전기 동력 장치 냉각수 점검. 충분히 냉각된 상태이며 HEV는 지정 냉각 회로를 구분한다."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "LX3HEV-2027-COOLANT",
+          "documentId": "HYUNDAI-LX3HEV-2027",
+          "topic": "COOLANT",
+          "title": "냉각수 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/LX3HEV/2027/ko_KR",
+          "documentSha256": "718aba1cf5613a13fb9ce501f8ecb20d9bf3b81c0c6a87e976f76d2925dbcc3f",
+          "locator": {
+            "pdfPages1Based": [
+              548,
+              549,
+              550,
+              551
+            ]
+          },
+          "sourceTextSha256": "dad8ad79ff28d87b9fd393e7da628a2f1b57b53bc2b055e8a836fcfb73cf54e1",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/LX3HEV-2027-COOLANT.txt",
+          "characters": 3368,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "혼합표: -15°C 35%, -25°C 40%, -35°C 50%, -45°C 60% 부동액. 경계값 금지 문장과 함께 보존하며 자동 배합 지시로 승인하지 않음."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-CN7N-2026-COOLANT",
+      "documentIds": [
+        "HYUNDAI-CN7N-2026"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 차량의 엔진/전기 동력 장치 냉각수 점검. 충분히 냉각된 상태이며 HEV는 지정 냉각 회로를 구분한다."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "CN7N-2026-COOLANT",
+          "documentId": "HYUNDAI-CN7N-2026",
+          "topic": "COOLANT",
+          "title": "냉각수 점검",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/CN7N/2026/ko_KR",
+          "documentSha256": "02bf55203560b31d51bb9d963b8c04ca9842499c7f60bfc1b5296f31f995b22f",
+          "locator": {
+            "pdfPages1Based": [
+              393,
+              394,
+              395
+            ]
+          },
+          "sourceTextSha256": "3a7a5626031efd0cb7bdd1a8f32c7c7d7262ac88e500a88d106e736ca66dd828",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/CN7N-2026-COOLANT.txt",
+          "characters": 3567,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "혼합표: -15°C 35%, -25°C 40%, -35°C 50%, -45°C 60% 부동액. 경계값 금지 문장과 함께 보존하며 자동 배합 지시로 승인하지 않음."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-NE1N-2026-COOLANT",
+      "documentIds": [
+        "HYUNDAI-NE1N-2026"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 차량의 엔진/전기 동력 장치 냉각수 점검. 충분히 냉각된 상태이며 HEV는 지정 냉각 회로를 구분한다."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "NE1N-2026-COOLANT",
+          "documentId": "HYUNDAI-NE1N-2026",
+          "topic": "COOLANT",
+          "title": "냉각수 점검",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/NE1N/2026/ko_KR",
+          "documentSha256": "ba7440607e52d5b77f602965a999550da011260e0de50d4dab113f23a92af977",
+          "locator": {
+            "pdfPages1Based": [
+              730,
+              731,
+              732,
+              733,
+              734
+            ]
+          },
+          "sourceTextSha256": "28c5c6b593e52fa5b86c5ec5787c3d64940358428ca552070258cb7b88ec590e",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/NE1N-2026-COOLANT.txt",
+          "characters": 2648,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "혼합표: -15°C 35%, -25°C 40%, -35°C 50%, -45°C 60% 부동액. 경계값 금지 문장과 함께 보존하며 자동 배합 지시로 승인하지 않음."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-CE1N-2025-COOLANT",
+      "documentIds": [
+        "HYUNDAI-CE1N-2025"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 차량의 엔진/전기 동력 장치 냉각수 점검. 충분히 냉각된 상태이며 HEV는 지정 냉각 회로를 구분한다."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "CE1N-2025-COOLANT",
+          "documentId": "HYUNDAI-CE1N-2025",
+          "topic": "COOLANT",
+          "title": "냉각수 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/CE1N/2025/ko_KR",
+          "documentSha256": "7f8ff59e884beca0ec6dab769448762b53ea1be3a23d523de4ff8d1943d2e416",
+          "locator": {
+            "pdfPages1Based": [
+              529,
+              530,
+              531
+            ]
+          },
+          "sourceTextSha256": "3aac3523df7075d8d5cefebc838f695a59f6199d9b39df3b898dabf8832d1ad8",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/CE1N-2025-COOLANT.txt",
+          "characters": 2942,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "혼합표: -15°C 35%, -25°C 40%, -35°C 50%, -45°C 60% 부동액. 경계값 금지 문장과 함께 보존하며 자동 배합 지시로 승인하지 않음."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-DN8-2026-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-DN8-2026"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "DN8-2026-BRAKE_FLUID",
+          "documentId": "HYUNDAI-DN8-2026",
+          "topic": "BRAKE_FLUID",
+          "title": "브레이크액",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/DN8/2026/ko_KR",
+          "documentSha256": "f83f44abcf8f59c30fa4d0b0b419a8e7aaca54da7d6f5c5fc9b3f83cab650e23",
+          "locator": {
+            "pdfPages1Based": [
+              468,
+              469
+            ]
+          },
+          "sourceTextSha256": "3fd58c246db14ea87bc35e2f9da3ee2a026649402cd5f8f940485a92d71dcd81",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/DN8-2026-BRAKE_FLUID.txt",
+          "characters": 1904,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 이하이면 점검; 보충 시 넘침 방지."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-A01-2026-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-A01-2026"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "A01-2026-BRAKE_FLUID",
+          "documentId": "HYUNDAI-A01-2026",
+          "topic": "BRAKE_FLUID",
+          "title": "브레이크액",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/A01/2026/ko_KR",
+          "documentSha256": "38fbe422b1b95dbf54da081734f2facbf8969e1bca2a2a978a3725f890e677f1",
+          "locator": {
+            "pdfPages1Based": [
+              379
+            ]
+          },
+          "sourceTextSha256": "cd1bf092ae62bae6ee24106b4375ee6ebabb3fb31fbc2da2fcdf9ecaed5a393f",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/A01-2026-BRAKE_FLUID.txt",
+          "characters": 1109,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 이하이면 점검; 보충 시 넘침 방지."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-US4EV-2027-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-US4EV-2027"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "US4EV-2027-BRAKE_FLUID",
+          "documentId": "HYUNDAI-US4EV-2027",
+          "topic": "BRAKE_FLUID",
+          "title": "브레이크액 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4EV/2027/ko_KR",
+          "documentSha256": "668df665ece6573f01f559409f8f62919f2b48d655f8a97d2a9a29c0575bcf2d",
+          "locator": {
+            "pdfPages1Based": [
+              537,
+              538
+            ]
+          },
+          "sourceTextSha256": "1e55951bec45a8efb37903403b17c3aae78c4abe541414ec8159b9e742770f2b",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/US4EV-2027-BRAKE_FLUID.txt",
+          "characters": 1734,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 아래이면 점검; MAX까지 청결하게 보충."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-NE1-2027-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-NE1-2027"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "NE1-2027-BRAKE_FLUID",
+          "documentId": "HYUNDAI-NE1-2027",
+          "topic": "BRAKE_FLUID",
+          "title": "브레이크액 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/NE1/2027/ko_KR",
+          "documentSha256": "e32d572bf61a989590d87925ed740b2795c714033a6ef4432a46852574ce26a1",
+          "locator": {
+            "pdfPages1Based": [
+              527,
+              528
+            ]
+          },
+          "sourceTextSha256": "b81fe15365ce6892da6021a5a728ee144fb81dfab8c65fa337b0ac2af4a6dcc3",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/NE1-2027-BRAKE_FLUID.txt",
+          "characters": 1765,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 아래이면 점검; MAX까지 청결하게 보충."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-NE1-2025-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-NE1-2025"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "NE1-2025-BRAKE_FLUID",
+          "documentId": "HYUNDAI-NE1-2025",
+          "topic": "BRAKE_FLUID",
+          "title": "브레이크액 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/NE1/2025/ko_KR",
+          "documentSha256": "7c92b1e3b1326d6811340e664111897fc66f23b6ae96788e2d76e6f99eb30725",
+          "locator": {
+            "pdfPages1Based": [
+              523,
+              524
+            ]
+          },
+          "sourceTextSha256": "c8f92d22f91c30b2439d6f8baded35882fe652006479e3f103a7c094ae373854",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/NE1-2025-BRAKE_FLUID.txt",
+          "characters": 1765,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 아래이면 점검; MAX까지 청결하게 보충."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-CE1-2025-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-CE1-2025"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "CE1-2025-BRAKE_FLUID",
+          "documentId": "HYUNDAI-CE1-2025",
+          "topic": "BRAKE_FLUID",
+          "title": "브레이크액 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/CE1/2025/ko_KR",
+          "documentSha256": "778bd9cd9ba17bbe2fb8991499309d9dd22d8658fc5eb42d9c6aa673dac44335",
+          "locator": {
+            "pdfPages1Based": [
+              537,
+              538
+            ]
+          },
+          "sourceTextSha256": "8994670d671a29c12e0f265885289ff8f09077c356d08d07f37aa8b6cac9dc5f",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/CE1-2025-BRAKE_FLUID.txt",
+          "characters": 1738,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 아래이면 점검; MAX까지 청결하게 보충."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-ME-2027-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-ME-2027"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "ME-2027-BRAKE_FLUID",
+          "documentId": "HYUNDAI-ME-2027",
+          "topic": "BRAKE_FLUID",
+          "title": "브레이크액 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/ME/2027/ko_KR",
+          "documentSha256": "527ba63f2d0106dc41775de2fb7e35b342f43ec8f88e606c7dd814cb44520fd0",
+          "locator": {
+            "pdfPages1Based": [
+              597,
+              598
+            ]
+          },
+          "sourceTextSha256": "a9b1f194ac66a77e54aa8d1852fc1ffe2bb2df109316ca65273fc0a8264cbb93",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/ME-2027-BRAKE_FLUID.txt",
+          "characters": 1856,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 아래이면 점검; MAX까지 청결하게 보충.",
+        "후드 뒤 냉각수 보조 탱크 커버 제거 후 브레이크액 탱크 확인."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-AXEV-2027-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-AXEV-2027"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "AXEV-2027-BRAKE_FLUID",
+          "documentId": "HYUNDAI-AXEV-2027",
+          "topic": "BRAKE_FLUID",
+          "title": "브레이크액 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/AXEV/2027/ko_KR",
+          "documentSha256": "aa1465589f86265c261fafb3c17c81eeac574c7bb7f7e60ab248715ebcfb8a96",
+          "locator": {
+            "pdfPages1Based": [
+              439,
+              440
+            ]
+          },
+          "sourceTextSha256": "793d99346a53e9fe607e573918f42c5c934810abdcc241e92a472e148881ce0b",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/AXEV-2027-BRAKE_FLUID.txt",
+          "characters": 1805,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 아래이면 점검; MAX까지 청결하게 보충."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-SX2EV-2025-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-SX2EV-2025"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "SX2EV-2025-BRAKE_FLUID",
+          "documentId": "HYUNDAI-SX2EV-2025",
+          "topic": "BRAKE_FLUID",
+          "title": "브레이크액",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/SX2EV/2025/ko_KR",
+          "documentSha256": "5adf6f2b7662d46b226ce357cd40341eb7e07392b5236fe5f46a5c804b28d549",
+          "locator": {
+            "pdfPages1Based": [
+              662,
+              663,
+              664
+            ]
+          },
+          "sourceTextSha256": "65d3d707d312a3cda357a78cb61438a6cc63f58e72ba12e3104cf6c3b464eaf1",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/SX2EV-2025-BRAKE_FLUID.txt",
+          "characters": 1079,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 이하이면 점검; 보충 시 넘침 방지."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-DN8HEV-2026-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-DN8HEV-2026"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "DN8HEV-2026-BRAKE_FLUID",
+          "documentId": "HYUNDAI-DN8HEV-2026",
+          "topic": "BRAKE_FLUID",
+          "title": "브레이크액",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/DN8HEV/2026/ko_KR",
+          "documentSha256": "5843551877e8a3279e67ca5830f64df2f7ac8cb0bbb4020f3415cd0e11dd3158",
+          "locator": {
+            "pdfPages1Based": [
+              488,
+              489
+            ]
+          },
+          "sourceTextSha256": "f638f53cbe67824eed70bcc477b87dddea749d6a3a533b2f3f9c87b9ccb4528e",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/DN8HEV-2026-BRAKE_FLUID.txt",
+          "characters": 1415,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 이하이면 점검; 보충 시 넘침 방지."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-DN8c-2025-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-DN8c-2025"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "DN8c-2025-BRAKE_FLUID",
+          "documentId": "HYUNDAI-DN8c-2025",
+          "topic": "BRAKE_FLUID",
+          "title": "브레이크액",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/DN8c/2025/ko_KR",
+          "documentSha256": "ebd8b03c59aa7f37640f2b8150f96fe7da75191ee907550a56547b647ebc7e2c",
+          "locator": {
+            "pdfPages1Based": [
+              348,
+              349
+            ]
+          },
+          "sourceTextSha256": "37bd9e73577ebb49d7f68f7a24a8deb0f24e505b5ae9ccef4c5796a19619c771",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/DN8c-2025-BRAKE_FLUID.txt",
+          "characters": 1788,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 이하이면 점검; 보충 시 넘침 방지."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-US4-2026-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-US4-2026"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "US4-2026-BRAKE_FLUID",
+          "documentId": "HYUNDAI-US4-2026",
+          "topic": "BRAKE_FLUID",
+          "title": "브레이크액 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4/2026/ko_KR",
+          "documentSha256": "7627c80a2708e9918b9dca6227f383ddfb3f09c02c824ea69563a97780083519",
+          "locator": {
+            "pdfPages1Based": [
+              478,
+              479
+            ]
+          },
+          "sourceTextSha256": "285bf1a0365bf7c8d798b50ff049f84f90bc8187e053bc9afae39f63a9cc0c13",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/US4-2026-BRAKE_FLUID.txt",
+          "characters": 2049,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 아래이면 점검; MAX까지 청결하게 보충."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-US4HEV-2026-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-US4HEV-2026"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "US4HEV-2026-BRAKE_FLUID",
+          "documentId": "HYUNDAI-US4HEV-2026",
+          "topic": "BRAKE_FLUID",
+          "title": "브레이크액 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4HEV/2026/ko_KR",
+          "documentSha256": "393da16edb0b1e48d9fcf58aae0e37691f1ba26fa6cc53e5108d5566b9fd91f3",
+          "locator": {
+            "pdfPages1Based": [
+              513,
+              514
+            ]
+          },
+          "sourceTextSha256": "f901a92a7a31b164470d0c91afffc1327f8115c89dac53993c4beddd35c23c7b",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/US4HEV-2026-BRAKE_FLUID.txt",
+          "characters": 1884,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 아래이면 점검; MAX까지 청결하게 보충."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-MX5-2026-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-MX5-2026"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "MX5-2026-BRAKE_FLUID",
+          "documentId": "HYUNDAI-MX5-2026",
+          "topic": "BRAKE_FLUID",
+          "title": "브레이크액",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/MX5/2026/ko_KR",
+          "documentSha256": "5cf84f7e7f709383d711b7450321dde6c9a63e98b307649b366915f57eacece6",
+          "locator": {
+            "pdfPages1Based": [
+              677,
+              678,
+              679
+            ]
+          },
+          "sourceTextSha256": "49c7098da584487c644bd2da646b9d748a6b8817cd988bad9ecd91b08661add5",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/MX5-2026-BRAKE_FLUID.txt",
+          "characters": 1068,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 이하이면 점검; 보충 시 넘침 방지."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-MX5HEV-2026-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-MX5HEV-2026"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "MX5HEV-2026-BRAKE_FLUID",
+          "documentId": "HYUNDAI-MX5HEV-2026",
+          "topic": "BRAKE_FLUID",
+          "title": "브레이크액",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/MX5HEV/2026/ko_KR",
+          "documentSha256": "8fef11ef06a5ec675868b54b00b49b40de6bd4445f9f123fd0b4f6e0c5daad1b",
+          "locator": {
+            "pdfPages1Based": [
+              712,
+              713,
+              714
+            ]
+          },
+          "sourceTextSha256": "bfba0fe559b65a8a8bf0bf290f87d2a3a7eba287cb9f7fba0e099b29aadbe289",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/MX5HEV-2026-BRAKE_FLUID.txt",
+          "characters": 1062,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 이하이면 점검; 보충 시 넘침 방지."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-AX-2027-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-AX-2027"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "AX-2027-BRAKE_FLUID",
+          "documentId": "HYUNDAI-AX-2027",
+          "topic": "BRAKE_FLUID",
+          "title": "브레이크액 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/AX/2027/ko_KR",
+          "documentSha256": "f38683b42a7f71269b87ec96b1fb0a1ac20811e2a2330af22b9bc633f8a593e5",
+          "locator": {
+            "pdfPages1Based": [
+              358,
+              359
+            ]
+          },
+          "sourceTextSha256": "5fc910c4f662c79740e4d1c7e7449006a0d9633c422b44552d446046491abcc8",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/AX-2027-BRAKE_FLUID.txt",
+          "characters": 1506,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 아래이면 점검; MAX까지 청결하게 보충."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-SX2-2027-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-SX2-2027"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "SX2-2027-BRAKE_FLUID",
+          "documentId": "HYUNDAI-SX2-2027",
+          "topic": "BRAKE_FLUID",
+          "title": "브레이크 오일",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/SX2/2027/ko_KR",
+          "documentSha256": "bcf895c9dbbcb59d64275175141e76958d3ad2ac65412ae18a9b658550938126",
+          "locator": {
+            "pdfPages1Based": [
+              656,
+              657,
+              658
+            ]
+          },
+          "sourceTextSha256": "5dfff0ccbbc5152db0d467affd1e01001cc94414fa5b20a72bc07a1abf0638bb",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/SX2-2027-BRAKE_FLUID.txt",
+          "characters": 1145,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 이하이면 점검; 보충 시 넘침 방지."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-SX2HEV-2027-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-SX2HEV-2027"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "SX2HEV-2027-BRAKE_FLUID",
+          "documentId": "HYUNDAI-SX2HEV-2027",
+          "topic": "BRAKE_FLUID",
+          "title": "브레이크 오일",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/SX2HEV/2027/ko_KR",
+          "documentSha256": "7a56521c4225093eba2421e74f789a81d2199cd9849eb68d711c55993d436bbe",
+          "locator": {
+            "pdfPages1Based": [
+              657,
+              658,
+              659
+            ]
+          },
+          "sourceTextSha256": "25d9ad0f01cee58b708ea1d39cc9c1eb4f842cf42a154b0108ae2290ef2a99a3",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/SX2HEV-2027-BRAKE_FLUID.txt",
+          "characters": 1088,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 이하이면 점검; 보충 시 넘침 방지."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-LX3-2027-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-LX3-2027"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "LX3-2027-BRAKE_FLUID",
+          "documentId": "HYUNDAI-LX3-2027",
+          "topic": "BRAKE_FLUID",
+          "title": "브레이크액 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/LX3/2027/ko_KR",
+          "documentSha256": "a77d7fb6b8c3520ff178ee21f616f403416395e04cd907638f141cb62e6e86d5",
+          "locator": {
+            "pdfPages1Based": [
+              538,
+              539
+            ]
+          },
+          "sourceTextSha256": "72e1d89d3dbf733d37810f67593997fffb021a35431ed6d48b676774ca6a7f89",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/LX3-2027-BRAKE_FLUID.txt",
+          "characters": 2026,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 아래이면 점검; MAX까지 청결하게 보충."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-LX3HEV-2027-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-LX3HEV-2027"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "LX3HEV-2027-BRAKE_FLUID",
+          "documentId": "HYUNDAI-LX3HEV-2027",
+          "topic": "BRAKE_FLUID",
+          "title": "브레이크액 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/LX3HEV/2027/ko_KR",
+          "documentSha256": "718aba1cf5613a13fb9ce501f8ecb20d9bf3b81c0c6a87e976f76d2925dbcc3f",
+          "locator": {
+            "pdfPages1Based": [
+              552,
+              553
+            ]
+          },
+          "sourceTextSha256": "f88859cbc892e815d967121ed9773acb6193bab6984c7ecc5e416e415fe30d84",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/LX3HEV-2027-BRAKE_FLUID.txt",
+          "characters": 1885,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 아래이면 점검; MAX까지 청결하게 보충."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-NE1N-2026-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-NE1N-2026"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "NE1N-2026-BRAKE_FLUID",
+          "documentId": "HYUNDAI-NE1N-2026",
+          "topic": "BRAKE_FLUID",
+          "title": "브레이크액",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/NE1N/2026/ko_KR",
+          "documentSha256": "ba7440607e52d5b77f602965a999550da011260e0de50d4dab113f23a92af977",
+          "locator": {
+            "pdfPages1Based": [
+              734,
+              735,
+              736
+            ]
+          },
+          "sourceTextSha256": "7a214098f2adae06737e31d32efc9f5d78a1423b851a0df29c48381208b45c45",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/NE1N-2026-BRAKE_FLUID.txt",
+          "characters": 1037,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 이하이면 점검; 보충 시 넘침 방지."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-CE1N-2025-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-CE1N-2025"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "CE1N-2025-BRAKE_FLUID",
+          "documentId": "HYUNDAI-CE1N-2025",
+          "topic": "BRAKE_FLUID",
+          "title": "브레이크액 점검하기",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/CE1N/2025/ko_KR",
+          "documentSha256": "7f8ff59e884beca0ec6dab769448762b53ea1be3a23d523de4ff8d1943d2e416",
+          "locator": {
+            "pdfPages1Based": [
+              531,
+              532
+            ]
+          },
+          "sourceTextSha256": "a11637f1c023a66bfd3cb88566619ea06aa7c6aa647536a4f867a296cfda5d0d",
+          "localPath": ".local/manual-review/2026-10-28/hyundai/procedures/CE1N-2025-BRAKE_FLUID.txt",
+          "characters": 1839,
+          "reviewStatus": "SOURCE_REVIEWED",
+          "statusNote": "Original extraction preparation status superseded by direct reading recorded in parent rule."
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct canonical full passage reading and every source difference with context; explicitly enumerated completed units only",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 아래이면 점검; MAX까지 청결하게 보충."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-QX-2027-OVERHEAT",
+      "documentIds": [
+        "HYUNDAI-QX-2027"
+      ],
+      "topic": "OVERHEAT",
+      "conditions": [
+        "엔진 수온 과열·출력 저하·노킹 문맥. 증기/냉각수 분출 및 냉각팬 상태를 먼저 구분한다."
+      ],
+      "orderedActions": [
+        "비상등을 켜고 안전하게 정차하여 P·주차브레이크를 적용하고 에어컨을 끈다.",
+        "증기 또는 냉각수 분출이면 엔진을 끄고 정비 연락. 분출이 없을 때만 시동 상태에서 후드를 열어 냉각한다. 수온이 내려가지 않거나 팬이 돌지 않으면 시동을 끄고 충분히 식힌다.",
+        "충분히 식은 뒤 수량·누수·호스·펌프를 확인한다. 누수/팬 미회전/벨트 손상이 있으면 운전을 중단하고 점검한다. 누수 없이 부족한 경우 적정 냉각수를 천천히 소량씩 보충한다."
+      ],
+      "driverProhibitions": [
+        "뜨거운 냉각수/라디에이터/히터 호스 캡을 열지 않는다.",
+        "팬·벨트에 손이나 옷을 가까이하지 않는다.",
+        "뜨거운 엔진에 차가운 냉각수를 급하게 붓지 않는다."
+      ],
+      "applicationConstraints": [
+        "냉각팬이 멈출 때까지 OFF 금지라는 주의문을 분출·팬 미회전 분기에 무조건 적용하지 않는다.",
+        "정차/시동 조치는 차량별 원문 예외가 우선한다.",
+        "오일압력·화재·고전압 배터리 과열에 이 엔진 냉각 절차를 전이하지 않는다."
+      ],
+      "restartCriteria": "충분한 냉각과 원인 확인이 선행된다. 본문은 경고 소멸만으로 무조건 주행 허가하지 않는다.",
+      "sources": [
+        {
+          "id": "QX-2027-OVERHEAT",
+          "documentId": "HYUNDAI-QX-2027",
+          "topic": "OVERHEAT",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/QX/2027/ko_KR",
+          "documentSha256": "8c2a0e72b60e91160b14b029bdad7b2c019809c5ca4c91b24435bf62badb6b1b",
+          "locator": {
+            "pdfPages1Based": [
+              330
+            ]
+          },
+          "sourceTextSha256": "17ce52d267c0b31b565474f24f652b64b3708790454425f7818882915322cd0e"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source page reading",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-HR-2026-OVERHEAT",
+      "documentIds": [
+        "HYUNDAI-HR-2026"
+      ],
+      "topic": "OVERHEAT",
+      "conditions": [
+        "엔진 수온 과열·출력 저하·노킹 문맥. 증기/냉각수 분출 및 냉각팬 상태를 먼저 구분한다."
+      ],
+      "orderedActions": [
+        "안전한 곳에 주차하고 중립·주차브레이크를 적용하며 에어컨을 끈다.",
+        "냉각수 분출/수증기 시 원문은 공회전 유지와 멎을 때까지 후드 개방 금지를 요구한다. 분출이 없으면 시동 상태에서 동승석을 들어 통풍시키고 팬 작동을 확인한다. 팬이 돌지 않으면 시동을 끈다.",
+        "수온이 내려간 후 시동을 끄고 충분히 식힌 다음 탱크 F–L 수량·워터펌프 벨트·누수를 확인한다. 벨트 파손/누수/재발 우려/수량 감소/팬 미작동이면 신속히 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거운 냉각수/라디에이터/히터 호스 캡을 열지 않는다.",
+        "팬·벨트에 손이나 옷을 가까이하지 않는다.",
+        "뜨거운 엔진에 차가운 냉각수를 급하게 붓지 않는다.",
+        "분출이나 증기가 멎기 전 후드를 열지 않는다."
+      ],
+      "applicationConstraints": [
+        "DN8 등 다른 차종의 분출 시 즉시 OFF 규칙과 다르다. HR 원문을 독립 적용한다.",
+        "혼동 위험이 높은 긴급 절차이므로 전문가 확인 전 런타임 승인하지 않는다."
+      ],
+      "restartCriteria": "충분한 냉각과 원인 확인이 선행된다. 본문은 경고 소멸만으로 무조건 주행 허가하지 않는다.",
+      "sources": [
+        {
+          "id": "HR-2026-OVERHEAT",
+          "documentId": "HYUNDAI-HR-2026",
+          "topic": "OVERHEAT",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/HR/2026/ko_KR",
+          "documentSha256": "ff0d2aeb0ff0bd775c13c60dfd516d50b044319650277ca87270b73aae024b78",
+          "locator": {
+            "pdfPages1Based": [
+              260,
+              261
+            ]
+          },
+          "sourceTextSha256": "a34aa2bfedf8287e9e2029acc922ccfc5b676298c8e35f2118339f8f39e81778"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source page reading",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "visualVerification": {
+        "pdfPages1Based": [
+          260,
+          261
+        ],
+        "printedPageLabels": [
+          "5-8",
+          "5-9"
+        ],
+        "method": "AI viewed original rendered pages; three-column sequence and condition labels confirmed"
+      }
+    },
+    {
+      "ruleId": "HY-PROCEDURE-QX-2027-OIL",
+      "documentIds": [
+        "HYUNDAI-QX-2027"
+      ],
+      "topic": "OIL",
+      "conditions": [
+        "정기 오일량 점검 및 보충 절차. 엔진 유압 경고의 긴급 조치와 구분."
+      ],
+      "orderedActions": [
+        "정기 점검 차량을 평지에 두고 정상 온도 예열 후 시동을 끈다. 약5분 기다린 뒤 게이지를 닦고 다시 넣어 F–L 범위를 확인한다.",
+        "L 부근이면 F까지 보충하고 수량 재확인 후 캡과 게이지를 확실히 체결한다."
+      ],
+      "driverProhibitions": [
+        "엔진 오일 첨가제 사용 금지.",
+        "주입구에 이물질 유입 금지."
+      ],
+      "applicationConstraints": [
+        "유압 경고가 이미 켜진 차량에 정기 점검의 예열 단계를 그대로 지시하지 않는다.",
+        "엔진별 규격·용량은 별도 원문 표와 대조해야 한다."
+      ],
+      "restartCriteria": "이 정비 단락에는 유압 경고 해제를 위한 재시동 요구가 명시되어 있지 않음.",
+      "sources": [
+        {
+          "id": "QX-2027-OIL",
+          "documentId": "HYUNDAI-QX-2027",
+          "topic": "OIL",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/QX/2027/ko_KR",
+          "documentSha256": "8c2a0e72b60e91160b14b029bdad7b2c019809c5ca4c91b24435bf62badb6b1b",
+          "locator": {
+            "pdfPages1Based": [
+              358,
+              359
+            ]
+          },
+          "sourceTextSha256": "5e99d7d309465f5f4e758dd848130c8d7c0d5f1e979acaad848075911cba03d1"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct complete source page reading",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "대기시간 약5분. 다른 최신 문서의15분을 대입하지 않는다."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-HR-2026-OIL",
+      "documentIds": [
+        "HYUNDAI-HR-2026"
+      ],
+      "topic": "OIL",
+      "conditions": [
+        "정기 오일량 점검 및 보충 절차. 엔진 유압 경고의 긴급 조치와 구분."
+      ],
+      "orderedActions": [
+        "평지에서 규정 온도까지 예열한 정기 점검 차량은 시동을 끄고 주입캡/게이지를 분리한 뒤 약15분 기다린다.",
+        "깨끗이 닦은 게이지를 다시 넣어 F–L 범위를 확인하고 L 이하이면 F까지 보충 후 재확인·밀봉한다."
+      ],
+      "driverProhibitions": [
+        "엔진 오일 첨가제 사용 금지.",
+        "주입구에 이물질 유입 금지."
+      ],
+      "applicationConstraints": [
+        "유압 경고가 이미 켜진 차량에 정기 점검의 예열 단계를 그대로 지시하지 않는다.",
+        "엔진별 규격·용량은 별도 원문 표와 대조해야 한다."
+      ],
+      "restartCriteria": "HR 2.5 T-LPDI는 유압 회복 후 재시동 필요.",
+      "sources": [
+        {
+          "id": "HR-2026-OIL",
+          "documentId": "HYUNDAI-HR-2026",
+          "topic": "OIL",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/HR/2026/ko_KR",
+          "documentSha256": "ff0d2aeb0ff0bd775c13c60dfd516d50b044319650277ca87270b73aae024b78",
+          "locator": {
+            "pdfPages1Based": [
+              305,
+              306
+            ]
+          },
+          "sourceTextSha256": "db716c41dbdcf39396b5b5d3053d16910f02bde86fcb803f991f2eee51642ab8"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct complete source page reading",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-CN7N-2026-OIL",
+      "documentIds": [
+        "HYUNDAI-CN7N-2026"
+      ],
+      "topic": "OIL",
+      "conditions": [
+        "정기 오일량 점검 및 보충 절차. 엔진 유압 경고의 긴급 조치와 구분."
+      ],
+      "orderedActions": [
+        "평지에서 규정 온도까지 예열한 정기 점검 차량은 시동을 끄고 주입캡/게이지를 분리한 뒤 약15분 기다린다.",
+        "깨끗이 닦은 게이지를 다시 넣어 F–L 범위를 확인하고 L 이하이면 F까지 보충 후 재확인·밀봉한다."
+      ],
+      "driverProhibitions": [
+        "엔진 오일 첨가제 사용 금지.",
+        "주입구에 이물질 유입 금지."
+      ],
+      "applicationConstraints": [
+        "유압 경고가 이미 켜진 차량에 정기 점검의 예열 단계를 그대로 지시하지 않는다.",
+        "엔진별 규격·용량은 별도 원문 표와 대조해야 한다."
+      ],
+      "restartCriteria": "이 정비 단락에는 유압 경고 해제를 위한 재시동 요구가 명시되어 있지 않음.",
+      "sources": [
+        {
+          "id": "CN7N-2026-OIL",
+          "documentId": "HYUNDAI-CN7N-2026",
+          "topic": "OIL",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/CN7N/2026/ko_KR",
+          "documentSha256": "02bf55203560b31d51bb9d963b8c04ca9842499c7f60bfc1b5296f31f995b22f",
+          "locator": {
+            "pdfPages1Based": [
+              392,
+              393
+            ]
+          },
+          "sourceTextSha256": "04fae0d059d489bc07c7cda98c69ed0c4a44ae7d2e322f97af520e94833e4149"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct complete source page reading",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-PROCEDURE-QX-2027-COOLANT",
+      "documentIds": [
+        "HYUNDAI-QX-2027"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 모델의 냉각수 점검. 충분히 냉각된 상태."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "QX-2027-COOLANT",
+          "documentId": "HYUNDAI-QX-2027",
+          "topic": "COOLANT",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/QX/2027/ko_KR",
+          "documentSha256": "8c2a0e72b60e91160b14b029bdad7b2c019809c5ca4c91b24435bf62badb6b1b",
+          "locator": {
+            "pdfPages1Based": [
+              360,
+              361
+            ]
+          },
+          "sourceTextSha256": "a9d2da90d04c6eebff88114cc4cbd3f01e1bc63209075915682bd322c354a080"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct complete source page reading",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "QX/HR은 탱크 F–L, HREV/US4EV는 MAX–MIN 표기."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-HR-2026-COOLANT",
+      "documentIds": [
+        "HYUNDAI-HR-2026"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 모델의 냉각수 점검. 충분히 냉각된 상태."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "HR-2026-COOLANT",
+          "documentId": "HYUNDAI-HR-2026",
+          "topic": "COOLANT",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/HR/2026/ko_KR",
+          "documentSha256": "ff0d2aeb0ff0bd775c13c60dfd516d50b044319650277ca87270b73aae024b78",
+          "locator": {
+            "pdfPages1Based": [
+              307,
+              308
+            ]
+          },
+          "sourceTextSha256": "cda8ea1439794a677addbbbd39588a21dd731636de89f9691edc09435603077f"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct complete source page reading",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "QX/HR은 탱크 F–L, HREV/US4EV는 MAX–MIN 표기.",
+        "추천 혼합은 부동액40~50:물60~50. 별도 온도표는35/40/50/60%. 냉각수 교환 배출·순환 절차는 전문 정비 작업으로 분리한다."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-HREV-2026-COOLANT",
+      "documentIds": [
+        "HYUNDAI-HREV-2026"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 모델의 냉각수 점검. 충분히 냉각된 상태."
+      ],
+      "orderedActions": [
+        "냉각수 수량을 MAX–MIN 사이인지 확인한다. 부족하면 지정 정비소에서 점검받는다."
+      ],
+      "driverProhibitions": [
+        "EV 전용 냉각수 적용으로 다른 부동액이나 물을 보충하지 않는다."
+      ],
+      "applicationConstraints": [
+        "같은 페이지의 일반 혼합비율 표를 자가 물 보충 허가로 해석하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "HREV-2026-COOLANT",
+          "documentId": "HYUNDAI-HREV-2026",
+          "topic": "COOLANT",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/HREV/2026/ko_KR",
+          "documentSha256": "5a1c574677a6029a87996732c6c0eed0819650601c08a2a02385c0d9728e4432",
+          "locator": {
+            "pdfPages1Based": [
+              260
+            ]
+          },
+          "sourceTextSha256": "6440fcb701b77bdaed57df17bb06794b3d86aad8dfddf5cc16e4f550264e29aa"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct complete source page reading",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "전용 냉각수 경고가 일반 냉각수 보충 템플릿보다 우선한다."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-US4EV-2027-COOLANT",
+      "documentIds": [
+        "HYUNDAI-US4EV-2027"
+      ],
+      "topic": "COOLANT",
+      "conditions": [
+        "해당 모델의 냉각수 점검. 충분히 냉각된 상태."
+      ],
+      "orderedActions": [
+        "시동을 끄고 장치가 식은 뒤 탱크 수량을 확인한다. MIN 부근이면 해당 규격 혼합액을 MAX까지 보충하고 캡을 완전히 잠근다.",
+        "누수와 며칠 뒤 수량을 재확인한다. 현저히 감소하면 정비한다."
+      ],
+      "driverProhibitions": [
+        "뜨거울 때 캡 개방 금지.",
+        "냉각수 없는 상태로 주행 금지.",
+        "소금물·지하수·알코올·메탄올 및 다른 계열 혼합 금지."
+      ],
+      "applicationConstraints": [
+        "이온수/저전도 냉각수 등 차종별 냉각 회로 차이를 확인하기 전 다른 EV로 전파 금지.",
+        "본문 35%/60% 경계 금지 표현과 혼합표의 경계 수치가 함께 있어 극한 경계값을 실행형 규칙으로 확정하지 않는다.",
+        "BEV 문서의 연료 전지 스택룸 언급은 부품 명칭 혼입 의심. 이 문구로 FCEV로 분류하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "US4EV-2027-COOLANT",
+          "documentId": "HYUNDAI-US4EV-2027",
+          "topic": "COOLANT",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4EV/2027/ko_KR",
+          "documentSha256": "668df665ece6573f01f559409f8f62919f2b48d655f8a97d2a9a29c0575bcf2d",
+          "locator": {
+            "pdfPages1Based": [
+              535,
+              536
+            ]
+          },
+          "sourceTextSha256": "55b7c4a8efa07c84915e2c0847aef6a21d22cd8011e3fcea1f0cc80b3d520811"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct complete source page reading",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "QX/HR은 탱크 F–L, HREV/US4EV는 MAX–MIN 표기."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-QX-2027-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-QX-2027"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "QX-2027-BRAKE_FLUID",
+          "documentId": "HYUNDAI-QX-2027",
+          "topic": "BRAKE_FLUID",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/QX/2027/ko_KR",
+          "documentSha256": "8c2a0e72b60e91160b14b029bdad7b2c019809c5ca4c91b24435bf62badb6b1b",
+          "locator": {
+            "pdfPages1Based": [
+              361,
+              362
+            ]
+          },
+          "sourceTextSha256": "7763e99f29f1bf9649b9e5ec9d88d4bd7704a9a25204ece105c1636b0fa9271c"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct complete source page reading",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 이하 기준. 클러치액은 HR/CN7N 해당 사양에서만 포함."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-HR-2026-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-HR-2026"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "점검창에서 MIN–MAX를 확인하고 MIN 이하이면 지정 규격액을 평지에서 보충한다. 현저한 감소는 제동계통 이상을 점검하고 정비한다.",
+        "용기 커버 분리·주위 청소·천천히 주입·캡 및 커버 체결 순서. 도장에 묻으면 즉시 닦는다."
+      ],
+      "driverProhibitions": [
+        "다른 제품과 혼용 금지.",
+        "먼지·습기 유입과 눈 접촉 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "HR-2026-BRAKE_FLUID",
+          "documentId": "HYUNDAI-HR-2026",
+          "topic": "BRAKE_FLUID",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/HR/2026/ko_KR",
+          "documentSha256": "ff0d2aeb0ff0bd775c13c60dfd516d50b044319650277ca87270b73aae024b78",
+          "locator": {
+            "pdfPages1Based": [
+              313
+            ]
+          },
+          "sourceTextSha256": "1f41a9e0e6b8d455560df12a1a7e5ef577688dff4cb49cf772033b757a33ef58"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct complete source page reading",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 이하 기준. 클러치액은 HR/CN7N 해당 사양에서만 포함.",
+        "해당 저장 용기의 커버를 당겨 분리한 뒤 보충하고 커버를 다시 장착한다."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-HREV-2026-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-HREV-2026"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "HREV-2026-BRAKE_FLUID",
+          "documentId": "HYUNDAI-HREV-2026",
+          "topic": "BRAKE_FLUID",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/HREV/2026/ko_KR",
+          "documentSha256": "5a1c574677a6029a87996732c6c0eed0819650601c08a2a02385c0d9728e4432",
+          "locator": {
+            "pdfPages1Based": [
+              260,
+              261
+            ]
+          },
+          "sourceTextSha256": "5811f6540df5f6a9c498377e80720289ff2ee972b3a59e4ce97f2f00532918ba"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct complete source page reading",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 이하 기준. 클러치액은 HR/CN7N 해당 사양에서만 포함.",
+        "해당 저장 용기의 커버를 당겨 분리한 뒤 보충하고 커버를 다시 장착한다."
+      ]
+    },
+    {
+      "ruleId": "HY-PROCEDURE-CN7N-2026-BRAKE_FLUID",
+      "documentIds": [
+        "HYUNDAI-CN7N-2026"
+      ],
+      "topic": "BRAKE_FLUID",
+      "conditions": [
+        "브레이크액 MIN/MAX 점검·보충."
+      ],
+      "orderedActions": [
+        "MIN 아래이면 정비 점검을 받는다. 보충 시 평지 주차 후 탱크 주위를 닦고 청결한 깔때기로 넘치지 않게 넣어 캡을 잠근다.",
+        "도장/플라스틱에 묻으면 즉시 닦고 눈에 들어가면 깨끗한 흐르는 물로 씻은 후 진료받는다."
+      ],
+      "driverProhibitions": [
+        "장시간 공기 노출액·성분 다른 오일 사용 금지."
+      ],
+      "applicationConstraints": [
+        "보충만으로 브레이크 고장이 해결됐다고 판단하지 않는다. 경고 지속과 제동 저하는 별도 고장 절차 적용.",
+        "규격 SAE J1704 DOT-4 LV/ISO4925 CLASS-6/FMVSS116 DOT-4를 다른 모델에 자동 전파하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "id": "CN7N-2026-BRAKE_FLUID",
+          "documentId": "HYUNDAI-CN7N-2026",
+          "topic": "BRAKE_FLUID",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/CN7N/2026/ko_KR",
+          "documentSha256": "02bf55203560b31d51bb9d963b8c04ca9842499c7f60bfc1b5296f31f995b22f",
+          "locator": {
+            "pdfPages1Based": [
+              395,
+              396
+            ]
+          },
+          "sourceTextSha256": "65a4d957a3655418ad95f27995d5462b4a0c7f5d835a78686486ed9e6e62ce64"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct complete source page reading",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "MIN 이하 기준. 클러치액은 HR/CN7N 해당 사양에서만 포함."
+      ]
+    }
+  ],
+  "finalReadingIndex": "hyundai-source-reading-closure.json"
+}

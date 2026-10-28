@@ -1,0 +1,2238 @@
+{
+  "https://ownersmanual.kia.com/full_webhelp/CT1/2027/ko_KR/topics/t00023.html": {
+    "index": 0,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/CT1/2027/ko_KR/topics/t00023.html",
+    "source_sha256": "0b27340378a5eb28c075eea3496c519206274820a7573e9f89b850b90c80f54d",
+    "title": "배터리 컨디셔닝 모드",
+    "document_ids": [
+      "kia_CT1_2027"
+    ],
+    "review_note_ko": "EV4 배터리컨디셔닝은 정상 온도조절, 주행거리 감소·저충전 미작동·원격은 적정온도 또는30분 종료. 고장대처 없음, 정상표시 일반설정 하위확장 불필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/CT1/2027/ko_KR/topics/t00511.html": {
+    "index": 1,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/CT1/2027/ko_KR/topics/t00511.html",
+    "source_sha256": "7809fc63fe319029a5afb5f6da3a8e16b26ff4b4f6aad835e1969967aff4f2fe",
+    "title": "통합 경고 모드",
+    "document_ids": [
+      "kia_CT1_2027"
+    ],
+    "review_note_ko": "통합경고는 하나이상 상황 저장·해소 시 해당내용삭제/등소등. ADAS고장가림/LED/TPMS 등 실제메시지를 확인해야 하며 단독원인 확정불가.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/CT1/2027/ko_KR/topics/t00674.html": {
+    "index": 2,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/CT1/2027/ko_KR/topics/t00674.html",
+    "source_sha256": "cfc45ddf9094db679494ad35f3309db8241873c3eef2a0c03a5b7b33b2bf32af",
+    "title": "자동 정차 기능 (AUTO HOLD)",
+    "document_ids": [
+      "kia_CT1_2027"
+    ],
+    "review_note_ko": "EV4 AUTOHOLD는 R/N/D 정차유지·D/R 가속출발 정상설명. 이상하위t00677와 작동/해제 조건 추가확인 필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/CT1/2027/ko_KR/topics/t00681.html": {
+    "index": 3,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/CT1/2027/ko_KR/topics/t00681.html",
+    "source_sha256": "5a9170cee548792f823aa6fc709d82e9115b12e2299bec29ee9c5318b8041f97",
+    "title": "아이 페달 (i-PEDAL)",
+    "document_ids": [
+      "kia_CT1_2027"
+    ],
+    "review_note_ko": "EV4 iPEDAL 회색비활성/초록가능, 1초패들토글·재시동단계유지(0→1), 후진설정에따라D20km/h재활성. 경사/DBC/미끄럼/배터리·패드과열 등 제한은 고장단정불가. 정차안될수있어전방주시·필요페달·비상페달제동, 미끄럼사용금지. 정상기능설정 추가확장 불필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/CT1/2027/ko_KR/topics/t00682.html": {
+    "index": 4,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/CT1/2027/ko_KR/topics/t00682.html",
+    "source_sha256": "2f8c82c84451d89ddef0af1a8768a05b9c7f811b16adca5ddc38ac64d0da4d2d",
+    "title": "스마트 회생 시스템",
+    "document_ids": [
+      "kia_CT1_2027"
+    ],
+    "review_note_ko": "스마트회생 소개만, 실제이상/제한t00691 확인 필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/CT1/2027/ko_KR/topics/t00697.html": {
+    "index": 5,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/CT1/2027/ko_KR/topics/t00697.html",
+    "source_sha256": "6f022f047da867fcbfa2d5e472a854e9493254846e9d53840ec23ec5580ecd85",
+    "title": "차체자세 제어 장치 (ESC)",
+    "document_ids": [
+      "kia_CT1_2027"
+    ],
+    "review_note_ko": "EV4 ESC 시동자동ON·작동점멸·짧은OFF1/3초OFF2·짧게복구·재시동복구. 점멸/미끄럼/곡선에서는 가속말고서행, 작동중OFF금지·전환은직선평탄정속·평소ON. 진동정상·검사OFF는검사용일뿐 고장해결책 아님.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/CT1/2027/ko_KR/topics/t00704.html": {
+    "index": 6,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/CT1/2027/ko_KR/topics/t00704.html",
+    "source_sha256": "89e506b89f2aa0c851f3eefbcf3904ae2a4ec38d16578ac00ae9607f68b9d4c5",
+    "title": "주행 모드 통합제어 시스템",
+    "document_ids": [
+      "kia_CT1_2027"
+    ],
+    "review_note_ko": "드라이브모드 제목만. 원경고가 정상모드표시이며 고장대처가 없어 일반모드사용법은 범위밖.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/CT1/2027/ko_KR/topics/t00708_3.html": {
+    "index": 7,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/CT1/2027/ko_KR/topics/t00708_3.html",
+    "source_sha256": "c9c37c972fea249e1027334d7c8f7da0902b2a90f201d993c0fcb4dcc8cdfe35",
+    "title": "런치 컨트롤 (GT 전용)",
+    "document_ids": [
+      "kia_CT1_2027"
+    ],
+    "review_note_ko": "GT런치 정상준비8초/재사용2분냉각·가속페달해제취소. MCU과열·배터리고저온저충전·보조기능 제한. 기능 활성화 운전방법은 경고대처범위밖; 제한을 고장으로 단정하지 않음.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00371.html": {
+    "index": 8,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00371.html",
+    "source_sha256": "90da55305203f189e00eaded1c58e7964d6c17eaf84d89ea45eba2046f630a45",
+    "title": "통합 경고 모드",
+    "document_ids": [
+      "kia_CV1_2027"
+    ],
+    "review_note_ko": "통합경고 하나이상저장·해소삭제소등·ADAS/LED/TPMS 등 실제메시지확인. EV4와 내용동일.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00683.html": {
+    "index": 9,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00683.html",
+    "source_sha256": "5b4db1a58f16f6fbb92ffd2262a45c348f2cf98f813fb56caffe2099802c9505",
+    "title": "자동 정차 기능(AUTO HOLD)",
+    "document_ids": [
+      "kia_CV1_2027"
+    ],
+    "review_note_ko": "EV6 AUTOHOLD 정상정차유지 소개. 작동/출발/해제 하위에 실패대처·주의 확인 필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00691.html": {
+    "index": 10,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00691.html",
+    "source_sha256": "6198993c0cdddf7e2a9c0fd4b5d7bd0b1c746a6f1d8fd24c7e3b3e2399593ccc",
+    "title": "아이 페달(i-PEDAL)",
+    "document_ids": [
+      "kia_CV1_2027"
+    ],
+    "review_note_ko": "EV6 iPEDAL 3단계왼쪽한번진입·오른쪽또는R→D해제. 도어닫힘D조건, 경사/미끄럼/SOC높음저온 제한. 전방주시·필요/비상페달제동·미끄럼사용금지. EV41초토글·후진유지규칙과 다름.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00692.html": {
+    "index": 11,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00692.html",
+    "source_sha256": "929832b9831c1e3a7a9db86b4f6a1cc31a6eeb39ddf39bd1a7b8228ba92c3fba",
+    "title": "스마트 회생 시스템",
+    "document_ids": [
+      "kia_CV1_2027"
+    ],
+    "review_note_ko": "스마트회생 소개만·이상/제한t00699 추가확인 필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00705.html": {
+    "index": 12,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00705.html",
+    "source_sha256": "fdca4ed167c5a4ff1682376671e6cfa76f422276cddbdfe5406a6dd3c35f6c05",
+    "title": "차체자세 제어 장치(ESC)",
+    "document_ids": [
+      "kia_CV1_2027"
+    ],
+    "review_note_ko": "EV6 ESC 시동ON·작동점멸·짧은OFF1부저1/3초OFF2부저2·복구버튼/재시동. 점멸시가속금지서행·작동중OFF금지·전환직선평탄정속·평소ON·진동정상. 검사OFF 지시를 일반고장대처로 사용금지.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00712.html": {
+    "index": 13,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00712.html",
+    "source_sha256": "9a4266091201e6d44478cac1435e4194a8d90d9f5c445ac5833af151bf62511a",
+    "title": "주행 모드 통합제어 시스템",
+    "document_ids": [
+      "kia_CV1_2027"
+    ],
+    "review_note_ko": "드라이브모드 제목만, 정상모드사용설명은 경고대처범위밖.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00720.html": {
+    "index": 14,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00720.html",
+    "source_sha256": "71e3d45ebdcc9706fad78cc4ac3ef219eacfc0b7acf4edd64733e6dc22817bf2",
+    "title": "4륜 구동 모터 (사양 적용 시)",
+    "document_ids": [
+      "kia_CV1_2027"
+    ],
+    "review_note_ko": "EV6 4WD기능소개. 실제점검조치t00722/주의t00725에 경고/과열대처 있는지확인 필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/DL3/2027/ko_KR/topics/t00322.html": {
+    "index": 15,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/DL3/2027/ko_KR/topics/t00322.html",
+    "source_sha256": "7dd57e1f45f4c76046501d8abc178f416374a3e1f6861cf0313e7edb30a20c95",
+    "title": "안전벨트",
+    "document_ids": [
+      "kia_DL3_2027"
+    ],
+    "review_note_ko": "K5안전벨트 제목만, 경고원문 자체 착용/경고조건 읽음과 구속장치실제사용의 연결 별도. 일반프리텐셔너정비 전체확장 불필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/DL3/2027/ko_KR/topics/t00485.html": {
+    "index": 16,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/DL3/2027/ko_KR/topics/t00485.html",
+    "source_sha256": "91a6adf5576ed4dcc9c990f1b2d253f092c3625cd7a93858a09d5c2b0f76ba13",
+    "title": "자동 정차 기능(AUTO HOLD)",
+    "document_ids": [
+      "kia_DL3_2027"
+    ],
+    "review_note_ko": "K5 AUTOHOLD D/R/N/스포츠 정차유지·가속출발 소개. LCD/해제하위 실패대처필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/DL3/2027/ko_KR/topics/t00491.html": {
+    "index": 17,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/DL3/2027/ko_KR/topics/t00491.html",
+    "source_sha256": "9952ae784323826c7d6762f7d4e62aeae9f95667db6aaaae7b55c7e162ff9e23",
+    "title": "차체자세 제어 장치(ESC)",
+    "document_ids": [
+      "kia_DL3_2027"
+    ],
+    "review_note_ko": "K5 ESC 전체: ON3초자기점검·계속/주행점등정비, 점멸작동서행가속금지, OFF1구동만/OFF2구동제동3초해제·짧게또는재시동복구. OFF설정해도안전개입정상가능. 작동중OFF금지·직선평탄정속전환·검사후복구. 진동/진단음정상과 고장구분.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/DL3/2027/ko_KR/topics/t00495.html": {
+    "index": 18,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/DL3/2027/ko_KR/topics/t00495.html",
+    "source_sha256": "79df331d808dafbc9659d1fc230a9aa9204f8e1467450c7fdd6041e94533a0a5",
+    "title": "공회전 제한 시스템(ISG)",
+    "document_ids": [
+      "kia_DL3_2027"
+    ],
+    "review_note_ko": "K5ISG 재시동 순간전류로 ABS/브레이크/ESC/ESCOFF 순간점등은 고장아님. 지속경고와구분, 이상/강제시동/배터리센서 하위 실제대처필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/DL3/2027/ko_KR/topics/t00507.html": {
+    "index": 19,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/DL3/2027/ko_KR/topics/t00507.html",
+    "source_sha256": "c02d4a2cc6a57da3ac0bc370e4215108671433858922f1b65ff81b321435d101",
+    "title": "주행 모드 통합제어 시스템",
+    "document_ids": [
+      "kia_DL3_2027"
+    ],
+    "review_note_ko": "드라이브모드 제목만. 원경고가 정상모드표시이며 고장대처가 없어 일반모드사용법은 범위밖. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/DL3KH/2027/ko_KR/topics/t00049.html": {
+    "index": 20,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/DL3KH/2027/ko_KR/topics/t00049.html",
+    "source_sha256": "2407498f97f34d95dc32351af98e90bb17550ea3d81eb331a4c43be2369da99b",
+    "title": "전구의 용량",
+    "document_ids": [
+      "kia_DL3KH_2027"
+    ],
+    "review_note_ko": "K5HEV 전구표 읽음: 앞방향 A PY21W21W/B LED, 뒤방향 A/B PY21W21W. LED와벌브 사양 구분; 경고후 규격확인 참조이며 일반전구교체 전체확장아님.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/DL3KH/2027/ko_KR/topics/t00071.html": {
+    "index": 21,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/DL3KH/2027/ko_KR/topics/t00071.html",
+    "source_sha256": "1107ba8bf5e77009696d4735cc95f8674f6b90afc314f208bfb953b24d471dab",
+    "title": "디지털 키 2 (사양 적용 시)",
+    "document_ids": [
+      "kia_DL3KH_2027"
+    ],
+    "review_note_ko": "디지털키2소개만. 시스템점검경고는 inline서비스지시, 제한사항 하위에서 일시실패와고장 구분필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/DL3KH/2027/ko_KR/topics/t00467.html": {
+    "index": 22,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/DL3KH/2027/ko_KR/topics/t00467.html",
+    "source_sha256": "9f550f77b597b7da6e63a727b45408694b26e89a16c4f6f2759b2e26e3decf5f",
+    "title": "자동 정차 기능 (AUTO HOLD)",
+    "document_ids": [
+      "kia_DL3KH_2027"
+    ],
+    "review_note_ko": "K5HEV AUTOHOLD D/R/N/스포츠 유지·D/R/스포츠가속해제. 실패대처 LCD/해제하위필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/DL3KH/2027/ko_KR/topics/t00473.html": {
+    "index": 23,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/DL3KH/2027/ko_KR/topics/t00473.html",
+    "source_sha256": "10b63c2a122075b80dfbefccac954716e78a0c595b046f7206bab7fb5129decb",
+    "title": "차체자세 제어 장치 (ESC)",
+    "document_ids": [
+      "kia_DL3KH_2027"
+    ],
+    "review_note_ko": "K5 ESC 전체: ON3초자기점검·계속/주행점등정비, 점멸작동서행가속금지, OFF1구동만/OFF2구동제동3초해제·짧게또는재시동복구. OFF설정해도안전개입정상가능. 작동중OFF금지·직선평탄정속전환·검사후복구. 진동/진단음정상과 고장구분. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/DL3KH/2027/ko_KR/topics/t00477.html": {
+    "index": 24,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/DL3KH/2027/ko_KR/topics/t00477.html",
+    "source_sha256": "3a6849e65d1609516639fb266c02d64078538d186113296b1eb498fed38f9127",
+    "title": "주행 모드 통합제어 시스템",
+    "document_ids": [
+      "kia_DL3KH_2027"
+    ],
+    "review_note_ko": "드라이브모드 제목만. 원경고가 정상모드표시이며 고장대처가 없어 일반모드사용법은 범위밖. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/DL3KH/2027/ko_KR/topics/t00479.html": {
+    "index": 25,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/DL3KH/2027/ko_KR/topics/t00479.html",
+    "source_sha256": "409e17e620f26ade07eefe149a983c310afc560b08d87a4ea58877b281e9887a",
+    "title": "그린존 드라이브 주행 (사양 적용 시)",
+    "document_ids": [
+      "kia_DL3KH_2027"
+    ],
+    "review_note_ko": "K5HEV그린존 ECO전기확대 정상표시. 저충전·냉난방·가속언덕·구동계목적 엔진시동가능/GPS인식제한, 고장아님. 일반모드설정 범위밖.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/DL3KH/2027/ko_KR/topics/t00815.html": {
+    "index": 26,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/DL3KH/2027/ko_KR/topics/t00815.html",
+    "source_sha256": "62e0ce6aa19bcaf8d6d86ade5dcce204e4c0b02ef24505531accdb83a91fdd49",
+    "title": "퓨즈의 교체",
+    "document_ids": [
+      "kia_DL3KH_2027"
+    ],
+    "review_note_ko": "K5HEV퓨즈 규정동일용량·라벨위치·OFF모든전기OFF배터리-분리·확실체결. 드라이버금속/철사구리은박/고용량/임의배선금지. 재단선정비·볼트너트형임의분해금지서비스. 실제실내퓨즈 제거/위치 하위조건 필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/GL3/2027/ko_KR/topics/t00070.html": {
+    "index": 27,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/GL3/2027/ko_KR/topics/t00070.html",
+    "source_sha256": "b43c50e0a6e3ea010758d00610b67235916fe687b16957e4ad22e59a1b3916a3",
+    "title": "안전벨트 리마인더",
+    "document_ids": [
+      "kia_GL3_2027"
+    ],
+    "review_note_ko": "K8벨트앞ON6초·미착용20미만점등/20이상100초경고, 빈동승석6초·하차후6초, 물건치우기·바른자세. 뒤ON6초·미착용70초/주행해제20이상35초·착용소등.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/GL3/2027/ko_KR/topics/t00505.html": {
+    "index": 28,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/GL3/2027/ko_KR/topics/t00505.html",
+    "source_sha256": "b4a5de00e1816979f1cbc3b82e90ea724bd6ed124a767fe9ec9f4c1024569d1e",
+    "title": "자동 정차 기능(AUTO HOLD)",
+    "document_ids": [
+      "kia_GL3_2027"
+    ],
+    "review_note_ko": "K8AUTOHOLD 수동패들모드 포함·브레이크상태해제 표현. LCD실패/해제하위연결 필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/GL3/2027/ko_KR/topics/t00511.html": {
+    "index": 29,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/GL3/2027/ko_KR/topics/t00511.html",
+    "source_sha256": "31dd5750aac64be1c1a770b9e6eda0906ef1eb6de0814e2d0d1f58e00345af26",
+    "title": "차체자세 제어 장치(ESC)",
+    "document_ids": [
+      "kia_GL3_2027"
+    ],
+    "review_note_ko": "K8ESC ON3초/지속주행점등정비·작동점멸서행가속금지, OFF1구동/OFF2제동포함3초·짧게/재시동복구. OFF여도안전개입정상·작동중OFF금지·직선평탄정속전환·검사후복구·진단음진동정상.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/GL3/2027/ko_KR/topics/t00521.html": {
+    "index": 30,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/GL3/2027/ko_KR/topics/t00521.html",
+    "source_sha256": "3f54e2ff71690bf1d2e7fc7c747d5a0a551b6a4b56370a7e35d0c4d4d49af909",
+    "title": "주행 모드 통합제어 시스템",
+    "document_ids": [
+      "kia_GL3_2027"
+    ],
+    "review_note_ko": "주행모드 제목·정상표시 일반설정범위밖.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/GL3KH/2027/ko_KR/topics/t00048.html": {
+    "index": 31,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/GL3KH/2027/ko_KR/topics/t00048.html",
+    "source_sha256": "b89b1fee35ececbdf8119c775d565267b683671cfddcfc82dd0e59338fa3ca0d",
+    "title": "시트",
+    "document_ids": [
+      "kia_GL3KH_2027"
+    ],
+    "review_note_ko": "K8HEV 그린존 참조가 시트본문으로 잘못연결. 좌석조절을 그린존대처로 사용금지, 원경고정상표시 검토와 별도 source-link hold.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/GL3KH/2027/ko_KR/topics/t00067.html": {
+    "index": 32,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/GL3KH/2027/ko_KR/topics/t00067.html",
+    "source_sha256": "706c1854ed6ed1ec1642ef5685127693cfcf3f10a4df27a4e8a31a89711c296e",
+    "title": "안전벨트 리마인더",
+    "document_ids": [
+      "kia_GL3KH_2027"
+    ],
+    "review_note_ko": "K8HEV벨트 앞ON6초/20이상100초·동승석빈상태와하차후6초, 물건치우기·바른자세. 뒤ON6초/미착용70초/주행해제20이상35초. ICE와 조건동일.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/GL3KH/2027/ko_KR/topics/t00502.html": {
+    "index": 33,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/GL3KH/2027/ko_KR/topics/t00502.html",
+    "source_sha256": "1f762cd7852c6b8e26f3cf14d27c37681641ad364d61249a6998451e57d0011f",
+    "title": "자동 정차 기능(AUTO HOLD)",
+    "document_ids": [
+      "kia_GL3KH_2027"
+    ],
+    "review_note_ko": "K8HEV AUTOHOLD D/R/N/수동패들 유지·D/R/수동출발해제. 실제실패대처하위필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/GL3KH/2027/ko_KR/topics/t00508.html": {
+    "index": 34,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/GL3KH/2027/ko_KR/topics/t00508.html",
+    "source_sha256": "c573b405733350e5e87b81096411e7b20a159f336f6ad8872105c6322569a87a",
+    "title": "차체자세 제어 장치(ESC)",
+    "document_ids": [
+      "kia_GL3KH_2027"
+    ],
+    "review_note_ko": "K8HEV ESC는 K8기준과 동일, 1단계LCD경고명시 추가. ON3초·지속점등정비·점멸서행·OFF1/2·복구·작동중OFF금지·검사용OFF 조건 전부 대조.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/GL3KH/2027/ko_KR/topics/t00518.html": {
+    "index": 35,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/GL3KH/2027/ko_KR/topics/t00518.html",
+    "source_sha256": "0fe90581a390a2fdbb9118dcb45671014668f065c383d0b1f7bc4118cee9dddd",
+    "title": "주행 모드 통합제어 시스템",
+    "document_ids": [
+      "kia_GL3KH_2027"
+    ],
+    "review_note_ko": "드라이브모드 제목만. 원경고가 정상모드표시이며 고장대처가 없어 일반모드사용법은 범위밖. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/JA/2027/ko_KR/topics/t00423.html": {
+    "index": 36,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/JA/2027/ko_KR/topics/t00423.html",
+    "source_sha256": "d83d07ee0bcbf004d6ec0f5c8a5efdcfc6b080fdf3a6f8874def09f1c81398b9",
+    "title": "안전벨트",
+    "document_ids": [
+      "kia_JA_2027"
+    ],
+    "review_note_ko": "모닝안전벨트 제목. 원벨트경고 착용조건 직접검토; 일반 프리텐셔너/관리 전체확장필요없음.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/JA/2027/ko_KR/topics/t00579.html": {
+    "index": 37,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/JA/2027/ko_KR/topics/t00579.html",
+    "source_sha256": "d8c5734c280d328f3d5fae9e7be20d305f6690dc71c6770fe5be6ee07175411f",
+    "title": "차체자세 제어 장치(ESC)",
+    "document_ids": [
+      "kia_JA_2027"
+    ],
+    "review_note_ko": "모닝ESC 기능소개, 작동/정지/표시/사용 하위에 실제고장·서행·금지조건 확인필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/JA/2027/ko_KR/topics/t00693.html": {
+    "index": 38,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/JA/2027/ko_KR/topics/t00693.html",
+    "source_sha256": "2e367afa8272968b3fa8cf8ed9dd03718d1daf783ecff625072b1dad513ac127",
+    "title": "크루즈 컨트롤 (CC)",
+    "document_ids": [
+      "kia_JA_2027"
+    ],
+    "review_note_ko": "모닝CC 정상설정표시, ON후브레이크한번필요는 취소페달정상확인. 일반속도설정 하위는 경고대처범위밖.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter4_5.html": {
+    "index": 39,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter4_5.html",
+    "source_sha256": "35660eb51a8922372d35817ebd043dab01c9be88170187aee7a0bcb2e0a6228c",
+    "title": "디지털키 2 (사양 적용 시)",
+    "document_ids": [
+      "kia_KA4_2025"
+    ],
+    "review_note_ko": "2025카니발 디지털키소개·하위목록. 작동제한사항 실제실패구분추가필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter8_19.html": {
+    "index": 40,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter8_19.html",
+    "source_sha256": "fd78ba3272d446f9a9771aa89ae7c990e30e08c6833b6fc5d57c9af939a755d3",
+    "title": "퓨즈의 교체",
+    "document_ids": [
+      "kia_KA4_2025"
+    ],
+    "review_note_ko": "2025카니발퓨즈 동일규격·OFF전장OFF배터리-분리·확실체결. 금속도구/철사/고용량/임의배선/볼트너트형분해금지·재단선서비스. 실내퓨즈절 실제절차 연결필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter8_24.html": {
+    "index": 41,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter8_24.html",
+    "source_sha256": "63cb5f27e7dd3765c569c3567afb919718106e40697c93a2fa1edb6f61be3c09",
+    "title": "배출가스 제어 장치의 관리 및 정비",
+    "document_ids": [
+      "kia_KA4_2025"
+    ],
+    "review_note_ko": "카니발2025 배출가스 전체 직접읽음. 촉매 시동불량운행금지·이상출력소음정비·연료부족/장시간공회전/밀어시동/고온가연물금지. DPF 안전60km/h이상 또는2단이상1500~2500rpm25분이상, 지속/점멸배출가스점검서비스·계속주행손상오일희석. SCR2400km이하부족부터·부족/보충 최소2L·고갈충분량·ON메시지소멸대기재시동/불가긴급. 고장50km후재시동불가·비정상요소수/소모이상은정비. OFF주차브레이크·ISO22241-1/DIN70070·연료구오주입/물첨가/만충추가/배출액재사용금지·OFF퍼지2분. -11도동결수위불명/해동가변·고온암모니아흡입접촉금지·환기·누출세척진료·지정재질보관. 일반무부하급가속매연시험은 운전자DPF재생으로 사용금지.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter9_4.html": {
+    "index": 42,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter9_4.html",
+    "source_sha256": "30abe7414aacdd5c6a240cd62d44ef704e9d9390c7e008757c3602bbf96fc08a",
+    "title": "전구의 용량",
+    "document_ids": [
+      "kia_KA4_2025"
+    ],
+    "review_note_ko": "카니발2025 전구표: 전방A방향PY21W21/BLED, 후방A방향PY21W21/BLED. 사양타입 구별하며 전면미러LED·후진W16W16. 일반분해교체 전체는 경고대처범위밖.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/KA4/2027/ko_KR/topics/t00352.html": {
+    "index": 43,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2027/ko_KR/topics/t00352.html",
+    "source_sha256": "eba1d5c469806dcf2235d742ae8819bed9afd8ba673279364d66f97cfa7fe4ae",
+    "title": "안전벨트 미착용 경고등 및 경고음",
+    "document_ids": [
+      "kia_KA4_2027"
+    ],
+    "review_note_ko": "카니발2027 벨트 앞ON6초·미착용20이상100초경고후지속·동승석빈/급출발하차6초, 물건치우기바른착용. 뒤맵램프7/9인승위치다름·ON6초·미착용70초·20이상해제35초·착용소등.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/KA4/2027/ko_KR/topics/t00502.html": {
+    "index": 44,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2027/ko_KR/topics/t00502.html",
+    "source_sha256": "0cae7a8bf60cef1fd8083722c5794bab1b09c538015c93cfd12b37fdf3acc3ce",
+    "title": "전자식 파킹 브레이크(EPB)",
+    "document_ids": [
+      "kia_KA4_2027"
+    ],
+    "review_note_ko": "카니발2027 EPB 제목뿐, 기존기아crossref 작동해제고장절로대체연결 가능여부 실제URL검증 필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/KA4/2027/ko_KR/topics/t00507.html": {
+    "index": 45,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2027/ko_KR/topics/t00507.html",
+    "source_sha256": "c97d0b56b12fdb6abb8f24a5edbea6282edde299058f749003e12447ba702220",
+    "title": "자동 정차 기능(AUTO HOLD)",
+    "document_ids": [
+      "kia_KA4_2027"
+    ],
+    "review_note_ko": "카니발2027 AUTOHOLD D/R/N수동모드유지·D/R수동가속출발. 실제LCD실패/해제절 연결필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/KA4/2027/ko_KR/topics/t00513.html": {
+    "index": 46,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2027/ko_KR/topics/t00513.html",
+    "source_sha256": "5b981f429a2681825f0095b1d9d611cfe678a4302fabc2d2a8f8d3e17edb315e",
+    "title": "차체자세 제어 장치(ESC)",
+    "document_ids": [
+      "kia_KA4_2027"
+    ],
+    "review_note_ko": "K8HEV ESC는 K8기준과 동일, 1단계LCD경고명시 추가. ON3초·지속점등정비·점멸서행·OFF1/2·복구·작동중OFF금지·검사용OFF 조건 전부 대조. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/KA4/2027/ko_KR/topics/t00527.html": {
+    "index": 47,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2027/ko_KR/topics/t00527.html",
+    "source_sha256": "187dcabda7e5f08da81338580d3677850bc366849ff14d2e3c54dc9f753dc44a",
+    "title": "주행 모드 통합제어 시스템",
+    "document_ids": [
+      "kia_KA4_2027"
+    ],
+    "review_note_ko": "드라이브모드 제목만. 원경고가 정상모드표시이며 고장대처가 없어 일반모드사용법은 범위밖. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter5_7_5.html": {
+    "index": 48,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter5_7_5.html",
+    "source_sha256": "c3ff889c30c09e71f5d168af421c0f2f286ddab0e949da90952fad1fe3f07e44",
+    "title": "자동 정차 기능(AUTO HOLD)",
+    "document_ids": [
+      "kia_KA4KH_2025"
+    ],
+    "review_note_ko": "카니발HEV2025 AUTOHOLD 전체: 흰대기/초록유지/노랑고장정비. 도어후드테일게이트닫힘·페달설정, EPB시불가. 페달+버튼수동해제(앞차가까움/내리막권장), D/R수동가속천천히. 도어/R테일게이트/DN후드·급경사·10분·움직임반복은EPB전환. 개폐신호고장정비, EPB전환실패경고는반드시페달. 내리막/주차미세이동/자동세차AUTOHOLD해제. 기계음정상·재시동대기유지.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter5_7_7.html": {
+    "index": 49,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter5_7_7.html",
+    "source_sha256": "28ead1da6a64bade4a56fe840be9fe5b7a82f91e8d7fc558fe0c778204f67168",
+    "title": "차체자세 제어 장치(ESC)",
+    "document_ids": [
+      "kia_KA4KH_2025"
+    ],
+    "review_note_ko": "K8HEV ESC는 K8기준과 동일, 1단계LCD경고명시 추가. ON3초·지속점등정비·점멸서행·OFF1/2·복구·작동중OFF금지·검사용OFF 조건 전부 대조. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.] [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter5_8.html": {
+    "index": 50,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter5_8.html",
+    "source_sha256": "773a7cc5868ad36aaccd9382e0dc1275fcd974bf8e70d8c2bdda2857d5df4094",
+    "title": "주행 모드 통합제어 시스템",
+    "document_ids": [
+      "kia_KA4KH_2025"
+    ],
+    "review_note_ko": "정상드라이브모드 제목/하위목록, 일반모드설정 경고대처범위밖.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter5_9.html": {
+    "index": 51,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter5_9.html",
+    "source_sha256": "3846b62d12e5bb1f90b5b63e7c0c3a99145b2b9ef913cb4c3d52dff0b9297e0f",
+    "title": "그린존 드라이브 주행",
+    "document_ids": [
+      "kia_KA4KH_2025"
+    ],
+    "review_note_ko": "카니발HEV2025 그린존 정상EV확대·저충전/냉난방/가속언덕/구동계에따라엔진시동정상, GPS/업데이트인식제한. 고장대처없음.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter7_6.html": {
+    "index": 52,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter7_6.html",
+    "source_sha256": "2e5ab3f4d18a6e4ed2f5a9e0bb01fb26853fc6ad56e53105a82b090ec8344ccd",
+    "title": "개별 타이어 공기압 경보 시스템",
+    "document_ids": [
+      "kia_KA4KH_2025"
+    ],
+    "review_note_ko": "2025카니발HEV TPMS소개·저압점등/고장점멸후점등, 실제압력/저압/고장/교체chapter7_6_1~4 연결필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/KA4KH/2027/ko_KR/topics/t00517.html": {
+    "index": 53,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2027/ko_KR/topics/t00517.html",
+    "source_sha256": "a46c09b668d91c073612d0655ebb7ac801f7a69907a33077797eb81a4b2048a1",
+    "title": "자동 정차 기능(AUTO HOLD)",
+    "document_ids": [
+      "kia_KA4KH_2027"
+    ],
+    "review_note_ko": "카니발HEV2027 AUTOHOLD 정상유지/가속해제 소개, 같은차년의 LCD실패/해제하위 필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/KA4KH/2027/ko_KR/topics/t00523.html": {
+    "index": 54,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2027/ko_KR/topics/t00523.html",
+    "source_sha256": "eb5be43f1a38bb94bd9284d5a836d3c8f4121aa0b7b1001a764c7b7dec47a09d",
+    "title": "차체자세 제어 장치(ESC)",
+    "document_ids": [
+      "kia_KA4KH_2027"
+    ],
+    "review_note_ko": "K8HEV ESC는 K8기준과 동일, 1단계LCD경고명시 추가. ON3초·지속점등정비·점멸서행·OFF1/2·복구·작동중OFF금지·검사용OFF 조건 전부 대조. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.] [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/KA4KH/2027/ko_KR/topics/t00531.html": {
+    "index": 55,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2027/ko_KR/topics/t00531.html",
+    "source_sha256": "7846a1f60b30014e7ef230c42677824efdcdb961daeb7fddc2c1dcb80cd2c9ed",
+    "title": "주행 모드 통합제어 시스템",
+    "document_ids": [
+      "kia_KA4KH_2027"
+    ],
+    "review_note_ko": "드라이브모드 제목만. 원경고가 정상모드표시이며 고장대처가 없어 일반모드사용법은 범위밖. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/KA4KH/2027/ko_KR/topics/t00533.html": {
+    "index": 56,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2027/ko_KR/topics/t00533.html",
+    "source_sha256": "8a019cd2983261aa5778c6a75e29b0979419159af801069323252d39c8efd81f",
+    "title": "그린존 드라이브 주행",
+    "document_ids": [
+      "kia_KA4KH_2027"
+    ],
+    "review_note_ko": "카니발HEV2027 그린존 정상작동과 예외 엔진시동·GPS/업데이트조건은2025와동일. 고장대처없음.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MQ4/2027/ko_KR/topics/t00050.html": {
+    "index": 57,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MQ4/2027/ko_KR/topics/t00050.html",
+    "source_sha256": "d14efcd8f74a8873d8ecd3095200336a3b8bde005084149eddcd40f646ff8e29",
+    "title": "전구의 용량",
+    "document_ids": [
+      "kia_MQ4_2027"
+    ],
+    "review_note_ko": "쏘렌토ICE 전구표 전방방향A PY21W21/BLED, 후방방향A P21W21/BLED. LED/벌브타입 확인 필요. 다른등의와트값을방향지시등으로 잘못추천금지.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MQ4/2027/ko_KR/topics/t00071.html": {
+    "index": 58,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MQ4/2027/ko_KR/topics/t00071.html",
+    "source_sha256": "a2e6b55d7a9a83036ba76de27deecfb5a95638b3fb2d115ab997e2aff092ff81",
+    "title": "디지털키 2 (사양 적용 시)",
+    "document_ids": [
+      "kia_MQ4_2027"
+    ],
+    "review_note_ko": "쏘렌토ICE 디지털키2소개, 시스템점검 경고와 일시작동제한 구분 위해 제한하위필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MQ4/2027/ko_KR/topics/t00462.html": {
+    "index": 59,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MQ4/2027/ko_KR/topics/t00462.html",
+    "source_sha256": "10dcf646a6942d11b2fb8fd9d0a347270c402588d2aaa4732b7ebc4edb7a844d",
+    "title": "자동 정차 기능(AUTO HOLD)",
+    "document_ids": [
+      "kia_MQ4_2027"
+    ],
+    "review_note_ko": "쏘렌토ICE AUTOHOLD 기본유지/DR수동가속해제, 실패LCD/해제하위확인필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MQ4/2027/ko_KR/topics/t00468.html": {
+    "index": 60,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MQ4/2027/ko_KR/topics/t00468.html",
+    "source_sha256": "3153046f861bb47c8575098101bf0f3ee2d3697afe23b5dc138ffffdf3fa6d34",
+    "title": "차체자세 제어 장치(ESC)",
+    "document_ids": [
+      "kia_MQ4_2027"
+    ],
+    "review_note_ko": "쏘렌토ESC K5HEV기준과 모든의미차이대조: ON3초·지속정비·점멸서행·OFF1/2·복구·작동중OFF금지·검사조건동일. 모터/엔진표현은 원문적용성별보존.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MQ4/2027/ko_KR/topics/t00477.html": {
+    "index": 61,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MQ4/2027/ko_KR/topics/t00477.html",
+    "source_sha256": "7456872aab8bff0d769458e65fc1baa92133df266e4364e54fb8948b5cf2df74",
+    "title": "경사로 저속 주행 기능(DBC)",
+    "document_ids": [
+      "kia_MQ4_2027"
+    ],
+    "review_note_ko": "쏘렌토DBC 초록대기/점멸작동/노랑과열고장·충분냉각후노랑지속정비. 대기60이하 또는MUD, 작동경사+가속안밟음40이하·조절4~40/후진2.5~8. 미작동표에도40이하라는 모순은 원문보류. P/ESC중제한·진동정상·급경사페달로해제안될수있음·일반도로OFF.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MQ4/2027/ko_KR/topics/t00491.html": {
+    "index": 62,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MQ4/2027/ko_KR/topics/t00491.html",
+    "source_sha256": "f138e0817918c47fe45e4e8d274fd3b5aa424258b64f663c2e00e08b908d8102",
+    "title": "주행모드 통합제어 시스템",
+    "document_ids": [
+      "kia_MQ4_2027"
+    ],
+    "review_note_ko": "드라이브모드 제목만. 원경고가 정상모드표시이며 고장대처가 없어 일반모드사용법은 범위밖. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MQ4/2027/ko_KR/topics/t00843.html": {
+    "index": 63,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MQ4/2027/ko_KR/topics/t00843.html",
+    "source_sha256": "2f2ad88aed07ce76ee41adad511112773b860db76ddb68cba9da15528707ff04",
+    "title": "퓨즈의 교체",
+    "document_ids": [
+      "kia_MQ4_2027"
+    ],
+    "review_note_ko": "쏘렌토ICE 퓨즈규정동일용량·OFF전장OFF배터리-·금속도구/임의배선/고용량/볼트형금지·재단선정비 기준동일. 실내퓨즈 실제절차연결필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MQ4KH/2027/ko_KR/topics/t00050.html": {
+    "index": 64,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MQ4KH/2027/ko_KR/topics/t00050.html",
+    "source_sha256": "1abce71fe0e64ab0fa5e90ce7535823a96cbd14d6d0c80e5406574646e7b8839",
+    "title": "전구의 용량",
+    "document_ids": [
+      "kia_MQ4KH_2027"
+    ],
+    "review_note_ko": "쏘렌토HEV 전구표 전방A방향PY21W21/BLED·후방A P21W21/BLED. ICE와방향조건같고 B전조등적응형 차이는별개.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MQ4KH/2027/ko_KR/topics/t00071.html": {
+    "index": 65,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MQ4KH/2027/ko_KR/topics/t00071.html",
+    "source_sha256": "a4b22068ba71f5238382f5078190655b5dc65c0580eb5bb01758f94afdd0683a",
+    "title": "디지털키 2 (사양 적용 시)",
+    "document_ids": [
+      "kia_MQ4KH_2027"
+    ],
+    "review_note_ko": "쏘렌토HEV 디지털키소개는ICE동일, 제한하위같은연식동력계로 확인필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MQ4KH/2027/ko_KR/topics/t00291.html": {
+    "index": 66,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MQ4KH/2027/ko_KR/topics/t00291.html",
+    "source_sha256": "7afe85cd6292be0b0295b35fd137d58c58e6fededd503dd1114fb2bb62197a6d",
+    "title": "안전벨트 미착용 경고등 및 경고음",
+    "document_ids": [
+      "kia_MQ4KH_2027"
+    ],
+    "review_note_ko": "쏘렌토HEV벨트 앞6초/20이상100초·뒤6초/70초/20이상35초 조건. 좌석5/6/7인승별 위치구분·맵램프표시문구없음. 물건치우기/바른자세.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MQ4KH/2027/ko_KR/topics/t00481.html": {
+    "index": 67,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MQ4KH/2027/ko_KR/topics/t00481.html",
+    "source_sha256": "faafc8ac9e4c16c77564c3803f49731c73208fca9958bdbcd758210134c659c4",
+    "title": "전자식 파킹 브레이크(EPB)",
+    "document_ids": [
+      "kia_MQ4KH_2027"
+    ],
+    "review_note_ko": "쏘렌토HEV EPB 제목만, 실제하위 작동해제/자동조건/비상/해제불가와crossref기존연결.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MQ4KH/2027/ko_KR/topics/t00491.html": {
+    "index": 68,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MQ4KH/2027/ko_KR/topics/t00491.html",
+    "source_sha256": "0bfbb024c27d6e851369a81b69a5707581922c1f1ddfa16566509d6694a4b199",
+    "title": "자동 정차 기능(AUTO HOLD)",
+    "document_ids": [
+      "kia_MQ4KH_2027"
+    ],
+    "review_note_ko": "쏘렌토HEV AUTOHOLD 유지출발 소개·LCD실패/해제하위필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MQ4KH/2027/ko_KR/topics/t00497.html": {
+    "index": 69,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MQ4KH/2027/ko_KR/topics/t00497.html",
+    "source_sha256": "7e8f64770489e15ffa781c6a2a3db7f649500f6f261d682db10f09fad2f8092c",
+    "title": "차체자세 제어 장치(ESC)",
+    "document_ids": [
+      "kia_MQ4KH_2027"
+    ],
+    "review_note_ko": "쏘렌토ESC K5HEV기준과 모든의미차이대조: ON3초·지속정비·점멸서행·OFF1/2·복구·작동중OFF금지·검사조건동일. 모터/엔진표현은 원문적용성별보존. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MQ4KH/2027/ko_KR/topics/t00504.html": {
+    "index": 70,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MQ4KH/2027/ko_KR/topics/t00504.html",
+    "source_sha256": "f06c3321deae6feab4df3bc87e6ff20bd27f0ba9a4674cbfd85ff606ffd47b4d",
+    "title": "경사로 저속 주행 기능(DBC)",
+    "document_ids": [
+      "kia_MQ4KH_2027"
+    ],
+    "review_note_ko": "쏘렌토HEV DBC의 미작동대기 속도는40~60km/h이며 ICE의40이하 모순문구와 다름. 노랑과열/고장·냉각후지속정비·60대기/40작동·4~40/후진2.5~8 및 일반도로해제조건동일.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MQ4KH/2027/ko_KR/topics/t00506.html": {
+    "index": 71,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MQ4KH/2027/ko_KR/topics/t00506.html",
+    "source_sha256": "0de630926b7b48bb42038fe2b8d599bf8f6caea3a7c2f9d1ed4790a1f20a2138",
+    "title": "통합주행 모드 시스템",
+    "document_ids": [
+      "kia_MQ4KH_2027"
+    ],
+    "review_note_ko": "통합주행모드 제목만·정상모드표시 일반설정범위밖.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MQ4KH/2027/ko_KR/topics/t00508.html": {
+    "index": 72,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MQ4KH/2027/ko_KR/topics/t00508.html",
+    "source_sha256": "3f6bb1bb02375f030493951a5e07171640037db767c00136c28fa5a4f9371b9d",
+    "title": "그린존 드라이브 주행",
+    "document_ids": [
+      "kia_MQ4KH_2027"
+    ],
+    "review_note_ko": "쏘렌토HEV그린존 정상EV확대·저충전냉난방가속구동계엔진시동가능·GPS업데이트제한. 일반설정범위밖.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MQ4KH/2027/ko_KR/topics/t00857.html": {
+    "index": 73,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MQ4KH/2027/ko_KR/topics/t00857.html",
+    "source_sha256": "0509485ed268d5446bf50dceb17246a85a82b568078f42e3f76ea08fcbde6990",
+    "title": "퓨즈의 교체",
+    "document_ids": [
+      "kia_MQ4KH_2027"
+    ],
+    "review_note_ko": "쏘렌토HEV 퓨즈 안전조건ICE동일, 같은문서실내퓨즈하위 연결.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MV1/2027/ko_KR/topics/t00661.html": {
+    "index": 74,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MV1/2027/ko_KR/topics/t00661.html",
+    "source_sha256": "cccbff272e96e58ce9f1ee07b20c5b15f41a572ea703b8f97f7ad78407a5468c",
+    "title": "통합 경고 모드",
+    "document_ids": [
+      "kia_MV1_2027"
+    ],
+    "review_note_ko": "통합경고 하나이상저장·해소삭제소등·ADAS/LED/TPMS 등 실제메시지확인. EV4와 내용동일. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MV1/2027/ko_KR/topics/t00836.html": {
+    "index": 75,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MV1/2027/ko_KR/topics/t00836.html",
+    "source_sha256": "eb3929e5c00c0c8c4aa756488c273f97f434cc8cf5eca8955fa806a192e9fa9d",
+    "title": "자동 정차 기능(AUTO HOLD)",
+    "document_ids": [
+      "kia_MV1_2027"
+    ],
+    "review_note_ko": "EV9AUTOHOLD D/N/R정차유지 소개. 제동경고메시지/작동해제하위실패대처필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MV1/2027/ko_KR/topics/t00844.html": {
+    "index": 76,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MV1/2027/ko_KR/topics/t00844.html",
+    "source_sha256": "daaa94e8e3c9fe820994706d9174342f907b8771f4f4e0df184de125940fab56",
+    "title": "아이 페달(i-PEDAL) (GT전용) (사양 적용 시)",
+    "document_ids": [
+      "kia_MV1_2027"
+    ],
+    "review_note_ko": "EV9GT iPEDAL1초왼쪽토글·회색비활성초록가능·재시동단계유지0→1·후진설정D20재활성. 급경사/DBC미작동·SOC100/트레일러/SCC/양패들제한. 정차보장안됨·필요/비상페달·전방주시·미끄럼사용금지.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MV1/2027/ko_KR/topics/t00859.html": {
+    "index": 77,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MV1/2027/ko_KR/topics/t00859.html",
+    "source_sha256": "344b223b5aaf5b4b46ce88e7eb6448585e39c16ba36e9a182dd0c964cb5335c6",
+    "title": "차체자세 제어 장치(ESC)",
+    "document_ids": [
+      "kia_MV1_2027"
+    ],
+    "review_note_ko": "EV9ESC는 제한버튼짧게 구동력만제한·제동제어유지, EV6의3초완전OFF2 문구없음. 점멸서행/가속금지·작동중제한금지·직선평탄정속전환·평소대기유지. 모드설명과진동정상구분.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MV1/2027/ko_KR/topics/t00869.html": {
+    "index": 78,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MV1/2027/ko_KR/topics/t00869.html",
+    "source_sha256": "9544fe415c7d3008ba97a332305a59637d4fce542df7555c81f1b72cbf8f5f57",
+    "title": "주행 모드 통합제어 시스템",
+    "document_ids": [
+      "kia_MV1_2027"
+    ],
+    "review_note_ko": "드라이브모드 제목만. 원경고가 정상모드표시이며 고장대처가 없어 일반모드사용법은 범위밖. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/MV1/2027/ko_KR/topics/t00876.html": {
+    "index": 79,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/MV1/2027/ko_KR/topics/t00876.html",
+    "source_sha256": "cd18647206900a9771cbe2280c6aee6b0e8e86167fe94b4ad98810834506b217",
+    "title": "험로 주행 모드(Terrain Mode)",
+    "document_ids": [
+      "kia_MV1_2027"
+    ],
+    "review_note_ko": "EV9험로 AUTO일반도로유지·SNOW/MUD/SAND일반도로특히선회는부품손상진동가능, 전후타이어직경다르면AUTO중단. 미세진동/전환충격·판단차이·후진5이하미전환은정상가능. 4WD고장서비스지시와 일반모드예외 구분.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/NQ5/2027/ko_KR/topics/t00069.html": {
+    "index": 80,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/NQ5/2027/ko_KR/topics/t00069.html",
+    "source_sha256": "f6a715af6a48d122e18c44c87fdfd1ff914cdecac8ecc4e739241d7b0e70ba0e",
+    "title": "안전벨트",
+    "document_ids": [
+      "kia_NQ5_2027"
+    ],
+    "review_note_ko": "스포티지안전벨트제목. 원벨트경고조건 직접읽음, 일반관리전체확장불필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/NQ5/2027/ko_KR/topics/t00447.html": {
+    "index": 81,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/NQ5/2027/ko_KR/topics/t00447.html",
+    "source_sha256": "a1bd37f6fb2e275fe6159f8b7fc1fc55c6772954c28efbf53013846c2b31ba0e",
+    "title": "자동 정차 기능(AUTO HOLD)",
+    "document_ids": [
+      "kia_NQ5_2027"
+    ],
+    "review_note_ko": "스포티지AUTOHOLD 유지소개, 작동/해제하위실패대처필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/NQ5/2027/ko_KR/topics/t00453.html": {
+    "index": 82,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/NQ5/2027/ko_KR/topics/t00453.html",
+    "source_sha256": "29f0e5272303f291d6a3627da25e2961f20b216f94d54c62f3a656a752e189fb",
+    "title": "차체자세 제어 장치(ESC)",
+    "document_ids": [
+      "kia_NQ5_2027"
+    ],
+    "review_note_ko": "스포티지ESC 시동ON·작동점멸·짧은정지/3초구동제동해제·짧게복구. 점멸서행가속금지·작동중OFF금지·직선평탄정속전환. OFF해도안전개입정상가능. 지속점등정비는inline경고원문과 연결.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/NQ5/2027/ko_KR/topics/t00468.html": {
+    "index": 83,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/NQ5/2027/ko_KR/topics/t00468.html",
+    "source_sha256": "1f6f2019e74db15e3d50179b90bf698defd9bf02b2c3dd19db4a91fef8975b36",
+    "title": "드라이브 모드(DRIVE MODE)",
+    "document_ids": [
+      "kia_NQ5_2027"
+    ],
+    "review_note_ko": "스포티지드라이브모드 취향/노면선택 일반기능. 정상표시의설정세부는 경고대처범위밖.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter3_4_1.html": {
+    "index": 84,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter3_4_1.html",
+    "source_sha256": "4c57f0e729a2bdd5c87f0bd59d37a1d843d6d850dce05f54792c965e448fb3e2",
+    "title": "안전벨트 구속 장치",
+    "document_ids": [
+      "kia_NQ5KH_2026"
+    ],
+    "review_note_ko": "NQ5HEV벨트 전체: 바르게앉아골반낮게/가슴어깨띠·목얼굴팔밑등뒤금지·1인1벨트·맞는버클/CENTER·체결당겨확인. 꼬임/손상운행금지·안풀리면정비·사고후점검·차단클립/스토퍼/매트금지. 앞6초/20이상100초·뒤6초/70초/20이상35초, 동승석물건치우기. 일반어린이시트설치전체는추가재귀범위밖.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter4_2.html": {
+    "index": 85,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter4_2.html",
+    "source_sha256": "2d3cd20af221d3b0693b3b9a2bcda21310dafa675d5133ddf1d171a2998cb40b",
+    "title": "디지털키 2 (사양 적용 시)",
+    "document_ids": [
+      "kia_NQ5KH_2026"
+    ],
+    "review_note_ko": "NQ5HEV 디지털키소개에 독립제한하위없음. 스마트폰/카드의 실패/제한 단락 확인필요, 프로필개인화일반범위밖.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter5_4_1.html": {
+    "index": 86,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter5_4_1.html",
+    "source_sha256": "0cae26dc62b046e98eac5e7e4bfdaaf9e344f1e7efb3832d89e06e8abc6eee9a",
+    "title": "전자식 변속 다이얼(SBW)",
+    "document_ids": [
+      "kia_NQ5KH_2026"
+    ],
+    "review_note_ko": "NQ5HEV SBW 과열/최대온도파워제한은 안전장소 시동유지P수분정차·냉각완료주행가능 후재개. 킥다운자제·언덕가속정차유지금지페달/주차브레이크. 고속변속감속·빈번조작대기·페달밟고변속/N길게·P체결불가주차브레이크·다이얼/P버튼고장점검. 메시지조건과행동보존.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter5_6_2.html": {
+    "index": 87,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter5_6_2.html",
+    "source_sha256": "96e708f9332b3ced605c446724f19bf55ce7d7f5fc85ce3a13f1bb77a450ff5d",
+    "title": "자동 정차 기능(AUTO HOLD)",
+    "document_ids": [
+      "kia_NQ5KH_2026"
+    ],
+    "review_note_ko": "NQ5HEV AUTOHOLD 흰대기초록유지노랑고장정비·도어후드테일게이트/페달조건. 페달+버튼해제·내리막/주차미세/자동세차해제·가속천천히. 문열림/R테일게이트/DN후드·급경사·10분·움직임반복 EPB전환, 개폐신호고장정비·기계음정상·재시동대기유지.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter5_7_2.html": {
+    "index": 88,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter5_7_2.html",
+    "source_sha256": "fe96a41b8afd144e6fbf1cab446bf926ffab5c4b2149c04fe2da0283e6acc930",
+    "title": "차체자세 제어 장치(ESC)",
+    "document_ids": [
+      "kia_NQ5KH_2026"
+    ],
+    "review_note_ko": "스포티지ESC 시동ON·작동점멸·짧은정지/3초구동제동해제·짧게복구. 점멸서행가속금지·작동중OFF금지·직선평탄정속전환. OFF해도안전개입정상가능. 지속점등정비는inline경고원문과 연결. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter5_8.html": {
+    "index": 89,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter5_8.html",
+    "source_sha256": "6209e464a3cc5f21ce1f9c0b7f3c8e2cb9035babdba22a1b789f776e1597b270",
+    "title": "주행 모드 통합제어 시스템",
+    "document_ids": [
+      "kia_NQ5KH_2026"
+    ],
+    "review_note_ko": "정상드라이브모드 제목/하위목록, 일반모드설정 경고대처범위밖. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter5_9.html": {
+    "index": 90,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter5_9.html",
+    "source_sha256": "fcaedbf5ca0650f8f81b3b313747ad677383b10a2be31bfb23e5b372d9fc37c8",
+    "title": "그린존 드라이브 주행",
+    "document_ids": [
+      "kia_NQ5KH_2026"
+    ],
+    "review_note_ko": "NQ5HEV그린존 정상제한동일·즐겨찾기우리집사무실지역포함. 정상표시일반설정범위밖.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_17.html": {
+    "index": 91,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_17.html",
+    "source_sha256": "68fe9725db7c3925da5e4dbdc851fe709cb9fcd6172d7a87b67ff3e1503ebfe6",
+    "title": "퓨즈 점검",
+    "document_ids": [
+      "kia_NQ5KH_2026"
+    ],
+    "review_note_ko": "NQ5HEV퓨즈는 OFF전장OFF·12V전원분리용커넥터분리로 마이너스단자식과다름. 동일용량·금속도구/철사/고용량/임의배선/볼트형분해금지·재단선정비. 실내퓨즈와HV차단플러그금지주의 하위필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter9_4.html": {
+    "index": 92,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter9_4.html",
+    "source_sha256": "7cc8f0db7ee4dd953b2de7d065619e65d430ca28df0d05981bdeca2baa4db9ea",
+    "title": "전구의 용량",
+    "document_ids": [
+      "kia_NQ5KH_2026"
+    ],
+    "review_note_ko": "NQ5HEV전구표 앞A방향PY21W21/BLED·뒤A PY21W21/BLED·미러LED. 사양별규격확인용.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/OV1K/2026/ko_KR/topics/gt2.html": {
+    "index": 93,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/OV1K/2026/ko_KR/topics/gt2.html",
+    "source_sha256": "eafd7135caec89df60cba779ed395eeeb1d929a3321247d75e62b8491337d7d4",
+    "title": "런치 컨트롤 (GT 전용)",
+    "document_ids": [
+      "kia_OV1K_2026"
+    ],
+    "review_note_ko": "EV5GT 런치내용EV4와동일·정상준비/냉각재사용제한이지 고장수리절차아님.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/OV1K/2026/ko_KR/topics/t00696.html": {
+    "index": 94,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/OV1K/2026/ko_KR/topics/t00696.html",
+    "source_sha256": "04ce9f089afc7c73f09891136f19af70c4f461f7d48c6929e1555e9471b50f82",
+    "title": "자동 정차 기능(AUTO HOLD)",
+    "document_ids": [
+      "kia_OV1K_2026"
+    ],
+    "review_note_ko": "EV5AUTOHOLD R/N/D정차유지·D/R가속해제소개. 이상/작동해제하위필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/OV1K/2026/ko_KR/topics/t00701.html": {
+    "index": 95,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/OV1K/2026/ko_KR/topics/t00701.html",
+    "source_sha256": "ab3858ca56ecf0f73dd74e4864eeac62fa89a8fb84bef9b59a4ba3cdf9d14b26",
+    "title": "회생 제동 시스템",
+    "document_ids": [
+      "kia_OV1K_2026"
+    ],
+    "review_note_ko": "EV5회생제동 제목. 패들/유압보상/스마트회생 하위에서 경고대처·제한 확인필요. 일반 회생설정 전체를 고장대처로 확대금지.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/OV1K/2026/ko_KR/topics/t00703.html": {
+    "index": 96,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/OV1K/2026/ko_KR/topics/t00703.html",
+    "source_sha256": "0b786eecd46ae6cd26f567ba8a83bb49fb7264310a13ebb94c37adf3c8d03f89",
+    "title": "아이 페달(i-PEDAL)",
+    "document_ids": [
+      "kia_OV1K_2026"
+    ],
+    "review_note_ko": "EV5 iPEDAL1초토글·회색비활성초록가능·재시동0→1·경사/DBC제한·SOC100/SCC/트레일러패들제한. 정차보장안됨·필요/비상페달·전방주시·미끄럼사용금지. 후진사용설정은일반기능범위밖.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/OV1K/2026/ko_KR/topics/t00711.html": {
+    "index": 97,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/OV1K/2026/ko_KR/topics/t00711.html",
+    "source_sha256": "f8877181461da67e34dad7acf467214f6b4f579cae8f7523927ef7bcb9437fa5",
+    "title": "차체자세 제어 장치(ESC)",
+    "document_ids": [
+      "kia_OV1K_2026"
+    ],
+    "review_note_ko": "EV4 ESC 시동자동ON·작동점멸·짧은OFF1/3초OFF2·짧게복구·재시동복구. 점멸/미끄럼/곡선에서는 가속말고서행, 작동중OFF금지·전환은직선평탄정속·평소ON. 진동정상·검사OFF는검사용일뿐 고장해결책 아님. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/OV1K/2026/ko_KR/topics/t00717.html": {
+    "index": 98,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/OV1K/2026/ko_KR/topics/t00717.html",
+    "source_sha256": "8621729a21051507d1b22592637922acd3f0fc4132e6f7e2525abcb9c0e4d8f6",
+    "title": "경사로 저속 주행 기능(DBC)",
+    "document_ids": [
+      "kia_OV1K_2026"
+    ],
+    "review_note_ko": "EV5DBC 초록대기/작동점멸·노랑과열고장/충분냉각후지속정비. 대기60이하·작동3~40후진2.5~8·40~60대기. P/ESC제한·진동정상·급경사페달해제안될수있음·일반도로해제.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/OV1K/2026/ko_KR/topics/t00721.html": {
+    "index": 99,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/OV1K/2026/ko_KR/topics/t00721.html",
+    "source_sha256": "348cac18cf40243b0206ab89ada3068ef26dbc02b2958b696a17e4463f14b339",
+    "title": "드라이브 모드(DRIVE MODE)",
+    "document_ids": [
+      "kia_OV1K_2026"
+    ],
+    "review_note_ko": "정상드라이브모드 제목, 선택설정전체는 경고대처범위밖.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter5_6_5.html": {
+    "index": 100,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter5_6_5.html",
+    "source_sha256": "0e6f36aa9287c183f9fe8d5ef7d53839200a7318b0f55c3dd4fd43933190916e",
+    "title": "차체자세 제어 장치(ESC)",
+    "document_ids": [
+      "kia_PU_2026"
+    ],
+    "review_note_ko": "봉고ICE ESC시동3초후ON·3초버튼정지/다시복구·OFF해도안전개입정상가능. 점멸서행가속금지·작동중OFF금지·가능정지상태조작·전환직선평탄정속. 진단음진동정상·검사후ON복구. 승용2단계문구추가금지.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter6_3.html": {
+    "index": 101,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter6_3.html",
+    "source_sha256": "842369cadb45942757331b3c59e1e85f4d766c5da1d55f79961297c42a44dd73",
+    "title": "크루즈 컨트롤 (사양 적용 시)",
+    "document_ids": [
+      "kia_PU_2026"
+    ],
+    "review_note_ko": "봉고CC 정상표시·ON후브레이크한번취소스위치확인, 속도설정전체는경고대처범위밖.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter1_6_1.html": {
+    "index": 102,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter1_6_1.html",
+    "source_sha256": "446958f2b04635a212deea66231209dd71575f8f5f34b5db033c7760a5be435f",
+    "title": "충전 상태에 대한 정보",
+    "document_ids": [
+      "kia_PUEV_2026"
+    ],
+    "review_note_ko": "봉고EV 충전표: 미충전전체OFF/예약대기별도ON, 충전구간20·21~33·34~66·67~99,100%세등5초후꺼짐. 3등동시점멸충전이상/중앙점멸일시중단/중앙주황점멸12V세이버또는예약공조를구분. 표셀행결합은시각확인보류.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter3_2_2.html": {
+    "index": 103,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter3_2_2.html",
+    "source_sha256": "8ddb657c61f1078427419a4c8a0bfa2ff92afb009ae83d8f46a7436102b1d6ff",
+    "title": "안전벨트 미착용 경고등 및 경고음",
+    "document_ids": [
+      "kia_PUEV_2026"
+    ],
+    "review_note_ko": "봉고EV벨트 ON6초·운전미착용소리6초·20이상100초·빈동승석6초/하차후6초사양. 바른착용·물건치우기. ICE와 경고음초기조건혼합금지.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter5_3_4.html": {
+    "index": 104,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter5_3_4.html",
+    "source_sha256": "ec8c93d19bc77c1bab25235271f06b6f2da99a671276fc5fb2c6aa53806b4c8f",
+    "title": "자동 정차 기능(AUTO HOLD)",
+    "document_ids": [
+      "kia_PUEV_2026"
+    ],
+    "review_note_ko": "봉고EV AUTOHOLD D/N유지·P/R불가(출발DR문구와문맥분리), 도어닫고페달설정. 흰대기초록유지노랑고장정비·장시간/급경사/문열림/반복움직임EPB전환, 실패반드시페달. 수동페달+버튼·앞차가까움/내리막수동해제·자동세차/미세주차OFF·경사충분페달. 문신호고장정비·도어닫으라는메시지행동.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter5_3_6.html": {
+    "index": 105,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter5_3_6.html",
+    "source_sha256": "ffe51aa34b200806fb5da39125a486f06708a69adf2000dde45d2200f6cc432d",
+    "title": "차체자세 제어 장치(ESC)",
+    "document_ids": [
+      "kia_PUEV_2026"
+    ],
+    "review_note_ko": "봉고EV ESC 2단계와ON3초·지속점등정비·점멸서행·작동중OFF금지·직선평탄전환·검사후복구. ICE봉고3초단일정지와 구분.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter6_4.html": {
+    "index": 106,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter6_4.html",
+    "source_sha256": "4bcb5378deba42d025d0854c61da791803850eb62a27df060e32aa23676a3384",
+    "title": "크루즈 컨트롤(CC) (사양 적용 시)",
+    "document_ids": [
+      "kia_PUEV_2026"
+    ],
+    "review_note_ko": "봉고EV CC정상표시·ON후브레이크한번확인. 일반속도설정/재설정은경고대처범위밖.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter3_2_3.html": {
+    "index": 107,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter3_2_3.html",
+    "source_sha256": "e7e8335c075a7731bdb16767b1595be346c076a78e885c026446d6d92345d8b9",
+    "title": "프리액티브 안전벨트(PSB) (사양 적용 시)",
+    "document_ids": [
+      "kia_RJ_2026"
+    ],
+    "review_note_ko": "K9PSB 주행경고는가급적빨리점검, 메시지사라지면마스터삼각등 남음. 미착용미작동·15km/h느슨함제거·해제3초후복원은정상, 작동놀람고장오인금지·항상안전주시.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter4_3.html": {
+    "index": 108,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter4_3.html",
+    "source_sha256": "87006fff920e7e541b639f55a0e1c4492bd29dc1840167695fccd5fd9d745ba4",
+    "title": "기아 디지털 키",
+    "document_ids": [
+      "kia_RJ_2026"
+    ],
+    "review_note_ko": "K9디지털키 제목/앱스마트폰카드목록, 시스템점검과실패제한은 스마트폰카드부분추가확인필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter4_4_2.html": {
+    "index": 109,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter4_4_2.html",
+    "source_sha256": "a332bb2328d2786eadc24d78f13cc969a4529ee58d5b8e3910d68ba4fea58d6e",
+    "title": "지문 인증 시스템 작동",
+    "document_ids": [
+      "kia_RJ_2026"
+    ],
+    "review_note_ko": "K9지문 실패손떼고재접촉·성공30초내시동, 흰대기파랑성공노랑실패빨강제한. 누적5회마다1/3/5분제한·대기후재시도또는스마트키/비밀번호. 센서고장시동불가정비·스마트키지참, 방전사용불가·물/이물/필름/상처건조/접촉위치/시간조건. 강하게누름·인증중시동버튼·어린이지문등록금지.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter5_5.html": {
+    "index": 110,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter5_5.html",
+    "source_sha256": "a66cf2f94d52b293f9339b8280f7d4256a2731eb4ae8cee0068d326f5712fc70",
+    "title": "4륜 구동 장치(AWD)  (사양 적용 시)",
+    "document_ids": [
+      "kia_RJ_2026"
+    ],
+    "review_note_ko": "K9AWD 소개·낮은지상고로비포장험로주행금지. 전자4WD/타이어/견인주의 실제이상조건하위필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter5_6_11.html": {
+    "index": 111,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter5_6_11.html",
+    "source_sha256": "de99ccb0d8cfe7aaca87ce37aacfb35ff126dfa1d3578761d26393fbd064106f",
+    "title": "프리뷰 전자제어 서스펜션 (사양 적용 시)",
+    "document_ids": [
+      "kia_RJ_2026"
+    ],
+    "review_note_ko": "K9프리뷰ECS 경고점검·배터리고저전압일시중지/경고가능. 전방카메라유리청결·필름스티커악세사리/대시반사물금지·카메라/유리교체보정정비. GPS/가림제한이면일반ECS만작동과 전체고장구분.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter5_6_4.html": {
+    "index": 112,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter5_6_4.html",
+    "source_sha256": "9f7f479b38484603961afed6c6ebff4a70680c336d4edfc78f3ebd931e35fb12",
+    "title": "자동 정차 기능(Auto Hold)",
+    "document_ids": [
+      "kia_RJ_2026"
+    ],
+    "review_note_ko": "K9AUTOHOLD D/N/수동유지·P/R불가, 도어후드닫힘+벨트또는페달설정. 벨트해제와도어열림동시/후드/급경사/10분/반복움직임EPB전환. 노랑/개폐신호고장정비·EPB전환실패반드시페달. 페달+버튼수동해제·내리막/미세주차/세차OFF·가속천천히. 메시지트렁크닫기와본문도어후드조건차이는원문보류.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter5_6_6.html": {
+    "index": 113,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter5_6_6.html",
+    "source_sha256": "757110198fa7ef7493371227146ce1a67456570ef4ddb056e76adfbf28bd8627",
+    "title": "차체자세 제어 장치(ESC)",
+    "document_ids": [
+      "kia_RJ_2026"
+    ],
+    "review_note_ko": "K9ESC 기본2단계/자기점검/지속정비/점멸서행/작동중OFF금지는봉고EV기준과동일. '작동가능 후측방충돌방지보조설정 상태' 문구혼입은출처오류보류·ESC와BCA설정결합추론금지.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter8_16.html": {
+    "index": 114,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter8_16.html",
+    "source_sha256": "23113309d7c2d16dc316a885fba7d87e9d968b401d39442a7db9970597671450",
+    "title": "퓨즈의 교체",
+    "document_ids": [
+      "kia_RJ_2026"
+    ],
+    "review_note_ko": "K9퓨즈는4개박스라벨·동일용량·OFF전장OFF배터리-·금속도구/철사고용량/볼트형임의분해금지·재단선정비. 실내퓨즈하위필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SG2/2027/ko_KR/topics/t00246.html": {
+    "index": 115,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SG2/2027/ko_KR/topics/t00246.html",
+    "source_sha256": "77408762508d6aacf6540e50ea201b9b479cace956b596d6e322ad06bd5293fb",
+    "title": "전구의 용량",
+    "document_ids": [
+      "kia_SG2_2027"
+    ],
+    "review_note_ko": "니로전구표 앞A방향PY21W21/BLED·후방하단A PY21W21/BLED. 사양별규격확인·LED와벌브구분.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter3_2.html": {
+    "index": 116,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter3_2.html",
+    "source_sha256": "b071c37753f0ec814e15a3ab7c2d3df7ff71735ec981b74e0cefa59e1f61ccc9",
+    "title": "안전벨트",
+    "document_ids": [
+      "kia_SP2_2026"
+    ],
+    "review_note_ko": "셀토스SP2안전벨트 하위목록. 미착용경고실제절과착용방법/버클주의 확인연결, 전체프리텐셔너정비확장불필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter5_3.html": {
+    "index": 117,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter5_3.html",
+    "source_sha256": "87abc2010c295f28011c5a5189baffdfb4d02e031d558bdf4f05578ae0296056",
+    "title": "4륜 구동 장치(4WD)  (사양 적용 시)",
+    "document_ids": [
+      "kia_SP2_2026"
+    ],
+    "review_note_ko": "셀토스SP2 4WD 전체: 일반도로AUTO·LOCK저속급회전금지/해제시진동소멸정상가능, 고장메시지즉시정비. 무리탈출 과열손상·과도휠회전금지, 물/진흙후브레이크확인·저속가볍게반복건조·성능저하정비. 하천5km/h/50cm미만설명과수상주행금지 경고가 병존하여 도하실행권고보류. 모든타이어동일사이즈타입트레드제조사하중·잭상태시동회전금지·4륜들어견인·리프트한쪽구동금지. 일반오프로드/검사절차는 경고대처와구분.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter5_8_11.html": {
+    "index": 118,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter5_8_11.html",
+    "source_sha256": "705f6ce73043b2aa1b216c689c4c7e2d9f00a994582a42b54569cdf64e9ab81f",
+    "title": "경사로 저속 주행 기능 (DBC)",
+    "document_ids": [
+      "kia_SP2_2026"
+    ],
+    "review_note_ko": "SP2DBC 초록대기60이하/작동4~40후진2.5~8·40~60대기, 노랑과열고장·충분냉각후지속정비. P/ESC미작동·진동정상·급경사페달해제안될수있음·일반도로OFF.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter5_8_5.html": {
+    "index": 119,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter5_8_5.html",
+    "source_sha256": "42b41d7b2f2603f9786b8f487596dd9982ecee15c17cbcb971b49ba179c587a3",
+    "title": "자동 정차 기능 (Auto Hold)",
+    "document_ids": [
+      "kia_SP2_2026"
+    ],
+    "review_note_ko": "SP2AUTOHOLD R지원은변속다이얼사양, D/N유지·도어후드닫고페달설정. 흰대기초록유지노랑정비, 도어후드/테일게이트SBW·급경사·10분·반복움직임EPB전환. 실패반드시페달·수동페달+버튼·내리막미세주차세차OFF·천천히가속·기계음정상.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter5_8_7.html": {
+    "index": 120,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter5_8_7.html",
+    "source_sha256": "609214c5b11d08f1bb8fa0fdd8ebeee0ab29ab8b16302937906bc47a1236e22d",
+    "title": "차체자세 제어 장치 (ESC)",
+    "document_ids": [
+      "kia_SP2_2026"
+    ],
+    "review_note_ko": "SP2ESC ON3초/지속점등정비·점멸서행·OFF1구동/2제동3초·복구·작동중OFF금지·직선평탄전환·검사후복구 기준동일. 모터회전수표현은원문그대로적용성주의.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter5_9.html": {
+    "index": 121,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter5_9.html",
+    "source_sha256": "41cded0d0e3d97d2820d0c03fe1dd0611d5020fc56b36ebb5c78850ba5a37a38",
+    "title": "주행모드 통합제어 시스템",
+    "document_ids": [
+      "kia_SP2_2026"
+    ],
+    "review_note_ko": "정상모드제목/트랙션하위목록. 모드표시만으로일반운전설정전체확장불필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter8_17.html": {
+    "index": 122,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter8_17.html",
+    "source_sha256": "88fa966bbe5122212cc39693551b0a5387f973a7c739dd3464995a986efbbc32",
+    "title": "퓨즈의 교체",
+    "document_ids": [
+      "kia_SP2_2026"
+    ],
+    "review_note_ko": "SP2퓨즈 OFF전장OFF배터리-·규정동일용량·금속도구/철사고용량/임의배선/볼트형분해금지·재단선정비. 실내퓨즈하위필요, 배터리퓨즈는 임의분해금지문맥.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter9_5.html": {
+    "index": 123,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter9_5.html",
+    "source_sha256": "fb90742948edd82bffbd9c84a148fcbebcd5e2c188c53466fa63f647c2d7ec94",
+    "title": "전구의 용량",
+    "document_ids": [
+      "kia_SP2_2026"
+    ],
+    "review_note_ko": "SP2전구표 앞방향벌브PY21W21/LED, 옆WY5W5, 뒤PY21W21. 사양별규격차이보존.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00281.html": {
+    "index": 124,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00281.html",
+    "source_sha256": "fbff0264d4c8f900cdab3699dfe09599d748026fa269f908d92b23324346d3a5",
+    "title": "전구의 용량",
+    "document_ids": [
+      "kia_SP3_2026"
+    ],
+    "review_note_ko": "SP3전구표 앞뒤방향A PY21W21/BLED, 보조LED. SP2옆WY5W규격대입금지.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00301.html": {
+    "index": 125,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00301.html",
+    "source_sha256": "925e8ed8e4f55097417671e06c3e6754babf6a1166228c66cd544fd42f11d22e",
+    "title": "디지털키 2 (사양 적용 시)",
+    "document_ids": [
+      "kia_SP3_2026"
+    ],
+    "review_note_ko": "SP3디지털키소개. 작동제한/정비하위실패내용확인필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00648.html": {
+    "index": 126,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00648.html",
+    "source_sha256": "8a78945a85a226cbe5a0da6d02268becb6873a533dfcd28153842c79391fd5c5",
+    "title": "전자식 파킹 브레이크(EPB)",
+    "document_ids": [
+      "kia_SP3_2026"
+    ],
+    "review_note_ko": "SP3EPB 주차후체결 소개. 기존crossref의실제작동해제고장절로연결, 겨울예외는그절에서보존.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00654.html": {
+    "index": 127,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00654.html",
+    "source_sha256": "ac3db33659edf5a845ee42e37fd8d4f5a0d03de26e138b544ead509717b996a3",
+    "title": "자동 정차 기능(AUTO HOLD) 작동",
+    "document_ids": [
+      "kia_SP3_2026"
+    ],
+    "review_note_ko": "SP3 AUTOHOLD 작동: 흰색대기·정차녹색·천천히가속흰색, 페달누른버튼. 해제/이상 형제절 연결필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00660.html": {
+    "index": 128,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00660.html",
+    "source_sha256": "0515b6434802a9e56b6dabe2ccd5008dcfbc8eee86be37c22fd40b00f5d7a885",
+    "title": "차체자세 제어 장치(ESC)",
+    "document_ids": [
+      "kia_SP3_2026"
+    ],
+    "review_note_ko": "EV4 ESC 시동자동ON·작동점멸·짧은OFF1/3초OFF2·짧게복구·재시동복구. 점멸/미끄럼/곡선에서는 가속말고서행, 작동중OFF금지·전환은직선평탄정속·평소ON. 진동정상·검사OFF는검사용일뿐 고장해결책 아님. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.] [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00666.html": {
+    "index": 129,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00666.html",
+    "source_sha256": "a790c3a761546d7e55aeb2d3404ad4d490d569faa28c15548218945d104fe0cd",
+    "title": "경사로 저속 주행 기능(DBC)",
+    "document_ids": [
+      "kia_SP3_2026"
+    ],
+    "review_note_ko": "EV5DBC 초록대기/작동점멸·노랑과열고장/충분냉각후지속정비. 대기60이하·작동3~40후진2.5~8·40~60대기. P/ESC제한·진동정상·급경사페달해제안될수있음·일반도로해제. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00668.html": {
+    "index": 130,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00668.html",
+    "source_sha256": "6615075ee4a9abb4f0fed41a7f1f6cac792dccbbd87af74c972d410a6dd2bad3",
+    "title": "드라이브 모드",
+    "document_ids": [
+      "kia_SP3_2026"
+    ],
+    "review_note_ko": "SP3 정상모드 설명. ECO유지·기타재시작NORMAL, HEV재시작ECO. SPORT적색표시는정상이며 고장대처아님.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00678.html": {
+    "index": 131,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00678.html",
+    "source_sha256": "17f2ef4c22dccc7621d6eab3607f646378b192adfffe47638695d0726705e61c",
+    "title": "그린존 드라이브 모드 (사양 적용 시)",
+    "document_ids": [
+      "kia_SP3_2026"
+    ],
+    "review_note_ko": "SP3그린존은설정/ECO/내비GPS조건. 저SOC·공조·가속·언덕 엔진작동정상가능. ESCOFF·전기고장·수동변속·비D에서불가하므로 미작동만으로고장추론금지.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t01004.html": {
+    "index": 132,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t01004.html",
+    "source_sha256": "f513b6b40407680e4dab3fb2dab4af8d1281c3274fb4f423c8730804adaa9b90",
+    "title": "퓨즈 점검",
+    "document_ids": [
+      "kia_SP3_2026"
+    ],
+    "review_note_ko": "퓨즈 동일용량·OFF전장OFF배터리마이너스분리·금속도구/철사/고용량/임의배선/볼트형분해금지·재단선정비. 실내퓨즈하위절필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00176.html": {
+    "index": 133,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00176.html",
+    "source_sha256": "3a0fa4fa8feb3a3ac4b009077cc473996b15fff04b2ecda6fbf29960da0ad638",
+    "title": "통합 경고 모드",
+    "document_ids": [
+      "kia_SV1_2027"
+    ],
+    "review_note_ko": "통합경고 하나이상저장·해소삭제소등·ADAS/LED/TPMS 등 실제메시지확인. EV4와 내용동일. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00242.html": {
+    "index": 134,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00242.html",
+    "source_sha256": "4bc3a2d99757bde91a027a4f7e8593764c0276f0bbded80c18e56b74deaa548a",
+    "title": "전동식 좌석 조절 (사양 적용 시)",
+    "document_ids": [
+      "kia_SV1_2027"
+    ],
+    "review_note_ko": "EV3에어백참조가전동시트조절본문으로잘못연결. 시트이동내용읽었으나 에어백대처근거로사용금지. 실제경고본문의점검요구유지.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00320.html": {
+    "index": 135,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00320.html",
+    "source_sha256": "7295f09f8882b1949101de9aa67677314a63538e10ae8811fc63e38fc93aa784",
+    "title": "배터리 컨디셔닝 모드",
+    "document_ids": [
+      "kia_SV1_2027"
+    ],
+    "review_note_ko": "배터리컨디셔닝기준과동일하나 온도표시는인포테인먼트. 원격30분조건보존.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00468.html": {
+    "index": 136,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00468.html",
+    "source_sha256": "dce7e832277283d8f93c5453f0a8b35d140cf19bcaefa6b5fcea1ca1867bca28",
+    "title": "아이 페달 (i-PEDAL)",
+    "document_ids": [
+      "kia_SV1_2027"
+    ],
+    "review_note_ko": "EV3 iPEDAL 작동가능/비상수동제동/미끄러운길금지. 회생단계변경불가 문구를 EV4의 제한될수있음과 구분.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00470.html": {
+    "index": 137,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00470.html",
+    "source_sha256": "3d9c4f6e401f2887fcf6aacf5973ce6f17b68211afd1a62223f34b80a067f72b",
+    "title": "스마트 회생 시스템",
+    "document_ids": [
+      "kia_SV1_2027"
+    ],
+    "review_note_ko": "스마트회생소개절. 고장대처 t00473하위확인필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00486.html": {
+    "index": 138,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00486.html",
+    "source_sha256": "7c12908b2c65b1cdd80b6af073d21ea569bdcfbff31d874171ddf2c253752925",
+    "title": "자동 정차 기능 (AUTO HOLD)",
+    "document_ids": [
+      "kia_SV1_2027"
+    ],
+    "review_note_ko": "AUTOHOLD소개절. t00487/488/489 작동해제주의 연결필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00493.html": {
+    "index": 139,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00493.html",
+    "source_sha256": "1b3533c87a0d73dace869c0638fa5aa75947e134073cc6065252e86ac8f695a3",
+    "title": "차체자세 제어 장치 (ESC)",
+    "document_ids": [
+      "kia_SV1_2027"
+    ],
+    "review_note_ko": "EV4 ESC 시동자동ON·작동점멸·짧은OFF1/3초OFF2·짧게복구·재시동복구. 점멸/미끄럼/곡선에서는 가속말고서행, 작동중OFF금지·전환은직선평탄정속·평소ON. 진동정상·검사OFF는검사용일뿐 고장해결책 아님. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.] [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00502.html": {
+    "index": 140,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00502.html",
+    "source_sha256": "4496abe323edfa02cbfbdc32177cb5e989c0cf880be7dc8bc14ba807fb726ad5",
+    "title": "주행 모드 통합제어 시스템",
+    "document_ids": [
+      "kia_SV1_2027"
+    ],
+    "review_note_ko": "정상주행모드 제목. 고장대처추가없어 일반설정하위확장제외.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00509.html": {
+    "index": 141,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00509.html",
+    "source_sha256": "2e7bdd7c4c5df80c1a626a37036be9c62408b744254372625de9238a33d29915",
+    "title": "런치 컨트롤 (GT 전용)",
+    "document_ids": [
+      "kia_SV1_2027"
+    ],
+    "review_note_ko": "GT런치 정상준비8초/재사용2분냉각·가속페달해제취소. MCU과열·배터리고저온저충전·보조기능 제한. 기능 활성화 운전방법은 경고대처범위밖; 제한을 고장으로 단정하지 않음. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00205.html": {
+    "index": 142,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00205.html",
+    "source_sha256": "0a02f3db2dd75dfbb8b01e6a9a61464067f8e9afc749115c681c47c6f647af2a",
+    "title": "원터치 턴 램프",
+    "document_ids": [
+      "kia_SW1K_2027"
+    ],
+    "review_note_ko": "PV5 HBA참조 t00205는원터치방향지시등. 3/5/7회설정·점멸이상전구/접촉확인내용이며 HBA대처로사용금지. 올바른HBA절연결필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00238.html": {
+    "index": 143,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00238.html",
+    "source_sha256": "610d7e5b07e5ac718fb01f3d8a555c529e3da96bba52f2cd57b9f5fd6c6fc026",
+    "title": "3점식 안전벨트",
+    "document_ids": [
+      "kia_SW1K_2027"
+    ],
+    "review_note_ko": "PV5안전벨트참조 t00238는3점식벨트 ELR/ALR기능소개. 경고발생대처는기존경고본문과연결하며 자동잠김자체를고장으로해석금지.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00461.html": {
+    "index": 144,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00461.html",
+    "source_sha256": "9ad78a491b417fc8e1838ce73bb5b1664a8349f2b5334c9a061f1d10a11fb1dd",
+    "title": "12V 배터리 방전 시",
+    "document_ids": [
+      "kia_SW1K_2027"
+    ],
+    "review_note_ko": "PV5 EPB 경고 참조 실제12V방전: 반드시평지·모터룸점프단자로12V보조·POWER ON EPB해제 후 N주차절. 점프/N절조건연결필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00466.html": {
+    "index": 145,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00466.html",
+    "source_sha256": "ce0660324a175843d6a7a6285cbc142e52b857b3be3867d81d9f3a870bba270c",
+    "title": "전자식 파킹 브레이크(EPB) 해제",
+    "document_ids": [
+      "kia_SW1K_2027"
+    ],
+    "review_note_ko": "PV5 EPB해제:READY/POWER ON+페달+스위치. 자동은시동·벨트·도어후드테일게이트닫힘·D/R 등조건, 경고등꺼짐확인출발. 조건불충족경고/고장으로판정못하면 페달밟고수동해제. 스위치물건/아이접촉금지.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00468.html": {
+    "index": 146,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00468.html",
+    "source_sha256": "64f446384002861ee76b07fb9e50277f2d6e0637774d5f881589f24d84448e2c",
+    "title": "자동 정차 기능(AUTO HOLD)",
+    "document_ids": [
+      "kia_SW1K_2027"
+    ],
+    "review_note_ko": "EV5AUTOHOLD R/N/D정차유지·D/R가속해제소개. 이상/작동해제하위필요. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00481.html": {
+    "index": 147,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00481.html",
+    "source_sha256": "a47d624e02b8abe2132097574834a7238b5a7b5358f31f02b7439c94e2efb2ed",
+    "title": "차량 안전 장치",
+    "document_ids": [
+      "kia_SW1K_2027"
+    ],
+    "review_note_ko": "PV5 ESC참조는차량안전장치목차. 실제ESC t00483으로연결해읽음. 다른안전기능전체재귀확장불필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00483.html": {
+    "index": 148,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00483.html",
+    "source_sha256": "525f83ab345d59ce5fb7f26d0e3620a48b56a81458a33901663b5cfa78027009",
+    "title": "차체자세 제어 장치(ESC)",
+    "document_ids": [
+      "kia_SW1K_2027"
+    ],
+    "review_note_ko": "PV5 ESC 기준동일, OFF1회경고음제한·OFF2회구동/제동해제. 점멸중OFF금지·감속·지속정비 유지.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00490.html": {
+    "index": 149,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00490.html",
+    "source_sha256": "ee4aa3e31d61ee50cf8c71870f4fc06e695673e6540856c705be9b9c65a5ad3e",
+    "title": "페달 오조작 안전 보조(PMSA)",
+    "document_ids": [
+      "kia_SW1K_2027"
+    ],
+    "review_note_ko": "PV5드라이브모드참조가PMSA로잘못연결. PMSA는정차출발D/R·약150cm장애물·급가속오조작제어, 작동정차후페달/주변확인. 센서충격후메시지없어도이상가능·정비, 트레일러/급경사등불가. 모드대처근거사용금지.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00492.html": {
+    "index": 150,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00492.html",
+    "source_sha256": "9bfcdeeaa828f88bf901bcdf034248ca11793dda4684da460076ac00a00688aa",
+    "title": "주행모드 통합제어 시스템",
+    "document_ids": [
+      "kia_SW1K_2027"
+    ],
+    "review_note_ko": "드라이브모드 제목만. 원경고가 정상모드표시이며 고장대처가 없어 일반모드사용법은 범위밖. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.] [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00512.html": {
+    "index": 151,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00512.html",
+    "source_sha256": "475998275d6da0ebe927ee0760b20d1c31b0faa072ca3484ec6a033cafdb7df5",
+    "title": "운전자 보조 시스템",
+    "document_ids": [
+      "kia_SW1K_2027"
+    ],
+    "review_note_ko": "PV5 FCA참조는ADAS전체목차. 실제FCA t00514/센서t00513을감사독해와연결. 소프트웨어버전에따라설명다를수있음.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00527.html": {
+    "index": 152,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00527.html",
+    "source_sha256": "0bfa05ff36a269ab9395d78227d1b18ac4c36f746dad2f74d41ab5eda135d007",
+    "title": "차로 안전",
+    "document_ids": [
+      "kia_SW1K_2027"
+    ],
+    "review_note_ko": "PV5 차로안전 설정해제시노란표시정상, 해제후도움없음·항상주의. LKA고장절은감사담당의TOC오연결교정과연결필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00736.html": {
+    "index": 153,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00736.html",
+    "source_sha256": "479912228bbdcb14e9dcf397c29db3af87c57b1766f32159da9f5d75e3c468bc",
+    "title": "12V 배터리 방전 시 점프스타트 요령",
+    "document_ids": [
+      "kia_SW1K_2027"
+    ],
+    "review_note_ko": "PV5 TPMS참조가12V점프로잘못연결. 실제점프본문읽음:12V만·동결/액부족금지·불꽃/단락금지·정확접지·피부눈15분세척진료·하이브리드도움차금지. 단자3양극→1양극→2음극→4접지충전단자, 성공4부터분리. TPMS대처로사용금지, 정확TPMS절대체필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00240.html": {
+    "index": 154,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00240.html",
+    "source_sha256": "12fe9decd624a3e44980f9a2bd1aca0f9f535f4145689e2db9cd842575f0c2e9",
+    "title": "안전벨트",
+    "document_ids": [
+      "kia_TAM_2027"
+    ],
+    "review_note_ko": "K5안전벨트 제목만, 경고원문 자체 착용/경고조건 읽음과 구속장치실제사용의 연결 별도. 일반프리텐셔너정비 전체확장 불필요. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00391.html": {
+    "index": 155,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00391.html",
+    "source_sha256": "95e41637c9fb1f8361c3f31c5c605b325be38045aeff172467db628d6933f2aa",
+    "title": "자동 정차 기능(AUTO HOLD)",
+    "document_ids": [
+      "kia_TAM_2027"
+    ],
+    "review_note_ko": "쏘렌토HEV AUTOHOLD 유지출발 소개·LCD실패/해제하위필요. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00398.html": {
+    "index": 156,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00398.html",
+    "source_sha256": "46de2ccad4afeee5a4307c0525a7fac885ea0cd7a8595770ee9472361be9927d",
+    "title": "차체자세 제어 장치(ESC)",
+    "document_ids": [
+      "kia_TAM_2027"
+    ],
+    "review_note_ko": "ESC소개로실제고장/작동정지/사용하위절연결필요. 정상조종보조설명만으로고장대처종결불가.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00476.html": {
+    "index": 157,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00476.html",
+    "source_sha256": "6cb1c0d31285a0ee70f05d98c81912fcfcbdf75854fb055b2f9c838f5954d381",
+    "title": "크루즈 컨트롤(CC)  (사양 적용 시)",
+    "document_ids": [
+      "kia_TAM_2027"
+    ],
+    "review_note_ko": "TAM정상크루즈표시, 작동전ON/시동후브레이크한번요구는취소페달정상확인. 일반속도설정전체는경고대처범위밖.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00543.html": {
+    "index": 158,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00543.html",
+    "source_sha256": "d960d8c393879874b929ba586faddb21734bdfdef3e8b5e1a36a9f68fb739b32",
+    "title": "타이어 공기압 감지 시스템(TPMS)",
+    "document_ids": [
+      "kia_TAM_2027"
+    ],
+    "review_note_ko": "TAM TPMS 소개절. 저압/고장/교체 실제하위4절연결필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00134.html": {
+    "index": 159,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00134.html",
+    "source_sha256": "e57ba658e7995430a06c9cbff43c25d9943d3cd4114f45bbe8ca825c25cc4038",
+    "title": "통합 경고 모드",
+    "document_ids": [
+      "kia_TAMEV_2027"
+    ],
+    "review_note_ko": "통합경고 하나이상저장·해소삭제소등·ADAS/LED/TPMS 등 실제메시지확인. EV4와 내용동일. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00388.html": {
+    "index": 160,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00388.html",
+    "source_sha256": "fd2ee5ddd90cd139ba80e70554e905c1531e6d1044a9a70f1f9c0bb00ed582b5",
+    "title": "차체자세 제어 장치 (ESC)",
+    "document_ids": [
+      "kia_TAMEV_2027"
+    ],
+    "review_note_ko": "EV6 ESC 시동ON·작동점멸·짧은OFF1부저1/3초OFF2부저2·복구버튼/재시동. 점멸시가속금지서행·작동중OFF금지·전환직선평탄정속·평소ON·진동정상. 검사OFF 지시를 일반고장대처로 사용금지. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00531.html": {
+    "index": 161,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00531.html",
+    "source_sha256": "92271367b774dc4065a89a2f8f54639158a3a4fd0cc155eb80e01eab1e95e40f",
+    "title": "타이어 공기압 경보 시스템 (TPMS)",
+    "document_ids": [
+      "kia_TAMEV_2027"
+    ],
+    "review_note_ko": "TAMEV TPMS 소개. 확인/이상/교체 하위연결, 저압실제본문누락되지않도록실제TOC확인.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00253.html": {
+    "index": 162,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00253.html",
+    "source_sha256": "7b10f9fed17f674eafcbe5a00b437d980b307289c1cad762d4b696d0d0be7ccb",
+    "title": "전구의 용량",
+    "document_ids": [
+      "kia_TK1_2027"
+    ],
+    "review_note_ko": "TK1방향전구 앞A PY21W21/BLED, 뒤A PY21W21/BLED. 사양구분유지.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00274.html": {
+    "index": 163,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00274.html",
+    "source_sha256": "d6cdbba04cb9b89a1f4b9b2c2e9cabb01fa03727ef9c8f2afeec3de71c832aac",
+    "title": "디지털 키 2 (사양 적용 시)",
+    "document_ids": [
+      "kia_TK1_2027"
+    ],
+    "review_note_ko": "디지털키소개, 작동제한t00292 및정비t00289 연결필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00598.html": {
+    "index": 164,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00598.html",
+    "source_sha256": "9dc4f1b83a2d92164a832c006ee5966c8e929d54ba18c2810378b72562339e93",
+    "title": "자동 정차 기능(AUTO HOLD)",
+    "document_ids": [
+      "kia_TK1_2027"
+    ],
+    "review_note_ko": "AUTOHOLD소개, 작동/해제/경고메시지하위연결필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00603.html": {
+    "index": 165,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00603.html",
+    "source_sha256": "4d34ad68b1fcfd23cb37b75946351033d567caac42601c43a4f1ca66eb9636d7",
+    "title": "차체자세 제어 장치(ESC)",
+    "document_ids": [
+      "kia_TK1_2027"
+    ],
+    "review_note_ko": "EV6 ESC 시동ON·작동점멸·짧은OFF1부저1/3초OFF2부저2·복구버튼/재시동. 점멸시가속금지서행·작동중OFF금지·전환직선평탄정속·평소ON·진동정상. 검사OFF 지시를 일반고장대처로 사용금지. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00608.html": {
+    "index": 166,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00608.html",
+    "source_sha256": "cb0af081411e1fe07d2167a662e72490ed4e9d601dc7b4980ef6fcae763991e4",
+    "title": "경사로 저속 주행 기능(DBC)",
+    "document_ids": [
+      "kia_TK1_2027"
+    ],
+    "review_note_ko": "TK1 DBC EV5기준과의모든차이대조. 노랑충분냉각후지속정비, 일반도로OFF·급경사페달해제안될수있음 유지.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00610.html": {
+    "index": 167,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00610.html",
+    "source_sha256": "dc028a084eef880fe51ee2fd4cc61b90168056bd63ea850e42c4f601cd82fb3e",
+    "title": "드라이브 모드(DRIVE MODE)",
+    "document_ids": [
+      "kia_TK1_2027"
+    ],
+    "review_note_ko": "TK1정상모드 ECO유지/기타재시동NORMAL·SPORT적색정상. 제어기교체/업데이트시MY DRIVE초기화재설정은일반설정이며고장아님.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00618.html": {
+    "index": 168,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00618.html",
+    "source_sha256": "314f928957770c3e9bf5a11b8d5532af5fda4b92d44407ead7143ddaa937e528",
+    "title": "험로 저속 크루즈 컨트롤(X-TREK) (사양 적용 시)",
+    "document_ids": [
+      "kia_TK1_2027"
+    ],
+    "review_note_ko": "TK1 X-TREK 회색준비/회색점멸브레이크일시정지/초록작동·점멸가속정지/주황점멸15kmh초과. 반복경고정비·무경고도이상가능. 4L·D/R·벨트·닫힘·EPB/AUTOHOLD해제등조건,30분/25kmh/과열/OFF2등해제. 경사정차는브레이크/주차브레이크·이기능으로정차유지금지, 일반도로금지·항상주변확인·운전자조작책임.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00619.html": {
+    "index": 169,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00619.html",
+    "source_sha256": "45070c028822437a57b98e31fd6715959935bcd778166f44f2de6c8264cb98f6",
+    "title": "전자식 4WD (사양 적용 시)",
+    "document_ids": [
+      "kia_TK1_2027"
+    ],
+    "review_note_ko": "TK1 4WD 2H/4A/4H전환80이하·-15도이하미예열정차/저속, 4H↔4L평지정차N·표시완료후변속. 절차미충족점멸·시동직후전환어려우면일정거리후재시도. 4H80/4L40이내·운행전상태확인. 고장메시지에따른조작하위연결필요.",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00622.html": {
+    "index": 170,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00622.html",
+    "source_sha256": "a1af20f9ed23616423d9e0c4cdb41456f9dec7bb0610a1d775388307fb0b9818",
+    "title": "전자식 차동기어 잠금 장치(e-LD) (사양 적용 시)",
+    "document_ids": [
+      "kia_TK1_2027"
+    ],
+    "review_note_ko": "TK1 e-LD녹색점멸전환/점등체결/꺼짐해제. 속도줄임·가속발뗌메시지별대처·시스템점검최대한빨리정비. 일반노면금지·전환중가속금지·동일타이어·한바퀴잭구동절대금지. 곡선해제표시꺼져도실제체결가능, 원문은발떼고스티어링반대로돌려해제라고함(상황한정·일반긴급조향권고금지).",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  },
+  "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00981.html": {
+    "index": 171,
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00981.html",
+    "source_sha256": "0b4265868498d78f29ae3c3c2377bfc0dc025b7ca542c7fcbb5ac7eba9272237",
+    "title": "퓨즈의 교체",
+    "document_ids": [
+      "kia_TK1_2027"
+    ],
+    "review_note_ko": "쏘렌토ICE 퓨즈규정동일용량·OFF전장OFF배터리-·금속도구/임의배선/고용량/볼트형금지·재단선정비 기준동일. 실내퓨즈 실제절차연결필요. [원문 기준과 모든 의미 차이를 직접 대조하여 동일 판정.]",
+    "source_status": "SOURCE_TEXT_REVIEWED",
+    "runtimeApproved": false,
+    "expertApproved": false
+  }
+}

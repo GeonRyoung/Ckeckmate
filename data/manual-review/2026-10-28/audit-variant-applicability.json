@@ -1,0 +1,789 @@
+{
+  "version": 1,
+  "runtimeApproved": false,
+  "denominator": {
+    "hyundaiSpecialSalesRows": 9,
+    "kiaSpecialSalesRows": 22,
+    "totalSpecialSalesRows": 31,
+    "separateYearGap": 1
+  },
+  "rows": [
+    {
+      "brand": "hyundai",
+      "salesCode": "US41",
+      "salesName": "더 뉴 스타리아 리무진 Electric",
+      "salesURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-staria-limousine-electric/intro",
+      "officialListingURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "manualReferences": [
+        {
+          "modelCode": "US4EV",
+          "year": "2027",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4EV/2027/ko_KR"
+        },
+        {
+          "modelCode": "US4SV",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4SV/2026/ko_KR"
+        }
+      ],
+      "status": "EXACT_EQUIPMENT_APPLICABILITY_PENDING",
+      "finding": "US4SV 2026 특장 목차는 킨더·휠체어 리프트·구급차·캠퍼이며 리무진 전용 문서라고 단정할 수 없음.",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "hyundai",
+      "salesCode": "M5A0",
+      "salesName": "포터 II Electric 특장차",
+      "salesURL": "https://www.hyundai.com/kr/ko/e/vehicles/porter2-electric-special/intro",
+      "officialListingURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "manualReferences": [
+        {
+          "modelCode": "HREV",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/HREV/2026/ko_KR"
+        },
+        {
+          "modelCode": "HRSV",
+          "year": "2025",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/HRSV/2025/ko_KR"
+        }
+      ],
+      "status": "DEDICATED_CONTENT_FOUND_YEAR_MATCH_PENDING",
+      "finding": "HRSV 2025 상부 특장 설명서는 탑차·냉동·윙바디·파워게이트·덤프 등을 포함한다. 기본 2026 HR/HREV와 연식·동력 장비 일치 확인은 미해결.",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "hyundai",
+      "salesCode": "US46",
+      "salesName": "더 뉴 스타리아 리무진 Hybrid",
+      "salesURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-staria-limousine-hybrid/intro",
+      "officialListingURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "manualReferences": [
+        {
+          "modelCode": "US4SV",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4SV/2026/ko_KR"
+        },
+        {
+          "modelCode": "US4HEV",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4HEV/2026/ko_KR"
+        }
+      ],
+      "status": "EXACT_EQUIPMENT_APPLICABILITY_PENDING",
+      "finding": "US4SV 2026 특장 목차는 킨더·휠체어 리프트·구급차·캠퍼이며 리무진 전용 문서라고 단정할 수 없음.",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "hyundai",
+      "salesCode": "US36",
+      "salesName": "더 뉴 스타리아 킨더",
+      "salesURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-staria-kinder/intro",
+      "officialListingURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "manualReferences": [
+        {
+          "modelCode": "US4SV",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4SV/2026/ko_KR"
+        },
+        {
+          "modelCode": "US4",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4/2026/ko_KR"
+        }
+      ],
+      "status": "DEDICATED_CONTENT_FOUND_YEAR_MATCH_PENDING",
+      "finding": "US4SV 2026 특장 문서에 킨더 장이 명시되지만 판매 이미지의 2027 표기와 정확한 장비/연식 매칭은 미확정.",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "hyundai",
+      "salesCode": "US45",
+      "salesName": "더 뉴 스타리아 킨더 Hybrid",
+      "salesURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-staria-kinder-hybrid/intro",
+      "officialListingURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "manualReferences": [
+        {
+          "modelCode": "US4SV",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4SV/2026/ko_KR"
+        },
+        {
+          "modelCode": "US4HEV",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4HEV/2026/ko_KR"
+        }
+      ],
+      "status": "DEDICATED_CONTENT_FOUND_YEAR_MATCH_PENDING",
+      "finding": "US4SV 2026 특장 문서에 킨더 장이 명시되지만 판매 이미지의 2027 표기와 정확한 장비/연식 매칭은 미확정.",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "hyundai",
+      "salesCode": "GN13",
+      "salesName": "더 뉴 그랜저 택시",
+      "salesURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-grandeur-taxi/intro",
+      "officialListingURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "manualReferences": [
+        {
+          "modelCode": "GN7",
+          "year": "2027",
+          "status": "web_acquired",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_webhelp/GN7/2027/ko_KR/index.html"
+        }
+      ],
+      "status": "EXACT_EQUIPMENT_APPLICABILITY_PENDING",
+      "finding": "기본 계열 문서 확보는 현재 판매 특수 사양의 장비 적용 확인과 다름.",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "hyundai",
+      "salesCode": "US32",
+      "salesName": "더 뉴 스타리아 라운지 모빌리티",
+      "salesURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-staria-lounge-mobility/intro",
+      "officialListingURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "manualReferences": [
+        {
+          "modelCode": "US4",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4/2026/ko_KR"
+        }
+      ],
+      "status": "EXACT_EQUIPMENT_APPLICABILITY_PENDING",
+      "finding": "기본 계열 문서 확보는 현재 판매 특수 사양의 장비 적용 확인과 다름.",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "hyundai",
+      "salesCode": "US35",
+      "salesName": "더 뉴 스타리아 라운지 모빌리티 Hybrid",
+      "salesURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-staria-lounge-mobility-hybrid/intro",
+      "officialListingURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "manualReferences": [
+        {
+          "modelCode": "US4HEV",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4HEV/2026/ko_KR"
+        }
+      ],
+      "status": "EXACT_EQUIPMENT_APPLICABILITY_PENDING",
+      "finding": "기본 계열 문서 확보는 현재 판매 특수 사양의 장비 적용 확인과 다름.",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "hyundai",
+      "salesCode": "M5A4",
+      "salesName": "포터 II 특장차",
+      "salesURL": "https://www.hyundai.com/kr/ko/e/vehicles/porter2-special/intro",
+      "officialListingURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "manualReferences": [
+        {
+          "modelCode": "HR",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/HR/2026/ko_KR"
+        },
+        {
+          "modelCode": "HRSV",
+          "year": "2025",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/HRSV/2025/ko_KR"
+        }
+      ],
+      "status": "DEDICATED_CONTENT_FOUND_YEAR_MATCH_PENDING",
+      "finding": "HRSV 2025 상부 특장 설명서는 탑차·냉동·윙바디·파워게이트·덤프 등을 포함한다. 기본 2026 HR/HREV와 연식·동력 장비 일치 확인은 미해결.",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "kia",
+      "salesName": "EV3 GT",
+      "salesURL": "https://www.kia.com/kr/vehicles/ev3-gt",
+      "manualDocumentIds": [
+        "kia_SV1_2027"
+      ],
+      "status": "EXPLICIT_VARIANT_CONTENT_FOUND",
+      "finding": "공식 목차에 해당 사양 전용 내용이 명시됨. 모든 연식/옵션/경고 대처 승인과는 별개.",
+      "explicitContents": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00508.html",
+          "title": "가상 변속 기능 (VGS) (GT 전용)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00509.html",
+          "title": "런치 컨트롤 (GT 전용)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00510.html",
+          "title": "전자제어 서스펜션 (GT 전용)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00511.html",
+          "title": "퍼포먼스 타이머 (GT 전용)"
+        }
+      ],
+      "tocSourceHash": "42c11c00d481b6764fe4243f4b3eebd28d6202d528228d219ea63cbc283b09f5",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "kia",
+      "salesName": "EV4 GT",
+      "salesURL": "https://www.kia.com/kr/vehicles/ev4-gt",
+      "manualDocumentIds": [
+        "kia_CT1_2027"
+      ],
+      "status": "EXPLICIT_VARIANT_CONTENT_FOUND",
+      "finding": "공식 목차에 해당 사양 전용 내용이 명시됨. 모든 연식/옵션/경고 대처 승인과는 별개.",
+      "explicitContents": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/CT1/2027/ko_KR/topics/t00708_2.html",
+          "title": "가상 변속 기능 (VGS) (GT 전용)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/CT1/2027/ko_KR/topics/t00708_3.html",
+          "title": "런치 컨트롤 (GT 전용)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/CT1/2027/ko_KR/topics/t00708_4.html",
+          "title": "프리뷰 전자제어 서스펜션 (GT 전용)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/CT1/2027/ko_KR/topics/t00708_5.html",
+          "title": "퍼포먼스 타이머 (GT 전용)"
+        }
+      ],
+      "tocSourceHash": "aaae1197625cb050ddf644479ccff174d9a696d4deaf127c0cfa9609f2e4333f",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "kia",
+      "salesName": "EV5 GT",
+      "salesURL": "https://www.kia.com/kr/vehicles/ev5-gt",
+      "manualDocumentIds": [
+        "kia_OV1K_2026"
+      ],
+      "status": "EXPLICIT_VARIANT_CONTENT_FOUND",
+      "finding": "공식 목차에 해당 사양 전용 내용이 명시됨. 모든 연식/옵션/경고 대처 승인과는 별개.",
+      "explicitContents": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/OV1K/2026/ko_KR/topics/gt1.html",
+          "title": "가상 변속 기능 (VGS) (GT 전용)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/OV1K/2026/ko_KR/topics/gt2.html",
+          "title": "런치 컨트롤 (GT 전용)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/OV1K/2026/ko_KR/topics/gt8.html",
+          "title": "프리뷰 전자제어 서스펜션 (GT 전용)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/OV1K/2026/ko_KR/topics/gt4.html",
+          "title": "퍼포먼스 타이머 (GT 전용)"
+        }
+      ],
+      "tocSourceHash": "b08aa13a15481aad4dd6188628601e9b55a24dee1716779804ade6c9ffb5352c",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "kia",
+      "salesName": "EV6 GT",
+      "salesURL": "https://www.kia.com/kr/vehicles/ev6-gt",
+      "manualDocumentIds": [
+        "kia_CV1_2027"
+      ],
+      "status": "EXPLICIT_VARIANT_CONTENT_FOUND",
+      "finding": "공식 목차에 해당 사양 전용 내용이 명시됨. 모든 연식/옵션/경고 대처 승인과는 별개.",
+      "explicitContents": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00717.html",
+          "title": "가상 변속 기능 (VGS) (GT 전용)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00718.html",
+          "title": "런치 컨트롤 (GT 전용)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00719.html",
+          "title": "퍼포먼스 타이머 (GT 전용)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00731.html",
+          "title": "전자제어 서스펜션 (GT 전용)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00732.html",
+          "title": "전자식 차동제한 장치 (e-LSD) (GT 전용)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00736.html",
+          "title": "최대 출력 모드 (GT 전용)"
+        }
+      ],
+      "tocSourceHash": "77cbe8d66a12dcc1df195cd64d2b0057d0da935af106b7a3d0fe2a2c554089b0",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "kia",
+      "salesName": "EV9 GT",
+      "salesURL": "https://www.kia.com/kr/vehicles/ev9-gt",
+      "manualDocumentIds": [
+        "kia_MV1_2027"
+      ],
+      "status": "EXPLICIT_VARIANT_CONTENT_FOUND",
+      "finding": "공식 목차에 해당 사양 전용 내용이 명시됨. 모든 연식/옵션/경고 대처 승인과는 별개.",
+      "explicitContents": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/MV1/2027/ko_KR/topics/t00874.html",
+          "title": "퍼포먼스 타이머 (GT 전용)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/MV1/2027/ko_KR/topics/t00886.html",
+          "title": "가상 변속 기능 (VGS) (GT 전용)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/MV1/2027/ko_KR/topics/t00887.html",
+          "title": "전자식 차동제한 장치 (e-LSD) (GT 전용)"
+        }
+      ],
+      "tocSourceHash": "49cf77c2af1aaacb1f7a3a2678a23f5bde140ae4f65aa036be87b8290f12aefb",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "kia",
+      "salesName": "봉고Ⅲ EV 탑차/윙바디",
+      "salesURL": "https://www.kia.com/kr/vehicles/bongo3-ev-frozen",
+      "manualDocumentIds": [
+        "kia_PUEV_2026"
+      ],
+      "status": "DEDICATED_EQUIPMENT_SOURCE_NOT_IDENTIFIED",
+      "finding": "검토한 공식 메타데이터/목차에서 전용 장을 특정하지 못함. 미발행 또는 적용 불가로 단정하지 않음.",
+      "explicitContents": [],
+      "tocSourceHash": "fd3e66c1180b74e3bd121e7d50ced19108afce2d62deea75cfdbb1de172f484b",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "kia",
+      "salesName": "봉고Ⅲ EV 파워게이트",
+      "salesURL": "https://www.kia.com/kr/vehicles/bongo3-ev-powergate",
+      "manualDocumentIds": [
+        "kia_PUEV_2026"
+      ],
+      "status": "DEDICATED_EQUIPMENT_SOURCE_NOT_IDENTIFIED",
+      "finding": "검토한 공식 메타데이터/목차에서 전용 장을 특정하지 못함. 미발행 또는 적용 불가로 단정하지 않음.",
+      "explicitContents": [],
+      "tocSourceHash": "fd3e66c1180b74e3bd121e7d50ced19108afce2d62deea75cfdbb1de172f484b",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "kia",
+      "salesName": "카니발 하이리무진",
+      "salesURL": "https://www.kia.com/kr/vehicles/carnival-hi-limousine",
+      "manualDocumentIds": [
+        "kia_KA4HI_2025"
+      ],
+      "status": "EXACT_2025_BASE_AND_SUPPLEMENT_ACQUIRED",
+      "finding": "KA4HI 2025 53쪽 특장 설명서 OCR·핵심 14쪽 시각 대조 완료. 정확한 KA4/KA4KH 2025 기본 설명서 추가 확보. 현재 판매분 전체 연식 승인은 아님.",
+      "explicitContents": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_pdf/KA4HI/2025/ko_KR",
+          "title": "하이리무진 2025 전용 설명서"
+        }
+      ],
+      "tocSourceHash": null,
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "kia",
+      "salesName": "K8 택시",
+      "salesURL": "https://www.kia.com/kr/vehicles/k8-taxi",
+      "manualDocumentIds": [
+        "kia_GL3_2027"
+      ],
+      "status": "DEDICATED_EQUIPMENT_SOURCE_NOT_IDENTIFIED",
+      "finding": "검토한 공식 메타데이터/목차에서 전용 장을 특정하지 못함. 미발행 또는 적용 불가로 단정하지 않음.",
+      "explicitContents": [],
+      "tocSourceHash": "cac060727467d0b751117fc7096aad2c87db7b7ce1d784e8e51db3cc919d98a2",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "kia",
+      "salesName": "PV5 패신저 택시 2-3-0",
+      "salesURL": "https://www.kia.com/kr/vehicles/pv5-taxi",
+      "manualDocumentIds": [
+        "kia_SW1K_2027"
+      ],
+      "status": "FAMILY_CONTENT_FOUND_EXACT_CONFIGURATION_PENDING",
+      "finding": "패신저/WAV/카고 내용은 명시되지만 택시 좌석 배열 또는 카고 컴팩트 전용 적용성은 아직 입증하지 못함.",
+      "explicitContents": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00107.html",
+          "title": "파워 슬라이딩 도어 (패신저, WAV)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00111.html",
+          "title": "스마트 파워 슬라이딩 도어 (패신저, WAV)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00121.html",
+          "title": "테일게이트 (패신저, WAV)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00125.html",
+          "title": "파워 테일게이트 (패신저, WAV)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00138.html",
+          "title": "스마트 파워 테일게이트 (패신저, WAV)"
+        }
+      ],
+      "tocSourceHash": "74a289a068bf7be0d84f0ddfc69c9a857999eedf2f557b71d6a9b8e1e518af9b",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "kia",
+      "salesName": "PV5 패신저 택시 1-2-2",
+      "salesURL": "https://www.kia.com/kr/vehicles/pv5-taxi-122",
+      "manualDocumentIds": [
+        "kia_SW1K_2027"
+      ],
+      "status": "FAMILY_CONTENT_FOUND_EXACT_CONFIGURATION_PENDING",
+      "finding": "패신저/WAV/카고 내용은 명시되지만 택시 좌석 배열 또는 카고 컴팩트 전용 적용성은 아직 입증하지 못함.",
+      "explicitContents": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00107.html",
+          "title": "파워 슬라이딩 도어 (패신저, WAV)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00111.html",
+          "title": "스마트 파워 슬라이딩 도어 (패신저, WAV)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00121.html",
+          "title": "테일게이트 (패신저, WAV)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00125.html",
+          "title": "파워 테일게이트 (패신저, WAV)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00138.html",
+          "title": "스마트 파워 테일게이트 (패신저, WAV)"
+        }
+      ],
+      "tocSourceHash": "74a289a068bf7be0d84f0ddfc69c9a857999eedf2f557b71d6a9b8e1e518af9b",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "kia",
+      "salesName": "PV5 WAV 택시",
+      "salesURL": "https://www.kia.com/kr/vehicles/pv5-wav-taxi",
+      "manualDocumentIds": [
+        "kia_SW1K_2027"
+      ],
+      "status": "FAMILY_CONTENT_FOUND_EXACT_CONFIGURATION_PENDING",
+      "finding": "패신저/WAV/카고 내용은 명시되지만 택시 좌석 배열 또는 카고 컴팩트 전용 적용성은 아직 입증하지 못함.",
+      "explicitContents": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00107.html",
+          "title": "파워 슬라이딩 도어 (패신저, WAV)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00111.html",
+          "title": "스마트 파워 슬라이딩 도어 (패신저, WAV)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00121.html",
+          "title": "테일게이트 (패신저, WAV)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00125.html",
+          "title": "파워 테일게이트 (패신저, WAV)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00138.html",
+          "title": "스마트 파워 테일게이트 (패신저, WAV)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00257.html",
+          "title": "휠체어 탑승 (WAV)"
+        }
+      ],
+      "tocSourceHash": "74a289a068bf7be0d84f0ddfc69c9a857999eedf2f557b71d6a9b8e1e518af9b",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "kia",
+      "salesName": "타스만 오픈베드",
+      "salesURL": "https://www.kia.com/kr/vehicles/tasman-openbed",
+      "manualDocumentIds": [
+        "kia_TK1_2027"
+      ],
+      "status": "DEDICATED_EQUIPMENT_SOURCE_NOT_IDENTIFIED",
+      "finding": "검토한 공식 메타데이터/목차에서 전용 장을 특정하지 못함. 미발행 또는 적용 불가로 단정하지 않음.",
+      "explicitContents": [],
+      "tocSourceHash": "4f7b8262b2a4806a995a37e5dd56f986981b0de14c0f6f739fd124fe235c508d",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "kia",
+      "salesName": "봉고Ⅲ 탑차/윙바디/워크스루밴",
+      "salesURL": "https://www.kia.com/kr/vehicles/bongo3-frozen",
+      "manualDocumentIds": [
+        "kia_PU_2026"
+      ],
+      "status": "DEDICATED_EQUIPMENT_SOURCE_NOT_IDENTIFIED",
+      "finding": "검토한 공식 메타데이터/목차에서 전용 장을 특정하지 못함. 미발행 또는 적용 불가로 단정하지 않음.",
+      "explicitContents": [],
+      "tocSourceHash": "d0db2c406aa8cf614467612a0180c33310effaffc789bfd5b9b1e9785dbeffe6",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "kia",
+      "salesName": "봉고Ⅲ 덤프",
+      "salesURL": "https://www.kia.com/kr/vehicles/bongo3-dump",
+      "manualDocumentIds": [
+        "kia_PU_2026"
+      ],
+      "status": "DEDICATED_EQUIPMENT_SOURCE_NOT_IDENTIFIED",
+      "finding": "검토한 공식 메타데이터/목차에서 전용 장을 특정하지 못함. 미발행 또는 적용 불가로 단정하지 않음.",
+      "explicitContents": [],
+      "tocSourceHash": "d0db2c406aa8cf614467612a0180c33310effaffc789bfd5b9b1e9785dbeffe6",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "kia",
+      "salesName": "봉고Ⅲ 파워게이트",
+      "salesURL": "https://www.kia.com/kr/vehicles/bongo3-powergate",
+      "manualDocumentIds": [
+        "kia_PU_2026"
+      ],
+      "status": "DEDICATED_EQUIPMENT_SOURCE_NOT_IDENTIFIED",
+      "finding": "검토한 공식 메타데이터/목차에서 전용 장을 특정하지 못함. 미발행 또는 적용 불가로 단정하지 않음.",
+      "explicitContents": [],
+      "tocSourceHash": "d0db2c406aa8cf614467612a0180c33310effaffc789bfd5b9b1e9785dbeffe6",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "kia",
+      "salesName": "PV5 패신저",
+      "salesURL": "https://www.kia.com/kr/vehicles/pv5-passenger",
+      "manualDocumentIds": [
+        "kia_SW1K_2027"
+      ],
+      "status": "EXPLICIT_VARIANT_CONTENT_FOUND",
+      "finding": "공식 목차에 해당 사양 전용 내용이 명시됨. 모든 연식/옵션/경고 대처 승인과는 별개.",
+      "explicitContents": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00107.html",
+          "title": "파워 슬라이딩 도어 (패신저, WAV)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00111.html",
+          "title": "스마트 파워 슬라이딩 도어 (패신저, WAV)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00121.html",
+          "title": "테일게이트 (패신저, WAV)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00125.html",
+          "title": "파워 테일게이트 (패신저, WAV)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00138.html",
+          "title": "스마트 파워 테일게이트 (패신저, WAV)"
+        }
+      ],
+      "tocSourceHash": "74a289a068bf7be0d84f0ddfc69c9a857999eedf2f557b71d6a9b8e1e518af9b",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "kia",
+      "salesName": "PV5 카고 롱",
+      "salesURL": "https://www.kia.com/kr/vehicles/pv5-cargo",
+      "manualDocumentIds": [
+        "kia_SW1K_2027"
+      ],
+      "status": "EXPLICIT_VARIANT_CONTENT_FOUND",
+      "finding": "공식 목차에 해당 사양 전용 내용이 명시됨. 모든 연식/옵션/경고 대처 승인과는 별개.",
+      "explicitContents": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00115.html",
+          "title": "양문형 테일게이트 (카고)"
+        }
+      ],
+      "tocSourceHash": "74a289a068bf7be0d84f0ddfc69c9a857999eedf2f557b71d6a9b8e1e518af9b",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "kia",
+      "salesName": "PV5 카고 컴팩트",
+      "salesURL": "https://www.kia.com/kr/vehicles/pv5-cargo-compact",
+      "manualDocumentIds": [
+        "kia_SW1K_2027"
+      ],
+      "status": "FAMILY_CONTENT_FOUND_EXACT_CONFIGURATION_PENDING",
+      "finding": "패신저/WAV/카고 내용은 명시되지만 택시 좌석 배열 또는 카고 컴팩트 전용 적용성은 아직 입증하지 못함.",
+      "explicitContents": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00115.html",
+          "title": "양문형 테일게이트 (카고)"
+        }
+      ],
+      "tocSourceHash": "74a289a068bf7be0d84f0ddfc69c9a857999eedf2f557b71d6a9b8e1e518af9b",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "kia",
+      "salesName": "PV5 WAV",
+      "salesURL": "https://www.kia.com/kr/vehicles/pv5-wav",
+      "manualDocumentIds": [
+        "kia_SW1K_2027"
+      ],
+      "status": "EXPLICIT_VARIANT_CONTENT_FOUND",
+      "finding": "공식 목차에 해당 사양 전용 내용이 명시됨. 모든 연식/옵션/경고 대처 승인과는 별개.",
+      "explicitContents": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00107.html",
+          "title": "파워 슬라이딩 도어 (패신저, WAV)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00111.html",
+          "title": "스마트 파워 슬라이딩 도어 (패신저, WAV)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00121.html",
+          "title": "테일게이트 (패신저, WAV)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00125.html",
+          "title": "파워 테일게이트 (패신저, WAV)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00138.html",
+          "title": "스마트 파워 테일게이트 (패신저, WAV)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00257.html",
+          "title": "휠체어 탑승 (WAV)"
+        }
+      ],
+      "tocSourceHash": "74a289a068bf7be0d84f0ddfc69c9a857999eedf2f557b71d6a9b8e1e518af9b",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "kia",
+      "salesName": "PV5 프라임",
+      "salesURL": "https://www.kia.com/kr/vehicles/pv5-prime",
+      "manualDocumentIds": [
+        "kia_SW1K_2027"
+      ],
+      "status": "EXPLICIT_VARIANT_CONTENT_FOUND",
+      "finding": "공식 목차에 해당 사양 전용 내용이 명시됨. 모든 연식/옵션/경고 대처 승인과는 별개.",
+      "explicitContents": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/c_t0039.html",
+          "title": "프라임 차량"
+        }
+      ],
+      "tocSourceHash": "74a289a068bf7be0d84f0ddfc69c9a857999eedf2f557b71d6a9b8e1e518af9b",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    },
+    {
+      "brand": "kia",
+      "salesName": "PV5 오픈베드",
+      "salesURL": "https://www.kia.com/kr/vehicles/pv5-openbed",
+      "manualDocumentIds": [
+        "kia_SW1K_2027"
+      ],
+      "status": "EXPLICIT_VARIANT_CONTENT_FOUND",
+      "finding": "공식 목차에 해당 사양 전용 내용이 명시됨. 모든 연식/옵션/경고 대처 승인과는 별개.",
+      "explicitContents": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/c_t0001.html",
+          "title": "오픈베드 차량"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/c_t0034.html",
+          "title": "인식 센서 (오픈베드 차량)"
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/c_t0035.html",
+          "title": "리어 콤비네이션 램프 (오픈베드 차량)"
+        }
+      ],
+      "tocSourceHash": "74a289a068bf7be0d84f0ddfc69c9a857999eedf2f557b71d6a9b8e1e518af9b",
+      "fullVariantApproved": false,
+      "runtimeApproved": false
+    }
+  ],
+  "yearGaps": [
+    {
+      "model": "ST1",
+      "sourceURL": "https://ownersmanual.hyundai.com/api/v3/hmc/model?modelName=ST1&countryCode=A99&langCode=ko_KR",
+      "catalogYears": [
+        "2026",
+        "2025"
+      ],
+      "latestPublishedCatalogYear": "2026",
+      "salesImageYearHint": "2027",
+      "salesModelYearConfirmed": false,
+      "status": "2027_NOT_IN_CHECKED_OFFICIAL_CATALOG; SALES_YEAR_UNCONFIRMED",
+      "note": "판매 이미지 파일명 2027은 실제 차량 연식 확인을 대신하지 않음. 공식 ST1 소개 HTML은 SPA로 연식을 본문에서 확인하지 못함. 2026 안내를 2027 자동 적용 금지.",
+      "productURL": "https://www.hyundai.com/kr/ko/e/vehicles/st1/intro",
+      "productHtmlHash": "b92421ce1e084a293bdb856514e0b03ba88231eecce31a64af74317724f428a2",
+      "runtimeApproved": false
+    }
+  ],
+  "counts": {
+    "DEDICATED_CONTENT_FOUND_YEAR_MATCH_PENDING": 4,
+    "DEDICATED_EQUIPMENT_SOURCE_NOT_IDENTIFIED": 7,
+    "EXACT_2025_BASE_AND_SUPPLEMENT_ACQUIRED": 1,
+    "EXACT_EQUIPMENT_APPLICABILITY_PENDING": 5,
+    "EXPLICIT_VARIANT_CONTENT_FOUND": 10,
+    "FAMILY_CONTENT_FOUND_EXACT_CONFIGURATION_PENDING": 4
+  },
+  "interpretation": "확인/미확인 사양은 기본 설명서 수와 별개. 전용 내용 존재, 정확한 연식 적용, 의미 검토, 런타임 승인 네 단계를 분리."
+}

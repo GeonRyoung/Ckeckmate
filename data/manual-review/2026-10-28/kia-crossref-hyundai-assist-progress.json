@@ -1,0 +1,12 @@
+{
+  "sentenceIndicesRead": [
+    0,
+    1375
+  ],
+  "sentenceCountRead": 1376,
+  "sourceUnitsRead": 160,
+  "sourceReadingComplete": true,
+  "referenceClosureComplete": false,
+  "runtimeApproved": false,
+  "ledger": "data\\manual-review\\2026-10-28\\kia-crossref-reviewed-hyundai-assist.json"
+}

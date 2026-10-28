@@ -1,0 +1,318 @@
+{
+  "runtimeApproved": false,
+  "reviewerType": "AI_NOT_EXPERT",
+  "consecutivePagesAudited": 220,
+  "additionalSections": [
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00209.html",
+      "sourceSha256": "b6eb6023ab2a3f6a89c02a10483eee2ff6f714046bc349fd44ab162218a58011",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-adas\\pv5-backstop\\t00209.html",
+      "title": "하이빔 보조 작동",
+      "documentId": "kia_SW1K_2027",
+      "reviewId": "AUDIT-PV5-BACKSTOP-00",
+      "reviewStatus": "SOURCE_READ_TITLE_ONLY_NO_PROCEDURE",
+      "reviewMethod": "AI direct full body reading and exact sentence duplicate comparison",
+      "runtimeApproved": false,
+      "locator": "main article",
+      "reviewNote": "실제 본문 기능에만 연결. 제목만 있는 절은 대처법 확보로 계산하지 않음."
+    },
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00210.html",
+      "sourceSha256": "f3deb6d0a545c40cbbb3e1dbc286d20eaa2ee65cbe1df281e423f9d069fbad31",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-adas\\pv5-backstop\\t00210.html",
+      "title": "하이빔 보조 이상 및 제한 사항",
+      "documentId": "kia_SW1K_2027",
+      "reviewId": "AUDIT-PV5-BACKSTOP-01",
+      "reviewStatus": "SOURCE_READ_TITLE_ONLY_NO_PROCEDURE",
+      "reviewMethod": "AI direct full body reading and exact sentence duplicate comparison",
+      "runtimeApproved": false,
+      "locator": "main article",
+      "reviewNote": "실제 본문 기능에만 연결. 제목만 있는 절은 대처법 확보로 계산하지 않음."
+    },
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00516.html",
+      "sourceSha256": "a94177f0149f63cac6e1ad673ba3154e55ad2fff9e435b5d2d148a2e99767f60",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-adas\\kia_SW1K_2027\\t00516.html",
+      "title": "전방 안전",
+      "documentId": "kia_SW1K_2027",
+      "reviewId": "AUDIT-PV5-BACKSTOP-02",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full body reading and exact sentence duplicate comparison",
+      "runtimeApproved": false,
+      "locator": "main article",
+      "reviewNote": "실제 본문 기능에만 연결. 제목만 있는 절은 대처법 확보로 계산하지 않음."
+    },
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00534.html",
+      "sourceSha256": "cf9f7e923ccf62ccdf64b2ef30844e4014ceb2e95de301fb233ff92e4905570a",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-adas\\kia_SW1K_2027\\t00534.html",
+      "title": "차로 이탈방지 보조 이상 및 제한 사항",
+      "documentId": "kia_SW1K_2027",
+      "reviewId": "AUDIT-PV5-BACKSTOP-03",
+      "reviewStatus": "SOURCE_READ_TITLE_ONLY_NO_PROCEDURE",
+      "reviewMethod": "AI direct full body reading and exact sentence duplicate comparison",
+      "runtimeApproved": false,
+      "locator": "main article",
+      "reviewNote": "실제 본문 기능에만 연결. 제목만 있는 절은 대처법 확보로 계산하지 않음."
+    },
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00535.html",
+      "sourceSha256": "d692bfa6d6166e28ea9e22a731b7f7f44caee4fd1890ae7a48ed8723bc895617",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-adas\\kia_SW1K_2027\\t00535.html",
+      "title": "기능 이상",
+      "documentId": "kia_SW1K_2027",
+      "reviewId": "AUDIT-PV5-BACKSTOP-04",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full body reading and exact sentence duplicate comparison",
+      "runtimeApproved": false,
+      "locator": "main article",
+      "reviewNote": "실제 본문 기능에만 연결. 제목만 있는 절은 대처법 확보로 계산하지 않음."
+    },
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00595.html",
+      "sourceSha256": "7a18965bd7295820e10e2c9520a71a75e5b1ca2e22c15f0f44246aeaffcacaef",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-adas\\pv5-backstop\\t00595.html",
+      "title": "기능 이상",
+      "documentId": "kia_SW1K_2027",
+      "reviewId": "AUDIT-PV5-BACKSTOP-05",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full body reading and exact sentence duplicate comparison",
+      "runtimeApproved": false,
+      "locator": "main article",
+      "reviewNote": "실제 본문 기능에만 연결. 제목만 있는 절은 대처법 확보로 계산하지 않음."
+    },
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00629.html",
+      "sourceSha256": "4daff21a60646951246c5d04cfc9c38ee392236e2d4f294081208627072ab762",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-adas\\pv5-backstop\\t00629.html",
+      "title": "스마트 크루즈 컨트롤 이상 및 제한 사항",
+      "documentId": "kia_SW1K_2027",
+      "reviewId": "AUDIT-PV5-BACKSTOP-06",
+      "reviewStatus": "SOURCE_READ_TITLE_ONLY_NO_PROCEDURE",
+      "reviewMethod": "AI direct full body reading and exact sentence duplicate comparison",
+      "runtimeApproved": false,
+      "locator": "main article",
+      "reviewNote": "실제 본문 기능에만 연결. 제목만 있는 절은 대처법 확보로 계산하지 않음."
+    },
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00630.html",
+      "sourceSha256": "f9e67e046ae692ad793dd3cc6e5c33eda7603e3c13b68a83ea5f728519e91f50",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-adas\\pv5-backstop\\t00630.html",
+      "title": "기능 이상",
+      "documentId": "kia_SW1K_2027",
+      "reviewId": "AUDIT-PV5-BACKSTOP-07",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full body reading and exact sentence duplicate comparison",
+      "runtimeApproved": false,
+      "locator": "main article",
+      "reviewNote": "실제 본문 기능에만 연결. 제목만 있는 절은 대처법 확보로 계산하지 않음."
+    },
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00631.html",
+      "sourceSha256": "152ee4304130bd3cc1af9e88556f66b10aab038e77ed47a7f111baba806999b9",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-adas\\pv5-backstop\\t00631.html",
+      "title": "인식 센서 가림",
+      "documentId": "kia_SW1K_2027",
+      "reviewId": "AUDIT-PV5-BACKSTOP-08",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full body reading and exact sentence duplicate comparison",
+      "runtimeApproved": false,
+      "locator": "main article",
+      "reviewNote": "실제 본문 기능에만 연결. 제목만 있는 절은 대처법 확보로 계산하지 않음."
+    },
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00663.html",
+      "sourceSha256": "43465011c147f7cf26bd1d7cc866141d565fe642c835c2d3278536330b8331f5",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-adas\\pv5-backstop\\t00663.html",
+      "title": "기능 이상",
+      "documentId": "kia_SW1K_2027",
+      "reviewId": "AUDIT-PV5-BACKSTOP-09",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full body reading and exact sentence duplicate comparison",
+      "runtimeApproved": false,
+      "locator": "main article",
+      "reviewNote": "실제 본문 기능에만 연결. 제목만 있는 절은 대처법 확보로 계산하지 않음."
+    },
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00721.html",
+      "sourceSha256": "b2ec3c25e47582d632efc2c9e5976f1b5fc450a3126e64c956d06923793689de",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-adas\\pv5-backstop\\t00721.html",
+      "title": "기능 이상",
+      "documentId": "kia_SW1K_2027",
+      "reviewId": "AUDIT-PV5-BACKSTOP-10",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full body reading and exact sentence duplicate comparison",
+      "runtimeApproved": false,
+      "locator": "main article",
+      "reviewNote": "실제 본문 기능에만 연결. 제목만 있는 절은 대처법 확보로 계산하지 않음."
+    },
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00722.html",
+      "sourceSha256": "3d8f4c4738f5d63f57e3874b192718a9641d2099ce7aeb149cfcba5b08c0c582",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-adas\\pv5-backstop\\t00722.html",
+      "title": "인식 센서 가림",
+      "documentId": "kia_SW1K_2027",
+      "reviewId": "AUDIT-PV5-BACKSTOP-11",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full body reading and exact sentence duplicate comparison",
+      "runtimeApproved": false,
+      "locator": "main article",
+      "reviewNote": "실제 본문 기능에만 연결. 제목만 있는 절은 대처법 확보로 계산하지 않음."
+    },
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00212.html",
+      "sourceSha256": "204c686b859cf1d458dc5900f70a00e491cbfa292f7b4432099a6cf75e4bece2",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-adas\\kia_SW1K_2027\\t00212.html",
+      "title": "제한사항",
+      "documentId": "kia_SW1K_2027",
+      "reviewId": "AUDIT-PV5-BACKSTOP-12",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full body reading and exact sentence duplicate comparison",
+      "runtimeApproved": false,
+      "locator": "main article",
+      "reviewNote": "실제 본문 기능에만 연결. 제목만 있는 절은 대처법 확보로 계산하지 않음."
+    }
+  ],
+  "sourceHolds": [
+    {
+      "documentId": "kia_SW1K_2027",
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00210.html",
+      "sourceSha256": "f3deb6d0a545c40cbbb3e1dbc286d20eaa2ee65cbe1df281e423f9d069fbad31",
+      "issue": "HBA 고장 절은 제목만 있음; t00212의 수동 전환 제한은 읽었으나 고장 문구를 추정하지 않음.",
+      "resolution": "SOURCE_CONTENT_UNAVAILABLE_IN_RETRIEVED_OFFICIAL_TOPIC; no other-function substitution",
+      "runtimeApproved": false
+    },
+    {
+      "documentId": "kia_SW1K_2027",
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00543.html",
+      "sourceSha256": "ed1c2eadbd1171034fb80224cdb8308ba9fef472c545d82795fd3c540dc1b6e9",
+      "issue": "LFA 이상 절은 제목만 있으며 다음 실제 페이지는 BCA. 독립 고장 상세 보류.",
+      "resolution": "SOURCE_CONTENT_UNAVAILABLE_IN_RETRIEVED_OFFICIAL_TOPIC; no other-function substitution",
+      "runtimeApproved": false
+    }
+  ],
+  "corrections": [
+    {
+      "originalURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00525.html",
+      "originalLabel": "차로 이탈방지 보조(LKA)",
+      "actualBodyTitle": "인식 센서 가림",
+      "actualBodySystem": "전방 충돌방지 보조",
+      "sourceSha256": "1850004268fd786b4fbe9a1c2f43263f867feeda0940f6ce37e204486e37c003",
+      "correctedURLForOriginalLabel": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00535.html",
+      "correctionKind": "BODY_FUNCTION_VERIFIED; target may be title-only hold",
+      "runtimeApproved": false
+    },
+    {
+      "originalURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00596.html",
+      "originalLabel": "운전자 주의 경고(DAW)",
+      "actualBodyTitle": "인식 센서 가림",
+      "actualBodySystem": "지능형 속도 제한 보조",
+      "sourceSha256": "6943f7f64bac44dee2d980b7e7477c013165ea70e2ad0a5aad8b3aa3e2dcc94c",
+      "correctedURLForOriginalLabel": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00606.html",
+      "correctionKind": "BODY_FUNCTION_VERIFIED; target may be title-only hold",
+      "runtimeApproved": false
+    },
+    {
+      "originalURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00536.html",
+      "originalLabel": "차로 유지 보조(LFA)",
+      "actualBodyTitle": "인식 센서 가림",
+      "actualBodySystem": "차로 이탈방지 보조",
+      "sourceSha256": "5161dd728016880fd9b60883662bddb05e2db1e720f3ca6b96839120bfd68a57",
+      "correctedURLForOriginalLabel": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00543.html",
+      "correctionKind": "BODY_FUNCTION_VERIFIED; target may be title-only hold",
+      "runtimeApproved": false
+    },
+    {
+      "originalURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00565.html",
+      "originalLabel": "안전 하차 보조(SEA)",
+      "actualBodyTitle": "인식 센서 가림",
+      "actualBodySystem": "안전 하차 경고",
+      "sourceSha256": "dd497c23a943ea903accde28cb4fa43343c653be4ca245529245fe4cc112fb42",
+      "correctedURLForOriginalLabel": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00574.html",
+      "correctionKind": "BODY_FUNCTION_VERIFIED; target may be title-only hold",
+      "runtimeApproved": false
+    },
+    {
+      "originalURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00575.html",
+      "originalLabel": "후측방 모니터(BVM)",
+      "actualBodyTitle": "인식 센서 가림",
+      "actualBodySystem": "안전 하차 보조",
+      "sourceSha256": "d2dde00e08c3fe43764dc05f8e78899f0cb2b1ebbf76186cb104e1ad5d06e662",
+      "correctedURLForOriginalLabel": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00582.html",
+      "correctionKind": "BODY_FUNCTION_VERIFIED; target may be title-only hold",
+      "runtimeApproved": false
+    },
+    {
+      "originalURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00607.html",
+      "originalLabel": "스마트 크루즈 컨트롤(SCC)",
+      "actualBodyTitle": "인식 센서 가림",
+      "actualBodySystem": "운전자 주의 경고",
+      "sourceSha256": "8039e972becca1ce1317ccf2f4b98e2b2f674615ea18548db4557017b37d02f0",
+      "correctedURLForOriginalLabel": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00630.html",
+      "correctionKind": "BODY_FUNCTION_VERIFIED; target may be title-only hold",
+      "runtimeApproved": false
+    },
+    {
+      "originalURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00652.html",
+      "originalLabel": "후방 모니터(RVM)",
+      "actualBodyTitle": "기능 이상",
+      "actualBodySystem": "고속도로 주행 보조",
+      "sourceSha256": "e88cd97a8c6b54dfdaf75713e8481eacb79965e7cf4a03f7f8ad80a2b6b92119",
+      "correctedURLForOriginalLabel": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00665.html",
+      "correctionKind": "BODY_FUNCTION_VERIFIED; target may be title-only hold",
+      "runtimeApproved": false
+    },
+    {
+      "originalURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00665.html",
+      "originalLabel": "서라운드 뷰 모니터(SVM)",
+      "actualBodyTitle": "기능 이상",
+      "actualBodySystem": "후방 모니터",
+      "sourceSha256": "1888e89334c2bca61f8fb32db10e5bdab0f385031a32e337917e829be0ba3ca5",
+      "correctedURLForOriginalLabel": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00682.html",
+      "correctionKind": "BODY_FUNCTION_VERIFIED; target may be title-only hold",
+      "runtimeApproved": false
+    },
+    {
+      "originalURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00682.html",
+      "originalLabel": "후방 교차 충돌방지 보조(RCCA)",
+      "actualBodyTitle": "기능 이상",
+      "actualBodySystem": "서라운드 뷰 모니터",
+      "sourceSha256": "0571751438479de493f4f23f19ba4ac021d2be26a79daaf3ab78eda3d1fda808",
+      "correctedURLForOriginalLabel": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00693.html",
+      "correctionKind": "BODY_FUNCTION_VERIFIED; target may be title-only hold",
+      "runtimeApproved": false
+    },
+    {
+      "originalURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00652.html",
+      "originalLabel": "후방 모니터(RVM)",
+      "actualBodyTitle": "기능 이상",
+      "actualBodySystem": "고속도로 주행 보조",
+      "sourceSha256": "e88cd97a8c6b54dfdaf75713e8481eacb79965e7cf4a03f7f8ad80a2b6b92119",
+      "correctedURLForOriginalLabel": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00665.html",
+      "correctionKind": "BODY_FUNCTION_VERIFIED; target may be title-only hold",
+      "runtimeApproved": false
+    },
+    {
+      "originalURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00665.html",
+      "originalLabel": "서라운드 뷰 모니터(SVM)",
+      "actualBodyTitle": "기능 이상",
+      "actualBodySystem": "후방 모니터",
+      "sourceSha256": "1888e89334c2bca61f8fb32db10e5bdab0f385031a32e337917e829be0ba3ca5",
+      "correctedURLForOriginalLabel": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00682.html",
+      "correctionKind": "BODY_FUNCTION_VERIFIED; target may be title-only hold",
+      "runtimeApproved": false
+    },
+    {
+      "originalURL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00213.html",
+      "originalLabel": "하이빔 보조(HBA)",
+      "actualBodyTitle": "와이퍼/워셔",
+      "actualBodySystem": "와이퍼/워셔",
+      "sourceSha256": "79c7ca3e73d631124e2c0cf59fef4965fc309faaf0ede66bb642d689cffd848b",
+      "correctedURLForOriginalLabel": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00212.html",
+      "correctionKind": "BODY_FUNCTION_VERIFIED; target may be title-only hold",
+      "runtimeApproved": false
+    }
+  ],
+  "originalCorpusUntouched": true,
+  "additionalSourceReadingComplete": true
+}

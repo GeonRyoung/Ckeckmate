@@ -1,0 +1,1297 @@
+{
+  "checkedUTC": "2026-10-28T03:41:22.388472+00:00",
+  "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+  "landingURL": "https://www.hyundai.com/kr/ko/e/all-vehicles",
+  "currentListedVariants": 60,
+  "inScopeVariants": 44,
+  "rows": [
+    {
+      "salesCode": "TS12",
+      "salesName": "ST1",
+      "category": "E",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/st1/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "A01"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "A01",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/A01/2026/ko_KR"
+        }
+      ],
+      "salesImageYearHint": "2027",
+      "status": "family_manual_acquired_equipment_review_required",
+      "yearGap": "Official sales image indicates 2027; latest published manual catalog exposes 2026. Do not apply 2026 manual to 2027 automatically."
+    },
+    {
+      "salesCode": "HE02",
+      "salesName": "넥쏘",
+      "category": "E",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/nexo/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "NH2"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "NH2",
+          "year": "2027",
+          "status": "web_acquired",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_webhelp/NH2/2027/ko_KR/index.html"
+        }
+      ],
+      "salesImageYearHint": "2027",
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "SX17",
+      "salesName": "코나 Electric",
+      "category": "E",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/kona-electric/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "SX2EV"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "SX2EV",
+          "year": "2025",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/SX2EV/2025/ko_KR"
+        }
+      ],
+      "salesImageYearHint": "2025",
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "NE09",
+      "salesName": "아이오닉 5",
+      "category": "E",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/ioniq5/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "NE1"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "NE1",
+          "year": "2027",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/NE1/2027/ko_KR"
+        }
+      ],
+      "salesImageYearHint": "2027",
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "US39",
+      "salesName": "더 뉴 스타리아 Electric",
+      "category": "E",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-staria-electric/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "US4EV"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "US4EV",
+          "year": "2027",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4EV/2027/ko_KR"
+        }
+      ],
+      "salesImageYearHint": null,
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "US40",
+      "salesName": "더 뉴 스타리아 라운지 Electric",
+      "category": "E",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-staria-lounge-electric/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "US4EV"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "US4EV",
+          "year": "2027",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4EV/2027/ko_KR"
+        }
+      ],
+      "salesImageYearHint": null,
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "US41",
+      "salesName": "더 뉴 스타리아 리무진 Electric",
+      "category": "E",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-staria-limousine-electric/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "US4EV",
+        "US4SV"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "US4EV",
+          "year": "2027",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4EV/2027/ko_KR"
+        },
+        {
+          "modelCode": "US4SV",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4SV/2026/ko_KR"
+        }
+      ],
+      "salesImageYearHint": null,
+      "status": "family_manual_acquired_equipment_review_required",
+      "variantGap": "Special/taxi/mobility equipment cannot be assumed covered by family or older special manual; dedicated applicability review required."
+    },
+    {
+      "salesCode": "ME02",
+      "salesName": "아이오닉 9",
+      "category": "E",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/ioniq9/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "ME"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "ME",
+          "year": "2027",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/ME/2027/ko_KR"
+        }
+      ],
+      "salesImageYearHint": "2027",
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "CE03",
+      "salesName": "더 뉴 아이오닉 6",
+      "category": "E",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-ioniq6/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "CE1"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "CE1",
+          "year": "2025",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/CE1/2025/ko_KR"
+        }
+      ],
+      "salesImageYearHint": null,
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "M579",
+      "salesName": "포터 II Electric",
+      "category": "E",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/porter2-electric/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "HREV"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "HREV",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/HREV/2026/ko_KR"
+        }
+      ],
+      "salesImageYearHint": "2026",
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "M5A0",
+      "salesName": "포터 II Electric 특장차",
+      "category": "E",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/porter2-electric-special/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "HREV",
+        "HRSV"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "HREV",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/HREV/2026/ko_KR"
+        },
+        {
+          "modelCode": "HRSV",
+          "year": "2025",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/HRSV/2025/ko_KR"
+        }
+      ],
+      "salesImageYearHint": null,
+      "status": "family_manual_acquired_equipment_review_required",
+      "variantGap": "Special/taxi/mobility equipment cannot be assumed covered by family or older special manual; dedicated applicability review required."
+    },
+    {
+      "salesCode": "AX07",
+      "salesName": "2027 캐스퍼 일렉트릭",
+      "category": "E",
+      "modelURL": "https://casper.hyundai.com/vehicles/electric/highlight",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "AXEV"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "AXEV",
+          "year": "2027",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/AXEV/2027/ko_KR"
+        }
+      ],
+      "salesImageYearHint": null,
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "CE05",
+      "salesName": "아이오닉 6 N",
+      "category": "N",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/ioniq6-n/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "CE1N"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "CE1N",
+          "year": "2025",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/CE1N/2025/ko_KR"
+        }
+      ],
+      "salesImageYearHint": null,
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "NE08",
+      "salesName": "아이오닉 5 N",
+      "category": "N",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/ioniq5-n/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "NE1N"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "NE1N",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/NE1N/2026/ko_KR"
+        }
+      ],
+      "salesImageYearHint": "2026",
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "CN26",
+      "salesName": "아반떼 N ",
+      "category": "N",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/avante-n/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "CN7N"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "CN7N",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/CN7N/2026/ko_KR"
+        }
+      ],
+      "salesImageYearHint": "2026",
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "DN26",
+      "salesName": "쏘나타 디 엣지",
+      "category": "P",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/sonata-the-edge/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "DN8"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "DN8",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/DN8/2026/ko_KR"
+        }
+      ],
+      "salesImageYearHint": "2027",
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "DN27",
+      "salesName": "쏘나타 디 엣지 Hybrid",
+      "category": "P",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/sonata-the-edge-hybrid/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "DN8HEV"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "DN8HEV",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/DN8HEV/2026/ko_KR"
+        }
+      ],
+      "salesImageYearHint": "2027",
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "FN01",
+      "salesName": "디 올 뉴 아반떼",
+      "category": "P",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-all-new-avante/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "CN8"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "CN8",
+          "year": "2027",
+          "status": "web_acquired",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_webhelp/CN8/2027/ko_KR/index.html"
+        }
+      ],
+      "salesImageYearHint": null,
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "FN02",
+      "salesName": "디 올 뉴 아반떼 Hybrid",
+      "category": "P",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-all-new-avante-hybrid/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "CN8KH"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "CN8KH",
+          "year": "2027",
+          "status": "web_acquired",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_webhelp/CN8KH/2027/ko_KR/index.html"
+        }
+      ],
+      "salesImageYearHint": null,
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "GN11",
+      "salesName": "더 뉴 그랜저",
+      "category": "P",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-grandeur/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "GN7"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "GN7",
+          "year": "2027",
+          "status": "web_acquired",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_webhelp/GN7/2027/ko_KR/index.html"
+        }
+      ],
+      "salesImageYearHint": null,
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "GN12",
+      "salesName": "더 뉴 그랜저 Hybrid",
+      "category": "P",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-grandeur-hybrid/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "GN7HEV"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "GN7HEV",
+          "year": "2027",
+          "status": "web_acquired",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_webhelp/GN7HEV/2027/ko_KR/index.html"
+        }
+      ],
+      "salesImageYearHint": null,
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "GX01",
+      "salesName": "디 올 뉴 투싼",
+      "category": "R",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-all-new-tucson/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "NX5"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "NX5",
+          "year": "2027",
+          "status": "web_acquired",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_webhelp/NX5/2027/ko_KR/index.html"
+        }
+      ],
+      "salesImageYearHint": null,
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "GX02",
+      "salesName": "디 올 뉴 투싼 Hybrid",
+      "category": "R",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-all-new-tucson-hybrid/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "NX5KP"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "NX5KP",
+          "year": "2027",
+          "status": "web_acquired",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_webhelp/NX5KP/2027/ko_KR/index.html"
+        }
+      ],
+      "salesImageYearHint": null,
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "FX03",
+      "salesName": "팰리세이드",
+      "category": "R",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/palisade/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "LX3"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "LX3",
+          "year": "2027",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/LX3/2027/ko_KR"
+        }
+      ],
+      "salesImageYearHint": "2027",
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "FX04",
+      "salesName": "팰리세이드 Hybrid",
+      "category": "R",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/palisade-hybrid/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "LX3HEV"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "LX3HEV",
+          "year": "2027",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/LX3HEV/2027/ko_KR"
+        }
+      ],
+      "salesImageYearHint": "2027",
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "QX07",
+      "salesName": "베뉴",
+      "category": "R",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/venue/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "QX"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "QX",
+          "year": "2027",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/QX/2027/ko_KR"
+        }
+      ],
+      "salesImageYearHint": "2027",
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "SX19",
+      "salesName": "코나",
+      "category": "R",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/kona/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "SX2"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "SX2",
+          "year": "2027",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/SX2/2027/ko_KR"
+        }
+      ],
+      "salesImageYearHint": "2027",
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "SX20",
+      "salesName": "코나 Hybrid",
+      "category": "R",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/kona-hybrid/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "SX2HEV"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "SX2HEV",
+          "year": "2027",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/SX2HEV/2027/ko_KR"
+        }
+      ],
+      "salesImageYearHint": "2027",
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "MX07",
+      "salesName": "싼타페",
+      "category": "R",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/santafe/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "MX5"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "MX5",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/MX5/2026/ko_KR"
+        }
+      ],
+      "salesImageYearHint": "2026",
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "MX08",
+      "salesName": "싼타페 Hybrid",
+      "category": "R",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/santafe-hybrid/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "MX5HEV"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "MX5HEV",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/MX5HEV/2026/ko_KR"
+        }
+      ],
+      "salesImageYearHint": "2026",
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "AX08",
+      "salesName": "2027 캐스퍼",
+      "category": "R",
+      "modelURL": "https://casper.hyundai.com/vehicles/highlight",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "AX"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "AX",
+          "year": "2027",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/AX/2027/ko_KR"
+        }
+      ],
+      "salesImageYearHint": "2026",
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "US46",
+      "salesName": "더 뉴 스타리아 리무진 Hybrid",
+      "category": "S",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-staria-limousine-hybrid/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "US4HEV",
+        "US4SV"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "US4SV",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4SV/2026/ko_KR"
+        },
+        {
+          "modelCode": "US4HEV",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4HEV/2026/ko_KR"
+        }
+      ],
+      "salesImageYearHint": null,
+      "status": "family_manual_acquired_equipment_review_required",
+      "variantGap": "Special/taxi/mobility equipment cannot be assumed covered by family or older special manual; dedicated applicability review required."
+    },
+    {
+      "salesCode": "US36",
+      "salesName": "더 뉴 스타리아 킨더",
+      "category": "S",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-staria-kinder/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "US4",
+        "US4SV"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "US4SV",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4SV/2026/ko_KR"
+        },
+        {
+          "modelCode": "US4",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4/2026/ko_KR"
+        }
+      ],
+      "salesImageYearHint": "2027",
+      "status": "family_manual_acquired_equipment_review_required",
+      "variantGap": "Special/taxi/mobility equipment cannot be assumed covered by family or older special manual; dedicated applicability review required."
+    },
+    {
+      "salesCode": "US45",
+      "salesName": "더 뉴 스타리아 킨더 Hybrid",
+      "category": "S",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-staria-kinder-hybrid/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "US4HEV",
+        "US4SV"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "US4SV",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4SV/2026/ko_KR"
+        },
+        {
+          "modelCode": "US4HEV",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4HEV/2026/ko_KR"
+        }
+      ],
+      "salesImageYearHint": "2027",
+      "status": "family_manual_acquired_equipment_review_required",
+      "variantGap": "Special/taxi/mobility equipment cannot be assumed covered by family or older special manual; dedicated applicability review required."
+    },
+    {
+      "salesCode": "US31",
+      "salesName": "더 뉴 스타리아 라운지",
+      "category": "S",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-staria-lounge/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "US4"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "US4",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4/2026/ko_KR"
+        }
+      ],
+      "salesImageYearHint": null,
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "US34",
+      "salesName": "더 뉴 스타리아 라운지 Hybrid",
+      "category": "S",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-staria-lounge-hybrid/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "US4HEV"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "US4HEV",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4HEV/2026/ko_KR"
+        }
+      ],
+      "salesImageYearHint": null,
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "US30",
+      "salesName": "더 뉴 스타리아",
+      "category": "S",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-staria/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "US4"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "US4",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4/2026/ko_KR"
+        }
+      ],
+      "salesImageYearHint": null,
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "US33",
+      "salesName": "더 뉴 스타리아 Hybrid",
+      "category": "S",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-staria-hybrid/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "US4HEV"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "US4HEV",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4HEV/2026/ko_KR"
+        }
+      ],
+      "salesImageYearHint": null,
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "GN13",
+      "salesName": "더 뉴 그랜저 택시",
+      "category": "L",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-grandeur-taxi/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "GN7"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "GN7",
+          "year": "2027",
+          "status": "web_acquired",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_webhelp/GN7/2027/ko_KR/index.html"
+        }
+      ],
+      "salesImageYearHint": null,
+      "status": "family_manual_acquired_equipment_review_required",
+      "variantGap": "Special/taxi/mobility equipment cannot be assumed covered by family or older special manual; dedicated applicability review required."
+    },
+    {
+      "salesCode": "US32",
+      "salesName": "더 뉴 스타리아 라운지 모빌리티",
+      "category": "L",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-staria-lounge-mobility/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "US4"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "US4",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4/2026/ko_KR"
+        }
+      ],
+      "salesImageYearHint": null,
+      "status": "family_manual_acquired_equipment_review_required",
+      "variantGap": "Special/taxi/mobility equipment cannot be assumed covered by family or older special manual; dedicated applicability review required."
+    },
+    {
+      "salesCode": "US35",
+      "salesName": "더 뉴 스타리아 라운지 모빌리티 Hybrid",
+      "category": "L",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/the-new-staria-lounge-mobility-hybrid/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "US4HEV"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "US4HEV",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4HEV/2026/ko_KR"
+        }
+      ],
+      "salesImageYearHint": null,
+      "status": "family_manual_acquired_equipment_review_required",
+      "variantGap": "Special/taxi/mobility equipment cannot be assumed covered by family or older special manual; dedicated applicability review required."
+    },
+    {
+      "salesCode": "TX02",
+      "salesName": "쏘나타 택시",
+      "category": "L",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/sonata-taxi/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "DN8c"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "DN8c",
+          "year": "2025",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/DN8c/2025/ko_KR"
+        }
+      ],
+      "salesImageYearHint": "2025",
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "M578",
+      "salesName": "포터 II",
+      "category": "L",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/porter2/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "HR"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "HR",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/HR/2026/ko_KR"
+        }
+      ],
+      "salesImageYearHint": "2026",
+      "status": "family_manual_acquired_equipment_review_required"
+    },
+    {
+      "salesCode": "M5A4",
+      "salesName": "포터 II 특장차",
+      "category": "L",
+      "modelURL": "https://www.hyundai.com/kr/ko/e/vehicles/porter2-special/intro",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [
+        "HRSV",
+        "HR"
+      ],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [
+        {
+          "modelCode": "HR",
+          "year": "2026",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/HR/2026/ko_KR"
+        },
+        {
+          "modelCode": "HRSV",
+          "year": "2025",
+          "status": "downloaded",
+          "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/HRSV/2025/ko_KR"
+        }
+      ],
+      "salesImageYearHint": null,
+      "status": "family_manual_acquired_equipment_review_required",
+      "variantGap": "Special/taxi/mobility equipment cannot be assumed covered by family or older special manual; dedicated applicability review required."
+    },
+    {
+      "salesCode": "WQ01",
+      "salesName": "더 뉴 마이티",
+      "category": "T",
+      "modelURL": "/kr/ko/c/products/truck/mighty",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [],
+      "salesImageYearHint": null,
+      "status": "excluded_bus_heavy_truck"
+    },
+    {
+      "salesCode": "QV01",
+      "salesName": "더 뉴 파비스",
+      "category": "T",
+      "modelURL": "/kr/ko/c/products/truck/pavise",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [],
+      "salesImageYearHint": null,
+      "status": "excluded_bus_heavy_truck"
+    },
+    {
+      "salesCode": "ZA01",
+      "salesName": "뉴파워트럭",
+      "category": "T",
+      "modelURL": "/kr/ko/c/products/truck/new-power-truck",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [],
+      "salesImageYearHint": null,
+      "status": "excluded_bus_heavy_truck"
+    },
+    {
+      "salesCode": "ZC01",
+      "salesName": "더 뉴 엑시언트",
+      "category": "T",
+      "modelURL": "/kr/ko/c/products/truck/xcient",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [],
+      "salesImageYearHint": null,
+      "status": "excluded_bus_heavy_truck"
+    },
+    {
+      "salesCode": "ZC02",
+      "salesName": "더 뉴 엑시언트 수소전기트럭",
+      "category": "T",
+      "modelURL": "/kr/ko/c/products/truck/xcient-fuel-cell",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "N",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [],
+      "salesImageYearHint": null,
+      "status": "excluded_bus_heavy_truck"
+    },
+    {
+      "salesCode": "LU01",
+      "salesName": "쏠라티",
+      "category": "B",
+      "modelURL": "/kr/ko/c/products/bus/solati",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [],
+      "salesImageYearHint": null,
+      "status": "excluded_bus_heavy_truck"
+    },
+    {
+      "salesCode": "LC01",
+      "salesName": "카운티",
+      "category": "B",
+      "modelURL": "/kr/ko/c/products/bus/county",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "Y",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [],
+      "salesImageYearHint": "2027",
+      "status": "excluded_bus_heavy_truck"
+    },
+    {
+      "salesCode": "LC02",
+      "salesName": "카운티 일렉트릭",
+      "category": "B",
+      "modelURL": "/kr/ko/c/products/bus/county-electric",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "N",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [],
+      "salesImageYearHint": "2024",
+      "status": "excluded_bus_heavy_truck"
+    },
+    {
+      "salesCode": "LW01",
+      "salesName": "일렉시티 타운",
+      "category": "B",
+      "modelURL": "/kr/ko/c/products/bus/elec-city-town",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "N",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [],
+      "salesImageYearHint": null,
+      "status": "excluded_bus_heavy_truck"
+    },
+    {
+      "salesCode": "LF01",
+      "salesName": "뉴 슈퍼에어로시티",
+      "category": "B",
+      "modelURL": "/kr/ko/c/products/bus/super-aero-city",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "N",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [],
+      "salesImageYearHint": "2027",
+      "status": "excluded_bus_heavy_truck"
+    },
+    {
+      "salesCode": "LT01",
+      "salesName": "일렉시티",
+      "category": "B",
+      "modelURL": "/kr/ko/c/products/bus/elec-city",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "N",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [],
+      "salesImageYearHint": "2027",
+      "status": "excluded_bus_heavy_truck"
+    },
+    {
+      "salesCode": "LT02",
+      "salesName": "일렉시티 수소전기버스",
+      "category": "B",
+      "modelURL": "/kr/ko/c/products/bus/elec-city-fuel-cell",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "N",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [],
+      "salesImageYearHint": "2027",
+      "status": "excluded_bus_heavy_truck"
+    },
+    {
+      "salesCode": "LT03",
+      "salesName": "일렉시티 이층버스",
+      "category": "B",
+      "modelURL": "/kr/ko/c/products/bus/elec-city-double-decker",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "N",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [],
+      "salesImageYearHint": "2027",
+      "status": "excluded_bus_heavy_truck"
+    },
+    {
+      "salesCode": "LR01",
+      "salesName": "유니버스",
+      "category": "B",
+      "modelURL": "/kr/ko/c/products/bus/universe",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "N",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [],
+      "salesImageYearHint": null,
+      "status": "excluded_bus_heavy_truck"
+    },
+    {
+      "salesCode": "LR03",
+      "salesName": "유니버스 수소전기버스",
+      "category": "B",
+      "modelURL": "/kr/ko/c/products/bus/universe-fuel-cell",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "N",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [],
+      "salesImageYearHint": null,
+      "status": "excluded_bus_heavy_truck"
+    },
+    {
+      "salesCode": "LR02",
+      "salesName": "유니버스 모바일 오피스",
+      "category": "B",
+      "modelURL": "/kr/ko/c/products/bus/universe-mobile-office",
+      "sourceURL": "https://www.hyundai.com/kr/ko/e/api/common/gnb/menus/M?siteType=H&imageSectionCode=01&includeModelYn=Y",
+      "catalogModelCodes": [],
+      "currentOfficialListingVerified": true,
+      "customerPurchaseConsultationPossible": "N",
+      "equipmentApplicabilityReviewed": false,
+      "manualReferences": [],
+      "salesImageYearHint": null,
+      "status": "excluded_bus_heavy_truck"
+    }
+  ]
+}

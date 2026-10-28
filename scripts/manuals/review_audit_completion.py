@@ -1,0 +1,19 @@
+"""Scope completion is distinct from vehicle applicability and runtime approval."""
+import json,hashlib
+from pathlib import Path
+from urllib.parse import urljoin,urlparse
+from bs4 import BeautifulSoup
+ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'data/manual-review/2026-10-28';RAW=ROOT/'.local/manual-review/2026-10-28/audit/kia-adas'
+def read(p):return json.loads(p.read_text(encoding='utf8'))
+lighting=[];es=read(RAW/'manifest.json')
+for did in ['kia_PU_2026','kia_PUEV_2026']:
+ e=next(x for x in es if x['documentId']==did);s=BeautifulSoup((ROOT/e['localPath']).read_bytes(),'lxml');a=next(a for a in s.select('li a[href]') if a.get_text(' ',strip=True)=='조명');url=urljoin(e['sourceURL'],a['href']);p=RAW/did/urlparse(url).path.rsplit('/',1)[-1];raw=p.read_bytes();s=BeautifulSoup(raw,'lxml');titles=[a.get_text(' ',strip=True) for a in s.select('.topic-contents.main-page a[href]')]
+ lighting.append(dict(documentId=did,sourceURL=url,sourceSha256=hashlib.sha256(raw).hexdigest(),reviewStatus='REVIEWED_MANUAL_SECTION_NOT_PRESENT',reviewNote='조명 본문 하위 목차에는 HBA/IFS 항목이 없음을 직접 확인했다. 실제 판매 차량의 사양 부재나 제조사 전체 미공개를 확정하지 않는다.',tocTitles=titles,reviewer='AI',runtimeApproved=False))
+(OUT/'audit-lighting-applicability.json').write_text(json.dumps(dict(records=lighting,runtimeApproved=False),ensure_ascii=False,indent=2),encoding='utf8')
+groups=[dict(name='hyundai_web_7',artifact='hyundai-web-coverage.json',sourceReadingComplete=True,denominator=dict(documents=7,sections=92,responseSections=71,contextSections=21,rules=311),scope='웹 경고/메시지와 확보된 연결 응급 대처 본문; 실행형 구조화·전체 일반 ADAS 성능 도해는 별도'),dict(name='hyundai_pdf_adas_24',artifact='audit-hyundai-adas-review.json',sourceReadingComplete=True,denominator=dict(documents=24,faultObstructionSections=323,linkedContextSections=84,uniqueTextUnits=2088),scope='기본 PDF ADAS 고장·가림·센서 관리 필수 문맥. HR/HREV 2문서는 hyundai-legacy-adas-review.json으로 별도 결합'),dict(name='hyundai_special_2',artifact='audit-hyundai-special-rules.json',sourceReadingComplete=True,denominator=dict(documents=2,rules=27,visualPages=6),scope='특장 설명서에 식별된 고장표·경보표와 연결 비상 절차. 장비별 제작사 별도 설명서·전체 배선/정기정비 제외'),dict(name='kia_adas_28',artifact='audit-kia-adas-review.json',sourceReadingComplete=True,denominator=dict(documents=28,baseSections=1495,additionalSections=431,distinctURLs=1629,uniqueTextUnits=2458),scope='ADAS 고장·가림·센서 취급·복구와 조명 HBA/IFS 및 구형 PU 제목 밖 고장 본문'),dict(name='carnival_hi_limousine_2025',artifact='audit-supplement-rules.json',sourceReadingComplete=True,denominator=dict(scanPages=53,visualPages=14,rules=9),scope='2025 하이리무진 보충 설명서의 식별된 고장·비상 항목. 정확한 2025 기본 KA4/KA4KH 자료는 기아 인라인 검토에 통합'),dict(name='gt_pv5_selected_equipment',artifact='audit-variant-rules.json',sourceReadingComplete=True,denominator=dict(rules=9),scope='GT ECS/e-LSD 및 PV5 오픈베드/프라임/WAV의 확인된 경고·제한. 모든 판매 변형의 장비 매뉴얼 확보를 뜻하지 않음')]
+for g in groups:g['runtimeApproved']=False
+obj=dict(groups=groups,sourceReadingCompleteWithinListedScopes=True,fullVehicleApplicabilityApproved=False,runtimeApproved=False,reviewer='AI',unresolvedApplicabilityArtifact='audit-variant-applicability.json',sourceHoldArtifacts=['audit-source-anomalies.json','audit-kia-spotcheck.json','audit-kia-adas-review.json'],validationArtifact='audit-adas-validation.json',remainingWorkOutsideSourceReading=['판매 사양·연식·장비 컨트롤러와 기본/특장 매뉴얼의 정확 적용성 확정','95 SDK 타입과 실제 차량 경고/조건/동작의 실행 매핑','원문 모순의 제조사 확인과 전문가 승인','실차 또는 승인된 시뮬레이터에서 안전한 앱 동작 검증'])
+(OUT/'audit-completion.json').write_text(json.dumps(obj,ensure_ascii=False,indent=2),encoding='utf8')
+for name in ['audit-hyundai-adas-review.json','hyundai-web-coverage.json','audit-hyundai-special-rules.json']:
+ d=read(OUT/name);d['sourceReadingCompleteWithinStatedScope']=True;d['expertApproved']=False;(OUT/name).write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding='utf8')
+print('completion groups',len(groups))

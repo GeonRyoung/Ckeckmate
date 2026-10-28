@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "scope": "structure/denominator audit; not automotive expert approval",
+  "runtimeApproved": false,
+  "findings": [
+    {
+      "check": "own_review_records_have_sources_and_no_runtime_approval",
+      "passed": true,
+      "records": 356
+    },
+    {
+      "check": "sdk_taxonomy_denominator",
+      "passed": true,
+      "types": 95,
+      "vehicleMappingsApproved": 0
+    },
+    {
+      "check": "hyundai_web_sections",
+      "counts": {
+        "REVIEWED_CONTEXT_NO_COUNTERMEASURE": 21,
+        "SOURCE_REVIEWED": 71
+      },
+      "fullyExecutable": false
+    },
+    {
+      "check": "kia_no_runtime_or_expert_approval",
+      "passed": true,
+      "snapshotRecords": 1028,
+      "sourceMeaningReviewIsNotCrossReferenceCompletion": true,
+      "snapshotHash": "1890bf78298b4a343adc784787c30c5dfcd54b865edac3aab9c855b40f572d8a"
+    }
+  ]
+}

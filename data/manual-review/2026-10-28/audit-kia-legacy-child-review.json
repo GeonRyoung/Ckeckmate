@@ -1,0 +1,1894 @@
+{
+  "reviewerType": "AI_NOT_EXPERT_APPROVAL",
+  "runtimeApproved": false,
+  "queueRange": [
+    0,
+    56
+  ],
+  "assignedURLs": 57,
+  "readUniqueUnits": 468,
+  "additionalRequiredURLs": 2,
+  "sourceReadingComplete": true,
+  "rows": [
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_2_1.html",
+      "label": "교차로나 건널목에서 시동이 꺼진 경우",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "3a69649cd650917fa4d82d84c5255cd50da7f2f8757fca374d58399d912c47ed",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\NQ5KH-2026-chapter7_2_1.html",
+      "queueIndex": 0,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_2_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "b668ef4ddf05253d38bb4fd9e61b459211ae0aff16ca1e8cb8ea271c7d979e78",
+        "a4a801d526fb251193b08479970c3ea99a127e018341aa39892512ee4cc5b044",
+        "6eb78ed7128c8166a0ab58dbbeebd16d5037bff16ab819808b6aaa90a073ded8",
+        "ef045c369e52f84ad9dd514fca0147c836087d008fc2dec6e2e31396e2f56119",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "cc4be048002dac736978bc1d1c283259aa8f11d98a9e7c44ba976b576b90a8fd"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_2_2.html",
+      "label": "주행 중 펑크가 나면",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "a7f2512c9459cacfa7874fe607f0aafea46eee6cb478cbfe4f3f8ed2f551b8dc",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\NQ5KH-2026-chapter7_2_2.html",
+      "queueIndex": 1,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_2_2.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "a4a801d526fb251193b08479970c3ea99a127e018341aa39892512ee4cc5b044",
+        "14211dcbb2e8f8fbd634e191d2a63bacffdfc3657735039905015e046a0e461d",
+        "258d89995fc62c6989df63fd4fb7404e07da617780714bc2ae5ba2d875742d6c",
+        "fa10c97b986f04e935a5d6f22f2f11c1659db0a66159a60122f28e47dc85ce36",
+        "8b82ca4e85e48307a26cb3bad87aae4d4ed6e54fdb706b78f2d69ef824ad85e0",
+        "87946c334e4ae4a537292472a1e4f94657130a6abb85dc56c87428a528dbc9c4",
+        "e87a821aad6ced775fdcb603138ab1eb0410e1adba999099112d587d022264a7",
+        "74fecec43209b6a2dac7f8d8057c41c2d7bab5408cf5bb22fcd7e57550789243",
+        "174a0187a4bd75941899249e0829d4330712a90f8888632de9da7b7e6a4ebf9f"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_2_3.html",
+      "label": "주행 중 시동이 꺼진 경우",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "3ca4149e76e93fe134c4df98b446356c178ff286338c13e1f9f16bdf6e37246d",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\NQ5KH-2026-chapter7_2_3.html",
+      "queueIndex": 2,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_2_3.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "a4a801d526fb251193b08479970c3ea99a127e018341aa39892512ee4cc5b044",
+        "48386387a054e6a5288c3ee663139daf8bf6b2daa041e56c5143031b181238a4",
+        "acee7f36362e5e98b446df99fa450231cadfdaeecfcc14655573555506ad014b",
+        "c5b0a95737ad3437b60834a9eecea960d5d13ce34411c65e683fff1ab9c61e7b"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_2_4.html",
+      "label": "브레이크 제동력이 좋지 않을 경우",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "72be2447db4ebd31b0a9554c3ecd5fec9e09aa689e8c0616ccc1eaed40d4415c",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\NQ5KH-2026-chapter7_2_4.html",
+      "queueIndex": 3,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_2_4.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "a4a801d526fb251193b08479970c3ea99a127e018341aa39892512ee4cc5b044",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "58f3ebc3f8e73d4d4a30408941939123eb309149cfe73c415a07cbcd6f544bca",
+        "6d5fb626dffbc8ec23bc243cadd18049ef569108ee4c816e0b5b6cad6d926458",
+        "69666fcc5e60fc62573fdeadee2a2353cfc27fa020da7f612a8cb6ee0f453ba8",
+        "bb89149f95ad26bed7cd7463870075dee9197a3332631900103845dde4de7755"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_2_6.html",
+      "label": "안전 삼각대(고장 자동차 정지표지판)",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "b9577df7327cf8e4a7f3a13b27a4952cb8ac771723e102188ee65ca1bc316d3b",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\NQ5KH-2026-chapter7_2_6.html",
+      "queueIndex": 4,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_2_6.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "a25d823e868a3fece571f87d1614feaa4e3a04938f401ddda9f3186a303bc49a",
+        "e7b02b78fca48ebc6a905d94fbb5f500453edd33fd292a57cde525377171dceb",
+        "519bb7a3aa146d0b65ac2c56d15dbf3f4c4eeeb1c7f9474109d69b234ac23f0e",
+        "bfa161883dfcf3b0d2c6e0858de2da4c0c4f161163582352549476d315840e6a",
+        "0daae703e3ec6f8a64426dab0eaff7ba3663cfc3902dc08729e0fb384557298d",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "73673cf5f78288bde81df518fe6fe898d7d50962d50720fbd5b138ea3f9605dc"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_5_1.html",
+      "label": "타이어 공기압 확인",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_5.html"
+      ],
+      "sourceSha256": "c30fcb485b25839f76b1097a30c8c3f966bf3c218c16ac678559f9371cbcb238",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\NQ5KH-2026-chapter7_5_1.html",
+      "queueIndex": 5,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_5_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "a4a801d526fb251193b08479970c3ea99a127e018341aa39892512ee4cc5b044",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "e87a821aad6ced775fdcb603138ab1eb0410e1adba999099112d587d022264a7",
+        "74fecec43209b6a2dac7f8d8057c41c2d7bab5408cf5bb22fcd7e57550789243",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "d6e5a83e43286ad3f4085dadfd370d1c00630bbb89953f1111410b7875b6352d",
+        "d4575ec2150c9ba536d0e6ae5eb2a6d52dcbf1a8c54bedd2f952fde5294b7396",
+        "9837a0ee0bc9a2e007f9879b8d3a7c49b3e8eabccb75bd21bd6a1ad97c4ef69e",
+        "a99f1ddc409fa8a7d1f8f31cd9894fcf2b4072734f1d6f9172f7c76d1e2ed377",
+        "acc990073ee9dc4142b45af928a363cca65c050a94c2f6054ebcbc1c59eed525",
+        "83d01f6fc0d7aeed0033a7c0fbd3c531d0409815729d6a9d6ff7092b727e186b",
+        "615bd297b02d7e91dad1c0f8c4a2905f92716c087404c84f1e43c95bb932df89",
+        "4ab6231414ed81dc3ec12656a320e02ce022340fe0ac9453af56fdd8884f2b4f",
+        "801f9805b6ce089de18b3f51e244ebf596e7df31270ed6b4952be0fec738b48f",
+        "4c3cd394851d62954bd40fb36896365239af1d088197cdf32d3afd8c50d28fa5",
+        "7f5f93615a66acfd002f036034e977137320eb25b62d309026d8d61e7bee8885",
+        "470ae4e42a163c865faece7be4392751b2052d80e5ab797d8d04be270200b8b8",
+        "dab0912489943a13debceeb927315e1210a2d4fd09a710f0afc17236bb6f7581",
+        "0caf93c9e8679be6788087fbe1204b23cae00d87bdc054695ac6052faabc42e3",
+        "f11427dbd7bf8758369429118eba3f14eefe70e206d788472edc466e6a49f4fe",
+        "0153cd6fb04fc27e1a76de25ec84612ab56daedf26019e4f5477832479142328",
+        "68ee020c7827071c2377ad086f966a235d9c502b1b57cbaf4fb9f8d03694ef01",
+        "27496e18d955c27c274d2f258e0db05b356ec1f0ca241fb86ed1ee4a909c0319",
+        "f8e56b7a679f7a443144783f78e5864882fff2bb945505702f713c417aa1a23d",
+        "eb3d3789615df1935c280d43ca805b61f8eef526d40a2b0aa6b77b5146895c1a",
+        "81f1a11c7a253247c7d2429ac66f46dea94277227d1519ee41724e710f35d839",
+        "93d4b79b0b363f2da2625acb9fd16ea0a5d29da09f192748d147cb3c0d4c14ce",
+        "cd72d25587b6a4e9c044548ffc9b8d7cb68768aa5d5fa87f9b3f50c33d47f3a1",
+        "b9f1e5ab278aa5fdc212238f9098f39f8dab7fc93c32ed1c0f1f46ba8512d504",
+        "78abff607763746fac423c0b279896e1b02729bdb26b2d9579a3a663a91cc5fa",
+        "2975aa1fc02718c4af5779d25a4ad1fad57b24b227dae0907d21dc829c8c0064"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_5_3.html",
+      "label": "타이어 교체 시",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_5.html"
+      ],
+      "sourceSha256": "2769cca57270290b9b9a84aa7cfbf2828a20b468500e5b5cf4ded3a8e0ee29c5",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\NQ5KH-2026-chapter7_5_3.html",
+      "queueIndex": 6,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_5_3.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "d13d2acb419aad5f02a12a3939d7bfec05288e32edcd0072a7dc523c732fb6af",
+        "98e04156e018fe717b3603eee2108d1e6eb9f391ec20057c1f99fad2265e021f",
+        "e6195dd250df9c37a7a096b69cad98ea2ccde884c6d14a22a93ce7ea818f3849",
+        "7638bfae981c9b55ae4e4fc0da88080cf211a87211f049e4f901cc35566a30dd",
+        "33208348fd7f4fff655be4a7a6c952746122e5a3a677720df0b6dc80d96e84c1",
+        "8a44e6e87ca93849eb53b1dc8dd978c6164519bb1351b5c929ebadb90c943037",
+        "cac45fc6d35edd1189f1f9f8ebe2e2fe9c6119432b5fff279eb61b02e372e334",
+        "4e3a77950a2907105ab8cfd8415a9725d76cfc01d556d984964595269a0c36a0",
+        "f90e7df5a85a9b700d4818ff45808f0484053859bb2893889716b9822ff6bc3a",
+        "49ee9cb8b031a407ab31581c304aea67ed71ad66abf9b99e68c94e82e2a2017c",
+        "ac79aed20d4f262f6e2731ad8f868eba7320cc574676d2c65a0a0c687a3392a0",
+        "cf28d84e447b5f026b08ae9b41ae3b1db0e6dd776edc708dd3c3df02c5ab4d04",
+        "9d37545a4494293f9f3eecbe6b5c67161ca05cbd2f727e9986d207d914c6ff74"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_22_1.html",
+      "label": "점화플러그(가솔린 엔진)",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_22.html"
+      ],
+      "sourceSha256": "55cd3d7835cdce3506298b2d625ef2a16f33141ff20aaf232ae0e9331e8f9937",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\NQ5KH-2026-chapter8_22_1.html",
+      "queueIndex": 7,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_22_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "dc3b1f9516e667478a521dc4f3f682d162ffee656fc171ef586684dd9d31fe70",
+        "ba051f3227783d9e05907cb26c31089906affe493987f9b7ccfe104ce1a5463d",
+        "200af2fe1b59041f4c0f3af1b6b48c6eee5756feaf1fedf60e3dd78258ac987d",
+        "a5c0f120e44db9dd7f06985784e71e2fdbfa17086cf44f78bdccdf7dd017fb9b",
+        "9347ae051dbf4f0312d29a12416712b87c616c4ceb637d8bec1689e6a04fab22"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_22_2.html",
+      "label": "에어클리너",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_22.html"
+      ],
+      "sourceSha256": "d662d2410c6ac54d3968b1c38658223dd4c057c5ac48880f67a49c73e5d6ee94",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\NQ5KH-2026-chapter8_22_2.html",
+      "queueIndex": 8,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_22_2.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "5ba25f106ae3f481f3ba0f82d1705d58e41955b53c1ab32f8bb4df11acaaef6a",
+        "a7cd52e59ba9d7efc7cf9a06122eb7ed4f4728b9d7c47c7f92906c371e5c43f2"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_22_3.html",
+      "label": "촉매 변환 장치",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_22.html"
+      ],
+      "sourceSha256": "cca6e7444adf652ca0db4a31457723efe75faf85550a7d37b5bb7ee79dd73350",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\NQ5KH-2026-chapter8_22_3.html",
+      "queueIndex": 9,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_22_3.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "af0a98dbfbc7a23b152be808ffbe519dba50d86c2a6322b3578d11dd96adbbfd",
+        "ac2040ae369b0509b6b58ca338637bad3254430c7eab2587ecdefef220ccc3ea",
+        "d72c4d6246021085fe46f01e5fa6727d6f8b11264f18583833266ce635a1cf48",
+        "e0d2f05af86eceed017c2e7bda167e16fdd445ab59fc6a0f4474c5ac97048d71",
+        "0b3f4f13543d02b78e91685436ec9e639990da7f6d3e275b5fce396b7f17a57e",
+        "b73e68fca958e0fc86f3c1b43d31016b6fd22c7aab38fcb0cf3f63f1a223a911",
+        "7887ec086b7db98badb2ba5843131b79feef5def72cfd2ecc07f5675a6f3105f",
+        "24862afce70b671cf9a44202d05bb39c55bd05bea5c16271cb6379a38b6b3cc1",
+        "8ad673b44fa4ca1538faebe904d38e9b428f5427753ca07e1c374151cb790569",
+        "f5a8b58126ec432106aa1f58d18bbf4e0d237e2f215f041e771fe36ed6178299",
+        "5cda33167b4e44c44508919727b489e366c4f56076ed20e3553f29b0e9f70160",
+        "b33acabc4cea013695b0fc2986e5a82280b9e85c9a13dc69265fb4f03e6fe832",
+        "df61c0d2e1a3ee036e493b96bba5f5e5bd6d500bf1e95234ee8d8896d96a0a2e",
+        "482c60e73431d6bd3d79a19986b814abdf4cf987cb81c9303e3d998e1099fa7f",
+        "6755cc80a6d0945e1d545deccea53143379e1233ff25962b1cd8d676e2db7785",
+        "be8b29e791965c3cdd8265c6f4daf1d4dd0a98232cff246f24b30917a9de939e",
+        "2e1487998979c0a19fae28728e4b7e4ae58609b0809a17f50994b6fd10062fbf",
+        "bdbda4963bc6484882fd319ba44f681f5ffed1373bc59600a783c78d8da7620a"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_2_1.html",
+      "label": "교차로/건널목에서 시동이 꺼진 경우",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "154226b3df561d970c63358d29a6560315b842f509316b8bc46ae89c50d57004",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\PUEV-2026-chapter7_2_1.html",
+      "queueIndex": 10,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_2_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "cc4be048002dac736978bc1d1c283259aa8f11d98a9e7c44ba976b576b90a8fd",
+        "ad0495d718b620fe46f83145139e0233056505941f9a0422af838ed53046d70c",
+        "66b0b67924a04c1b39060c995e4d579e7210a31e69b7ddae38fc7826e86ba870"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_2_2.html",
+      "label": "주행 중 펑크가 나면",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "c5f1bb89c97dadcfbf2f4065673f2976d53f0e31be81fd43323956e889ab7730",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\PUEV-2026-chapter7_2_2.html",
+      "queueIndex": 11,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_2_2.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "14211dcbb2e8f8fbd634e191d2a63bacffdfc3657735039905015e046a0e461d",
+        "e87a821aad6ced775fdcb603138ab1eb0410e1adba999099112d587d022264a7",
+        "8fdb7d88fce4cca77095c11e94748c0a9eea21e173caba71804d97d09c391c37",
+        "c302105da907146ed7086bc7a4506c3d47403a146447b9cb8f1a40241b3fe1e9",
+        "1090a6e71556555671964ff70f20b11147c04aced677e3fb7e3abfffa73e833b",
+        "9205ba699d0426fb63e96a89405ac25b2ec0c5172d21ae6565f853a81d47331c",
+        "d931121f64e193c7a34f4e7cc0e2b9b8033cb203fdf5440eb4615c590971b936"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_2_3.html",
+      "label": "주행 중 시동이 꺼진 경우",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "97cb891f5ce881ef0528cabbb9bdcb7fd3ceca45cbccc967c3fa2f62139417b4",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\PUEV-2026-chapter7_2_3.html",
+      "queueIndex": 12,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_2_3.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "48386387a054e6a5288c3ee663139daf8bf6b2daa041e56c5143031b181238a4",
+        "4b4f56061794e8e5b3c96165defb8e13a4f514e6b2fa0c080960f144252bd7a6",
+        "d426597ee1a021d5c76c7b9e1e4493d941e480a5ef78ce72f5e0fe6e67bcca51"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_2_4.html",
+      "label": "브레이크 제동력이 좋지 않을 경우",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "eff9b0e128a0bf9367ec0ae0a236cbe7714ac46af625f57fe63ac0cd7c576e93",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\PUEV-2026-chapter7_2_4.html",
+      "queueIndex": 13,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_2_4.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "58f3ebc3f8e73d4d4a30408941939123eb309149cfe73c415a07cbcd6f544bca",
+        "69666fcc5e60fc62573fdeadee2a2353cfc27fa020da7f612a8cb6ee0f453ba8",
+        "dbee874efa9e51b42c9723bbeca4c272001846e9a679fba367cc87b2ba82994f",
+        "5b001575a8d8fc4924022e701fb2e88b1c172ef914c76e5841804060fe17942d"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_2_6.html",
+      "label": "안전삼각대(고장 자동차 정지표지판)",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "31cc32c4fc83302ab191c7ad5b8dde059cb86fefbbdd35036979dea37e035d7b",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\PUEV-2026-chapter7_2_6.html",
+      "queueIndex": 14,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_2_6.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "a25d823e868a3fece571f87d1614feaa4e3a04938f401ddda9f3186a303bc49a",
+        "e7b02b78fca48ebc6a905d94fbb5f500453edd33fd292a57cde525377171dceb",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "73673cf5f78288bde81df518fe6fe898d7d50962d50720fbd5b138ea3f9605dc",
+        "7fcbfc9c91f98543cdfa2e3f346d357f61d1a5fd3f6f1c8df9237852b0145a18",
+        "05a1e4a7c51981a595a40298b021460a34b15172cdbc1d575ab0e5e0170bce5e",
+        "ae41d048a809a4d6baf92202c5a6266263599e808e638d80289b867db4704ac6",
+        "c5289b7255d48bae484325e6e029169ba5e07f99e8a6b1245870b6cd355f120c",
+        "d69900bcf73b7a45426ef6ceb020be09250d76cd6ac14d58d579e67a3ed2ae95"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_2_1.html",
+      "label": "교차로/건널목에서 시동이 꺼진 경우",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "b849b808e993df047af6059a907d45013ab602e90d0883cc06fdf0066749c4fa",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\PU-2026-chapter7_2_1.html",
+      "queueIndex": 15,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_2_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "cc4be048002dac736978bc1d1c283259aa8f11d98a9e7c44ba976b576b90a8fd",
+        "ad0495d718b620fe46f83145139e0233056505941f9a0422af838ed53046d70c",
+        "89c26ea62b3fcc4390dd6a001bb2934b5513f32743eca1e9c3b83a17552e6b27",
+        "6375395c5b680c7026d2fe8e63728956bba00e5e0d99e951e3ce9c3a3982f6d9"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_2_2.html",
+      "label": "주행 중 펑크가 나면",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "d3d3e36da29d187d54c222902604b3281b73ed1ad9ab1dc8a082fbc041e70224",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\PU-2026-chapter7_2_2.html",
+      "queueIndex": 16,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_2_2.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "14211dcbb2e8f8fbd634e191d2a63bacffdfc3657735039905015e046a0e461d",
+        "e87a821aad6ced775fdcb603138ab1eb0410e1adba999099112d587d022264a7",
+        "c302105da907146ed7086bc7a4506c3d47403a146447b9cb8f1a40241b3fe1e9",
+        "1090a6e71556555671964ff70f20b11147c04aced677e3fb7e3abfffa73e833b",
+        "818ee003cb9af48ec97044ef19cd7bab4913c6aba7b52a362abacbe715e3a753",
+        "1eb85661728fe8044ace35c7aae3d720bd6e32a0ae3e8b43fb39c51654654a66",
+        "58bb1c39e18b8cc4b6ab28829080c53141f26d1c028b5d21f78b23cc7af583f8",
+        "d898ac02c59a0997fd45601e27e6bdc7237899641393cfe2f7660939669be863"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_2_3.html",
+      "label": "주행 중 시동이 꺼진 경우",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "bd7af20fe5ea01e52c014a1ea2572f0a499ece3f685aedaa31308145f425f192",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\PU-2026-chapter7_2_3.html",
+      "queueIndex": 17,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_2_3.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "48386387a054e6a5288c3ee663139daf8bf6b2daa041e56c5143031b181238a4",
+        "4b4f56061794e8e5b3c96165defb8e13a4f514e6b2fa0c080960f144252bd7a6",
+        "d426597ee1a021d5c76c7b9e1e4493d941e480a5ef78ce72f5e0fe6e67bcca51"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_2_4.html",
+      "label": "브레이크 제동력이 좋지 않을 경우",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "83c796bb6c2a614f14d6ccdb2e4f87c5cf52338bf1f41f536782aa78d3e9925c",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\PU-2026-chapter7_2_4.html",
+      "queueIndex": 18,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_2_4.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "58f3ebc3f8e73d4d4a30408941939123eb309149cfe73c415a07cbcd6f544bca",
+        "69666fcc5e60fc62573fdeadee2a2353cfc27fa020da7f612a8cb6ee0f453ba8",
+        "bb89149f95ad26bed7cd7463870075dee9197a3332631900103845dde4de7755",
+        "e10f51e3fe7872a4522115da6c63cb0cb37614baaf02266483bb072210238012"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_2_6.html",
+      "label": "안전삼각대(고장 자동차 정지표지판)",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "d9280153ebd6c51689c38f5bbc77011d917fee7033e2d24e26b23b692bd89303",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\PU-2026-chapter7_2_6.html",
+      "queueIndex": 19,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_2_6.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "a25d823e868a3fece571f87d1614feaa4e3a04938f401ddda9f3186a303bc49a",
+        "e7b02b78fca48ebc6a905d94fbb5f500453edd33fd292a57cde525377171dceb",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "05a1e4a7c51981a595a40298b021460a34b15172cdbc1d575ab0e5e0170bce5e",
+        "ae41d048a809a4d6baf92202c5a6266263599e808e638d80289b867db4704ac6",
+        "d69900bcf73b7a45426ef6ceb020be09250d76cd6ac14d58d579e67a3ed2ae95",
+        "b69a2c02fa8b47acd63fe4bbbaca1744bdf3013585d85b624f75ba21089aaf35",
+        "e967b8afbb537069b564de6d83462753a3db560c6ee17d6940dd719eb733dfe8",
+        "2ebc49afae73d15d6991c21bbc65a4bef4a3b5637beaca06905597e3b771b079"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_2_1.html",
+      "label": "교차로/건널목에서 시동이 꺼진 경우",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "e59d4f405451f8754dd96b5bf9f4ad8a27a5bd1604c471ffeb3184a1b3f43ca7",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\RJ-2026-chapter7_2_1.html",
+      "queueIndex": 20,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_2_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "cc4be048002dac736978bc1d1c283259aa8f11d98a9e7c44ba976b576b90a8fd",
+        "ad0495d718b620fe46f83145139e0233056505941f9a0422af838ed53046d70c",
+        "2b96548d768902f551f245c0225dbfd33624ef16c89a00a7fb7c71742d710e2b"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_2_2.html",
+      "label": "주행 중 펑크가 나면",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "1c7cacda32f57c5494bc3a4c1e6ba259b669210b3e604848def313a98d1d4a5a",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\RJ-2026-chapter7_2_2.html",
+      "queueIndex": 21,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_2_2.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "14211dcbb2e8f8fbd634e191d2a63bacffdfc3657735039905015e046a0e461d",
+        "e87a821aad6ced775fdcb603138ab1eb0410e1adba999099112d587d022264a7",
+        "74fecec43209b6a2dac7f8d8057c41c2d7bab5408cf5bb22fcd7e57550789243",
+        "c302105da907146ed7086bc7a4506c3d47403a146447b9cb8f1a40241b3fe1e9",
+        "d931121f64e193c7a34f4e7cc0e2b9b8033cb203fdf5440eb4615c590971b936",
+        "818ee003cb9af48ec97044ef19cd7bab4913c6aba7b52a362abacbe715e3a753",
+        "d9a2cc9cb4949dc0035e57ccb4e1cedb6db275e4a88cfd30273c2118249449bf"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_2_3.html",
+      "label": "주행 중 시동이 꺼진 경우",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "6db0af5a2773bd205c05bda4a75dbed9a6f38fff130566b19de8f1cc7ad1d402",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\RJ-2026-chapter7_2_3.html",
+      "queueIndex": 22,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_2_3.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "48386387a054e6a5288c3ee663139daf8bf6b2daa041e56c5143031b181238a4",
+        "c5b0a95737ad3437b60834a9eecea960d5d13ce34411c65e683fff1ab9c61e7b",
+        "4b4f56061794e8e5b3c96165defb8e13a4f514e6b2fa0c080960f144252bd7a6"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_2_4.html",
+      "label": "브레이크 제동력이 좋지 않을 경우",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "c2d71d9ced00e9ac5f4fc1766d4d47ce57d3523be1affab830ae86aece7e96cc",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\RJ-2026-chapter7_2_4.html",
+      "queueIndex": 23,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_2_4.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "58f3ebc3f8e73d4d4a30408941939123eb309149cfe73c415a07cbcd6f544bca",
+        "69666fcc5e60fc62573fdeadee2a2353cfc27fa020da7f612a8cb6ee0f453ba8",
+        "5b001575a8d8fc4924022e701fb2e88b1c172ef914c76e5841804060fe17942d",
+        "695fa53fe2904ecb96368ba4ecd658f824ef79d85d6de8ac28a2c5760a02e35b"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_2_6.html",
+      "label": "안전삼각대(고장 자동차 정지표지판)",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "2972ad7e91f6a31dc809772e8a3c93f346a81bcbf94227c9cf917177ba9e167c",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\RJ-2026-chapter7_2_6.html",
+      "queueIndex": 24,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_2_6.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "a25d823e868a3fece571f87d1614feaa4e3a04938f401ddda9f3186a303bc49a",
+        "e7b02b78fca48ebc6a905d94fbb5f500453edd33fd292a57cde525377171dceb",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "05a1e4a7c51981a595a40298b021460a34b15172cdbc1d575ab0e5e0170bce5e",
+        "ae41d048a809a4d6baf92202c5a6266263599e808e638d80289b867db4704ac6",
+        "c5289b7255d48bae484325e6e029169ba5e07f99e8a6b1245870b6cd355f120c",
+        "d69900bcf73b7a45426ef6ceb020be09250d76cd6ac14d58d579e67a3ed2ae95",
+        "4107c2d2eed701beed7a4bcdffe6fba58f53600a5df479a18789360e998ee593",
+        "82a8a1fbdf4d08c4d84dd96d450eb6f522daa7ac2ce82603f64a3a912ed34567"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_6_1.html",
+      "label": "견인 트럭으로 견인 시",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_6.html"
+      ],
+      "sourceSha256": "5f6d49861ae6def47b15373bf474b098446988eaac63abd221f70df4b1932824",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\PUEV-2026-chapter7_6_1.html",
+      "queueIndex": 25,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_6_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "a99f1ddc409fa8a7d1f8f31cd9894fcf2b4072734f1d6f9172f7c76d1e2ed377",
+        "0c6f5a8c89fa7c65ff43d138e7ed646b443853741e7c3792e234c6f94b7f2122",
+        "10b47432253e233ecc5be12819c0db616b96d165e4d0e6543ac93c1a1a5571f0",
+        "a1473a66333c4e4085f384b46e5c549bc2102fd9d26ff1fbc9264b5aa05075fa",
+        "0719663a5db9e6ea57105b4c8d7775d7743461b73be2a787beb932192e16da65",
+        "77951c82f1828c57584bc0e2ab956f0cc89bb2aa44be971fda3d27454dddb82b",
+        "d15778095d5aa8ae4feacb34b9027a23ebd83f461815bb5f80bbc474c983cdd7",
+        "ebeada768fb0e562e7be99b70242b6b8ec0668033b922ad718cb288afed23b46"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_6_2.html",
+      "label": "상차 견인이 불가할 때",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_6.html"
+      ],
+      "sourceSha256": "e857d20163ee09dfca21d8408acf6830253f6dfcd8ef73112dc11fef69e1b154",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\PUEV-2026-chapter7_6_2.html",
+      "queueIndex": 26,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_6_2.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "1172fe37731945a3053ee1aeb10b963cb887ef8583f7f4e422d260e69e44a163",
+        "cbe3e78059b8a7a1742ae582225e985515ca582902003a29adeee129b35972af",
+        "d2cb2e9429dd252d5df69572ddb08353c6afd2370a2f5a8212da582a4fc362b5",
+        "424548e1c6cfba35f730d0dcb82dc586c528803a6fa7d0cdb0a0cb1b31135bb0",
+        "8d6afecdcaa3a08c5dfc7691224ee68dcaa32090f6e22da28abd5bc554123f63",
+        "900ab9c81b168edfb10580fa454a7850f1d611afb260512444f62f54f89fa490",
+        "da410a869af47df1149c1fd5beb80d9b44ed62a5eeeefca44b6ef23eab2e960d"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter1_9_1.html",
+      "label": "사고 또는 고장 발생 시",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter1_9.html"
+      ],
+      "sourceSha256": "4dc2167cc638492c4e7321195e0cd6d61aa4adfd468713b3e9dd11f85023fa92",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\PU-2026-chapter1_9_1.html",
+      "queueIndex": 27,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter1_9_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "a5242abe51ba24756f4bf5f1dc7e9d208d6ca523b2cf4b2bd8bdd23833c1d92b",
+        "18cac8f72be20ac273b1949b6dbeb6b149727c4d371ba8d6a90c74abc9bde1b1",
+        "972dad67cd00b82a0fe041df2a825bfd342c19a98af1152f5e2cb332e19ad6df",
+        "cb8741637eb460c14c2eced593ebb04117b73f6b7251b0eb352e344465558cfa",
+        "9ddcd91cb3487ed7db015eb3de33137af4c6576985c387b4609a22454d8d10d0"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter1_10_1.html",
+      "label": "폭설 시 행동 요령",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter1_10.html"
+      ],
+      "sourceSha256": "c4bda72c662d85e0a78f752cb2cb64f5d41daf883b849fb68cf4facad4ed6007",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\PU-2026-chapter1_10_1.html",
+      "queueIndex": 28,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter1_10_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "e6f19ca82717bf8f25324cd448652e4aa43eb2005c2533d796d5856dc24ce846",
+        "93d89dbc6835d48c47c3ba1f57f11e7dcd18573ae856849f3b4323f0cc90c6ff",
+        "91e8f64a96cdb70a9ec4eb83ea5ff0406e9afce71f7959968a43aa58abee3983",
+        "852194a6d2ffd303b051c5ca9c6d584a0e336079851c00ec7ace434c988633c5",
+        "d8ba487317ac4e370c544ff11fee92077c5dfe235d14d8d93e213e278685f7be",
+        "ca6c419327ce5a9d7e624ccac8219f676ea74b4c3cd58c6032ed39a8536aca67",
+        "56efc3d9a1cffd83138c3bfcce5118cf8bf7326c37efdba2c55b5f5d999b957c",
+        "516772db370a69cd145877f0fe98613e16aabb28b77b48e404ac11b7ea264f4b",
+        "6c9db53be31faa0c66e02ad4ba409dafeda29f21616a07b4111cbf629a0bb02a",
+        "febd628ca9ac989de5fa60f789015238e1828deebdf936e3aa2aa31701d14eb1",
+        "8e8e8ffcc53f621c1fdf876c9963746a09089be9ec7bfa7f28ff5eca03053a00",
+        "89768bd16937498ccfbf0d86fc2dfe2b91456925ab9f708bc343b2dd3a46456f",
+        "01952cf687fdd9df42b5f7ff8801a5def721720fc802eb61710c12ad9cd4bf88",
+        "f5adb907232ac1d93327685585b4c2b83961f76ec16178db1d3381a7dc72e607",
+        "54af05f0bfc70fc98db6cc099c21029ea2ae56adcd457af165a11986d1037b70",
+        "48bb8079e7d7cf3011069bc9629a48673828d122111c9dd76911dd8851250e30",
+        "e4e74768c95f57f67baf0d08719cd2c889b14b61e37883815cb2b65e4a360912",
+        "855a6b2d52a107888de2646b3838601acee140ac145848e3ef48c1c68701dae5",
+        "68b1f946e04ea1c9bd0868e3f2038e78275b3ead683ea104d5a6e0508c54c752",
+        "0e12e32bfa98b7f122bffeffc02d38d80f6beee4883d1406a1325cd17f05f947",
+        "e6aa034b2b862a6bfcad7bccc7c7f58e76737589ddb04bd3efe6f99ab1fb1d25",
+        "5fd57fe1fa0f701c92528fc26ce531f3fed53afb6bd03dad5471ae2f7c563b65",
+        "c66e954299562c6844b3f3f75d0014d47e2beb67d0a11f1e6b06eec09ca1f851",
+        "21d8f666c5c6b81dbfe1541843d077fdd1a78e9d543dc1086d502ffd0b0bc7e9",
+        "ef0573d929c9312e343b6da9501e65afde75250454598783c6d1557c09f3cb65",
+        "d1699efedb7d32e669d5fec76919d3d5f16c45d9da170ffae1f76ba0db74408f",
+        "74fd4905d88b958e628bd91f9ec27a773b9b25b870b031232de24a5cb2c504ad",
+        "7f9e7af2377ba4d8cfa9c6a8019b194effe9180b25b07c7ef241b7a9fc1a8188",
+        "505e0ecf95fed5db138c00e3f04dbfe1a5183ff38899e4517c44c941ba2f730f",
+        "e5e44b85a80209646abd5aaa8304e86f2055311df689535a633e64acae58a3cc",
+        "ee67498eb8dd05b0ee6e39da54c48864cf26edec1230b240b4032e504c0a5d61",
+        "efc9c3940668c3b3f0672eccd92aa2321c6dbd5e6d76da064adb4e7878ebe72a",
+        "45704362c32537227d8ff6ea2579c1af1198c63fbbe622393ee5c85a4719abe1",
+        "4bf8a37e96bfdb486bbf80e717d5131e716ad622ee35d29917738b88ea80a3b4",
+        "6334b819340e38c9a6e3f872027cdd9d5e3040e38bad4123a3c49ab4e8a81a68",
+        "21271d90164e7600be197aaf210b71c1338cd6ddfd204080c3c694ebef76a0a1",
+        "9e03e40462617e7f30f854ea53da9572b30a8e33016cd52833f07d85b2ac5626",
+        "74f0739275d68b1863fcfe319fa740082ee35eb9f443677722b4ca4fb3b90575",
+        "bc4fa3d25130fe10a4d133cd36eb044b3a16d79b66385632c8db15ca4a1261cc",
+        "19cbe0af3dd2ba20bbc379ef5650d6532dd130a2d66a991cb3baa1ae432707d8",
+        "d5f55e944f7f679a615cc462c518a73eec979e1bef0e0f89ff9f7fdd473624c0",
+        "f24b898344f6c1ceee71908b9285574faa1e21d3e4b8286636c976e53d147305",
+        "7a414e706f58f221734fd79f2d31ba71350b8d5c75e1e82e13e88d3716850140",
+        "ecc7828cc36193c2c2f336b8d4e94ffe934514ee9e10c9b67d0b9ba8bf325ca0",
+        "916031bae16bb887e933a17cd3e59f2f41752707c41771ac6281a134a9416dc3",
+        "bce6451cee8a732a53b1dead7595ab4660937817680fb9e8c35b954524051d85",
+        "6e61dc98b08418a9cd084f0a388b11eea3be1681e417f7a6111dd66e6e22088f",
+        "1a00d72b7b83d8c8bd41511aee7a190c443262b2eac2f84bbb3b3b263e7c4a5a",
+        "d588b12895c764df11a097a3cd8bb6ac3138076e3c577cb1bd93c45300459514",
+        "f24517b014b23e065852360836e9b1d44c7d76d1d26dcf2cbb3cfa1f8d79731e",
+        "561973d53e5ee92435d67c79cd4f5e8ebc790cb0838109548559d2a68bc47674",
+        "c9e6522f7080acf6755f599aca2f2903efde0c88f29f798e78598d5600def518",
+        "3e03b86cbcb6bf894dae87b780dc06c8737f2074c50fd07c179478bf20fba273",
+        "0987ef83dd6d49abb59c1bff3a4191d3564472cfeec03b13c6c0c139eb724493",
+        "98a6cb2a09f5d403bd9d195c369386e7f6734c0dbb2c0078086a53080ff767ca",
+        "90dd47b35336bba915cc8238326ca57b9a9ba463b6eb015e385cf3dc0a349118",
+        "b3553c61d544432ec9404dcdab52a685f52063c36d2c4ac32928b9639673162e",
+        "1506f9e1f7a6c8d78f2b6fad8aca87649c487e0c933c1e25c97cc3ce6f50f209",
+        "3ce16678466247a2808e08f77148be175ddd88bcfdcfb31405479997c0a129ba",
+        "1a628e6a981a5c3976d7c7faadbb029b51c18a767e3a575eab6a4ce6025f03d0",
+        "455c3d45594acce583e6b6b0ca6d61b10ba09170f20cc2d9b9d8a823e0cf3b1e",
+        "bf9a9f5e13ed8c7059289c4c52c0126aadb75c7b0560667bf04fd789b33170b0"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_6_1.html",
+      "label": "저압 타이어를 감지하였을 때",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_6.html"
+      ],
+      "sourceSha256": "a89847704220ea715203e3f4f17a4ee412196d08a2f7cffe2716d9da6c35db90",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\PU-2026-chapter7_6_1.html",
+      "queueIndex": 29,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_6_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "e87a821aad6ced775fdcb603138ab1eb0410e1adba999099112d587d022264a7",
+        "74fecec43209b6a2dac7f8d8057c41c2d7bab5408cf5bb22fcd7e57550789243",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "801f9805b6ce089de18b3f51e244ebf596e7df31270ed6b4952be0fec738b48f",
+        "715df96e10b13943b19ed8cb5028ffb371237b5822eb1600ad2547f27023d708",
+        "dad5c66aea82c450746859c6f145894d336c6825aa5dbe8693aac75f99949de7",
+        "deb1a1f71f9ee08d8015deb6f8a11e9654987d6b2a854c115c831d223aac5832",
+        "f3b5bf2d79e6c86303347be1488100bf897bcb12bae531c1d5d972872b6baa9e",
+        "4c785521c3754eff549634fcc0f7ccb2df77b3c8437e68d73148c1b3c3621de5",
+        "f5616953e36f8771d4d3125e2d07eeaf4ec7896406616425037fe4cbb7b47282",
+        "b2e2838891a7e4105ea6f59fe7dc5ee3e4b9fa7dc5c32343617c9c272249a0a3",
+        "ab361d12368ca4ae9a1add525145405a6fa9c1f5e7a38f7a2b1ba8e1dc621e33",
+        "9ec40958b489163099104a1e2080a9ad4cc481ed839c4519ebda88bed929433e",
+        "453e3e90ef791b02e8dc2664039c18897cfe3a71247a423cf771ac1182309590",
+        "11c72979fcfebf11e866045f57e4f7d337ded75f21eaf6c76481d87eb76f0969",
+        "b345084bc02c4f60815463be61075992911966878e7db7d18a0652861daba78f",
+        "519adcf91703873eba5a165b3c7a65d211ceb570c1ab0421b85ce1a6dc72c676",
+        "7159394862aa38c98673822ef4e4b81ce4638e0b773bb1b0e2547196364d0b2d",
+        "955407d8fa0d08cd4cb79ef7bd2e6d523f89ac0f5078193d2754d120505caa93",
+        "1a7967b7812ad62065d9e37889a5885a754560412fc16e62657616bda6defa98",
+        "1a48cbf8e578c81a44adb724d079533edabfe38878f77ae34a63cf53cba9fd88",
+        "838bd5267b788c81f02c03c99f15219e794f6d87a4ac7ccb638603ad99f79104",
+        "67c2205eafb219c11accd68ea83a2a242b75a962221440dd537423c8f97fc356",
+        "d5b2250bb06d0f07b1c23fcbee6897d46a4fb4ab1c941eac399232e7561ad250",
+        "c7162a363d1775b46f9f811b9b730066047b3f205ec8627a79e16f522ce047af"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_6_3.html",
+      "label": "타이어를 교체할 때",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_6.html"
+      ],
+      "sourceSha256": "170fe61b6c40f0b39e6cd1463046b513db70076cc8e0273300a54f5b3b837c00",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\PU-2026-chapter7_6_3.html",
+      "queueIndex": 30,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_6_3.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "7638bfae981c9b55ae4e4fc0da88080cf211a87211f049e4f901cc35566a30dd",
+        "b30a382f286a5e347cdd5c073a00480ad5dadafcf9fb094c37b23f6a6f179a21",
+        "7f5d6564ae16321b2ae2787c0ebf0b734901320e413b1d714d7f120c667d7213",
+        "2275c64bfde2b665eab8b883981804c3242bcf7241e938d1395a307c79eccc41",
+        "024a989201ea40401b3f136012ce3bfba6929baeb380223fac24fb429acb6479",
+        "2a945d4fa2215016425d379741475e9701ac2f298eb9b0d3780c5176b4461a22",
+        "0c50e1a09558eeced0e028464521364086505395d4caa681f61ef7174331748e",
+        "c292d8dfcf3170109450feef1e46d05d2ac3c5d9ad0a393392d66e506ccd9729",
+        "125389885aeee5388b358809945a191c0ce14b530d04953e084a51ac067eb72b",
+        "b7d50cce8eba792ca0f0a73184bbbfc21516c633e7dfd2e6f35ae06419d39a37",
+        "4ac2450feabf5ce1a0b2d65c9342b106bc5d3c440e2a5a83028d53759d0084e4",
+        "ba270b320845749bfd2aa01cce5d64be23eb01b975a98f6e0abe803640f81fd2",
+        "1daa3599527a9b725c888383c8a3124092683484e6098f9dc14699209cab93b1"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter8_5_1.html",
+      "label": "엔진 오일 및 필터 교체",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter8_5.html"
+      ],
+      "sourceSha256": "92f07c3f3c26c17837c83688e92d0597b5afb00614e64e96567abb09fc5c97eb",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\PU-2026-chapter8_5_1.html",
+      "queueIndex": 31,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter8_5_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "a99f1ddc409fa8a7d1f8f31cd9894fcf2b4072734f1d6f9172f7c76d1e2ed377",
+        "42ddd548dadc989739fc3f9f1b0aacdc5f1de04d085f3a31c330f8ac5b825b36",
+        "703f5dc5886279d8ed63be6ee41e407987b4db270f7b6a6c3e3455c13edb48a5",
+        "bcb3db832c34251ec52bea227259aae1dff90009ab206715356cf8eda4225292",
+        "2c0afcbc7564d25a3d52175297a33562f9ee60d57b0aafc2944ac66e0989cc34",
+        "a865a755dca61b0615c59c3aff8912510cda5b7edcd09566a9ae3c22df37b826",
+        "4c25afced7a786fd20bb7fd7d4737358ede8e7a454e40979df4afd843a75eccc",
+        "39c67c3b0c0665479616408e8079a10a73cbc0a6395e331a5bf8dd60e1e42972",
+        "6f55425396f92010c046e90c0163591c907e95a4f6b354e337729e67247a7a82",
+        "9c126bc5b049b290fc881589825e1d5de8b56a6e0fb7ce9e577bee566af4b70b",
+        "f6aa8928f58cea55416547d284ab5e032a91ddab536cf8a36ed5d972fb7c5130",
+        "11a6b8892d3d5cc2a497cd1d7a4a2e6befeb818c3c67b651d992e5e2cc58519c",
+        "deda17623b618d9d1a20601ba934dd7af1ea680250f1fbb0c162e49c559de811",
+        "e65a5b76ef0ad94715a1d4b5c3302877d2d9ab189a810c34d9b52ba0d69c7a91"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_5_1.html",
+      "label": "엔진 과열 시 조치 방법",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_5.html"
+      ],
+      "sourceSha256": "1e7b761156d6437b62fac9bd4739c4c1ec8729ba3cbe8d0bf968e28c4819eaa2",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\PU-2026-chapter7_5_1.html",
+      "queueIndex": 32,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_5_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "e87a821aad6ced775fdcb603138ab1eb0410e1adba999099112d587d022264a7",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "f1d14e8ece58dfacb6e7063e0b52bd20abbab1fa6ca97b7a8b839def8191a4e7",
+        "3f56dd50f7a17f01e9a151fc0a7ad5fb177bac9bd8d0fe47c2aee85522d94a1c",
+        "5b6200b7749d5fd109faf2a42db97bbca2cf76a34a9721396d9accfc0e8e9ef8",
+        "e5fdd45d729829d46a88d0a2f7e3b03d201498ccbada25c006e4156f4809e3b6",
+        "a1d10c572c0bd1c0d44a74ae1a5bb9194242643b0c4aca6da09f9d34f261f213",
+        "ca10deca4e95e4a9b295e52ed47df123ff5ea61d312c936ea234c44faef0f83a",
+        "d051574e86aaf6fdc6f6d524d67259d04a35139f0d695de16dd9729a4f411eed",
+        "8b7b6c647734737a7d5502c7636e14cf52c518351033afed398c3d9fad563268",
+        "2f8beb428c400494f4acdf4b4b7d45a8d02afb496d699e9e5911acd97e08871d",
+        "b381dc46471144bf6140fdcb51546284402008c60a12c5fa22612cdceb318034",
+        "d1863d32e672c8298d6f30403733553178518df8392d54b72af40c8c478801de",
+        "04c734ca0a12d60e68338d34ee363f98c51f33a1fdaf690689f63654e5d5b726",
+        "b527ad65586880662787d0e24dae405a967e2d1e5e71c26573cb827908eb61f8",
+        "febbcbb9f7e39b6d7210df7f14e6f900a1dc1abaa488a44295b9eba14b9e8a2d",
+        "b59c62c0de64e3d06c3d19568e0a8484b27e71060af805c964ed5febc01828fe",
+        "41b31d191c9c2e52a7bac5f4f3b65edf7c7635ecb50e2cacc5ac60f4054c4baf",
+        "5faa66067b1e53f4d4b24ec1d1ca68df9d2c97d7699dea4eaf60e45a6850be4c",
+        "5eb03016216886b40b5a1b8de332e98ec9aac3b0cf53c287c41f100778ec7d50"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_6_1.html",
+      "label": "저압 타이어를 감지하였을 때",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_6.html"
+      ],
+      "sourceSha256": "cab6254349223548692eb409bc9b5fa423dd125aaf41b245aab0b6197c7441e0",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\RJ-2026-chapter7_6_1.html",
+      "queueIndex": 33,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_6_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "e87a821aad6ced775fdcb603138ab1eb0410e1adba999099112d587d022264a7",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "801f9805b6ce089de18b3f51e244ebf596e7df31270ed6b4952be0fec738b48f",
+        "68ee020c7827071c2377ad086f966a235d9c502b1b57cbaf4fb9f8d03694ef01",
+        "2975aa1fc02718c4af5779d25a4ad1fad57b24b227dae0907d21dc829c8c0064",
+        "453e3e90ef791b02e8dc2664039c18897cfe3a71247a423cf771ac1182309590",
+        "955407d8fa0d08cd4cb79ef7bd2e6d523f89ac0f5078193d2754d120505caa93",
+        "1a7967b7812ad62065d9e37889a5885a754560412fc16e62657616bda6defa98",
+        "1a48cbf8e578c81a44adb724d079533edabfe38878f77ae34a63cf53cba9fd88",
+        "d5b2250bb06d0f07b1c23fcbee6897d46a4fb4ab1c941eac399232e7561ad250",
+        "c7162a363d1775b46f9f811b9b730066047b3f205ec8627a79e16f522ce047af",
+        "a7e96891f267f536e3e9574ff0c114a0d831107b18fe8a53c7b314ab771faa87",
+        "85b22e0c3b28d10c36282e1969350f4efb2ce0f27d4ca9c64440c9854c1a64e4",
+        "8e3407e2f27a8e194786b6338afed401e9a7af1e73033eb5b82c08cc5b1caf9a",
+        "9f791e5e4a4b4ad49fcbd0f7c116ed6f3974257394e913f6ba97dc18b0c99aae",
+        "caac93dd92e9aac1f4ba4373ce36712f7427872731f23ca0a1126205d8fa5695",
+        "d9997e87f06fafd0a9f4b3fa2847df3340356fbc9b6753d80160e4b0ef30d9b5",
+        "43400b6c676c30798caa0902e002eae18bfd94a8217955f237642ec2f9ef4ea0"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_6_3.html",
+      "label": "타이어를 교체할 때",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_6.html"
+      ],
+      "sourceSha256": "973f83f2eb86c36b8320de216f809dbdfd4bbbf455bcefdfadbb471b7b520970",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\RJ-2026-chapter7_6_3.html",
+      "queueIndex": 34,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_6_3.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "7638bfae981c9b55ae4e4fc0da88080cf211a87211f049e4f901cc35566a30dd",
+        "33208348fd7f4fff655be4a7a6c952746122e5a3a677720df0b6dc80d96e84c1",
+        "f90e7df5a85a9b700d4818ff45808f0484053859bb2893889716b9822ff6bc3a",
+        "b30a382f286a5e347cdd5c073a00480ad5dadafcf9fb094c37b23f6a6f179a21",
+        "0c50e1a09558eeced0e028464521364086505395d4caa681f61ef7174331748e",
+        "4ac2450feabf5ce1a0b2d65c9342b106bc5d3c440e2a5a83028d53759d0084e4",
+        "1daa3599527a9b725c888383c8a3124092683484e6098f9dc14699209cab93b1",
+        "353edf114a6b5648067b30fd4c34f7be68129f00180014bb9c009185c9e11163",
+        "9dcb989edab003ac83bd32afefbf5e1be481d640603d4e58a2a71dd4e87c7ff2",
+        "0899c14cefcf25699446654d2e98e1378f481afc3c7d3959cc4d6924bebbb062",
+        "640a558c19b84e74a33c09a29a827d477459f3d9fb57cf2db2605899a8ced047",
+        "b12c152bbaf407413cbe3b49d7347787fabf4200e74ebaaaf7402983b646bc00"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_9_1.html",
+      "label": "사고 또는 고장 발생 시",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_9.html"
+      ],
+      "sourceSha256": "bf0609414fa36609dd83b24d0efc912495720a876d6ed31591484622cc7beb77",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\RJ-2026-chapter7_9_1.html",
+      "queueIndex": 35,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/RJ/2026/ko_KR/topics/chapter7_9_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "a5242abe51ba24756f4bf5f1dc7e9d208d6ca523b2cf4b2bd8bdd23833c1d92b",
+        "18cac8f72be20ac273b1949b6dbeb6b149727c4d371ba8d6a90c74abc9bde1b1",
+        "972dad67cd00b82a0fe041df2a825bfd342c19a98af1152f5e2cb332e19ad6df",
+        "cb8741637eb460c14c2eced593ebb04117b73f6b7251b0eb352e344465558cfa",
+        "9ddcd91cb3487ed7db015eb3de33137af4c6576985c387b4609a22454d8d10d0",
+        "1d8cfa42db8e8b5fee0d72f2b208dab1dc5abc9c1d7d079873317c5692b1b11c"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_2_1.html",
+      "label": "교차로/건널목에서 시동이 꺼졌을 때",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "1a71af2d3e7e2d091b518e272545b353fe5054390768b10ae6b2896b07cbb95f",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\SP2-2026-chapter7_2_1.html",
+      "queueIndex": 36,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_2_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "cc4be048002dac736978bc1d1c283259aa8f11d98a9e7c44ba976b576b90a8fd",
+        "93b4e8994d8a3c37c940da7b3aea6521f66d0127b628c19aec4da749f0cd93b2",
+        "03fbce0d9b80644a8934e6760e5ad3a20fd81f841ce9950ce189b833e9f74be9"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_2_2.html",
+      "label": "주행 중 펑크가 나면",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "5efb7d33d4f8b2c3a351936235bc419ff8df3308b67cad682514188e235dc169",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\SP2-2026-chapter7_2_2.html",
+      "queueIndex": 37,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_2_2.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "14211dcbb2e8f8fbd634e191d2a63bacffdfc3657735039905015e046a0e461d",
+        "e87a821aad6ced775fdcb603138ab1eb0410e1adba999099112d587d022264a7",
+        "c302105da907146ed7086bc7a4506c3d47403a146447b9cb8f1a40241b3fe1e9",
+        "d9a2cc9cb4949dc0035e57ccb4e1cedb6db275e4a88cfd30273c2118249449bf",
+        "95bf62109cfc2c90be87cf2cf680400faaed9ecfa322efbc514f7e9ce2b139f9",
+        "53913b6517b8ab68d6c44778b8f8a51e390d3e4d6a2f630f5881d58e15a59fcc",
+        "29d228ace915f7c3da14442ac0b626f392e6a232ce8c2c2871ccf8560a42a997"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_2_3.html",
+      "label": "주행 중 시동이 꺼진 경우",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "2f64e24606a3cf2e0fc71dc9607080092ec1da430cf808732d9e4d236880a67c",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\SP2-2026-chapter7_2_3.html",
+      "queueIndex": 38,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_2_3.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "48386387a054e6a5288c3ee663139daf8bf6b2daa041e56c5143031b181238a4",
+        "d426597ee1a021d5c76c7b9e1e4493d941e480a5ef78ce72f5e0fe6e67bcca51",
+        "9edadb122a291fabcc455b9cb4212dc57d94fdc5c3288edc1dd37319f0b850d2"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_2_4.html",
+      "label": "브레이크 제동력이 좋지 않을 때",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "4870101e4dc57ed9914698e002f2ff35376ac26f3e43458d841d579b50ed4c8e",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\SP2-2026-chapter7_2_4.html",
+      "queueIndex": 39,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_2_4.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "69666fcc5e60fc62573fdeadee2a2353cfc27fa020da7f612a8cb6ee0f453ba8",
+        "5b001575a8d8fc4924022e701fb2e88b1c172ef914c76e5841804060fe17942d",
+        "bbcb62bb554252de9439b3db15f3c7f2a2500ff95d70b9cf5b1c8d94ad2a7d4d",
+        "a3c48eb9cd48a7448bbc02aafb2fe1ffd24cdf2488697cd42ed27415ac13ef73"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_2_6.html",
+      "label": "안전삼각대(고장 자동차 정지표지판)",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_2.html"
+      ],
+      "sourceSha256": "b9edfdf83b16c87c585283942210e54b2d871dd1129b906e3459fd0e040bdc1c",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\SP2-2026-chapter7_2_6.html",
+      "queueIndex": 40,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_2_6.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "a25d823e868a3fece571f87d1614feaa4e3a04938f401ddda9f3186a303bc49a",
+        "e7b02b78fca48ebc6a905d94fbb5f500453edd33fd292a57cde525377171dceb",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "05a1e4a7c51981a595a40298b021460a34b15172cdbc1d575ab0e5e0170bce5e",
+        "ae41d048a809a4d6baf92202c5a6266263599e808e638d80289b867db4704ac6",
+        "d69900bcf73b7a45426ef6ceb020be09250d76cd6ac14d58d579e67a3ed2ae95",
+        "e967b8afbb537069b564de6d83462753a3db560c6ee17d6940dd719eb733dfe8",
+        "2ebc49afae73d15d6991c21bbc65a4bef4a3b5637beaca06905597e3b771b079",
+        "ce6d3292db6afb393978ebaaf92a8cb840c2cea4335049f421ccb60f4fb9b890"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_6_1.html",
+      "label": "타이어 공기압 확인",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_6.html"
+      ],
+      "sourceSha256": "b1b80fc5ea9d40a37a496f4bc6b958909cd1a50c180f47476a011fece429fb95",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\SP2-2026-chapter7_6_1.html",
+      "queueIndex": 41,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_6_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "e87a821aad6ced775fdcb603138ab1eb0410e1adba999099112d587d022264a7",
+        "d6e5a83e43286ad3f4085dadfd370d1c00630bbb89953f1111410b7875b6352d",
+        "9837a0ee0bc9a2e007f9879b8d3a7c49b3e8eabccb75bd21bd6a1ad97c4ef69e",
+        "615bd297b02d7e91dad1c0f8c4a2905f92716c087404c84f1e43c95bb932df89",
+        "a3727cdc84374f00dd8596d7867713b73370608520db5dd26941162f1b31e157",
+        "34779c0340f66570152d67422a1cabcd9f0695797938fc8f014ca67b1df495bc",
+        "06be16d2be2e860978d736b6026c8ec39b5736bc1addf85b95dc37396aac2393",
+        "d39d9f27500a90e38375d7073b68858426bc917cee67e3523db745c9586dc302",
+        "3d6fadf32aa3a173c9b50b37c4dc68b3e86accaef83cdbe0114d06d216c57669",
+        "44e5057a287cb3c00373780369fdb63c4f38c3a2dd2e810f341900b469dd613f",
+        "8c348b3a8942bd740b7bfda368eae878d8308ebd4f274c39e6bc4bc420cda928",
+        "8c39f95ed3a6f1b597d768aeeb50497a80aba67c4ffe2c5f38a75d62a3d7e339",
+        "cedbf3c66df21d5a4c9fafdc860b6268a41090ce0d947dd3bb8fd938b0dd5fa5",
+        "c53a03208205e85abb0a818e3b0cc61d7fd9daf0de9410663ab30edb5726452f"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_6_2.html",
+      "label": "저압 타이어를 감지하였을 때",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_6.html"
+      ],
+      "sourceSha256": "97378596e771edc267e16a8a166c8386302216e1e2df0a71d9e0a9ce6678021a",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\SP2-2026-chapter7_6_2.html",
+      "queueIndex": 42,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_6_2.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "e87a821aad6ced775fdcb603138ab1eb0410e1adba999099112d587d022264a7",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "801f9805b6ce089de18b3f51e244ebf596e7df31270ed6b4952be0fec738b48f",
+        "68ee020c7827071c2377ad086f966a235d9c502b1b57cbaf4fb9f8d03694ef01",
+        "2975aa1fc02718c4af5779d25a4ad1fad57b24b227dae0907d21dc829c8c0064",
+        "453e3e90ef791b02e8dc2664039c18897cfe3a71247a423cf771ac1182309590",
+        "955407d8fa0d08cd4cb79ef7bd2e6d523f89ac0f5078193d2754d120505caa93",
+        "1a7967b7812ad62065d9e37889a5885a754560412fc16e62657616bda6defa98",
+        "1a48cbf8e578c81a44adb724d079533edabfe38878f77ae34a63cf53cba9fd88",
+        "c7162a363d1775b46f9f811b9b730066047b3f205ec8627a79e16f522ce047af",
+        "9f791e5e4a4b4ad49fcbd0f7c116ed6f3974257394e913f6ba97dc18b0c99aae",
+        "caac93dd92e9aac1f4ba4373ce36712f7427872731f23ca0a1126205d8fa5695",
+        "578443a0f7b483cea18e603ce6df9a76702d3b5e55018382d0254313eeea04a7",
+        "f5ee2046a2e2bc47aecbe9db8e6b19f3860fca3c05e13838893d1d076efee595",
+        "ae85a4bbd44fce6da8786970f42c4287563ab37df2a73b2d2fc9db562bfbdf6d",
+        "16c4deb1efb8762568c6540f424a0ea324c0018a64ca430a14de104a8ea28349",
+        "709542bfafab136c7727f7ca4717dc9d203e22463e1f722f21aab9d7d4281ace",
+        "7db135aeb980469387ff0bf995d9625dd6847b2a287dc150a1ec6a080b810c95",
+        "055cd9b7da041b1c16b2d558dc34cd43bb9f4bd1e291e780f943ab609c0e9528"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_6_4.html",
+      "label": "타이어를 교체할 때",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_6.html"
+      ],
+      "sourceSha256": "e15bd1e0e53bcf8422f11dd44662a13a3a2d5b7cdf49ec65af52c050ad617a9b",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\SP2-2026-chapter7_6_4.html",
+      "queueIndex": 43,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_6_4.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "33208348fd7f4fff655be4a7a6c952746122e5a3a677720df0b6dc80d96e84c1",
+        "f90e7df5a85a9b700d4818ff45808f0484053859bb2893889716b9822ff6bc3a",
+        "cf28d84e447b5f026b08ae9b41ae3b1db0e6dd776edc708dd3c3df02c5ab4d04",
+        "b30a382f286a5e347cdd5c073a00480ad5dadafcf9fb094c37b23f6a6f179a21",
+        "2275c64bfde2b665eab8b883981804c3242bcf7241e938d1395a307c79eccc41",
+        "024a989201ea40401b3f136012ce3bfba6929baeb380223fac24fb429acb6479",
+        "4ac2450feabf5ce1a0b2d65c9342b106bc5d3c440e2a5a83028d53759d0084e4",
+        "1daa3599527a9b725c888383c8a3124092683484e6098f9dc14699209cab93b1",
+        "353edf114a6b5648067b30fd4c34f7be68129f00180014bb9c009185c9e11163",
+        "6d10251ddd80d59e979fbff796e90878d4ecc51bb40c6e5499b151780f2167b0",
+        "d2aab1b56e184b11e0a12248d62555bc8821360d7160a8c2ccd216ccb38d6bd8",
+        "e7aad5ca7f1ae0ee5b58d8824bcf8aeb6cb652be2c02bcbef1d46d03bde3fcf7",
+        "f2ae037a3ddd94315b262a850840ca9fc604d30a6b7394cee27224aab2523ca6",
+        "58eb2bb7a2d452c9795b6ad0a936ff89d5701b18af1a1a9a5c1bfeb9f16fb8b0",
+        "5e38d070956e6f5d070899aefb43d6d00df9dfa28774ce438147390a3e8a50eb"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_7_1.html",
+      "label": "견인 트럭으로 견인 시",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_7.html"
+      ],
+      "sourceSha256": "756cd4dc9dba229fe5e496f9aa41ec7dacd8997fa0c837628a4d52f2581f94b6",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\NQ5KH-2026-chapter7_7_1.html",
+      "queueIndex": 44,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_7_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "e87a821aad6ced775fdcb603138ab1eb0410e1adba999099112d587d022264a7",
+        "74fecec43209b6a2dac7f8d8057c41c2d7bab5408cf5bb22fcd7e57550789243",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "a99f1ddc409fa8a7d1f8f31cd9894fcf2b4072734f1d6f9172f7c76d1e2ed377",
+        "0c6f5a8c89fa7c65ff43d138e7ed646b443853741e7c3792e234c6f94b7f2122",
+        "10b47432253e233ecc5be12819c0db616b96d165e4d0e6543ac93c1a1a5571f0",
+        "0719663a5db9e6ea57105b4c8d7775d7743461b73be2a787beb932192e16da65",
+        "1172fe37731945a3053ee1aeb10b963cb887ef8583f7f4e422d260e69e44a163",
+        "5d3cba43f7d3d27d3368d4d833932eaccd81254dc72e6a5cdcddc440d10b5adb",
+        "279d8708b4c774f3c8fc129166ca3f4a33a19565bc3b928123b2155860f88827",
+        "2befea15f322b6f34799a31bb714a8f9594fd263acb5b6464c7d1341b25ad30f",
+        "e458ef6127187a2292b868fd5f6afbef758a3d87420e4c7a9bce72b6bfa3e31d",
+        "ba1ba2b1c29d15d4d2a30f56c93ef03e2e0d097625a94edd6512f8eb2566b6bc",
+        "8d1e17cfbfc473bae6c61720522f668def54499e6974f7e4d832c7a2c2b557d4",
+        "00ab636632eeff57dcb2be54a7c0c67616b5a66cefb79a8b7a6e1d639142bc6a",
+        "ffb4e57ca875efa54f8eae42164754de9360ef37a4a26cf72edd1557722f19ad",
+        "f610f75b35ee76269b0e46371860eff627fbd93e98d00661316df8a79fd27254",
+        "7b284958aae071932e3eed10cb19a676e91eecde223bf606df118eee835eac50",
+        "57d723305e5dbf5e68580ef1acec969e0eaa17c6071958edf6b9724b9ef7a982",
+        "a5678c040e78d889e01549841cbac30bc2047c5c6d9db80f65e5b83fd0497607",
+        "04dde40aaed0c213e938f3f4c1f24a896c70e3e264e411469a7741e06064b4d9",
+        "5abb480694ec7cbe2273b717589cf6bdf6f38083ecbb6548220befdfb14d8569"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_8_1.html",
+      "label": "사고 발생 시",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_8.html"
+      ],
+      "sourceSha256": "9bda74cf9dddd45fd4bbdd745fe91d785584638fad2017bd2701becf415c9620",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\NQ5KH-2026-chapter7_8_1.html",
+      "queueIndex": 45,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_8_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "a4a801d526fb251193b08479970c3ea99a127e018341aa39892512ee4cc5b044",
+        "dfa6e0d480ed2831042039d54575d679360870beee94603059bc9d02d4e05bd2",
+        "0ec5ed327bfe9b2bc0715dc5b81c6de189dfb130ee41f73c67af9eeb620957d7",
+        "8ab0c14208483094719de9e525bd63ddd061aa652eb2f64dc771741b25ec3118",
+        "c8854d7e27cd55b6048894639b446ce8b50738dee8c0c50d82c5d4ceacc0d462",
+        "f326623b2c8aca0390bfa96846e0b35a7bff6054e909ed6f51932b2e3e96c36b"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_9_1.html",
+      "label": "사고 발생 시",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_9.html"
+      ],
+      "sourceSha256": "506e84ed316551c21de40d3d12f2f7778a1a9e4b81288b853940854ee1ad2a4c",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\PU-2026-chapter7_9_1.html",
+      "queueIndex": 46,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_9_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "a4a801d526fb251193b08479970c3ea99a127e018341aa39892512ee4cc5b044",
+        "dfa6e0d480ed2831042039d54575d679360870beee94603059bc9d02d4e05bd2",
+        "0ec5ed327bfe9b2bc0715dc5b81c6de189dfb130ee41f73c67af9eeb620957d7",
+        "8ab0c14208483094719de9e525bd63ddd061aa652eb2f64dc771741b25ec3118",
+        "c8854d7e27cd55b6048894639b446ce8b50738dee8c0c50d82c5d4ceacc0d462",
+        "f326623b2c8aca0390bfa96846e0b35a7bff6054e909ed6f51932b2e3e96c36b"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_9_1.html",
+      "label": "사고 발생 시",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_9.html"
+      ],
+      "sourceSha256": "d2d57afdf0870a5e83deceff9a0fde384cf3216329671baaf4e215f41b5ddaed",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\SP2-2026-chapter7_9_1.html",
+      "queueIndex": 47,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/SP2/2026/ko_KR/topics/chapter7_9_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "a4a801d526fb251193b08479970c3ea99a127e018341aa39892512ee4cc5b044",
+        "dfa6e0d480ed2831042039d54575d679360870beee94603059bc9d02d4e05bd2",
+        "0ec5ed327bfe9b2bc0715dc5b81c6de189dfb130ee41f73c67af9eeb620957d7",
+        "8ab0c14208483094719de9e525bd63ddd061aa652eb2f64dc771741b25ec3118",
+        "c8854d7e27cd55b6048894639b446ce8b50738dee8c0c50d82c5d4ceacc0d462",
+        "f326623b2c8aca0390bfa96846e0b35a7bff6054e909ed6f51932b2e3e96c36b"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter7_9_1.html",
+      "label": "사고 발생 시",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter7_9.html"
+      ],
+      "sourceSha256": "e6db8e8a52dad6fa88fce3e9c2996c86fe56f1f2025f9c10eb028c917678386f",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\KA4-2025-chapter7_9_1.html",
+      "queueIndex": 48,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter7_9_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "a4a801d526fb251193b08479970c3ea99a127e018341aa39892512ee4cc5b044",
+        "dfa6e0d480ed2831042039d54575d679360870beee94603059bc9d02d4e05bd2",
+        "0ec5ed327bfe9b2bc0715dc5b81c6de189dfb130ee41f73c67af9eeb620957d7",
+        "8ab0c14208483094719de9e525bd63ddd061aa652eb2f64dc771741b25ec3118",
+        "c8854d7e27cd55b6048894639b446ce8b50738dee8c0c50d82c5d4ceacc0d462",
+        "f326623b2c8aca0390bfa96846e0b35a7bff6054e909ed6f51932b2e3e96c36b"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter7_9_1.html",
+      "label": "사고 발생 시",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter7_9.html"
+      ],
+      "sourceSha256": "42274337b309dd9dde293b9ac8c861bf6667160a975750bcc8c419efff3a7271",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\KA4KH-2025-chapter7_9_1.html",
+      "queueIndex": 49,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter7_9_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "a4a801d526fb251193b08479970c3ea99a127e018341aa39892512ee4cc5b044",
+        "dfa6e0d480ed2831042039d54575d679360870beee94603059bc9d02d4e05bd2",
+        "0ec5ed327bfe9b2bc0715dc5b81c6de189dfb130ee41f73c67af9eeb620957d7",
+        "8ab0c14208483094719de9e525bd63ddd061aa652eb2f64dc771741b25ec3118",
+        "c8854d7e27cd55b6048894639b446ce8b50738dee8c0c50d82c5d4ceacc0d462",
+        "f326623b2c8aca0390bfa96846e0b35a7bff6054e909ed6f51932b2e3e96c36b"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_5_2.html",
+      "label": "엔진 오일 및 필터 교체",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_5.html"
+      ],
+      "sourceSha256": "f8ccbb560b9a024572affdaf6073aa483f2c89f7542a65b61e4c80d80e5d5d02",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\NQ5KH-2026-chapter8_5_2.html",
+      "queueIndex": 50,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_5_2.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "a99f1ddc409fa8a7d1f8f31cd9894fcf2b4072734f1d6f9172f7c76d1e2ed377",
+        "42ddd548dadc989739fc3f9f1b0aacdc5f1de04d085f3a31c330f8ac5b825b36",
+        "703f5dc5886279d8ed63be6ee41e407987b4db270f7b6a6c3e3455c13edb48a5",
+        "bcb3db832c34251ec52bea227259aae1dff90009ab206715356cf8eda4225292",
+        "2c0afcbc7564d25a3d52175297a33562f9ee60d57b0aafc2944ac66e0989cc34",
+        "a865a755dca61b0615c59c3aff8912510cda5b7edcd09566a9ae3c22df37b826",
+        "4c25afced7a786fd20bb7fd7d4737358ede8e7a454e40979df4afd843a75eccc",
+        "6f55425396f92010c046e90c0163591c907e95a4f6b354e337729e67247a7a82",
+        "9c126bc5b049b290fc881589825e1d5de8b56a6e0fb7ce9e577bee566af4b70b",
+        "deda17623b618d9d1a20601ba934dd7af1ea680250f1fbb0c162e49c559de811",
+        "e65a5b76ef0ad94715a1d4b5c3302877d2d9ab189a810c34d9b52ba0d69c7a91",
+        "f98574f3eb08ea87df19abfeccfc02cb55003ea02234789bc4f2940020db285c",
+        "9fb8658a1fc96156280738f746d7fa17f92959f57544327620556e4183b4236b",
+        "b37efbb7ea9c478cc353bbf1a8d2d9be56411a8a61a2237643317869be548761"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_6_1.html",
+      "label": "냉각수량 점검 및 보충",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_6.html"
+      ],
+      "sourceSha256": "507b18346c34c0ae3147fd222b94e80686e699868be21fe3803b466f9e1b6ec3",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\NQ5KH-2026-chapter8_6_1.html",
+      "queueIndex": 51,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_6_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "a99f1ddc409fa8a7d1f8f31cd9894fcf2b4072734f1d6f9172f7c76d1e2ed377",
+        "cfa552fbbb4850ad176c0bc02034c583d3be91f6aeb444afafb68c72474d2816",
+        "9a40f0d210396700be491ab6295222edcf75d5e11943e2fa0b67d8d7f002629d",
+        "db8e9723ac644047a86dc8ebb5952f6a8baef451cff5a099d221e256db4154db",
+        "a0fad3d2ba2895b8281acc4efefdf19641a0b56496dcb8eaa2a9d81fd46c0159",
+        "60ed9ff0a48edd82a6dbec1936f88024cf5a684afd98b49e321d352e9434116b",
+        "db08a98302e18e26a256873e3e601d017cdfff4e59d9a2ee2eecce4cac054345",
+        "f8aa55b90d9bb7effbb30b53641e501645be99ef89a46c2c7f92eba89051a538",
+        "28e56371a3aacfdb76038be16aa59754388e167f68d30d48cffbce89275c44f4",
+        "e676fa2555655706a3c5f9cb78495e8cbf921014b5db16c8f5ea0baa8d43a8a3",
+        "874d86ca78ccc618f94e2ceea5484c0de1c20171c83ec91009e3e09fcfe385e5",
+        "cfd00ca21e1d59bfedf06c0dbb5a46502279b3262b69e2923be298f9e5017f5c",
+        "472bad98f172ec522a60d46f0f67f286c80fde59cc7ad801b5c00565442567b7",
+        "8c946c0f90b3aeb668fd5da3995fe5f4856aa6ae719593306d1021ed95a04b73",
+        "83f4bcac5e1773ec01ebbd9571472d8aa5b2c87e44b010bd23a692ab0d83bb91",
+        "37cb57c9ae4c672ac05d8bbd327012f2a066cf444d02dff4bc15d6c0b8d982a9",
+        "09f68463d6beacef9185a174380983a90acb16a0eec29528e46fe1c72fa25a4a",
+        "2b7becc3648f1913ea4f00cb8dee1ac820f461b039d427eaabdecd78df332b3b",
+        "cb9fdc11b264514b69c5eaa9fcff3c71f76cb19c8d603f779d280e2c2190d59b",
+        "447442c5afdeba53e0f5c3d072b5e2a03392765ed6e3d45a4d8e44de8d3cb052",
+        "8369e18657927adcff851eb3b086d33c237a02b0a2d8621eab8805673fd50bdc",
+        "13fd340fa275a96042098763fbb0770e793fe6b5786303ae251c455049c3fff5",
+        "d58bedd975a1084c92e10604d5497af948d1bdb2bea5e4f4a3622ad47d39665c",
+        "18b7de183b9493ba83bfe87ed0595ac973f67317c0eaf3a1da7ba3f023a4ff1d",
+        "3261e2be3d3dd4d6dd110b052efb617a4d63addc053faf3c44c8ef0a13dbb487",
+        "d11b29a2f3923ca62696c12f9e24a4ec147bd0ae1de6eaacd7ca715411fc5c49",
+        "080fe2c62bb4dda69935693635e81a766ea4a83264b37c3fd565120cf3deb3ff",
+        "6bea6fb6d961a4079e42f77579958f8a9564e28f0773ffd8411c9dd91b6484ea"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_6_2.html",
+      "label": "냉각수 교체",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_6.html"
+      ],
+      "sourceSha256": "a9be902d398f948d55a634eee75c5c66a5538d48ed6b0e81addb64bcc6f394be",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\NQ5KH-2026-chapter8_6_2.html",
+      "queueIndex": 52,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_6_2.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "b6cf2dfb1bb672f7595e306200ef7111553fbc7cf6918ce582d7f76f5432ca00",
+        "13d7c385a101b19c1717607b6bec0a8bfe27f0d0ab9ddf8ab5f909989f6a5eb7",
+        "67be1a23965c62ff41f9b8cd1d72a8e3ac0b3dea38e233e9118500d5f0459ba4",
+        "f2ce1335405480f3d50cba6a042f5088ba2b1129f379be251be1201fb8eabffb"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_6_3.html",
+      "label": "전기(동력) 장치 냉각수량 점검 및 보충",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_6.html"
+      ],
+      "sourceSha256": "0a1cb4cb85c33105a444214e5144f70389929fdfdcd4fd2701070e1c6569ba13",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\NQ5KH-2026-chapter8_6_3.html",
+      "queueIndex": 53,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter8_6_3.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "a0fad3d2ba2895b8281acc4efefdf19641a0b56496dcb8eaa2a9d81fd46c0159",
+        "60ed9ff0a48edd82a6dbec1936f88024cf5a684afd98b49e321d352e9434116b",
+        "f8aa55b90d9bb7effbb30b53641e501645be99ef89a46c2c7f92eba89051a538",
+        "28e56371a3aacfdb76038be16aa59754388e167f68d30d48cffbce89275c44f4",
+        "e676fa2555655706a3c5f9cb78495e8cbf921014b5db16c8f5ea0baa8d43a8a3",
+        "2427cbd42fcde5575c0b0c7c27d75b9969922ec0b1919e6920cd75bdfd646a7e",
+        "1f4047673855375d8b21e2b848979dd75a51c30eadbbc8b7253c230815eddf7f",
+        "a86834a7ec8742b4364a421ef75966715d66b4ed998994b5299984e9c412a5b0",
+        "44a6054802d694d8cd4661db293494413b496161b9e1225e186fd2dfec43946f",
+        "af4b969844605c86a935d953a90e071f323dd34c178dc03da91295f09071ed2b",
+        "cc3cb0a189e26a0cb13f017762484f462da611c031403741bd1de81b311ef543",
+        "762ce93eea39af316fa7ca11215438c08bb42f9fc363ad36f8ca52147d05d2f5",
+        "b4024f50e7c150426c4a7fa726b5138e05c9623dc76e1f15551c8bab1d4d1061"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_4_1.html",
+      "label": "차량 냉각",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_4.html"
+      ],
+      "sourceSha256": "0027a36f9d6d6290b590baff3e054fb792342abb3aa97378b8f53e43c187b16e",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\NQ5KH-2026-chapter7_4_1.html",
+      "queueIndex": 54,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter7_4_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "a4a801d526fb251193b08479970c3ea99a127e018341aa39892512ee4cc5b044",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "e87a821aad6ced775fdcb603138ab1eb0410e1adba999099112d587d022264a7",
+        "74fecec43209b6a2dac7f8d8057c41c2d7bab5408cf5bb22fcd7e57550789243",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "a99f1ddc409fa8a7d1f8f31cd9894fcf2b4072734f1d6f9172f7c76d1e2ed377",
+        "5b6200b7749d5fd109faf2a42db97bbca2cf76a34a9721396d9accfc0e8e9ef8",
+        "a1d10c572c0bd1c0d44a74ae1a5bb9194242643b0c4aca6da09f9d34f261f213",
+        "2f8beb428c400494f4acdf4b4b7d45a8d02afb496d699e9e5911acd97e08871d",
+        "febbcbb9f7e39b6d7210df7f14e6f900a1dc1abaa488a44295b9eba14b9e8a2d",
+        "b59c62c0de64e3d06c3d19568e0a8484b27e71060af805c964ed5febc01828fe",
+        "41b31d191c9c2e52a7bac5f4f3b65edf7c7635ecb50e2cacc5ac60f4054c4baf",
+        "5faa66067b1e53f4d4b24ec1d1ca68df9d2c97d7699dea4eaf60e45a6850be4c",
+        "db08a98302e18e26a256873e3e601d017cdfff4e59d9a2ee2eecce4cac054345",
+        "092b782be4bad027d2f7d0fb2641d43c1e8d5e0979427453f3963eb19a4d4e23",
+        "8218b9cd010f19fb7a5897a51f1e462735e174ad06e3ae5f70c4b36affa3096c",
+        "922a810a077de0ca2a249f293f91079d97a178ea47251843ef9f317f9e1bcc67",
+        "a81ca7549cae68ba5c9b8364ca7ac6e186ee95b970f797f37248e68b84aa677c",
+        "a4b9411012e84dc5c584c1677e741ff8eb2218384cf79151a5cd13da3ed7fa69",
+        "5b9ca88ed34accc1e3ea60683daa3f7919da0df03339793616779f8312a1d6de",
+        "284eca969b71b7d599cd17ac039cd8124475df5aa0d79b97a2349acec696b6b3",
+        "d8693737173e7eb722b52e08be652ccbec3df1861da484a0fa2fd8ec44ab6208",
+        "ee1d3e8c03bf591fab742f0ebb5cde14be8662364cc8e4a9cbeb4e6fa382b072",
+        "8c3dab25c88e219c12ab866857644273d02a1dd51c2459453d40c0a7afc258fe",
+        "8640bac08cc454aba178fec68297a35497e07e6c77a0e45c295108799977f019",
+        "ed9abd827bba3484e62beb90b8113110a3297f618e418842f7b7b1a16481efd4",
+        "20c0ece1f26157256b6d3d212d8617ddfd00f1804840ad09986797725b8a8f1e"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_5_1.html",
+      "label": "부속 공구",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_5.html"
+      ],
+      "sourceSha256": "ddb786eda3368bc17102064e4ce7a79bd028702d6cdd7c5cd47a5b381e0a8855",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\PUEV-2026-chapter7_5_1.html",
+      "queueIndex": 55,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_5_1.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "f5f4adef69b215f8acc08a4eeddde443afb620d34a7319ca7517b522fdd3d7dd",
+        "2e8c5d207fac0400c8568cafbce953757bf37cf615528e6b15fcd8941db52622",
+        "781973f67648289e1edc99fa65196e4312370693dc09658136d91751fe2d24e3",
+        "a721e03d4fa13fb08b6a6fbc31660943057ae7e1aaea7be18c1262c067abec88",
+        "c840dc038f75974f570b7795a54fb36785521ee614c5e5218f93d4ffe81f3c77",
+        "8f6d887bd437d7c6fd1ccd6ba5e177fb591993fc08218542897c2717a6984439",
+        "fd15ccf718ca16c5719230f48afa03b89b44ce0e2ee3a6005888e3f4cd947217",
+        "9a213f3709ff39c2bcd05e3ce12e40e129966592a3e3ba507055c743e86de166",
+        "4a5722b95da5cdff6881920c88f48a9d5ef9cfad29ea777ccadd987f955b35cd",
+        "ec4f4506f3f20d0ce1c50b8c2bbe266da37e5f0342f708d4ef01b0b2f2d5b54c",
+        "d9d53527255f3f1c290a73c6fc5ec60176ec2c5a7b704bea0cc0d7f6db923eff",
+        "8c15a08b9677f7f6ef62384056ca60e38a524bc2a9f0f81c998f1ced2b52f473",
+        "32ed54293d810bc3725fb1db2248c217e1b3a43997270ca9a674dc5b34ebebce",
+        "50d6f3e3923bb9bb6c3dc7b8f3cbc9acdbdaf05a16c332ef2d17fbf1f8178ffb",
+        "8c40d088dd9a2a050094ee5516c5c56e4404b9a6a2feb81c874ae12ed557a638",
+        "ef0d6a084047c799f4eaa63a02b4aeae730cd8bbba80db5d05ede00dc5f0e478",
+        "5684928a16788a1bef400f98c625d7e10af137ae68861fed958cffe7d32c4158",
+        "a7c5e79a5de4e9362d0de20bce4dc1652b5c396f0e41cb746f9863035049331f"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_5_3.html",
+      "label": "타이어 교체 방법",
+      "parents": [
+        "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_5.html"
+      ],
+      "sourceSha256": "c3d6ab4d133bec290fa9ac4a3457923a9f491d86ada8f8fbbbd93ea20e867a38",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\PUEV-2026-chapter7_5_3.html",
+      "queueIndex": 56,
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_5_3.html",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained",
+      "reviewedUnitHashes": [
+        "8de4e50caae497126b4e58abd14922e38032aa597a6d5a931a0a40f7d6783d37",
+        "aee8736c2b78925066991632c3a5fc38b2a79cf7b083146654ca958b2a99b7ca",
+        "6c0f751064e5a1ca0e18ed5bd87d83ec200d1443ed3df1bf540916b904aa8d23",
+        "e87a821aad6ced775fdcb603138ab1eb0410e1adba999099112d587d022264a7",
+        "acc90fbf66686d20bd872ef61ddb43faf74b1ced0772bc28acf9c1b4ab8cd010",
+        "d441f06f66989488224d8e18fbebc4e9bffc6670ef6252fbcd351af9a1bd997d",
+        "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "b89de2f08188bc355d5a75ee3d754d943c2fc904bbfee5f11c2d498a90f9b3bf",
+        "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+        "04c5ceb8fd6194c2fe9af4bbbd882eb033fb2b848ab8424598ffac0471ccf2cc",
+        "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+        "35bbb69fdf2262078f6bda87a430266d3ecd35400a6eb9dc4ed03f2f4e50b4bc",
+        "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+        "d78b17bae3531b3718f5a7f66cb871de1f11f2990ab5c97d03be10536ccaa98a",
+        "7f9747b963b4990f110550b068c19eee7469a2f179a420f233678f7b1cb5699a",
+        "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+        "0805cce19721527e3775ddc2ce6c378a9b305e924c23fb516d15182fa995507b",
+        "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+        "5a4982f0b28fa209e2decd75076ed0bf46d303e7ce6ac60cf42ae4bcd6a15881",
+        "8bbaabfeab0e776f60aee42b58c587b91e54abc1117ad064408cddbe63ac2315",
+        "54a7e49d31c6be4bceb99d83b669ad88298812eba88bb7a799d6b1f0af62469a",
+        "5d4139124d2d7f29e6dede8d2ee5f4e334cd27241c83cbab09e6cb894df0b785",
+        "7ee50cb4967e019ac972cf1d7d78e9022d0f93fd7394b976e6b55adebc1299c0",
+        "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451",
+        "4fe29b616496aa7c31a81684cc9131cedc283c9decfa591a7e5102ddab571204",
+        "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+        "e1c34d41247605d071545c34b94219ac17f1bf292d66087713dd6fdba34996af",
+        "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7",
+        "8b1df99762ae2ff09d133af41a1f7952c7a3a894b82e5f8d266ee31cdd868f0a",
+        "ec998989eadbec6bfb4338657a3fd12054b65aa6743ad356c08d805bfe0c0ade",
+        "464ac5d0424e6b5965067367d682c7e5eb14726bc84ba9e16d161af95397c530",
+        "0786755cd78355f23ed8f52a09585152c65a80932fdd21142f7d0929dc48dfa7",
+        "fdc3d807bb19c322bb702c1df3629f5350b940c9dcdc42c1cff4d07a0cd0c316",
+        "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+        "aca6ae4b546dea694d8c259df23d6536076b729575dd86b250178550ff83afa0",
+        "4cfa0157e24d40a465c3992dc2459e2ec902cdaeafc1e317398567307f230ce8",
+        "c3bf51b2c9f5b5fbf91a9f43a4993420f52b43236134636eaac9d0b10c20e675",
+        "ba6fc3d2b66192169981028651ad8927ece7cea4aeb429a303216defba03e7e3",
+        "0bfef8b59c8e055fee209b021e7ef6f249ebd3d130c8b175f1e8d2b6ab06522f",
+        "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8",
+        "ba6de0d3cbd378bfd39da1b042207c0ca02cde9e5a8e360089c54aec9183024c",
+        "8b9c7c1f431410bd62815ce6ba4c825df2ad4f2a9554fb1fa2e95edcfb1ad9d9",
+        "88a9dab31fa9dce68ac8830f15899470e26e2b8f4b6073e6db43bbd68193ad8d",
+        "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918",
+        "1151b42439b37cb88e7491156c8ea16b60a36f065f2bdccab85ee175b2cbe014",
+        "3fdba35f04dc8c462986c992bcf875546257113072a909c162f7e470e581e278",
+        "aa4bdf526bb7ed2cbb4879065328e0cb3d551c78b21a6b5b681b82eba274f057",
+        "aed70b10c3549acf5d2cf78950bb494bc5cc035ab218af4cb52e8c28434d2cc0",
+        "8527a891e224136950ff32ca212b45bc93f69fbb801c3b1ebedac52775f99e61",
+        "166caa7ad13e3b67fdd532185647af42b226ed13dc341a22712ed001fc83c73d",
+        "cc0f5f0aad55ea1eae159f0fa68388d02849c652b338fffa72582e7366341731",
+        "40cb4213fbdf2c0a23b3295ce81e28e8e5b684020571a759641a1857b54d7fc8",
+        "edb2da9d739cd19e58c43e18589cac16c4821e0c0905434d40e42002b42614b4",
+        "e629fa6598d732768f7c726b4b621285f9c3b85303900aa912017db7617d8bdb",
+        "e30c767053bdbae125f4e833a10def7f5fc5476bca79c7f1bbd7466b7cfbb9ad",
+        "ac76254b3c4b3cfea574d1b49ba5f862782fc3cb126609222e0203f872fd7f8e",
+        "0ffbcc2c0731a12f94307262c210879250a5b312a152bdbd65418a275cde06ff",
+        "dbf8acf56cc5e908be05e74fb833f960b25f6c721b61b132eeef6728632a7f3a",
+        "32ebb1abcc1c601ceb9c4e3c4faba0caa5b85bb98c4f1e6612c40faa528a91c9",
+        "2a58ff78960c1f06b23185edc7f531b758a136f4264fcee4000853a5aa25724c",
+        "c9885183775776eb0d63f2a4da1afed352b7e90f89eaed6bad3615caf5666467",
+        "698cba34f950bf5fdd3c8c3c388338d8bbc299423acc6ca7a107766fbb17a09c",
+        "628537292ffb8694eabe4f4b26feb54b12289b70f146a63ab94490887a498367",
+        "1310efc8ffbcc568d4606a9ef5f913507303216f9d46a02e40b8d83c1a596a50",
+        "0547fcecfbf9d4f687fc062928f2732fdef6f663fe71d14003059061ae63e148",
+        "47ef68ee58ee3c853c14d33d5acdf5083ed63911fcdace74b316a683d448d2a8"
+      ],
+      "runtimeApproved": false,
+      "scope": "warning response or mandatory linked safe procedure; routine context read without executable approval"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter5_3_1.html",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\NQ5KH-chapter5_3_1.html",
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/NQ5KH/2026/ko_KR/topics/chapter5_3_1.html",
+      "sourceSha256": "3e331a8500a4b149fe983bd09c65234662047cd023fa270599979704491ee6e0",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "runtimeApproved": false,
+      "reviewMethod": "AI direct full passage reading"
+    },
+    {
+      "url": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter9_3.html",
+      "localPath": ".local\\manual-review\\2026-10-28\\audit\\kia-legacy-tail\\PUEV-chapter9_3.html",
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter9_3.html",
+      "sourceSha256": "79e69f8ab2d35e7ec3618960d71282470640019f2a952f66145f4056647addd4",
+      "reviewStatus": "SOURCE_REVIEWED",
+      "runtimeApproved": false,
+      "reviewMethod": "AI direct full passage reading"
+    }
+  ],
+  "visualEvidence": [
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/res/images/OPUEV061002.png",
+      "sourceSha256": "d2ea258c9916058a6aa57315e56b4be64e4fb45b030c0426cb880e4fcfe2aafe",
+      "reviewStatus": "VISUALLY_REVIEWED",
+      "runtimeApproved": false
+    },
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/res/images/OPUEV069003.png",
+      "sourceSha256": "1d63c1bb8177f050aa31617c6a31b879536783402d2db5cade0bc8f2e0043b7b",
+      "reviewStatus": "VISUALLY_REVIEWED",
+      "runtimeApproved": false
+    },
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/res/images/1PUA4016.png",
+      "sourceSha256": "b9ad6543758324696c199fe5d3a36ae435eb1ee5f1138900e8928ad6312fad14",
+      "reviewStatus": "VISUALLY_REVIEWED",
+      "runtimeApproved": false
+    },
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/res/images/1PUA4017A.png",
+      "sourceSha256": "345af39884dcce12cad51830f7b72afcef5cae66d810bd13a6dc3ba1f57c9731",
+      "reviewStatus": "VISUALLY_REVIEWED",
+      "runtimeApproved": false
+    },
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/res/images/OPUEV069004.png",
+      "sourceSha256": "4f9b5b0daa386e77f0ec35266a9125ce875a2351e030ecf2c50e210734bda389",
+      "reviewStatus": "VISUALLY_REVIEWED",
+      "runtimeApproved": false
+    },
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/res/images/OPUEV069005.png",
+      "sourceSha256": "3402d5a3899ec3c3f4df56992b49c9ecab40169afab6423a0f22f91dccf61b1b",
+      "reviewStatus": "VISUALLY_REVIEWED",
+      "runtimeApproved": false
+    }
+  ],
+  "sourceHolds": [
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter7_5_1.html",
+      "sourceSha256": "1e7b761156d6437b62fac9bd4739c4c1ec8729ba3cbe8d0bf968e28c4819eaa2",
+      "issue": "PU 과열 절은 증기/누수 시 엔진 정지를 지시하지만 후속 주의문은 냉각팬 정지 전 시동을 끄지 말라고 포괄 서술. 조건 우선순위를 원문 밖에서 합성하지 않고 충돌 보류.",
+      "runtimeApproved": false
+    },
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_5_3.html",
+      "sourceSha256": "c3d6ab4d133bec290fa9ac4a3457923a9f491d86ada8f8fbbbd93ea20e867a38",
+      "issue": "PUEV 타이어 교체 절은 안전삼각대 주간 100m/야간 200m를 기재. 다른 절은 접근 차량이 볼 위치를 요구. 최신 법적 의무로 단정하지 않으며 도로 진입 위험을 무시하는 실행 지침 승인 보류.",
+      "runtimeApproved": false
+    }
+  ],
+  "reviewNotes": [
+    "PU 예비 휠에 TPMS 센서 없음: 출발 후 약20분 경고 가능. 센서 휠 장착 후 몇 분 주행에도 지속 시 점검. 다른 차에 이 시간을 전이하지 않음.",
+    "NQ5KH 엔진 냉각수와 전기동력 냉각수 구분: 전자는 지정 혼합 보충, 후자는 부족 시 서비스 방문이며 임의 물/다른 부동액 보충 금지. 공장45%와 정비50%는 다른 조건.",
+    "NQ5KH N 유지: EPB와 AUTO HOLD 해제, N에서 OK 길게, 확인문 후 OFF; 안전벨트 해제/문 열림으로 자동P 가능. N주차와 탑승 ACC 유지 모드 혼합 금지.",
+    "PUEV 타이어: 앞195R15 3.5bar50psi, 뒤145R13 4.4bar64psi. 본문 휠너트 앞뒤19~22kgf·m, 잭최대30mm, 밸브2회이상회전금지,50km/1000km 재점검. 다른 차량에 수치 전이 금지.",
+    "PUEV 제동불량은 회생제동 왼쪽 패들/주차브레이크 분기, PU는 저단 엔진브레이크. EV에 엔진브레이크 절차를 복사하지 않음.",
+    "PUEV 잭 앞뒤 지정 지점·너트 대각 순서·밸브 회전 도해6개 실제 확인. 잭 아래 진입/시동금지와 평탄장소/대각 고임목 조건 함께 저장."
+  ],
+  "reuseEvidence": [
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_5_2.html",
+      "artifact": "kia-crossref-reviewed.json",
+      "sequence": 424,
+      "verification": "Kia owner confirmed prior direct reading; no reread"
+    },
+    {
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter8_6.html",
+      "artifact": "kia-crossref-reviewed.json",
+      "sequence": 433,
+      "verification": "Kia owner confirmed prior direct reading; child closure assigned other half"
+    }
+  ],
+  "mandatoryUnread": 0,
+  "remainingRequiredClosure": []
+}

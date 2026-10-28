@@ -1,0 +1,98 @@
+[
+  {
+    "id": "kia_sp3_tpms_low",
+    "document_id": "kia_SP3_2026",
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00940.html",
+    "warning_type": "TPMS",
+    "condition": "Low-pressure indication and affected tire position; not merely any ON sample",
+    "action_ko": "속도를 낮추고 급격한 코너링을 피한 뒤 타이어 상태를 확인한다. 차가운 타이어 기준 권장 공기압으로 조정하고 경고가 남으면 점검받는다.",
+    "required_context": [
+      "차종/연식/타이어규격",
+      "저압 표시와 위치",
+      "타이어가 차가운 상태인지"
+    ],
+    "review_status": "source_text_reviewed_not_production_approved",
+    "review_method": "Relevant complete HTML topic read; display icons/layout not visually certified.",
+    "production_mapping_status": "blocked_until_required_context_supported"
+  },
+  {
+    "id": "kia_sp3_tpms_fault",
+    "document_id": "kia_SP3_2026",
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00941.html",
+    "warning_type": "TPMS",
+    "condition": "Approximately one minute flashing followed by steady light",
+    "action_ko": "약 1분 점멸 후 계속 켜지는 패턴은 TPMS 이상 안내에 해당한다. 서비스센터 점검이 필요하며, 그 상태에서 저압 경보 기능을 신뢰하지 않는다.",
+    "required_context": [
+      "점멸 지속시간",
+      "점멸 후 점등 전환",
+      "동일 관측구간 여부"
+    ],
+    "review_status": "source_text_reviewed_not_production_approved",
+    "review_method": "Relevant complete HTML topic read; display icons/layout not visually certified.",
+    "production_mapping_status": "blocked_until_required_context_supported"
+  },
+  {
+    "id": "kia_sp3_esc",
+    "document_id": "kia_SP3_2026",
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00416.html",
+    "warning_type": "ESC",
+    "condition": "Blinking during intervention versus persistent illumination after startup",
+    "action_ko": "주행 중 ESC 작동에 따른 점멸은 정상 작동 표시다. 시동 점검 이후 계속 켜지거나 주행 중 지속 점등되는 경우에는 점검 안내로 구분한다. ESC OFF 표시와도 분리한다.",
+    "required_context": [
+      "시동 후 경과시간",
+      "ESC 작동/해제 구분",
+      "지속 점등인지"
+    ],
+    "review_status": "source_text_reviewed_not_production_approved",
+    "review_method": "Relevant complete HTML topic read; display icons/layout not visually certified.",
+    "production_mapping_status": "blocked_until_required_context_supported"
+  },
+  {
+    "id": "kia_sp3_ebd",
+    "document_id": "kia_SP3_2026",
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00415.html",
+    "warning_type": "BRAKE_EBD",
+    "condition": "ABS and brake warning lamps illuminated together",
+    "action_ko": "ABS와 브레이크 경고가 동시에 켜진 경우 EBD 기능 문제 가능성을 함께 안내한다. 고속주행과 급제동을 피하고 신속히 정비 점검을 받도록 구분한다. 단일 ABS 신호로 이 조합을 추정하지 않는다.",
+    "required_context": [
+      "동시 ABS/브레이크 경고",
+      "주차브레이크 상태",
+      "시동 후 경과시간"
+    ],
+    "review_status": "source_text_reviewed_not_production_approved",
+    "review_method": "Relevant complete HTML topic read; display icons/layout not visually certified.",
+    "production_mapping_status": "blocked_until_required_context_supported"
+  },
+  {
+    "id": "kia_ev3_powerdown",
+    "document_id": "kia_SV1_2027",
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00163.html",
+    "warning_type": "POWER_DOWN",
+    "condition": "Power-down alone versus power-down plus service warning",
+    "action_ko": "파워다운만 켜지면 배터리 잔량·전압·온도나 구동계 보호에 따른 출력 제한일 수 있다. 서비스 경고등이 함께 켜지는 경우에는 점검 안내가 추가된다. 단독 파워다운을 곧바로 고장 확정으로 표시하지 않는다.",
+    "required_context": [
+      "서비스 경고 동시 여부",
+      "구동배터리 잔량/온도",
+      "동일 관측구간"
+    ],
+    "review_status": "source_text_reviewed_not_production_approved",
+    "review_method": "Relevant complete HTML topic read; display icons/layout not visually certified.",
+    "production_mapping_status": "blocked_until_required_context_supported"
+  },
+  {
+    "id": "kia_sp3_hev_ready",
+    "document_id": "kia_SP3_2026",
+    "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00536.html",
+    "warning_type": "HEV_SYSTEM",
+    "condition": "HEV READY off/flashing or service warning; separate normal EV mode indicator",
+    "action_ko": "HEV 주행 가능 표시의 꺼짐·점멸과 서비스 경고는 점검 대상으로 구분한다. 엔진 정지 또는 모터 단독 구동을 알리는 EV 모드 점등은 그 자체로 같은 고장 경고가 아니다.",
+    "required_context": [
+      "하이브리드 파워트레인",
+      "정확한 표시등 종류",
+      "시동 후 주행 준비 상태"
+    ],
+    "review_status": "source_text_reviewed_not_production_approved",
+    "review_method": "Relevant complete HTML topic read; display icons/layout not visually certified.",
+    "production_mapping_status": "blocked_until_required_context_supported"
+  }
+]

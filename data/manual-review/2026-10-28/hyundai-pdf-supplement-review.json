@@ -1,0 +1,2748 @@
+{
+  "schemaVersion": 1,
+  "rules": [
+    {
+      "ruleId": "HY-REF-A01-2026-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-A01-2026"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/A01/2026/ko_KR",
+          "documentSha256": "38fbe422b1b95dbf54da081734f2facbf8969e1bca2a2a978a3725f890e677f1",
+          "locator": {
+            "pdfPages1Based": [
+              348,
+              349,
+              350,
+              351
+            ]
+          },
+          "passageSha256": "e5cd61b96c1a5b4da6b7a77194b282d57342a8032d35a9769fe9e5a4aa5c6060"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-US4EV-2027-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-US4EV-2027"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/US4EV/2027/ko_KR",
+          "documentSha256": "668df665ece6573f01f559409f8f62919f2b48d655f8a97d2a9a29c0575bcf2d",
+          "locator": {
+            "pdfPages1Based": [
+              507,
+              508,
+              509
+            ]
+          },
+          "passageSha256": "11a66cc2e00ab5ae114bd43c147c9616d6ed870726c66ed1fb96655b14eb0528"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-NE1-2027-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-NE1-2027"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/NE1/2027/ko_KR",
+          "documentSha256": "e32d572bf61a989590d87925ed740b2795c714033a6ef4432a46852574ce26a1",
+          "locator": {
+            "pdfPages1Based": [
+              495,
+              496,
+              497
+            ]
+          },
+          "passageSha256": "1312611d9e8d62b6c8b1149de45920eea7beea4dfda898e1b3e815c1a772cb29"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-NE1-2025-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-NE1-2025"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/NE1/2025/ko_KR",
+          "documentSha256": "7c92b1e3b1326d6811340e664111897fc66f23b6ae96788e2d76e6f99eb30725",
+          "locator": {
+            "pdfPages1Based": [
+              491,
+              492,
+              493
+            ]
+          },
+          "passageSha256": "c0a504bea4c737a2665ddb9cdbb10ecc8a08b5391b4e1ea095970f82f984a8e1"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-CE1-2025-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-CE1-2025"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/CE1/2025/ko_KR",
+          "documentSha256": "778bd9cd9ba17bbe2fb8991499309d9dd22d8658fc5eb42d9c6aa673dac44335",
+          "locator": {
+            "pdfPages1Based": [
+              507,
+              508,
+              509
+            ]
+          },
+          "passageSha256": "4b1e79efc9bda6e8801fa7a6bc3e748baf9a9e7d443f876715d1d15952fd4f2f"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-ME-2027-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-ME-2027"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/ME/2027/ko_KR",
+          "documentSha256": "527ba63f2d0106dc41775de2fb7e35b342f43ec8f88e606c7dd814cb44520fd0",
+          "locator": {
+            "pdfPages1Based": [
+              565,
+              566,
+              567
+            ]
+          },
+          "passageSha256": "6528a028726ee41162aadc9946818750e42b4facfd82380aa8baad9f46f113d9"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-AXEV-2027-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-AXEV-2027"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/AXEV/2027/ko_KR",
+          "documentSha256": "aa1465589f86265c261fafb3c17c81eeac574c7bb7f7e60ab248715ebcfb8a96",
+          "locator": {
+            "pdfPages1Based": [
+              406,
+              407,
+              408
+            ]
+          },
+          "passageSha256": "095ad514e109bac1c149911b8d0a43162593379d0974eae232451108a7a60494"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-SX2EV-2025-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-SX2EV-2025"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/SX2EV/2025/ko_KR",
+          "documentSha256": "5adf6f2b7662d46b226ce357cd40341eb7e07392b5236fe5f46a5c804b28d549",
+          "locator": {
+            "pdfPages1Based": [
+              619,
+              620,
+              621,
+              622
+            ]
+          },
+          "passageSha256": "ce4d79f17dd326712ad784e85833d365ea69d39c3ce167710dbd471133dafccb"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-HREV-2026-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-HREV-2026"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HREV/2026/ko_KR",
+          "documentSha256": "5a1c574677a6029a87996732c6c0eed0819650601c08a2a02385c0d9728e4432",
+          "locator": {
+            "pdfPages1Based": [
+              230,
+              231,
+              232
+            ]
+          },
+          "passageSha256": "4e9c1e917ecae76df5652080e9a1f257438d9f6e202c3c22a8c8a0a4075e652b"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "점프 후 약 15초 이내 시동, READY 30분 정차/주행. 지정 래치 또는 도장 없는 차체 접지. 충전기 13.3–14V, 권장13.8V,60A 이하. 다른 HEV의 RESET 버튼 조건을 추정 적용하지 않는다."
+      ]
+    },
+    {
+      "ruleId": "HY-REF-DN8-2026-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-DN8-2026"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/DN8/2026/ko_KR",
+          "documentSha256": "f83f44abcf8f59c30fa4d0b0b419a8e7aaca54da7d6f5c5fc9b3f83cab650e23",
+          "locator": {
+            "pdfPages1Based": [
+              427,
+              428,
+              429,
+              430
+            ]
+          },
+          "passageSha256": "36ba59d1eeccdeb0d55e14b1fd8453386a308aea7dec8289689d5dadae6dd68e"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-DN8HEV-2026-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-DN8HEV-2026"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "해당 내장 리튬 12V 사양은 우선 12V BATT RESET 또는 문서에 지정된 트렁크/테일게이트 버튼으로 보호 차단을 해제하고 30초 이내 시동한다. READY 상태로 외부에서 약 30분 충전한다. 실패·과방전 시 점프 절차로 간다.",
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다.",
+        "충전 전 리셋 버튼을 반복해 과방전시키지 않는다. 이 하이브리드 차량을 다른 차량 점프 전원으로 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/DN8HEV/2026/ko_KR",
+          "documentSha256": "5843551877e8a3279e67ca5830f64df2f7ac8cb0bbb4020f3415cd0e11dd3158",
+          "locator": {
+            "pdfPages1Based": [
+              451,
+              452,
+              453,
+              454
+            ]
+          },
+          "passageSha256": "10e2509f71059d2341ae9d9c6d88b108a0fa021e6b1d80fa2446f57535f050b5"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "충전기 13.3–14V, 권장 13.8V, 60A 이하. 전원 차단 후 부적합 충전기를 계속 사용하지 않는다."
+      ]
+    },
+    {
+      "ruleId": "HY-REF-DN8c-2025-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-DN8c-2025"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/DN8c/2025/ko_KR",
+          "documentSha256": "ebd8b03c59aa7f37640f2b8150f96fe7da75191ee907550a56547b647ebc7e2c",
+          "locator": {
+            "pdfPages1Based": [
+              307,
+              308,
+              309,
+              310
+            ]
+          },
+          "passageSha256": "deb6ec6f6a7c0856861c2d77a2c45ed0b57ac53c368247b5c5911eb82b5c82c8"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-US4-2026-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-US4-2026"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/US4/2026/ko_KR",
+          "documentSha256": "7627c80a2708e9918b9dca6227f383ddfb3f09c02c824ea69563a97780083519",
+          "locator": {
+            "pdfPages1Based": [
+              430,
+              431,
+              432
+            ]
+          },
+          "passageSha256": "4cc4b3fe149fa8196cbea8e824a849ca581ab88b966ee11bf03708b805644ac0"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-US4HEV-2026-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-US4HEV-2026"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "해당 내장 리튬 12V 사양은 우선 12V BATT RESET 또는 문서에 지정된 트렁크/테일게이트 버튼으로 보호 차단을 해제하고 30초 이내 시동한다. READY 상태로 외부에서 약 30분 충전한다. 실패·과방전 시 점프 절차로 간다.",
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다.",
+        "충전 전 리셋 버튼을 반복해 과방전시키지 않는다. 이 하이브리드 차량을 다른 차량 점프 전원으로 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/US4HEV/2026/ko_KR",
+          "documentSha256": "393da16edb0b1e48d9fcf58aae0e37691f1ba26fa6cc53e5108d5566b9fd91f3",
+          "locator": {
+            "pdfPages1Based": [
+              464,
+              465,
+              466,
+              467,
+              468,
+              469
+            ]
+          },
+          "passageSha256": "510fb9f2d8f06590ba2da3f7bb2b6eb6a99393548743795e7b269bcc710a28d3"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "충전기 13.3–14V, 권장 13.8V, 60A 이하. 전원 차단 후 부적합 충전기를 계속 사용하지 않는다."
+      ]
+    },
+    {
+      "ruleId": "HY-REF-QX-2027-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-QX-2027"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/QX/2027/ko_KR",
+          "documentSha256": "8c2a0e72b60e91160b14b029bdad7b2c019809c5ca4c91b24435bf62badb6b1b",
+          "locator": {
+            "pdfPages1Based": [
+              326,
+              327,
+              328,
+              329
+            ]
+          },
+          "passageSha256": "3c964ce306d7cb46ea2a9d9bfda641076f31baf5b7cdcb2df27df9f28d455b23"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-MX5-2026-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-MX5-2026"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/MX5/2026/ko_KR",
+          "documentSha256": "5cf84f7e7f709383d711b7450321dde6c9a63e98b307649b366915f57eacece6",
+          "locator": {
+            "pdfPages1Based": [
+              629,
+              630,
+              631,
+              632
+            ]
+          },
+          "passageSha256": "28c815fb2619bad304befa03f555cf2235668113b2c919e0c02d277c3c6ea434"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-MX5HEV-2026-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-MX5HEV-2026"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다.",
+        "다른 HEV 문서의 내장 리튬 12V RESET 버튼·30초 조건을 이 문서에 전이하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/MX5HEV/2026/ko_KR",
+          "documentSha256": "8fef11ef06a5ec675868b54b00b49b40de6bd4445f9f123fd0b4f6e0c5daad1b",
+          "locator": {
+            "pdfPages1Based": [
+              662,
+              663,
+              664,
+              665,
+              666
+            ]
+          },
+          "passageSha256": "84ef78bf66d20f5ab7911d39b5687073d29abd97f82f7b59c5e3522c1f5c0fc7"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-AX-2027-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-AX-2027"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/AX/2027/ko_KR",
+          "documentSha256": "f38683b42a7f71269b87ec96b1fb0a1ac20811e2a2330af22b9bc633f8a593e5",
+          "locator": {
+            "pdfPages1Based": [
+              314,
+              315,
+              316
+            ]
+          },
+          "passageSha256": "1c684c2d203a444f4696b2af4786d277f8dfc1bf47a2fb6be6bc550b747569cb"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-SX2-2027-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-SX2-2027"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/SX2/2027/ko_KR",
+          "documentSha256": "bcf895c9dbbcb59d64275175141e76958d3ad2ac65412ae18a9b658550938126",
+          "locator": {
+            "pdfPages1Based": [
+              603,
+              604,
+              605,
+              606
+            ]
+          },
+          "passageSha256": "2340b2cd3ecb8ab75d3b029c6d2f7647cf4c4534a7b9dd7bd791bd5af894ba70"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-SX2HEV-2027-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-SX2HEV-2027"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "해당 내장 리튬 12V 사양은 우선 12V BATT RESET 또는 문서에 지정된 트렁크/테일게이트 버튼으로 보호 차단을 해제하고 30초 이내 시동한다. READY 상태로 외부에서 약 30분 충전한다. 실패·과방전 시 점프 절차로 간다.",
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다.",
+        "충전 전 리셋 버튼을 반복해 과방전시키지 않는다. 이 하이브리드 차량을 다른 차량 점프 전원으로 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/SX2HEV/2027/ko_KR",
+          "documentSha256": "7a56521c4225093eba2421e74f789a81d2199cd9849eb68d711c55993d436bbe",
+          "locator": {
+            "pdfPages1Based": [
+              607,
+              608,
+              609,
+              610,
+              611
+            ]
+          },
+          "passageSha256": "486063c53bc6f1c49a7c0ed7cc30969c5797e23c6b3f2c844d1b21b720f962e1"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "충전기 13.3–14V, 권장 13.8V, 60A 이하. 전원 차단 후 부적합 충전기를 계속 사용하지 않는다."
+      ]
+    },
+    {
+      "ruleId": "HY-REF-LX3-2027-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-LX3-2027"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/LX3/2027/ko_KR",
+          "documentSha256": "a77d7fb6b8c3520ff178ee21f616f403416395e04cd907638f141cb62e6e86d5",
+          "locator": {
+            "pdfPages1Based": [
+              499,
+              500,
+              501
+            ]
+          },
+          "passageSha256": "f073b2e4d56d432c31dd52ad0ba872a167450f1ed0b15dca965600024aa1a420"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-LX3HEV-2027-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-LX3HEV-2027"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다.",
+        "다른 HEV 문서의 내장 리튬 12V RESET 버튼·30초 조건을 이 문서에 전이하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/LX3HEV/2027/ko_KR",
+          "documentSha256": "718aba1cf5613a13fb9ce501f8ecb20d9bf3b81c0c6a87e976f76d2925dbcc3f",
+          "locator": {
+            "pdfPages1Based": [
+              513,
+              514,
+              515,
+              516,
+              517
+            ]
+          },
+          "passageSha256": "66deed871b9f4981b9fd3d4bd025c2d1283952fd51cc151d3afc1bba890b59a1"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-HR-2026-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-HR-2026"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HR/2026/ko_KR",
+          "documentSha256": "ff0d2aeb0ff0bd775c13c60dfd516d50b044319650277ca87270b73aae024b78",
+          "locator": {
+            "pdfPages1Based": [
+              253,
+              254,
+              255
+            ]
+          },
+          "passageSha256": "3861907a555c99935267ff691c687e8f90fba74da40253802ce5e5cfd6b52a93"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "보조 차량 시동 후 2,000RPM 이상 유지하며 수분 대기. 성공 후 일정 시간 시동을 유지한다. 더블캡 배터리는 뒷좌석 쿠션/커버 아래에 있다."
+      ]
+    },
+    {
+      "ruleId": "HY-REF-CN7N-2026-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-CN7N-2026"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/CN7N/2026/ko_KR",
+          "documentSha256": "02bf55203560b31d51bb9d963b8c04ca9842499c7f60bfc1b5296f31f995b22f",
+          "locator": {
+            "pdfPages1Based": [
+              362,
+              363,
+              364,
+              365
+            ]
+          },
+          "passageSha256": "dd624b734a24fa64ad8b23bb7d66fc0f8b9b9e8815d5560781e7422511433e7e"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-NE1N-2026-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-NE1N-2026"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/NE1N/2026/ko_KR",
+          "documentSha256": "ba7440607e52d5b77f602965a999550da011260e0de50d4dab113f23a92af977",
+          "locator": {
+            "pdfPages1Based": [
+              695,
+              696,
+              697,
+              698
+            ]
+          },
+          "passageSha256": "2cae715f646bb94df8b41286053a564b4f7e89c92b9cb8eb0179c877493c3a54"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-CE1N-2025-LOW_VOLTAGE_JUMP",
+      "documentIds": [
+        "HYUNDAI-CE1N-2025"
+      ],
+      "topic": "LOW_VOLTAGE_JUMP",
+      "conditions": [
+        "12V 전원 부족 또는 EPB 해제 불능의 원인이 저전압일 때 해당 차량의 비상 시동 절을 적용한다."
+      ],
+      "orderedActions": [
+        "전문가의 도움을 받아 전기장치를 끄고 지정된 + 충전단자→보조 배터리 +, 보조 −→차량의 지정 −충전단자/차체 접지 순서로 연결한다.",
+        "다른 차량 전원을 이용하면 그 차량 시동 후 기다렸다가 대상 차량을 시동한다. 분리는 −측부터 하고 +측을 분리한다.",
+        "시동 성공 후에도 방전 원인이 불명확하면 정비한다. EPB 정상 해제·경고 소등을 별도로 확인한다."
+      ],
+      "driverProhibitions": [
+        "12V가 아닌 보조 전원, 극성 뒤바뀜·집게 접촉·불꽃·잘못된 차체 접촉을 피한다.",
+        "얼거나 전해액이 부족한 배터리는 파열/폭발 위험이 있어 무리하게 점프하지 않는다.",
+        "충전단자 점프 실패 후 배터리 직접 연결에서 방전 배터리 −단자에 직접 연결하지 않는다."
+      ],
+      "applicationConstraints": [
+        "지정 −충전단자와 실제 배터리 −극을 동일시하지 않는다. 차량별 단자 그림을 함께 제공해야 하며 이 요약으로 위치를 추측하지 않는다.",
+        "점프 시동은 모든 충전 경고의 해결책이 아니다. 구동 중 발전/전원계 고장 경고와 방전은 구분한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/CE1N/2025/ko_KR",
+          "documentSha256": "7f8ff59e884beca0ec6dab769448762b53ea1be3a23d523de4ff8d1943d2e416",
+          "locator": {
+            "pdfPages1Based": [
+              501,
+              502,
+              503
+            ]
+          },
+          "passageSha256": "5a20de6682f02df2fbfa6abfe98cc0c5f15f4a8a2a5a5f6390a2ebc4dccc0dc6"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 603 exact-normalized unique sentence/context units directly read with all 26 source associations; model reset and cable conditions retained.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-A01-2026-POWERTRAIN_WARNING_PANEL",
+      "documentIds": [
+        "HYUNDAI-A01-2026"
+      ],
+      "topic": "POWERTRAIN_WARNING_PANEL",
+      "conditions": [
+        "계기판 경고 절과 별도로 제공되는 EV/HEV 시작 장의 경고·메시지."
+      ],
+      "orderedActions": [
+        "서비스 경고가 자가점검 뒤 지속되거나 주행 중 켜지면 정비한다. READY 소등·점멸과 정상 EV 모드 표시를 구분한다.",
+        "전원 공급 장치 정차 경고는 안전 정차 후 견인 점검한다. 회생제동 경고와 브레이크 경고 동시 점등은 제동 성능 저하를 전제로 주의하여 정비한다.",
+        "저충전은 즉시 충전한다. 출력 제한 시 급가속·급출발을 피하고 경사로 후퇴 가능성에 유의한다. 낮은 배터리 온도는 출발 전 충전하며 온도가 올라간 뒤에도 메시지가 남으면 정비한다.",
+        "배터리 과열은 안전 정차·시동 OFF 후 충분히 식힌다. 계속 경고되면 운행을 삼가고 견인/정비한다.",
+        "연결된 충전 커넥터는 분리 후 시동한다. 충전 중단은 커넥터·인렛 손상/이물질과 충전기를 확인하고 정상 충전기에서 반복되면 정비한다."
+      ],
+      "driverProhibitions": [],
+      "applicationConstraints": [
+        "모든 경고를 재시동만으로 해제하려 하지 않는다. 메시지 제목의 정차·시동 금지를 본문 요약에서 누락하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/A01/2026/ko_KR",
+          "documentSha256": "38fbe422b1b95dbf54da081734f2facbf8969e1bca2a2a978a3725f890e677f1",
+          "locator": {
+            "pdfPages1Based": [
+              54,
+              55,
+              56,
+              57,
+              58
+            ]
+          },
+          "passageSha256": "68d0bfa25ac7bc1b96abe189dca2036d2be719e499d54259b699e788bf2195e1"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "저충전/출력 제한 메시지 SOC 기준은 각각 20%/10%. 주행 가능 거리는 조건부 예시이며 남은 거리 보장이 아니다."
+      ]
+    },
+    {
+      "ruleId": "HY-REF-HREV-2026-POWERTRAIN_WARNING_PANEL",
+      "documentIds": [
+        "HYUNDAI-HREV-2026"
+      ],
+      "topic": "POWERTRAIN_WARNING_PANEL",
+      "conditions": [
+        "계기판 경고 절과 별도로 제공되는 EV/HEV 시작 장의 경고·메시지."
+      ],
+      "orderedActions": [
+        "서비스 경고가 자가점검 뒤 지속되거나 주행 중 켜지면 정비한다. READY 소등·점멸과 정상 EV 모드 표시를 구분한다.",
+        "전원 공급 장치 정차 경고는 안전 정차 후 견인 점검한다. 회생제동 경고와 브레이크 경고 동시 점등은 제동 성능 저하를 전제로 주의하여 정비한다.",
+        "저충전은 즉시 충전한다. 출력 제한 시 급가속·급출발을 피하고 경사로 후퇴 가능성에 유의한다. 낮은 배터리 온도는 출발 전 충전하며 온도가 올라간 뒤에도 메시지가 남으면 정비한다.",
+        "배터리 과열은 안전 정차·시동 OFF 후 충분히 식힌다. 계속 경고되면 운행을 삼가고 견인/정비한다.",
+        "연결된 충전 커넥터는 분리 후 시동한다. 충전 중단은 커넥터·인렛 손상/이물질과 충전기를 확인하고 정상 충전기에서 반복되면 정비한다."
+      ],
+      "driverProhibitions": [],
+      "applicationConstraints": [
+        "모든 경고를 재시동만으로 해제하려 하지 않는다. 메시지 제목의 정차·시동 금지를 본문 요약에서 누락하지 않는다.",
+        "출력 제한 원인에 냉각 계통 이상/주행 고장도 포함한다. 단독 점등=무조건 정상으로 분류하지 않는다. 충전 중 적색은 정상 표시다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HREV/2026/ko_KR",
+          "documentSha256": "5a1c574677a6029a87996732c6c0eed0819650601c08a2a02385c0d9728e4432",
+          "locator": {
+            "pdfPages1Based": [
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49
+            ]
+          },
+          "passageSha256": "50785b3f60b9135a205021da53313117eb56fbab39dd0268d529f12a5b8e1358"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "저충전/출력 제한 메시지 SOC 기준은 각각 16%/7%. 주행 가능 거리는 조건부 예시이며 남은 거리 보장이 아니다."
+      ]
+    },
+    {
+      "ruleId": "HY-REF-NE1N-2026-POWERTRAIN_WARNING_PANEL",
+      "documentIds": [
+        "HYUNDAI-NE1N-2026"
+      ],
+      "topic": "POWERTRAIN_WARNING_PANEL",
+      "conditions": [
+        "계기판 경고 절과 별도로 제공되는 EV/HEV 시작 장의 경고·메시지."
+      ],
+      "orderedActions": [
+        "서비스 경고가 자가점검 뒤 지속되거나 주행 중 켜지면 정비한다. READY 소등·점멸과 정상 EV 모드 표시를 구분한다.",
+        "전원 공급 장치 정차 경고는 안전 정차 후 견인 점검한다. 회생제동 경고와 브레이크 경고 동시 점등은 제동 성능 저하를 전제로 주의하여 정비한다.",
+        "저충전은 즉시 충전한다. 출력 제한 시 급가속·급출발을 피하고 경사로 후퇴 가능성에 유의한다. 낮은 배터리 온도는 출발 전 충전하며 온도가 올라간 뒤에도 메시지가 남으면 정비한다.",
+        "배터리 과열은 안전 정차·시동 OFF 후 충분히 식힌다. 계속 경고되면 운행을 삼가고 견인/정비한다.",
+        "연결된 충전 커넥터는 분리 후 시동한다. 충전 중단은 커넥터·인렛 손상/이물질과 충전기를 확인하고 정상 충전기에서 반복되면 정비한다.",
+        "과열 경고의 메시지 제목에 명시된 정차 후 대피 지시를 보존한다."
+      ],
+      "driverProhibitions": [],
+      "applicationConstraints": [
+        "모든 경고를 재시동만으로 해제하려 하지 않는다. 메시지 제목의 정차·시동 금지를 본문 요약에서 누락하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/NE1N/2026/ko_KR",
+          "documentSha256": "ba7440607e52d5b77f602965a999550da011260e0de50d4dab113f23a92af977",
+          "locator": {
+            "pdfPages1Based": [
+              63,
+              64,
+              65,
+              66
+            ]
+          },
+          "passageSha256": "c719fe9df4c1a6cc566e23b24abacde84ffb451fb2533acc9e8755fee3f84f0e"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "저충전/출력 제한 메시지 SOC 기준은 각각 15%/7%. 주행 가능 거리는 조건부 예시이며 남은 거리 보장이 아니다."
+      ],
+      "sourceAmbiguities": [
+        "과열 메시지 제목은 즉시 정차 후 대피, 조치 열은 시동 OFF 후 냉각 대기. PDF65/인쇄60 원본 이미지로 둘 다 확인. 대피 요구를 삭제하거나 차량 옆 대기로 자동 바꾸지 않는다."
+      ]
+    },
+    {
+      "ruleId": "HY-REF-SX2EV-2025-POWERTRAIN_WARNING_PANEL",
+      "documentIds": [
+        "HYUNDAI-SX2EV-2025"
+      ],
+      "topic": "POWERTRAIN_WARNING_PANEL",
+      "conditions": [
+        "계기판 경고 절과 별도로 제공되는 EV/HEV 시작 장의 경고·메시지."
+      ],
+      "orderedActions": [
+        "서비스 경고가 자가점검 뒤 지속되거나 주행 중 켜지면 정비한다. READY 소등·점멸과 정상 EV 모드 표시를 구분한다.",
+        "전원 공급 장치 정차 경고는 안전 정차 후 견인 점검한다. 회생제동 경고와 브레이크 경고 동시 점등은 제동 성능 저하를 전제로 주의하여 정비한다.",
+        "저충전은 즉시 충전한다. 출력 제한 시 급가속·급출발을 피하고 경사로 후퇴 가능성에 유의한다. 낮은 배터리 온도는 출발 전 충전하며 온도가 올라간 뒤에도 메시지가 남으면 정비한다.",
+        "배터리 과열은 안전 정차·시동 OFF 후 충분히 식힌다. 계속 경고되면 운행을 삼가고 견인/정비한다.",
+        "연결된 충전 커넥터는 분리 후 시동한다. 충전 중단은 커넥터·인렛 손상/이물질과 충전기를 확인하고 정상 충전기에서 반복되면 정비한다."
+      ],
+      "driverProhibitions": [],
+      "applicationConstraints": [
+        "모든 경고를 재시동만으로 해제하려 하지 않는다. 메시지 제목의 정차·시동 금지를 본문 요약에서 누락하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/SX2EV/2025/ko_KR",
+          "documentSha256": "5adf6f2b7662d46b226ce357cd40341eb7e07392b5236fe5f46a5c804b28d549",
+          "locator": {
+            "pdfPages1Based": [
+              58,
+              59,
+              60,
+              61
+            ]
+          },
+          "passageSha256": "ec2b7cb3af000140ced272339264ab802bc787f4db25246b0fc1670b29b30f20"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "저충전/출력 제한 메시지 SOC 기준은 각각 20%/10%. 주행 가능 거리는 조건부 예시이며 남은 거리 보장이 아니다."
+      ]
+    },
+    {
+      "ruleId": "HY-REF-DN8HEV-2026-POWERTRAIN_WARNING_PANEL",
+      "documentIds": [
+        "HYUNDAI-DN8HEV-2026"
+      ],
+      "topic": "POWERTRAIN_WARNING_PANEL",
+      "conditions": [
+        "계기판 경고 절과 별도로 제공되는 EV/HEV 시작 장의 경고·메시지."
+      ],
+      "orderedActions": [
+        "서비스 경고가 자가점검 뒤 지속되거나 주행 중 켜지면 정비한다. READY 소등·점멸과 정상 EV 모드 표시를 구분한다.",
+        "전원 공급 장치 정차 경고는 안전 정차 후 견인 점검한다. 회생제동 경고와 브레이크 경고 동시 점등은 제동 성능 저하를 전제로 주의하여 정비한다.",
+        "하이브리드 시스템 점검은 정비하며, 안전 정차 문구·READY 점멸·약10초 경고음이면 정차한다. 시동 금지 메시지와 1회 경고음/매우 낮은 SOC는 시동을 반복하지 않고 정비한다.",
+        "배터리 시스템 냉각수 메시지는 주행 중지 후 냉각수량을 확인하고 해당 냉각수 절의 냉간·규격·주의에 따라 조치한다."
+      ],
+      "driverProhibitions": [],
+      "applicationConstraints": [
+        "모든 경고를 재시동만으로 해제하려 하지 않는다. 메시지 제목의 정차·시동 금지를 본문 요약에서 누락하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/DN8HEV/2026/ko_KR",
+          "documentSha256": "5843551877e8a3279e67ca5830f64df2f7ac8cb0bbb4020f3415cd0e11dd3158",
+          "locator": {
+            "pdfPages1Based": [
+              12,
+              13,
+              14
+            ]
+          },
+          "passageSha256": "1cfd7e21d608e79cfe50c9d38406bc1e39bcd24d86543ba8d3845bb21327e5f7"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-US4HEV-2026-POWERTRAIN_WARNING_PANEL",
+      "documentIds": [
+        "HYUNDAI-US4HEV-2026"
+      ],
+      "topic": "POWERTRAIN_WARNING_PANEL",
+      "conditions": [
+        "계기판 경고 절과 별도로 제공되는 EV/HEV 시작 장의 경고·메시지."
+      ],
+      "orderedActions": [
+        "서비스 경고가 자가점검 뒤 지속되거나 주행 중 켜지면 정비한다. READY 소등·점멸과 정상 EV 모드 표시를 구분한다.",
+        "전원 공급 장치 정차 경고는 안전 정차 후 견인 점검한다. 회생제동 경고와 브레이크 경고 동시 점등은 제동 성능 저하를 전제로 주의하여 정비한다.",
+        "하이브리드 시스템 점검은 정비하며, 안전 정차 문구·READY 점멸·약10초 경고음이면 정차한다. 시동 금지 메시지와 1회 경고음/매우 낮은 SOC는 시동을 반복하지 않고 정비한다.",
+        "충전을 위해 정차하라는 배터리 부족 메시지는 안전 정차 후 P로 변속한다. 외부 충전 커넥터 사용으로 바꾸지 않는다.",
+        "배터리 시스템 냉각수 메시지는 주행 중지 후 냉각수량을 확인하고 해당 냉각수 절의 냉간·규격·주의에 따라 조치한다."
+      ],
+      "driverProhibitions": [],
+      "applicationConstraints": [
+        "모든 경고를 재시동만으로 해제하려 하지 않는다. 메시지 제목의 정차·시동 금지를 본문 요약에서 누락하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/US4HEV/2026/ko_KR",
+          "documentSha256": "393da16edb0b1e48d9fcf58aae0e37691f1ba26fa6cc53e5108d5566b9fd91f3",
+          "locator": {
+            "pdfPages1Based": [
+              14,
+              15
+            ]
+          },
+          "passageSha256": "2aaa7aefdb6735aca9b85a0b6234d7425454970218d47209102314db1fbfc59b"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-MX5HEV-2026-POWERTRAIN_WARNING_PANEL",
+      "documentIds": [
+        "HYUNDAI-MX5HEV-2026"
+      ],
+      "topic": "POWERTRAIN_WARNING_PANEL",
+      "conditions": [
+        "계기판 경고 절과 별도로 제공되는 EV/HEV 시작 장의 경고·메시지."
+      ],
+      "orderedActions": [
+        "서비스 경고가 자가점검 뒤 지속되거나 주행 중 켜지면 정비한다. READY 소등·점멸과 정상 EV 모드 표시를 구분한다.",
+        "전원 공급 장치 정차 경고는 안전 정차 후 견인 점검한다. 회생제동 경고와 브레이크 경고 동시 점등은 제동 성능 저하를 전제로 주의하여 정비한다.",
+        "하이브리드 시스템 점검은 정비하며, 안전 정차 문구·READY 점멸·약10초 경고음이면 정차한다. 시동 금지 메시지와 1회 경고음/매우 낮은 SOC는 시동을 반복하지 않고 정비한다.",
+        "배터리 시스템 냉각수 메시지는 주행 중지 후 냉각수량을 확인하고 해당 냉각수 절의 냉간·규격·주의에 따라 조치한다."
+      ],
+      "driverProhibitions": [],
+      "applicationConstraints": [
+        "모든 경고를 재시동만으로 해제하려 하지 않는다. 메시지 제목의 정차·시동 금지를 본문 요약에서 누락하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/MX5HEV/2026/ko_KR",
+          "documentSha256": "8fef11ef06a5ec675868b54b00b49b40de6bd4445f9f123fd0b4f6e0c5daad1b",
+          "locator": {
+            "pdfPages1Based": [
+              14,
+              15,
+              16,
+              17
+            ]
+          },
+          "passageSha256": "492c3a80f63f70fd0c048df264f1b73955a31f1dae229c25102d3fc1f25e538e"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-SX2HEV-2027-POWERTRAIN_WARNING_PANEL",
+      "documentIds": [
+        "HYUNDAI-SX2HEV-2027"
+      ],
+      "topic": "POWERTRAIN_WARNING_PANEL",
+      "conditions": [
+        "계기판 경고 절과 별도로 제공되는 EV/HEV 시작 장의 경고·메시지."
+      ],
+      "orderedActions": [
+        "서비스 경고가 자가점검 뒤 지속되거나 주행 중 켜지면 정비한다. READY 소등·점멸과 정상 EV 모드 표시를 구분한다.",
+        "전원 공급 장치 정차 경고는 안전 정차 후 견인 점검한다. 회생제동 경고와 브레이크 경고 동시 점등은 제동 성능 저하를 전제로 주의하여 정비한다.",
+        "하이브리드 시스템 점검은 정비하며, 안전 정차 문구·READY 점멸·약10초 경고음이면 정차한다. 시동 금지 메시지와 1회 경고음/매우 낮은 SOC는 시동을 반복하지 않고 정비한다.",
+        "배터리 시스템 냉각수 메시지는 주행 중지 후 냉각수량을 확인하고 해당 냉각수 절의 냉간·규격·주의에 따라 조치한다."
+      ],
+      "driverProhibitions": [],
+      "applicationConstraints": [
+        "모든 경고를 재시동만으로 해제하려 하지 않는다. 메시지 제목의 정차·시동 금지를 본문 요약에서 누락하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/SX2HEV/2027/ko_KR",
+          "documentSha256": "7a56521c4225093eba2421e74f789a81d2199cd9849eb68d711c55993d436bbe",
+          "locator": {
+            "pdfPages1Based": [
+              14,
+              15,
+              16,
+              17
+            ]
+          },
+          "passageSha256": "b2823434d41c56dc24862dec706147097410e4b0625a6a665d277f395f7442f1"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-LX3HEV-2027-POWERTRAIN_WARNING_PANEL",
+      "documentIds": [
+        "HYUNDAI-LX3HEV-2027"
+      ],
+      "topic": "POWERTRAIN_WARNING_PANEL",
+      "conditions": [
+        "계기판 경고 절과 별도로 제공되는 EV/HEV 시작 장의 경고·메시지."
+      ],
+      "orderedActions": [
+        "서비스 경고가 자가점검 뒤 지속되거나 주행 중 켜지면 정비한다. READY 소등·점멸과 정상 EV 모드 표시를 구분한다.",
+        "전원 공급 장치 정차 경고는 안전 정차 후 견인 점검한다. 회생제동 경고와 브레이크 경고 동시 점등은 제동 성능 저하를 전제로 주의하여 정비한다.",
+        "하이브리드 시스템 점검은 정비하며, 안전 정차 문구·READY 점멸·약10초 경고음이면 정차한다. 시동 금지 메시지와 1회 경고음/매우 낮은 SOC는 시동을 반복하지 않고 정비한다.",
+        "충전을 위해 정차하라는 배터리 부족 메시지는 안전 정차 후 P로 변속한다. 외부 충전 커넥터 사용으로 바꾸지 않는다."
+      ],
+      "driverProhibitions": [],
+      "applicationConstraints": [
+        "모든 경고를 재시동만으로 해제하려 하지 않는다. 메시지 제목의 정차·시동 금지를 본문 요약에서 누락하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/LX3HEV/2027/ko_KR",
+          "documentSha256": "718aba1cf5613a13fb9ce501f8ecb20d9bf3b81c0c6a87e976f76d2925dbcc3f",
+          "locator": {
+            "pdfPages1Based": [
+              14,
+              15
+            ]
+          },
+          "passageSha256": "927de1456f7cf14304a97bc433d7687c38d50c15dd16fda64b2b17a584acfda1"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-A01-2026-EV_ACCIDENT",
+      "documentIds": [
+        "HYUNDAI-A01-2026"
+      ],
+      "topic": "EV_ACCIDENT",
+      "conditions": [
+        "EV 사고·화재·침수 또는 비상 제동 필요 상황."
+      ],
+      "orderedActions": [
+        "사고 시 비상 경고 후 안전 정차·시동 OFF·대피하고 접근을 통제한다. 가스 누출이 의심되면 환기 후 즉시 대피한다.",
+        "화재는 대피·접근 통제 후 소방서에 EV 화재임을 알리고 지시를 따른다. 침수는 시동 OFF 후 키를 들고 대피하여 긴급출동에 알린다.",
+        "배터리 화재 차량 이동·견인은 재발화 가능성 때문에 소방차 동행을 요청한다."
+      ],
+      "driverProhibitions": [
+        "침수 EV에 접근·접촉하지 않는다. 누출액·고전압 부품에 접촉하지 않는다.",
+        "배터리 화재를 진압하려 무리하게 차량에 접근하지 않는다."
+      ],
+      "applicationConstraints": [
+        "물 대량 공급 필요성은 소방 대응 설명이며 운전자에게 화재 접근을 권장하는 지시로 바꾸지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/A01/2026/ko_KR",
+          "documentSha256": "38fbe422b1b95dbf54da081734f2facbf8969e1bca2a2a978a3725f890e677f1",
+          "locator": {
+            "pdfPages1Based": [
+              59,
+              60,
+              61,
+              62,
+              63
+            ]
+          },
+          "passageSha256": "19fa99eea0f8493543a7b8da96d64e70a9ef873e4647bfd1e38e123f3e33f41b"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "217 exact-normalized source sentences and source associations directly read; HREV50–52 additionally read in full.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "해당 EV 절의 모든 바퀴 들기 요구가 있는 경우 구동 바퀴를 접지시키지 않는다. 차량별 견인 장비 조건을 별도 보존한다."
+      ]
+    },
+    {
+      "ruleId": "HY-REF-SX2EV-2025-EV_ACCIDENT",
+      "documentIds": [
+        "HYUNDAI-SX2EV-2025"
+      ],
+      "topic": "EV_ACCIDENT",
+      "conditions": [
+        "EV 사고·화재·침수 또는 비상 제동 필요 상황."
+      ],
+      "orderedActions": [
+        "사고 시 비상 경고 후 안전 정차·시동 OFF·대피하고 접근을 통제한다. 가스 누출이 의심되면 환기 후 즉시 대피한다.",
+        "화재는 대피·접근 통제 후 소방서에 EV 화재임을 알리고 지시를 따른다. 침수는 시동 OFF 후 키를 들고 대피하여 긴급출동에 알린다.",
+        "배터리 화재 차량 이동·견인은 재발화 가능성 때문에 소방차 동행을 요청한다."
+      ],
+      "driverProhibitions": [
+        "침수 EV에 접근·접촉하지 않는다. 누출액·고전압 부품에 접촉하지 않는다.",
+        "배터리 화재를 진압하려 무리하게 차량에 접근하지 않는다."
+      ],
+      "applicationConstraints": [
+        "물 대량 공급 필요성은 소방 대응 설명이며 운전자에게 화재 접근을 권장하는 지시로 바꾸지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/SX2EV/2025/ko_KR",
+          "documentSha256": "5adf6f2b7662d46b226ce357cd40341eb7e07392b5236fe5f46a5c804b28d549",
+          "locator": {
+            "pdfPages1Based": [
+              62,
+              63,
+              64,
+              65
+            ]
+          },
+          "passageSha256": "4a443b3bc31901be61e6c3fb9c22bfa84ac321bc63ce9574888330d3c20b7fda"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "217 exact-normalized source sentences and source associations directly read; HREV50–52 additionally read in full.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "해당 EV 절의 모든 바퀴 들기 요구가 있는 경우 구동 바퀴를 접지시키지 않는다. 차량별 견인 장비 조건을 별도 보존한다."
+      ]
+    },
+    {
+      "ruleId": "HY-REF-NE1N-2026-EV_ACCIDENT",
+      "documentIds": [
+        "HYUNDAI-NE1N-2026"
+      ],
+      "topic": "EV_ACCIDENT",
+      "conditions": [
+        "EV 사고·화재·침수 또는 비상 제동 필요 상황."
+      ],
+      "orderedActions": [
+        "사고 시 비상 경고 후 안전 정차·시동 OFF·대피하고 접근을 통제한다. 가스 누출이 의심되면 환기 후 즉시 대피한다.",
+        "화재는 대피·접근 통제 후 소방서에 EV 화재임을 알리고 지시를 따른다. 침수는 시동 OFF 후 키를 들고 대피하여 긴급출동에 알린다.",
+        "배터리 화재 차량 이동·견인은 재발화 가능성 때문에 소방차 동행을 요청한다."
+      ],
+      "driverProhibitions": [
+        "침수 EV에 접근·접촉하지 않는다. 누출액·고전압 부품에 접촉하지 않는다.",
+        "배터리 화재를 진압하려 무리하게 차량에 접근하지 않는다."
+      ],
+      "applicationConstraints": [
+        "물 대량 공급 필요성은 소방 대응 설명이며 운전자에게 화재 접근을 권장하는 지시로 바꾸지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/NE1N/2026/ko_KR",
+          "documentSha256": "ba7440607e52d5b77f602965a999550da011260e0de50d4dab113f23a92af977",
+          "locator": {
+            "pdfPages1Based": [
+              67,
+              68,
+              69,
+              70,
+              71
+            ]
+          },
+          "passageSha256": "2e3ff6af5f6d6d0fd9dcb84e82fa7a0ec9b9873f583d1c3d7d6af1ac16599802"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "217 exact-normalized source sentences and source associations directly read; HREV50–52 additionally read in full.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "해당 EV 절의 모든 바퀴 들기 요구가 있는 경우 구동 바퀴를 접지시키지 않는다. 차량별 견인 장비 조건을 별도 보존한다."
+      ]
+    },
+    {
+      "ruleId": "HY-REF-US4EV-2027-EV_ACCIDENT",
+      "documentIds": [
+        "HYUNDAI-US4EV-2027"
+      ],
+      "topic": "EV_ACCIDENT",
+      "conditions": [
+        "EV 사고·화재·침수 또는 비상 제동 필요 상황."
+      ],
+      "orderedActions": [
+        "사고 시 비상 경고 후 안전 정차·시동 OFF·대피하고 접근을 통제한다. 가스 누출이 의심되면 환기 후 즉시 대피한다.",
+        "화재는 대피·접근 통제 후 소방서에 EV 화재임을 알리고 지시를 따른다. 침수는 시동 OFF 후 키를 들고 대피하여 긴급출동에 알린다.",
+        "배터리 화재 차량 이동·견인은 재발화 가능성 때문에 소방차 동행을 요청한다."
+      ],
+      "driverProhibitions": [
+        "침수 EV에 접근·접촉하지 않는다. 누출액·고전압 부품에 접촉하지 않는다.",
+        "배터리 화재를 진압하려 무리하게 차량에 접근하지 않는다."
+      ],
+      "applicationConstraints": [
+        "물 대량 공급 필요성은 소방 대응 설명이며 운전자에게 화재 접근을 권장하는 지시로 바꾸지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/US4EV/2027/ko_KR",
+          "documentSha256": "668df665ece6573f01f559409f8f62919f2b48d655f8a97d2a9a29c0575bcf2d",
+          "locator": {
+            "pdfPages1Based": [
+              53,
+              54,
+              55
+            ]
+          },
+          "passageSha256": "aaf040733839051b8227eeedf15ec6b8b8d5e11f68d58db040a1f70cfe4bb3ce"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "217 exact-normalized source sentences and source associations directly read; HREV50–52 additionally read in full.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "해당 EV 절의 모든 바퀴 들기 요구가 있는 경우 구동 바퀴를 접지시키지 않는다. 차량별 견인 장비 조건을 별도 보존한다."
+      ]
+    },
+    {
+      "ruleId": "HY-REF-NE1-2027-EV_ACCIDENT",
+      "documentIds": [
+        "HYUNDAI-NE1-2027"
+      ],
+      "topic": "EV_ACCIDENT",
+      "conditions": [
+        "EV 사고·화재·침수 또는 비상 제동 필요 상황."
+      ],
+      "orderedActions": [
+        "사고 시 비상 경고 후 안전 정차·시동 OFF·대피하고 접근을 통제한다. 가스 누출이 의심되면 환기 후 즉시 대피한다.",
+        "화재는 대피·접근 통제 후 소방서에 EV 화재임을 알리고 지시를 따른다. 침수는 시동 OFF 후 키를 들고 대피하여 긴급출동에 알린다.",
+        "배터리 화재 차량 이동·견인은 재발화 가능성 때문에 소방차 동행을 요청한다."
+      ],
+      "driverProhibitions": [
+        "침수 EV에 접근·접촉하지 않는다. 누출액·고전압 부품에 접촉하지 않는다.",
+        "배터리 화재를 진압하려 무리하게 차량에 접근하지 않는다."
+      ],
+      "applicationConstraints": [
+        "물 대량 공급 필요성은 소방 대응 설명이며 운전자에게 화재 접근을 권장하는 지시로 바꾸지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/NE1/2027/ko_KR",
+          "documentSha256": "e32d572bf61a989590d87925ed740b2795c714033a6ef4432a46852574ce26a1",
+          "locator": {
+            "pdfPages1Based": [
+              44,
+              45,
+              46,
+              47
+            ]
+          },
+          "passageSha256": "2b83e9ce3408ea6f03a9bf1c8f1d3b29e729f157916b0197442275eb7f2e29d0"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "217 exact-normalized source sentences and source associations directly read; HREV50–52 additionally read in full.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "해당 EV 절의 모든 바퀴 들기 요구가 있는 경우 구동 바퀴를 접지시키지 않는다. 차량별 견인 장비 조건을 별도 보존한다."
+      ]
+    },
+    {
+      "ruleId": "HY-REF-NE1-2025-EV_ACCIDENT",
+      "documentIds": [
+        "HYUNDAI-NE1-2025"
+      ],
+      "topic": "EV_ACCIDENT",
+      "conditions": [
+        "EV 사고·화재·침수 또는 비상 제동 필요 상황."
+      ],
+      "orderedActions": [
+        "사고 시 비상 경고 후 안전 정차·시동 OFF·대피하고 접근을 통제한다. 가스 누출이 의심되면 환기 후 즉시 대피한다.",
+        "화재는 대피·접근 통제 후 소방서에 EV 화재임을 알리고 지시를 따른다. 침수는 시동 OFF 후 키를 들고 대피하여 긴급출동에 알린다.",
+        "배터리 화재 차량 이동·견인은 재발화 가능성 때문에 소방차 동행을 요청한다."
+      ],
+      "driverProhibitions": [
+        "침수 EV에 접근·접촉하지 않는다. 누출액·고전압 부품에 접촉하지 않는다.",
+        "배터리 화재를 진압하려 무리하게 차량에 접근하지 않는다."
+      ],
+      "applicationConstraints": [
+        "물 대량 공급 필요성은 소방 대응 설명이며 운전자에게 화재 접근을 권장하는 지시로 바꾸지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/NE1/2025/ko_KR",
+          "documentSha256": "7c92b1e3b1326d6811340e664111897fc66f23b6ae96788e2d76e6f99eb30725",
+          "locator": {
+            "pdfPages1Based": [
+              40,
+              41,
+              42,
+              43
+            ]
+          },
+          "passageSha256": "05bffb58433d4c44d845f4555f7c3288ab9e6dc23370c1e2b9c834307b3f18e7"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "217 exact-normalized source sentences and source associations directly read; HREV50–52 additionally read in full.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "해당 EV 절의 모든 바퀴 들기 요구가 있는 경우 구동 바퀴를 접지시키지 않는다. 차량별 견인 장비 조건을 별도 보존한다."
+      ]
+    },
+    {
+      "ruleId": "HY-REF-CE1-2025-EV_ACCIDENT",
+      "documentIds": [
+        "HYUNDAI-CE1-2025"
+      ],
+      "topic": "EV_ACCIDENT",
+      "conditions": [
+        "EV 사고·화재·침수 또는 비상 제동 필요 상황."
+      ],
+      "orderedActions": [
+        "사고 시 비상 경고 후 안전 정차·시동 OFF·대피하고 접근을 통제한다. 가스 누출이 의심되면 환기 후 즉시 대피한다.",
+        "화재는 대피·접근 통제 후 소방서에 EV 화재임을 알리고 지시를 따른다. 침수는 시동 OFF 후 키를 들고 대피하여 긴급출동에 알린다.",
+        "배터리 화재 차량 이동·견인은 재발화 가능성 때문에 소방차 동행을 요청한다."
+      ],
+      "driverProhibitions": [
+        "침수 EV에 접근·접촉하지 않는다. 누출액·고전압 부품에 접촉하지 않는다.",
+        "배터리 화재를 진압하려 무리하게 차량에 접근하지 않는다."
+      ],
+      "applicationConstraints": [
+        "물 대량 공급 필요성은 소방 대응 설명이며 운전자에게 화재 접근을 권장하는 지시로 바꾸지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/CE1/2025/ko_KR",
+          "documentSha256": "778bd9cd9ba17bbe2fb8991499309d9dd22d8658fc5eb42d9c6aa673dac44335",
+          "locator": {
+            "pdfPages1Based": [
+              50,
+              51,
+              52,
+              53
+            ]
+          },
+          "passageSha256": "ab17da8e5299a00927f5ad0c34109aa309d80ba8e82db59ffb6c84bce4cd3f83"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "217 exact-normalized source sentences and source associations directly read; HREV50–52 additionally read in full.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "해당 EV 절의 모든 바퀴 들기 요구가 있는 경우 구동 바퀴를 접지시키지 않는다. 차량별 견인 장비 조건을 별도 보존한다."
+      ]
+    },
+    {
+      "ruleId": "HY-REF-ME-2027-EV_ACCIDENT",
+      "documentIds": [
+        "HYUNDAI-ME-2027"
+      ],
+      "topic": "EV_ACCIDENT",
+      "conditions": [
+        "EV 사고·화재·침수 또는 비상 제동 필요 상황."
+      ],
+      "orderedActions": [
+        "사고 시 비상 경고 후 안전 정차·시동 OFF·대피하고 접근을 통제한다. 가스 누출이 의심되면 환기 후 즉시 대피한다.",
+        "화재는 대피·접근 통제 후 소방서에 EV 화재임을 알리고 지시를 따른다. 침수는 시동 OFF 후 키를 들고 대피하여 긴급출동에 알린다.",
+        "배터리 화재 차량 이동·견인은 재발화 가능성 때문에 소방차 동행을 요청한다.",
+        "비상시 매립형 외부 손잡이 앞부분(차량 전면 쪽)을 눌러 돌출시킨 후 최대한 당겨 문을 연다."
+      ],
+      "driverProhibitions": [
+        "침수 EV에 접근·접촉하지 않는다. 누출액·고전압 부품에 접촉하지 않는다.",
+        "배터리 화재를 진압하려 무리하게 차량에 접근하지 않는다."
+      ],
+      "applicationConstraints": [
+        "물 대량 공급 필요성은 소방 대응 설명이며 운전자에게 화재 접근을 권장하는 지시로 바꾸지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/ME/2027/ko_KR",
+          "documentSha256": "527ba63f2d0106dc41775de2fb7e35b342f43ec8f88e606c7dd814cb44520fd0",
+          "locator": {
+            "pdfPages1Based": [
+              52,
+              53,
+              54,
+              55
+            ]
+          },
+          "passageSha256": "100c732850d37a522d003e23e6a851e224644622dd46572f331e3b27fc528235"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "217 exact-normalized source sentences and source associations directly read; HREV50–52 additionally read in full.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "해당 EV 절의 모든 바퀴 들기 요구가 있는 경우 구동 바퀴를 접지시키지 않는다. 차량별 견인 장비 조건을 별도 보존한다."
+      ]
+    },
+    {
+      "ruleId": "HY-REF-AXEV-2027-EV_ACCIDENT",
+      "documentIds": [
+        "HYUNDAI-AXEV-2027"
+      ],
+      "topic": "EV_ACCIDENT",
+      "conditions": [
+        "EV 사고·화재·침수 또는 비상 제동 필요 상황."
+      ],
+      "orderedActions": [
+        "사고 시 비상 경고 후 안전 정차·시동 OFF·대피하고 접근을 통제한다. 가스 누출이 의심되면 환기 후 즉시 대피한다.",
+        "화재는 대피·접근 통제 후 소방서에 EV 화재임을 알리고 지시를 따른다. 침수는 시동 OFF 후 키를 들고 대피하여 긴급출동에 알린다.",
+        "배터리 화재 차량 이동·견인은 재발화 가능성 때문에 소방차 동행을 요청한다."
+      ],
+      "driverProhibitions": [
+        "침수 EV에 접근·접촉하지 않는다. 누출액·고전압 부품에 접촉하지 않는다.",
+        "배터리 화재를 진압하려 무리하게 차량에 접근하지 않는다."
+      ],
+      "applicationConstraints": [
+        "물 대량 공급 필요성은 소방 대응 설명이며 운전자에게 화재 접근을 권장하는 지시로 바꾸지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/AXEV/2027/ko_KR",
+          "documentSha256": "aa1465589f86265c261fafb3c17c81eeac574c7bb7f7e60ab248715ebcfb8a96",
+          "locator": {
+            "pdfPages1Based": [
+              47,
+              48,
+              49,
+              50,
+              51
+            ]
+          },
+          "passageSha256": "c031b045877b7d13f464085b530bbbfa70930c52f0cbaea4b4780ea6650a20af"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "217 exact-normalized source sentences and source associations directly read; HREV50–52 additionally read in full.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "해당 EV 절의 모든 바퀴 들기 요구가 있는 경우 구동 바퀴를 접지시키지 않는다. 차량별 견인 장비 조건을 별도 보존한다."
+      ]
+    },
+    {
+      "ruleId": "HY-REF-CE1N-2025-EV_ACCIDENT",
+      "documentIds": [
+        "HYUNDAI-CE1N-2025"
+      ],
+      "topic": "EV_ACCIDENT",
+      "conditions": [
+        "EV 사고·화재·침수 또는 비상 제동 필요 상황."
+      ],
+      "orderedActions": [
+        "사고 시 비상 경고 후 안전 정차·시동 OFF·대피하고 접근을 통제한다. 가스 누출이 의심되면 환기 후 즉시 대피한다.",
+        "화재는 대피·접근 통제 후 소방서에 EV 화재임을 알리고 지시를 따른다. 침수는 시동 OFF 후 키를 들고 대피하여 긴급출동에 알린다.",
+        "배터리 화재 차량 이동·견인은 재발화 가능성 때문에 소방차 동행을 요청한다."
+      ],
+      "driverProhibitions": [
+        "침수 EV에 접근·접촉하지 않는다. 누출액·고전압 부품에 접촉하지 않는다.",
+        "배터리 화재를 진압하려 무리하게 차량에 접근하지 않는다."
+      ],
+      "applicationConstraints": [
+        "물 대량 공급 필요성은 소방 대응 설명이며 운전자에게 화재 접근을 권장하는 지시로 바꾸지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/CE1N/2025/ko_KR",
+          "documentSha256": "7f8ff59e884beca0ec6dab769448762b53ea1be3a23d523de4ff8d1943d2e416",
+          "locator": {
+            "pdfPages1Based": [
+              50,
+              51,
+              52,
+              53
+            ]
+          },
+          "passageSha256": "1ce5bece8e8711bb652666247e410707b56793c89534906cb25fdfeaeda58dfb"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "217 exact-normalized source sentences and source associations directly read; HREV50–52 additionally read in full.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "해당 EV 절의 모든 바퀴 들기 요구가 있는 경우 구동 바퀴를 접지시키지 않는다. 차량별 견인 장비 조건을 별도 보존한다."
+      ]
+    },
+    {
+      "ruleId": "HY-REF-HREV-2026-EV_ACCIDENT",
+      "documentIds": [
+        "HYUNDAI-HREV-2026"
+      ],
+      "topic": "EV_ACCIDENT",
+      "conditions": [
+        "EV 사고·화재·침수 또는 비상 제동 필요 상황."
+      ],
+      "orderedActions": [
+        "사고 시 비상 경고 후 안전 정차·시동 OFF·대피하고 접근을 통제한다. 가스 누출이 의심되면 환기 후 즉시 대피한다.",
+        "화재는 대피·접근 통제 후 소방서에 EV 화재임을 알리고 지시를 따른다. 침수는 시동 OFF 후 키를 들고 대피하여 긴급출동에 알린다.",
+        "배터리 화재 차량 이동·견인은 재발화 가능성 때문에 소방차 동행을 요청한다."
+      ],
+      "driverProhibitions": [
+        "침수 EV에 접근·접촉하지 않는다. 누출액·고전압 부품에 접촉하지 않는다.",
+        "배터리 화재를 진압하려 무리하게 차량에 접근하지 않는다."
+      ],
+      "applicationConstraints": [
+        "물 대량 공급 필요성은 소방 대응 설명이며 운전자에게 화재 접근을 권장하는 지시로 바꾸지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HREV/2026/ko_KR",
+          "documentSha256": "5a1c574677a6029a87996732c6c0eed0819650601c08a2a02385c0d9728e4432",
+          "locator": {
+            "pdfPages1Based": [
+              50,
+              51,
+              52
+            ]
+          },
+          "passageSha256": "7c7e11ed91250077be414db00479d857a6d417786968af6a196d2126de7feb1b"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "217 exact-normalized source sentences and source associations directly read; HREV50–52 additionally read in full.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "modelSpecificConditions": [
+        "견인은 전륜/후륜 구동 차이를 지운 공통 규칙 금지. HREV는 네 바퀴 상차를 우선하며 두 바퀴 견인은 구동 후륜을 들어 올린다."
+      ]
+    }
+  ],
+  "readingLedger": {
+    "uniqueUnitsRead": 603,
+    "allUnitIndicesRead": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419,
+      420,
+      421,
+      422,
+      423,
+      424,
+      425,
+      426,
+      427,
+      428,
+      429,
+      430,
+      431,
+      432,
+      433,
+      434,
+      435,
+      436,
+      437,
+      438,
+      439,
+      440,
+      441,
+      442,
+      443,
+      444,
+      445,
+      446,
+      447,
+      448,
+      449,
+      450,
+      451,
+      452,
+      453,
+      454,
+      455,
+      456,
+      457,
+      458,
+      459,
+      460,
+      461,
+      462,
+      463,
+      464,
+      465,
+      466,
+      467,
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486,
+      487,
+      488,
+      489,
+      490,
+      491,
+      492,
+      493,
+      494,
+      495,
+      496,
+      497,
+      498,
+      499,
+      500,
+      501,
+      502,
+      503,
+      504,
+      505,
+      506,
+      507,
+      508,
+      509,
+      510,
+      511,
+      512,
+      513,
+      514,
+      515,
+      516,
+      517,
+      518,
+      519,
+      520,
+      521,
+      522,
+      523,
+      524,
+      525,
+      526,
+      527,
+      528,
+      529,
+      530,
+      531,
+      532,
+      533,
+      534,
+      535,
+      536,
+      537,
+      538,
+      539,
+      540,
+      541,
+      542,
+      543,
+      544,
+      545,
+      546,
+      547,
+      548,
+      549,
+      550,
+      551,
+      552,
+      553,
+      554,
+      555,
+      556,
+      557,
+      558,
+      559,
+      560,
+      561,
+      562,
+      563,
+      564,
+      565,
+      566,
+      567,
+      568,
+      569,
+      570,
+      571,
+      572,
+      573,
+      574,
+      575,
+      576,
+      577,
+      578,
+      579,
+      580,
+      581,
+      582,
+      583,
+      584,
+      585,
+      586,
+      587,
+      588,
+      589,
+      590,
+      591,
+      592,
+      593,
+      594,
+      595,
+      596,
+      597,
+      598,
+      599,
+      600,
+      601,
+      602
+    ],
+    "sha256": "b58463277eeb42d3b063194765aeb48f04d36a175fd755c0e3c8701854a07c05"
+  },
+  "runtimeApproved": false,
+  "finalReadingIndex": "hyundai-source-reading-closure.json"
+}

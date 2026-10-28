@@ -1,0 +1,225 @@
+{
+  "documentsChecked": 35,
+  "passed": 35,
+  "failed": 0,
+  "pdfCount": 28,
+  "pdfPages": 14792,
+  "webCount": 7,
+  "webTOCTopics": 3696,
+  "bytes": 819130038,
+  "currentSalesVariantsInScope": 44,
+  "unmappedSalesVariants": 0,
+  "semanticApproval": false,
+  "results": [
+    {
+      "modelCode": "A01",
+      "year": "2026",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "NH2",
+      "year": "2027",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "US4EV",
+      "year": "2027",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "NE1",
+      "year": "2027",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "NE1",
+      "year": "2025",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "CE1",
+      "year": "2025",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "ME",
+      "year": "2027",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "AXEV",
+      "year": "2027",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "SX2EV",
+      "year": "2025",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "HREV",
+      "year": "2026",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "GN7",
+      "year": "2027",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "GN7HEV",
+      "year": "2027",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "DN8",
+      "year": "2026",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "DN8HEV",
+      "year": "2026",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "DN8c",
+      "year": "2025",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "CN8",
+      "year": "2027",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "CN8KH",
+      "year": "2027",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "US4SV",
+      "year": "2026",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "US4",
+      "year": "2026",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "US4HEV",
+      "year": "2026",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "QX",
+      "year": "2027",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "MX5",
+      "year": "2026",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "MX5HEV",
+      "year": "2026",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "AX",
+      "year": "2027",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "SX2",
+      "year": "2027",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "SX2HEV",
+      "year": "2027",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "NX5",
+      "year": "2027",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "NX5KP",
+      "year": "2027",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "LX3",
+      "year": "2027",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "LX3HEV",
+      "year": "2027",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "HR",
+      "year": "2026",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "HRSV",
+      "year": "2025",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "CN7N",
+      "year": "2026",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "NE1N",
+      "year": "2026",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "modelCode": "CE1N",
+      "year": "2025",
+      "status": "pass",
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,3171 @@
+{
+  "checkedOn": "2026-10-28",
+  "sdk": {
+    "coordinate": "ai.pleos.playground:Vehicle:2.3.2",
+    "enumClass": "ai.pleos.playground.vehicle.constant.telltale.TelltaleType",
+    "aarSha256": "e11fdfe498cad3ecc0d5a2a6992b0c4a4d135195f1455018127bc069fd5ef937",
+    "method": "javap on classes.jar from installed Gradle dependency"
+  },
+  "counts": {
+    "sdkTypes": 95,
+    "consoleTypes": 37,
+    "appExplanationTypes": 1,
+    "appProfiles": 1,
+    "reviewedSummaryChunks": 3
+  },
+  "states": [
+    "OFF",
+    "ON",
+    "BLINK"
+  ],
+  "consoleCatalog": ".local/vehicle-catalog.json",
+  "consoleCatalogSha256": "0d970f4b07d3bc9823e23142b8cf209570d87d39b3f0c2cd8f2d39b5e6590482",
+  "appSources": [
+    "android/app/src/main/java/com/checkmate/pleos/vehicle/PleosWarningSource.kt",
+    "android/app/src/main/java/com/checkmate/pleos/vehicle/WarningMonitor.kt",
+    "android/app/src/main/java/com/checkmate/pleos/manual/TpmsGuide.kt",
+    "backend/checkmate/data/manuals.json"
+  ],
+  "priorityDefinition": "P0/P1/P2 are manual-acquisition editorial priorities, never driving severity or vehicle commands",
+  "warnings": [
+    {
+      "sdk_symbol": "PARKING_BRAKE",
+      "console_symbol": "ParkingBrake",
+      "display_label_working": "????/?? ???? ?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ALL",
+      "target_manual_sections": [
+        "???? ??? / ?? ????"
+      ],
+      "acquisition_priority": "P0",
+      "required_context": [
+        "parking_brake_engaged",
+        "color",
+        "simultaneous_lamps",
+        "braking_symptoms"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "ELECTRONIC_PARKING_BRAKE",
+      "console_symbol": "ElectronicParkingBrake",
+      "display_label_working": "??? ?? ????",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ALL",
+      "target_manual_sections": [
+        "??? ?? ???? EPB"
+      ],
+      "acquisition_priority": "P0",
+      "required_context": [
+        "ignition_elapsed",
+        "parking_brake_engaged",
+        "color",
+        "simultaneous_lamps"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "SEAT_BELT",
+      "console_symbol": "SeatBelt",
+      "display_label_working": "????",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ALL",
+      "target_manual_sections": [
+        "???? ??? ? ???"
+      ],
+      "acquisition_priority": "P1",
+      "required_context": [
+        "seat_occupancy",
+        "belt_buckle_state",
+        "vehicle_speed"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "DOOR_OPEN",
+      "console_symbol": "DoorOpen",
+      "display_label_working": "?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ALL",
+      "target_manual_sections": [
+        "?? ?? ???"
+      ],
+      "acquisition_priority": "P1",
+      "required_context": [
+        "door_position",
+        "vehicle_motion"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "ABS",
+      "console_symbol": "ABS",
+      "display_label_working": "ABS",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ALL",
+      "target_manual_sections": [
+        "??? ? ??? / ABS"
+      ],
+      "acquisition_priority": "P0",
+      "required_context": [
+        "ignition_elapsed",
+        "simultaneous_lamps",
+        "braking_symptoms"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "MDPS",
+      "console_symbol": "MDPS",
+      "display_label_working": "?? ?? ????",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ALL",
+      "target_manual_sections": [
+        "?? ?? ???? ???"
+      ],
+      "acquisition_priority": "P0",
+      "required_context": [
+        "ignition_elapsed",
+        "steering_symptoms"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "TPMS",
+      "console_symbol": "TPMS",
+      "display_label_working": "?? ???/TPMS",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": true,
+      "eligibility_scope": "hyundai-ioniq5-2025-ev-kr-ko-r1.27; ON/BLINK general manual explanation, not diagnosed fault",
+      "powertrain_candidate": "ALL",
+      "target_manual_sections": [
+        "??? ??? ?? ???"
+      ],
+      "acquisition_priority": "P0",
+      "required_context": [
+        "ignition_elapsed",
+        "blink_then_on_duration",
+        "individual_tire_pressure",
+        "observation_continuity"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "LOW_VOLT_BATTERY",
+      "console_symbol": "LowVoltBattery",
+      "display_label_working": "???/12V ?? ?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ALL",
+      "target_manual_sections": [
+        "?? ??? / 12V ?? ???"
+      ],
+      "acquisition_priority": "P0",
+      "required_context": [
+        "powertrain",
+        "color",
+        "cluster_message",
+        "ignition_state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "ESC",
+      "console_symbol": "ESC",
+      "display_label_working": "?? ?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ALL",
+      "target_manual_sections": [
+        "?? ?? ?? ESC"
+      ],
+      "acquisition_priority": "P0",
+      "required_context": [
+        "ignition_elapsed",
+        "state",
+        "driving_context",
+        "color"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "ESC_OFF",
+      "console_symbol": "ESCOff",
+      "display_label_working": "?? ?? ?? ?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ALL",
+      "target_manual_sections": [
+        "ESC ?? ?? ???"
+      ],
+      "acquisition_priority": "P1",
+      "required_context": [
+        "driver_switch_setting",
+        "ignition_elapsed"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "AIRBAG",
+      "console_symbol": "Airbag",
+      "display_label_working": "???",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ALL",
+      "target_manual_sections": [
+        "??? ???"
+      ],
+      "acquisition_priority": "P0",
+      "required_context": [
+        "ignition_elapsed",
+        "ignition_state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "AFS",
+      "console_symbol": "AFS",
+      "display_label_working": "??? ?? ?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ALL",
+      "target_manual_sections": [
+        "AFS / ???? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "equipment",
+        "cluster_message"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "MASTER_WARNING",
+      "console_symbol": "MasterWarning",
+      "display_label_working": "?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ALL",
+      "target_manual_sections": [
+        "?? ??? / ???? ???"
+      ],
+      "acquisition_priority": "P0",
+      "required_context": [
+        "cluster_message",
+        "simultaneous_lamps",
+        "equipment"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "AUTO_HOLD",
+      "console_symbol": "AutoHold",
+      "display_label_working": "?? ?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ALL",
+      "target_manual_sections": [
+        "AUTO HOLD ???"
+      ],
+      "acquisition_priority": "P1",
+      "required_context": [
+        "color",
+        "driver_switch_setting",
+        "vehicle_motion"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "AUTO_HIGH_BEAM",
+      "console_symbol": "AutoHighBeam",
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "HEADLAMP_LOW",
+      "console_symbol": "HeadlampLow",
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "HEADLAMP_HIGH",
+      "console_symbol": "HeadlampHigh",
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "POSITION_LAMP",
+      "console_symbol": "PositionLamp",
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "FRONT_FOG_LAMP",
+      "console_symbol": "FrontFogLamp",
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "REAR_FOG_LAMP",
+      "console_symbol": "RearFogLamp",
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "ENGINE_OIL_PRESSURE",
+      "console_symbol": "EngineOilPressure",
+      "display_label_working": "?? ?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ENGINE_EQUIPPED",
+      "target_manual_sections": [
+        "?? ?? ?? ??? / ?? ?? ??"
+      ],
+      "acquisition_priority": "P0",
+      "required_context": [
+        "engine_running",
+        "powertrain",
+        "oil_level",
+        "cluster_message"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "ENGINE_TEMPERATURE",
+      "console_symbol": "EngineTemperature",
+      "display_label_working": "?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ENGINE_EQUIPPED",
+      "target_manual_sections": [
+        "?? ?? / ??? ?? ??"
+      ],
+      "acquisition_priority": "P0",
+      "required_context": [
+        "coolant_temperature",
+        "steam_or_leak",
+        "fan_operation",
+        "powertrain"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "EMERGENCY_CALL",
+      "console_symbol": "EmergencyCall",
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "EV_SYSTEM",
+      "console_symbol": "EVSystem",
+      "display_label_working": "??? ??? ?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "BEV",
+      "target_manual_sections": [
+        "??? ??? / ??? ???"
+      ],
+      "acquisition_priority": "P0",
+      "required_context": [
+        "ignition_elapsed",
+        "simultaneous_lamps",
+        "cluster_message"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "POWER_DOWN",
+      "console_symbol": "PowerDown",
+      "display_label_working": "?? ??/????",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ELECTRIFIED",
+      "target_manual_sections": [
+        "???? ???"
+      ],
+      "acquisition_priority": "P0",
+      "required_context": [
+        "powertrain",
+        "simultaneous_lamps",
+        "state_of_charge",
+        "battery_temperature",
+        "cluster_message"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "RBS",
+      "console_symbol": "RBS",
+      "display_label_working": "?? ?? ?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ELECTRIFIED",
+      "target_manual_sections": [
+        "?? ?? ???"
+      ],
+      "acquisition_priority": "P0",
+      "required_context": [
+        "simultaneous_lamps",
+        "braking_symptoms",
+        "powertrain",
+        "color"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "IMMOBILIZER",
+      "console_symbol": "Immobilizer",
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "ENGINE",
+      "console_symbol": "Engine",
+      "display_label_working": "?? ?? MIL",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ENGINE_EQUIPPED",
+      "target_manual_sections": [
+        "?? ??? / ???? ??"
+      ],
+      "acquisition_priority": "P0",
+      "required_context": [
+        "ignition_elapsed",
+        "powertrain",
+        "engine_symptoms",
+        "cluster_message"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "LED_HEADLAMP",
+      "console_symbol": "LEDHeadlamp",
+      "display_label_working": "LED ???",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ALL",
+      "target_manual_sections": [
+        "LED ??? ???"
+      ],
+      "acquisition_priority": "P1",
+      "required_context": [
+        "state",
+        "equipment"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "PREHEAT",
+      "console_symbol": "Preheat",
+      "display_label_working": "?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "DIESEL",
+      "target_manual_sections": [
+        "?? ???"
+      ],
+      "acquisition_priority": "P1",
+      "required_context": [
+        "powertrain",
+        "ignition_elapsed",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "PARTICLE_FILTER",
+      "console_symbol": "ParticleFilter",
+      "display_label_working": "?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "GASOLINE_DIESEL",
+      "target_manual_sections": [
+        "DPF / GPF"
+      ],
+      "acquisition_priority": "P1",
+      "required_context": [
+        "engine_variant",
+        "state",
+        "cluster_message"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "H2_SENSOR",
+      "console_symbol": "H2Sensor",
+      "display_label_working": "?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "FCEV",
+      "target_manual_sections": [
+        "?? ?? ???"
+      ],
+      "acquisition_priority": "P1",
+      "required_context": [
+        "powertrain",
+        "cluster_message"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "H2_LEAK",
+      "console_symbol": "H2Leak",
+      "display_label_working": "?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "FCEV",
+      "target_manual_sections": [
+        "?? ?? ?? / ??? ??"
+      ],
+      "acquisition_priority": "P0",
+      "required_context": [
+        "powertrain",
+        "cluster_message"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "PASSENGER_AIRBAG_OFF",
+      "console_symbol": "PassengerAirbagOff",
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "PASSENGER_AIRBAG_ON",
+      "console_symbol": "PassengerAirbagOn",
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "TURN_SIGNAL_LEFT",
+      "console_symbol": "TurnSignalLeft",
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "TURN_SIGNAL_RIGHT",
+      "console_symbol": "TurnSignalRight",
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": true,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "ICY_ROAD",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "OVER_SPEED",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "WATER_SEPARATOR",
+      "console_symbol": null,
+      "display_label_working": "?? ?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "DIESEL",
+      "target_manual_sections": [
+        "?? ?? ?? ??"
+      ],
+      "acquisition_priority": "P1",
+      "required_context": [
+        "engine_variant",
+        "cluster_message"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "SCR",
+      "console_symbol": null,
+      "display_label_working": "???/SCR",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "DIESEL",
+      "target_manual_sections": [
+        "??? ??? ??"
+      ],
+      "acquisition_priority": "P1",
+      "required_context": [
+        "engine_variant",
+        "cluster_message",
+        "remaining_restart_distance"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "LOW_EV_BATTERY",
+      "console_symbol": null,
+      "display_label_working": "??? ??? ???",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "BEV_PHEV",
+      "target_manual_sections": [
+        "??? ??? ??? ??"
+      ],
+      "acquisition_priority": "P0",
+      "required_context": [
+        "powertrain",
+        "state_of_charge",
+        "cluster_message"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "HEV_SYSTEM",
+      "console_symbol": null,
+      "display_label_working": "????? ???",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "HEV_PHEV",
+      "target_manual_sections": [
+        "????? ??? / ??? ???"
+      ],
+      "acquisition_priority": "P0",
+      "required_context": [
+        "powertrain",
+        "cluster_message",
+        "simultaneous_lamps"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "FCEV_SYSTEM",
+      "console_symbol": null,
+      "display_label_working": "???? ???",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "FCEV",
+      "target_manual_sections": [
+        "???? ??? ???"
+      ],
+      "acquisition_priority": "P1",
+      "required_context": [
+        "powertrain",
+        "cluster_message",
+        "simultaneous_lamps"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "EREV_SYSTEM",
+      "console_symbol": null,
+      "display_label_working": "???? ??? ???",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "EREV",
+      "target_manual_sections": [
+        "??? EREV ??? ??"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "powertrain",
+        "cluster_message",
+        "simultaneous_lamps"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "LPI",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "EV_CHARGING_CONNECTOR",
+      "console_symbol": null,
+      "display_label_working": "??? ?? ???",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "BEV_PHEV",
+      "target_manual_sections": [
+        "?? ??? ???"
+      ],
+      "acquisition_priority": "P1",
+      "required_context": [
+        "color",
+        "connector_state",
+        "charging_state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "AWD_LOCK",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "HEV_MODE",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "ISG",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "DBC",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "REV",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "XEV_READY",
+      "console_symbol": null,
+      "display_label_working": "?? ?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ELECTRIFIED",
+      "target_manual_sections": [
+        "?? ?? READY ???"
+      ],
+      "acquisition_priority": "P1",
+      "required_context": [
+        "powertrain",
+        "ignition_state",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "I_PEDAL",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "LOW_FUEL",
+      "console_symbol": null,
+      "display_label_working": "?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ENGINE_EQUIPPED",
+      "target_manual_sections": [
+        "?? ?? ???"
+      ],
+      "acquisition_priority": "P1",
+      "required_context": [
+        "powertrain",
+        "fuel_type",
+        "color"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "LOW_FUEL_FCEV",
+      "console_symbol": null,
+      "display_label_working": "?? ?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "FCEV",
+      "target_manual_sections": [
+        "?? ?? ?? ??"
+      ],
+      "acquisition_priority": "P1",
+      "required_context": [
+        "powertrain",
+        "fuel_remaining"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "EV_BATTERY_CONDITIONING",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "TRUNK_OPEN",
+      "console_symbol": null,
+      "display_label_working": "??? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ALL",
+      "target_manual_sections": [
+        "???/????? ???"
+      ],
+      "acquisition_priority": "P1",
+      "required_context": [
+        "trunk_position",
+        "vehicle_motion"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "CHILD_PRESENCE_DETECTION_OFF",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "DRIVE_MODE",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "DRIVE_MODE_SPORT",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "DRIVE_MODE_ECO",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "DRIVE_MODE_COMFORT",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "DRIVE_MODE_TERRAIN",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "FORCED_ALL_WHEEL_DRIVE",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "FOUR_WHEEL_DRIVE_MODE_2H",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "FOUR_WHEEL_DRIVE_MODE_4A",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "FOUR_WHEEL_DRIVE_MODE_4H",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "FOUR_WHEEL_DRIVE_MODE_4L",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "TOW_MODE",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "ESC_SPORT",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "CREEP_OFF",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "DRIFT_MODE",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "TRACK_MODE",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "UTILITY_MODE",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "GREEN_ZONE",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "PHEV_MODE",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "PHEV_MODE_HEV",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "PHEV_MODE_AUTO",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "PHEV_MODE_EV_PLUS",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "EREV_MODE",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "LAUNCH_MODE",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "ACCEL_RESPONSE_DASH",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "ACCEL_RESPONSE_ACCEL",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "N_BATTERY_DRAG",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "N_BATTERY_SPRINT",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "N_BATTERY_ENDURANCE",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "FCA",
+      "console_symbol": null,
+      "display_label_working": "?? ?? ?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ALL",
+      "target_manual_sections": [
+        "?? ???? ??"
+      ],
+      "acquisition_priority": "P1",
+      "required_context": [
+        "color",
+        "state",
+        "driver_switch_setting",
+        "sensor_obstruction",
+        "equipment"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "LKA",
+      "console_symbol": null,
+      "display_label_working": "?? ?? ?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ALL",
+      "target_manual_sections": [
+        "?? ???? ??"
+      ],
+      "acquisition_priority": "P1",
+      "required_context": [
+        "color",
+        "state",
+        "driver_switch_setting",
+        "sensor_obstruction",
+        "equipment"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "LFA",
+      "console_symbol": null,
+      "display_label_working": "?? ?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ALL",
+      "target_manual_sections": [
+        "?? ?? ??"
+      ],
+      "acquisition_priority": "P1",
+      "required_context": [
+        "color",
+        "state",
+        "equipment"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "LCA_LEFT",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "LCA_RIGHT",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "ELK",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "ICC",
+      "console_symbol": null,
+      "display_label_working": null,
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "MODEL_DEPENDENT",
+      "target_manual_sections": [
+        "?? ?? ??? ? ??? / ?? ???"
+      ],
+      "acquisition_priority": "P2",
+      "required_context": [
+        "model_equipment",
+        "color",
+        "state"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    },
+    {
+      "sdk_symbol": "DRIVER_ATTENTION",
+      "console_symbol": null,
+      "display_label_working": "??? ?? ??",
+      "supported_signal": true,
+      "supported_signal_meaning": "SDK enum exists; actual vehicle capability and emission not guaranteed",
+      "console_testable": false,
+      "app_records_type_state": true,
+      "app_preserves_context": {
+        "color": false,
+        "priority": false,
+        "warningCount": false,
+        "typeStateChangeTimes": true,
+        "continuousLampDuration": false,
+        "ignitionState": false,
+        "clusterMessage": false,
+        "otherCurrentLamps": true,
+        "serverReceivesOtherLamps": false
+      },
+      "eligible_for_explanation": false,
+      "eligibility_scope": "not implemented; acquisition target only",
+      "powertrain_candidate": "ALL",
+      "target_manual_sections": [
+        "??? ?? ??"
+      ],
+      "acquisition_priority": "P1",
+      "required_context": [
+        "color",
+        "state",
+        "cluster_message"
+      ],
+      "mapping_review_status": "RESEARCH_CANDIDATE_NOT_RUNTIME_APPROVED"
+    }
+  ]
+}

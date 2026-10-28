@@ -1,0 +1,471 @@
+{
+  "checked_at_utc": "2026-10-28T03:41:30.835942+00:00",
+  "denominator": "42 sales product rows, including one excluded bus; HEV may be bundled under a sales family. Not 42 distinct manuals.",
+  "products": [
+    {
+      "url": "https://www.kia.com/kr/vehicles/ray-ev",
+      "label": "레이 EV ",
+      "category": "ev",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/ev",
+      "coverage_status": "exact_confirmed",
+      "manifest_document_ids": [
+        "kia_TAMEV_2027"
+      ],
+      "reason": "Official model family match. This does not certify every trim/year or approve all extracted guidance."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/ev3",
+      "label": "EV3 ",
+      "category": "ev",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/ev",
+      "coverage_status": "exact_confirmed",
+      "manifest_document_ids": [
+        "kia_SV1_2027"
+      ],
+      "reason": "Official model family match. This does not certify every trim/year or approve all extracted guidance."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/ev3-gt",
+      "label": "EV3 GT ",
+      "category": "ev",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/ev",
+      "coverage_status": "shared_candidate",
+      "manifest_document_ids": [
+        "kia_SV1_2027"
+      ],
+      "reason": "Base-family manual acquired; GT/body conversion/taxi/passenger-cargo applicability or supplement must be verified before reuse."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/ev4",
+      "label": "EV4 ",
+      "category": "ev",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/ev",
+      "coverage_status": "exact_confirmed",
+      "manifest_document_ids": [
+        "kia_CT1_2027"
+      ],
+      "reason": "Official model family match. This does not certify every trim/year or approve all extracted guidance."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/ev4-gt",
+      "label": "EV4 GT ",
+      "category": "ev",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/ev",
+      "coverage_status": "shared_candidate",
+      "manifest_document_ids": [
+        "kia_CT1_2027"
+      ],
+      "reason": "Base-family manual acquired; GT/body conversion/taxi/passenger-cargo applicability or supplement must be verified before reuse."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/ev5",
+      "label": "EV5 ",
+      "category": "ev",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/ev",
+      "coverage_status": "exact_confirmed",
+      "manifest_document_ids": [
+        "kia_OV1K_2026"
+      ],
+      "reason": "Official model family match. This does not certify every trim/year or approve all extracted guidance."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/ev5-gt",
+      "label": "EV5 GT ",
+      "category": "ev",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/ev",
+      "coverage_status": "shared_candidate",
+      "manifest_document_ids": [
+        "kia_OV1K_2026"
+      ],
+      "reason": "Base-family manual acquired; GT/body conversion/taxi/passenger-cargo applicability or supplement must be verified before reuse."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/ev6",
+      "label": "EV6 ",
+      "category": "ev",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/ev",
+      "coverage_status": "exact_confirmed",
+      "manifest_document_ids": [
+        "kia_CV1_2027"
+      ],
+      "reason": "Official model family match. This does not certify every trim/year or approve all extracted guidance."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/ev6-gt",
+      "label": "EV6 GT ",
+      "category": "ev",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/ev",
+      "coverage_status": "shared_candidate",
+      "manifest_document_ids": [
+        "kia_CV1_2027"
+      ],
+      "reason": "Base-family manual acquired; GT/body conversion/taxi/passenger-cargo applicability or supplement must be verified before reuse."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/ev9",
+      "label": "EV9 ",
+      "category": "ev",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/ev",
+      "coverage_status": "exact_confirmed",
+      "manifest_document_ids": [
+        "kia_MV1_2027"
+      ],
+      "reason": "Official model family match. This does not certify every trim/year or approve all extracted guidance."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/ev9-gt",
+      "label": "EV9 GT ",
+      "category": "ev",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/ev",
+      "coverage_status": "shared_candidate",
+      "manifest_document_ids": [
+        "kia_MV1_2027"
+      ],
+      "reason": "Base-family manual acquired; GT/body conversion/taxi/passenger-cargo applicability or supplement must be verified before reuse."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/bongo3-ev",
+      "label": "봉고Ⅲ EV ",
+      "category": "ev",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/ev",
+      "coverage_status": "exact_confirmed",
+      "manifest_document_ids": [
+        "kia_PUEV_2026"
+      ],
+      "reason": "Official model family match. This does not certify every trim/year or approve all extracted guidance."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/bongo3-ev-frozen",
+      "label": "봉고Ⅲ EV 탑차/윙바디 ",
+      "category": "ev",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/ev",
+      "coverage_status": "shared_candidate",
+      "manifest_document_ids": [
+        "kia_PUEV_2026"
+      ],
+      "reason": "Base-family manual acquired; GT/body conversion/taxi/passenger-cargo applicability or supplement must be verified before reuse."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/bongo3-ev-powergate",
+      "label": "봉고Ⅲ EV 파워게이트 ",
+      "category": "ev",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/ev",
+      "coverage_status": "shared_candidate",
+      "manifest_document_ids": [
+        "kia_PUEV_2026"
+      ],
+      "reason": "Base-family manual acquired; GT/body conversion/taxi/passenger-cargo applicability or supplement must be verified before reuse."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/morning",
+      "label": "모닝 ",
+      "category": "sedan",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/sedan",
+      "coverage_status": "exact_confirmed",
+      "manifest_document_ids": [
+        "kia_JA_2027"
+      ],
+      "reason": "Official model family match. This does not certify every trim/year or approve all extracted guidance."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/ray",
+      "label": "레이 ",
+      "category": "sedan",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/sedan",
+      "coverage_status": "exact_confirmed",
+      "manifest_document_ids": [
+        "kia_TAM_2027"
+      ],
+      "reason": "Official model family match. This does not certify every trim/year or approve all extracted guidance."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/k5",
+      "label": "K5 ",
+      "category": "sedan",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/sedan",
+      "coverage_status": "exact_confirmed",
+      "manifest_document_ids": [
+        "kia_DL3_2027",
+        "kia_DL3KH_2027"
+      ],
+      "reason": "Official model family match. This does not certify every trim/year or approve all extracted guidance."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/k8",
+      "label": "K8 ",
+      "category": "sedan",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/sedan",
+      "coverage_status": "exact_confirmed",
+      "manifest_document_ids": [
+        "kia_GL3_2027",
+        "kia_GL3KH_2027"
+      ],
+      "reason": "Official model family match. This does not certify every trim/year or approve all extracted guidance."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/k9",
+      "label": "K9 ",
+      "category": "sedan",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/sedan",
+      "coverage_status": "exact_confirmed",
+      "manifest_document_ids": [
+        "kia_RJ_2026"
+      ],
+      "reason": "Official model family match. This does not certify every trim/year or approve all extracted guidance."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/seltos",
+      "label": "셀토스 ",
+      "category": "rv",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/rv",
+      "coverage_status": "exact_confirmed",
+      "manifest_document_ids": [
+        "kia_SP3_2026"
+      ],
+      "reason": "Official model family match. This does not certify every trim/year or approve all extracted guidance."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/niro",
+      "label": "니로 ",
+      "category": "rv",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/rv",
+      "coverage_status": "exact_confirmed",
+      "manifest_document_ids": [
+        "kia_SG2_2027"
+      ],
+      "reason": "Official model family match. This does not certify every trim/year or approve all extracted guidance."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/sportage",
+      "label": "스포티지 ",
+      "category": "rv",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/rv",
+      "coverage_status": "exact_confirmed",
+      "manifest_document_ids": [
+        "kia_NQ5_2027",
+        "kia_NQ5KH_2026"
+      ],
+      "reason": "Official model family match. This does not certify every trim/year or approve all extracted guidance."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/sorento",
+      "label": "쏘렌토 ",
+      "category": "rv",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/rv",
+      "coverage_status": "exact_confirmed",
+      "manifest_document_ids": [
+        "kia_MQ4_2027",
+        "kia_MQ4KH_2027"
+      ],
+      "reason": "Official model family match. This does not certify every trim/year or approve all extracted guidance."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/tasman",
+      "label": "타스만 ",
+      "category": "rv",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/rv",
+      "coverage_status": "exact_confirmed",
+      "manifest_document_ids": [
+        "kia_TK1_2027"
+      ],
+      "reason": "Official model family match. This does not certify every trim/year or approve all extracted guidance."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/carnival",
+      "label": "카니발 ",
+      "category": "rv",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/rv",
+      "coverage_status": "exact_confirmed",
+      "manifest_document_ids": [
+        "kia_KA4_2027",
+        "kia_KA4KH_2027"
+      ],
+      "reason": "Official model family match. This does not certify every trim/year or approve all extracted guidance."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/carnival-hi-limousine",
+      "label": "카니발 하이리무진 ",
+      "category": "rv",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/rv",
+      "coverage_status": "shared_candidate",
+      "manifest_document_ids": [
+        "kia_KA4HI_2025"
+      ],
+      "reason": "Dedicated supplement acquired; basic vehicle exact-year manual is still required."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/k8-taxi",
+      "label": "K8 택시 ",
+      "category": "commercial",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/commercial",
+      "coverage_status": "shared_candidate",
+      "manifest_document_ids": [
+        "kia_GL3_2027"
+      ],
+      "reason": "Base-family manual acquired; GT/body conversion/taxi/passenger-cargo applicability or supplement must be verified before reuse."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/pv5-taxi",
+      "label": "PV5 패신저 택시 2-3-0 ",
+      "category": "commercial",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/commercial",
+      "coverage_status": "shared_candidate",
+      "manifest_document_ids": [
+        "kia_SW1K_2027"
+      ],
+      "reason": "Base-family manual acquired; GT/body conversion/taxi/passenger-cargo applicability or supplement must be verified before reuse."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/pv5-taxi-122",
+      "label": "PV5 패신저 택시 1-2-2 ",
+      "category": "commercial",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/commercial",
+      "coverage_status": "shared_candidate",
+      "manifest_document_ids": [
+        "kia_SW1K_2027"
+      ],
+      "reason": "Base-family manual acquired; GT/body conversion/taxi/passenger-cargo applicability or supplement must be verified before reuse."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/pv5-wav-taxi",
+      "label": "PV5 WAV 택시 ",
+      "category": "commercial",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/commercial",
+      "coverage_status": "shared_candidate",
+      "manifest_document_ids": [
+        "kia_SW1K_2027"
+      ],
+      "reason": "Base-family manual acquired; GT/body conversion/taxi/passenger-cargo applicability or supplement must be verified before reuse."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/bongo3",
+      "label": "봉고Ⅲ 트럭 ",
+      "category": "commercial",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/commercial",
+      "coverage_status": "exact_confirmed",
+      "manifest_document_ids": [
+        "kia_PU_2026"
+      ],
+      "reason": "Official model family match. This does not certify every trim/year or approve all extracted guidance."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/tasman-openbed",
+      "label": "타스만 오픈베드 ",
+      "category": "commercial",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/commercial",
+      "coverage_status": "shared_candidate",
+      "manifest_document_ids": [
+        "kia_TK1_2027"
+      ],
+      "reason": "Base-family manual acquired; GT/body conversion/taxi/passenger-cargo applicability or supplement must be verified before reuse."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/bongo3-frozen",
+      "label": "봉고Ⅲ 탑차/윙바디/워크스루밴 ",
+      "category": "commercial",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/commercial",
+      "coverage_status": "shared_candidate",
+      "manifest_document_ids": [
+        "kia_PU_2026"
+      ],
+      "reason": "Base-family manual acquired; GT/body conversion/taxi/passenger-cargo applicability or supplement must be verified before reuse."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/bongo3-dump",
+      "label": "봉고Ⅲ 덤프 ",
+      "category": "commercial",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/commercial",
+      "coverage_status": "shared_candidate",
+      "manifest_document_ids": [
+        "kia_PU_2026"
+      ],
+      "reason": "Base-family manual acquired; GT/body conversion/taxi/passenger-cargo applicability or supplement must be verified before reuse."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/bongo3-powergate",
+      "label": "봉고Ⅲ 파워게이트 ",
+      "category": "commercial",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/commercial",
+      "coverage_status": "shared_candidate",
+      "manifest_document_ids": [
+        "kia_PU_2026"
+      ],
+      "reason": "Base-family manual acquired; GT/body conversion/taxi/passenger-cargo applicability or supplement must be verified before reuse."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/granbird",
+      "label": "그랜버드 ",
+      "category": "commercial",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/commercial",
+      "coverage_status": "excluded_bus",
+      "manifest_document_ids": [],
+      "reason": "Heavy bus outside passenger/SUV/light-commercial scope."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/pv5-passenger",
+      "label": "PV5 패신저 ",
+      "category": "pbv",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/pbv",
+      "coverage_status": "shared_candidate",
+      "manifest_document_ids": [
+        "kia_SW1K_2027"
+      ],
+      "reason": "Base-family manual acquired; GT/body conversion/taxi/passenger-cargo applicability or supplement must be verified before reuse."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/pv5-cargo",
+      "label": "PV5 카고 롱 ",
+      "category": "pbv",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/pbv",
+      "coverage_status": "shared_candidate",
+      "manifest_document_ids": [
+        "kia_SW1K_2027"
+      ],
+      "reason": "Base-family manual acquired; GT/body conversion/taxi/passenger-cargo applicability or supplement must be verified before reuse."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/pv5-cargo-compact",
+      "label": "PV5 카고 컴팩트 ",
+      "category": "pbv",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/pbv",
+      "coverage_status": "shared_candidate",
+      "manifest_document_ids": [
+        "kia_SW1K_2027"
+      ],
+      "reason": "Base-family manual acquired; GT/body conversion/taxi/passenger-cargo applicability or supplement must be verified before reuse."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/pv5-wav",
+      "label": "PV5 WAV ",
+      "category": "pbv",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/pbv",
+      "coverage_status": "shared_candidate",
+      "manifest_document_ids": [
+        "kia_SW1K_2027"
+      ],
+      "reason": "Base-family manual acquired; GT/body conversion/taxi/passenger-cargo applicability or supplement must be verified before reuse."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/pv5-prime",
+      "label": "PV5 프라임 ",
+      "category": "pbv",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/pbv",
+      "coverage_status": "shared_candidate",
+      "manifest_document_ids": [
+        "kia_SW1K_2027"
+      ],
+      "reason": "Base-family manual acquired; GT/body conversion/taxi/passenger-cargo applicability or supplement must be verified before reuse."
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/pv5-openbed",
+      "label": "PV5 오픈베드 ",
+      "category": "pbv",
+      "sales_catalog_url": "https://www.kia.com/kr/vehicles/pbv",
+      "coverage_status": "shared_candidate",
+      "manifest_document_ids": [
+        "kia_SW1K_2027"
+      ],
+      "reason": "Base-family manual acquired; GT/body conversion/taxi/passenger-cargo applicability or supplement must be verified before reuse."
+    }
+  ]
+}

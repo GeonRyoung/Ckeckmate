@@ -1,0 +1,72 @@
+{
+  "scope": "Source-reviewed examples only, not a complete approved answer catalog. Every rule needs model/year/equipment and observed-context matching before app use.",
+  "reviewerType": "AI research source review; no automotive expert approval",
+  "appEnabled": false,
+  "examples": [
+    {
+      "id": "HY-NE1-2025-TPMS",
+      "modelCode": "NE1", "year": "2025", "powertrain": "EV", "warning": "TPMS",
+      "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/NE1/2025/ko_KR#page=138",
+      "pdfPage1Based": 138, "printedPage": "134",
+      "condition": "저압 타이어 경고 또는 약 1분 점멸 뒤 점등",
+      "responseParaphrase": "공기압을 확인하고 필요하면 보충한다. 약 1분 점멸 후 점등하거나 시동 시 정상 점검등이 켜지지 않는 경우 정비점에서 점검받는다.",
+      "requiredContext": ["정확한 연식", "시동 직후 여부", "점멸 지속 시간과 뒤이은 점등", "실제 공기압"],
+      "doNotInfer": "BLINK 한 번 관측만으로 약 1분 점멸 후 점등 조건이나 센서 고장을 확정하지 않는다.",
+      "reviewStatus": "PDF table visually reviewed; not expert approved"
+    },
+    {
+      "id": "HY-NE1-2025-POWERDOWN",
+      "modelCode": "NE1", "year": "2025", "powertrain": "EV", "warning": "POWER_DOWN",
+      "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/NE1/2025/ko_KR#page=136",
+      "pdfPage1Based": 136, "printedPage": "132",
+      "condition": "파워다운 단독 표시와 서비스 경고등 동시 표시를 구분",
+      "responseParaphrase": "배터리 충전량·온도와 구동계 보호 때문에 출력이 제한될 수 있다. 서비스 경고가 함께 표시되면 제조사 정비점 점검 대상으로 구분한다.",
+      "requiredContext": ["동시 서비스 경고", "배터리 충전량", "표시 메시지", "주행 조건"],
+      "doNotInfer": "파워다운 표시만으로 배터리 고장이나 주행 안전성을 확정하지 않는다.",
+      "reviewStatus": "PDF table visually reviewed; not expert approved"
+    },
+    {
+      "id": "HY-NE1-2027-CHARGING",
+      "modelCode": "NE1", "year": "2027", "powertrain": "EV", "warning": "CHARGING_12V",
+      "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/NE1/2027/ko_KR#page=142",
+      "pdfPage1Based": 142, "printedPage": "134",
+      "condition": "12V 배터리 충전 경고등 점등",
+      "responseParaphrase": "배터리 상태와 충전 계통을 점검하고 경고가 지속되면 정비점 점검을 받는다. 고전압 배터리 잔량 부족 안내와 다른 항목이다.",
+      "requiredContext": ["경고등 종류", "파워트레인", "지속 여부"],
+      "doNotInfer": "EV 충전소에서 충전하면 해결된다고 단정하지 않는다.",
+      "reviewStatus": "PDF table visually reviewed; not expert approved"
+    },
+    {
+      "id": "HY-GN7-2027-OIL",
+      "modelCode": "GN7", "year": "2027", "powertrain": "ICE", "warning": "OIL_PRESSURE",
+      "sourceURL": "https://ownersmanual.hyundai.com/full_webhelp/GN7/2027/ko_KR/cluster-check_warn_indic_lights-check_warn_and_ind_lights.html",
+      "sourceSection": "(6) 엔진 오일 압력 경고등",
+      "condition": "주행 중 엔진 오일 압력 경고등 점등",
+      "responseParaphrase": "안전하게 정차하여 엔진 오일량을 확인하고 부족하면 보충한다. 보충 후에도 경고가 지속되면 정비점 점검을 받는다. 계속 주행하면 엔진 손상 위험이 있다.",
+      "requiredContext": ["내연기관/LPI 사양", "주행 중 여부", "정확한 경고등"],
+      "reviewStatus": "Official HTML/text source reviewed; not visually or expert approved"
+    },
+    {
+      "id": "HY-GN7-2027-EBD",
+      "modelCode": "GN7", "year": "2027", "powertrain": "ICE", "warning": "ABS_AND_BRAKE",
+      "sourceURL": "https://ownersmanual.hyundai.com/full_webhelp/GN7/2027/ko_KR/cluster-check_warn_indic_lights-check_warn_and_ind_lights.html",
+      "sourceSection": "(9) EBD 경고등; (10) ABS 경고등",
+      "condition": "ABS와 브레이크 경고등이 동시에 켜짐",
+      "responseParaphrase": "전후륜 제동력 배분 이상 조건으로 구분하며 고속 주행을 피하고 정비점 점검을 받도록 안내한다. ABS 단독 경고와 합치지 않는다.",
+      "requiredContext": ["현재 동시 경고 목록", "브레이크 경고 지속 여부", "시동 점검 상태"],
+      "doNotInfer": "과거 이력의 서로 다른 시각 ABS와 BRAKE 기록을 동시 발생으로 취급하지 않는다.",
+      "reviewStatus": "Official HTML/text source reviewed; not visually or expert approved"
+    },
+    {
+      "id": "HY-NH2-2027-HYDROGEN",
+      "modelCode": "NH2", "year": "2027", "powertrain": "FCEV", "warning": "HYDROGEN_LEAK",
+      "sourceURL": "https://ownersmanual.hyundai.com/full_webhelp/NH2/2027/ko_KR/id23C4LH00HL7.html",
+      "sourceSection": "(2) 수소 누출 경고등",
+      "condition": "수소 누출 경고등의 빨간색과 주황색을 구분",
+      "responseParaphrase": "빨간색이 지속되면 안전한 곳에 정차하고 견인하여 점검받는다. 주황색 지속은 누출 감지 센서 점검 안내에 해당한다.",
+      "requiredContext": ["FCEV 차종", "경고등 색상", "경고 지속 여부"],
+      "doNotInfer": "현재 앱이 저장하는 ON/BLINK만으로 색상별 조치를 선택하지 않는다.",
+      "reviewStatus": "Official HTML/text source reviewed; not visually or expert approved"
+    }
+  ]
+}

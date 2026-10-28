@@ -1,0 +1,482 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "AI",
+  "runtimeApproved": false,
+  "allCountermeasuresReviewed": false,
+  "readingUnits": [
+    {
+      "documentId": "HYUNDAI-A01-2026",
+      "sectionId": "HYUNDAI-A01-2026-p123-134",
+      "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/A01/2026/ko_KR#page=123",
+      "sourceSha256": "38fbe422b1b95dbf54da081734f2facbf8969e1bca2a2a978a3725f890e677f1",
+      "passageSha256": "e28804978c7fdb409ee1aac4754dfa272586504ed03a2654d095b713ac83528d",
+      "locator": {
+        "pdfPages1Based": [
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134
+        ]
+      },
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct complete section reading",
+      "runtimeApproved": false,
+      "linkedProceduresClosed": false
+    },
+    {
+      "documentId": "HYUNDAI-DN8-2026",
+      "sectionId": "HYUNDAI-DN8-2026-p91-104",
+      "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/DN8/2026/ko_KR#page=91",
+      "sourceSha256": "f83f44abcf8f59c30fa4d0b0b419a8e7aaca54da7d6f5c5fc9b3f83cab650e23",
+      "passageSha256": "69fe6ed5ecfecb787fae6c9ee457650714569e03345ff53f0969f4b9b22a7926",
+      "locator": {
+        "pdfPages1Based": [
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104
+        ]
+      },
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct complete section reading",
+      "runtimeApproved": false,
+      "linkedProceduresClosed": false
+    },
+    {
+      "documentId": "HYUNDAI-DN8HEV-2026",
+      "sectionId": "HYUNDAI-DN8HEV-2026-p113-129",
+      "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/DN8HEV/2026/ko_KR#page=113",
+      "sourceSha256": "5843551877e8a3279e67ca5830f64df2f7ac8cb0bbb4020f3415cd0e11dd3158",
+      "passageSha256": "15a2a597e0eaf65cba3e10f3ebfc0e76dab340ca83e051be22d51ddcf3092647",
+      "locator": {
+        "pdfPages1Based": [
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129
+        ]
+      },
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct complete section reading",
+      "runtimeApproved": false,
+      "linkedProceduresClosed": false
+    },
+    {
+      "documentId": "HYUNDAI-DN8c-2025",
+      "sectionId": "HYUNDAI-DN8c-2025-p80-94",
+      "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/DN8c/2025/ko_KR#page=80",
+      "sourceSha256": "ebd8b03c59aa7f37640f2b8150f96fe7da75191ee907550a56547b647ebc7e2c",
+      "passageSha256": "47d3ac1c32d7f509f947a455130f9de5a410862f06fb761a9cb5b4113fe5bb6d",
+      "locator": {
+        "pdfPages1Based": [
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94
+        ]
+      },
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct complete section reading",
+      "runtimeApproved": false,
+      "linkedProceduresClosed": false
+    },
+    {
+      "documentId": "HYUNDAI-QX-2027",
+      "sectionId": "HYUNDAI-QX-2027-p85-98",
+      "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/QX/2027/ko_KR#page=85",
+      "sourceSha256": "8c2a0e72b60e91160b14b029bdad7b2c019809c5ca4c91b24435bf62badb6b1b",
+      "passageSha256": "d9ebf3b56eb9f69e246e77f6094152a2326f74ace47b8263c31b050ad9aa1244",
+      "locator": {
+        "pdfPages1Based": [
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98
+        ]
+      },
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct complete section reading",
+      "runtimeApproved": false,
+      "linkedProceduresClosed": false
+    },
+    {
+      "documentId": "HYUNDAI-HR-2026",
+      "sectionId": "HYUNDAI-HR-2026-p117-132",
+      "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/HR/2026/ko_KR#page=117",
+      "sourceSha256": "ff0d2aeb0ff0bd775c13c60dfd516d50b044319650277ca87270b73aae024b78",
+      "passageSha256": "f7a004148dda05d265000647f8309e09b717e83703150c88585356cfa4c4c5f2",
+      "locator": {
+        "pdfPages1Based": [
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132
+        ]
+      },
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct complete section reading",
+      "runtimeApproved": false,
+      "linkedProceduresClosed": false
+    },
+    {
+      "documentId": "HYUNDAI-HREV-2026",
+      "sectionId": "HYUNDAI-HREV-2026-p111-120",
+      "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/HREV/2026/ko_KR#page=111",
+      "sourceSha256": "5a1c574677a6029a87996732c6c0eed0819650601c08a2a02385c0d9728e4432",
+      "passageSha256": "5b3e3470e9a6ffaf8c746ffadf7b0efe4fc91acab4090e7a4990c56cf708ef7f",
+      "locator": {
+        "pdfPages1Based": [
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120
+        ]
+      },
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct complete section reading",
+      "runtimeApproved": false,
+      "linkedProceduresClosed": false
+    },
+    {
+      "documentId": "HYUNDAI-CN7N-2026",
+      "sectionId": "HYUNDAI-CN7N-2026-p79-91",
+      "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/CN7N/2026/ko_KR#page=79",
+      "sourceSha256": "02bf55203560b31d51bb9d963b8c04ca9842499c7f60bfc1b5296f31f995b22f",
+      "passageSha256": "21f9bd7dfdbdd662de305ebe11a7e8f479a1efff570f9d51fc491423594d341c",
+      "locator": {
+        "pdfPages1Based": [
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91
+        ]
+      },
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct complete section reading",
+      "runtimeApproved": false,
+      "linkedProceduresClosed": false
+    },
+    {
+      "documentId": "HYUNDAI-NE1-2025",
+      "sectionId": "HYUNDAI-NE1-2025-p136-148",
+      "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/NE1/2025/ko_KR#page=136",
+      "sourceSha256": "7c92b1e3b1326d6811340e664111897fc66f23b6ae96788e2d76e6f99eb30725",
+      "passageSha256": "2cdfabd354cc825db91edd30be6021debc2d7f001175880c456b3a96d3ece29f",
+      "locator": {
+        "pdfPages1Based": [
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148
+        ]
+      },
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct complete section reading",
+      "runtimeApproved": false,
+      "linkedProceduresClosed": false
+    },
+    {
+      "documentId": "HYUNDAI-US4-2026",
+      "sectionId": "HYUNDAI-US4-2026-p108-119",
+      "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4/2026/ko_KR#page=108",
+      "sourceSha256": "7627c80a2708e9918b9dca6227f383ddfb3f09c02c824ea69563a97780083519",
+      "passageSha256": "8dbd87ae140a781cfa8bc31863c6c16a2e569b0c7f018f857e04c1d85232a631",
+      "locator": {
+        "pdfPages1Based": [
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct complete section reading",
+      "runtimeApproved": false,
+      "linkedProceduresClosed": false
+    },
+    {
+      "documentId": "HYUNDAI-US4EV-2027",
+      "sectionId": "HYUNDAI-US4EV-2027-p166-179",
+      "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/US4EV/2027/ko_KR#page=166",
+      "sourceSha256": "668df665ece6573f01f559409f8f62919f2b48d655f8a97d2a9a29c0575bcf2d",
+      "passageSha256": "76df0c8707c4e29aa5ccd17952251c479f240efa347953f431e7e54e247766b1",
+      "locator": {
+        "pdfPages1Based": [
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179
+        ]
+      },
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct complete section reading",
+      "runtimeApproved": false,
+      "linkedProceduresClosed": false
+    },
+    {
+      "documentId": "HYUNDAI-CE1-2025",
+      "sectionId": "HYUNDAI-CE1-2025-p142-158",
+      "sourceURL": "https://ownersmanual.hyundai.com/full_pdf/CE1/2025/ko_KR#page=142",
+      "sourceSha256": "778bd9cd9ba17bbe2fb8991499309d9dd22d8658fc5eb42d9c6aa673dac44335",
+      "passageSha256": "ce6859a3f87cde9ee177a634be080a27167b1df1c66fd830539f1081e9a6065e",
+      "locator": {
+        "pdfPages1Based": [
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156,
+          157,
+          158
+        ]
+      },
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct complete section reading",
+      "runtimeApproved": false,
+      "linkedProceduresClosed": false
+    },
+    {
+      "documentId": "HYUNDAI-MX5HEV-2026",
+      "canonicalDocumentId": "HYUNDAI-DN8HEV-2026",
+      "sectionId": "HYUNDAI-MX5HEV-2026-p154-175",
+      "passageSha256": "2ba5c2432f312ca92419292fd26b3ed88430609acf35d0edd47c1a46b9d46fb1",
+      "diffArtifactSha256": "31ff5d4ac607f7555b920ed7e4a97c6bef196bec3b460070165b3e919051aa6b",
+      "differenceGroupsRead": 45,
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "Complete canonical reading plus every formatting-normalized source difference read with context; no semantic auto-approval",
+      "notes": "유압 회복 뒤 재시동 요구 보존. 소나타 HEV의 자동 해제 설명과 다름.",
+      "runtimeApproved": false,
+      "linkedProceduresClosed": false
+    },
+    {
+      "documentId": "HYUNDAI-CE1N-2025",
+      "canonicalDocumentId": "HYUNDAI-CE1-2025",
+      "sectionId": "HYUNDAI-CE1N-2025-p137-153",
+      "passageSha256": "a31b1dbf6a8591b14310570034dba252689871b5cb3f79572abf459a7fa4fbea",
+      "diffArtifactSha256": "8938e744e9145a76b75b0615f2bf25aed88ddf84fa2ac259253f4a06be19072d",
+      "differenceGroupsRead": 27,
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "Complete canonical reading plus every formatting-normalized source difference read with context; no semantic auto-approval",
+      "notes": "N 전용 정상 상태 표시, POWER ON/DRIVE READY 전원 상태 및 시동 메시지 차이를 직접 대조.",
+      "runtimeApproved": false,
+      "linkedProceduresClosed": false
+    },
+    {
+      "documentId": "HYUNDAI-US4HEV-2026",
+      "canonicalDocumentId": "HYUNDAI-US4-2026",
+      "sectionId": "HYUNDAI-US4HEV-2026-p140-153",
+      "passageSha256": "61d5585ee4ef8229ce32745c79dc7699c876bbe313735e9a7142c165fda9a8b5",
+      "diffArtifactSha256": "2d6dcc54ec7d540dc5b15586d07ca76a22179ef6a045cc241ab186b878ee0242",
+      "differenceGroupsRead": 45,
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "Complete canonical reading plus every formatting-normalized source difference read with context; no semantic auto-approval",
+      "notes": "서비스/EV/회생제동/HEV 시스템 메시지 추가. 비플러그인 HEV 문서의 즉시 충전·30~40km 표현은 적용 불명확.",
+      "runtimeApproved": false,
+      "linkedProceduresClosed": false
+    },
+    {
+      "documentId": "HYUNDAI-SX2-2027",
+      "canonicalDocumentId": "HYUNDAI-DN8-2026",
+      "sectionId": "HYUNDAI-SX2-2027-p122-141",
+      "passageSha256": "e2a50fc274b3be9e657d89065354c865cdace0ef2a5c3181ae095c423116eb61",
+      "diffArtifactSha256": "d717c299ad9b98c04a3bbd69373ebf2282fede5c3c9bddf1f8503532989d96a2",
+      "differenceGroupsRead": 45,
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "Complete canonical reading plus every formatting-normalized source difference read with context; no semantic auto-approval",
+      "notes": "차로 표시 초록색 점멸 설명, ISG, 키·변속 메시지와 오일 회복 후 재시동 조건을 대조. 그룹24–25를 별도로 다시 읽어 출력 잘림 해소.",
+      "runtimeApproved": false,
+      "linkedProceduresClosed": false
+    },
+    {
+      "documentId": "HYUNDAI-SX2HEV-2027",
+      "canonicalDocumentId": "HYUNDAI-SX2-2027",
+      "sectionId": "HYUNDAI-SX2HEV-2027-p141-161",
+      "passageSha256": "49860809bb07b1b5cc2b23150c935b5e4306c231bc868cb21095e9463dd55cb3",
+      "diffArtifactSha256": "69567e9e12ab33df295b152ad2b62660dbda8bf1dd2f3e96f7b461601c45b504",
+      "differenceGroupsRead": 37,
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "Complete canonical reading plus every formatting-normalized source difference read with context; no semantic auto-approval",
+      "notes": "HEV 주행가능·서비스·EV·회생제동 추가. 클러스터에는 재시동 문장이 생략됐으나 정비 절 PDF651/646에서 유압 회복 후 재시동 요구를 확인함(HY-PROCEDURE-SX2HEV-2027-OIL). P 시동/ACC10초, 정차 후 끄기 및 시동 금지 메시지 분리.",
+      "runtimeApproved": false,
+      "linkedProceduresClosed": false
+    },
+    {
+      "documentId": "HYUNDAI-NE1N-2026",
+      "canonicalDocumentId": "HYUNDAI-NE1-2025",
+      "sectionId": "HYUNDAI-NE1N-2026-p175-194",
+      "passageSha256": "696a0d71f5022ed65c4514917f7872be40da912695d8dbe8fdb660800b4b2a31",
+      "diffArtifactSha256": "4d5bf762e3ac5e4ec0c5cf728df798619f562826c8794efac12693458ae22fbb",
+      "differenceGroupsRead": 1,
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "Complete canonical reading plus every formatting-normalized source difference read with context; no semantic auto-approval",
+      "notes": "차이가 큰 하나의 묶음으로 실제 클러스터 전체를 다시 읽음. N/드리프트/AWD/ESC SPORT/런치 표시 포함. EV 문서의 엔진·벨트 충전 설명은 적용 불명확.",
+      "runtimeApproved": false,
+      "linkedProceduresClosed": false
+    },
+    {
+      "documentId": "HYUNDAI-SX2EV-2025",
+      "canonicalDocumentId": "HYUNDAI-NE1N-2026",
+      "sectionId": "HYUNDAI-SX2EV-2025-p170-188",
+      "passageSha256": "25df214d698fdacad4b5967a43612cd76b544bb2df450362cfc87bcfad44d4ae",
+      "diffArtifactSha256": "199314faac703313724572882ba148e0977b5616d1be8a560a9ee49bf4071eeb",
+      "differenceGroupsRead": 37,
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "Complete canonical reading plus every formatting-normalized source difference read with context; no semantic auto-approval",
+      "notes": "구동벨트 충전 설명은 EV 적용 불명확. N 전용 모드 표시 제거, 운전자주의 및 키·메시지 변화 모두 대조.",
+      "runtimeApproved": false,
+      "linkedProceduresClosed": false
+    },
+    {
+      "documentId": "HYUNDAI-MX5-2026",
+      "sectionId": "HYUNDAI-MX5-2026-p132-150",
+      "passageSha256": "26a94e2ba05a400da0ff626000195f2723ee86d35dc0c75b07fd1d1f14c18297",
+      "locator": {
+        "pdfPages1Based": [
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150
+        ]
+      },
+      "canonicalDocumentId": "HYUNDAI-DN8-2026",
+      "differenceGroupsRead": 144,
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "Canonical complete reading plus all 144 groups directly read; groups20–119 separately printed to avoid truncation",
+      "notes": "유압 회복 후 재시동, SUV 테일게이트·AWD·차로 유지 및 메시지 차이 보존.",
+      "runtimeApproved": false,
+      "linkedProceduresClosed": false
+    }
+  ],
+  "note": "Table/numbered row evidence remains in separate review files. This ledger records reading, not execution-ready action encoding or expert approval."
+}

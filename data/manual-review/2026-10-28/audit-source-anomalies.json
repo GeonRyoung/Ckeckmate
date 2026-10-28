@@ -1,0 +1,43 @@
+{
+  "anomalies": [
+    {
+      "documentId": "HYUNDAI-A01-2026",
+      "URL": "https://ownersmanual.hyundai.com/full_pdf/A01/2026/ko_KR",
+      "sourceSha256": "38fbe422b1b95dbf54da081734f2facbf8969e1bca2a2a978a3725f890e677f1",
+      "locator": {
+        "pdfPage": 126,
+        "printedPage": "4-8"
+      },
+      "finding": "전기차 ST1 충전 경고 항목에 구동벨트 파손·장력 점검 문구가 실제 인쇄되어 있음. OCR 오류가 아님.",
+      "reviewMethod": "PDF 페이지 이미지 직접 대조",
+      "action": "전기차용 구동벨트 조치 자동 생성 보류; 공식 정정 또는 제작사 확인 필요",
+      "runtimeApproved": false
+    },
+    {
+      "documentId": "HYUNDAI-NE1N-2026",
+      "URL": "https://ownersmanual.hyundai.com/full_pdf/NE1N/2026/ko_KR",
+      "sourceSha256": "ba7440607e52d5b77f602965a999550da011260e0de50d4dab113f23a92af977",
+      "locator": {
+        "pdfPage": 179,
+        "printedPage": "174"
+      },
+      "finding": "전기차 충전 경고에 구동/드라이브 벨트 및 엔진 과열 또는 오버히트 문구가 실제 인쇄되어 있음. OCR 오류가 아님.",
+      "reviewMethod": "PDF 페이지 이미지 직접 대조",
+      "action": "벨트 점검·엔진 과열 안내를 전기차에 자동 적용하지 않음; 공식 정정 또는 제작사 확인 필요",
+      "runtimeApproved": false
+    },
+    {
+      "documentId": "HYUNDAI-SX2EV-2025",
+      "URL": "https://ownersmanual.hyundai.com/full_pdf/SX2EV/2025/ko_KR",
+      "sourceSha256": "5adf6f2b7662d46b226ce357cd40341eb7e07392b5236fe5f46a5c804b28d549",
+      "locator": {
+        "pdfPage": 172,
+        "printedPage": "167"
+      },
+      "finding": "전기차 충전 경고에 구동/드라이브 벨트 및 엔진 과열 또는 오버히트 문구가 실제 인쇄되어 있음. OCR 오류가 아님.",
+      "reviewMethod": "PDF 페이지 이미지 직접 대조",
+      "action": "벨트 점검·엔진 과열 안내를 전기차에 자동 적용하지 않음; 공식 정정 또는 제작사 확인 필요",
+      "runtimeApproved": false
+    }
+  ]
+}

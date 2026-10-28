@@ -1,0 +1,472 @@
+{
+  "version": 1,
+  "runtimeApproved": false,
+  "rules": [
+    {
+      "ruleId": "AUDIT-VARIANT-GT-ECS",
+      "documentIds": [
+        "kia_CT1_2027",
+        "kia_CV1_2027",
+        "kia_OV1K_2026",
+        "kia_SV1_2027"
+      ],
+      "sources": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00510.html",
+          "hash": "f6557ea3b01d9345c726ede3969f8a91e08dfa9990d96633ca8f4698d1fca14a",
+          "locator": {
+            "title": "전자제어 서스펜션 (GT 전용)"
+          }
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/CT1/2027/ko_KR/topics/t00708_4.html",
+          "hash": "62fecaf6f8fd0e944b721c489b48edf3b08c5669eb8cd330a55a06fc0446ed33",
+          "locator": {
+            "title": "프리뷰 전자제어 서스펜션 (GT 전용)"
+          }
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/OV1K/2026/ko_KR/topics/gt8.html",
+          "hash": "e4b3ac580d14bad1629c1102d8c5f1722e1d853fef4cb3ce1432eb080a05c10e",
+          "locator": {
+            "title": "프리뷰 전자제어 서스펜션 (GT 전용)"
+          }
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00731.html",
+          "hash": "3daddbb5911599fbdc9eb95a8d2c0e384b7806ebba326ee9be67a9a4524a141e",
+          "locator": {
+            "title": "전자제어 서스펜션 (GT 전용)"
+          }
+        }
+      ],
+      "topic": "GT-ECS",
+      "conditions": [
+        "전자제어 서스펜션 점검 경고; 12 V 과/저전압 보호 중 일시 경고 가능"
+      ],
+      "orderedActions": [
+        "지정 서비스센터/협력사에서 점검한다."
+      ],
+      "prohibitions": [
+        "일시 전압 원인 가능성만으로 실제 고장을 배제하지 않는다."
+      ],
+      "restartCriteria": [],
+      "requiredContext": [
+        "차종·연식",
+        "GT/PV5 전용 장비 장착 여부",
+        "정확한 경고 메시지"
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI 해당 본문 직접 독해",
+      "reviewer": "AI",
+      "runtimeApproved": false,
+      "structuredEncodingComplete": false,
+      "reviewNote": ""
+    },
+    {
+      "ruleId": "AUDIT-VARIANT-GT-PREVIEW-LIMIT",
+      "documentIds": [
+        "kia_CT1_2027",
+        "kia_OV1K_2026"
+      ],
+      "sources": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/CT1/2027/ko_KR/topics/t00708_4.html",
+          "hash": "62fecaf6f8fd0e944b721c489b48edf3b08c5669eb8cd330a55a06fc0446ed33",
+          "locator": {
+            "title": "프리뷰 전자제어 서스펜션 (GT 전용)"
+          }
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/OV1K/2026/ko_KR/topics/gt8.html",
+          "hash": "e4b3ac580d14bad1629c1102d8c5f1722e1d853fef4cb3ce1432eb080a05c10e",
+          "locator": {
+            "title": "프리뷰 전자제어 서스펜션 (GT 전용)"
+          }
+        }
+      ],
+      "topic": "GT-PREVIEW-LIMIT",
+      "conditions": [
+        "전방 카메라 가림·내비 재탐색·터널 GPS 수신 제한"
+      ],
+      "orderedActions": [
+        "전방 카메라 영역을 청결히 유지한다. 카메라/유리 교환·재조립은 보정 점검을 의뢰한다."
+      ],
+      "prohibitions": [
+        "카메라 영역에 필름·스티커 부착 및 대시보드 반사물 배치 금지."
+      ],
+      "restartCriteria": [],
+      "requiredContext": [
+        "차종·연식",
+        "GT/PV5 전용 장비 장착 여부",
+        "정확한 경고 메시지"
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI 해당 본문 직접 독해",
+      "reviewer": "AI",
+      "runtimeApproved": false,
+      "structuredEncodingComplete": false,
+      "reviewNote": "센서 한계를 넘으면 프리뷰가 제한되고 일반 ECS 제어가 남는다는 의미를 고장 표시와 구분."
+    },
+    {
+      "ruleId": "AUDIT-VARIANT-GT-ELSD",
+      "documentIds": [
+        "kia_CV1_2027",
+        "kia_MV1_2027"
+      ],
+      "sources": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/MV1/2027/ko_KR/topics/t00887.html",
+          "hash": "b6382cc41ff72e83f08f59087feb733ed1ee91893496ec2a4b160dcf63452160",
+          "locator": {
+            "title": "전자식 차동제한 장치 (e-LSD) (GT 전용)"
+          }
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00735.html",
+          "hash": "7118edddaebc4f7c0f917822173ce30946865999a7ed9e2722b9ccb01458c443",
+          "locator": {
+            "title": "전자식 차동제한 장치 시스템 경고문"
+          }
+        }
+      ],
+      "topic": "GT-ELSD",
+      "conditions": [
+        "고온 일시중지",
+        "타이어 동일 여부 메시지",
+        "시스템 점검 메시지"
+      ],
+      "orderedActions": [
+        "과열이면 차량을 정지시켜 장치를 식힌다.",
+        "타이어 메시지이면 동일 크기·타입을 장착한다.",
+        "시스템 이상이면 지정 서비스센터에서 점검한다."
+      ],
+      "prohibitions": [
+        "고온·타이어 불일치·장치 고장을 한 가지 조치로 합치지 않는다."
+      ],
+      "restartCriteria": [],
+      "requiredContext": [
+        "차종·연식",
+        "GT/PV5 전용 장비 장착 여부",
+        "정확한 경고 메시지"
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI 해당 본문 직접 독해",
+      "reviewer": "AI",
+      "runtimeApproved": false,
+      "structuredEncodingComplete": false,
+      "reviewNote": ""
+    },
+    {
+      "ruleId": "AUDIT-VARIANT-GT-ELSD-JACK",
+      "documentIds": [
+        "kia_CV1_2027",
+        "kia_MV1_2027"
+      ],
+      "sources": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/CV1/2027/ko_KR/topics/t00732.html",
+          "hash": "f0011977fb3044a4839e95492db996502f4abe61bdab8417ce6bbab6f37844f2",
+          "locator": {
+            "title": "전자식 차동제한 장치 (e-LSD) (GT 전용)"
+          }
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/MV1/2027/ko_KR/topics/t00887.html",
+          "hash": "b6382cc41ff72e83f08f59087feb733ed1ee91893496ec2a4b160dcf63452160",
+          "locator": {
+            "title": "전자식 차동제한 장치 (e-LSD) (GT 전용)"
+          }
+        }
+      ],
+      "topic": "GT-ELSD-JACK",
+      "conditions": [
+        "e-LSD 차량 정비"
+      ],
+      "orderedActions": [],
+      "prohibitions": [
+        "한 바퀴만 잭으로 들어 올린 상태에서 바퀴를 구동하지 않는다."
+      ],
+      "restartCriteria": [],
+      "requiredContext": [
+        "차종·연식",
+        "GT/PV5 전용 장비 장착 여부",
+        "정확한 경고 메시지"
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI 해당 본문 직접 독해",
+      "reviewer": "AI",
+      "runtimeApproved": false,
+      "structuredEncodingComplete": false,
+      "reviewNote": ""
+    },
+    {
+      "ruleId": "AUDIT-VARIANT-PV5-OPENBED-DOOR",
+      "documentIds": [
+        "kia_SW1K_2027"
+      ],
+      "sources": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/c_t0004.html",
+          "hash": "00aeded525daac50206d514bf4a957ac0e73fc6162e4909525d0e4c1ab4ef300",
+          "locator": {
+            "title": "안전 주의 사항"
+          }
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/c_t0015.html",
+          "hash": "f2a97bbbd91071d4b78b94db9b79f010c9bb9d326816921afddb921f67f3f74d",
+          "locator": {
+            "title": "적재함 뒷 도어"
+          }
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/c_t0016.html",
+          "hash": "0552fa026ff46d454a23a552c476da488df7e09a6caf3ee8104063e218dab920",
+          "locator": {
+            "title": "적재함 옆 도어"
+          }
+        }
+      ],
+      "topic": "PV5-OPENBED-DOOR",
+      "conditions": [
+        "적재함 도어 개방 시 후미 램프 가려짐",
+        "작업 후 도어 잠금 필요"
+      ],
+      "orderedActions": [
+        "개방 시 삼각대 등으로 뒤 차량에 경고한다.",
+        "주행 전 보조 잠금까지 확실히 확인하고 화물을 분산·고정한다."
+      ],
+      "prohibitions": [
+        "적재함 사람 탑승·펼친 도어 위 적재·경사면 하역·임의 특장 개조 금지.",
+        "기본형 700 kg/항속형 600 kg 초과 적재 금지."
+      ],
+      "restartCriteria": [],
+      "requiredContext": [
+        "차종·연식",
+        "GT/PV5 전용 장비 장착 여부",
+        "정확한 경고 메시지"
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI 해당 본문 직접 독해",
+      "reviewer": "AI",
+      "runtimeApproved": false,
+      "structuredEncodingComplete": false,
+      "reviewNote": "c_t0004 작업 정차 문구는 N+주차브레이크를 명시한다. 다른 장의 P 지시와 상황을 구분하고 실행형 적용 전 확인 필요."
+    },
+    {
+      "ruleId": "AUDIT-VARIANT-PV5-OPENBED-LAMPS",
+      "documentIds": [
+        "kia_SW1K_2027"
+      ],
+      "sources": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/c_t0035.html",
+          "hash": "fd1db7bf608d6e19cdd48699768c55cd5fed5eb40c1a010d5438772caad09a9b",
+          "locator": {
+            "title": "리어 콤비네이션 램프 (오픈베드 차량)"
+          }
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/c_t0036.html",
+          "hash": "1b00b0503676ca85bb15a23e4bcdae71c316d9350b37c6cd8c07d7ea1b7eb715",
+          "locator": {
+            "title": "LED 타입 램프의 전구 교체"
+          }
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/c_t0037.html",
+          "hash": "24eb6273dda18160a08d76cd55208935abcad73244e36732e065a308742f5ee7",
+          "locator": {
+            "title": "번호등의 교체 (벌브 타입)"
+          }
+        }
+      ],
+      "topic": "PV5-OPENBED-LAMPS",
+      "conditions": [
+        "LED 후퇴·방향·후미·제동등 불점등",
+        "별도 벌브 번호등"
+      ],
+      "orderedActions": [
+        "일체형 LED는 숙련 기술자에게 점검/교체를 의뢰한다.",
+        "번호등 벌브 작업은 주차브레이크 체결 및 시동 종료 후 해당 분리 절차를 따른다."
+      ],
+      "prohibitions": [
+        "LED 일체형과 교체 가능한 번호등 벌브를 혼동하지 않는다."
+      ],
+      "restartCriteria": [],
+      "requiredContext": [
+        "차종·연식",
+        "GT/PV5 전용 장비 장착 여부",
+        "정확한 경고 메시지"
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI 해당 본문 직접 독해",
+      "reviewer": "AI",
+      "runtimeApproved": false,
+      "structuredEncodingComplete": false,
+      "reviewNote": ""
+    },
+    {
+      "ruleId": "AUDIT-VARIANT-PV5-PRIME-SEAT",
+      "documentIds": [
+        "kia_SW1K_2027"
+      ],
+      "sources": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/c_t0047.html",
+          "hash": "f5db0e6ad7c6016c1f47e54b45a47ad14a670a51a666c3b2125d2c38f50ccd81",
+          "locator": {
+            "title": "프리미엄 릴렉션 시트"
+          }
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/c_t0048.html",
+          "hash": "10e1847925e2b9b98dca46042c2b707e6cf9f414f2191351c1a7cf84b4eade96",
+          "locator": {
+            "title": "릴렉션 기능"
+          }
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/c_t0049.html",
+          "hash": "0b657a26fba8f364ccb462cb1485b44e0beafa431de4d376a50e01336b00267e",
+          "locator": {
+            "title": "리턴 기능"
+          }
+        }
+      ],
+      "topic": "PV5-PRIME-SEAT",
+      "conditions": [
+        "릴렉션 시트 자동 이동 또는 복귀"
+      ],
+      "orderedActions": [
+        "끼임을 살피고 가급적 주정차 휴식 때 사용한다.",
+        "자동 이동 중 시트 조절 스위치를 조작하면 자동 이동을 중지할 수 있다."
+      ],
+      "prohibitions": [
+        "두 종류 스위치 동시 조작 금지."
+      ],
+      "restartCriteria": [],
+      "requiredContext": [
+        "차종·연식",
+        "GT/PV5 전용 장비 장착 여부",
+        "정확한 경고 메시지"
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI 해당 본문 직접 독해",
+      "reviewer": "AI",
+      "runtimeApproved": false,
+      "structuredEncodingComplete": false,
+      "reviewNote": "기본 차량 계기판 고장과 별개 특장 장비 조작 안전."
+    },
+    {
+      "ruleId": "AUDIT-VARIANT-PV5-PRIME-VENT",
+      "documentIds": [
+        "kia_SW1K_2027"
+      ],
+      "sources": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/c_t0057.html",
+          "hash": "7a75042e594f90a0e03d5da9f2c3a856b5fa9702b25b138c0fc1559234ca2c70",
+          "locator": {
+            "title": "열선 시트"
+          }
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/c_t0058.html",
+          "hash": "0750912c465c166b097f25b9477e036e3b7f9861eead3ec94698144a5ca93f2b",
+          "locator": {
+            "title": "통풍 시트"
+          }
+        }
+      ],
+      "topic": "PV5-PRIME-VENT",
+      "conditions": [
+        "열선/통풍 시트 표시",
+        "시트에 액체 유입"
+      ],
+      "orderedActions": [
+        "액체를 쏟으면 통풍을 끄고 닦은 후 완전히 말려 사용한다.",
+        "열선 자동 중단/재개는 온도 제어임을 구분하고 저온 화상 위험에 주의한다."
+      ],
+      "prohibitions": [
+        "유기용제 세척·무겁거나 날카로운 물건 올림 금지."
+      ],
+      "restartCriteria": [],
+      "requiredContext": [
+        "차종·연식",
+        "GT/PV5 전용 장비 장착 여부",
+        "정확한 경고 메시지"
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI 해당 본문 직접 독해",
+      "reviewer": "AI",
+      "runtimeApproved": false,
+      "structuredEncodingComplete": false,
+      "reviewNote": "정상 강약 표시를 고장 경고로 분류하지 않는다."
+    },
+    {
+      "ruleId": "AUDIT-VARIANT-PV5-WAV-PREPARATION",
+      "documentIds": [
+        "kia_SW1K_2027"
+      ],
+      "sources": [
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00259.html",
+          "hash": "ef2db5bfd24ca17638adf66a582dcfb2c9c1e6842633250359f9e5c3ff7ac20e",
+          "locator": {
+            "title": "탑승 가능한 휠체어 규격"
+          }
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00263.html",
+          "hash": "c86f5826cc297c67047a627ff4e99c3b87f07e7266768e30b92649b6dd777c0a",
+          "locator": {
+            "title": "차량 주차"
+          }
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00264.html",
+          "hash": "0ea16d2e607be9a4b150f9723ae387a9e8d62bda7e2f09573799afab527f0ffd",
+          "locator": {
+            "title": "휠체어 탑승을 위한 차량 공간 확보"
+          }
+        },
+        {
+          "URL": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00266.html",
+          "hash": "1e3eba8b0717f1fce2624a99682dd01ec71f4719795254a35b1b0e1f0fc2ec2e",
+          "locator": {
+            "title": "수동식 인플로어 2단 슬로프 펼침"
+          }
+        }
+      ],
+      "topic": "PV5-WAV-PREPARATION",
+      "conditions": [
+        "휠체어 승하차 전 공간/노면/슬로프 확인"
+      ],
+      "orderedActions": [
+        "평지에서 P와 주차브레이크를 유지하고 공간과 좌석 고정을 확인한다.",
+        "슬로프 끝단 밀착과 이탈방지판을 확인한다.",
+        "120 mm 미만은 2단, 120–180 mm는 1단 사용 조건을 확인한다."
+      ],
+      "prohibitions": [
+        "젖음·눈·얼음으로 미끄러운 슬로프 사용 금지.",
+        "슬로프 약 300 kg 최대 하중 초과 금지.",
+        "주행 중 또는 사람이 앉은 상태 좌석 조정 금지."
+      ],
+      "restartCriteria": [],
+      "requiredContext": [
+        "차종·연식",
+        "GT/PV5 전용 장비 장착 여부",
+        "정확한 경고 메시지"
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI 해당 본문 직접 독해",
+      "reviewer": "AI",
+      "runtimeApproved": false,
+      "structuredEncodingComplete": false,
+      "reviewNote": "이 기록은 준비/슬로프 절만 검토했다. 휠체어 전후 고정·안전벨트 전체 절차까지 검증한 것으로 표시하지 않는다."
+    }
+  ],
+  "scopeLimit": "PV5 전체 특장 조작 설명서 검토가 아님; 지정 sources의 고장/주의 분기 검토. 미검토 일반 조작·WAV 고정 절차는 별도."
+}

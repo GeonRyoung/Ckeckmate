@@ -1,0 +1,2035 @@
+{
+  "version": 1,
+  "runtimeApproved": false,
+  "sections": [
+    {
+      "sectionId": "HYUNDAI-NH2-2027-45_54_61",
+      "documentId": "HYUNDAI-NH2-2027",
+      "title": "오일, 브레이크액 및 냉각수 용량",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NH2/2027/ko_KR/vehicle_information_recommended_lubricants.html",
+        "hash": "d9ec961539b5217bb31dd6b27fba84cc68abf7e2e69de514a87725c5e401785e",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NH2-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "45_54_61",
+          "path": "vehicle_information_recommended_lubricants.html",
+          "item": null
+        },
+        "passageHash": "87aed26f6b0151062edb75af8eb91f594e4b0a6b48015bdaed3090028bd7abb5"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NH2-2027-103_119_124",
+      "documentId": "HYUNDAI-NH2-2027",
+      "title": "안전벨트 경고등과 경고음",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NH2/2027/ko_KR/id23C400N70TL.html",
+        "hash": "d9ec961539b5217bb31dd6b27fba84cc68abf7e2e69de514a87725c5e401785e",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NH2-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "103_119_124",
+          "path": "id23C400N70TL.html",
+          "item": null
+        },
+        "passageHash": "c63f24c8c12592550e0e5b333fe1f38e4337d065bb330dc39bec1db913629d93"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NH2-2027-148_152_159",
+      "documentId": "HYUNDAI-NH2-2027",
+      "title": "변속 위치 표시등",
+      "status": "REVIEWED_CONTEXT_NO_COUNTERMEASURE",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NH2/2027/ko_KR/id23C4H08F02L.html",
+        "hash": "d9ec961539b5217bb31dd6b27fba84cc68abf7e2e69de514a87725c5e401785e",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NH2-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "148_152_159",
+          "path": "id23C4H08F02L.html",
+          "item": null
+        },
+        "passageHash": "71d6d27db2d7e9827c0e0c6f9ace59512ff34a1b23205f0175cf2f6e7d257566"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NH2-2027-148_152_160",
+      "documentId": "HYUNDAI-NH2-2027",
+      "title": "회생 제동 단계 표시등",
+      "status": "REVIEWED_CONTEXT_NO_COUNTERMEASURE",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NH2/2027/ko_KR/id23C4H08F0XK.html",
+        "hash": "d9ec961539b5217bb31dd6b27fba84cc68abf7e2e69de514a87725c5e401785e",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NH2-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "148_152_160",
+          "path": "id23C4H08F0XK.html",
+          "item": null
+        },
+        "passageHash": "547dfa144c6ea4de82a2c0c9f7f2756d38bedee69eb102206f8c2ee604feaea3"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NH2-2027-148_161",
+      "documentId": "HYUNDAI-NH2-2027",
+      "title": "경고등 및 표시등",
+      "status": "REVIEWED_CONTEXT_NO_COUNTERMEASURE",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NH2/2027/ko_KR/warning_indicator_lights.html",
+        "hash": "d9ec961539b5217bb31dd6b27fba84cc68abf7e2e69de514a87725c5e401785e",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NH2-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "148_161",
+          "path": "warning_indicator_lights.html",
+          "item": null
+        },
+        "passageHash": "cee41447215509c363439d689c63b2e9ced36b1d52960e4c745e4d81cea18a6f"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NH2-2027-148_161_162",
+      "documentId": "HYUNDAI-NH2-2027",
+      "title": "경고등 및 표시등 확인하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NH2/2027/ko_KR/id23C4LH00HL7.html",
+        "hash": "194ae14d4f53fafd82f55d9a412a0a445cfd70de222999856ed6f3a507c17486",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NH2-2027-web/id23C4LH00HL7.html",
+        "locator": {
+          "topicId": "148_161_162",
+          "path": "id23C4LH00HL7.html",
+          "item": null
+        },
+        "passageHash": "3dbd933bef845860a7fca393128c09cc0e67777449d64794080d1a8fc2f4f4de"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NH2-2027-148_161_163",
+      "documentId": "HYUNDAI-NH2-2027",
+      "title": "클러스터 메시지 확인하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NH2/2027/ko_KR/id23C4LH00ZNW.html",
+        "hash": "d9ec961539b5217bb31dd6b27fba84cc68abf7e2e69de514a87725c5e401785e",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NH2-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "148_161_163",
+          "path": "id23C4LH00ZNW.html",
+          "item": null
+        },
+        "passageHash": "2923c7f8e517eb8da2378ea57422a6a20a6e605f8e43f4ecd845f0a8467d6207"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NH2-2027-495_497_507",
+      "documentId": "HYUNDAI-NH2-2027",
+      "title": "타이어 공기압 경보 시스템(TPMS)",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NH2/2027/ko_KR/id23C5E0QD0YK.html",
+        "hash": "ecc91db98324ee6923b927e97ffb7fbf88860c40653bce5e76fe1bcaface8954",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NH2-2027-web/id23C5E0QD0YK.html",
+        "locator": {
+          "topicId": "495_497_507",
+          "path": "id23C5E0QD0YK.html",
+          "item": null
+        },
+        "passageHash": "73544ee3b42df7d4b4da3f12173a765a9e79cad64cad51c0936d8bf6d56a4593"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NH2-2027-519_526_527",
+      "documentId": "HYUNDAI-NH2-2027",
+      "title": "구동 모터 냉각수 점검하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NH2/2027/ko_KR/topic_f1d_qsm_y1c.html",
+        "hash": "d9ec961539b5217bb31dd6b27fba84cc68abf7e2e69de514a87725c5e401785e",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NH2-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "519_526_527",
+          "path": "topic_f1d_qsm_y1c.html",
+          "item": null
+        },
+        "passageHash": "e8967c0b102992aa1e28e153b6e4f77318f1df9d8b4173b22e97725b63bf763c"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NH2-2027-519_526_528",
+      "documentId": "HYUNDAI-NH2-2027",
+      "title": "연료 전지 냉각수 점검하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NH2/2027/ko_KR/topic_ovb_2q5_42c.html",
+        "hash": "d9ec961539b5217bb31dd6b27fba84cc68abf7e2e69de514a87725c5e401785e",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NH2-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "519_526_528",
+          "path": "topic_ovb_2q5_42c.html",
+          "item": null
+        },
+        "passageHash": "87870aa55ce57fa3ae253449b8d877987bc8a855a59ad8c5eae45f6e3d4c8251"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NH2-2027-519_526_531",
+      "documentId": "HYUNDAI-NH2-2027",
+      "title": "브레이크액 점검하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NH2/2027/ko_KR/topic_xtk_rwm_y1c.html",
+        "hash": "d9ec961539b5217bb31dd6b27fba84cc68abf7e2e69de514a87725c5e401785e",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NH2-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "519_526_531",
+          "path": "topic_xtk_rwm_y1c.html",
+          "item": null
+        },
+        "passageHash": "d60cd5956e688b8d5058bafd6343d428dc31c2195185744afb46e73cfd5df169"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7-2027-9_18_26",
+      "documentId": "HYUNDAI-GN7-2027",
+      "title": "온도에 따른 엔진 오일 SAE 점도 분류표",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7/2027/ko_KR/info-veh_spec-engine_oil_sae_viscosity_chart.html",
+        "hash": "99de3ce7ba3663481760b15326b356231768799310f1780c01f01d8a761455e5",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "9_18_26",
+          "path": "info-veh_spec-engine_oil_sae_viscosity_chart.html",
+          "item": null
+        },
+        "passageHash": "37a411337015dd6dcbc961685cc1e59b2356179698e4a99e0bed91743b8804c0"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": true,
+      "imageSources": [
+        {
+          "id": "HYUNDAI-GN7-2027-9_18_26",
+          "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7/2027/ko_KR/images/1C_SAE_Header_KR.jpg.png",
+          "hash": "8e248618f0143b337772fa3f13a6656266545362915913b46d025f2ef64dc34e",
+          "path": ".local\\manual-review\\2026-10-28\\audit\\sae\\8e248618f0143b337772fa3f13a6656266545362915913b46d025f2ef64dc34e.png"
+        },
+        {
+          "id": "HYUNDAI-GN7-2027-9_18_26",
+          "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7/2027/ko_KR/images/0W20.jpg.png",
+          "hash": "03e0d4196a9308fcef0281fa763efabb3c78e42a0e5d451005d4ce909a6d1b00",
+          "path": ".local\\manual-review\\2026-10-28\\audit\\sae\\03e0d4196a9308fcef0281fa763efabb3c78e42a0e5d451005d4ce909a6d1b00.png"
+        }
+      ],
+      "imageReading": "-30~50℃ 눈금 전폭의 점도 띠: CN8KH 0W-16, 나머지 0W-20. 점도만으로 전체 오일 품질 규격을 확정하지 않음."
+    },
+    {
+      "sectionId": "HYUNDAI-GN7-2027-71_87_92",
+      "documentId": "HYUNDAI-GN7-2027",
+      "title": "안전벨트 경고등과 경고음",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7/2027/ko_KR/safety-fasten_seat_belts-seatbelt_warn_light_and_chime.html",
+        "hash": "99de3ce7ba3663481760b15326b356231768799310f1780c01f01d8a761455e5",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "71_87_92",
+          "path": "safety-fasten_seat_belts-seatbelt_warn_light_and_chime.html",
+          "item": null
+        },
+        "passageHash": "d3cb5ea4f42da14bcdaceb72b7a8f0153bd2018ffa9bd37db92671f2c3123f93"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7-2027-111",
+      "documentId": "HYUNDAI-GN7-2027",
+      "title": "주행 정보와 경고등",
+      "status": "REVIEWED_CONTEXT_NO_COUNTERMEASURE",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7/2027/ko_KR/cluster.html",
+        "hash": "99de3ce7ba3663481760b15326b356231768799310f1780c01f01d8a761455e5",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "111",
+          "path": "cluster.html",
+          "item": null
+        },
+        "passageHash": "32e065963d575ba5b7a37289d34c4fa0c2fa3b05fe14c7580f5d835bbbfb0816"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7-2027-111_113_116",
+      "documentId": "HYUNDAI-GN7-2027",
+      "title": "냉각수 온도",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7/2027/ko_KR/topic_hhy_dlq_zcc.html",
+        "hash": "99de3ce7ba3663481760b15326b356231768799310f1780c01f01d8a761455e5",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "111_113_116",
+          "path": "topic_hhy_dlq_zcc.html",
+          "item": null
+        },
+        "passageHash": "31b4ab896958241b361aa2adcf7c2739392eaca5f060c0ea8f925e4c7739dabe"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7-2027-111_113_121",
+      "documentId": "HYUNDAI-GN7-2027",
+      "title": "변속 위치 표시등",
+      "status": "REVIEWED_CONTEXT_NO_COUNTERMEASURE",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7/2027/ko_KR/cluster-instr_panel-shift_position_ind.html",
+        "hash": "99de3ce7ba3663481760b15326b356231768799310f1780c01f01d8a761455e5",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "111_113_121",
+          "path": "cluster-instr_panel-shift_position_ind.html",
+          "item": null
+        },
+        "passageHash": "4b4051322a9df8ced136c3c5802e032248b68fd1e8cd19812388f9d188814119"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7-2027-111_122",
+      "documentId": "HYUNDAI-GN7-2027",
+      "title": "경고등 및 표시등 확인하기",
+      "status": "REVIEWED_CONTEXT_NO_COUNTERMEASURE",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7/2027/ko_KR/cluster-check_warn_and_ind_lights.html",
+        "hash": "99de3ce7ba3663481760b15326b356231768799310f1780c01f01d8a761455e5",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "111_122",
+          "path": "cluster-check_warn_and_ind_lights.html",
+          "item": null
+        },
+        "passageHash": "a80bd4e06c85714c4318b68740212f4a79a631011df06076723996b2302588a0"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7-2027-111_122_123",
+      "documentId": "HYUNDAI-GN7-2027",
+      "title": "경고등 및 표시등 확인하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7/2027/ko_KR/cluster-check_warn_indic_lights-check_warn_and_ind_lights.html",
+        "hash": "bcbfe778a3fe273b435b68d1ccad9b9653e4409fa9b9e7205ea5865a6950f61e",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7-2027-web/cluster-check_warn_indic_lights-check_warn_and_ind_lights.html",
+        "locator": {
+          "topicId": "111_122_123",
+          "path": "cluster-check_warn_indic_lights-check_warn_and_ind_lights.html",
+          "item": null
+        },
+        "passageHash": "b3967069380554b9c87ff00d5a9df34350793ccb7b42f14a8f910715398f0d32"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7-2027-111_122_124",
+      "documentId": "HYUNDAI-GN7-2027",
+      "title": "알림 메시지 확인하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7/2027/ko_KR/cluster-check_warn_indic_lights-check_cluster_messages.html",
+        "hash": "99de3ce7ba3663481760b15326b356231768799310f1780c01f01d8a761455e5",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "111_122_124",
+          "path": "cluster-check_warn_indic_lights-check_cluster_messages.html",
+          "item": null
+        },
+        "passageHash": "a3173e638d7bdf8670e74032c033a8ccc80022295e10cf69326af4904291dc33"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7-2027-446_448_456",
+      "documentId": "HYUNDAI-GN7-2027",
+      "title": "타이어 공기압 경보 시스템(TPMS)",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7/2027/ko_KR/emergency-handle_vehicle_malfunc-tpms.html",
+        "hash": "6ef436757593710f681816fe862a80bcf2e67fb01671fe8c3e3d8645f279cbb9",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7-2027-web/emergency-handle_vehicle_malfunc-tpms.html",
+        "locator": {
+          "topicId": "446_448_456",
+          "path": "emergency-handle_vehicle_malfunc-tpms.html",
+          "item": null
+        },
+        "passageHash": "4d0f1ab5e257b05da3f1f43805473b443bbe5384d1846b640e956a7b3a402ec4"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7-2027-446_460",
+      "documentId": "HYUNDAI-GN7-2027",
+      "title": "엔진 과열",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7/2027/ko_KR/emergency-engine_overheat.html",
+        "hash": "4bdd0169a7d4eb8c9f23653af3c79ac1676617933ed6c1976268304354c1e133",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7-2027-web/emergency-engine_overheat.html",
+        "locator": {
+          "topicId": "446_460",
+          "path": "emergency-engine_overheat.html",
+          "item": null
+        },
+        "passageHash": "8e79452e9010161b509cb6d64f521fd2fbfa30ed344fbd32a39c751a13e1a5b8"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7-2027-472_479_480",
+      "documentId": "HYUNDAI-GN7-2027",
+      "title": "엔진 오일 점검하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7/2027/ko_KR/maint-vehicle_inspect_maint-engine_oil_insp.html",
+        "hash": "99de3ce7ba3663481760b15326b356231768799310f1780c01f01d8a761455e5",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "472_479_480",
+          "path": "maint-vehicle_inspect_maint-engine_oil_insp.html",
+          "item": null
+        },
+        "passageHash": "7af9138fdfac166a9b99c82ae0b75039e8181bd1e41e64b703c41e7fb78c50ac"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7-2027-472_479_481",
+      "documentId": "HYUNDAI-GN7-2027",
+      "title": "냉각수 점검하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7/2027/ko_KR/maint-vehicle_inspect_maint-coolant_insp.html",
+        "hash": "99de3ce7ba3663481760b15326b356231768799310f1780c01f01d8a761455e5",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "472_479_481",
+          "path": "maint-vehicle_inspect_maint-coolant_insp.html",
+          "item": null
+        },
+        "passageHash": "148d32fe00dcf2f1dab054242b3aaf44edd5dfa26538eaa90424f879f55a0a8e"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7-2027-472_479_485",
+      "documentId": "HYUNDAI-GN7-2027",
+      "title": "브레이크액 점검하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7/2027/ko_KR/maint-vehicle_inspect_maint-brake_fluid_insp.html",
+        "hash": "99de3ce7ba3663481760b15326b356231768799310f1780c01f01d8a761455e5",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "472_479_485",
+          "path": "maint-vehicle_inspect_maint-brake_fluid_insp.html",
+          "item": null
+        },
+        "passageHash": "a61b594c4696a074a23766cd83e8411736acb1599e341370b6a1eb2f40d2e419"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7HEV-2027-9_14_16",
+      "documentId": "HYUNDAI-GN7HEV-2027",
+      "title": "경고등 및 표시등 확인하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7HEV/2027/ko_KR/foreword-driving_hev-warning_indicator_lights.html",
+        "hash": "305688d5263d01bfd560b316d34cefade0437633ebc2f09244347555920d920e",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7HEV-2027-web/foreword-driving_hev-warning_indicator_lights.html",
+        "locator": {
+          "topicId": "9_14_16",
+          "path": "foreword-driving_hev-warning_indicator_lights.html",
+          "item": null
+        },
+        "passageHash": "a03314a7dbc066ae3417dd236acf29cac63e20704e03aa3c5e9f1ce24b43fd42"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7HEV-2027-32_41_49",
+      "documentId": "HYUNDAI-GN7HEV-2027",
+      "title": "온도에 따른 엔진 오일 SAE 점도 분류표",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7HEV/2027/ko_KR/info-veh_spec-engine_oil_sae_viscosity_chart.html",
+        "hash": "8dbaf470f183cdf969bbb5e43d26d859baa54160df38303ec61aca7a650a1d5e",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7HEV-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "32_41_49",
+          "path": "info-veh_spec-engine_oil_sae_viscosity_chart.html",
+          "item": null
+        },
+        "passageHash": "7829fc3bb9e7caf26aebe456de2f076c0bbbc4431d99121ad61f6d26c7ecc482"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": true,
+      "imageSources": [
+        {
+          "id": "HYUNDAI-GN7HEV-2027-32_41_49",
+          "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7HEV/2027/ko_KR/images/1C_SAE_Header_KR.jpg.png",
+          "hash": "8e248618f0143b337772fa3f13a6656266545362915913b46d025f2ef64dc34e",
+          "path": ".local\\manual-review\\2026-10-28\\audit\\sae\\8e248618f0143b337772fa3f13a6656266545362915913b46d025f2ef64dc34e.png"
+        },
+        {
+          "id": "HYUNDAI-GN7HEV-2027-32_41_49",
+          "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7HEV/2027/ko_KR/images/0W20.jpg.png",
+          "hash": "03e0d4196a9308fcef0281fa763efabb3c78e42a0e5d451005d4ce909a6d1b00",
+          "path": ".local\\manual-review\\2026-10-28\\audit\\sae\\03e0d4196a9308fcef0281fa763efabb3c78e42a0e5d451005d4ce909a6d1b00.png"
+        }
+      ],
+      "imageReading": "-30~50℃ 눈금 전폭의 점도 띠: CN8KH 0W-16, 나머지 0W-20. 점도만으로 전체 오일 품질 규격을 확정하지 않음."
+    },
+    {
+      "sectionId": "HYUNDAI-GN7HEV-2027-93_109_114",
+      "documentId": "HYUNDAI-GN7HEV-2027",
+      "title": "안전벨트 경고등과 경고음",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7HEV/2027/ko_KR/safety-fasten_seat_belts-seatbelt_warn_light_and_chime.html",
+        "hash": "8dbaf470f183cdf969bbb5e43d26d859baa54160df38303ec61aca7a650a1d5e",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7HEV-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "93_109_114",
+          "path": "safety-fasten_seat_belts-seatbelt_warn_light_and_chime.html",
+          "item": null
+        },
+        "passageHash": "d3cb5ea4f42da14bcdaceb72b7a8f0153bd2018ffa9bd37db92671f2c3123f93"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7HEV-2027-133",
+      "documentId": "HYUNDAI-GN7HEV-2027",
+      "title": "주행 정보와 경고등",
+      "status": "REVIEWED_CONTEXT_NO_COUNTERMEASURE",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7HEV/2027/ko_KR/cluster.html",
+        "hash": "8dbaf470f183cdf969bbb5e43d26d859baa54160df38303ec61aca7a650a1d5e",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7HEV-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "133",
+          "path": "cluster.html",
+          "item": null
+        },
+        "passageHash": "32e065963d575ba5b7a37289d34c4fa0c2fa3b05fe14c7580f5d835bbbfb0816"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7HEV-2027-133_135_139",
+      "documentId": "HYUNDAI-GN7HEV-2027",
+      "title": "냉각수 온도",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7HEV/2027/ko_KR/topic_hhy_dlq_zcc.html",
+        "hash": "8dbaf470f183cdf969bbb5e43d26d859baa54160df38303ec61aca7a650a1d5e",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7HEV-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "133_135_139",
+          "path": "topic_hhy_dlq_zcc.html",
+          "item": null
+        },
+        "passageHash": "31b4ab896958241b361aa2adcf7c2739392eaca5f060c0ea8f925e4c7739dabe"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7HEV-2027-133_135_145",
+      "documentId": "HYUNDAI-GN7HEV-2027",
+      "title": "변속 위치 표시등",
+      "status": "REVIEWED_CONTEXT_NO_COUNTERMEASURE",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7HEV/2027/ko_KR/cluster-instr_panel-shift_position_ind.html",
+        "hash": "8dbaf470f183cdf969bbb5e43d26d859baa54160df38303ec61aca7a650a1d5e",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7HEV-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "133_135_145",
+          "path": "cluster-instr_panel-shift_position_ind.html",
+          "item": null
+        },
+        "passageHash": "4b4051322a9df8ced136c3c5802e032248b68fd1e8cd19812388f9d188814119"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7HEV-2027-133_146",
+      "documentId": "HYUNDAI-GN7HEV-2027",
+      "title": "경고등 및 표시등 확인하기",
+      "status": "REVIEWED_CONTEXT_NO_COUNTERMEASURE",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7HEV/2027/ko_KR/cluster-check_warn_and_ind_lights.html",
+        "hash": "8dbaf470f183cdf969bbb5e43d26d859baa54160df38303ec61aca7a650a1d5e",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7HEV-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "133_146",
+          "path": "cluster-check_warn_and_ind_lights.html",
+          "item": null
+        },
+        "passageHash": "a80bd4e06c85714c4318b68740212f4a79a631011df06076723996b2302588a0"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7HEV-2027-133_146_147",
+      "documentId": "HYUNDAI-GN7HEV-2027",
+      "title": "경고등 및 표시등 확인하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7HEV/2027/ko_KR/cluster-check_warn_indic_lights-check_warn_and_ind_lights.html",
+        "hash": "74a46ef5427e8c6b7ba6b4e423ff15285c535c7764d53030d0a2ee4a0eaf422a",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7HEV-2027-web/cluster-check_warn_indic_lights-check_warn_and_ind_lights.html",
+        "locator": {
+          "topicId": "133_146_147",
+          "path": "cluster-check_warn_indic_lights-check_warn_and_ind_lights.html",
+          "item": null
+        },
+        "passageHash": "8b0a82ec42624eebd04d20a63e70fe215289d9560d5d1e84ccd331e6e677343e"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7HEV-2027-133_146_148",
+      "documentId": "HYUNDAI-GN7HEV-2027",
+      "title": "알림 메시지 확인하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7HEV/2027/ko_KR/cluster-check_warn_indic_lights-check_cluster_messages.html",
+        "hash": "8dbaf470f183cdf969bbb5e43d26d859baa54160df38303ec61aca7a650a1d5e",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7HEV-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "133_146_148",
+          "path": "cluster-check_warn_indic_lights-check_cluster_messages.html",
+          "item": null
+        },
+        "passageHash": "b53fce039b59d8a1d2ee3635a5117f90346950364e35a492eecd30f51d87c4e3"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7HEV-2027-455_457_467",
+      "documentId": "HYUNDAI-GN7HEV-2027",
+      "title": "타이어 공기압 경보 시스템 (TPMS)",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7HEV/2027/ko_KR/emergency-handle_vehicle_malfunc-tpms.html",
+        "hash": "d0b939f434173a583203516b2097cb6d7e435f87ee5b9db5d54d04e3e6982aec",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7HEV-2027-web/emergency-handle_vehicle_malfunc-tpms.html",
+        "locator": {
+          "topicId": "455_457_467",
+          "path": "emergency-handle_vehicle_malfunc-tpms.html",
+          "item": null
+        },
+        "passageHash": "b15e409f517ac40aeec2490b3b9f4a428af361b15f695086b911890fd7b81c5a"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7HEV-2027-455_468",
+      "documentId": "HYUNDAI-GN7HEV-2027",
+      "title": "엔진 과열",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7HEV/2027/ko_KR/emergency-engine_overheat.html",
+        "hash": "a9067d257905cde5c868d5bbdd0a6531b584b37f1924f81be565ab2d788eebe4",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7HEV-2027-web/emergency-engine_overheat.html",
+        "locator": {
+          "topicId": "455_468",
+          "path": "emergency-engine_overheat.html",
+          "item": null
+        },
+        "passageHash": "fb7827db80d3b2197fd366bd4ed8d9d386f943334dc65d5b60524af1b6ce763c"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7HEV-2027-479_486_487",
+      "documentId": "HYUNDAI-GN7HEV-2027",
+      "title": "엔진 오일 점검하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7HEV/2027/ko_KR/maint-vehicle_inspect_maint-engine_oil_insp.html",
+        "hash": "8dbaf470f183cdf969bbb5e43d26d859baa54160df38303ec61aca7a650a1d5e",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7HEV-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "479_486_487",
+          "path": "maint-vehicle_inspect_maint-engine_oil_insp.html",
+          "item": null
+        },
+        "passageHash": "dc1a92df0a58ad1ded04fa576e211038742f860040a829134b6fc59c0c10b0b9"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7HEV-2027-479_486_488",
+      "documentId": "HYUNDAI-GN7HEV-2027",
+      "title": "냉각수 점검하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7HEV/2027/ko_KR/maint-vehicle_inspect_maint-coolant_insp.html",
+        "hash": "8dbaf470f183cdf969bbb5e43d26d859baa54160df38303ec61aca7a650a1d5e",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7HEV-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "479_486_488",
+          "path": "maint-vehicle_inspect_maint-coolant_insp.html",
+          "item": null
+        },
+        "passageHash": "aa00cf3e4ccb47572c40e2336f7d62a936eed23e1306caa9bf3c7f9a3bc3d7a6"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-GN7HEV-2027-479_486_492",
+      "documentId": "HYUNDAI-GN7HEV-2027",
+      "title": "브레이크액 점검하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/GN7HEV/2027/ko_KR/maint-vehicle_inspect_maint-brake_fluid_insp.html",
+        "hash": "8dbaf470f183cdf969bbb5e43d26d859baa54160df38303ec61aca7a650a1d5e",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/GN7HEV-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "479_486_492",
+          "path": "maint-vehicle_inspect_maint-brake_fluid_insp.html",
+          "item": null
+        },
+        "passageHash": "6163927bbc584b321ad5a0f3df0db68d8292df99aa56f4ba799ac559a4f2cd47"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8-2027-9_18_26",
+      "documentId": "HYUNDAI-CN8-2027",
+      "title": "온도에 따른 엔진 오일 SAE 점도 분류표",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8/2027/ko_KR/info-veh_spec-engine_oil_sae_viscosity_chart.html",
+        "hash": "cbc8e4b8721cf56316691b1a7b0b8feef6ab36323a724f642c8eeac82632a415",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "9_18_26",
+          "path": "info-veh_spec-engine_oil_sae_viscosity_chart.html",
+          "item": null
+        },
+        "passageHash": "974c37b41303ba1da7fc9e12a630a84d97d965ebf1ee40a57daec3fbef40fdcf"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": true,
+      "imageSources": [
+        {
+          "id": "HYUNDAI-CN8-2027-9_18_26",
+          "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8/2027/ko_KR/images/1C_SAE_Header_KR.jpg.png",
+          "hash": "8e248618f0143b337772fa3f13a6656266545362915913b46d025f2ef64dc34e",
+          "path": ".local\\manual-review\\2026-10-28\\audit\\sae\\8e248618f0143b337772fa3f13a6656266545362915913b46d025f2ef64dc34e.png"
+        },
+        {
+          "id": "HYUNDAI-CN8-2027-9_18_26",
+          "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8/2027/ko_KR/images/0W20.jpg.png",
+          "hash": "03e0d4196a9308fcef0281fa763efabb3c78e42a0e5d451005d4ce909a6d1b00",
+          "path": ".local\\manual-review\\2026-10-28\\audit\\sae\\03e0d4196a9308fcef0281fa763efabb3c78e42a0e5d451005d4ce909a6d1b00.png"
+        }
+      ],
+      "imageReading": "-30~50℃ 눈금 전폭의 점도 띠: CN8KH 0W-16, 나머지 0W-20. 점도만으로 전체 오일 품질 규격을 확정하지 않음."
+    },
+    {
+      "sectionId": "HYUNDAI-CN8-2027-68_84_89",
+      "documentId": "HYUNDAI-CN8-2027",
+      "title": "안전벨트 경고등과 경고음",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8/2027/ko_KR/safety-fasten_seat_belts-seatbelt_warn_light_and_chime.html",
+        "hash": "cbc8e4b8721cf56316691b1a7b0b8feef6ab36323a724f642c8eeac82632a415",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "68_84_89",
+          "path": "safety-fasten_seat_belts-seatbelt_warn_light_and_chime.html",
+          "item": null
+        },
+        "passageHash": "e84c8a10882bc4bf958b8f903506c4a84dcaea9e0d971df32cf8968847636f96"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8-2027-107",
+      "documentId": "HYUNDAI-CN8-2027",
+      "title": "주행 정보와 경고등",
+      "status": "REVIEWED_CONTEXT_NO_COUNTERMEASURE",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8/2027/ko_KR/cluster.html",
+        "hash": "cbc8e4b8721cf56316691b1a7b0b8feef6ab36323a724f642c8eeac82632a415",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "107",
+          "path": "cluster.html",
+          "item": null
+        },
+        "passageHash": "15116857768feb964de62a97cdc1f0940f3241501403bcbec09852cd2228c89e"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8-2027-107_109_112",
+      "documentId": "HYUNDAI-CN8-2027",
+      "title": "냉각수 온도",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8/2027/ko_KR/coolant_temperature.html",
+        "hash": "cbc8e4b8721cf56316691b1a7b0b8feef6ab36323a724f642c8eeac82632a415",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "107_109_112",
+          "path": "coolant_temperature.html",
+          "item": null
+        },
+        "passageHash": "263552a6fbc7ccfd68fd76e5471db2b5ff19ca96cf7e6fb63db0e4ec913911ed"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8-2027-107_109_113",
+      "documentId": "HYUNDAI-CN8-2027",
+      "title": "변속 위치 표시등",
+      "status": "REVIEWED_CONTEXT_NO_COUNTERMEASURE",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8/2027/ko_KR/cluster-instr_panel-shift_position_ind.html",
+        "hash": "cbc8e4b8721cf56316691b1a7b0b8feef6ab36323a724f642c8eeac82632a415",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "107_109_113",
+          "path": "cluster-instr_panel-shift_position_ind.html",
+          "item": null
+        },
+        "passageHash": "4b4051322a9df8ced136c3c5802e032248b68fd1e8cd19812388f9d188814119"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8-2027-107_118",
+      "documentId": "HYUNDAI-CN8-2027",
+      "title": "경고등 및 표시등 확인하기",
+      "status": "REVIEWED_CONTEXT_NO_COUNTERMEASURE",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8/2027/ko_KR/cluster-check_warn_and_ind_lights.html",
+        "hash": "cbc8e4b8721cf56316691b1a7b0b8feef6ab36323a724f642c8eeac82632a415",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "107_118",
+          "path": "cluster-check_warn_and_ind_lights.html",
+          "item": null
+        },
+        "passageHash": "b888e75fdf63029e64657e55449fb421ba687fa57911d4148723d03b9ce78383"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8-2027-107_118_119",
+      "documentId": "HYUNDAI-CN8-2027",
+      "title": "경고등 및 표시등 확인하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8/2027/ko_KR/cluster-check_warn_indic_lights-check_warn_and_ind_lights.html",
+        "hash": "4c3d984f2d6a48f1de3e8f3cb9c5989e07bbaff20a59f72c4df5d302b818f95e",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8-2027-web/cluster-check_warn_indic_lights-check_warn_and_ind_lights.html",
+        "locator": {
+          "topicId": "107_118_119",
+          "path": "cluster-check_warn_indic_lights-check_warn_and_ind_lights.html",
+          "item": null
+        },
+        "passageHash": "2fa03dd9cbfb68f704fcc1576125bf03f5360c878938d865ae89a3ec90e95e24"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8-2027-107_118_120",
+      "documentId": "HYUNDAI-CN8-2027",
+      "title": "알림 메시지 확인하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8/2027/ko_KR/cluster-check_warn_indic_lights-check_cluster_messages.html",
+        "hash": "cbc8e4b8721cf56316691b1a7b0b8feef6ab36323a724f642c8eeac82632a415",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "107_118_120",
+          "path": "cluster-check_warn_indic_lights-check_cluster_messages.html",
+          "item": null
+        },
+        "passageHash": "f7a10789e780f75c6a795f4f7ae843be67733d48cdb657e89de47a95ba6a7de7"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8-2027-392_394_402",
+      "documentId": "HYUNDAI-CN8-2027",
+      "title": "타이어 공기압 경보 시스템(TPMS)",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8/2027/ko_KR/emergency-handle_vehicle_malfunc-tpms.html",
+        "hash": "a8e8dad4c8075f840cb7585c426e36502e6d8cba7d9f61bb3e639c01fd7e8288",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8-2027-web/emergency-handle_vehicle_malfunc-tpms.html",
+        "locator": {
+          "topicId": "392_394_402",
+          "path": "emergency-handle_vehicle_malfunc-tpms.html",
+          "item": null
+        },
+        "passageHash": "4ea50d53b50f9156f80072fe32e702be202dc44e8e374ccad2806cf4e801e2b3"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8-2027-392_406",
+      "documentId": "HYUNDAI-CN8-2027",
+      "title": "엔진 과열",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8/2027/ko_KR/emergency-engine_overheat.html",
+        "hash": "90e0e6be6ddc66876786cd59c1570a438ae3a1ceebfa817a0e3724051fb96218",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8-2027-web/emergency-engine_overheat.html",
+        "locator": {
+          "topicId": "392_406",
+          "path": "emergency-engine_overheat.html",
+          "item": null
+        },
+        "passageHash": "0f34473f9956c7299d2c7a8a070d41ce9671bcfc386608ca5f0e32acebecd48d"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8-2027-416_423_424",
+      "documentId": "HYUNDAI-CN8-2027",
+      "title": "엔진 오일 점검하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8/2027/ko_KR/maint-vehicle_inspect_maint-engine_oil_insp.html",
+        "hash": "cbc8e4b8721cf56316691b1a7b0b8feef6ab36323a724f642c8eeac82632a415",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "416_423_424",
+          "path": "maint-vehicle_inspect_maint-engine_oil_insp.html",
+          "item": null
+        },
+        "passageHash": "983bfe4a762a7d0466acc5410374d529053f9957bc9e1ea856ee192bc7e11c99"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8-2027-416_423_425",
+      "documentId": "HYUNDAI-CN8-2027",
+      "title": "냉각수 점검하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8/2027/ko_KR/maint-vehicle_inspect_maint-coolant_insp.html",
+        "hash": "cbc8e4b8721cf56316691b1a7b0b8feef6ab36323a724f642c8eeac82632a415",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "416_423_425",
+          "path": "maint-vehicle_inspect_maint-coolant_insp.html",
+          "item": null
+        },
+        "passageHash": "6a5f9fb2b5514e1e61d08ad06ae6cb22009504f9925636a9c62d3555054c9bed"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8-2027-416_423_429",
+      "documentId": "HYUNDAI-CN8-2027",
+      "title": "브레이크액 점검하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8/2027/ko_KR/maint-vehicle_inspect_maint-brake_fluid_insp.html",
+        "hash": "cbc8e4b8721cf56316691b1a7b0b8feef6ab36323a724f642c8eeac82632a415",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "416_423_429",
+          "path": "maint-vehicle_inspect_maint-brake_fluid_insp.html",
+          "item": null
+        },
+        "passageHash": "4bc0c0e2d69c631431f1559fbf99128c7983dde03621d53a52086900db01fcc4"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8KH-2027-9_19_22",
+      "documentId": "HYUNDAI-CN8KH-2027",
+      "title": "경고등 및 표시등 확인하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8KH/2027/ko_KR/foreword-driving_hev-warning_indicator_lights.html",
+        "hash": "d3aad8368f21f02ac884b369aa28663375551ff1cdb9ba46299ea45efd957fae",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8KH-2027-web/foreword-driving_hev-warning_indicator_lights.html",
+        "locator": {
+          "topicId": "9_19_22",
+          "path": "foreword-driving_hev-warning_indicator_lights.html",
+          "item": null
+        },
+        "passageHash": "1710071077a7bb7a20994a411d926359d085d4793b8f3cbe448858f4da6540c5"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8KH-2027-33_42_50",
+      "documentId": "HYUNDAI-CN8KH-2027",
+      "title": "온도에 따른 엔진 오일 SAE 점도 분류표",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8KH/2027/ko_KR/info-veh_spec-engine_oil_sae_viscosity_chart.html",
+        "hash": "9ca6cab2554fa5b649d1ce82bc3479d0cfd746fc5a8903febdecbd13a2181c05",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8KH-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "33_42_50",
+          "path": "info-veh_spec-engine_oil_sae_viscosity_chart.html",
+          "item": null
+        },
+        "passageHash": "a67715a785ec0a913de52e12e4016427ebfad3a76ad21b41c75d08ec9012f857"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": true,
+      "imageSources": [
+        {
+          "id": "HYUNDAI-CN8KH-2027-33_42_50",
+          "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8KH/2027/ko_KR/images/1C_SAE_Header_KR.jpg.png",
+          "hash": "8e248618f0143b337772fa3f13a6656266545362915913b46d025f2ef64dc34e",
+          "path": ".local\\manual-review\\2026-10-28\\audit\\sae\\8e248618f0143b337772fa3f13a6656266545362915913b46d025f2ef64dc34e.png"
+        },
+        {
+          "id": "HYUNDAI-CN8KH-2027-33_42_50",
+          "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8KH/2027/ko_KR/images/0W16.jpg.png",
+          "hash": "0c91b2e80aa402b7809e33d18579b2d8f0d65fa3cd786f5e481fe0044212f50a",
+          "path": ".local\\manual-review\\2026-10-28\\audit\\sae\\0c91b2e80aa402b7809e33d18579b2d8f0d65fa3cd786f5e481fe0044212f50a.png"
+        }
+      ],
+      "imageReading": "-30~50℃ 눈금 전폭의 점도 띠: CN8KH 0W-16, 나머지 0W-20. 점도만으로 전체 오일 품질 규격을 확정하지 않음."
+    },
+    {
+      "sectionId": "HYUNDAI-CN8KH-2027-92_108_113",
+      "documentId": "HYUNDAI-CN8KH-2027",
+      "title": "안전벨트 경고등과 경고음",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8KH/2027/ko_KR/safety-fasten_seat_belts-seatbelt_warn_light_and_chime.html",
+        "hash": "9ca6cab2554fa5b649d1ce82bc3479d0cfd746fc5a8903febdecbd13a2181c05",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8KH-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "92_108_113",
+          "path": "safety-fasten_seat_belts-seatbelt_warn_light_and_chime.html",
+          "item": null
+        },
+        "passageHash": "e84c8a10882bc4bf958b8f903506c4a84dcaea9e0d971df32cf8968847636f96"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8KH-2027-131",
+      "documentId": "HYUNDAI-CN8KH-2027",
+      "title": "주행 정보와 경고등",
+      "status": "REVIEWED_CONTEXT_NO_COUNTERMEASURE",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8KH/2027/ko_KR/cluster.html",
+        "hash": "9ca6cab2554fa5b649d1ce82bc3479d0cfd746fc5a8903febdecbd13a2181c05",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8KH-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "131",
+          "path": "cluster.html",
+          "item": null
+        },
+        "passageHash": "15116857768feb964de62a97cdc1f0940f3241501403bcbec09852cd2228c89e"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8KH-2027-131_133_138",
+      "documentId": "HYUNDAI-CN8KH-2027",
+      "title": "냉각수 온도",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8KH/2027/ko_KR/coolant_temperature.html",
+        "hash": "9ca6cab2554fa5b649d1ce82bc3479d0cfd746fc5a8903febdecbd13a2181c05",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8KH-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "131_133_138",
+          "path": "coolant_temperature.html",
+          "item": null
+        },
+        "passageHash": "263552a6fbc7ccfd68fd76e5471db2b5ff19ca96cf7e6fb63db0e4ec913911ed"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8KH-2027-131_133_139",
+      "documentId": "HYUNDAI-CN8KH-2027",
+      "title": "변속 위치 표시등",
+      "status": "REVIEWED_CONTEXT_NO_COUNTERMEASURE",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8KH/2027/ko_KR/cluster-instr_panel-shift_position_ind.html",
+        "hash": "9ca6cab2554fa5b649d1ce82bc3479d0cfd746fc5a8903febdecbd13a2181c05",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8KH-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "131_133_139",
+          "path": "cluster-instr_panel-shift_position_ind.html",
+          "item": null
+        },
+        "passageHash": "4b4051322a9df8ced136c3c5802e032248b68fd1e8cd19812388f9d188814119"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8KH-2027-131_144",
+      "documentId": "HYUNDAI-CN8KH-2027",
+      "title": "경고등 및 표시등 확인하기",
+      "status": "REVIEWED_CONTEXT_NO_COUNTERMEASURE",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8KH/2027/ko_KR/cluster-check_warn_and_ind_lights.html",
+        "hash": "9ca6cab2554fa5b649d1ce82bc3479d0cfd746fc5a8903febdecbd13a2181c05",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8KH-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "131_144",
+          "path": "cluster-check_warn_and_ind_lights.html",
+          "item": null
+        },
+        "passageHash": "b888e75fdf63029e64657e55449fb421ba687fa57911d4148723d03b9ce78383"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8KH-2027-131_144_145",
+      "documentId": "HYUNDAI-CN8KH-2027",
+      "title": "경고등 및 표시등 확인하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8KH/2027/ko_KR/cluster-check_warn_indic_lights-check_warn_and_ind_lights.html",
+        "hash": "986884c1096ba5918cf967245dd6e111b00e78c10342ac1c233eba164b33ef25",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8KH-2027-web/cluster-check_warn_indic_lights-check_warn_and_ind_lights.html",
+        "locator": {
+          "topicId": "131_144_145",
+          "path": "cluster-check_warn_indic_lights-check_warn_and_ind_lights.html",
+          "item": null
+        },
+        "passageHash": "f183ae40f15fbff0aab92331d86d3048a399dcf17ccdc87095cff0b96ae3580e"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8KH-2027-131_144_146",
+      "documentId": "HYUNDAI-CN8KH-2027",
+      "title": "알림 메시지 확인하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8KH/2027/ko_KR/cluster-check_warn_indic_lights-check_cluster_messages.html",
+        "hash": "9ca6cab2554fa5b649d1ce82bc3479d0cfd746fc5a8903febdecbd13a2181c05",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8KH-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "131_144_146",
+          "path": "cluster-check_warn_indic_lights-check_cluster_messages.html",
+          "item": null
+        },
+        "passageHash": "15e07321560b3c109ba7941fe3666c4719ea3d69194eda8376c9ca6f3b0b1dd2"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8KH-2027-427_429_437",
+      "documentId": "HYUNDAI-CN8KH-2027",
+      "title": "타이어 공기압 경보 시스템(TPMS)",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8KH/2027/ko_KR/emergency-handle_vehicle_malfunc-tpms.html",
+        "hash": "1a5ae20981746b6562749fe46b9ee0ba792e80f9f9cf29d5283ca271e625ee8c",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8KH-2027-web/emergency-handle_vehicle_malfunc-tpms.html",
+        "locator": {
+          "topicId": "427_429_437",
+          "path": "emergency-handle_vehicle_malfunc-tpms.html",
+          "item": null
+        },
+        "passageHash": "93fe616ee5e6386cbdab30bf0c3cdcfcb9030aae175f828d098e5dde48d2e625"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8KH-2027-427_441",
+      "documentId": "HYUNDAI-CN8KH-2027",
+      "title": "엔진 과열",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8KH/2027/ko_KR/emergency-engine_overheat.html",
+        "hash": "9dcbd03ebb4cc847c40d132fa92a32bb5d92d45334da7d91efd3830187fc746f",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8KH-2027-web/emergency-engine_overheat.html",
+        "locator": {
+          "topicId": "427_441",
+          "path": "emergency-engine_overheat.html",
+          "item": null
+        },
+        "passageHash": "8542ca70a94fe07f04f9b181f7293e02ca426c97890603c38f624dc175ef24d3"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8KH-2027-451_458_459",
+      "documentId": "HYUNDAI-CN8KH-2027",
+      "title": "엔진 오일 점검하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8KH/2027/ko_KR/maint-vehicle_inspect_maint-engine_oil_insp.html",
+        "hash": "9ca6cab2554fa5b649d1ce82bc3479d0cfd746fc5a8903febdecbd13a2181c05",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8KH-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "451_458_459",
+          "path": "maint-vehicle_inspect_maint-engine_oil_insp.html",
+          "item": null
+        },
+        "passageHash": "82e17bd44c3f3bedf0d307f00bad98273d4e455d47b58f6511dc096cad69d227"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8KH-2027-451_458_460",
+      "documentId": "HYUNDAI-CN8KH-2027",
+      "title": "냉각수 점검하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8KH/2027/ko_KR/maint-vehicle_inspect_maint-coolant_insp.html",
+        "hash": "9ca6cab2554fa5b649d1ce82bc3479d0cfd746fc5a8903febdecbd13a2181c05",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8KH-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "451_458_460",
+          "path": "maint-vehicle_inspect_maint-coolant_insp.html",
+          "item": null
+        },
+        "passageHash": "372e2747b2967ca4c21b15f88d0d98b9951e7f961357c86abb4e30b8798758e6"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-CN8KH-2027-451_458_464",
+      "documentId": "HYUNDAI-CN8KH-2027",
+      "title": "브레이크액 점검하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/CN8KH/2027/ko_KR/maint-vehicle_inspect_maint-brake_fluid_insp.html",
+        "hash": "9ca6cab2554fa5b649d1ce82bc3479d0cfd746fc5a8903febdecbd13a2181c05",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/CN8KH-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "451_458_464",
+          "path": "maint-vehicle_inspect_maint-brake_fluid_insp.html",
+          "item": null
+        },
+        "passageHash": "4bc0c0e2d69c631431f1559fbf99128c7983dde03621d53a52086900db01fcc4"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5-2027-9_18_26",
+      "documentId": "HYUNDAI-NX5-2027",
+      "title": "온도에 따른 엔진 오일 SAE 점도 분류표",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5/2027/ko_KR/info-veh_spec-engine_oil_sae_viscosity_chart.html",
+        "hash": "a61fd76fb13aecbfc3dccb24fd781edc2d29b878e29fcb62f01b08df2b791499",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "9_18_26",
+          "path": "info-veh_spec-engine_oil_sae_viscosity_chart.html",
+          "item": null
+        },
+        "passageHash": "95e63234094b3897a20ec188080cb4af9b4e8dc4df47434fa1062cec7af95d06"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": true,
+      "imageSources": [
+        {
+          "id": "HYUNDAI-NX5-2027-9_18_26",
+          "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5/2027/ko_KR/images/1C_SAE_Header_KR.jpg.png",
+          "hash": "8e248618f0143b337772fa3f13a6656266545362915913b46d025f2ef64dc34e",
+          "path": ".local\\manual-review\\2026-10-28\\audit\\sae\\8e248618f0143b337772fa3f13a6656266545362915913b46d025f2ef64dc34e.png"
+        },
+        {
+          "id": "HYUNDAI-NX5-2027-9_18_26",
+          "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5/2027/ko_KR/images/0W20.jpg.png",
+          "hash": "03e0d4196a9308fcef0281fa763efabb3c78e42a0e5d451005d4ce909a6d1b00",
+          "path": ".local\\manual-review\\2026-10-28\\audit\\sae\\03e0d4196a9308fcef0281fa763efabb3c78e42a0e5d451005d4ce909a6d1b00.png"
+        }
+      ],
+      "imageReading": "-30~50℃ 눈금 전폭의 점도 띠: CN8KH 0W-16, 나머지 0W-20. 점도만으로 전체 오일 품질 규격을 확정하지 않음."
+    },
+    {
+      "sectionId": "HYUNDAI-NX5-2027-69_86_91",
+      "documentId": "HYUNDAI-NX5-2027",
+      "title": "안전벨트 경고등과 경고음",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5/2027/ko_KR/safety-fasten_seat_belts-seatbelt_warn_light_and_chime.html",
+        "hash": "a61fd76fb13aecbfc3dccb24fd781edc2d29b878e29fcb62f01b08df2b791499",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "69_86_91",
+          "path": "safety-fasten_seat_belts-seatbelt_warn_light_and_chime.html",
+          "item": null
+        },
+        "passageHash": "cddd76ea7eb518bf15da7f60978df3b3254e8dbd3f435aef81656680e509c3f3"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5-2027-109",
+      "documentId": "HYUNDAI-NX5-2027",
+      "title": "주행 정보와 경고등",
+      "status": "REVIEWED_CONTEXT_NO_COUNTERMEASURE",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5/2027/ko_KR/cluster.html",
+        "hash": "a61fd76fb13aecbfc3dccb24fd781edc2d29b878e29fcb62f01b08df2b791499",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "109",
+          "path": "cluster.html",
+          "item": null
+        },
+        "passageHash": "cbd3087fc65e05b79072271855e3e2e431c0b05a52c21946e5ae77da9735ccc9"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5-2027-109_111_115",
+      "documentId": "HYUNDAI-NX5-2027",
+      "title": "냉각수 온도",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5/2027/ko_KR/topic_cb5_sws_lkc.html",
+        "hash": "a61fd76fb13aecbfc3dccb24fd781edc2d29b878e29fcb62f01b08df2b791499",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "109_111_115",
+          "path": "topic_cb5_sws_lkc.html",
+          "item": null
+        },
+        "passageHash": "263552a6fbc7ccfd68fd76e5471db2b5ff19ca96cf7e6fb63db0e4ec913911ed"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5-2027-109_111_120",
+      "documentId": "HYUNDAI-NX5-2027",
+      "title": "변속 위치 표시등",
+      "status": "REVIEWED_CONTEXT_NO_COUNTERMEASURE",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5/2027/ko_KR/cluster-instr_panel-shift_position_ind.html",
+        "hash": "a61fd76fb13aecbfc3dccb24fd781edc2d29b878e29fcb62f01b08df2b791499",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "109_111_120",
+          "path": "cluster-instr_panel-shift_position_ind.html",
+          "item": null
+        },
+        "passageHash": "4b4051322a9df8ced136c3c5802e032248b68fd1e8cd19812388f9d188814119"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5-2027-109_121",
+      "documentId": "HYUNDAI-NX5-2027",
+      "title": "경고등 및 표시등 확인하기",
+      "status": "REVIEWED_CONTEXT_NO_COUNTERMEASURE",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5/2027/ko_KR/cluster-check_warn_and_ind_lights.html",
+        "hash": "a61fd76fb13aecbfc3dccb24fd781edc2d29b878e29fcb62f01b08df2b791499",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "109_121",
+          "path": "cluster-check_warn_and_ind_lights.html",
+          "item": null
+        },
+        "passageHash": "a80bd4e06c85714c4318b68740212f4a79a631011df06076723996b2302588a0"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5-2027-109_121_122",
+      "documentId": "HYUNDAI-NX5-2027",
+      "title": "경고등 및 표시등 확인하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5/2027/ko_KR/cluster-check_warn_indic_lights-check_warn_and_ind_lights.html",
+        "hash": "35db7d041f30125fdb2000b396926954597b415c1ceebc526de298f9b617dd3a",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5-2027-web/cluster-check_warn_indic_lights-check_warn_and_ind_lights.html",
+        "locator": {
+          "topicId": "109_121_122",
+          "path": "cluster-check_warn_indic_lights-check_warn_and_ind_lights.html",
+          "item": null
+        },
+        "passageHash": "325db27322799e64fef283e2957bc266ef3bc4249f4ac15c295ef62db00d1806"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5-2027-109_121_123",
+      "documentId": "HYUNDAI-NX5-2027",
+      "title": "알림 메시지 확인하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5/2027/ko_KR/cluster-check_warn_indic_lights-check_cluster_messages.html",
+        "hash": "a61fd76fb13aecbfc3dccb24fd781edc2d29b878e29fcb62f01b08df2b791499",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "109_121_123",
+          "path": "cluster-check_warn_indic_lights-check_cluster_messages.html",
+          "item": null
+        },
+        "passageHash": "7ca8c7d9005290642c00263e4a1144aa950ec69d6e9e8c9c2b8b9b4f5f13363a"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5-2027-438_440_448",
+      "documentId": "HYUNDAI-NX5-2027",
+      "title": "타이어 공기압 경보 시스템(TPMS)",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5/2027/ko_KR/emergency-handle_vehicle_malfunc-tpms.html",
+        "hash": "1c86e8d92db07c755d5c9a495acd06e8f02092e4851c792234f1ae979432e885",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5-2027-web/emergency-handle_vehicle_malfunc-tpms.html",
+        "locator": {
+          "topicId": "438_440_448",
+          "path": "emergency-handle_vehicle_malfunc-tpms.html",
+          "item": null
+        },
+        "passageHash": "f92e613e262ede673aae23bb22f0be851f602cfe1ebbb8aca91490d4b76c80d2"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5-2027-438_452",
+      "documentId": "HYUNDAI-NX5-2027",
+      "title": "엔진 과열",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5/2027/ko_KR/emergency-engine_overheat.html",
+        "hash": "50b3c5c1f02e6798cd57e251da9ce6c0b6d955eee7e41d7eddecbc4d563ea054",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5-2027-web/emergency-engine_overheat.html",
+        "locator": {
+          "topicId": "438_452",
+          "path": "emergency-engine_overheat.html",
+          "item": null
+        },
+        "passageHash": "7fb97dccdf491dc4a8e8bd4e76d8e80a63d332b1c5df9075f291b8fa6c24c345"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5-2027-463_470_471",
+      "documentId": "HYUNDAI-NX5-2027",
+      "title": "엔진 오일 점검하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5/2027/ko_KR/maint-vehicle_inspect_maint-engine_oil_insp.html",
+        "hash": "a61fd76fb13aecbfc3dccb24fd781edc2d29b878e29fcb62f01b08df2b791499",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "463_470_471",
+          "path": "maint-vehicle_inspect_maint-engine_oil_insp.html",
+          "item": null
+        },
+        "passageHash": "fa1707f1a9fe2876c11e650cff5debfbe27c51a28acb908cbfe6a14dd0dce328"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5-2027-463_470_472",
+      "documentId": "HYUNDAI-NX5-2027",
+      "title": "냉각수 점검하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5/2027/ko_KR/maint-vehicle_inspect_maint-coolant_insp.html",
+        "hash": "a61fd76fb13aecbfc3dccb24fd781edc2d29b878e29fcb62f01b08df2b791499",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "463_470_472",
+          "path": "maint-vehicle_inspect_maint-coolant_insp.html",
+          "item": null
+        },
+        "passageHash": "c6eb80eb9bb943161cb23871f49a82978ab089faa84de773b1c75f0b5c3edcd4"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5-2027-463_470_476",
+      "documentId": "HYUNDAI-NX5-2027",
+      "title": "브레이크액 점검하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5/2027/ko_KR/maint-vehicle_inspect_maint-brake_fluid_insp.html",
+        "hash": "a61fd76fb13aecbfc3dccb24fd781edc2d29b878e29fcb62f01b08df2b791499",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "463_470_476",
+          "path": "maint-vehicle_inspect_maint-brake_fluid_insp.html",
+          "item": null
+        },
+        "passageHash": "b4758ac72170963487e1439213a69a2c59a2fab30f9412d703984d1c4a749086"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5KP-2027-9_14_16",
+      "documentId": "HYUNDAI-NX5KP-2027",
+      "title": "경고등 및 표시등 확인하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5KP/2027/ko_KR/foreword-driving_hev-warning_indicator_lights.html",
+        "hash": "36d7df83b7f45ca59814ee2ece621100fc06658f5bd47b36b4248844c6bbed3b",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5KP-2027-web/foreword-driving_hev-warning_indicator_lights.html",
+        "locator": {
+          "topicId": "9_14_16",
+          "path": "foreword-driving_hev-warning_indicator_lights.html",
+          "item": null
+        },
+        "passageHash": "4057aad90d7bfea9dd9996702b604cc54691c4db8b132beabcedc5228f5a783b"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5KP-2027-34_43_51",
+      "documentId": "HYUNDAI-NX5KP-2027",
+      "title": "온도에 따른 엔진 오일 SAE 점도 분류표",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5KP/2027/ko_KR/info-veh_spec-engine_oil_sae_viscosity_chart.html",
+        "hash": "098e6462090ce6cc19a622aab990d08e0cff1938baba42ca3816b101b7839427",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5KP-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "34_43_51",
+          "path": "info-veh_spec-engine_oil_sae_viscosity_chart.html",
+          "item": null
+        },
+        "passageHash": "88c7dadbcd77119238ca633a4c22b1eca5c2d31548993fff16578f1e2ea56f1f"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": true,
+      "imageSources": [
+        {
+          "id": "HYUNDAI-NX5KP-2027-34_43_51",
+          "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5KP/2027/ko_KR/images/1C_SAE_Header_KR.jpg.png",
+          "hash": "8e248618f0143b337772fa3f13a6656266545362915913b46d025f2ef64dc34e",
+          "path": ".local\\manual-review\\2026-10-28\\audit\\sae\\8e248618f0143b337772fa3f13a6656266545362915913b46d025f2ef64dc34e.png"
+        },
+        {
+          "id": "HYUNDAI-NX5KP-2027-34_43_51",
+          "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5KP/2027/ko_KR/images/0W20.jpg.png",
+          "hash": "03e0d4196a9308fcef0281fa763efabb3c78e42a0e5d451005d4ce909a6d1b00",
+          "path": ".local\\manual-review\\2026-10-28\\audit\\sae\\03e0d4196a9308fcef0281fa763efabb3c78e42a0e5d451005d4ce909a6d1b00.png"
+        }
+      ],
+      "imageReading": "-30~50℃ 눈금 전폭의 점도 띠: CN8KH 0W-16, 나머지 0W-20. 점도만으로 전체 오일 품질 규격을 확정하지 않음."
+    },
+    {
+      "sectionId": "HYUNDAI-NX5KP-2027-94_111_116",
+      "documentId": "HYUNDAI-NX5KP-2027",
+      "title": "안전벨트 경고등과 경고음",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5KP/2027/ko_KR/safety-fasten_seat_belts-seatbelt_warn_light_and_chime.html",
+        "hash": "098e6462090ce6cc19a622aab990d08e0cff1938baba42ca3816b101b7839427",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5KP-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "94_111_116",
+          "path": "safety-fasten_seat_belts-seatbelt_warn_light_and_chime.html",
+          "item": null
+        },
+        "passageHash": "cddd76ea7eb518bf15da7f60978df3b3254e8dbd3f435aef81656680e509c3f3"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5KP-2027-134",
+      "documentId": "HYUNDAI-NX5KP-2027",
+      "title": "주행 정보와 경고등",
+      "status": "REVIEWED_CONTEXT_NO_COUNTERMEASURE",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5KP/2027/ko_KR/cluster.html",
+        "hash": "098e6462090ce6cc19a622aab990d08e0cff1938baba42ca3816b101b7839427",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5KP-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "134",
+          "path": "cluster.html",
+          "item": null
+        },
+        "passageHash": "cbd3087fc65e05b79072271855e3e2e431c0b05a52c21946e5ae77da9735ccc9"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5KP-2027-134_136_139",
+      "documentId": "HYUNDAI-NX5KP-2027",
+      "title": "냉각수 온도",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5KP/2027/ko_KR/topic_hhy_dlq_zcc.html",
+        "hash": "098e6462090ce6cc19a622aab990d08e0cff1938baba42ca3816b101b7839427",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5KP-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "134_136_139",
+          "path": "topic_hhy_dlq_zcc.html",
+          "item": null
+        },
+        "passageHash": "263552a6fbc7ccfd68fd76e5471db2b5ff19ca96cf7e6fb63db0e4ec913911ed"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5KP-2027-134_136_144",
+      "documentId": "HYUNDAI-NX5KP-2027",
+      "title": "변속 위치 표시등",
+      "status": "REVIEWED_CONTEXT_NO_COUNTERMEASURE",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5KP/2027/ko_KR/cluster-instr_panel-shift_position_ind.html",
+        "hash": "098e6462090ce6cc19a622aab990d08e0cff1938baba42ca3816b101b7839427",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5KP-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "134_136_144",
+          "path": "cluster-instr_panel-shift_position_ind.html",
+          "item": null
+        },
+        "passageHash": "4b4051322a9df8ced136c3c5802e032248b68fd1e8cd19812388f9d188814119"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5KP-2027-134_145",
+      "documentId": "HYUNDAI-NX5KP-2027",
+      "title": "경고등 및 표시등 확인하기",
+      "status": "REVIEWED_CONTEXT_NO_COUNTERMEASURE",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5KP/2027/ko_KR/cluster-check_warn_and_ind_lights.html",
+        "hash": "098e6462090ce6cc19a622aab990d08e0cff1938baba42ca3816b101b7839427",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5KP-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "134_145",
+          "path": "cluster-check_warn_and_ind_lights.html",
+          "item": null
+        },
+        "passageHash": "a80bd4e06c85714c4318b68740212f4a79a631011df06076723996b2302588a0"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5KP-2027-134_145_146",
+      "documentId": "HYUNDAI-NX5KP-2027",
+      "title": "경고등 및 표시등 확인하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5KP/2027/ko_KR/cluster-check_warn_indic_lights-check_warn_and_ind_lights.html",
+        "hash": "45fe36e32b461c8d73ae7f405c071ea3863a02bd83f8ec7cf2212934cec776af",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5KP-2027-web/cluster-check_warn_indic_lights-check_warn_and_ind_lights.html",
+        "locator": {
+          "topicId": "134_145_146",
+          "path": "cluster-check_warn_indic_lights-check_warn_and_ind_lights.html",
+          "item": null
+        },
+        "passageHash": "e79a55a72cddf9735f665e9cff9065e59aa9973a7c2b23b2a7de0079a33c5ef4"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5KP-2027-134_145_147",
+      "documentId": "HYUNDAI-NX5KP-2027",
+      "title": "알림 메시지 확인하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5KP/2027/ko_KR/cluster-check_warn_indic_lights-check_cluster_messages.html",
+        "hash": "098e6462090ce6cc19a622aab990d08e0cff1938baba42ca3816b101b7839427",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5KP-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "134_145_147",
+          "path": "cluster-check_warn_indic_lights-check_cluster_messages.html",
+          "item": null
+        },
+        "passageHash": "009e5af48f73512f8acfca721e0e38e62d5c70caf8c05fb53b34e2ff7a2c2294"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5KP-2027-459_461_469",
+      "documentId": "HYUNDAI-NX5KP-2027",
+      "title": "타이어 공기압 경보 시스템(TPMS)",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5KP/2027/ko_KR/emergency-handle_vehicle_malfunc-tpms.html",
+        "hash": "6404c6018227e98c29b65302dd3b2671660d83cda48a79aac5680a1cb9d0a025",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5KP-2027-web/emergency-handle_vehicle_malfunc-tpms.html",
+        "locator": {
+          "topicId": "459_461_469",
+          "path": "emergency-handle_vehicle_malfunc-tpms.html",
+          "item": null
+        },
+        "passageHash": "f92e613e262ede673aae23bb22f0be851f602cfe1ebbb8aca91490d4b76c80d2"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5KP-2027-459_473",
+      "documentId": "HYUNDAI-NX5KP-2027",
+      "title": "엔진 과열",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5KP/2027/ko_KR/emergency-engine_overheat.html",
+        "hash": "b2ae6cb0723c79905bc74ffebf78cad3f38d31c4245094da6fd646749e6dbe2b",
+        "sourceKind": "official_html",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5KP-2027-web/emergency-engine_overheat.html",
+        "locator": {
+          "topicId": "459_473",
+          "path": "emergency-engine_overheat.html",
+          "item": null
+        },
+        "passageHash": "7fb97dccdf491dc4a8e8bd4e76d8e80a63d332b1c5df9075f291b8fa6c24c345"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5KP-2027-484_491_492",
+      "documentId": "HYUNDAI-NX5KP-2027",
+      "title": "엔진 오일 점검하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5KP/2027/ko_KR/maint-vehicle_inspect_maint-engine_oil_insp.html",
+        "hash": "098e6462090ce6cc19a622aab990d08e0cff1938baba42ca3816b101b7839427",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5KP-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "484_491_492",
+          "path": "maint-vehicle_inspect_maint-engine_oil_insp.html",
+          "item": null
+        },
+        "passageHash": "fa1707f1a9fe2876c11e650cff5debfbe27c51a28acb908cbfe6a14dd0dce328"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5KP-2027-484_491_493",
+      "documentId": "HYUNDAI-NX5KP-2027",
+      "title": "냉각수 점검하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5KP/2027/ko_KR/maint-vehicle_inspect_maint-coolant_insp.html",
+        "hash": "098e6462090ce6cc19a622aab990d08e0cff1938baba42ca3816b101b7839427",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5KP-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "484_491_493",
+          "path": "maint-vehicle_inspect_maint-coolant_insp.html",
+          "item": null
+        },
+        "passageHash": "5c35c64f53c6438bf1679b2ef0e95a2344ecde6478324f20b4783733f654cc85"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    },
+    {
+      "sectionId": "HYUNDAI-NX5KP-2027-484_491_497",
+      "documentId": "HYUNDAI-NX5KP-2027",
+      "title": "브레이크액 점검하기",
+      "status": "SOURCE_REVIEWED",
+      "source": {
+        "URL": "https://ownersmanual.hyundai.com/full_webhelp/NX5KP/2027/ko_KR/maint-vehicle_inspect_maint-brake_fluid_insp.html",
+        "hash": "098e6462090ce6cc19a622aab990d08e0cff1938baba42ca3816b101b7839427",
+        "sourceKind": "official_searchData_text",
+        "sourceLocalPath": ".local/manual-corpus/2026-10-28/hyundai/NX5KP-2027-web/data/searchData.json",
+        "locator": {
+          "topicId": "484_491_497",
+          "path": "maint-vehicle_inspect_maint-brake_fluid_insp.html",
+          "item": null
+        },
+        "passageHash": "b4758ac72170963487e1439213a69a2c59a2fab30f9412d703984d1c4a749086"
+      },
+      "runtimeApproved": false,
+      "scope": "인벤토리의 본문 텍스트 독해; 모든 연결 기능 제한 절의 재귀적 검토는 별도",
+      "visualImageVerification": false
+    }
+  ],
+  "counts": {
+    "REVIEWED_CONTEXT_NO_COUNTERMEASURE": 21,
+    "SOURCE_REVIEWED": 71
+  },
+  "denominator": "92 inventoried sections; indicator paragraphs counted separately; not 95 SDK types per vehicle",
+  "sourceReadingCompleteWithinStatedScope": true,
+  "expertApproved": false
+}

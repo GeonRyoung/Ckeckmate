@@ -1,0 +1,476 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://checkmate.local/schemas/manual-evidence-v1.json",
+  "title": "Draft vehicle-specific warning evidence; not an approval grant",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "vehicle",
+    "source",
+    "condition",
+    "guidance",
+    "review"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "vehicle": {
+      "type": "object",
+      "required": [
+        "brand",
+        "model",
+        "projectCode",
+        "modelYear",
+        "market",
+        "language",
+        "powertrain",
+        "equipmentConditions"
+      ],
+      "properties": {
+        "brand": {
+          "enum": [
+            "HYUNDAI",
+            "KIA"
+          ]
+        },
+        "model": {
+          "type": "string"
+        },
+        "projectCode": {
+          "type": "string"
+        },
+        "modelYear": {
+          "type": "integer",
+          "minimum": 1990
+        },
+        "market": {
+          "const": "KR"
+        },
+        "language": {
+          "const": "ko-KR"
+        },
+        "powertrain": {
+          "enum": [
+            "ICE_GASOLINE",
+            "ICE_DIESEL",
+            "ICE_LPG",
+            "HEV",
+            "PHEV",
+            "BEV",
+            "FCEV",
+            "EREV"
+          ]
+        },
+        "equipmentConditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "documentId",
+        "edition",
+        "url",
+        "retrievedAt",
+        "sha256",
+        "locator",
+        "latestVerifiedWithinCatalog"
+      ],
+      "properties": {
+        "documentId": {
+          "type": "string"
+        },
+        "edition": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "retrievedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "latestVerifiedWithinCatalog": {
+          "type": "boolean"
+        },
+        "locator": {
+          "type": "object",
+          "required": [
+            "sectionTitle",
+            "format"
+          ],
+          "properties": {
+            "sectionTitle": {
+              "type": "string"
+            },
+            "format": {
+              "enum": [
+                "PDF",
+                "HTML"
+              ]
+            },
+            "pdfPageIndex0": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "printedPage": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "htmlUrl": {
+              "type": "string",
+              "format": "uri"
+            },
+            "anchor": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "tableRow": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "format": {
+                    "const": "PDF"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "pdfPageIndex0",
+                  "printedPage"
+                ]
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "format": {
+                    "const": "HTML"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "htmlUrl",
+                  "anchor"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "condition": {
+      "type": "object",
+      "required": [
+        "sdkSymbols",
+        "states",
+        "colors",
+        "requiredContext",
+        "temporalPattern",
+        "cooccurringSymbols"
+      ],
+      "properties": {
+        "sdkSymbols": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "PARKING_BRAKE",
+              "ELECTRONIC_PARKING_BRAKE",
+              "SEAT_BELT",
+              "DOOR_OPEN",
+              "ABS",
+              "MDPS",
+              "TPMS",
+              "LOW_VOLT_BATTERY",
+              "ESC",
+              "ESC_OFF",
+              "AIRBAG",
+              "AFS",
+              "MASTER_WARNING",
+              "AUTO_HOLD",
+              "AUTO_HIGH_BEAM",
+              "HEADLAMP_LOW",
+              "HEADLAMP_HIGH",
+              "POSITION_LAMP",
+              "FRONT_FOG_LAMP",
+              "REAR_FOG_LAMP",
+              "ENGINE_OIL_PRESSURE",
+              "ENGINE_TEMPERATURE",
+              "EMERGENCY_CALL",
+              "EV_SYSTEM",
+              "POWER_DOWN",
+              "RBS",
+              "IMMOBILIZER",
+              "ENGINE",
+              "LED_HEADLAMP",
+              "PREHEAT",
+              "PARTICLE_FILTER",
+              "H2_SENSOR",
+              "H2_LEAK",
+              "PASSENGER_AIRBAG_OFF",
+              "PASSENGER_AIRBAG_ON",
+              "TURN_SIGNAL_LEFT",
+              "TURN_SIGNAL_RIGHT",
+              "ICY_ROAD",
+              "OVER_SPEED",
+              "WATER_SEPARATOR",
+              "SCR",
+              "LOW_EV_BATTERY",
+              "HEV_SYSTEM",
+              "FCEV_SYSTEM",
+              "EREV_SYSTEM",
+              "LPI",
+              "EV_CHARGING_CONNECTOR",
+              "AWD_LOCK",
+              "HEV_MODE",
+              "ISG",
+              "DBC",
+              "REV",
+              "XEV_READY",
+              "I_PEDAL",
+              "LOW_FUEL",
+              "LOW_FUEL_FCEV",
+              "EV_BATTERY_CONDITIONING",
+              "TRUNK_OPEN",
+              "CHILD_PRESENCE_DETECTION_OFF",
+              "DRIVE_MODE",
+              "DRIVE_MODE_SPORT",
+              "DRIVE_MODE_ECO",
+              "DRIVE_MODE_COMFORT",
+              "DRIVE_MODE_TERRAIN",
+              "FORCED_ALL_WHEEL_DRIVE",
+              "FOUR_WHEEL_DRIVE_MODE_2H",
+              "FOUR_WHEEL_DRIVE_MODE_4A",
+              "FOUR_WHEEL_DRIVE_MODE_4H",
+              "FOUR_WHEEL_DRIVE_MODE_4L",
+              "TOW_MODE",
+              "ESC_SPORT",
+              "CREEP_OFF",
+              "DRIFT_MODE",
+              "TRACK_MODE",
+              "UTILITY_MODE",
+              "GREEN_ZONE",
+              "PHEV_MODE",
+              "PHEV_MODE_HEV",
+              "PHEV_MODE_AUTO",
+              "PHEV_MODE_EV_PLUS",
+              "EREV_MODE",
+              "LAUNCH_MODE",
+              "ACCEL_RESPONSE_DASH",
+              "ACCEL_RESPONSE_ACCEL",
+              "N_BATTERY_DRAG",
+              "N_BATTERY_SPRINT",
+              "N_BATTERY_ENDURANCE",
+              "FCA",
+              "LKA",
+              "LFA",
+              "LCA_LEFT",
+              "LCA_RIGHT",
+              "ELK",
+              "ICC",
+              "DRIVER_ATTENTION"
+            ]
+          }
+        },
+        "states": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "OFF",
+              "ON",
+              "BLINK",
+              "UNKNOWN"
+            ]
+          }
+        },
+        "colors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "requiredContext": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "temporalPattern": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cooccurringSymbols": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "ignitionPhase": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "appHasRequiredContext": {
+          "type": "boolean"
+        }
+      }
+    },
+    "guidance": {
+      "type": "object",
+      "required": [
+        "meaningParaphrase",
+        "actions",
+        "doNotInfer"
+      ],
+      "properties": {
+        "meaningParaphrase": {
+          "type": "string"
+        },
+        "actions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "when",
+              "instructionParaphrase",
+              "sourceLocator"
+            ],
+            "properties": {
+              "when": {
+                "type": "string"
+              },
+              "instructionParaphrase": {
+                "type": "string"
+              },
+              "sourceLocator": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "doNotInfer": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "status",
+        "reviewedBy",
+        "reviewedAt",
+        "retrievalApproved",
+        "usageReview"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "AUTO_LOCATED",
+            "TEXT_REVIEWED",
+            "VISUAL_REVIEWED",
+            "APPROVED",
+            "REJECTED"
+          ]
+        },
+        "reviewedBy": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "retrievalApproved": {
+          "type": "boolean"
+        },
+        "usageReview": {
+          "enum": [
+            "PENDING",
+            "LOCAL_RESEARCH_ONLY",
+            "APPROVED_FOR_APP"
+          ]
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "review": {
+            "properties": {
+              "retrievalApproved": {
+                "const": true
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "review": {
+            "properties": {
+              "status": {
+                "const": "APPROVED"
+              },
+              "usageReview": {
+                "const": "APPROVED_FOR_APP"
+              },
+              "reviewedBy": {
+                "type": "string",
+                "minLength": 1
+              },
+              "reviewedAt": {
+                "type": "string",
+                "format": "date-time"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

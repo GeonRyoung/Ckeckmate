@@ -1,0 +1,200 @@
+[
+  {
+    "category": "ev",
+    "source_url": "https://www.kia.com/kr/vehicles/ev",
+    "links": [
+      {
+        "url": "https://www.kia.com/kr/vehicles/ray-ev",
+        "label": "레이 EV "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/ev3",
+        "label": "EV3 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/ev3-gt",
+        "label": "EV3 GT "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/ev4",
+        "label": "EV4 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/ev4-gt",
+        "label": "EV4 GT "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/ev5",
+        "label": "EV5 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/ev5-gt",
+        "label": "EV5 GT "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/ev6",
+        "label": "EV6 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/ev6-gt",
+        "label": "EV6 GT "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/ev9",
+        "label": "EV9 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/ev9-gt",
+        "label": "EV9 GT "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/bongo3-ev",
+        "label": "봉고Ⅲ EV "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/bongo3-ev-frozen",
+        "label": "봉고Ⅲ EV 탑차/윙바디 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/bongo3-ev-powergate",
+        "label": "봉고Ⅲ EV 파워게이트 "
+      }
+    ]
+  },
+  {
+    "category": "sedan",
+    "source_url": "https://www.kia.com/kr/vehicles/sedan",
+    "links": [
+      {
+        "url": "https://www.kia.com/kr/vehicles/morning",
+        "label": "모닝 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/ray",
+        "label": "레이 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/k5",
+        "label": "K5 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/k8",
+        "label": "K8 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/k9",
+        "label": "K9 "
+      }
+    ]
+  },
+  {
+    "category": "rv",
+    "source_url": "https://www.kia.com/kr/vehicles/rv",
+    "links": [
+      {
+        "url": "https://www.kia.com/kr/vehicles/seltos",
+        "label": "셀토스 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/niro",
+        "label": "니로 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/sportage",
+        "label": "스포티지 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/sorento",
+        "label": "쏘렌토 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/tasman",
+        "label": "타스만 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/carnival",
+        "label": "카니발 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/carnival-hi-limousine",
+        "label": "카니발 하이리무진 "
+      }
+    ]
+  },
+  {
+    "category": "commercial",
+    "source_url": "https://www.kia.com/kr/vehicles/commercial",
+    "links": [
+      {
+        "url": "https://www.kia.com/kr/vehicles/k8-taxi",
+        "label": "K8 택시 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/pv5-taxi",
+        "label": "PV5 패신저 택시 2-3-0 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/pv5-taxi-122",
+        "label": "PV5 패신저 택시 1-2-2 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/pv5-wav-taxi",
+        "label": "PV5 WAV 택시 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/bongo3",
+        "label": "봉고Ⅲ 트럭 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/tasman-openbed",
+        "label": "타스만 오픈베드 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/bongo3-frozen",
+        "label": "봉고Ⅲ 탑차/윙바디/워크스루밴 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/bongo3-dump",
+        "label": "봉고Ⅲ 덤프 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/bongo3-powergate",
+        "label": "봉고Ⅲ 파워게이트 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/granbird",
+        "label": "그랜버드 "
+      }
+    ]
+  },
+  {
+    "category": "pbv",
+    "source_url": "https://www.kia.com/kr/vehicles/pbv",
+    "links": [
+      {
+        "url": "https://www.kia.com/kr/vehicles/pv5-passenger",
+        "label": "PV5 패신저 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/pv5-cargo",
+        "label": "PV5 카고 롱 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/pv5-cargo-compact",
+        "label": "PV5 카고 컴팩트 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/pv5-wav",
+        "label": "PV5 WAV "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/pv5-prime",
+        "label": "PV5 프라임 "
+      },
+      {
+        "url": "https://www.kia.com/kr/vehicles/pv5-openbed",
+        "label": "PV5 오픈베드 "
+      }
+    ]
+  }
+]

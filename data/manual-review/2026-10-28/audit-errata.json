@@ -1,0 +1,39 @@
+{
+  "previousSnapshot": "data/manual-research/2026-10-28",
+  "corrections": [
+    {
+      "documents": [
+        "HYUNDAI-US4SV-2026",
+        "HYUNDAI-HRSV-2025"
+      ],
+      "previousClaim": "현대 PDF 28개 모두 주 취급설명서",
+      "correctedClaim": "US4SV와 HRSV는 특장 장비 설명서. 기존 수집 62개 문서 수는 그대로지만 기본차 자료 대체 불가.",
+      "sources": [
+        {
+          "URL": "https://ownersmanual.hyundai.com/full_pdf/US4SV/2026/ko_KR",
+          "pdfPages": [
+            1,
+            3
+          ]
+        },
+        {
+          "URL": "https://ownersmanual.hyundai.com/full_pdf/HRSV/2025/ko_KR",
+          "pdfPages": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "document": "kia_KA4HI_2025",
+      "previousClaim": "OCR 필요, 기본차 2025 연결 미확보",
+      "correctedClaim": "53쪽 OCR 및 14쪽 시각 대조 완료, KA4/KA4KH 2025 공식 웹 추가 확보. 기본차 대처의 의미 검수는 별도.",
+      "source": "https://ownersmanual.kia.com/full_pdf/KA4HI/2025/ko_KR"
+    },
+    {
+      "issue": "현대 판매명 인코딩 오탐",
+      "result": "UTF-8 재검사에서 저장 salesName U+FFFD 0개, 원 API 대체문자 0개. 터미널 출력 문제였으므로 원 데이터 수정 없음."
+    }
+  ]
+}

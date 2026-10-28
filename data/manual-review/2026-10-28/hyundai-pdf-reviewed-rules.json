@@ -1,0 +1,1361 @@
+{
+  "version": 1,
+  "reviewer": "AI",
+  "reviewedOn": "2026-10-28",
+  "allCountermeasuresReviewed": false,
+  "runtimeApproved": false,
+  "rules": [
+    {
+      "ruleId": "HY-QX-2027-TPMS_LOW_PRESSURE-001",
+      "documentIds": [
+        "HYUNDAI-QX-2027"
+      ],
+      "topic": "TPMS_LOW_PRESSURE",
+      "conditions": [
+        "저압 표시가 켜지고 타이어 위치/저압이 표시됨"
+      ],
+      "orderedActions": [
+        "속도를 낮추고 급격한 코너링을 피한다.",
+        "정비소에 타이어 상태 점검을 의뢰하고 해당 차량의 권장 공기압에 맞춘다.",
+        "차가운 타이어에서 조절한다(원문 기준: 최근 3시간 동안 주행하지 않았거나 주행 거리가 1.6km 이내)."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "경고 점등/시간 패턴",
+        "타이어 상태",
+        "차량 타이어 공기압 라벨"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/QX/2027/ko_KR#page=89",
+          "documentSha256": "8c2a0e72b60e91160b14b029bdad7b2c019809c5ca4c91b24435bf62badb6b1b",
+          "locator": {
+            "pdfPages1Based": [
+              89,
+              331,
+              332,
+              333
+            ],
+            "printedPageLabels": []
+          },
+          "passageSha256": "b006b0debc4a05528ddcfc424c3e9d927594a1ef8d40a5d6bf4ca119bf98b865"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review and rendered-page visual confirmation",
+      "visualPages1Based": [
+        89
+      ],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": "추천 압력 수치는 타이어 규격별 제원에서 별도로 확인해야 한다. PDF331~333은 인쇄8-7~8-9.",
+      "applicationConstraints": [],
+      "driverProhibitions": [
+        "TPMS만 믿고 정기 공기압 점검을 생략하지 않는다.",
+        "저압 상태로 계속 운행하지 않는다."
+      ],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-QX-2027-TPMS_MALFUNCTION-002",
+      "documentIds": [
+        "HYUNDAI-QX-2027"
+      ],
+      "topic": "TPMS_MALFUNCTION",
+      "conditions": [
+        "시동 때 표시되지 않거나 약70초 점멸 후 점등",
+        "저압 감지와 시스템 이상이 함께 생기면 위치표시가 사라질 수 있음"
+      ],
+      "orderedActions": [
+        "TPMS 점검을 즉시 의뢰한다.",
+        "저압 경보를 제공하지 못할 수 있으므로 실제 타이어 상태를 별도로 확인한다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "점멸 지속시간",
+        "시동 상태",
+        "저압 위치표시"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/QX/2027/ko_KR#page=89",
+          "documentSha256": "8c2a0e72b60e91160b14b029bdad7b2c019809c5ca4c91b24435bf62badb6b1b",
+          "locator": {
+            "pdfPages1Based": [
+              89,
+              333
+            ],
+            "printedPageLabels": []
+          },
+          "passageSha256": "329d5b0065f27383b354ca100c3e91a7b301b18b16ca01f1c6e4a07949ddb07a"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review and rendered-page visual confirmation",
+      "visualPages1Based": [
+        89
+      ],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": null,
+      "applicationConstraints": [
+        "약1분이라는 다른 차종의 수치로 바꾸지 않는다."
+      ],
+      "driverProhibitions": [
+        "센서/시스템을 임의 개조하지 않는다."
+      ],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-QX-2027-BRAKE-003",
+      "documentIds": [
+        "HYUNDAI-QX-2027"
+      ],
+      "topic": "BRAKE",
+      "conditions": [
+        "주차브레이크 해제 후에도 경고 지속 또는 주행 중 점등"
+      ],
+      "orderedActions": [
+        "급제동을 피하고 서서히 안전한 장소로 정차한다.",
+        "제동이 부족하면 페달을 평소보다 강하게 밟고 엔진브레이크로 감속하며 주차브레이크를 천천히 조작한다.",
+        "브레이크액 부족 여부를 확인하고 보충 후에도 지속되면 점검을 받는다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "주차브레이크 체결 여부",
+        "실제 제동력",
+        "브레이크액량"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/QX/2027/ko_KR#page=86",
+          "documentSha256": "8c2a0e72b60e91160b14b029bdad7b2c019809c5ca4c91b24435bf62badb6b1b",
+          "locator": {
+            "pdfPages1Based": [
+              86,
+              87
+            ],
+            "printedPageLabels": [
+              "4-8",
+              "4-9"
+            ]
+          },
+          "passageSha256": "641c00c82f921c09796ca708cc70c684140485167603f40d11ae25a214f7bc7d"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review",
+      "visualPages1Based": [],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": null,
+      "applicationConstraints": [],
+      "driverProhibitions": [
+        "주차브레이크를 급격히 당기지 않는다.",
+        "브레이크액이 부족한 상태로 그대로 주행하지 않는다."
+      ],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-QX-2027-ABS-004",
+      "documentIds": [
+        "HYUNDAI-QX-2027"
+      ],
+      "topic": "ABS",
+      "conditions": [
+        "시동ON 약3초 이후에도 점등 또는 주행 중 켜짐"
+      ],
+      "orderedActions": [
+        "안전한 곳에 정차하고 엔진을 끈다.",
+        "다시 시동을 걸어 초기 점등 후 약3초 내 소등 여부를 확인한다.",
+        "소등되지 않거나 주행 중 다시 켜지면 점검·정비를 받는다."
+      ],
+      "restartCriteria": "원문은 안전 정차 후 재시동 확인을 안내한다. 재점등/지속 시 점검하며 운행 안전 보장으로 확대하지 않는다.",
+      "requiredContext": [
+        "시동 단계",
+        "동시 브레이크 경고"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/QX/2027/ko_KR#page=87",
+          "documentSha256": "8c2a0e72b60e91160b14b029bdad7b2c019809c5ca4c91b24435bf62badb6b1b",
+          "locator": {
+            "pdfPages1Based": [
+              87
+            ],
+            "printedPageLabels": [
+              "4-9"
+            ]
+          },
+          "passageSha256": "a178a74a1d16154bd59bdbfdde39f234de076f11adc5cb913150d26fb1bf0a6d"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review",
+      "visualPages1Based": [],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": null,
+      "applicationConstraints": [],
+      "driverProhibitions": [],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-QX-2027-EBD-005",
+      "documentIds": [
+        "HYUNDAI-QX-2027"
+      ],
+      "topic": "EBD",
+      "conditions": [
+        "ABS와 브레이크 경고가 현재 동시에 켜짐"
+      ],
+      "orderedActions": [
+        "고속 주행과 급제동을 피하고 가까운 서비스센터에서 즉시 점검한다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "현재 동시 경고 목록"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/QX/2027/ko_KR#page=87",
+          "documentSha256": "8c2a0e72b60e91160b14b029bdad7b2c019809c5ca4c91b24435bf62badb6b1b",
+          "locator": {
+            "pdfPages1Based": [
+              87
+            ],
+            "printedPageLabels": [
+              "4-9"
+            ]
+          },
+          "passageSha256": "a178a74a1d16154bd59bdbfdde39f234de076f11adc5cb913150d26fb1bf0a6d"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review",
+      "visualPages1Based": [],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": null,
+      "applicationConstraints": [
+        "서로 다른 시각의 이력 두 개를 동시점등으로 취급하지 않는다."
+      ],
+      "driverProhibitions": [],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-QX-2027-ENGINE_OIL_PRESSURE-006",
+      "documentIds": [
+        "HYUNDAI-QX-2027"
+      ],
+      "topic": "ENGINE_OIL_PRESSURE",
+      "conditions": [
+        "주행 중 엔진오일 압력 경고"
+      ],
+      "orderedActions": [
+        "안전한 도로 옆에 정차한다.",
+        "오일량을 점검해 부족하면 보충하고, 보충 후에도 경고가 남으면 정비를 받는다."
+      ],
+      "restartCriteria": "이 클러스터 절은 유압 회복 시 경고 소등·출력제한 해제를 설명한다. 다른 엔진의 재시동 조건을 임의로 추가하지 않는다.",
+      "requiredContext": [
+        "오일 압력 경고",
+        "실제 오일량",
+        "엔진 사양"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/QX/2027/ko_KR#page=88",
+          "documentSha256": "8c2a0e72b60e91160b14b029bdad7b2c019809c5ca4c91b24435bf62badb6b1b",
+          "locator": {
+            "pdfPages1Based": [
+              88
+            ],
+            "printedPageLabels": [
+              "4-10"
+            ]
+          },
+          "passageSha256": "eb2f2ce7fe56849c8e0105945c0c8dbc27bc66cb1ef193414e45e39d63dce7bb"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review",
+      "visualPages1Based": [],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": "실제 오일량 점검/보충 절의 엔진 정지·대기 절차를 함께 검토하기 전 정비 실행 절차로 배포하지 않는다.",
+      "applicationConstraints": [],
+      "driverProhibitions": [
+        "경고가 켜진 상태로 계속 주행하지 않는다."
+      ],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-QX-2027-ENGINE_MIL-007",
+      "documentIds": [
+        "HYUNDAI-QX-2027"
+      ],
+      "topic": "ENGINE_MIL",
+      "conditions": [
+        "시동 초기 약3초 후 지속점등 또는 점멸"
+      ],
+      "orderedActions": [
+        "가능한 빨리 엔진/연료/배기제어 계통 점검을 받는다.",
+        "주유캡이 완전히 잠기지 않은 경우 캡을 다시 잠그고 경고가 지속되면 점검한다.",
+        "시동이 걸리지 않는 경우 견인한다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "시동 가능 여부",
+        "주유캡 상태",
+        "경고 지속"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/QX/2027/ko_KR#page=88",
+          "documentSha256": "8c2a0e72b60e91160b14b029bdad7b2c019809c5ca4c91b24435bf62badb6b1b",
+          "locator": {
+            "pdfPages1Based": [
+              88,
+              89
+            ],
+            "printedPageLabels": [
+              "4-10",
+              "4-11"
+            ]
+          },
+          "passageSha256": "bd6009e2c86f8c257ac8dbd115b1b7302cbd58dd19ea042da6cbdf489def1d93"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review",
+      "visualPages1Based": [],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": null,
+      "applicationConstraints": [],
+      "driverProhibitions": [
+        "단순 캡 문제라고 확정하지 않는다.",
+        "점등·점멸 상태로 지속 운행하지 않는다."
+      ],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-QX-2027-CHARGING_12V-008",
+      "documentIds": [
+        "HYUNDAI-QX-2027"
+      ],
+      "topic": "CHARGING_12V",
+      "conditions": [
+        "충전경고 점등"
+      ],
+      "orderedActions": [
+        "배터리 충전 상태와 드라이브벨트/충전계통을 점검한다.",
+        "경고가 남으면 정비를 받는다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "내연기관 충전경고"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/QX/2027/ko_KR#page=89",
+          "documentSha256": "8c2a0e72b60e91160b14b029bdad7b2c019809c5ca4c91b24435bf62badb6b1b",
+          "locator": {
+            "pdfPages1Based": [
+              89
+            ],
+            "printedPageLabels": [
+              "4-11"
+            ]
+          },
+          "passageSha256": "6b62885d264bbbf1d91c82fe2f6af28353a07533121f4d93c0a921631dddf2f5"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review and rendered-page visual confirmation",
+      "visualPages1Based": [
+        89
+      ],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": null,
+      "applicationConstraints": [
+        "고전압 배터리 충전 안내와 혼동하지 않는다."
+      ],
+      "driverProhibitions": [],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-QX-2027-ESC-009",
+      "documentIds": [
+        "HYUNDAI-QX-2027"
+      ],
+      "topic": "ESC",
+      "conditions": [
+        "점멸은 제어 작동",
+        "계속 켜지거나 주행 중 고정점등은 점검 문맥",
+        "ESC OFF는 사용자 해제 표시"
+      ],
+      "orderedActions": [
+        "제어 작동 점멸과 이상 지속점등을 구분한다.",
+        "지속점등이면 정비를 받는다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "ESC와 ESC OFF 구분",
+        "시동 초기 여부",
+        "동작 패턴"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/QX/2027/ko_KR#page=91",
+          "documentSha256": "8c2a0e72b60e91160b14b029bdad7b2c019809c5ca4c91b24435bf62badb6b1b",
+          "locator": {
+            "pdfPages1Based": [
+              91
+            ],
+            "printedPageLabels": [
+              "4-13"
+            ]
+          },
+          "passageSha256": "60a10399976cdb4859ae01dcb6f621fe1b9b51d7d8fbe553386a2e4feb7b7977"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review",
+      "visualPages1Based": [],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": null,
+      "applicationConstraints": [
+        "ESC OFF를 동일한 고장 신호로 합치지 않는다."
+      ],
+      "driverProhibitions": [],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-QX-2027-ADAS_FCA_LKA-010",
+      "documentIds": [
+        "HYUNDAI-QX-2027"
+      ],
+      "topic": "ADAS_FCA_LKA",
+      "conditions": [
+        "FCA 주황=해제/이상, 빨강점멸=개입",
+        "LKA 회색대기/초록가능·점멸개입/주황해제·이상"
+      ],
+      "orderedActions": [
+        "해당 안전 기능 설정을 확인한다.",
+        "센서 앞 이물질을 제거한 후에도 이상 경고가 지속되면 정비를 받는다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "색상",
+        "기능 설정",
+        "센서 가림"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/QX/2027/ko_KR#page=90",
+          "documentSha256": "8c2a0e72b60e91160b14b029bdad7b2c019809c5ca4c91b24435bf62badb6b1b",
+          "locator": {
+            "pdfPages1Based": [
+              90
+            ],
+            "printedPageLabels": [
+              "4-12"
+            ]
+          },
+          "passageSha256": "8c7666df314c411fe6a796eabb6626824015e4d7bfad87a54381de3d9a5d3482"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review",
+      "visualPages1Based": [],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": null,
+      "applicationConstraints": [
+        "색상 없이 고장과 개입을 확정하지 않는다."
+      ],
+      "driverProhibitions": [],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-QX-2027-ENGINE_OVERHEAT-011",
+      "documentIds": [
+        "HYUNDAI-QX-2027"
+      ],
+      "topic": "ENGINE_OVERHEAT",
+      "conditions": [
+        "과열 메시지; 원문 기준 냉각수온120±5℃ 이상"
+      ],
+      "orderedActions": [
+        "운전을 중지하고 서비스센터에 문의한다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "정확한 과열 메시지"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/QX/2027/ko_KR#page=96",
+          "documentSha256": "8c2a0e72b60e91160b14b029bdad7b2c019809c5ca4c91b24435bf62badb6b1b",
+          "locator": {
+            "pdfPages1Based": [
+              96
+            ],
+            "printedPageLabels": [
+              "4-18"
+            ]
+          },
+          "passageSha256": "ef9337b51a133267636d1f0a7896239e04f7b80f441c652ac784567d4ebcac1b"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review",
+      "visualPages1Based": [],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": "냉각수 보충 절은 뜨거운 냉각계통 접근 금지 등 별도 절차 검토가 필요하다.",
+      "applicationConstraints": [
+        "일반 점검 예약만 안내하며 계속 주행을 허용하지 않는다."
+      ],
+      "driverProhibitions": [],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-HR-2026-OIL_RECOVERY_LPG-012",
+      "documentIds": [
+        "HYUNDAI-HR-2026"
+      ],
+      "topic": "OIL_RECOVERY_LPG",
+      "conditions": [
+        "엔진오일 압력 경고",
+        "2.5 T-LPDI 엔진 사양"
+      ],
+      "orderedActions": [
+        "안전한 곳에 정차해 오일량을 점검하고 부족분을 보충한다.",
+        "보충 후에도 경고가 남으면 정비를 받는다."
+      ],
+      "restartCriteria": "2.5 T-LPDI는 유압 회복 후 재시동해야 경고와 출력제한이 해제된다고 명시한다.",
+      "requiredContext": [
+        "정확한 엔진 사양",
+        "오일량/유압 회복"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HR/2026/ko_KR#page=119",
+          "documentSha256": "ff0d2aeb0ff0bd775c13c60dfd516d50b044319650277ca87270b73aae024b78",
+          "locator": {
+            "pdfPages1Based": [
+              119
+            ],
+            "printedPageLabels": [
+              "3-75"
+            ]
+          },
+          "passageSha256": "b52a619f737200c0d4c56398fa5fa509e76628dfc1871f3042da957bc0947523"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review and rendered-page visual confirmation",
+      "visualPages1Based": [
+        119
+      ],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": null,
+      "applicationConstraints": [],
+      "driverProhibitions": [
+        "경고 상태로 계속 운행하지 않는다.",
+        "유압 회복이 확인되지 않은 상태에서 재시동으로 경고만 지우려 하지 않는다."
+      ],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-HR-2026-BRAKE_ABS-013",
+      "documentIds": [
+        "HYUNDAI-HR-2026"
+      ],
+      "topic": "BRAKE_ABS",
+      "conditions": [
+        "주차브레이크 해제 후 경고 지속/주행 중 경고",
+        "ABS 초기3초후지속 또는 주행중점등"
+      ],
+      "orderedActions": [
+        "브레이크 경고 주행 중이면 안전 정차한다.",
+        "제동이 부족하면 페달을 강하게 밟고 엔진브레이크와 천천히 조작한 주차브레이크로 감속한다.",
+        "ABS 단독이면 안전 정차·엔진정지 후 재시동 점검, 지속/재발하면 정비한다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "주차브레이크",
+        "제동력",
+        "ABS 단독 여부"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HR/2026/ko_KR#page=117",
+          "documentSha256": "ff0d2aeb0ff0bd775c13c60dfd516d50b044319650277ca87270b73aae024b78",
+          "locator": {
+            "pdfPages1Based": [
+              117,
+              118
+            ],
+            "printedPageLabels": [
+              "3-73",
+              "3-74"
+            ]
+          },
+          "passageSha256": "35ac55dec3464c998a36baf3ddc8d72a4894630ee1097958ef7aa06cb0f33550"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review",
+      "visualPages1Based": [],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": null,
+      "applicationConstraints": [],
+      "driverProhibitions": [
+        "브레이크액 부족 상태로 계속 주행하지 않는다.",
+        "주차브레이크를 급격히 조작하지 않는다."
+      ],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-HR-2026-TPMS-014",
+      "documentIds": [
+        "HYUNDAI-HR-2026"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "약1분 점멸 후 점등=시스템 이상 문맥",
+        "현저한 저압=저압 경고"
+      ],
+      "orderedActions": [
+        "시스템 이상 패턴이면 정비를 받는다.",
+        "저압은 실제 압력을 점검해 적정 압력을 유지한다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "시간 패턴",
+        "타이어 상태"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HR/2026/ko_KR#page=120",
+          "documentSha256": "ff0d2aeb0ff0bd775c13c60dfd516d50b044319650277ca87270b73aae024b78",
+          "locator": {
+            "pdfPages1Based": [
+              120
+            ],
+            "printedPageLabels": [
+              "3-76"
+            ]
+          },
+          "passageSha256": "174c0c751ab07af2c3ac9a62adc4bc517ab61e74cee560b6cd401ad6d562eb0a"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review",
+      "visualPages1Based": [],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": "타이어 비상조치 절262~264 직접 검토 전 종합 TPMS 절차 승인 불가.",
+      "applicationConstraints": [
+        "베뉴의70초 또는 다른 차종 수치를 대입하지 않는다."
+      ],
+      "driverProhibitions": [],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-HR-2026-WAIT_START-015",
+      "documentIds": [
+        "HYUNDAI-HR-2026"
+      ],
+      "topic": "WAIT_START",
+      "conditions": [
+        "시동 대기 표시등; 연료 압력 형성"
+      ],
+      "orderedActions": [
+        "표시등이 꺼진 뒤2~3초 이내에 시동을 건다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "연료/엔진 사양",
+        "시동 대기 표시등"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HR/2026/ko_KR#page=122",
+          "documentSha256": "ff0d2aeb0ff0bd775c13c60dfd516d50b044319650277ca87270b73aae024b78",
+          "locator": {
+            "pdfPages1Based": [
+              122
+            ],
+            "printedPageLabels": [
+              "3-78"
+            ]
+          },
+          "passageSha256": "3fd0b675bb0ce6d1301541e719d89973f4db17812527275d7ad41984ca92a320"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review",
+      "visualPages1Based": [],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": null,
+      "applicationConstraints": [
+        "디젤 예열등으로 자동 분류하지 않는다."
+      ],
+      "driverProhibitions": [],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-HR-2026-4WD_PTO_DOOR-016",
+      "documentIds": [
+        "HYUNDAI-HR-2026"
+      ],
+      "topic": "4WD_PTO_DOOR",
+      "conditions": [
+        "4H/4L 작동 표시, PTO 작동 표시, 도어열림"
+      ],
+      "orderedActions": [
+        "4WD 변환 레버를2H/4H/4L 정위치에 놓는다.",
+        "도어가 완전히 닫혔는지 확인한 후 출발한다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "장착 사양",
+        "4WD 레버 위치",
+        "PTO 상태"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HR/2026/ko_KR#page=124",
+          "documentSha256": "ff0d2aeb0ff0bd775c13c60dfd516d50b044319650277ca87270b73aae024b78",
+          "locator": {
+            "pdfPages1Based": [
+              124
+            ],
+            "printedPageLabels": [
+              "3-80"
+            ]
+          },
+          "passageSha256": "feaa1b8d1a30d2a8f88caa0aa053f402d4f4aed5f36f40cdeed51e1ae1d3fe03"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review",
+      "visualPages1Based": [],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": null,
+      "applicationConstraints": [
+        "4H-4L 중간 위치를 정상 주행단으로 취급하지 않는다.",
+        "PTO 켜짐을 고장으로 확정하지 않는다."
+      ],
+      "driverProhibitions": [],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-HREV-2026-POWER_DOWN-017",
+      "documentIds": [
+        "HYUNDAI-HREV-2026"
+      ],
+      "topic": "POWER_DOWN",
+      "conditions": [
+        "배터리 약7% 이하/저전압/고저온/냉각계통 이상/주행에 문제되는 고장 중 하나 가능"
+      ],
+      "orderedActions": [
+        "급가속·급출발을 피한다.",
+        "잔량 부족이면 즉시 충전한다.",
+        "경사로에서 밀리거나 오르기 어려울 수 있음을 고려한다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "배터리 잔량",
+        "온도",
+        "추가 메시지"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HREV/2026/ko_KR#page=111",
+          "documentSha256": "5a1c574677a6029a87996732c6c0eed0819650601c08a2a02385c0d9728e4432",
+          "locator": {
+            "pdfPages1Based": [
+              111,
+              118
+            ],
+            "printedPageLabels": [
+              "4-7",
+              "4-14"
+            ]
+          },
+          "passageSha256": "5c57844e50510021a80f6ebaa0bb90e31d35633edd9bdea8803a3fdbf11df338"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review and rendered-page visual confirmation",
+      "visualPages1Based": [
+        111
+      ],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": null,
+      "applicationConstraints": [
+        "다른 EV 문서의 단독 파워다운은 고장아님 문구를 이 모델에 대입하지 않는다."
+      ],
+      "driverProhibitions": [],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-HREV-2026-HV_BATTERY_LOW-018",
+      "documentIds": [
+        "HYUNDAI-HREV-2026"
+      ],
+      "topic": "HV_BATTERY_LOW",
+      "conditions": [
+        "배터리 잔량 약16% 이하 경고"
+      ],
+      "orderedActions": [
+        "즉시 충전한다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "배터리 잔량"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HREV/2026/ko_KR#page=111",
+          "documentSha256": "5a1c574677a6029a87996732c6c0eed0819650601c08a2a02385c0d9728e4432",
+          "locator": {
+            "pdfPages1Based": [
+              111
+            ],
+            "printedPageLabels": [
+              "4-7"
+            ]
+          },
+          "passageSha256": "a72706f7e5665460774e9b054605fc117b03e205b8b7b638f9cb53b8c9f849d9"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review and rendered-page visual confirmation",
+      "visualPages1Based": [
+        111
+      ],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": null,
+      "applicationConstraints": [
+        "예상30~40km를 보장거리로 제시하지 않는다."
+      ],
+      "driverProhibitions": [],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-HREV-2026-CHARGING_12V-019",
+      "documentIds": [
+        "HYUNDAI-HREV-2026"
+      ],
+      "topic": "CHARGING_12V",
+      "conditions": [
+        "보조배터리 충전 경고 주행 중 점등"
+      ],
+      "orderedActions": [
+        "안전한 곳으로 이동해 시동을 끄고 다시 걸어 소등을 확인한다.",
+        "계속 켜지면 즉시 점검을 받고, 바로 꺼져도 지정 정비소에서 점검한다."
+      ],
+      "restartCriteria": "안전 정차 후 재시동 확인; 소등되어도 점검 의무 문구 보존.",
+      "requiredContext": [
+        "12V 보조배터리 경고",
+        "주행/시동 상태"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HREV/2026/ko_KR#page=114",
+          "documentSha256": "5a1c574677a6029a87996732c6c0eed0819650601c08a2a02385c0d9728e4432",
+          "locator": {
+            "pdfPages1Based": [
+              114
+            ],
+            "printedPageLabels": [
+              "4-10"
+            ]
+          },
+          "passageSha256": "66a932c8dfa8a610d22637a1ea07ce948f557041d03a8fe4235cecea524fc62e"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review",
+      "visualPages1Based": [],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": null,
+      "applicationConstraints": [],
+      "driverProhibitions": [
+        "소등만으로 점검을 생략하지 않는다."
+      ],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-HREV-2026-BATTERY_OVERHEAT-020",
+      "documentIds": [
+        "HYUNDAI-HREV-2026"
+      ],
+      "topic": "BATTERY_OVERHEAT",
+      "conditions": [
+        "배터리 과열 위험 안전정차 메시지"
+      ],
+      "orderedActions": [
+        "시동을 끄고 충분히 정차하여 배터리가 식도록 한다.",
+        "충분히 기다린 후에도 메시지가 남으면 운전을 삼가고 즉시 점검·정비를 받는다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "정확한 과열 메시지"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HREV/2026/ko_KR#page=119",
+          "documentSha256": "5a1c574677a6029a87996732c6c0eed0819650601c08a2a02385c0d9728e4432",
+          "locator": {
+            "pdfPages1Based": [
+              119
+            ],
+            "printedPageLabels": [
+              "4-15"
+            ]
+          },
+          "passageSha256": "a303adda0adc3fabf8665c190b2d4bf15ca49362bfe916be13177c4f0751807d"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review",
+      "visualPages1Based": [],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": null,
+      "applicationConstraints": [],
+      "driverProhibitions": [
+        "즉시 재시동으로 계속 운행하지 않는다."
+      ],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-HREV-2026-STOP_TOW-021",
+      "documentIds": [
+        "HYUNDAI-HREV-2026"
+      ],
+      "topic": "STOP_TOW",
+      "conditions": [
+        "전원 공급장치 점검 안전정차 또는 브레이크 시스템 점검 안전정차 메시지"
+      ],
+      "orderedActions": [
+        "안전한 곳에 정차한다.",
+        "견인하여 정비를 받는다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "메시지 전문"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HREV/2026/ko_KR#page=119",
+          "documentSha256": "5a1c574677a6029a87996732c6c0eed0819650601c08a2a02385c0d9728e4432",
+          "locator": {
+            "pdfPages1Based": [
+              119,
+              120
+            ],
+            "printedPageLabels": [
+              "4-15",
+              "4-16"
+            ]
+          },
+          "passageSha256": "9eb30482b582324a32b6dfd1fb6b526c5bc26a83a8350ac1a1e6a9798d959408"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review",
+      "visualPages1Based": [],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": null,
+      "applicationConstraints": [
+        "일반 서비스 경고와 동일하게 계속 운행 가능한 것으로 표현하지 않는다."
+      ],
+      "driverProhibitions": [],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-HREV-2026-COOLANT_LOW-022",
+      "documentIds": [
+        "HYUNDAI-HREV-2026"
+      ],
+      "topic": "COOLANT_LOW",
+      "conditions": [
+        "냉각수 보충 메시지"
+      ],
+      "orderedActions": [
+        "주행을 중지하고 냉각수량을 확인한다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "냉각수 메시지",
+        "냉각계통 온도"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HREV/2026/ko_KR#page=120",
+          "documentSha256": "5a1c574677a6029a87996732c6c0eed0819650601c08a2a02385c0d9728e4432",
+          "locator": {
+            "pdfPages1Based": [
+              120
+            ],
+            "printedPageLabels": [
+              "4-16"
+            ]
+          },
+          "passageSha256": "61efd879274d234b8e5aded3a5790a4e8e07bf3cd82697dd3f6bb69cc19511ee"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review",
+      "visualPages1Based": [],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": "이 기록은 클러스터의 정지·확인 지시만 검토했다. 보충 작업 절차는 별도 검토 대상.",
+      "applicationConstraints": [
+        "뜨거운 냉각계통 보충절차를 임의 안내하지 않는다."
+      ],
+      "driverProhibitions": [
+        "냉각수 부족 상태로 장시간 주행하지 않는다."
+      ],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-NE1-2025-TPMS-023",
+      "documentIds": [
+        "HYUNDAI-NE1-2025"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "저압 점등 또는 약1분 점멸 후 점등/시동시표시없음"
+      ],
+      "orderedActions": [
+        "실제 공기압을 확인하고 필요하면 보충한다.",
+        "고장 패턴이 남으면 정비를 받는다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "패턴 지속시간",
+        "시동 상태",
+        "타이어 압력"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/NE1/2025/ko_KR#page=138",
+          "documentSha256": "7c92b1e3b1326d6811340e664111897fc66f23b6ae96788e2d76e6f99eb30725",
+          "locator": {
+            "pdfPages1Based": [
+              138
+            ],
+            "printedPageLabels": [
+              "134"
+            ]
+          },
+          "passageSha256": "5fdb2b1cc4e11abf358984044d4eb6d069f2d29829740455b1742dd4c268cb93"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review and rendered-page visual confirmation",
+      "visualPages1Based": [
+        138
+      ],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": "클러스터 분기 검토; 자세한 타이어 비상조치와 압력 규격은 별도 검토 대상.",
+      "applicationConstraints": [
+        "한 번의 BLINK만으로1분 패턴을 확정하지 않는다."
+      ],
+      "driverProhibitions": [],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-NE1-2025-POWER_DOWN-024",
+      "documentIds": [
+        "HYUNDAI-NE1-2025"
+      ],
+      "topic": "POWER_DOWN",
+      "conditions": [
+        "충전량/전압/온도 보호에 따른 단독 표시",
+        "서비스 경고 동시 표시 분기"
+      ],
+      "orderedActions": [
+        "잔량이 낮으면 충전한다.",
+        "급가속·급출발을 피한다.",
+        "서비스 경고가 함께 표시되면 정비 점검을 받는다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "동시 서비스 경고",
+        "충전량",
+        "온도",
+        "메시지 전문"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/NE1/2025/ko_KR#page=136",
+          "documentSha256": "7c92b1e3b1326d6811340e664111897fc66f23b6ae96788e2d76e6f99eb30725",
+          "locator": {
+            "pdfPages1Based": [
+              136,
+              145,
+              146
+            ],
+            "printedPageLabels": [
+              "132",
+              "141",
+              "142"
+            ]
+          },
+          "passageSha256": "7f76313791ab20d946c01ff19c981b58574c8ed9ffed3367841fe609ce3b0ea8"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review",
+      "visualPages1Based": [],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": null,
+      "applicationConstraints": [
+        "파워다운 단독만으로 배터리 고장을 확정하지 않는다.",
+        "출력제한 중 경사로 주행가능을 보장하지 않는다."
+      ],
+      "driverProhibitions": [],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-NE1-2025-STOP_TOW-025",
+      "documentIds": [
+        "HYUNDAI-NE1-2025"
+      ],
+      "topic": "STOP_TOW",
+      "conditions": [
+        "브레이크 시스템 점검 안전정차/전기차 시스템 점검/전원 공급장치 점검 안전정차 메시지"
+      ],
+      "orderedActions": [
+        "안전한 곳에 정차한다.",
+        "서비스센터로 견인하여 점검·정비한다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "정확한 메시지 전문"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/NE1/2025/ko_KR#page=144",
+          "documentSha256": "7c92b1e3b1326d6811340e664111897fc66f23b6ae96788e2d76e6f99eb30725",
+          "locator": {
+            "pdfPages1Based": [
+              144,
+              145,
+              146
+            ],
+            "printedPageLabels": [
+              "140",
+              "141",
+              "142"
+            ]
+          },
+          "passageSha256": "3f6bff28ef3c77aa4acc21b714b4ae6d7307e6f934cc7c8a5afcd0e0bf29e942"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review",
+      "visualPages1Based": [],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": "같은 아이콘이어도 일반 서비스 점등과 정차·견인 메시지는 다른 분기다.",
+      "applicationConstraints": [],
+      "driverProhibitions": [
+        "경고가 표시된 상태로 계속 주행하지 않는다."
+      ],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-NE1-2025-BATTERY_OVERHEAT-026",
+      "documentIds": [
+        "HYUNDAI-NE1-2025"
+      ],
+      "topic": "BATTERY_OVERHEAT",
+      "conditions": [
+        "고전압 배터리 과열 위험 안전정차 메시지"
+      ],
+      "orderedActions": [
+        "안전한 곳에 정차한 뒤 시동을 끈다.",
+        "배터리가 식도록 기다린다.",
+        "충분히 기다려도 메시지가 남으면 즉시 견인해 점검한다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "과열 메시지",
+        "정차 후 메시지 지속"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/NE1/2025/ko_KR#page=146",
+          "documentSha256": "7c92b1e3b1326d6811340e664111897fc66f23b6ae96788e2d76e6f99eb30725",
+          "locator": {
+            "pdfPages1Based": [
+              146
+            ],
+            "printedPageLabels": [
+              "142"
+            ]
+          },
+          "passageSha256": "ec7a7f350acf0a8e96e649c40892b0ef2db69dd3dd45709eb3cea86bf758203f"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review",
+      "visualPages1Based": [],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": null,
+      "applicationConstraints": [
+        "정지/냉각 대기 단계를 빼지 않는다."
+      ],
+      "driverProhibitions": [],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-NE1-2025-BATTERY_LOW_THRESHOLDS-027",
+      "documentIds": [
+        "HYUNDAI-NE1-2025"
+      ],
+      "topic": "BATTERY_LOW_THRESHOLDS",
+      "conditions": [
+        "배터리 부족 메시지10% 이하",
+        "배터리 부족 파워제한 메시지5% 이하"
+      ],
+      "orderedActions": [
+        "즉시 충전한다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "메시지 전문",
+        "배터리 잔량"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/NE1/2025/ko_KR#page=145",
+          "documentSha256": "7c92b1e3b1326d6811340e664111897fc66f23b6ae96788e2d76e6f99eb30725",
+          "locator": {
+            "pdfPages1Based": [
+              145
+            ],
+            "printedPageLabels": [
+              "141"
+            ]
+          },
+          "passageSha256": "5e2dc19a8890ad8718a14db0fd296530c2607d05c124c2aed57033485a38b889"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review",
+      "visualPages1Based": [],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": null,
+      "applicationConstraints": [
+        "포터EV16%/7% 임계값을 대입하지 않는다."
+      ],
+      "driverProhibitions": [],
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-NE1-2025-EBD_EPS_EPB-028",
+      "documentIds": [
+        "HYUNDAI-NE1-2025"
+      ],
+      "topic": "EBD_EPS_EPB",
+      "conditions": [
+        "ABS+브레이크 동시점등",
+        "EPS 초기3초후지속/시동시표시없음",
+        "EPB 초기3초후지속/주행중점등"
+      ],
+      "orderedActions": [
+        "EBD 동시점등 때 고속주행을 피하고 안전에 유의해 정비를 받는다.",
+        "EPS/EPB 이상 점등 때 정비를 받는다."
+      ],
+      "restartCriteria": null,
+      "requiredContext": [
+        "경고 종류",
+        "현재 동시점등",
+        "시동 경과"
+      ],
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/NE1/2025/ko_KR#page=138",
+          "documentSha256": "7c92b1e3b1326d6811340e664111897fc66f23b6ae96788e2d76e6f99eb30725",
+          "locator": {
+            "pdfPages1Based": [
+              138
+            ],
+            "printedPageLabels": [
+              "134"
+            ]
+          },
+          "passageSha256": "5fdb2b1cc4e11abf358984044d4eb6d069f2d29829740455b1742dd4c268cb93"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewMethod": "AI direct full-page text review and rendered-page visual confirmation",
+      "visualPages1Based": [
+        138
+      ],
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "reviewScope": "Stated branch only; not certification of every procedure in the manual",
+      "reviewNote": null,
+      "applicationConstraints": [
+        "서로 다른 시각의 이력을 동시 경고로 합치지 않는다."
+      ],
+      "driverProhibitions": [],
+      "structuredEncodingComplete": false
+    }
+  ],
+  "finalReadingIndex": "hyundai-source-reading-closure.json"
+}

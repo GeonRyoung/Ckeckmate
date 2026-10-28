@@ -1,0 +1,416 @@
+{
+  "schemaVersion": 1,
+  "rules": [
+    {
+      "ruleId": "HY-REF-HR-2026-RVM",
+      "documentIds": [
+        "HYUNDAI-HR-2026"
+      ],
+      "topic": "RVM",
+      "conditions": [
+        "영상이 비정상 색·깜빡임 또는 정상 표시되지 않음."
+      ],
+      "orderedActions": [
+        "주변을 직접 확인하고 지속 이상은 정비한다. 렌즈를 깨끗하게 유지한다."
+      ],
+      "driverProhibitions": [
+        "강한 염기성·휘발유·아세톤 등 용제로 렌즈를 닦지 않는다."
+      ],
+      "applicationConstraints": [
+        "영상 거리와 실거리가 다를 수 있음."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HR/2026/ko_KR",
+          "documentSha256": "ff0d2aeb0ff0bd775c13c60dfd516d50b044319650277ca87270b73aae024b78",
+          "locator": {
+            "pdfPages1Based": [
+              138
+            ]
+          },
+          "passageSha256": "a6b29509811b3d86c17c337e78cc4f738e21a64e85c409e14fe1f3edaed2c48f"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-HREV-2026-RVM",
+      "documentIds": [
+        "HYUNDAI-HREV-2026"
+      ],
+      "topic": "RVM",
+      "conditions": [
+        "영상이 비정상 색·깜빡임 또는 정상 표시되지 않음."
+      ],
+      "orderedActions": [
+        "주변을 직접 확인하고 지속 이상은 정비한다. 렌즈를 깨끗하게 유지한다."
+      ],
+      "driverProhibitions": [
+        "강한 염기성·휘발유·아세톤 등 용제로 렌즈를 닦지 않는다."
+      ],
+      "applicationConstraints": [
+        "영상 거리와 실거리가 다를 수 있음."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HREV/2026/ko_KR",
+          "documentSha256": "5a1c574677a6029a87996732c6c0eed0819650601c08a2a02385c0d9728e4432",
+          "locator": {
+            "pdfPages1Based": [
+              220
+            ]
+          },
+          "passageSha256": "3d172b0852cb956d7a4662da71123180c7b93068a5a15aba0bfdfb1ce24638e0"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-HR-2026-PDW",
+      "documentIds": [
+        "HYUNDAI-HR-2026"
+      ],
+      "topic": "PDW",
+      "conditions": [
+        "초음파 센서 오염·결빙 또는 경고음 이상."
+      ],
+      "orderedActions": [
+        "오염을 제거하고 결빙이 녹은 뒤 작동을 확인한다. 지속 이상은 정비한다. 후방 장애물은 직접 확인한다."
+      ],
+      "driverProhibitions": [
+        "센서를 누르거나 충격·긁힘·직접 고압세척을 하지 않는다."
+      ],
+      "applicationConstraints": [
+        "HR 거리 단계 60–120/30–60/30cm 이내, HREV 80–120/40–80/40cm 이내를 섞지 않는다. HREV는 5km/h 이상 성능 제한, 10km/h 이상 장애물 경고 없음."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HR/2026/ko_KR",
+          "documentSha256": "ff0d2aeb0ff0bd775c13c60dfd516d50b044319650277ca87270b73aae024b78",
+          "locator": {
+            "pdfPages1Based": [
+              139,
+              140,
+              141
+            ]
+          },
+          "passageSha256": "070e923c4bde222816d1fd1be5b16965ed0a3e82563178cccccf01487ba171f3"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-HREV-2026-PDW",
+      "documentIds": [
+        "HYUNDAI-HREV-2026"
+      ],
+      "topic": "PDW",
+      "conditions": [
+        "초음파 센서 오염·결빙 또는 경고음 이상."
+      ],
+      "orderedActions": [
+        "오염을 제거하고 결빙이 녹은 뒤 작동을 확인한다. 지속 이상은 정비한다. 후방 장애물은 직접 확인한다.",
+        "부드러운 헝겊으로 닦는다. R 진입 때 정상 1회 경고음 대신 무음·반복음이면 손상/비작동 조건을 확인하고 고장이면 정비한다."
+      ],
+      "driverProhibitions": [
+        "센서를 누르거나 충격·긁힘·직접 고압세척을 하지 않는다."
+      ],
+      "applicationConstraints": [
+        "HR 거리 단계 60–120/30–60/30cm 이내, HREV 80–120/40–80/40cm 이내를 섞지 않는다. HREV는 5km/h 이상 성능 제한, 10km/h 이상 장애물 경고 없음."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HREV/2026/ko_KR",
+          "documentSha256": "5a1c574677a6029a87996732c6c0eed0819650601c08a2a02385c0d9728e4432",
+          "locator": {
+            "pdfPages1Based": [
+              220,
+              221,
+              222
+            ]
+          },
+          "passageSha256": "09112edf51cc1f236cc1aa31a7f51eaac11d874cd11d15446d63eff4582dcb55"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-HR-2026-FCA",
+      "documentIds": [
+        "HYUNDAI-HR-2026"
+      ],
+      "topic": "FCA",
+      "conditions": [
+        "기능 OFF 표시, 카메라 가림, 고장 경고를 구분한다."
+      ],
+      "orderedActions": [
+        "가림이면 카메라 주변 이물질을 제거한다. 기능 ON 상태의 지속 경고 또는 고장 문구는 정비한다.",
+        "긴급제동 정차는 약2초 유지되므로 즉시 브레이크 페달을 밟고 주변을 확인한다.",
+        "센서 충격·유리/카메라 교환·재장착은 경고가 없어도 점검한다."
+      ],
+      "driverProhibitions": [
+        "카메라 임의 탈거·충격·물기 유입·앞유리 스티커/필름 부착을 피한다.",
+        "사람·물체로 기능을 시험하지 않는다."
+      ],
+      "applicationConstraints": [
+        "경고문이 일정 시간 후 사라지는 것은 고장 해소 증명이 아니다. 시동 직후 오염/개활지 등은 경고 없이 제한될 수 있다. ESC 경고와 동시 표시 가능."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HR/2026/ko_KR",
+          "documentSha256": "ff0d2aeb0ff0bd775c13c60dfd516d50b044319650277ca87270b73aae024b78",
+          "locator": {
+            "pdfPages1Based": [
+              232,
+              235,
+              236,
+              237
+            ]
+          },
+          "passageSha256": "dff31c0e2cd2cff3b3bab7b8fb21e814e859d36f87c95dd4f65f8d40d56e5b3d"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-HREV-2026-FCA",
+      "documentIds": [
+        "HYUNDAI-HREV-2026"
+      ],
+      "topic": "FCA",
+      "conditions": [
+        "기능 OFF 표시, 카메라 가림, 고장 경고를 구분한다."
+      ],
+      "orderedActions": [
+        "가림이면 카메라 주변 이물질을 제거한다. 기능 ON 상태의 지속 경고 또는 고장 문구는 정비한다.",
+        "긴급제동 정차는 약2초 유지되므로 즉시 브레이크 페달을 밟고 주변을 확인한다.",
+        "센서 충격·유리/카메라 교환·재장착은 경고가 없어도 점검한다."
+      ],
+      "driverProhibitions": [
+        "카메라 임의 탈거·충격·물기 유입·앞유리 스티커/필름 부착을 피한다.",
+        "사람·물체로 기능을 시험하지 않는다."
+      ],
+      "applicationConstraints": [
+        "경고문이 일정 시간 후 사라지는 것은 고장 해소 증명이 아니다. 시동 직후 오염/개활지 등은 경고 없이 제한될 수 있다. ESC 경고와 동시 표시 가능."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HREV/2026/ko_KR",
+          "documentSha256": "5a1c574677a6029a87996732c6c0eed0819650601c08a2a02385c0d9728e4432",
+          "locator": {
+            "pdfPages1Based": [
+              194,
+              197,
+              198,
+              203
+            ]
+          },
+          "passageSha256": "4b0075e713004bbd115fff90707dd52650ac705d45b574c6c24a49f4c8871f4c"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-HR-2026-LDW",
+      "documentIds": [
+        "HYUNDAI-HR-2026"
+      ],
+      "topic": "LDW",
+      "conditions": [
+        "흰색 미인식/약60km/h 미만, 초록 인식/약60km/h 이상, 황색·고장 문구를 구분한다."
+      ],
+      "orderedActions": [
+        "차선 이탈 경고 시 운전자가 직접 조향한다. 황색 고장 표시와 문구는 정비한다. 유리·카메라 교환/재장착 후 보정 점검한다."
+      ],
+      "driverProhibitions": [
+        "불필요한 급조향·카메라 탈거·충격·물기·반사물 배치를 피한다."
+      ],
+      "applicationConstraints": [
+        "LDW는 자동 조향 기능이 아니다. HREV의 LKA 동작을 전이하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HR/2026/ko_KR",
+          "documentSha256": "ff0d2aeb0ff0bd775c13c60dfd516d50b044319650277ca87270b73aae024b78",
+          "locator": {
+            "pdfPages1Based": [
+              248,
+              249,
+              250,
+              251
+            ]
+          },
+          "passageSha256": "78ab9fe96f643530733bfffd99eb5a8fb438282898264469a4f0cdd676bf3f6c"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-HREV-2026-LKA",
+      "documentIds": [
+        "HYUNDAI-HREV-2026"
+      ],
+      "topic": "LKA",
+      "conditions": [
+        "황색 고장 표시·경고문 또는 핸즈오프."
+      ],
+      "orderedActions": [
+        "핸들을 잡고 직접 조향한다. 황색 고장 표시·문구는 정비한다. 유리·카메라·조향 부품 교환 후 점검한다.",
+        "악천후·불량 노면·잦은 조향·견인 때 기능을 끄고 직접 집중 조향한다."
+      ],
+      "driverProhibitions": [
+        "핸들에 물체를 붙이거나 카메라 임의 탈거·필름 부착을 하지 않는다."
+      ],
+      "applicationConstraints": [
+        "시동/카메라 재부팅 뒤 약15초 비작동은 고장 복구 보증이 아니다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HREV/2026/ko_KR",
+          "documentSha256": "5a1c574677a6029a87996732c6c0eed0819650601c08a2a02385c0d9728e4432",
+          "locator": {
+            "pdfPages1Based": [
+              203,
+              204,
+              205,
+              206,
+              207,
+              208
+            ]
+          },
+          "passageSha256": "f17204c54e75b77cc7daec777d863e27e0f0ec8a9ffb7ebb1a3eae6d1017c45d"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-HREV-2026-DAW",
+      "documentIds": [
+        "HYUNDAI-HREV-2026"
+      ],
+      "topic": "DAW",
+      "conditions": [
+        "휴식 권유 또는 주의 경고 시스템 고장."
+      ],
+      "orderedActions": [
+        "피곤하면 권유 여부와 무관하게 안전하게 주정차하여 쉰다. 시스템 고장 문구는 정비한다.",
+        "전방 차량 출발 알림 후 주변을 직접 판단하고 출발한다."
+      ],
+      "driverProhibitions": [],
+      "applicationConstraints": [
+        "시동 OFF/벨트 해제 후 도어 개방/10분 정차에 의한 주의 수준 초기화는 고장 수리나 실제 피로 회복의 증거가 아니다. 카메라 관리 참조는 LKA와 연결하여 읽음."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HREV/2026/ko_KR",
+          "documentSha256": "5a1c574677a6029a87996732c6c0eed0819650601c08a2a02385c0d9728e4432",
+          "locator": {
+            "pdfPages1Based": [
+              209,
+              210,
+              211
+            ]
+          },
+          "passageSha256": "43b30baf17ff1e0b54fded023999a2cbb426575ff90459691cd0068184f1c78e"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-HR-2026-CRUISE_UNEXPECTED_CANCEL",
+      "documentIds": [
+        "HYUNDAI-HR-2026"
+      ],
+      "topic": "CRUISE_UNEXPECTED_CANCEL",
+      "conditions": [
+        "명시된 자동 해제 조건 외의 일시 해제."
+      ],
+      "orderedActions": [
+        "정비 점검한다. RES 재설정은 이전 속도와 도로 상황을 확인할 수 있을 때만 사용한다."
+      ],
+      "driverProhibitions": [
+        "불량 노면·악천후·급커브·급경사·견인 때 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "정상 자동 해제 목록을 고장으로 단정하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HR/2026/ko_KR",
+          "documentSha256": "ff0d2aeb0ff0bd775c13c60dfd516d50b044319650277ca87270b73aae024b78",
+          "locator": {
+            "pdfPages1Based": [
+              246,
+              247
+            ]
+          },
+          "passageSha256": "f994ab611da5f490073d8469110351df5e14c4c0b76ac71c49d333429075a513"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    }
+  ],
+  "inventoryCorrection": "HREV106–107 was TOC; actual FCA/LKA/DAW linked passages added. HR additionally FCA/LDW/cruise fault references found outside two original candidates.",
+  "excludedGeneralPerformanceScope": true,
+  "finalReadingIndex": "hyundai-source-reading-closure.json"
+}

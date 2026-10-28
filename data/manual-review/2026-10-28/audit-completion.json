@@ -1,0 +1,132 @@
+{
+  "groups": [
+    {
+      "name": "hyundai_web_7",
+      "artifact": "hyundai-web-coverage.json",
+      "sourceReadingComplete": true,
+      "denominator": {
+        "documents": 7,
+        "sections": 92,
+        "responseSections": 71,
+        "contextSections": 21,
+        "rules": 311
+      },
+      "scope": "웹 경고/메시지와 확보된 연결 응급 대처 본문; 실행형 구조화·전체 일반 ADAS 성능 도해는 별도",
+      "runtimeApproved": false
+    },
+    {
+      "name": "hyundai_pdf_adas_24",
+      "artifact": "audit-hyundai-adas-review.json",
+      "sourceReadingComplete": true,
+      "denominator": {
+        "documents": 24,
+        "faultObstructionSections": 323,
+        "linkedContextSections": 84,
+        "uniqueTextUnits": 2088
+      },
+      "scope": "기본 PDF ADAS 고장·가림·센서 관리 필수 문맥. HR/HREV 2문서는 hyundai-legacy-adas-review.json으로 별도 결합",
+      "runtimeApproved": false
+    },
+    {
+      "name": "hyundai_special_2",
+      "artifact": "audit-hyundai-special-rules.json",
+      "sourceReadingComplete": true,
+      "denominator": {
+        "documents": 2,
+        "rules": 27,
+        "visualPages": 6
+      },
+      "scope": "특장 설명서에 식별된 고장표·경보표와 연결 비상 절차. 장비별 제작사 별도 설명서·전체 배선/정기정비 제외",
+      "runtimeApproved": false
+    },
+    {
+      "name": "kia_adas_28",
+      "artifact": "audit-kia-adas-review.json",
+      "sourceReadingComplete": true,
+      "denominator": {
+        "documents": 28,
+        "baseSections": 1495,
+        "additionalSections": 431,
+        "distinctURLs": 1629,
+        "uniqueTextUnits": 2458
+      },
+      "scope": "ADAS 고장·가림·센서 취급·복구와 조명 HBA/IFS 및 구형 PU 제목 밖 고장 본문",
+      "runtimeApproved": false
+    },
+    {
+      "name": "carnival_hi_limousine_2025",
+      "artifact": "audit-supplement-rules.json",
+      "sourceReadingComplete": true,
+      "denominator": {
+        "scanPages": 53,
+        "visualPages": 14,
+        "rules": 9
+      },
+      "scope": "2025 하이리무진 보충 설명서의 식별된 고장·비상 항목. 정확한 2025 기본 KA4/KA4KH 자료는 기아 인라인 검토에 통합",
+      "runtimeApproved": false
+    },
+    {
+      "name": "gt_pv5_selected_equipment",
+      "artifact": "audit-variant-rules.json",
+      "sourceReadingComplete": true,
+      "denominator": {
+        "rules": 9
+      },
+      "scope": "GT ECS/e-LSD 및 PV5 오픈베드/프라임/WAV의 확인된 경고·제한. 모든 판매 변형의 장비 매뉴얼 확보를 뜻하지 않음",
+      "runtimeApproved": false
+    },
+    {
+      "name": "kia_closure_child_133",
+      "artifact": "kia-child-reviewed.json",
+      "sourceReadingComplete": true,
+      "denominator": {
+        "queuedURLs": 133,
+        "reviewedURLs": 133,
+        "methods": {
+          "EXACT_BODY_REUSE_WITH_PARENT_CONTEXT": 4,
+          "CANONICAL_FULL_AND_ALL_DIFFS": 59,
+          "FULL_SOURCE_READ": 70
+        },
+        "batchNotes": [
+          "kia-child-batch-01.json~kia-child-batch-07.json"
+        ]
+      },
+      "scope": "기아 직접 대처 절에서 선택된 필수 하위 절(AUTO HOLD·EPB·스마트 회생·ESC·디지털키 제한·실내 퓨즈·고전압 차단 플러그·4WD). 원본 SHA-256 133건 로컬 대조 일치. 제목만 있는 디지털키 정비 페이지(SP3 t00316, TK1 t00289, MQ4KH/DL3KH t00086 등)의 손자 절은 미수집·대처 추측 안 함",
+      "runtimeApproved": false
+    },
+    {
+      "name": "kia_legacy_child_57",
+      "artifact": "audit-kia-legacy-child-review.json",
+      "sourceReadingComplete": true,
+      "denominator": {
+        "queueRange": [
+          0,
+          56
+        ],
+        "assignedURLs": 57,
+        "readUniqueUnits": 468,
+        "additionalRequiredURLs": 2
+      },
+      "scope": "구형(chapter 형식) 기아 웹 설명서 하위 절. sourceHolds는 읽고 보류한 항목",
+      "runtimeApproved": false
+    }
+  ],
+  "sourceReadingCompleteWithinListedScopes": true,
+  "fullVehicleApplicabilityApproved": false,
+  "runtimeApproved": false,
+  "reviewer": "AI",
+  "unresolvedApplicabilityArtifact": "audit-variant-applicability.json",
+  "sourceHoldArtifacts": [
+    "audit-source-anomalies.json",
+    "audit-kia-spotcheck.json",
+    "audit-kia-adas-review.json"
+  ],
+  "validationArtifact": "audit-adas-validation.json",
+  "remainingWorkOutsideSourceReading": [
+    "판매 사양·연식·장비 컨트롤러와 기본/특장 매뉴얼의 정확 적용성 확정",
+    "95 SDK 타입과 실제 차량 경고/조건/동작의 실행 매핑",
+    "원문 모순의 제조사 확인과 전문가 승인",
+    "실차 또는 승인된 시뮬레이터에서 안전한 앱 동작 검증",
+    "디지털키 2 '정비 시' 손자 절(제목 페이지 하위) 미수집: 등록 키 삭제 가능 안내로 경고 대처 범위 밖이나 근거 연결 시 별도 수집 필요"
+  ]
+}

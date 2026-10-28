@@ -1,0 +1,17 @@
+"""Persist direct review of assigned legacy child queue 0..56."""
+import json,hashlib
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[2];RAW=ROOT/'.local/manual-review/2026-10-28/audit/kia-legacy-tail';OUT=ROOT/'data/manual-review/2026-10-28'
+es=json.loads((RAW/'inventory.json').read_text(encoding='utf8'));units=json.loads((RAW/'units.json').read_text(encoding='utf8'));rows=[]
+for i,e in enumerate(es):
+ rows.append({k:v for k,v in e.items() if k not in ['text','childLinks']}|{'queueIndex':i,'sourceURL':e['url'],'reviewStatus':'SOURCE_REVIEWED','reviewMethod':'AI_DIRECT_SOURCE_READING; exact whitespace dedup with every occurrence retained','reviewedUnitHashes':[u['hash'] for u in units if i in u['entries']],'runtimeApproved':False,'scope':'warning response or mandatory linked safe procedure; routine context read without executable approval'})
+extra=json.loads((RAW/'required-two.json').read_text(encoding='utf8'))
+for e in extra:
+ rows.append({k:v for k,v in e.items() if k!='text'}|{'sourceURL':e['url'],'sourceSha256':hashlib.sha256((ROOT/e['localPath']).read_bytes()).hexdigest(),'reviewStatus':'SOURCE_REVIEWED','runtimeApproved':False,'reviewMethod':'AI direct full passage reading'})
+holds=[{'sourceURL':es[32]['url'],'sourceSha256':es[32]['sourceSha256'],'issue':'PU 과열 절은 증기/누수 시 엔진 정지를 지시하지만 후속 주의문은 냉각팬 정지 전 시동을 끄지 말라고 포괄 서술. 조건 우선순위를 원문 밖에서 합성하지 않고 충돌 보류.','runtimeApproved':False},{'sourceURL':es[56]['url'],'sourceSha256':es[56]['sourceSha256'],'issue':'PUEV 타이어 교체 절은 안전삼각대 주간 100m/야간 200m를 기재. 다른 절은 접근 차량이 볼 위치를 요구. 최신 법적 의무로 단정하지 않으며 도로 진입 위험을 무시하는 실행 지침 승인 보류.','runtimeApproved':False}]
+imageNames=['OPUEV061002','OPUEV069003','1PUA4016','1PUA4017A','OPUEV069004','OPUEV069005']
+images=[{'sourceURL':'https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/res/images/'+n+'.png','sourceSha256':hashlib.sha256((RAW/(n+'.png')).read_bytes()).hexdigest(),'reviewStatus':'VISUALLY_REVIEWED','runtimeApproved':False} for n in imageNames]
+notes=['PU 예비 휠에 TPMS 센서 없음: 출발 후 약20분 경고 가능. 센서 휠 장착 후 몇 분 주행에도 지속 시 점검. 다른 차에 이 시간을 전이하지 않음.','NQ5KH 엔진 냉각수와 전기동력 냉각수 구분: 전자는 지정 혼합 보충, 후자는 부족 시 서비스 방문이며 임의 물/다른 부동액 보충 금지. 공장45%와 정비50%는 다른 조건.','NQ5KH N 유지: EPB와 AUTO HOLD 해제, N에서 OK 길게, 확인문 후 OFF; 안전벨트 해제/문 열림으로 자동P 가능. N주차와 탑승 ACC 유지 모드 혼합 금지.','PUEV 타이어: 앞195R15 3.5bar50psi, 뒤145R13 4.4bar64psi. 본문 휠너트 앞뒤19~22kgf·m, 잭최대30mm, 밸브2회이상회전금지,50km/1000km 재점검. 다른 차량에 수치 전이 금지.','PUEV 제동불량은 회생제동 왼쪽 패들/주차브레이크 분기, PU는 저단 엔진브레이크. EV에 엔진브레이크 절차를 복사하지 않음.','PUEV 잭 앞뒤 지정 지점·너트 대각 순서·밸브 회전 도해6개 실제 확인. 잭 아래 진입/시동금지와 평탄장소/대각 고임목 조건 함께 저장.']
+reuse=[{'sourceURL':'https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter7_5_2.html','artifact':'kia-crossref-reviewed.json','sequence':424,'verification':'Kia owner confirmed prior direct reading; no reread'},{'sourceURL':'https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter8_6.html','artifact':'kia-crossref-reviewed.json','sequence':433,'verification':'Kia owner confirmed prior direct reading; child closure assigned other half'}]
+data={'reviewerType':'AI_NOT_EXPERT_APPROVAL','runtimeApproved':False,'queueRange':[0,56],'assignedURLs':57,'readUniqueUnits':468,'additionalRequiredURLs':2,'sourceReadingComplete':True,'rows':rows,'visualEvidence':images,'sourceHolds':holds,'reviewNotes':notes,'reuseEvidence':reuse,'mandatoryUnread':0,'remainingRequiredClosure':[]}
+(OUT/'audit-kia-legacy-child-review.json').write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf8');print('Saved 57 + 2 pages, 468 queue units, 6 images')

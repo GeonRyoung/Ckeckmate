@@ -1,0 +1,1154 @@
+{
+  "sdkTypes": 95,
+  "rows": [
+    {
+      "sdkSymbol": "PARKING_BRAKE",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "ELECTRONIC_PARKING_BRAKE",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "SEAT_BELT",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "DOOR_OPEN",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "ABS",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "MDPS",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "TPMS",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "LOW_VOLT_BATTERY",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "ESC",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "ESC_OFF",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "AIRBAG",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "AFS",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "MASTER_WARNING",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "AUTO_HOLD",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "AUTO_HIGH_BEAM",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "HEADLAMP_LOW",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "HEADLAMP_HIGH",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "POSITION_LAMP",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "FRONT_FOG_LAMP",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "REAR_FOG_LAMP",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "ENGINE_OIL_PRESSURE",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "ENGINE_TEMPERATURE",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "EMERGENCY_CALL",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "EV_SYSTEM",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "POWER_DOWN",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "RBS",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "IMMOBILIZER",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "ENGINE",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "LED_HEADLAMP",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "PREHEAT",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "PARTICLE_FILTER",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "H2_SENSOR",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "H2_LEAK",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "PASSENGER_AIRBAG_OFF",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "PASSENGER_AIRBAG_ON",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "TURN_SIGNAL_LEFT",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "TURN_SIGNAL_RIGHT",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "ICY_ROAD",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "OVER_SPEED",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "WATER_SEPARATOR",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "SCR",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "LOW_EV_BATTERY",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "HEV_SYSTEM",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "FCEV_SYSTEM",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "EREV_SYSTEM",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "LPI",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "EV_CHARGING_CONNECTOR",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "AWD_LOCK",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "HEV_MODE",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "ISG",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "DBC",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "REV",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "XEV_READY",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "I_PEDAL",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "LOW_FUEL",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "LOW_FUEL_FCEV",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "EV_BATTERY_CONDITIONING",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "TRUNK_OPEN",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "CHILD_PRESENCE_DETECTION_OFF",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "DRIVE_MODE",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "DRIVE_MODE_SPORT",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "DRIVE_MODE_ECO",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "DRIVE_MODE_COMFORT",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "DRIVE_MODE_TERRAIN",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "FORCED_ALL_WHEEL_DRIVE",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "FOUR_WHEEL_DRIVE_MODE_2H",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "FOUR_WHEEL_DRIVE_MODE_4A",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "FOUR_WHEEL_DRIVE_MODE_4H",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "FOUR_WHEEL_DRIVE_MODE_4L",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "TOW_MODE",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "ESC_SPORT",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "CREEP_OFF",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "DRIFT_MODE",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "TRACK_MODE",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "UTILITY_MODE",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "GREEN_ZONE",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "PHEV_MODE",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "PHEV_MODE_HEV",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "PHEV_MODE_AUTO",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "PHEV_MODE_EV_PLUS",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "EREV_MODE",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "LAUNCH_MODE",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "ACCEL_RESPONSE_DASH",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "ACCEL_RESPONSE_ACCEL",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "N_BATTERY_DRAG",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "N_BATTERY_SPRINT",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "N_BATTERY_ENDURANCE",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "FCA",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "LKA",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "LFA",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "LCA_LEFT",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "LCA_RIGHT",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "ELK",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "ICC",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    },
+    {
+      "sdkSymbol": "DRIVER_ATTENTION",
+      "sdkStateDomain": [
+        "OFF",
+        "ON",
+        "BLINK"
+      ],
+      "reviewMappingStatus": "SEMANTIC_MAPPING_PENDING",
+      "vehicleApplicability": "UNKNOWN_UNTIL_EXACT_DOCUMENT_OPTION_MATCH",
+      "runtimeApproved": false,
+      "note": "SDK 타입 존재는 각 차량 장착 또는 문서 검토 완료 증거가 아님. 원문 항목과 다대다 의미 매핑 필요."
+    }
+  ],
+  "runtimeApproved": false,
+  "denominator": "95 SDK types are an integration taxonomy, not 95 warnings on every vehicle",
+  "source": {
+    "coordinate": "ai.pleos.playground:Vehicle:2.3.2",
+    "enumClass": "ai.pleos.playground.vehicle.constant.telltale.TelltaleType",
+    "aarSha256": "e11fdfe498cad3ecc0d5a2a6992b0c4a4d135195f1455018127bc069fd5ef937",
+    "method": "javap on classes.jar from installed Gradle dependency"
+  },
+  "automaticCandidatePromotion": false
+}

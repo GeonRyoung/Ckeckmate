@@ -1,0 +1,39 @@
+{
+  "records": [
+    {
+      "documentId": "kia_PU_2026",
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PU/2026/ko_KR/topics/chapter4_19.html",
+      "sourceSha256": "312b07e4f4c9a7d5c5c4325af3e678d63d22343b6fe7e664f12193b81c1f4a73",
+      "reviewStatus": "REVIEWED_MANUAL_SECTION_NOT_PRESENT",
+      "reviewNote": "조명 본문 하위 목차에는 HBA/IFS 항목이 없음을 직접 확인했다. 실제 판매 차량의 사양 부재나 제조사 전체 미공개를 확정하지 않는다.",
+      "tocTitles": [
+        "조명 위치",
+        "전조등 주행빔 및 변환빔 전환",
+        "방향 지시 및 차로 변경",
+        "앞면안개등",
+        "배터리 방전 방지 기능",
+        "헤드램프(전조등) 에스코트 기능"
+      ],
+      "reviewer": "AI",
+      "runtimeApproved": false
+    },
+    {
+      "documentId": "kia_PUEV_2026",
+      "sourceURL": "https://ownersmanual.kia.com/full_webhelp/PUEV/2026/ko_KR/topics/chapter4_14.html",
+      "sourceSha256": "44b4f713fbe0301ca51e9a81277b4048e1ac83619f25a775c601964c91d4b7a1",
+      "reviewStatus": "REVIEWED_MANUAL_SECTION_NOT_PRESENT",
+      "reviewNote": "조명 본문 하위 목차에는 HBA/IFS 항목이 없음을 직접 확인했다. 실제 판매 차량의 사양 부재나 제조사 전체 미공개를 확정하지 않는다.",
+      "tocTitles": [
+        "조명 위치",
+        "전조등 주행빔 및 변환빔 전환",
+        "방향 지시 및 차로변경",
+        "앞면안개등",
+        "주간주행등(DRL: Daytime Running Light)",
+        "배터리 방전 방지 기능(차량 조명을 켜 놓은 채 실수로 하차 시 조명 자동 꺼짐)"
+      ],
+      "reviewer": "AI",
+      "runtimeApproved": false
+    }
+  ],
+  "runtimeApproved": false
+}

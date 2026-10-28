@@ -1,0 +1,1333 @@
+{
+  "schemaVersion": 1,
+  "rules": [
+    {
+      "ruleId": "HY-REF-A01-2026-TPMS",
+      "documentIds": [
+        "HYUNDAI-A01-2026"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "저압 점등과 시스템 이상 점멸 후 점등을 구분한다."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "압력 센서가 장착된 휠로 교환한 후 몇 분 주행해도 경고가 꺼지지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "시스템 고장 때 저압 위치 표시가 없어질 수 있어 화면만으로 정상 압력을 단정하지 않는다. RF 간섭 가능성만으로 고장을 정상 처리하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/A01/2026/ko_KR",
+          "documentSha256": "38fbe422b1b95dbf54da081734f2facbf8969e1bca2a2a978a3725f890e677f1",
+          "locator": {
+            "pdfPages1Based": [
+              351,
+              352,
+              353,
+              354
+            ]
+          },
+          "passageSha256": "ff3b51befa68276e137100e07393ad4c0e4da9470711314ae2935acfdd512e81",
+          "boundedPassageSha256": "3ea4372201b01e31cd560152b1f15bac2eb3e2cc2f236ad96d666b676739acdd",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\A01-2026-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-US4EV-2027-TPMS",
+      "documentIds": [
+        "HYUNDAI-US4EV-2027"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "저압 점등과 시스템 이상 점멸 후 점등을 구분한다."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "압력 센서가 장착된 휠로 교환한 후 몇 분 주행해도 경고가 꺼지지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "시스템 고장 때 저압 위치 표시가 없어질 수 있어 화면만으로 정상 압력을 단정하지 않는다. RF 간섭 가능성만으로 고장을 정상 처리하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/US4EV/2027/ko_KR",
+          "documentSha256": "668df665ece6573f01f559409f8f62919f2b48d655f8a97d2a9a29c0575bcf2d",
+          "locator": {
+            "pdfPages1Based": [
+              509,
+              510,
+              511,
+              512,
+              513,
+              514,
+              515,
+              516,
+              517,
+              518,
+              519,
+              520,
+              521
+            ]
+          },
+          "passageSha256": "513ee6e73ac1ec1dc70aee57e670421a8a966df6528748a15af50b0f3471be05",
+          "boundedPassageSha256": "613bb9014294dd8b3e1a6ba37f1548a9b44a5a87be30082031ca1c6d25177b2e",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\US4EV-2027-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-NE1-2027-TPMS",
+      "documentIds": [
+        "HYUNDAI-NE1-2027"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "저압 점등과 시스템 이상 점멸 후 점등을 구분한다."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "압력 센서가 장착된 휠로 교환한 후 몇 분 주행해도 경고가 꺼지지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "시스템 고장 때 저압 위치 표시가 없어질 수 있어 화면만으로 정상 압력을 단정하지 않는다. RF 간섭 가능성만으로 고장을 정상 처리하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/NE1/2027/ko_KR",
+          "documentSha256": "e32d572bf61a989590d87925ed740b2795c714033a6ef4432a46852574ce26a1",
+          "locator": {
+            "pdfPages1Based": [
+              497,
+              498,
+              499,
+              500,
+              501,
+              502,
+              503,
+              504,
+              505,
+              506,
+              507,
+              508
+            ]
+          },
+          "passageSha256": "3464d9427741e9c203116d109f3ae952313321e4e5358d1618e19322c5e70531",
+          "boundedPassageSha256": "d12f96fab638a9c1a19f3738604e2d64f56a45410cfd2613e2327909c8e9f098",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\NE1-2027-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-NE1-2025-TPMS",
+      "documentIds": [
+        "HYUNDAI-NE1-2025"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "저압 점등과 시스템 이상 점멸 후 점등을 구분한다."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "압력 센서가 장착된 휠로 교환한 후 몇 분 주행해도 경고가 꺼지지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "시스템 고장 때 저압 위치 표시가 없어질 수 있어 화면만으로 정상 압력을 단정하지 않는다. RF 간섭 가능성만으로 고장을 정상 처리하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/NE1/2025/ko_KR",
+          "documentSha256": "7c92b1e3b1326d6811340e664111897fc66f23b6ae96788e2d76e6f99eb30725",
+          "locator": {
+            "pdfPages1Based": [
+              493,
+              494,
+              495,
+              496,
+              497,
+              498,
+              499,
+              500,
+              501,
+              502,
+              503,
+              504
+            ]
+          },
+          "passageSha256": "f78339dd520682e9aff048cabf1685b74ba834d0881ef3eb23e300327d1d610c",
+          "boundedPassageSha256": "e462e71f178b8563f7cae3b09a55edf772157b8dbb7c5e47d30832241b06a985",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\NE1-2025-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-CE1-2025-TPMS",
+      "documentIds": [
+        "HYUNDAI-CE1-2025"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "저압 점등과 시스템 이상 점멸 후 점등을 구분한다."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "압력 센서가 장착된 휠로 교환한 후 몇 분 주행해도 경고가 꺼지지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "시스템 고장 때 저압 위치 표시가 없어질 수 있어 화면만으로 정상 압력을 단정하지 않는다. RF 간섭 가능성만으로 고장을 정상 처리하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/CE1/2025/ko_KR",
+          "documentSha256": "778bd9cd9ba17bbe2fb8991499309d9dd22d8658fc5eb42d9c6aa673dac44335",
+          "locator": {
+            "pdfPages1Based": [
+              509,
+              510,
+              511,
+              512,
+              513,
+              514,
+              515,
+              516,
+              517,
+              518,
+              519,
+              520
+            ]
+          },
+          "passageSha256": "37006e1163e76f8bdd65088332bd637000ce7ac8e392b9316747ff022149be82",
+          "boundedPassageSha256": "d3049fe4d4aded82e44b25518e1b2a280ade7340acc395b45a5c5be7ce6adeeb",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\CE1-2025-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-ME-2027-TPMS",
+      "documentIds": [
+        "HYUNDAI-ME-2027"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "저압 점등과 시스템 이상 점멸 후 점등을 구분한다."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "압력 센서가 장착된 휠로 교환한 후 몇 분 주행해도 경고가 꺼지지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "시스템 고장 때 저압 위치 표시가 없어질 수 있어 화면만으로 정상 압력을 단정하지 않는다. RF 간섭 가능성만으로 고장을 정상 처리하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/ME/2027/ko_KR",
+          "documentSha256": "527ba63f2d0106dc41775de2fb7e35b342f43ec8f88e606c7dd814cb44520fd0",
+          "locator": {
+            "pdfPages1Based": [
+              567,
+              568,
+              569,
+              570,
+              571,
+              572,
+              573,
+              574,
+              575,
+              576,
+              577,
+              578
+            ]
+          },
+          "passageSha256": "a3b38e91423cf82e3a1f711348ab6b05823c17b633bc02aefd638cf2ee42e3e7",
+          "boundedPassageSha256": "74fbf508c6e0131d152bd4da0190f307f8527822d77c722a4861031df71de028",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\ME-2027-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-AXEV-2027-TPMS",
+      "documentIds": [
+        "HYUNDAI-AXEV-2027"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "휠 속도로 반경·진동을 판단하는 간접식 TPMS. 저압은 점등, 고장은 70초 점멸 뒤 점등, 초기화 완료는 4초 점멸 뒤 소등."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "모든 타이어를 추천 압력으로 맞춘 뒤 시동 ON·정차 상태에서 모드 버튼→타이어 공기압→OK 길게→저장을 선택한다. 완료 팝업과 4초 점멸 후 소등을 확인한다.",
+        "완료 신호가 없으면 정차 상태의 메뉴 진입부터 다시 시도한다. 정차 후 설정 메시지가 뜨면 정차 후 OK를 길게 누른다. 초기화 뒤에도 고장 표시가 남으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다.",
+        "압력을 조정하지 않은 상태에서 초기화하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "직접식 압력 센서·예비 휠 10분 경고·RF 간섭 설명을 이 간접식에 전이하지 않는다. 타이어/휠 수리·교환·위치 변경·압력 조정·저압 경고·서스펜션 또는 원문 ABC/ESC 교환 시 초기화 요구."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/AXEV/2027/ko_KR",
+          "documentSha256": "aa1465589f86265c261fafb3c17c81eeac574c7bb7f7e60ab248715ebcfb8a96",
+          "locator": {
+            "pdfPages1Based": [
+              409,
+              410,
+              411,
+              412,
+              413,
+              414,
+              415,
+              416,
+              417,
+              418,
+              419,
+              420
+            ]
+          },
+          "passageSha256": "ddd46775c141a52a66a2932baa59b780ff5787a322ba4959f331d03b8c53edb1",
+          "boundedPassageSha256": "0ebe0ee72a8e10f2d2ef16205346003cb0eec874480b74b85f1c6adb9de7baf4",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\AXEV-2027-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-SX2EV-2025-TPMS",
+      "documentIds": [
+        "HYUNDAI-SX2EV-2025"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "저압 점등과 시스템 이상 점멸 후 점등을 구분한다."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "압력 센서가 장착된 휠로 교환한 후 몇 분 주행해도 경고가 꺼지지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "시스템 고장 때 저압 위치 표시가 없어질 수 있어 화면만으로 정상 압력을 단정하지 않는다. RF 간섭 가능성만으로 고장을 정상 처리하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/SX2EV/2025/ko_KR",
+          "documentSha256": "5adf6f2b7662d46b226ce357cd40341eb7e07392b5236fe5f46a5c804b28d549",
+          "locator": {
+            "pdfPages1Based": [
+              623,
+              624,
+              625,
+              626,
+              627,
+              628
+            ]
+          },
+          "passageSha256": "b8a9ee67465629bb87d1444b5e48c57f4515c639c35b637d5e4b64767f6de535",
+          "boundedPassageSha256": "035d6b5192d1df3a6c11ab4ec1992baa4af9cb10d40526303e9db71f09948a31",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\SX2EV-2025-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-DN8-2026-TPMS",
+      "documentIds": [
+        "HYUNDAI-DN8-2026"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "저압 점등과 시스템 이상 점멸 후 점등을 구분한다."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "압력 센서가 장착된 휠로 교환한 후 몇 분 주행해도 경고가 꺼지지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "시스템 고장 때 저압 위치 표시가 없어질 수 있어 화면만으로 정상 압력을 단정하지 않는다. RF 간섭 가능성만으로 고장을 정상 처리하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/DN8/2026/ko_KR",
+          "documentSha256": "f83f44abcf8f59c30fa4d0b0b419a8e7aaca54da7d6f5c5fc9b3f83cab650e23",
+          "locator": {
+            "pdfPages1Based": [
+              431,
+              432,
+              433,
+              434,
+              435
+            ]
+          },
+          "passageSha256": "7bbff779744a16f8b53eb6ca92c70b8d8c38c86fd77e949673cbab519cac82ed",
+          "boundedPassageSha256": "75124007e172a169df3cddeda8c7b6e84d3a64b739c9babf9eb78909d2199d1d",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\DN8-2026-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-DN8HEV-2026-TPMS",
+      "documentIds": [
+        "HYUNDAI-DN8HEV-2026"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "저압 점등과 시스템 이상 점멸 후 점등을 구분한다."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "압력 센서가 장착된 휠로 교환한 후 몇 분 주행해도 경고가 꺼지지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "시스템 고장 때 저압 위치 표시가 없어질 수 있어 화면만으로 정상 압력을 단정하지 않는다. RF 간섭 가능성만으로 고장을 정상 처리하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/DN8HEV/2026/ko_KR",
+          "documentSha256": "5843551877e8a3279e67ca5830f64df2f7ac8cb0bbb4020f3415cd0e11dd3158",
+          "locator": {
+            "pdfPages1Based": [
+              457,
+              458,
+              459,
+              460,
+              461
+            ]
+          },
+          "passageSha256": "9a6b0ecfe638d09fa891bc31cd5c1d13f4db36fd1bfef0b9f8a8270f618baf12",
+          "boundedPassageSha256": "ffbd94c586486ef6eb1c98b29987441918271d54684c15feb0499f6e20eb8f88",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\DN8HEV-2026-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-DN8c-2025-TPMS",
+      "documentIds": [
+        "HYUNDAI-DN8c-2025"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "저압 점등과 시스템 이상 점멸 후 점등을 구분한다."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "압력 센서가 장착된 휠로 교환한 후 몇 분 주행해도 경고가 꺼지지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "시스템 고장 때 저압 위치 표시가 없어질 수 있어 화면만으로 정상 압력을 단정하지 않는다. RF 간섭 가능성만으로 고장을 정상 처리하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/DN8c/2025/ko_KR",
+          "documentSha256": "ebd8b03c59aa7f37640f2b8150f96fe7da75191ee907550a56547b647ebc7e2c",
+          "locator": {
+            "pdfPages1Based": [
+              312,
+              313,
+              314,
+              315
+            ]
+          },
+          "passageSha256": "0def8bfb7f7dbe7e3596a15581fa6e9a06fdb0048c244a4c71d30904eb2158bc",
+          "boundedPassageSha256": "a2e582dfc19e32ff716babba99030ac7b3bac27b6db292f7136a0e692e3c83d2",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\DN8c-2025-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-US4-2026-TPMS",
+      "documentIds": [
+        "HYUNDAI-US4-2026"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "저압 점등과 시스템 이상 점멸 후 점등을 구분한다."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "압력 센서가 장착된 휠로 교환한 후 몇 분 주행해도 경고가 꺼지지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "시스템 고장 때 저압 위치 표시가 없어질 수 있어 화면만으로 정상 압력을 단정하지 않는다. RF 간섭 가능성만으로 고장을 정상 처리하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/US4/2026/ko_KR",
+          "documentSha256": "7627c80a2708e9918b9dca6227f383ddfb3f09c02c824ea69563a97780083519",
+          "locator": {
+            "pdfPages1Based": [
+              433,
+              434,
+              435,
+              436,
+              437,
+              438,
+              439,
+              440,
+              441,
+              442,
+              443,
+              444,
+              445,
+              446,
+              447,
+              448,
+              449,
+              450,
+              451,
+              452
+            ]
+          },
+          "passageSha256": "5084e5c7f20a0d715a2aafe7c8fc5d84dfb0e7fdd1b1c66b824ddf630d83dbc7",
+          "boundedPassageSha256": "c55e1603d2c0fb523b033284a7f17bb84654abd86cb19900c74d41bcd06b1f5b",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\US4-2026-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-US4HEV-2026-TPMS",
+      "documentIds": [
+        "HYUNDAI-US4HEV-2026"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "저압 점등과 시스템 이상 점멸 후 점등을 구분한다."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "압력 센서가 장착된 휠로 교환한 후 몇 분 주행해도 경고가 꺼지지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "시스템 고장 때 저압 위치 표시가 없어질 수 있어 화면만으로 정상 압력을 단정하지 않는다. RF 간섭 가능성만으로 고장을 정상 처리하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/US4HEV/2026/ko_KR",
+          "documentSha256": "393da16edb0b1e48d9fcf58aae0e37691f1ba26fa6cc53e5108d5566b9fd91f3",
+          "locator": {
+            "pdfPages1Based": [
+              470,
+              471,
+              472,
+              473,
+              474,
+              475,
+              476,
+              477,
+              478,
+              479,
+              480,
+              481,
+              482,
+              483,
+              484,
+              485,
+              486,
+              487,
+              488
+            ]
+          },
+          "passageSha256": "5a78389f6cb08d96c3f933de798b09f58387eac9c676faeced922a8dea0efb68",
+          "boundedPassageSha256": "0d17dc62aab81c5764d1db9a02c55755bda5126ad458e53e872321ed1266b448",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\US4HEV-2026-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-MX5-2026-TPMS",
+      "documentIds": [
+        "HYUNDAI-MX5-2026"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "저압 점등과 시스템 이상 점멸 후 점등을 구분한다."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "압력 센서가 장착된 휠로 교환한 후 몇 분 주행해도 경고가 꺼지지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "시스템 고장 때 저압 위치 표시가 없어질 수 있어 화면만으로 정상 압력을 단정하지 않는다. RF 간섭 가능성만으로 고장을 정상 처리하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/MX5/2026/ko_KR",
+          "documentSha256": "5cf84f7e7f709383d711b7450321dde6c9a63e98b307649b366915f57eacece6",
+          "locator": {
+            "pdfPages1Based": [
+              635,
+              636,
+              637,
+              638,
+              639,
+              640
+            ]
+          },
+          "passageSha256": "cddfeb11b7f9de2207e67e7c26a02f15d3419b666fc0fd49decbe2db8b45c646",
+          "boundedPassageSha256": "58553aea6bda9fd0cba1a143853d8e8805224067999c139c77175517f3d82cfa",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\MX5-2026-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-MX5HEV-2026-TPMS",
+      "documentIds": [
+        "HYUNDAI-MX5HEV-2026"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "저압 점등과 시스템 이상 점멸 후 점등을 구분한다."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "압력 센서가 장착된 휠로 교환한 후 몇 분 주행해도 경고가 꺼지지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "시스템 고장 때 저압 위치 표시가 없어질 수 있어 화면만으로 정상 압력을 단정하지 않는다. RF 간섭 가능성만으로 고장을 정상 처리하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/MX5HEV/2026/ko_KR",
+          "documentSha256": "8fef11ef06a5ec675868b54b00b49b40de6bd4445f9f123fd0b4f6e0c5daad1b",
+          "locator": {
+            "pdfPages1Based": [
+              669,
+              670,
+              671,
+              672,
+              673,
+              674
+            ]
+          },
+          "passageSha256": "9d800012c668b175134da26b15a4734ab58e75c8552e3bfef410b2e3e3fd78b6",
+          "boundedPassageSha256": "550482c726a87415697b991c943c4326a52479376328405e461ea3ac2031c5dc",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\MX5HEV-2026-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-AX-2027-TPMS",
+      "documentIds": [
+        "HYUNDAI-AX-2027"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "휠 속도로 반경·진동을 판단하는 간접식 TPMS. 저압은 점등, 고장은 70초 점멸 뒤 점등, 초기화 완료는 4초 점멸 뒤 소등."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "모든 타이어를 추천 압력으로 맞춘 뒤 시동 ON·정차 상태에서 모드 버튼→타이어 공기압→OK 길게→저장을 선택한다. 완료 팝업과 4초 점멸 후 소등을 확인한다.",
+        "완료 신호가 없으면 정차 상태의 메뉴 진입부터 다시 시도한다. 정차 후 설정 메시지가 뜨면 정차 후 OK를 길게 누른다. 초기화 뒤에도 고장 표시가 남으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다.",
+        "압력을 조정하지 않은 상태에서 초기화하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "직접식 압력 센서·예비 휠 10분 경고·RF 간섭 설명을 이 간접식에 전이하지 않는다. 타이어/휠 수리·교환·위치 변경·압력 조정·저압 경고·서스펜션 또는 원문 ABC/ESC 교환 시 초기화 요구."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/AX/2027/ko_KR",
+          "documentSha256": "f38683b42a7f71269b87ec96b1fb0a1ac20811e2a2330af22b9bc633f8a593e5",
+          "locator": {
+            "pdfPages1Based": [
+              317,
+              318,
+              319,
+              320,
+              321,
+              322,
+              323,
+              324,
+              325,
+              326,
+              327,
+              328
+            ]
+          },
+          "passageSha256": "9747368f2fd30d24708d59ef83f7787cea41701453e5861715c4502ae5e09b62",
+          "boundedPassageSha256": "3de34706d5d69dd90973deb440f9c77b299a1be325ea1b1d83893062650e9b92",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\AX-2027-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-SX2-2027-TPMS",
+      "documentIds": [
+        "HYUNDAI-SX2-2027"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "저압 점등과 시스템 이상 점멸 후 점등을 구분한다."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "압력 센서가 장착된 휠로 교환한 후 몇 분 주행해도 경고가 꺼지지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "시스템 고장 때 저압 위치 표시가 없어질 수 있어 화면만으로 정상 압력을 단정하지 않는다. RF 간섭 가능성만으로 고장을 정상 처리하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/SX2/2027/ko_KR",
+          "documentSha256": "bcf895c9dbbcb59d64275175141e76958d3ad2ac65412ae18a9b658550938126",
+          "locator": {
+            "pdfPages1Based": [
+              609,
+              610,
+              611,
+              612,
+              613,
+              614
+            ]
+          },
+          "passageSha256": "fd6d9d7fb33d838ad9203b9aeff451b56d951b59de3321ac35f62cd7edd61579",
+          "boundedPassageSha256": "dc7d12071a14d94d4aebf218002042fbb5a25b20d6646811bb3ff20d3629670a",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\SX2-2027-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-SX2HEV-2027-TPMS",
+      "documentIds": [
+        "HYUNDAI-SX2HEV-2027"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "저압 점등과 시스템 이상 점멸 후 점등을 구분한다."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "압력 센서가 장착된 휠로 교환한 후 몇 분 주행해도 경고가 꺼지지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "시스템 고장 때 저압 위치 표시가 없어질 수 있어 화면만으로 정상 압력을 단정하지 않는다. RF 간섭 가능성만으로 고장을 정상 처리하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/SX2HEV/2027/ko_KR",
+          "documentSha256": "7a56521c4225093eba2421e74f789a81d2199cd9849eb68d711c55993d436bbe",
+          "locator": {
+            "pdfPages1Based": [
+              614,
+              615,
+              616,
+              617,
+              618,
+              619
+            ]
+          },
+          "passageSha256": "4a89b3d83042a25f7c539c21b53e23c4fbde2b62a26b948403e74d8ba6316a0a",
+          "boundedPassageSha256": "9a146146a284e4e7cc45c408247366efadd3a587b97414eb6e5c202734c1630a",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\SX2HEV-2027-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-LX3-2027-TPMS",
+      "documentIds": [
+        "HYUNDAI-LX3-2027"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "저압 점등과 시스템 이상 점멸 후 점등을 구분한다."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "압력 센서가 장착된 휠로 교환한 후 몇 분 주행해도 경고가 꺼지지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "시스템 고장 때 저압 위치 표시가 없어질 수 있어 화면만으로 정상 압력을 단정하지 않는다. RF 간섭 가능성만으로 고장을 정상 처리하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/LX3/2027/ko_KR",
+          "documentSha256": "a77d7fb6b8c3520ff178ee21f616f403416395e04cd907638f141cb62e6e86d5",
+          "locator": {
+            "pdfPages1Based": [
+              501,
+              502,
+              503,
+              504,
+              505,
+              506,
+              507,
+              508,
+              509,
+              510,
+              511,
+              512,
+              513
+            ]
+          },
+          "passageSha256": "458e01848d1c4881b9430f4c403c200a09cdf610c0766e1914197f1929023468",
+          "boundedPassageSha256": "1359e7c7f01d03ac6d4731ead3ce25ab0a4503b2d0a18e8fd5aeef91aa710650",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\LX3-2027-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-LX3HEV-2027-TPMS",
+      "documentIds": [
+        "HYUNDAI-LX3HEV-2027"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "저압 점등과 시스템 이상 점멸 후 점등을 구분한다."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "압력 센서가 장착된 휠로 교환한 후 몇 분 주행해도 경고가 꺼지지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "시스템 고장 때 저압 위치 표시가 없어질 수 있어 화면만으로 정상 압력을 단정하지 않는다. RF 간섭 가능성만으로 고장을 정상 처리하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/LX3HEV/2027/ko_KR",
+          "documentSha256": "718aba1cf5613a13fb9ce501f8ecb20d9bf3b81c0c6a87e976f76d2925dbcc3f",
+          "locator": {
+            "pdfPages1Based": [
+              517,
+              518,
+              519,
+              520,
+              521,
+              522,
+              523,
+              524,
+              525,
+              526,
+              527,
+              528
+            ]
+          },
+          "passageSha256": "e113f0394ed8614405c313c4f42ad2d63b823818ce102095c24274d62cc43e7d",
+          "boundedPassageSha256": "c8399abba937b7d8201777b8213803feddd18b03786b435c392f5d793ecff67a",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\LX3HEV-2027-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-CN7N-2026-TPMS",
+      "documentIds": [
+        "HYUNDAI-CN7N-2026"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "저압 점등과 시스템 이상 점멸 후 점등을 구분한다."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "압력 센서가 장착된 휠로 교환한 후 몇 분 주행해도 경고가 꺼지지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "시스템 고장 때 저압 위치 표시가 없어질 수 있어 화면만으로 정상 압력을 단정하지 않는다. RF 간섭 가능성만으로 고장을 정상 처리하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/CN7N/2026/ko_KR",
+          "documentSha256": "02bf55203560b31d51bb9d963b8c04ca9842499c7f60bfc1b5296f31f995b22f",
+          "locator": {
+            "pdfPages1Based": [
+              366,
+              367,
+              368,
+              369
+            ]
+          },
+          "passageSha256": "bfcba70de58a1899755e1b352732bc7b52e59d0e25a46293228536572063edd9",
+          "boundedPassageSha256": "fcba30aad1d21ace97f3d16887f0170c11a60bd89ce204a009c9bd80c4680bc4",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\CN7N-2026-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-NE1N-2026-TPMS",
+      "documentIds": [
+        "HYUNDAI-NE1N-2026"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "저압 점등과 시스템 이상 점멸 후 점등을 구분한다."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "압력 센서가 장착된 휠로 교환한 후 몇 분 주행해도 경고가 꺼지지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "시스템 고장 때 저압 위치 표시가 없어질 수 있어 화면만으로 정상 압력을 단정하지 않는다. RF 간섭 가능성만으로 고장을 정상 처리하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/NE1N/2026/ko_KR",
+          "documentSha256": "ba7440607e52d5b77f602965a999550da011260e0de50d4dab113f23a92af977",
+          "locator": {
+            "pdfPages1Based": [
+              699,
+              700,
+              701,
+              702,
+              703,
+              704
+            ]
+          },
+          "passageSha256": "640d6654d0fe4dccf07e26da83c940250a4a81d38a39eebe7e6acad69e50b008",
+          "boundedPassageSha256": "bfa6f4aa60ad5dcab2f6901a8be09d77068dd3c09557c3a303c19d331b96d2c7",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\NE1N-2026-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-CE1N-2025-TPMS",
+      "documentIds": [
+        "HYUNDAI-CE1N-2025"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "저압 점등과 시스템 이상 점멸 후 점등을 구분한다."
+      ],
+      "orderedActions": [
+        "저압이면 속도를 낮추고 급격한 조향을 피하며 타이어 상태와 해당 규격 공기압을 점검한다.",
+        "냉간 상태(주행 종료 후 3시간 이상 또는 1.6km 이내 주행)에서 추천 압력에 맞춘다.",
+        "시스템 이상은 정비 점검한다. 갑작스러운 타이어 손상으로 차체가 불안정하면 가속페달에서 발을 떼고 안전하게 정차하여 확인한다.",
+        "압력 센서가 장착된 휠로 교환한 후 몇 분 주행해도 경고가 꺼지지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "저압 상태로 계속 주행하거나 시스템을 임의 개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "TMK 주입·봉합과 차종별 압력 수치는 별도 절차와 규격 대조가 필요하며 이 규칙에서 임의 수치를 생성하지 않는다.",
+        "시스템 고장 때 저압 위치 표시가 없어질 수 있어 화면만으로 정상 압력을 단정하지 않는다. RF 간섭 가능성만으로 고장을 정상 처리하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/CE1N/2025/ko_KR",
+          "documentSha256": "7f8ff59e884beca0ec6dab769448762b53ea1be3a23d523de4ff8d1943d2e416",
+          "locator": {
+            "pdfPages1Based": [
+              503,
+              504,
+              505,
+              506,
+              507,
+              508,
+              509,
+              510,
+              511,
+              512,
+              513,
+              514
+            ]
+          },
+          "passageSha256": "fe8aa743b985c38d61a00ae76237e4e1413fd8338cb4b89e490f03142e6a09e3",
+          "boundedPassageSha256": "32a8a117c34420b635dbc5dd82d0cc2ea410fe90ea2b347929cb1d5404535db7",
+          "boundedLocalPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\CE1N-2025-TPMS-bounded.txt",
+          "scope": "TPMS section only; source page range can include adjacent puncture chapter, not approved by this record"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-QX-2027-TPMS",
+      "documentIds": [
+        "HYUNDAI-QX-2027"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "직접식 TPMS 적용 사양의 저압 또는 고장 경고."
+      ],
+      "orderedActions": [
+        "감속하고 급커브를 피한다. 타이어 상태·추천 압력을 점검하고 조절이 불가능하면 해당 차량의 예비 타이어 교환 절차를 따른다.",
+        "냉간(최근 3시간 주행하지 않음 또는 1.6km 이내 주행)에서 압력을 맞춘다. 점멸 후 점등은 정비한다.",
+        "센서 휠 교환 후 몇 분 주행해도 소등되지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "시스템을 임의 조절·개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "QX 고장 점멸은 클러스터 원문 70초를 보존한다. HR에 같은 수치를 추정 적용하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/QX/2027/ko_KR",
+          "documentSha256": "8c2a0e72b60e91160b14b029bdad7b2c019809c5ca4c91b24435bf62badb6b1b",
+          "locator": {
+            "pdfPages1Based": [
+              331,
+              332,
+              333
+            ]
+          },
+          "passageSha256": "bfee0c083ff54f87ae4450629bd267ac86b345eacbbf19351154ca1c3dabae18"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    },
+    {
+      "ruleId": "HY-REF-HR-2026-TPMS",
+      "documentIds": [
+        "HYUNDAI-HR-2026"
+      ],
+      "topic": "TPMS",
+      "conditions": [
+        "직접식 TPMS 적용 사양의 저압 또는 고장 경고."
+      ],
+      "orderedActions": [
+        "감속하고 급커브를 피한다. 타이어 상태·추천 압력을 점검하고 조절이 불가능하면 해당 차량의 예비 타이어 교환 절차를 따른다.",
+        "냉간(최근 3시간 주행하지 않음 또는 1.6km 이내 주행)에서 압력을 맞춘다. 점멸 후 점등은 정비한다.",
+        "센서 휠 교환 후 몇 분 주행해도 소등되지 않으면 정비한다."
+      ],
+      "driverProhibitions": [
+        "시스템을 임의 조절·개조하지 않는다."
+      ],
+      "applicationConstraints": [
+        "QX 고장 점멸은 클러스터 원문 70초를 보존한다. HR에 같은 수치를 추정 적용하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HR/2026/ko_KR",
+          "documentSha256": "ff0d2aeb0ff0bd775c13c60dfd516d50b044319650277ca87270b73aae024b78",
+          "locator": {
+            "pdfPages1Based": [
+              262,
+              263,
+              264
+            ]
+          },
+          "passageSha256": "c9817957cc7345517f441cf5216393f4f5ccf6d5c06fcc593af8febeb6552a6e"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "Direct full source passage reading; repeated TPMS passages compared against fully read DN8/NE1 canonical with every changed group read",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false
+    }
+  ],
+  "notFound": [
+    {
+      "documentId": "HYUNDAI-HREV-2026",
+      "topic": "TPMS",
+      "status": "NO_DEDICATED_WARNING_SECTION_FOUND",
+      "basis": "cluster and emergency chapter read; entire text TPMS hits only TMK cautions, not proof of no equipment"
+    }
+  ],
+  "finalReadingIndex": "hyundai-source-reading-closure.json"
+}

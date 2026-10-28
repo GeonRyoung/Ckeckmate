@@ -1,0 +1,2667 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "AI",
+  "expertApproved": false,
+  "runtimeApproved": false,
+  "method": "Full source reading through all 1376 exact-whitespace-normalized unique sentences with per-source sequence associations; no semantic similarity auto-approval. Source container reading is separate from child reference closure.",
+  "sequenceRange": [
+    500,
+    659
+  ],
+  "sourceUnitCount": 160,
+  "uniqueSentenceCount": 1376,
+  "sourceReadingComplete": true,
+  "allRequiredReferenceClosureComplete": false,
+  "entries": {
+    "f70e1ea7e16a28d093e1f5c0495e69c592f3c3b82d9053a95534cc31732474b1": {
+      "sequence": 500,
+      "label": "전자식 파킹 브레이크(EPB)",
+      "review_note_ko": "주차 후 외력에 의한 이동 방지를 위해 EPB 체결. 부모 절 독해이며 하위 작동·해제·고장 절과 연결 필요.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00648.html",
+          "asset_sha256": "8a78945a85a226cbe5a0da6d02268becb6873a533dfcd28153842c79391fd5c5",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SP3_2026/topics/t00648.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "CHILD_SOURCE_ASSOCIATION_REQUIRED"
+    },
+    "274af5a32540456c9e63c31397045a305fc5e166b29839abc98f6c24c09090d2": {
+      "sequence": 501,
+      "label": "노상에서 주행 중 고장이 났을 때",
+      "review_note_ko": "비상등을 켜고 안전한 곳에 정차한 뒤 탑승자를 안전한 곳으로 대피시키고 긴급 서비스 요청. 본문별 안전삼각대 및 후방 접근 차량 주의 조건 확인.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00927.html",
+          "asset_sha256": "1caadaa737f27edd9cae53efd29f9f745f750eaada7564c72d91aea78bc53f48",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SP3_2026/topics/t00927.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "9ac915ef92d0ddd7ba5fea313701c9256edd5f77f11d422aa3944c5edb732a01": {
+      "sequence": 502,
+      "label": "저압 타이어를 감지하였을 때",
+      "review_note_ko": "저압 경고 시 감속하고 급선회·급제동을 피하며 타이어 상태 및 규정 공기압을 확인. 손상·공기 유지 불가 시 수리 절차 연결. 차가운 타이어 기준과 기온 저하 원인을 고장과 구분.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00940.html",
+          "asset_sha256": "cc888be646d3f41621cc8822410eb8ef1eefdc7fb525a7c07dbf040c568174a0",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SP3_2026/topics/t00940.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "a5328671d2d445e1106db6af5cb42c754e53c991ca4bd4d68abc731499fb5a16": {
+      "sequence": 503,
+      "label": "타이어 공기압 경보 시스템(TPMS) 이상",
+      "review_note_ko": "TPMS 고장 시 약 1분 점멸 후 지속 점등 분기, 전파 간섭 및 비규격 장비 영향을 확인하고 지속 시 정비. 저압 감시 정상 작동을 보장하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00941.html",
+          "asset_sha256": "34ae660bb7db15c898fa18a14ffa62a806aed4a450a80759f8f75b48e34b8b34",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SP3_2026/topics/t00941.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "d0fcc176f854032f65d334617d853c05ef3f32b35d74a8f3af583bedd5c01766": {
+      "sequence": 504,
+      "label": "타이어를 교체할 때",
+      "review_note_ko": "타이어 교체 후 센서·휠 적합성과 경고 지속 시 정비를 확인. 임의 실런트 및 센서 손상, 잭 상태 탑승·차체 아래 진입 금지와 차가운 타이어 공기압 조건 확인.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00942.html",
+          "asset_sha256": "f6610751fcffa05581d69b44736b3264e5c146f100aa0898b15352b26e82b7f0",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SP3_2026/topics/t00942.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "633e0d522fa38708f390fe728db81d45cc6c1073be767d6339e825b979326a71": {
+      "sequence": 505,
+      "label": "타이어 임시 수리 장치(TMK)",
+      "review_note_ko": "TMK는 타이어 트레드의 제한된 손상에 대한 임시 복구. 손상 범위·공기압 유지 가능 여부를 확인하고 옆면·휠 손상은 사용하지 않음. 사용 단계 및 후속 압력 점검 절을 연결해야 함.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00944.html",
+          "asset_sha256": "bcccedb2c74aa5676bf317a192a4b405f3edc73d6d75e1f99971ceddc3718e80",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SP3_2026/topics/t00944.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "2e1716f9051f507e21ee162ec10f7dc82bbbb86ab1066e66c57628c1ea8640cf": {
+      "sequence": 506,
+      "label": "차량 화재 시",
+      "review_note_ko": "차량 화재 시 안전하게 정차·시동 정지·탑승자 대피 후 신고. 초기 진화는 안전이 확보되는 범위에서만 하며 차량별 소화기 위치를 일반화하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00956.html",
+          "asset_sha256": "7aaecc0c4b6d220d9354373cf6253fe74bbaf86c55fa16feb380d566df212a2a",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SP3_2026/topics/t00956.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "b7768029b17db86824d85ec99eec61c88d71a6861fa3eb5ec5519e6e7e34349c": {
+      "sequence": 507,
+      "label": "엔진 오일양 점검 및 보충",
+      "review_note_ko": "평지에서 정상 온도와 시동 정지 후 대기 시간을 적용해 오일 게이지를 확인하고 규정 오일을 범위 내 보충. 고온·팬 접촉·과다 주입 금지. 정기 점검 절의 예열을 긴급 유압 경고 조치로 전이하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00967.html",
+          "asset_sha256": "87b95fea1301a06bd03791cb6c4d0637d6c4ad16beb49469883409b29833f4ba",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SP3_2026/topics/t00967.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "f9670dc5af64b905d8eb1629182f41cb496355de79a9a25cbb8de3371b09c5e9": {
+      "sequence": 508,
+      "label": "브레이크액 양 점검 및 보충",
+      "review_note_ko": "평지에서 브레이크액 MIN/MAX 확인, 저하·누유 의심은 정비. 규정 신품 액 사용, 이물 혼입·재사용 및 도장면 접촉 주의. 위험한 제동 상태의 운행 허가로 해석하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00971.html",
+          "asset_sha256": "6ce9ed0152a24d2199a31e711e47a0a5e5edfcf488730ab8173e6bbddcda5658",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SP3_2026/topics/t00971.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "d3b8f0af60c6af255e6655c64bf041e35848658288679a16f4f8e1ab0f786501": {
+      "sequence": 509,
+      "label": "전자식 파킹 브레이크(EPB) 작동",
+      "review_note_ko": "브레이크 페달을 밟고 EPB 스위치를 당겨 작동시키며 표시등과 체결 상태 확인. 차종별 자동 체결 조건을 분리.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00649.html",
+          "asset_sha256": "18df8cdc49757dc80f202fdbad7e27f24ea29038e70751acb0e4adafd79cffe0",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SP3_2026/topics/t00649.html"
+        },
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00464.html",
+          "asset_sha256": "f282385c717be09c71fa601399f3516625b025458a79c84ce9d474f7e1919eb0",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_SW1K_2027/t00464.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "6a332c16b0b35d862d1de0ca2d2c913c87adab507b564f3389e08b99a63f6413": {
+      "sequence": 510,
+      "label": "전자식 파킹 브레이크(EPB) 해제",
+      "review_note_ko": "브레이크 페달과 스위치를 이용한 수동 해제 및 안전벨트·문·후드·테일게이트·변속·가속 조건에 따른 자동 해제를 구분. 표시등으로 해제 확인, 저전압과 경고 지속 시 점검.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00651.html",
+          "asset_sha256": "bc36226850b94e5c71196ce257ff8f4db3212f5167ee1032c5e3e32d071fc8a8",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SP3_2026/topics/t00651.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "1542802f788e22e538e964ca5b17c49e2d639d6259a2c49ace19f4a0a658a0bd": {
+      "sequence": 511,
+      "label": "전자식 파킹 브레이크(EPB) 이상",
+      "review_note_ko": "EPB 경고 지속 시 정비. ESC 고장 동반 점등 가능성을 EPB 자체 고장으로 확정하지 않음. 체결 표시등 점멸·미점등·해제 불가 분기는 재조작 후 지속 시 정비/견인 조건으로 분리.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00652.html",
+          "asset_sha256": "8a1794203ff8d1a09ee7c3f867d10122aec48dc47faba091432bf2707398e931",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SP3_2026/topics/t00652.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "9065a6ea52464f9df1fd49a5bf802f93bd705ab1f6a6ba3205d220d6b4b3c4ea": {
+      "sequence": 512,
+      "label": "전자식 파킹 브레이크 비상 제동",
+      "review_note_ko": "일반 브레이크 고장 등의 비상시에만 EPB 스위치를 계속 당겨 제동. 제동거리 증가·급제동 위험을 확인하고 스위치 해제 시 제동 중단. 지속 경고·이상은 정비.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00650.html",
+          "asset_sha256": "a78b74f0b6b75b4778534e3852e3d1abb11df0f1b43d9e6c4ccddba62bd6d81e",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SP3_2026/topics/t00650.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "e566b5cc200fea7959e1fcb41ec192b69740b1597d97b0198cd6e351c4b13d55": {
+      "sequence": 513,
+      "label": "타이어 임시 수리 장치 사용법",
+      "review_note_ko": "TMK 봉합제 연결·공기 주입·분배 주행·재측정 순서를 읽음. 허용 손상과 최저압력 미달이면 주행 중단·긴급 서비스, 제한속도/거리 및 작동시간·장갑/접촉 주의는 해당 원문에 귀속.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00946.html",
+          "asset_sha256": "78b9302c0194d66c235fc61392e806afd510c205df469096acc10639085fbdd0",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SP3_2026/topics/t00946.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "e36badb396accc15d59699fd698a9afad1c6edab79f1040e304cc648ff7ce640": {
+      "sequence": 514,
+      "label": "엔진 과열(오버히트)",
+      "review_note_ko": "과열 시 안전 정차 후 냉각수 유출·증기 유무에 따라 시동 정지/후드 개방 대기와 팬 점검 분기를 구분. 뜨거운 캡 개방 금지, 냉각 후 보충·재발/누수 시 점검. 모든 과열을 일률 공회전으로 안내하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00937.html",
+          "asset_sha256": "caf92de0950c7b5919fdd6f8718d78abc08cdf48527df78d2defae25be587912",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_SP3_2026/t00937.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "7b3b8b5616ebe4b6efbb4f044ecc009a223ffa9dec4b9601ede06d6b26f5da7d": {
+      "sequence": 515,
+      "label": "교차로 또는 철도 건널목에서 시동이 꺼졌을 때",
+      "review_note_ko": "철도 건널목에서 시동이 꺼진 경우 즉시 탈출하고 안전한 곳으로 대피한 뒤 열차 측에 연락하는 명시 분기를 확인. 구형 밀기 절차와 혼합하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00924.html",
+          "asset_sha256": "5725c545cfd55074a220701b880f3d605634883b9c9259bb59028dcb9f37fd4d",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_SP3_2026/t00924.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "ba893321e3acb8f641b875816615c63a69b878472336fd629ab30f0e1b32a97a": {
+      "sequence": 516,
+      "label": "주행 중 펑크가 났을 때",
+      "review_note_ko": "펑크 시 가속 페달에서 발을 떼고 직진을 유지하며 엔진 브레이크로 서서히 감속, 급제동·급선회 금지. 안전한 곳 정차 후 타이어 조치.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00925.html",
+          "asset_sha256": "adc5580daa8f8a39ab410a5dc2fd0a85f7ab92563f5638f1ddd03ce83c57f407",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_SP3_2026/t00925.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "d694e3778af27a7b78a8903d3edba9654664e04f83bc696cffecbc05374da8ac": {
+      "sequence": 517,
+      "label": "브레이크 제동력이 좋지 않을 때",
+      "review_note_ko": "브레이크 성능 저하 시 안전한 곳에 정차하고 제동계통 점검 및 긴급 서비스를 요청. 정상 주행 가능으로 단정하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00926.html",
+          "asset_sha256": "74350f32e02b9993c54d0faca1f210be906b94cafb02d26210f901f8e53b6036",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SP3_2026/topics/t00926.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "a1fa5205956800dc3fcd60c9fca7fe0d677cdeaea2418c0faf1f8627313c3590": {
+      "sequence": 518,
+      "label": "타이어 공기압 확인",
+      "review_note_ko": "주행 후 공기압 표시 시점과 타이어가 차가운 상태의 규정압 점검을 구분. 표시 미준비를 고장으로 단정하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00939.html",
+          "asset_sha256": "9315532d370725e88fa2c05a286d9d00a74aa2fee9486120361287728752cc1c",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SP3_2026/topics/t00939.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "b63049c96d0b07bfded64717b4a1415b61b30717dc69290c4e27df12f10297bd": {
+      "sequence": 519,
+      "label": "엔진 오일 및 필터 교체",
+      "review_note_ko": "오일·필터 정기 교체와 유압 경고 후 회복을 구분해 읽음. 부족 오일 보충 뒤 재시동하여 유압 경고 소등을 확인하는 원문 조건을 보존.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00968.html",
+          "asset_sha256": "2ed7ccdf7002117f4b6d427260ffbf5cc26251101ad9d786a4c7c5386ff84603",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SP3_2026/topics/t00968.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "69804ea30f1d4939bd73611c105113ad5d36b588abaa98543bc381fac7535c02": {
+      "sequence": 520,
+      "label": "견인 트럭으로 견인 시",
+      "review_note_ko": "전문 견인업체 이용 및 상차/돌리 권고. 동력계·구동방식에 따른 바퀴 지면 접촉 금지를 보존하며 매달기 견인 및 부적절한 고정 금지.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00948.html",
+          "asset_sha256": "c10e51febfaa385409ec18a52606f7ddada9bfa80ae262f52facb8b52f09b574",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_SP3_2026/t00948.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "022244d0efb4a84114167d158c2dc6e199376035867acf6529a8aaa303107d69": {
+      "sequence": 521,
+      "label": "차량 고정용 고리(차량 운송 시) (사양 적용 시)",
+      "review_note_ko": "운송용 차량 고정 고리는 견인용이 아니므로 견인에 사용하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00953.html",
+          "asset_sha256": "7f910dcbf1ca351e857a0d8f46c0a7f4c75b0cb4b91048415a13378329a3ac4a",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_SP3_2026/t00953.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "196f19706ed15957e823a9dea16e98e14ea046ef8c34187cc925d6d3dd04103a": {
+      "sequence": 522,
+      "label": "상차 견인이 불가할 때",
+      "review_note_ko": "상차 불가 시 2WD 등 해당 구동방식의 바퀴 들기·돌리 사용 조건을 적용. AWD/EV에 일반화하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00949.html",
+          "asset_sha256": "d066bab2f34be548516bf418447609fc14d5042d8824fc26285b7b329ba4bdc4",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_SP3_2026/t00949.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "cf7251a52bf54ba6fc26933693c11674c51120e53d71f3a5cc2158d8bf42e4b1": {
+      "sequence": 523,
+      "label": "차량 견인 전 견인 후크 등을 이용한 짧은 거리 이동 시 주의 사항",
+      "review_note_ko": "상차 준비를 위한 짧은 이동의 10m 이내·5km/h 이하 제한을 읽음. N/주차브레이크 및 변속 불가 조건은 해당 원문에 귀속하며 일반 비상 견인 거리로 확대하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00950.html",
+          "asset_sha256": "28937dbec0e838b4ae447383b6897674b28a3f1f20de2e5928f9a81f292bb93a",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_SP3_2026/t00950.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "bd7fafe30d439c92d97621288719a601588d3ecb2e4f74d6adeb90e749fc4d3c": {
+      "sequence": 524,
+      "label": "견인 후크로 견인할 때",
+      "review_note_ko": "후크 견인의 1.5km 이내·15km/h 이하, 변속기/감속기 오일 누유 및 구동계 정상 여부와 N·주차브레이크 해제 조건을 확인. 오일 누유 시 적용 금지.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SP3_2026",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SP3/2026/ko_KR/topics/t00952.html",
+          "asset_sha256": "6c507379fbc3b3c17f682f6f8d36281585be220b4a069a3d7d8a41a46c1e4879",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_SP3_2026/t00952.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "ae3704a4456127bf1baaaab86ab0302e8d29e6834f8fd32420b41bc145474c25": {
+      "sequence": 525,
+      "label": "타이어 임시 수리 장치",
+      "review_note_ko": "TMK는 타이어 트레드의 제한된 손상에 대한 임시 복구. 손상 범위·공기압 유지 가능 여부를 확인하고 옆면·휠 손상은 사용하지 않음. 사용 단계 및 후속 압력 점검 절을 연결해야 함.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SV1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00775.html",
+          "asset_sha256": "c6140b1b907bf9604c6444a51f49d8df0e4430d6d4fa8e670147444c2acd42b9",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SV1_2027/topics/t00775.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "781d4e1838c6f60d50a5a681f132b43583b8e92a920a620a725d73ea3ac4f68f": {
+      "sequence": 526,
+      "label": "전자식 파킹 브레이크 (EPB) 작동",
+      "review_note_ko": "브레이크 페달을 밟고 EPB 스위치를 당겨 작동시키며 표시등과 체결 상태 확인. 차종별 자동 체결 조건을 분리.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SV1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00482.html",
+          "asset_sha256": "0c8d07b9698263d3e4801ced34f3e5c2c217cc24a595574c77ee2c83bbfc69f8",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SV1_2027/topics/t00482.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "f79bcdbd941c50016a50a3b8cb4ed9d5135b2e100c9aaa809d5a3d66b48c935a": {
+      "sequence": 527,
+      "label": "전자식 파킹 브레이크 (EPB) 해제",
+      "review_note_ko": "브레이크 페달과 스위치를 이용한 수동 해제 및 안전벨트·문·후드·테일게이트·변속·가속 조건에 따른 자동 해제를 구분. 표시등으로 해제 확인, 저전압과 경고 지속 시 점검.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SV1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00484.html",
+          "asset_sha256": "abbc57b7f166dd3b1d243dd1ad05aa4e134da48673f559e59132ccd71f6ee84c",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SV1_2027/topics/t00484.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "fa17a322909d55b1d72f5fc1ebf7dbf95b020ba6c0c65804cf4e67298c744cfd": {
+      "sequence": 528,
+      "label": "전자식 파킹 브레이크 (EPB) 이상",
+      "review_note_ko": "EPB 경고 지속 시 정비. ESC 고장 동반 점등 가능성을 EPB 자체 고장으로 확정하지 않음. 체결 표시등 점멸·미점등·해제 불가 분기는 재조작 후 지속 시 정비/견인 조건으로 분리.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SV1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00485.html",
+          "asset_sha256": "82d97dd1bdc1e48034ced1a27e822444330bc3e41992b6a3d1b447169051bfdb",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SV1_2027/topics/t00485.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "fe7581bd757834561b4ad06b07d20ee3370f2e7ed279d15f9b7418635a90365f": {
+      "sequence": 529,
+      "label": "전자식 파킹 브레이크 비상 제동",
+      "review_note_ko": "일반 브레이크 고장 등의 비상시에만 EPB 스위치를 계속 당겨 제동. 제동거리 증가·급제동 위험을 확인하고 스위치 해제 시 제동 중단. 지속 경고·이상은 정비.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SV1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00483.html",
+          "asset_sha256": "25178b95cf80820fc9606fcf1bf6c8d941b52c0b6292dc9c816a6599429fd2b9",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SV1_2027/topics/t00483.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "f47c096d27c236a1f24eb279a3796a11374fc3dd90b02740354e0c8cc8528cb8": {
+      "sequence": 530,
+      "label": "타이어 임시 수리 장치 구성",
+      "review_note_ko": "TMK 구성품과 연결부 이름을 읽음. 구성 소개 자체를 사용 절차 완료로 취급하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SV1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00776.html",
+          "asset_sha256": "03186079c5f940e60ad1107f31298a91ea9f10a8775218eda1173a05e375162e",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SV1_2027/topics/t00776.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "9c2807c8fa2523d33ac137276d369632ad098cf734fc02cb3a93869ec1291556": {
+      "sequence": 531,
+      "label": "타이어 임시 수리 장치 사용",
+      "review_note_ko": "TMK 봉합제 연결·공기 주입·분배 주행·재측정 순서를 읽음. 허용 손상과 최저압력 미달이면 주행 중단·긴급 서비스, 제한속도/거리 및 작동시간·장갑/접촉 주의는 해당 원문에 귀속.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SV1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00777.html",
+          "asset_sha256": "ec32b90fef6f6bf269d1a4e889515fc1d1d057d06b613ffb81fba97d336f7e7f",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SV1_2027/topics/t00777.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "3c271bb334578ac84b9d685bf5e0a15bbfad8beb685aecdf3a82f33ee1f23a75": {
+      "sequence": 532,
+      "label": "주행 중 펑크가 났을 때",
+      "review_note_ko": "펑크 시 급제동·급선회를 피하고 회생제동 등을 이용해 점진적으로 감속, 안전 정차 후 조치. 일반 엔진 브레이크 용어로 바꾸지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SV1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00761.html",
+          "asset_sha256": "b0469513dca8953065070b80df9a526e359099f86dc57da2733c75abe710d115",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_SV1_2027/t00761.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "aba0683eeb9261f3921b8257efc074d027771189f80137889b235e06e619a985": {
+      "sequence": 533,
+      "label": "안전삼각대 (고장 자동차 정지표지판)",
+      "review_note_ko": "고장 표시판의 안전한 설치·후방 접근 차량 주의와 차량별 보관 위치를 확인. 설치자가 위험한 차도에 계속 머무르게 하는 안내로 만들지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SV1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00765.html",
+          "asset_sha256": "599e67e7361448b748b0ec3e11582886ca55ff62cd5939474ef417d1d1a71311",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SV1_2027/topics/t00765.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "2590023a575be5ffa484f548cf6b111c3c4ae61f86772755d264cca42498b322": {
+      "sequence": 534,
+      "label": "차량 견인 전 견인 후크 등을 이용한 짧은 거리 이동 시 주의 사항",
+      "review_note_ko": "견인 준비 단거리 이동은 100m 이내·5km/h 이하. i-PEDAL 및 스마트 회생 제동 해제 조건을 보존하며 다른 차종의 10m 제한으로 덮어쓰지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SV1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00781.html",
+          "asset_sha256": "6d6ebf64279e1cacf0e85342a81d697e37fd060a904e1efdb589973f6316a124",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_SV1_2027/t00781.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "1a35ee5afbbc6b609fdcb0aefa01fb613ec0268c1d5267f6c5d99f69c89f50c0": {
+      "sequence": 535,
+      "label": "견인 후크로 견인할 때",
+      "review_note_ko": "후크 견인의 1.5km 이내·15km/h 이하, 변속기/감속기 오일 누유 및 구동계 정상 여부와 N·주차브레이크 해제 조건을 확인. 오일 누유 시 적용 금지.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SV1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SV1/2027/ko_KR/topics/t00783.html",
+          "asset_sha256": "f46bc04c7b7432de03559ffb2f5bd289dfdb9a7b964b30e551776eba712b5e38",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_SV1_2027/t00783.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "8fbfbee14130095924e14598833fcfca264ef27ffed6cfcc1292890c10e14754": {
+      "sequence": 536,
+      "label": "상차 견인이 불가할 때",
+      "review_note_ko": "상차 불가 시 2WD 등 해당 구동방식의 바퀴 들기·돌리 사용 조건을 적용. AWD/EV에 일반화하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00747.html",
+          "asset_sha256": "606b297d83696e8672fdb357a1ddfd270b4d056d04f211214ec4317542aa9fae",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SW1K_2027/topics/t00747.html"
+        },
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00749.html",
+          "asset_sha256": "41db6bf68979abb1c252792b69e2bf7c75323191f23b86f331250548d8e03837",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SW1K_2027/topics/t00749.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "3c54a20187dce38cb2e17a9945c1ee952187efb96aca4b2b6b9d784bd24416f9": {
+      "sequence": 537,
+      "label": "냉각수 점검",
+      "review_note_ko": "전기차 냉각수 MIN 근처이면 서비스 점검. 일반 물이나 부동액을 대신 추가하는 조치 금지 문맥을 확인.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00765.html",
+          "asset_sha256": "7ba7ddec548f6f53b1d9072ddda6152b423bedf338f7ea964e6f3a82e00e59a1",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SW1K_2027/topics/t00765.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "be297632cdd38df524640267f9896272e743cdd75037c428a41b17952e5f6de8": {
+      "sequence": 538,
+      "label": "차량 화재 시",
+      "review_note_ko": "차량 화재 시 안전하게 정차·시동 정지·탑승자 대피 후 신고. 초기 진화는 안전이 확보되는 범위에서만 하며 차량별 소화기 위치를 일반화하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00756.html",
+          "asset_sha256": "41b5a1945e817a76781879aff44a99db76052bdd349536b7fb67822a63caee8f",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SW1K_2027/topics/t00756.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "99c2606a7a24eaa4b0735ce0ea7897420b1679bf76791e3df50dca7528a2f60d": {
+      "sequence": 539,
+      "label": "타이어 임시 수리 장치 구성",
+      "review_note_ko": "TMK 구성품과 연결부 이름을 읽음. 구성 소개 자체를 사용 절차 완료로 취급하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00745.html",
+          "asset_sha256": "861d7faac4dcc0996f807d9fa60ee324292e1d13d9ff5b823270ddf72e139a50",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SW1K_2027/topics/t00745.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "97ec1afaf598ef82aa31f7dd0263b4eec3ad3d2e792df47ea5693fcb92baafcc": {
+      "sequence": 540,
+      "label": "견인 후크로 견인할 때",
+      "review_note_ko": "후크 견인의 1.5km 이내·15km/h 이하, 변속기/감속기 오일 누유 및 구동계 정상 여부와 N·주차브레이크 해제 조건을 확인. 오일 누유 시 적용 금지.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00752.html",
+          "asset_sha256": "14aa962fcbb5f84a5a8d6a273a07a6b7e19c56d30b88c820cc9d7b51ba8bb1ad",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SW1K_2027/topics/t00752.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "d2a366799ed7a394ee837cd34e0d82ca1ab90f453d8ec85a52f1d027fe8f17a9": {
+      "sequence": 541,
+      "label": "노상에서 주행 중 고장이 난 경우",
+      "review_note_ko": "비상등을 켜고 안전한 곳에 정차한 뒤 탑승자를 안전한 곳으로 대피시키고 긴급 서비스 요청. 본문별 안전삼각대 및 후방 접근 차량 주의 조건 확인.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00733.html",
+          "asset_sha256": "008d17dcf2c3e7bffea961fab1a5ea9f13d081d754d582acc02386703ce08c64",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SW1K_2027/topics/t00733.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "d708f0aaf8777ed604fa79131cdb77f93a270d5513951d6f6db04b72da1711ea": {
+      "sequence": 542,
+      "label": "타이어 임시 수리 장치",
+      "review_note_ko": "TMK는 타이어 트레드의 제한된 손상에 대한 임시 복구. 손상 범위·공기압 유지 가능 여부를 확인하고 옆면·휠 손상은 사용하지 않음. 사용 단계 및 후속 압력 점검 절을 연결해야 함.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00742.html",
+          "asset_sha256": "dccaaffd17ad1feef70e893557e1f045b8e4739e09a1b009d14ad7f413af5079",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SW1K_2027/topics/t00742.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "3bb8ed9e3047cfcc308d86fa64580ab6613ae0979fefd75c9c5b0ed0eef38d2f": {
+      "sequence": 543,
+      "label": "타이어 임시 수리 장치 사용",
+      "review_note_ko": "TMK 봉합제 연결·공기 주입·분배 주행·재측정 순서를 읽음. 허용 손상과 최저압력 미달이면 주행 중단·긴급 서비스, 제한속도/거리 및 작동시간·장갑/접촉 주의는 해당 원문에 귀속.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00744.html",
+          "asset_sha256": "9a123f35be3a7dab5d5fe481ef3f76a95f4a428ec2ee80353d2f7dba90d74aad",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SW1K_2027/topics/t00744.html"
+        },
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00746.html",
+          "asset_sha256": "6d8808cd1827b9fc4fdc3f633462aefb28242420666f72759aa286c2a2956d57",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SW1K_2027/topics/t00746.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "ba192b902b2ec069b17f0bd0f5e805ce1e4893f43e55333bc0d3a4280db92a7d": {
+      "sequence": 544,
+      "label": "차량 견인 전 견인 후크 등을 이용한 짧은 거리 이동 시 주의 사항",
+      "review_note_ko": "상차 준비를 위한 짧은 이동의 10m 이내·5km/h 이하 제한을 읽음. N/주차브레이크 및 변속 불가 조건은 해당 원문에 귀속하며 일반 비상 견인 거리로 확대하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00748.html",
+          "asset_sha256": "7344d0a4668164653caee2f97fa96f29c268e1050f49e7dd7fddd4a1ec5a4ea3",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SW1K_2027/topics/t00748.html"
+        },
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00750.html",
+          "asset_sha256": "a38289b4e783fb175a4b7e87a1ed3af45960ff0fd6489e8dab44373e50e3699b",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SW1K_2027/topics/t00750.html"
+        },
+        {
+          "document_id": "kia_TAMEV_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00546.html",
+          "asset_sha256": "bea40a32fe175982c3de2a7e0dcfa5a0efd0e29b018d26454c2ead1cff85c54f",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAMEV_2027/t00546.html"
+        },
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00553.html",
+          "asset_sha256": "29c990b1390ac8dc2fe4d40a91f46a9955cc722a2683d1abf054f8df87179d4a",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAM_2027/t00553.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "6b74228f69f6987f37fcff4bd6bc4b4cbba9bfcd8936ef24f4ed38d47ee92ad9": {
+      "sequence": 545,
+      "label": "브레이크액량 점검 및 보충",
+      "review_note_ko": "브레이크액 MIN/MAX 및 신품 DOT4 규격을 확인. 오염·재사용·도장면 접촉 금지와 저하 시 정비를 읽음. DOT4LV로 임의 교체하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00767.html",
+          "asset_sha256": "c77d624cf8fe745f7959a2db3313814027929824a20da70b77ec6c398fb56471",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SW1K_2027/topics/t00767.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "c74c378cec0c597238b765f0753b5b64863d68f2f92cd3783b6ae3c78f61258c": {
+      "sequence": 546,
+      "label": "전자식 파킹 브레이크 비상 제동",
+      "review_note_ko": "일반 브레이크 고장 등의 비상시에만 EPB 스위치를 계속 당겨 제동. 제동거리 증가·급제동 위험을 확인하고 스위치 해제 시 제동 중단. 지속 경고·이상은 정비.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00465.html",
+          "asset_sha256": "08004ffde366648bcc7e9fb438eb99cd92d9d7713f329aed53254207656cf2ca",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SW1K_2027/topics/t00465.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "f9197898dc05dce5f25e45e5d0bade2098baf2e5c8176f853c5f3d0e0304138a": {
+      "sequence": 547,
+      "label": "저압 타이어를 감지하였을 때",
+      "review_note_ko": "저압 경고 시 감속하고 급선회·급제동을 피하며 타이어 상태 및 규정 공기압을 확인. 손상·공기 유지 불가 시 수리 절차 연결. 차가운 타이어 기준과 기온 저하 원인을 고장과 구분.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00740.html",
+          "asset_sha256": "e386a13019abe36257974b9fcb48e438a1845cb3227bd442bd4236cca4f1884a",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SW1K_2027/topics/t00740.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "5446fcf01c7d7287c7881edd4bba30f719a8425f4d852bc7d3a524bbf4d166ea": {
+      "sequence": 548,
+      "label": "교차로나 건널목에서 시동이 꺼진 경우",
+      "review_note_ko": "교차로·건널목에서 시동 정지 시 N으로 전환하여 안전한 곳으로 이동하는 해당 구형 원문을 확인. 최신 즉시 탈출 문구와 차이를 유지하며 적용 차종 확인 필요.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00729.html",
+          "asset_sha256": "7f4543027767634332cd1faa99b18fd6dee2b10237e16b9405e4d5805d72298d",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_SW1K_2027/t00729.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "0e3bb1f445647b2cb6a3715026f3cdd3dea36cb9afa3dae46ed6a11d1206ec08": {
+      "sequence": 549,
+      "label": "주행 중 펑크가 나면",
+      "review_note_ko": "펑크 시 급제동·급선회를 피하고 회생제동 등을 이용해 점진적으로 감속, 안전 정차 후 조치. 일반 엔진 브레이크 용어로 바꾸지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00730.html",
+          "asset_sha256": "1559e26439e0ec5b8c79f4dce2ca70e1b45fff9fd8ef2c65a00246235ee959f2",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_SW1K_2027/t00730.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "bb0f78d09ec1eaac88b8a4b614d6ac9d84dc7f0e8385d31745369df8a4cf4e39": {
+      "sequence": 550,
+      "label": "주행 중 시동이 꺼진 경우",
+      "review_note_ko": "주행 중 시동 정지 시 감속·안전 정차. 조향 및 제동 보조가 감소해 더 큰 힘이 필요함을 보존하고 재시동 실패 시 서비스 요청.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00731.html",
+          "asset_sha256": "a89f08232a8b771fd7db1a6cf395f5637319b815a7455cd13126d0636f0b843d",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_SW1K_2027/t00731.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "1138b13a08e62b382b348b2651365aa0d795be9f716abe204814f11a07d09fd6": {
+      "sequence": 551,
+      "label": "안전삼각대(고장 자동차 정지표지판)",
+      "review_note_ko": "고장 표시판의 안전한 설치·후방 접근 차량 주의와 차량별 보관 위치를 확인. 설치자가 위험한 차도에 계속 머무르게 하는 안내로 만들지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00734.html",
+          "asset_sha256": "71ce209b875817c3c6e0a13c80b843e617b516e803025f978abd83bda606bc37",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SW1K_2027/topics/t00734.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "04164c096cdad6bce12e5448e0bf7d7de07ededfcdd7aabb9d6edea45092c2a4": {
+      "sequence": 552,
+      "label": "타이어 공기압 확인",
+      "review_note_ko": "주행 후 공기압 표시 시점과 타이어가 차가운 상태의 규정압 점검을 구분. 표시 미준비를 고장으로 단정하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00739.html",
+          "asset_sha256": "8a096858826f42b152548dc277c1c0c188029544e57072fe0931f5bacc1d054c",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SW1K_2027/topics/t00739.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "16df44d4b1f0dbf9504baae530a047e00ac3b843475de1a464c5e2da89c71b83": {
+      "sequence": 553,
+      "label": "폭설 시 행동 요령",
+      "review_note_ko": "폭설 시 안전 행동 본문을 읽어 경고등 필수 대응 범위와 구분. 일반 재난 행동을 개별 경고등의 고장 복구로 연결하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00755.html",
+          "asset_sha256": "d189899a0dd4c640797bf973a2a28da969bb8df6d9c71d5aed6af3270efffded",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/SW1K_2027/topics/t00755.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "70d3e92a0d673670301d7f6f634ddafd194ec3ee7b60e2b11e49a2dc577eed0e": {
+      "sequence": 554,
+      "label": "전자식 파킹 브레이크(EPB) 해제",
+      "review_note_ko": "EPB 수동 해제의 DRIVE READY 또는 POWER ON 조건을 읽음. 내연기관 시동 ON이라는 다른 문구로 치환하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00466.html",
+          "asset_sha256": "ce0660324a175843d6a7a6285cbc142e52b857b3be3867d81d9f3a870bba270c",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_SW1K_2027/t00466.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "e50572909b8ad9781196a037a736f5938d25c333665aa4e1ee8fc8609b4634ff": {
+      "sequence": 555,
+      "label": "전자식 파킹 브레이크(EPB) 이상",
+      "review_note_ko": "EPB 경고 지속 시 정비. ESC 고장 동반 점등 가능성을 EPB 자체 고장으로 확정하지 않음. 체결 표시등 점멸·미점등·해제 불가 분기는 재조작 후 지속 시 정비/견인 조건으로 분리.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_SW1K_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/SW1K/2027/ko_KR/topics/t00467.html",
+          "asset_sha256": "b18985dfeb592187cb0bdc6f61144ecd3592fd9954267679e2ca79474adb9b0a",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_SW1K_2027/t00467.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "cef8337d04cb93b28911e147c48ad0e7a98547a6d96f0e57967b176d0869cbe3": {
+      "sequence": 556,
+      "label": "전기 자동차가 충전되지 않을 때",
+      "review_note_ko": "충전 설정·예약·충전기·차량 메시지를 확인하고 정상인 다른 충전기로 교차 확인. 다른 충전기에서도 실패하면 차량 점검, 특정 충전기 문제면 운영 업체 문의.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAMEV_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00282.html",
+          "asset_sha256": "38b4eb107e7450ee9d35576f734f320ce59f648262470136d6057ffc8f3f686d",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TAMEV_2027/topics/t00282.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "d284c5fe4f51a1dceffee05dff7d588988a94114702928b8600582c7eec6256b": {
+      "sequence": 557,
+      "label": "타이어 공기압 경보 시스템 (TPMS)",
+      "review_note_ko": "TPMS 개요 부모 절 본문을 읽음. 저압·고장·교체 등의 하위 대응 절과 연결해야 함.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAMEV_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00531.html",
+          "asset_sha256": "92271367b774dc4065a89a2f8f54639158a3a4fd0cc155eb80e01eab1e95e40f",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TAMEV_2027/topics/t00531.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "CHILD_SOURCE_ASSOCIATION_REQUIRED"
+    },
+    "4f20c4f18ca249524fe650f5f6ed904f0c312a59d051b06d43c6dccb68db5501": {
+      "sequence": 558,
+      "label": "타이어 공기압 경보 시스템 (TPMS) 이상",
+      "review_note_ko": "TPMS 고장 시 약 1분 점멸 후 지속 점등 분기, 전파 간섭 및 비규격 장비 영향을 확인하고 지속 시 정비. 저압 감시 정상 작동을 보장하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAMEV_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00534.html",
+          "asset_sha256": "52c07a02f10140f3eeebc0d24c4134895bf78c2c17ef77716069c7d8f9617471",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TAMEV_2027/topics/t00534.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "4617f5eccb8757d61e5e211b817dfe9e0bb9dde9a075c1774860157e20245b83": {
+      "sequence": 559,
+      "label": "타이어 교체 시",
+      "review_note_ko": "타이어 교체 후 센서·휠 적합성과 경고 지속 시 정비를 확인. 임의 실런트 및 센서 손상, 잭 상태 탑승·차체 아래 진입 금지와 차가운 타이어 공기압 조건 확인.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAMEV_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00535.html",
+          "asset_sha256": "00b9544a307cdb293033d0092e471808b133ed3814ad7bc6d33c97a5fba809a0",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TAMEV_2027/topics/t00535.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "33f0e7bf8c3705f98dc292681cdd083c843a0ff47bbe172a46827d2d02f6b2dd": {
+      "sequence": 560,
+      "label": "타이어 임시 수리 장치",
+      "review_note_ko": "TMK는 타이어 트레드의 제한된 손상에 대한 임시 복구. 손상 범위·공기압 유지 가능 여부를 확인하고 옆면·휠 손상은 사용하지 않음. 사용 단계 및 후속 압력 점검 절을 연결해야 함.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAMEV_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00537.html",
+          "asset_sha256": "9aa130d4a4634d9b0f50b846eb3521835af87155f30f58c67aeafc56cbbbb046",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TAMEV_2027/topics/t00537.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "33708a8d701e625375c450d6152cb7464c6e584bd630dcecff4cd693289fae90": {
+      "sequence": 561,
+      "label": "브레이크액량 점검 및 보충",
+      "review_note_ko": "평지에서 브레이크액 MIN/MAX 확인, 저하·누유 의심은 정비. 규정 신품 액 사용, 이물 혼입·재사용 및 도장면 접촉 주의. 위험한 제동 상태의 운행 허가로 해석하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAMEV_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00565.html",
+          "asset_sha256": "e0311100fbdb0d5ab0e18a86cd4fddd439c040ea20d5f0fc8d90fac1c5e6fba3",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TAMEV_2027/topics/t00565.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "4cbef3485364cb97e7d046c03c96b89621e398eb02da9c8ed8b2694d3e2d3d23": {
+      "sequence": 562,
+      "label": "저압 타이어를 감지하였을 때",
+      "review_note_ko": "저압 경고 시 감속하고 급선회·급제동을 피하며 타이어 상태 및 규정 공기압을 확인. 손상·공기 유지 불가 시 수리 절차 연결. 차가운 타이어 기준과 기온 저하 원인을 고장과 구분.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAMEV_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00533.html",
+          "asset_sha256": "b1ef1f6c7768145f1fcbee498340b49696fe0fe06b76161abdba9a11bb8b12c7",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TAMEV_2027/topics/t00533.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "804f48f6e6e3efb0d0f0e70dac505c96838b3e3dea93560737f995c506096487": {
+      "sequence": 563,
+      "label": "타이어 임시 수리 장치 구성",
+      "review_note_ko": "TMK 구성품과 연결부 이름을 읽음. 구성 소개 자체를 사용 절차 완료로 취급하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAMEV_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00538.html",
+          "asset_sha256": "d60e4b25e634d9b24349e7820034f9d4ea050319ec771477d77dd59c235cc15d",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TAMEV_2027/topics/t00538.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "c6858185b8dd49837b1a2902d8f68c2c40ed5d901c77c5f160a52f533930e765": {
+      "sequence": 564,
+      "label": "타이어 임시 수리 장치 사용",
+      "review_note_ko": "봉합제 연결 및 초기 주입 단계 본문을 읽음. 분배 주행·압력 재확인·안전 사용 하위 절의 연계 확인이 필요함.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAMEV_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00539.html",
+          "asset_sha256": "5b01753660990a10818d66a589fca8d029678bc36c804ffcb88022c91e09ff0a",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TAMEV_2027/topics/t00539.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "CHILD_SOURCE_ASSOCIATION_REQUIRED"
+    },
+    "533b16ee4bf7d9c388cba4d5fdba9e8463827413537266dfad6a1632ac1acc39": {
+      "sequence": 565,
+      "label": "주행 중 펑크가 나면",
+      "review_note_ko": "펑크 시 급제동·급선회를 피하고 회생제동 등을 이용해 점진적으로 감속, 안전 정차 후 조치. 일반 엔진 브레이크 용어로 바꾸지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAMEV_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00522.html",
+          "asset_sha256": "64b8fe2ad455dc07672ea8e6bbb97733f3d0e09e3e848d79fe76616b2c71f6ca",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAMEV_2027/t00522.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "d373320a4c76160cbfe1274546bda8805606267b5106d0a5448018c47d716604": {
+      "sequence": 566,
+      "label": "안전삼각대(고장 자동차 정지표지판)",
+      "review_note_ko": "고장 표시판의 안전한 설치·후방 접근 차량 주의와 차량별 보관 위치를 확인. 설치자가 위험한 차도에 계속 머무르게 하는 안내로 만들지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAMEV_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00526.html",
+          "asset_sha256": "dd20a0642b38d6959e4fab30262d192671a9fa769e8b7a5400efdc778c5938e6",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TAMEV_2027/topics/t00526.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "80eedcc7bbbd7c588fd8bd241928767daed719064208db058f309b31fc1edcd6": {
+      "sequence": 567,
+      "label": "타이어 공기압 확인",
+      "review_note_ko": "주행 후 공기압 표시 시점과 타이어가 차가운 상태의 규정압 점검을 구분. 표시 미준비를 고장으로 단정하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAMEV_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00532.html",
+          "asset_sha256": "0cd010c44b37ef4e816aeefb0b1ae8c8f34d51281ed898bde8c5312381673678",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TAMEV_2027/topics/t00532.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "f357c58338f2bfa07ddd6254fe7b440bc7397abf09a5ef9d1bf89957c5c0e663": {
+      "sequence": 568,
+      "label": "전자식 파킹 브레이크 (EPB) 작동",
+      "review_note_ko": "제목 또는 짧은 소개 중심 부모 절을 직접 읽음. 이 텍스트만으로 하위 대응 완료를 주장할 수 없으며 실제 하위 URL의 본문·주의 조건과 연결 검증 필요.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAMEV_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00370.html",
+          "asset_sha256": "5309809f10c3af8d0d3a9d605077a5640c99030a0fdb4d46d41ee776f06a0460",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAMEV_2027/t00370.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "CHILD_SOURCE_ASSOCIATION_REQUIRED"
+    },
+    "de59e27948ac96d517b5370f6b12aabb0de7f9ff3ee0fe6d915ca53900ebd2d7": {
+      "sequence": 569,
+      "label": "전자식 파킹 브레이크 (EPB) 해제",
+      "review_note_ko": "제목 또는 짧은 소개 중심 부모 절을 직접 읽음. 이 텍스트만으로 하위 대응 완료를 주장할 수 없으며 실제 하위 URL의 본문·주의 조건과 연결 검증 필요.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAMEV_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00374.html",
+          "asset_sha256": "18827a0297bc836f004bb74b5413ca065afe335b201eb75dab5627e5aaaaa879",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAMEV_2027/t00374.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "CHILD_SOURCE_ASSOCIATION_REQUIRED"
+    },
+    "091b36a54865279c595d461ca8dacb1abd6528f37289d73e06b8630d30afd715": {
+      "sequence": 570,
+      "label": "전자식 파킹 브레이크 (EPB) 이상",
+      "review_note_ko": "EPB 경고 지속 시 정비. ESC 고장 동반 점등 가능성을 EPB 자체 고장으로 확정하지 않음. 체결 표시등 점멸·미점등·해제 불가 분기는 재조작 후 지속 시 정비/견인 조건으로 분리.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAMEV_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00377.html",
+          "asset_sha256": "2a6b1bde394f16d1289a0377acb43000cf55046a056dce4ddeeee6648113f88b",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAMEV_2027/t00377.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "51438769ab17f58996df9018f26382506fa6b6a1a01e9c1b9782ddb272e6193b": {
+      "sequence": 571,
+      "label": "타이어 압력 조절",
+      "review_note_ko": "봉합제 분배 후 압력을 측정·보정하는 순서와 전원 연결을 확인. 이 절의 12V 배터리 연결 방식을 다른 차량의 소켓 방식과 섞지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAMEV_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00541.html",
+          "asset_sha256": "7cde52f5ae4db0669ab814db2f01342f80629e654c36fc35bb3fef65e237c011",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAMEV_2027/t00541.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "273818280384783cffe533b482591a33758d1b8353031cf4b2a1dd66b895df29": {
+      "sequence": 572,
+      "label": "타이어 임시 수리 장치의 안전한 사용",
+      "review_note_ko": "TMK 사용 전 안전 정차·주차브레이크·탑승자 대피, 허용 손상/저온/작동시간 조건 및 실런트 접촉·과다 주입 금지를 읽음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAMEV_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00542.html",
+          "asset_sha256": "404a1574d288b5c14fd45273e2a5c4de84fbc6fd7d6cdcd1f01f9c3ecb9a37e6",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAMEV_2027/t00542.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "7131f28cf7ac4b70b365b3142132ee22a358a06e70d37c0273c684d1a7f3411c": {
+      "sequence": 573,
+      "label": "견인 트럭으로 견인 시",
+      "review_note_ko": "전문 견인업체 이용 및 상차/돌리 권고. 동력계·구동방식에 따른 바퀴 지면 접촉 금지를 보존하며 매달기 견인 및 부적절한 고정 금지.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAMEV_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00544.html",
+          "asset_sha256": "4f8d65b13425fd9b80425e133c9d5146c80b85870220970f02a7970bbef8a7c0",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAMEV_2027/t00544.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "cc3535f419c95cbfa1630e228962ff33b04bd4c1b605dfd9195f3214ab3c38cc": {
+      "sequence": 574,
+      "label": "냉각수량 점검",
+      "review_note_ko": "냉각수 레벨의 차가운 상태 확인 및 부족 시 보충/점검 조건을 읽음. 냉각수 교체·배합 하위 절과 연결하고 뜨거운 캡 개방으로 안내하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAMEV_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00563.html",
+          "asset_sha256": "a910922d00fdc78b82bf9a68da3582f50498661bbfa2656a36e9da4d5d6e1367",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAMEV_2027/t00563.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "8744083761ee577133affa3735300399df10de0d1dcbdd126d455c89c7668ff0": {
+      "sequence": 575,
+      "label": "자동 작동",
+      "review_note_ko": "변속·Auto Hold 등 원문에 열거된 EPB 자동 체결 조건을 읽음. 정차 때 항상 자동 체결된다고 확대하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAMEV_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00372.html",
+          "asset_sha256": "306c59f60816c2116c05cde2fd34831d1d9e16df1ff8f73abf029c7f880ae42e",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAMEV_2027/t00372.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "20a579fc4fffb6643a4a83f1674a455b919162d151cc13c0abb49fb1b1f9da6b": {
+      "sequence": 576,
+      "label": "자동 해제",
+      "review_note_ko": "자동 해제의 안전벨트·문·후드·테일게이트·변속·가속 및 시동 조건을 읽음. 12V 저전압 시 점프 후에도 지속하면 점검/배터리 교체 절차로 연결하며 임의 반복 가속 금지.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAMEV_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAMEV/2027/ko_KR/topics/t00376.html",
+          "asset_sha256": "89f2a228a6aafc8868724ce73ef5b1472174750ab7ea3256b418be2a7df32cb5",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAMEV_2027/t00376.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "582344419c379c6b2eab27b47df0fc3acbbfa3b8d4bf00861a0ab0c13285eb86": {
+      "sequence": 577,
+      "label": "타이어 공기압 감지 시스템(TPMS)",
+      "review_note_ko": "TPMS 개요 부모 절 본문을 읽음. 저압·고장·교체 등의 하위 대응 절과 연결해야 함.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00543.html",
+          "asset_sha256": "d960d8c393879874b929ba586faddb21734bdfdef3e8b5e1a36a9f68fb739b32",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TAM_2027/topics/t00543.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "CHILD_SOURCE_ASSOCIATION_REQUIRED"
+    },
+    "7f452388310c213bbaec6b59a049f244b8dd59fd85b1c91ae33ec3bf9792f8f2": {
+      "sequence": 578,
+      "label": "브레이크액 점검",
+      "review_note_ko": "평지에서 브레이크액 MIN/MAX 확인, 저하·누유 의심은 정비. 규정 신품 액 사용, 이물 혼입·재사용 및 도장면 접촉 주의. 위험한 제동 상태의 운행 허가로 해석하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00577.html",
+          "asset_sha256": "7aea6ff756f36ed80d5250211a7f3be723b536b7420e5475b2362f2f81c5068a",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TAM_2027/topics/t00577.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "78b3f6f19012789b55b3f0e0e059d0105d1275c3c4df54e1a37225ae8f463eea": {
+      "sequence": 579,
+      "label": "노상에서 주행 중 고장이 발생했을 때",
+      "review_note_ko": "비상등을 켜고 안전한 곳에 정차한 뒤 탑승자를 안전한 곳으로 대피시키고 긴급 서비스 요청. 본문별 안전삼각대 및 후방 접근 차량 주의 조건 확인.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00531.html",
+          "asset_sha256": "89f342ecc5e806e77be2761a7ef0508e4258504e8fe3214d4913d07b11ccfd60",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TAM_2027/topics/t00531.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "c6a5604d77cbbc8d6fe029b37020a693b99b4d5b28a2800da55ece56fa50026d": {
+      "sequence": 580,
+      "label": "저압 타이어를 감지하였을 때",
+      "review_note_ko": "저압 경고 시 감속하고 급선회·급제동을 피하며 타이어 상태 및 규정 공기압을 확인. 손상·공기 유지 불가 시 수리 절차 연결. 차가운 타이어 기준과 기온 저하 원인을 고장과 구분.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00545.html",
+          "asset_sha256": "5bc32b9499bba9632e66b2620912b28275e2b9b33a3331e94d2276c308a79c75",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TAM_2027/topics/t00545.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "2c322a7daceb5e359e3f9e35e0c747ca7f8adb5f17b02d4c7ecef96d53c5c350": {
+      "sequence": 581,
+      "label": "타이어 공기압 감지 시스템에 이상이 있을 때",
+      "review_note_ko": "TPMS 이상 경고의 점등 및 외부 전파 간섭·비규격 장비 조건을 읽음. 이 절에 없는 점멸 시간을 다른 모델에서 가져오지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00546.html",
+          "asset_sha256": "3b968c006740c07a2c6714f8507fff8b790a9275102c9a6b750f82b6b5e70d46",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TAM_2027/topics/t00546.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "549f1c716332d24e01bebd1c9b4064305a75cad02fc2e4e7069a8e7b7ceeb2ac": {
+      "sequence": 582,
+      "label": "타이어를 교체할 때",
+      "review_note_ko": "타이어 교체 후 센서·휠 적합성과 경고 지속 시 정비를 확인. 임의 실런트 및 센서 손상, 잭 상태 탑승·차체 아래 진입 금지와 차가운 타이어 공기압 조건 확인.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00547.html",
+          "asset_sha256": "a021f5635ad1cc4a1517a5779b92f22cb0b283a4a9ce7c86f74b3f896c5cc0f1",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TAM_2027/topics/t00547.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "d710ab3db405f00789195178f9eb8f35cbe785f4fc81c13bc9bba5d3276e5fe0": {
+      "sequence": 583,
+      "label": "타이어 임시 수리 장치(TMK)",
+      "review_note_ko": "TMK의 6mm 트레드 손상 한계, 29psi 최소압력, 80km/h·200km 임시 주행 한계와 -30도 사용 조건을 읽음. DC12V 10–15V/10±1A/120W 및 실런트 200mL 사양은 해당 차량에만 귀속.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00549.html",
+          "asset_sha256": "b38d349144a59a9ca3ba4a1de31baac55b8ba90129cfb236c6422a1fca0602cb",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TAM_2027/topics/t00549.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "088ba64045c00d29eeec9ef0526a8a34ae14d2be6d2491d8646a5f360305bb56": {
+      "sequence": 584,
+      "label": "엔진 오일 양 점검 및 보충",
+      "review_note_ko": "평지에서 정상 온도와 시동 정지 후 대기 시간을 적용해 오일 게이지를 확인하고 규정 오일을 범위 내 보충. 고온·팬 접촉·과다 주입 금지. 정기 점검 절의 예열을 긴급 유압 경고 조치로 전이하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00571.html",
+          "asset_sha256": "0227033d530351e1b26566db4cae8b380e0be53e7b13d64d57329b692198a796",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TAM_2027/topics/t00571.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "d0fd2c8bd8e231cc54bd0fce047ce6f82a254b103d10ac16f891610583b62b70": {
+      "sequence": 585,
+      "label": "엔진 과열(오버히트) 시",
+      "review_note_ko": "과열 시 안전 정차 후 냉각수 유출·증기 유무에 따라 시동 정지/후드 개방 대기와 팬 점검 분기를 구분. 뜨거운 캡 개방 금지, 냉각 후 보충·재발/누수 시 점검. 모든 과열을 일률 공회전으로 안내하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00542.html",
+          "asset_sha256": "11b93bc01e5c2528529bd68ed506b881b4026674b0375207e25c683806dab0fc",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAM_2027/t00542.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "79414b8bb52979fceb5f9f0e433ceb1ebefc419175494718f80d31637751bbec": {
+      "sequence": 586,
+      "label": "교차로/건널목에서 시동이 꺼졌을 때",
+      "review_note_ko": "교차로·건널목에서 시동 정지 시 N으로 전환하여 안전한 곳으로 이동하는 해당 구형 원문을 확인. 최신 즉시 탈출 문구와 차이를 유지하며 적용 차종 확인 필요.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00527.html",
+          "asset_sha256": "c99791355203a8d76659f3991379374b6863cb57ab20f1b7f6f12abb760a4215",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAM_2027/t00527.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "f1a942ce3887f2ee296ae47faf8aa5bc501afe090b76cea1e266039bc4d1179e": {
+      "sequence": 587,
+      "label": "주행 중 펑크가 나면",
+      "review_note_ko": "펑크 시 가속 페달에서 발을 떼고 직진을 유지하며 엔진 브레이크로 서서히 감속, 급제동·급선회 금지. 안전한 곳 정차 후 타이어 조치.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00528.html",
+          "asset_sha256": "9595116b1a610ba2838efe3baebab15885359a9edb424cd0e97881315157ff52",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAM_2027/t00528.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "06b69bca146c2b2d77c94ddedd6dce11ceb14e329fff81cf72c06c378b6687c7": {
+      "sequence": 588,
+      "label": "주행 중 시동이 꺼졌을 때",
+      "review_note_ko": "주행 중 시동 정지 시 감속·안전 정차. 조향 및 제동 보조가 감소해 더 큰 힘이 필요함을 보존하고 재시동 실패 시 서비스 요청.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00529.html",
+          "asset_sha256": "c700e91d984b94cd3ccce183777022d1bab7f1337b3e1ad026116317393cf54e",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAM_2027/t00529.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "67f9e0f54181db0cc3109af7a90cd253388fd418b2fcd95ef8b0cb9bcb5fa147": {
+      "sequence": 589,
+      "label": "브레이크 제동력이 좋지 않을 때",
+      "review_note_ko": "브레이크 성능 저하 시 안전한 곳에 정차하고 제동계통 점검 및 긴급 서비스를 요청. 정상 주행 가능으로 단정하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00530.html",
+          "asset_sha256": "97c409f6604bf9ceb35756206418b7e6178baefa365f6b88caa620ed3bb3bfd4",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TAM_2027/topics/t00530.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "282c92b49f1ee9cea05070e101453c5053670071b6dd8c840412a4251756d227": {
+      "sequence": 590,
+      "label": "타이어 공기압 확인",
+      "review_note_ko": "주행 후 공기압 표시 시점과 타이어가 차가운 상태의 규정압 점검을 구분. 표시 미준비를 고장으로 단정하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00544.html",
+          "asset_sha256": "96955f9bff3504772731a3c9fbf9b03fd809aee21485ee6c242f3fc3e92d6a00",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TAM_2027/topics/t00544.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "5ca7ea25a4e7c3792bbdc59340de7de50102e61e09aa3814f84f0ecf6c580b73": {
+      "sequence": 591,
+      "label": "엔진 오일 및 필터 교체",
+      "review_note_ko": "오일 및 필터 교체·교환 알림 초기화 본문을 읽음. 이 절에 없는 유압 회복 재시동 절차를 같은 제목의 다른 차량 원문에서 가져오지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00572.html",
+          "asset_sha256": "c04c67e803c122ecd0b3a9c9eef817cf0ed2f93e10448e1390807961f094cee5",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TAM_2027/topics/t00572.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "878d8f48a200c5b05a7c4979bae350c8d82b1c6771f43e2dade47b5a9fec82ec": {
+      "sequence": 592,
+      "label": "작동 방법",
+      "review_note_ko": "브레이크 페달을 밟고 EPB 스위치를 당겨 작동시키며 표시등과 체결 상태 확인. 차종별 자동 체결 조건을 분리.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00383.html",
+          "asset_sha256": "40700c2ff272ef7a5ec3b451ddfa284f7e1ce4db34bc9d741148b6cce3c7c6bb",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAM_2027/t00383.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "ab33649404dea8020b7ddadfda42ba00c697b1c67d70137c9d35e9a2f90e0699": {
+      "sequence": 593,
+      "label": "견인 트럭으로 견인 시",
+      "review_note_ko": "전문 견인업체 이용 및 상차/돌리 권고. 동력계·구동방식에 따른 바퀴 지면 접촉 금지를 보존하며 매달기 견인 및 부적절한 고정 금지.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00551.html",
+          "asset_sha256": "4d5a6a46750eabd8325fac82c81350e9e07f06c844ede06c94fed6de28b86aa9",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAM_2027/t00551.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "92eded50f53418423a9544fff1ec012540d57a94bcad9fe6fc8b5abceef25607": {
+      "sequence": 594,
+      "label": "탈부착 견인 후크",
+      "review_note_ko": "견인 후크 덮개 분리·후크 끝까지 체결·분리 후 복구 순서를 읽음. 불완전 체결 상태 견인 금지.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00554.html",
+          "asset_sha256": "32afb9507351d9e9121cd30fb2ebe2f1b44baf327ccc005c971b4e4d55ce1503",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAM_2027/t00554.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "a6fb5bb71487d307b559d97d4708dac3697ad61f21de14559221f59103b22d88": {
+      "sequence": 595,
+      "label": "견인차가 아닌 일반 차량으로 견인 시",
+      "review_note_ko": "일반 로프 견인의 20km/25km/h와 자동변속기 긴급 견인의 1.5km/15km/h 하위 조건을 구분. 후자를 전자의 단순 오기라고 처리하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00555.html",
+          "asset_sha256": "16a1f582e40419827654ab36a1348ceed9ae773d48879affe12db83ae8e8a251",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAM_2027/t00555.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "bacf7e81906476e2257a81d803554091db5dea9ced81bc39ddb6afee73506d0e": {
+      "sequence": 596,
+      "label": "냉각수량 점검 및 보충",
+      "review_note_ko": "냉각수 레벨의 차가운 상태 확인 및 부족 시 보충/점검 조건을 읽음. 냉각수 교체·배합 하위 절과 연결하고 뜨거운 캡 개방으로 안내하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00574.html",
+          "asset_sha256": "e0d92ef657afb7b43cba5e761f1ca158101526255a697fc529d71d40b22dfad4",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAM_2027/t00574.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "2c9e4da81323417289d13e20acc35936e3032d8a21edb4eabfb076de86cee7d1": {
+      "sequence": 597,
+      "label": "냉각수 교체",
+      "review_note_ko": "냉각수 교체는 정비 의뢰, 시동 OFF에서도 팬이 작동할 수 있는 위험을 확인.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00576.html",
+          "asset_sha256": "a30bd19d0551ae2656b7288541771f844452999d44f6f33d2dcef883a154cb70",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAM_2027/t00576.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "ee4759781bf148269945a6d31e58c18a128467125048a94550cc78c3cc930df0": {
+      "sequence": 598,
+      "label": "사용 방법",
+      "review_note_ko": "고장 표시판의 안전한 설치·후방 접근 차량 주의와 차량별 보관 위치를 확인. 설치자가 위험한 차도에 계속 머무르게 하는 안내로 만들지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00533.html",
+          "asset_sha256": "9edfbd27b834310d5dc7ed3b8913dd50f2530e3ecc1e647c6f6884cdea984841",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAM_2027/t00533.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "6375d32ff32061c5c78c1fcb4918fcda59c9accf4fb54c7c7d48259188cc1a93": {
+      "sequence": 599,
+      "label": "설치 방법",
+      "review_note_ko": "고장 표시판의 안전한 설치·후방 접근 차량 주의와 차량별 보관 위치를 확인. 설치자가 위험한 차도에 계속 머무르게 하는 안내로 만들지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00534.html",
+          "asset_sha256": "5ff1bd3bb5dc7c436dfb90278287c24da438e212aa15e4e97e9a8722dab50848",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAM_2027/t00534.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "fa58759d07c4ef62bb2f1a925a74acd852baf4f5d282fba2e4bee776207adf3b": {
+      "sequence": 600,
+      "label": "자동 해제",
+      "review_note_ko": "EPB 자동 해제는 엔진 ON 조건이 필요하며 OFF에서는 자동 해제가 되지 않는 문맥을 읽음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00386.html",
+          "asset_sha256": "ebfaf6339e1e306a8b5862d866bff330ad94840bcfa5a74494de88c5a7c65e49",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAM_2027/t00386.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "8a0815dee9d15d9af0f8d2e890df5d0f834add25aa484b5a16933853b1eac5e3": {
+      "sequence": 601,
+      "label": "냉각수 혼합 비율",
+      "review_note_ko": "냉각수 혼합 50% 권장/출고45%, 최소35% 최대60% 범위를 구분. 증류수 또는 적합한 물, 경수·부적합 혼합 금지 및 냉각 후 취급 조건 확인.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TAM_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TAM/2027/ko_KR/topics/t00575.html",
+          "asset_sha256": "c6b9c0698dcb0be2ede621f373124e19e37720959f816c2183873a2019ae01b7",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TAM_2027/t00575.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "cc6c88946b5081cd23e80f40e9a30c93ace9588635b5ae08a7ce0a30230a00c2": {
+      "sequence": 602,
+      "label": "화재 및 사고 발생 시 조치 방법",
+      "review_note_ko": "제목 또는 짧은 소개 중심 부모 절을 직접 읽음. 이 텍스트만으로 하위 대응 완료를 주장할 수 없으며 실제 하위 URL의 본문·주의 조건과 연결 검증 필요.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00929.html",
+          "asset_sha256": "b58a31c4323479fd6a3c3b6e78a939d3de805e79aff1e5f9f1f411ede68656d8",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TK1_2027/topics/t00929.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "CHILD_SOURCE_ASSOCIATION_REQUIRED"
+    },
+    "a56aec9ab3f031912c06a9e87f0e54c31aeb179e39e96ee1179e2833b9bdf101": {
+      "sequence": 603,
+      "label": "냉각수 점검",
+      "review_note_ko": "엔진·인터쿨러 또는 전기동력 계통별 탱크와 MAX/MIN, 저온 상태·팬 자동 작동·뜨거운 캡 금지 조건을 읽음. 제목에만 등장하는 별도 전기동력 냉각수 하위 절은 연결 검증 필요.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00946.html",
+          "asset_sha256": "f745c7c59d5f4998b0c33ef156a528061fea607fdf88dd0041c192c6426a76cb",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TK1_2027/topics/t00946.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "53e6586dfc638685110efa8b5df80e41a3a7db810889e547ee918a4f56e80fef": {
+      "sequence": 604,
+      "label": "노상에서 주행 중 고장이 난 경우",
+      "review_note_ko": "비상등을 켜고 안전한 곳에 정차한 뒤 탑승자를 안전한 곳으로 대피시키고 긴급 서비스 요청. 본문별 안전삼각대 및 후방 접근 차량 주의 조건 확인.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00901.html",
+          "asset_sha256": "754c35e8a005d8c719762daf5516e6c977ef5a92ec9dffc92d0ed9ea373cfab3",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TK1_2027/topics/t00901.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "ab83d46eb0cdc57475fc89d44573664888733e6e498d64daa643f495add35c5b": {
+      "sequence": 605,
+      "label": "저압 타이어를 감지하였을 때",
+      "review_note_ko": "저압 경고 시 감속하고 급선회·급제동을 피하며 타이어 상태 및 규정 공기압을 확인. 손상·공기 유지 불가 시 수리 절차 연결. 차가운 타이어 기준과 기온 저하 원인을 고장과 구분.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00913.html",
+          "asset_sha256": "efa8b07ca8fef10fd3a41efd224041a835241937ec28e7109fd12a3b91ad8f16",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TK1_2027/topics/t00913.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "02d06e490c33d05e0739374e5f5e3a339dd62e52a491d6279958f443e6bae8c5": {
+      "sequence": 606,
+      "label": "타이어 공기압 경보 시스템(TPMS) 이상",
+      "review_note_ko": "TPMS 고장 시 약 1분 점멸 후 지속 점등 분기, 전파 간섭 및 비규격 장비 영향을 확인하고 지속 시 정비. 저압 감시 정상 작동을 보장하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00914.html",
+          "asset_sha256": "71a85e689a69561ce7f51b0b02b5084f8bc1e4965e30850488598774b4485de8",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TK1_2027/topics/t00914.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "b09a3020ddf576e2e3917327bc2b434cdb4d8d01e005d804c319fb8408acb4a8": {
+      "sequence": 607,
+      "label": "타이어 교체 시",
+      "review_note_ko": "TPMS 교체 조건과 18인치 휠 리무버의 2열 보관 위치를 확인. 센서/비규격 실런트 및 잭 안전 조건을 읽음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00915.html",
+          "asset_sha256": "6ad8f6a55544b9e06d4f5fac95eccee36f705acb77565dbe6abff94f83d167c2",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TK1_2027/topics/t00915.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "412b4c5a1f91feb0306d1a3ba0b5464df60a87a117cb5a0fcdaee95923ef5da1": {
+      "sequence": 608,
+      "label": "타이어 임시 수리 장치",
+      "review_note_ko": "TMK는 타이어 트레드의 제한된 손상에 대한 임시 복구. 손상 범위·공기압 유지 가능 여부를 확인하고 옆면·휠 손상은 사용하지 않음. 사용 단계 및 후속 압력 점검 절을 연결해야 함.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00917.html",
+          "asset_sha256": "6bdbaedabf5038de2bb86542474cf7e0e6d44b100d36df0fe890dbbb748b96b6",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TK1_2027/topics/t00917.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "ec2b029daab0e1d5e8e09c71bb96dd84e95adbbc2e37cb1db7205da05cd87629": {
+      "sequence": 609,
+      "label": "브레이크액 양 점검 및 보충",
+      "review_note_ko": "브레이크액 규격 DOT4LV CLASS6를 보존. MIN/MAX·오염·재사용·도장면 접촉 및 부족 시 정비 조건 확인.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00948.html",
+          "asset_sha256": "c11ba1f9edc50e52a98343489d514a3a93ddb634a8e2c0c8fa2b0f8de391c255",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TK1_2027/topics/t00948.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "547abe3b3b5d467c321aab679f11d1b4dc5918e470c58634d4f16c104f72a687": {
+      "sequence": 610,
+      "label": "타이어 임시 수리 장치 사용",
+      "review_note_ko": "TMK 12V 배터리 클램프 연결·29psi 최저압력 및 사용 순서를 읽음. 압력 조절 참조가 차량 견인으로 표시된 원문 연결 이상은 별도 확인 필요로 남김.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00919.html",
+          "asset_sha256": "9493ad85197b857137c1fac58ff6b506667e7e95ae3b55818a105bb8f66fc61f",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TK1_2027/topics/t00919.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "0e0265c9b0fef5f14a780d041fb25ad56281e1dbd83b0f5fdbcc79434668f965": {
+      "sequence": 611,
+      "label": "타이어 임시 수리 장치의 안전한 사용",
+      "review_note_ko": "TMK 사용 전 안전 정차·주차브레이크·탑승자 대피, 허용 손상/저온/작동시간 조건 및 실런트 접촉·과다 주입 금지를 읽음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00922.html",
+          "asset_sha256": "cf43c52f1408799e84c78553d2ea61b9ca67c71230ebdf7e46a8fce3dd81046b",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TK1_2027/topics/t00922.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "1f9cce8e5818cb0af039707fed9e67db80199a2137b4cabcbae5a5271a216e17": {
+      "sequence": 612,
+      "label": "엔진 과열(오버히트) 시",
+      "review_note_ko": "과열 시 안전 정차 후 냉각수 유출·증기 유무에 따라 시동 정지/후드 개방 대기와 팬 점검 분기를 구분. 뜨거운 캡 개방 금지, 냉각 후 보충·재발/누수 시 점검. 모든 과열을 일률 공회전으로 안내하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00910.html",
+          "asset_sha256": "24f47082778f9e53a75068ac10d4d954f69b0c46bac607ad2a3da7df7a3688a9",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TK1_2027/t00910.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "49c77668863d3ce89bd0b2b1b19961c4f9482146949a7361440648f46ac8b9e2": {
+      "sequence": 613,
+      "label": "배출가스 제어 장치의 관리 및 정비",
+      "review_note_ko": "촉매·배출가스 정비 문맥에서 고속 공회전 10분 이상/정상 공회전 20분 이상 금지와 엔진 이상 시 운행 제한을 읽음. DPF 재생 조건으로 대체하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t01001.html",
+          "asset_sha256": "f966ac61c229f3186cc1f8c466639d3c40086ada3fa8fb714baa8f752bc7e2ca",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TK1_2027/t01001.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "3664e6aa41db0fa04abbf185fdccdd82cb94c3e26694808b7a07a6c09bb3dfce": {
+      "sequence": 614,
+      "label": "교차로나 건널목에서 시동이 꺼진 경우",
+      "review_note_ko": "교차로·건널목에서 시동 정지 시 N으로 전환하여 안전한 곳으로 이동하는 해당 구형 원문을 확인. 최신 즉시 탈출 문구와 차이를 유지하며 적용 차종 확인 필요.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00897.html",
+          "asset_sha256": "01841cd833e0619db34b7221d1a6fb3f61a35e63a95ba07d4753c8bcb3ddadd5",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TK1_2027/t00897.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "b672c846a1f224f33d61c3aaa30b410cc86002f38a321d3e24dd43cf1cb5e280": {
+      "sequence": 615,
+      "label": "주행 중 펑크가 나면",
+      "review_note_ko": "펑크 시 가속 페달에서 발을 떼고 직진을 유지하며 엔진 브레이크로 서서히 감속, 급제동·급선회 금지. 안전한 곳 정차 후 타이어 조치.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00898.html",
+          "asset_sha256": "2adccdd9c55854487b1bff5eefdfa30958b4e4f5581de02904efde45d9d5c4ea",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TK1_2027/t00898.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "c5a9c861eeb32e8f79d171387d9ba2ac453eaba4322d5fb4c5433fb071e65064": {
+      "sequence": 616,
+      "label": "주행 중 시동이 꺼진 경우",
+      "review_note_ko": "주행 중 시동 정지 시 감속·안전 정차. 조향 및 제동 보조가 감소해 더 큰 힘이 필요함을 보존하고 재시동 실패 시 서비스 요청.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00899.html",
+          "asset_sha256": "9a2238e7fb55427d43927059334b24d7954863993ae38c3ca3fa2353983d189a",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TK1_2027/t00899.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "b8f426f7e310d4c502f218990bad82bf79f6b3803713887efdcf0afd0a5461d5": {
+      "sequence": 617,
+      "label": "브레이크 제동력이 좋지 않을 경우",
+      "review_note_ko": "브레이크 성능 저하 시 안전한 곳에 정차하고 제동계통 점검 및 긴급 서비스를 요청. 정상 주행 가능으로 단정하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00900.html",
+          "asset_sha256": "aeef4c2f5e84dc9efb1f6088d72ada0da197aa93a17a13c416b0ff3e90d72ab7",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TK1_2027/topics/t00900.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "208f1912f569fc753a65d123bc56f022b7956ea8c2ae9dd42a77d3c36db0d578": {
+      "sequence": 618,
+      "label": "안전삼각대(고장 자동차 정지표지판)",
+      "review_note_ko": "고장 표시판의 안전한 설치·후방 접근 차량 주의와 차량별 보관 위치를 확인. 설치자가 위험한 차도에 계속 머무르게 하는 안내로 만들지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00902.html",
+          "asset_sha256": "6226bf48bc81c1b6cbacb83d2bd221908d2441e02d676052502ab5455d976d63",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TK1_2027/topics/t00902.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "880d087867f99a4c693a16015e1e309f3aac7901fe6d1dd9d9051b36a50d8c90": {
+      "sequence": 619,
+      "label": "타이어 공기압 확인",
+      "review_note_ko": "주행 후 공기압 표시 시점과 타이어가 차가운 상태의 규정압 점검을 구분. 표시 미준비를 고장으로 단정하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00912.html",
+          "asset_sha256": "211ed14f1ac1ae58dfd83fbdf570cf03874174f7b8d1d4a2b5fc7643495c6627",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TK1_2027/topics/t00912.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "867020c5118d1cc84e08a498e97197ba9c3c6de9bd835f5960a0ce8276686caf": {
+      "sequence": 620,
+      "label": "사고 또는 고장 발생 시",
+      "review_note_ko": "사고/고장 시 안전 정차·시동 정지와 긴급 지원 등 실제 짧은 대응 본문을 읽음. 전체 사고 구조 절차 승인을 의미하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00933.html",
+          "asset_sha256": "ad000a38a5e1e30548934662c336d8db06b8ea09835ac0086ee89bc42f0d0ead",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TK1_2027/topics/t00933.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "cefa81e13918e334994422776df099e3ecf657441e753121ed8d4c65b5f883b0": {
+      "sequence": 621,
+      "label": "엔진 오일 및 필터 교체",
+      "review_note_ko": "오일·필터 정기 교체와 유압 경고 후 회복을 구분해 읽음. 부족 오일 보충 뒤 재시동하여 유압 경고 소등을 확인하는 원문 조건을 보존.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00945.html",
+          "asset_sha256": "bca2f7e5a049580cfd7d7592d81429b78a4e73c2e5aed4512604c786123ed126",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TK1_2027/topics/t00945.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "9a5856a9d1a2711b31b434f68357cacb65dd0632f02f28550f786dc103a3c090": {
+      "sequence": 622,
+      "label": "실런트(봉합제) 분배",
+      "review_note_ko": "실런트 분배는 20km/h 이상으로 7–10km 또는 약10분 주행하는 조건을 읽음. 주입 직후 압력 부족 시 중단 조건과 연결되어야 함.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00920.html",
+          "asset_sha256": "35a1b48deb2f301b0453513bc8dca7c452a28036fdcafdad7269ccbfca398dbd",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TK1_2027/t00920.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "e8dbfd2bd80e6f912acbb3d54f4dbf9b71e56d043152cc4a64177e3defb82f46": {
+      "sequence": 623,
+      "label": "타이어 압력 조절",
+      "review_note_ko": "봉합제 분배 후 압력을 측정·보정하는 순서와 전원 연결을 확인. 이 절의 12V 배터리 연결 방식을 다른 차량의 소켓 방식과 섞지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00921.html",
+          "asset_sha256": "e9c9a31896d653f39cc7c1ae6d958dd37137e82a7a4d8c7245cc29dae24af42f",
+          "local_path": ".local/manual-corpus/2026-10-28/kia/TK1_2027/topics/t00921.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "11f68c63aa370b0021d08d3072856ce7de378b6dee68e56a226b908ee4247636": {
+      "sequence": 624,
+      "label": "소화기 비치",
+      "review_note_ko": "소화기 위치·고정 해제·핀/노즐/손잡이 및 안전 조건을 읽음. 소화기 문맥에 안전삼각대를 꺼내라는 표현이 있어 원문 혼입 의심으로 사용 안내 보류.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00932.html",
+          "asset_sha256": "1cab8921961a58328f08332ab5cb2369beba3bdc1421df88d68cc7a0ea68384f",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TK1_2027/t00932.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "ed67b084b2464eda8637d6cde612a06ea7bd8530d7822ba13301af55081751e1": {
+      "sequence": 625,
+      "label": "전자식 파킹 브레이크 비상 제동",
+      "review_note_ko": "EPB 비상 제동의 계속 당기기·해제 시 중단·제동거리 증가를 읽음. 제동 중 점등 표시가 EPB 경고로 적혀 있어 다른 문서의 브레이크 경고등으로 임의 수정하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00593.html",
+          "asset_sha256": "bce17e680e9321ec8f2691fd1950bfeb98d88d0fa0394a8eb52305de9f24b180",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TK1_2027/t00593.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "3354dea21827d0919e59d8940e16c180d9347d6f35bfe4460810e29da50aa3c0": {
+      "sequence": 626,
+      "label": "전자식 파킹 브레이크(EPB) 이상",
+      "review_note_ko": "EPB 경고 지속 시 정비. ESC 고장 동반 점등 가능성을 EPB 자체 고장으로 확정하지 않음. 체결 표시등 점멸·미점등·해제 불가 분기는 재조작 후 지속 시 정비/견인 조건으로 분리.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00597.html",
+          "asset_sha256": "40254324975abdee2f6f4230fc58c659816d775e4a93998e1f1943929d137f1c",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TK1_2027/t00597.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "b31fe1daa8f308c8229dd8e0334e21a974a1440aaaa1f305668c6c14e8d0c42f": {
+      "sequence": 627,
+      "label": "견인 트럭으로 견인 시",
+      "review_note_ko": "전문 견인업체 이용 및 상차/돌리 권고. 동력계·구동방식에 따른 바퀴 지면 접촉 금지를 보존하며 매달기 견인 및 부적절한 고정 금지.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00924.html",
+          "asset_sha256": "9922c23c3a47a38f959b984c0002e0b17d136ce9ffc05dc5bb59a6e4c2ab164d",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TK1_2027/t00924.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "5d305ef6082314f021ae929c8e850f6c31d3575adc3dcb4271ccb999baf71b29": {
+      "sequence": 628,
+      "label": "일반 차량으로 견인 시",
+      "review_note_ko": "일반 견인 시 앞쪽 양 후크 사용·좌우15도 범위·측방 견인 금지 및 5m 이내 줄과 중간30cm 표시 천 조건을 보존. ACC/N/주차브레이크 해제 확인.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00927.html",
+          "asset_sha256": "24b50c7f81c95d261cb4b3cb04430a3d8cbe879b2aa3c68661606123e7235d9c",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TK1_2027/t00927.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "6b386ab8e706df3e7820305350acb03aab7f88516125f7249295c5f540c64cf2": {
+      "sequence": 629,
+      "label": "수동 작동",
+      "review_note_ko": "브레이크 페달을 밟고 EPB 스위치를 당겨 작동시키며 표시등과 체결 상태 확인. 차종별 자동 체결 조건을 분리.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00591.html",
+          "asset_sha256": "8a4f0ffcf82e7e21084ca7c3d8429172985aa4d54d149416942f1c64560a8680",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TK1_2027/t00591.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "a5ccfbfc93663d8bc1af4d80dafcb7abc5b890aee65797c5cf4f0f4d96bfbd67": {
+      "sequence": 630,
+      "label": "수동 해제",
+      "review_note_ko": "EPB 수동 해제는 ON 상태에서 브레이크 페달을 밟고 스위치를 누르는 조건을 읽음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00595.html",
+          "asset_sha256": "609c9e7debccd550da03081bef9e2c7a316ed8b2bcb3b3ad4245396f72634918",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TK1_2027/t00595.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "5bab026b1c262f98b8fcc880b94736313db52a3cae0c44085a70e85a2f0ddfd6": {
+      "sequence": 631,
+      "label": "자동 해제",
+      "review_note_ko": "자동 해제의 안전벨트·문·후드·테일게이트·변속·가속 및 시동 조건을 읽음. 12V 저전압 시 점프 후에도 지속하면 점검/배터리 교체 절차로 연결하며 임의 반복 가속 금지.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00596.html",
+          "asset_sha256": "e59073542966979ef6f08bc4f7c544cdf3386b25f4a4738aec175e58e905c810",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TK1_2027/t00596.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "80438f0972fd8615425e59d171182a6a44a392216dcdf5c914d7b85455d54568": {
+      "sequence": 632,
+      "label": "상차 견인이 불가할 때",
+      "review_note_ko": "상차 불가 시 2WD 등 해당 구동방식의 바퀴 들기·돌리 사용 조건을 적용. AWD/EV에 일반화하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00925.html",
+          "asset_sha256": "56a91fa11b469bc5f3a3f679e4bd549b145125c71f88d492ce351376e5bb514e",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TK1_2027/t00925.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "0f7d79312044a475caf0d38015156471621995754c77329f811c60a27a8ab1f5": {
+      "sequence": 633,
+      "label": "차량 견인 전 견인 후크 등을 이용한 짧은 거리 이동 시 주의 사항",
+      "review_note_ko": "상차 준비를 위한 짧은 이동의 10m 이내·5km/h 이하 제한을 읽음. N/주차브레이크 및 변속 불가 조건은 해당 원문에 귀속하며 일반 비상 견인 거리로 확대하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00926.html",
+          "asset_sha256": "f24e0bd9fd4f330a45d3dc79daaea0e1333d9ee249b95645a4cc653b4f06ebef",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TK1_2027/t00926.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "2adea51640bfd155d20ba7ed8557ca32617fe677b5555a4aecd0955580cfefda": {
+      "sequence": 634,
+      "label": "견인 시 유의 사항",
+      "review_note_ko": "견인 시 자동변속기 오일 누유가 없어야 하는 전제와 15km/h·1.5km 제한, 조향·제동 보조 감소 및 후크 체결 주의를 확인.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_TK1_2027",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/TK1/2027/ko_KR/topics/t00928.html",
+          "asset_sha256": "147c46040e66fc26e5d1187bcbdc8dcf37af4ce0f51043a8be845642fcc53cb1",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_TK1_2027/t00928.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "c2059e3329199d317ebf0faff6d1a24f289783a72243601be8557929fea105bb": {
+      "sequence": 635,
+      "label": "주행 중 고장이 나면",
+      "review_note_ko": "제목 또는 짧은 소개 중심 부모 절을 직접 읽음. 이 텍스트만으로 하위 대응 완료를 주장할 수 없으며 실제 하위 URL의 본문·주의 조건과 연결 검증 필요.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter7_2.html",
+          "asset_sha256": "7349a3c8a664c46ea1caa2b0eee15155821f02d1953f0aef8260686020a572e7",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4_2025/topics/chapter7_2.html"
+        },
+        {
+          "document_id": "kia_KA4KH_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter7_2.html",
+          "asset_sha256": "8dcaa6c18aff25ff28bb3488b4efed365aa5552496006f75b4b7d167ef6f4914",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4KH_2025/topics/chapter7_2.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "CHILD_SOURCE_ASSOCIATION_REQUIRED"
+    },
+    "4ed2edb31727264283f7f99e916f2f59c58bdf828d997694446839264ecc9e8d": {
+      "sequence": 636,
+      "label": "개별 타이어 공기압 경보 시스템",
+      "review_note_ko": "제목 또는 짧은 소개 중심 부모 절을 직접 읽음. 이 텍스트만으로 하위 대응 완료를 주장할 수 없으며 실제 하위 URL의 본문·주의 조건과 연결 검증 필요.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter7_6.html",
+          "asset_sha256": "956a2a86940ff888efc21defb782ba2c7448e70915a275ebbc161e7246edd124",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4_2025/topics/chapter7_6.html"
+        },
+        {
+          "document_id": "kia_KA4KH_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter7_6.html",
+          "asset_sha256": "2e5ab3f4d18a6e4ed2f5a9e0bb01fb26853fc6ad56e53105a82b090ec8344ccd",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4KH_2025/topics/chapter7_6.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "CHILD_SOURCE_ASSOCIATION_REQUIRED"
+    },
+    "5f2354df1d56dcb36d064e80ae56470dbca355f125814469cf5052cca7253c8a": {
+      "sequence": 637,
+      "label": "타이어 펑크 시의 조치",
+      "review_note_ko": "제목 또는 짧은 소개 중심 부모 절을 직접 읽음. 이 텍스트만으로 하위 대응 완료를 주장할 수 없으며 실제 하위 URL의 본문·주의 조건과 연결 검증 필요.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter7_7.html",
+          "asset_sha256": "e1831662df4dea9bf195a539d2c42977b4a3ae297a28b54ef00471acb1ad0efa",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4_2025/topics/chapter7_7.html"
+        },
+        {
+          "document_id": "kia_KA4KH_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter7_7.html",
+          "asset_sha256": "28c85f452d6fd6ba746fff6ba98042b059c9aa27fb55e653450ec5bc706ebc0a",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4KH_2025/topics/chapter7_7.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "CHILD_SOURCE_ASSOCIATION_REQUIRED"
+    },
+    "b0ccb2714e93e776a7257f04b3a57adde043b638a2b71ff08d6bcbb7e6a7cc04": {
+      "sequence": 638,
+      "label": "차량 견인",
+      "review_note_ko": "제목 또는 짧은 소개 중심 부모 절을 직접 읽음. 이 텍스트만으로 하위 대응 완료를 주장할 수 없으며 실제 하위 URL의 본문·주의 조건과 연결 검증 필요.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter7_8.html",
+          "asset_sha256": "a4b7b4b50e3d77eddccb2e595c67cfe4f1a9702351b5c70305e126242f0d62d4",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4_2025/topics/chapter7_8.html"
+        },
+        {
+          "document_id": "kia_KA4KH_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter7_8.html",
+          "asset_sha256": "ca5c3c056d917a5b8f9bd8a6cfde6cc0b7f60372d3323b8049a72d7eb7581fa2",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4KH_2025/topics/chapter7_8.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "CHILD_SOURCE_ASSOCIATION_REQUIRED"
+    },
+    "0ba20b5b00dbcc9ed1e7a499d5c49610055b01ec47705f447ab791c9cd6cd5b0": {
+      "sequence": 639,
+      "label": "엔진 오일 점검(디젤 엔진)",
+      "review_note_ko": "제목 또는 짧은 소개 중심 부모 절을 직접 읽음. 이 텍스트만으로 하위 대응 완료를 주장할 수 없으며 실제 하위 URL의 본문·주의 조건과 연결 검증 필요.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter8_5.html",
+          "asset_sha256": "a8a16c309f751cc01ecfbec547408233b9592abc63837f6c17f6c07639f091c2",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4_2025/topics/chapter8_5.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "CHILD_SOURCE_ASSOCIATION_REQUIRED"
+    },
+    "87f8f3485238da7c22e562aea4b383f2dfcf48c11cf6a235e2f8e3eaf135070c": {
+      "sequence": 640,
+      "label": "엔진 오일 점검(가솔린 엔진)",
+      "review_note_ko": "제목 또는 짧은 소개 중심 부모 절을 직접 읽음. 이 텍스트만으로 하위 대응 완료를 주장할 수 없으며 실제 하위 URL의 본문·주의 조건과 연결 검증 필요.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter8_6.html",
+          "asset_sha256": "c1e45c0c260c21a1f74b459e8e57f727de42500543bae5280de15e551e43bf09",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4_2025/topics/chapter8_6.html"
+        },
+        {
+          "document_id": "kia_KA4KH_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter8_5.html",
+          "asset_sha256": "98f588cbe1c33c98e2713acade97b6283588419422839e2a2172d6c362b5d17d",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4KH_2025/topics/chapter8_5.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "CHILD_SOURCE_ASSOCIATION_REQUIRED"
+    },
+    "7e6edabc4e330b4cd1ba0b6e22fc4c4edc6dfa7ce12dd07214e27d0a49f71ee8": {
+      "sequence": 641,
+      "label": "냉각수 점검",
+      "review_note_ko": "엔진·인터쿨러 또는 전기동력 계통별 탱크와 MAX/MIN, 저온 상태·팬 자동 작동·뜨거운 캡 금지 조건을 읽음. 제목에만 등장하는 별도 전기동력 냉각수 하위 절은 연결 검증 필요.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter8_7.html",
+          "asset_sha256": "9da2e06805339dbb0cf320969381bdf7c5355057af04e4a0b6db795f97e90e43",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4_2025/topics/chapter8_7.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "8800b0ae7ad6c1e68386dd84faa61d84fab0dff533ec43f03826799b689237c4": {
+      "sequence": 642,
+      "label": "개별 타이어 공기압 경보 시스템",
+      "review_note_ko": "TPMS 부모 본문의 차가운 타이어 규정압: 235/60R18 250kPa(36psi), 235/55R19 260kPa(38psi). 고장·교체 하위 절의 독해 연결은 별도로 검증해야 함.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter1_6_2.html",
+          "asset_sha256": "dc77cbf895a0d13425459a8ac8f457a0710ec48935b84811668a9a1749afb3b8",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4_2025/topics/chapter1_6_2.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "CHILD_SOURCE_ASSOCIATION_REQUIRED"
+    },
+    "47ba45e84f402c055fe6637eb48b8fe047b3b07d70800453bf40c3065b128d7e": {
+      "sequence": 643,
+      "label": "타이어 펑크 시의 조치",
+      "review_note_ko": "펑크 대응 부모 본문·TMK 사용 전 안전 조건을 읽음. 완전한 주입·분배·재측정과 압력 미달 시 운행 중단 조건은 해당 하위 TMK 절과 연결 확인 필요.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter1_6_3.html",
+          "asset_sha256": "206e18df70ccae91b525ffa6447381ec512ccece66550dc8abef47671ad598f6",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4_2025/topics/chapter1_6_3.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "CHILD_SOURCE_ASSOCIATION_REQUIRED"
+    },
+    "39ac4bc8f6db363110dad0fe69681f3233f3c54452370312d3a4b16caeb47714": {
+      "sequence": 644,
+      "label": "사고 및 차량 화재 시 응급조치",
+      "review_note_ko": "사고 및 차량 화재 시 안전 정차·시동 정지·대피·신고와 초기 진화 조건을 읽음. 차량 근처 잔류를 의무 행동으로 만들지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter1_6_4.html",
+          "asset_sha256": "eb8bce81929e48958d7e19ab727e137dbf0895e4c4a514fbb9fdce9738b64ecd",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4_2025/topics/chapter1_6_4.html"
+        },
+        {
+          "document_id": "kia_KA4KH_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter1_9_4.html",
+          "asset_sha256": "3c9f5b201be33e3f137e27cfbe962b313ab0cbb73830377398e3496c11fe0d8a",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4KH_2025/topics/chapter1_9_4.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "2d5d7e608d40b6bfa1f4870ef0ff9d97a7e8bcf52cdd9274cc28e66be5f0311a": {
+      "sequence": 645,
+      "label": "전자식 파킹 브레이크(EPB)",
+      "review_note_ko": "EPB 작동·자동/수동 해제·경고·비상 제동 전체 본문 읽음. 문/벨트/변속/시동, 표시등 점멸·해제 불가 및 저전압 점프 분기를 구분.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter5_3_4.html",
+          "asset_sha256": "869156797c815f8f40577ae8cd43b757bce02eb0e9eabdd4f72289ee44c1155c",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4_2025/topics/chapter5_3_4.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "2abdedee538a61cfd551e5dd4c84192bd4c60198605f0c106429483b1ad60c4e": {
+      "sequence": 646,
+      "label": "타이어 임시 수리 장치",
+      "review_note_ko": "TMK의 26psi(180kPa) 미달 시 운행 금지, 6mm 손상 한계, 80km/h·200km 임시 한계와 -30도 조건을 읽음. 휠 너트11–13kgf·m를 다른 모델의29psi/4mm와 섞지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter7_7_1.html",
+          "asset_sha256": "fa7efbebb35889bf767999394747d7c4f08160cb25acbfd06f8b74baf9495eb6",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4_2025/topics/chapter7_7_1.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "2bf1c573c203c663861beff26acb9874b1562d650d34fd994088cc5027a99c2c": {
+      "sequence": 647,
+      "label": "차량 화재 시",
+      "review_note_ko": "차량 화재 시 안전하게 정차·시동 정지·탑승자 대피 후 신고. 초기 진화는 안전이 확보되는 범위에서만 하며 차량별 소화기 위치를 일반화하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter7_9_2.html",
+          "asset_sha256": "932720813e4d63171b06740bd650bf60132f6ba4d8f574c605c036da303a99df",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4_2025/topics/chapter7_9_2.html"
+        },
+        {
+          "document_id": "kia_KA4KH_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter7_9_2.html",
+          "asset_sha256": "75c272570f882d64d470865df635392cb9db53800fce88395e02eefbb87b0424",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4KH_2025/topics/chapter7_9_2.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "e061b1494c3c6c6d5607a15605a66eb2dc5e28a8c893ec8ec2a27ac38d808464": {
+      "sequence": 648,
+      "label": "엔진 오일양 점검 및 보충",
+      "review_note_ko": "디젤 오일 게이지 A/B/C/D 구간별 정비·보충 금지·조건부 보충·C 상단까지 보충을 구분하고 정지 후15분 대기 확인. F/L 게이지 규칙으로 치환하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter8_5_1.html",
+          "asset_sha256": "1db7486ebc88833035d44c01f7ee05ce8e726b5c7413cf045896fa040569f6a3",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4_2025/topics/chapter8_5_1.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "99d5ca88ca40e52790a1a0dcf90d3639c3f40af40f273ef56baa9360c5e0ae26": {
+      "sequence": 649,
+      "label": "엔진 오일양 점검 및 보충",
+      "review_note_ko": "평지에서 정상 온도와 시동 정지 후 대기 시간을 적용해 오일 게이지를 확인하고 규정 오일을 범위 내 보충. 고온·팬 접촉·과다 주입 금지. 정기 점검 절의 예열을 긴급 유압 경고 조치로 전이하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter8_6_1.html",
+          "asset_sha256": "48903aadda50ceded65181e6d690a73ed02ae86d1b86b2bdda2abccbcbac6d10",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4_2025/topics/chapter8_6_1.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "5cd4f56eacaa9b99990c688237de8c579dd59869f935b8f9ede45ea3682df5ba": {
+      "sequence": 650,
+      "label": "브레이크액량 점검 및 보충",
+      "review_note_ko": "브레이크액 MIN/MAX 및 신품 DOT4 규격을 확인. 오염·재사용·도장면 접촉 금지와 저하 시 정비를 읽음. DOT4LV로 임의 교체하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter8_8_1.html",
+          "asset_sha256": "6cfd4766de049b4ac69f42c0df3616ec879649aa134ed849197728618ce6249e",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4_2025/topics/chapter8_8_1.html"
+        },
+        {
+          "document_id": "kia_KA4KH_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter8_7_1.html",
+          "asset_sha256": "81a3af5567a49d6a001e096cc78d4beb9a8acf979d9676c8e8d45ff0169e176f",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4KH_2025/topics/chapter8_7_1.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "e5a882c662e86883d210839f1eb2ba23eb9e93c989c52f167c441e3a5df6bdad": {
+      "sequence": 651,
+      "label": "엔진 과열 시(오버히트)",
+      "review_note_ko": "과열 시 안전 정차 후 냉각수 유출·증기 유무에 따라 시동 정지/후드 개방 대기와 팬 점검 분기를 구분. 뜨거운 캡 개방 금지, 냉각 후 보충·재발/누수 시 점검. 모든 과열을 일률 공회전으로 안내하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter7_5.html",
+          "asset_sha256": "edf960adb707ec5d2b815c874db011d84924e54c008fe2f49613e2c09d3cd81e",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_KA4_2025/chapter7_5.html"
+        },
+        {
+          "document_id": "kia_KA4KH_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter7_5.html",
+          "asset_sha256": "9f142044345fb0e60f8baf44abb24c0fd0985453fbe224015d44e232149d2f02",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_KA4KH_2025/chapter7_5.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "aeb1b8e045312c678419fc1e5ce062dadaf8eb9a4afa748d83fa67747a78b3d0": {
+      "sequence": 652,
+      "label": "연료 필터 점검(디젤 엔진)",
+      "review_note_ko": "제목 또는 짧은 소개 중심 부모 절을 직접 읽음. 이 텍스트만으로 하위 대응 완료를 주장할 수 없으며 실제 하위 URL의 본문·주의 조건과 연결 검증 필요.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter8_12.html",
+          "asset_sha256": "12a3e4e305ffa9e49378c59445d809dd4a6a1e3a39d1766583882310a956e62f",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_KA4_2025/chapter8_12.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "CHILD_SOURCE_ASSOCIATION_REQUIRED"
+    },
+    "b0120bd0aa2eeb9885b0970dc983261b132636eaa3429df988c7033ef6e177ac": {
+      "sequence": 653,
+      "label": "배출가스 제어 장치의 관리 및 정비",
+      "review_note_ko": "DPF 점등 시 안전한 조건에서60km/h 또는2단 이상1500–2500rpm으로25분 이상 주행 분기, 지속/점멸 시 정비. SCR 잔여2400km 경고·최소2L 저량 보충·고갈 시 충분한 양·시동 금지를 구분. 결함/부적합 요소수는 보충만으로 해결하지 않으며 ISO22241-1/DIN70070, 시동OFF 주입·첨가/물/연료/재사용 금지, 주입 후ON에서 메시지 소멸 대기 후 재시동·실패 시 지원, -11도 동결 및 종료 후 약2분 퍼지 조건을 읽음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4/2025/ko_KR/topics/chapter8_24.html",
+          "asset_sha256": "63cb5f27e7dd3765c569c3567afb919718106e40697c93a2fa1edb6f61be3c09",
+          "local_path": ".local/manual-review/2026-10-28/kia/crossrefs/kia_KA4_2025/chapter8_24.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "f41b7c2137233ee4f7acd7a49149a846b77f5954930b66f360c8a571416312ac": {
+      "sequence": 654,
+      "label": "냉각수 점검",
+      "review_note_ko": "엔진·인터쿨러 또는 전기동력 계통별 탱크와 MAX/MIN, 저온 상태·팬 자동 작동·뜨거운 캡 금지 조건을 읽음. 제목에만 등장하는 별도 전기동력 냉각수 하위 절은 연결 검증 필요.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4KH_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter8_6.html",
+          "asset_sha256": "509fab75aa1b714b1df7888e4c3015011489cba26b604c007cc724b7b446dc80",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4KH_2025/topics/chapter8_6.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "CHILD_SOURCE_ASSOCIATION_REQUIRED"
+    },
+    "51141653da3a4fa4031ecd88bcab38452d17830582a765dc4c7ef60b595d8231": {
+      "sequence": 655,
+      "label": "개별 타이어 공기압 경보 시스템",
+      "review_note_ko": "TPMS 부모 본문의 차가운 타이어 규정압: 235/60R18 250kPa(36psi), 235/55R19 270kPa(39psi). 다른 모델의19인치260kPa(38psi)와 구분하고 하위 고장·교체 절 연결 확인 필요.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4KH_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter1_9_2.html",
+          "asset_sha256": "f8c681f24780fafcd8e38d847f13cced5e17bd54ed9c791377ac2207e4ea7057",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4KH_2025/topics/chapter1_9_2.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "CHILD_SOURCE_ASSOCIATION_REQUIRED"
+    },
+    "052ae873b2f109ce948660a7c767e1af03a9ef3059fb3ed341e46232bccc1912": {
+      "sequence": 656,
+      "label": "타이어 펑크 시의 조치",
+      "review_note_ko": "펑크 대응 부모 본문·TMK 사용 전 안전 조건을 읽음. 완전한 주입·분배·재측정과 압력 미달 시 운행 중단 조건은 해당 하위 TMK 절과 연결 확인 필요.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4KH_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter1_9_3.html",
+          "asset_sha256": "0b859ac737fcb233988cd435390eb8d57f920d12d34d2f6301400a2d2659de15",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4KH_2025/topics/chapter1_9_3.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "CHILD_SOURCE_ASSOCIATION_REQUIRED"
+    },
+    "9cb75455df0534e2d73a844145078739bb9ba58c1658ef77c4617912fe81dde6": {
+      "sequence": 657,
+      "label": "전자식 파킹 브레이크(EPB)",
+      "review_note_ko": "EPB 전체 작동·해제·고장·비상제동을 읽음. 추가 BDC는 Auto Hold 3초 이상 조작으로 약10회 제동 중 회생 제동을 제한하며 OFF 또는3초 조작 시 중단하는 모델별 조건을 보존.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4KH_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter5_7_4.html",
+          "asset_sha256": "644c92e2232901b0a24c03c79d216d57755863fcbd2ae81a734d8171d4ee47e2",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4KH_2025/topics/chapter5_7_4.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "a4f76d919e5255d99487e9163f80101273b8e940bb257765af06732c38e58560": {
+      "sequence": 658,
+      "label": "타이어 임시 수리 장치",
+      "review_note_ko": "TMK의 26psi(180kPa) 미달 시 운행 금지, 6mm 손상 한계, 80km/h·200km 임시 한계와 -30도 조건을 읽음. 휠 너트11–13kgf·m를 다른 모델의29psi/4mm와 섞지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4KH_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter7_7_1.html",
+          "asset_sha256": "2707dd02b2d36cd240d231ecce6cfad68dc19957503ccec96d237d9edf8a2a01",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4KH_2025/topics/chapter7_7_1.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    },
+    "320c1c1e4778fa46ef8289df0d16787f1c55a0b6df766436f5727a40d62aae37": {
+      "sequence": 659,
+      "label": "엔진 오일양 점검 및 보충",
+      "review_note_ko": "평지에서 정상 온도와 시동 정지 후 대기 시간을 적용해 오일 게이지를 확인하고 규정 오일을 범위 내 보충. 고온·팬 접촉·과다 주입 금지. 정기 점검 절의 예열을 긴급 유압 경고 조치로 전이하지 않음.",
+      "source_status": "SOURCE_TEXT_REVIEWED",
+      "occurrences": [
+        {
+          "document_id": "kia_KA4KH_2025",
+          "source_url": "https://ownersmanual.kia.com/full_webhelp/KA4KH/2025/ko_KR/topics/chapter8_5_1.html",
+          "asset_sha256": "0f925c6797ee0b9290d32050068005083be08ad9ed803e1807f308b053736c70",
+          "local_path": ".local/manual-review/2026-10-28/audit/base-manuals/KA4KH_2025/topics/chapter8_5_1.html"
+        }
+      ],
+      "runtimeApproved": false,
+      "referenceClosure": "READ_WITHIN_THIS_SOURCE_UNIT"
+    }
+  }
+}

@@ -1,0 +1,2872 @@
+{
+  "schemaVersion": 1,
+  "rules": [
+    {
+      "ruleId": "HY-REF-A01-2026-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-A01-2026"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -40°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/A01/2026/ko_KR",
+          "documentSha256": "38fbe422b1b95dbf54da081734f2facbf8969e1bca2a2a978a3725f890e677f1",
+          "locator": {
+            "pdfPages1Based": [
+              354,
+              355,
+              356,
+              357,
+              358,
+              359,
+              360,
+              361
+            ]
+          },
+          "passageSha256": "3ba5fa304e24a24d36950750d870eec9c32149f9325713a05e834b1b0ed0e909"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -40
+      },
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-US4EV-2027-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-US4EV-2027"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -30°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다.",
+        "최초 연결 그림은 12V 배터리 −단자, 재조정 문구는 −충전단자(차체 접지). 두 위치를 추정 통합하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/US4EV/2027/ko_KR",
+          "documentSha256": "668df665ece6573f01f559409f8f62919f2b48d655f8a97d2a9a29c0575bcf2d",
+          "locator": {
+            "pdfPages1Based": [
+              509,
+              510,
+              511,
+              512,
+              513,
+              514,
+              515,
+              516,
+              517,
+              518,
+              519,
+              520,
+              521
+            ]
+          },
+          "passageSha256": "513ee6e73ac1ec1dc70aee57e670421a8a966df6528748a15af50b0f3471be05"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -30
+      },
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-NE1-2027-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-NE1-2027"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -30°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다.",
+        "7–10km 거리를 10분 정도 주행하는 원문 표현을 다른 문서의 OR 논리로 일괄 치환하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/NE1/2027/ko_KR",
+          "documentSha256": "e32d572bf61a989590d87925ed740b2795c714033a6ef4432a46852574ce26a1",
+          "locator": {
+            "pdfPages1Based": [
+              497,
+              498,
+              499,
+              500,
+              501,
+              502,
+              503,
+              504,
+              505,
+              506,
+              507,
+              508
+            ]
+          },
+          "passageSha256": "3464d9427741e9c203116d109f3ae952313321e4e5358d1618e19322c5e70531"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -30
+      },
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-NE1-2025-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-NE1-2025"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -30°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다.",
+        "7–10km 거리를 10분 정도 주행하는 원문 표현을 다른 문서의 OR 논리로 일괄 치환하지 않는다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/NE1/2025/ko_KR",
+          "documentSha256": "7c92b1e3b1326d6811340e664111897fc66f23b6ae96788e2d76e6f99eb30725",
+          "locator": {
+            "pdfPages1Based": [
+              493,
+              494,
+              495,
+              496,
+              497,
+              498,
+              499,
+              500,
+              501,
+              502,
+              503,
+              504
+            ]
+          },
+          "passageSha256": "f78339dd520682e9aff048cabf1685b74ba834d0881ef3eb23e300327d1d610c"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -30
+      },
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-CE1-2025-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-CE1-2025"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -30°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/CE1/2025/ko_KR",
+          "documentSha256": "778bd9cd9ba17bbe2fb8991499309d9dd22d8658fc5eb42d9c6aa673dac44335",
+          "locator": {
+            "pdfPages1Based": [
+              509,
+              510,
+              511,
+              512,
+              513,
+              514,
+              515,
+              516,
+              517,
+              518,
+              519,
+              520
+            ]
+          },
+          "passageSha256": "37006e1163e76f8bdd65088332bd637000ce7ac8e392b9316747ff022149be82"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -30
+      },
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-ME-2027-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-ME-2027"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -30°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/ME/2027/ko_KR",
+          "documentSha256": "527ba63f2d0106dc41775de2fb7e35b342f43ec8f88e606c7dd814cb44520fd0",
+          "locator": {
+            "pdfPages1Based": [
+              567,
+              568,
+              569,
+              570,
+              571,
+              572,
+              573,
+              574,
+              575,
+              576,
+              577,
+              578
+            ]
+          },
+          "passageSha256": "a3b38e91423cf82e3a1f711348ab6b05823c17b633bc02aefd638cf2ee42e3e7"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -30
+      },
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-AXEV-2027-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-AXEV-2027"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -30°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/AXEV/2027/ko_KR",
+          "documentSha256": "aa1465589f86265c261fafb3c17c81eeac574c7bb7f7e60ab248715ebcfb8a96",
+          "locator": {
+            "pdfPages1Based": [
+              409,
+              410,
+              411,
+              412,
+              413,
+              414,
+              415,
+              416,
+              417,
+              418,
+              419,
+              420
+            ]
+          },
+          "passageSha256": "ddd46775c141a52a66a2932baa59b780ff5787a322ba4959f331d03b8c53edb1"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -30
+      },
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-SX2EV-2025-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-SX2EV-2025"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -40°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/SX2EV/2025/ko_KR",
+          "documentSha256": "5adf6f2b7662d46b226ce357cd40341eb7e07392b5236fe5f46a5c804b28d549",
+          "locator": {
+            "pdfPages1Based": [
+              628,
+              629,
+              630,
+              631,
+              632,
+              633,
+              634,
+              635,
+              636,
+              637,
+              638
+            ]
+          },
+          "passageSha256": "fd7e7b3c749d6d8442c38f11043eeec2dae82c8103ef8c589bb15edd990f24b2"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -40
+      },
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-DN8-2026-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-DN8-2026"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -40°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/DN8/2026/ko_KR",
+          "documentSha256": "f83f44abcf8f59c30fa4d0b0b419a8e7aaca54da7d6f5c5fc9b3f83cab650e23",
+          "locator": {
+            "pdfPages1Based": [
+              435,
+              436,
+              437,
+              438,
+              439,
+              440,
+              441
+            ]
+          },
+          "passageSha256": "6466439a0fd022f0801681b8c4a5407daa12a14dc8a35164b08d48829390fa88"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -40
+      },
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-DN8HEV-2026-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-DN8HEV-2026"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -40°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/DN8HEV/2026/ko_KR",
+          "documentSha256": "5843551877e8a3279e67ca5830f64df2f7ac8cb0bbb4020f3415cd0e11dd3158",
+          "locator": {
+            "pdfPages1Based": [
+              461,
+              462,
+              463,
+              464,
+              465,
+              466,
+              467
+            ]
+          },
+          "passageSha256": "87fa069ac27dc408712073cec0947ac5e9b19c071f9c2ad4c3ff9f41ec24cf56"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -40
+      },
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-DN8c-2025-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-DN8c-2025"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -40°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/DN8c/2025/ko_KR",
+          "documentSha256": "ebd8b03c59aa7f37640f2b8150f96fe7da75191ee907550a56547b647ebc7e2c",
+          "locator": {
+            "pdfPages1Based": [
+              315,
+              316,
+              317,
+              318,
+              319,
+              320,
+              321,
+              322,
+              323
+            ]
+          },
+          "passageSha256": "924e2dac64ccca046256d71ac6dc152ab1e6f4a17c94361060b934518d70629b"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -40
+      },
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-US4-2026-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-US4-2026"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -30°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/US4/2026/ko_KR",
+          "documentSha256": "7627c80a2708e9918b9dca6227f383ddfb3f09c02c824ea69563a97780083519",
+          "locator": {
+            "pdfPages1Based": [
+              433,
+              434,
+              435,
+              436,
+              437,
+              438,
+              439,
+              440,
+              441,
+              442,
+              443,
+              444,
+              445,
+              446,
+              447,
+              448,
+              449,
+              450,
+              451,
+              452,
+              453,
+              454,
+              455
+            ]
+          },
+          "passageSha256": "77929f6aad7dd4e4c9a74ac215c64aa8de2a914c49960c3bdf0bc915cc229ec9"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -30
+      },
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-US4HEV-2026-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-US4HEV-2026"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -30°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/US4HEV/2026/ko_KR",
+          "documentSha256": "393da16edb0b1e48d9fcf58aae0e37691f1ba26fa6cc53e5108d5566b9fd91f3",
+          "locator": {
+            "pdfPages1Based": [
+              470,
+              471,
+              472,
+              473,
+              474,
+              475,
+              476,
+              477,
+              478,
+              479,
+              480,
+              481,
+              482,
+              483,
+              484,
+              485,
+              486,
+              487,
+              488,
+              489,
+              490,
+              491
+            ]
+          },
+          "passageSha256": "c3b6d2baf1ea2a3c3c83e123b3b028045afec87fad6948c21b4b3ac759e2e30e"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -30
+      },
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-MX5-2026-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-MX5-2026"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -40°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/MX5/2026/ko_KR",
+          "documentSha256": "5cf84f7e7f709383d711b7450321dde6c9a63e98b307649b366915f57eacece6",
+          "locator": {
+            "pdfPages1Based": [
+              640,
+              641,
+              642,
+              643,
+              644,
+              645,
+              646,
+              647,
+              648,
+              649
+            ]
+          },
+          "passageSha256": "e75a4ccf11a715c2b6059b7d94b54c4b1ea8ac4b54b8e9f213a11a7d9fd87b42"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -40
+      },
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-MX5HEV-2026-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-MX5HEV-2026"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -40°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/MX5HEV/2026/ko_KR",
+          "documentSha256": "8fef11ef06a5ec675868b54b00b49b40de6bd4445f9f123fd0b4f6e0c5daad1b",
+          "locator": {
+            "pdfPages1Based": [
+              674,
+              675,
+              676,
+              677,
+              678,
+              679,
+              680,
+              681,
+              682,
+              683
+            ]
+          },
+          "passageSha256": "97c391bc95f0e0bcfec7d3955d34ee06c977c379a955e13768c662a381e05f5d"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -40
+      },
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-AX-2027-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-AX-2027"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -30°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/AX/2027/ko_KR",
+          "documentSha256": "f38683b42a7f71269b87ec96b1fb0a1ac20811e2a2330af22b9bc633f8a593e5",
+          "locator": {
+            "pdfPages1Based": [
+              317,
+              318,
+              319,
+              320,
+              321,
+              322,
+              323,
+              324,
+              325,
+              326,
+              327,
+              328,
+              329,
+              330,
+              331
+            ]
+          },
+          "passageSha256": "8d967339bfd12bc989d44f1e3dd94468c3cd3b31b183248ea612fd7738d7c0b6"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -30
+      },
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-SX2-2027-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-SX2-2027"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -40°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/SX2/2027/ko_KR",
+          "documentSha256": "bcf895c9dbbcb59d64275175141e76958d3ad2ac65412ae18a9b658550938126",
+          "locator": {
+            "pdfPages1Based": [
+              614,
+              615,
+              616,
+              617,
+              618,
+              619,
+              620,
+              621,
+              622,
+              623,
+              624
+            ]
+          },
+          "passageSha256": "d2370026c8c371f09b1b15c6b6c91073e8da634e3a2be854b928acf063d2ffa8"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -40
+      },
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-SX2HEV-2027-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-SX2HEV-2027"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -40°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/SX2HEV/2027/ko_KR",
+          "documentSha256": "7a56521c4225093eba2421e74f789a81d2199cd9849eb68d711c55993d436bbe",
+          "locator": {
+            "pdfPages1Based": [
+              619,
+              620,
+              621,
+              622,
+              623,
+              624,
+              625,
+              626,
+              627,
+              628,
+              629
+            ]
+          },
+          "passageSha256": "8fe38f49a38ea5ff0fed7ef0098ec2b37d7217bc117f61b823ec09bbd5e0eb3a"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -40
+      },
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-LX3-2027-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-LX3-2027"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -30°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/LX3/2027/ko_KR",
+          "documentSha256": "a77d7fb6b8c3520ff178ee21f616f403416395e04cd907638f141cb62e6e86d5",
+          "locator": {
+            "pdfPages1Based": [
+              501,
+              502,
+              503,
+              504,
+              505,
+              506,
+              507,
+              508,
+              509,
+              510,
+              511,
+              512,
+              513,
+              514,
+              515,
+              516
+            ]
+          },
+          "passageSha256": "7ab36c93f7c7721944f24423315edcb873c64c00017c43eeed5735e0971fb246"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -30
+      },
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-LX3HEV-2027-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-LX3HEV-2027"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -30°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/LX3HEV/2027/ko_KR",
+          "documentSha256": "718aba1cf5613a13fb9ce501f8ecb20d9bf3b81c0c6a87e976f76d2925dbcc3f",
+          "locator": {
+            "pdfPages1Based": [
+              517,
+              518,
+              519,
+              520,
+              521,
+              522,
+              523,
+              524,
+              525,
+              526,
+              527,
+              528,
+              529,
+              530
+            ]
+          },
+          "passageSha256": "20a721f57cdfe5a1e17edd39276d70998ad8cec0cfb34a7d6eb9eb92859d7137"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -30
+      },
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-CN7N-2026-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-CN7N-2026"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -30°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/CN7N/2026/ko_KR",
+          "documentSha256": "02bf55203560b31d51bb9d963b8c04ca9842499c7f60bfc1b5296f31f995b22f",
+          "locator": {
+            "pdfPages1Based": [
+              369,
+              370,
+              371,
+              372,
+              373,
+              374,
+              375
+            ]
+          },
+          "passageSha256": "42255ec35f9873754a972de619ecb846011bd3d7e3145521a3364d65d42a967b"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -30
+      },
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-NE1N-2026-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-NE1N-2026"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -40°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/NE1N/2026/ko_KR",
+          "documentSha256": "ba7440607e52d5b77f602965a999550da011260e0de50d4dab113f23a92af977",
+          "locator": {
+            "pdfPages1Based": [
+              704,
+              705,
+              706,
+              707,
+              708,
+              709,
+              710,
+              711,
+              712,
+              713
+            ]
+          },
+          "passageSha256": "993c9c832107af6616633fd06fdc04be5d6e274e351459f34ec65215d2cc55e9"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -40
+      },
+      "modelSpecificConditions": [
+        "휠 너트 18–20kgf·m. 다른 차종의 11–13 값을 전이하지 않는다."
+      ],
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-CE1N-2025-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-CE1N-2025"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -30°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/CE1N/2025/ko_KR",
+          "documentSha256": "7f8ff59e884beca0ec6dab769448762b53ea1be3a23d523de4ff8d1943d2e416",
+          "locator": {
+            "pdfPages1Based": [
+              503,
+              504,
+              505,
+              506,
+              507,
+              508,
+              509,
+              510,
+              511,
+              512,
+              513,
+              514
+            ]
+          },
+          "passageSha256": "fe8aa743b985c38d61a00ae76237e4e1413fd8338cb4b89e490f03142e6a09e3"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -30
+      },
+      "modelSpecificConditions": [
+        "휠 너트 18–20kgf·m. 다른 차종의 11–13 값을 전이하지 않는다."
+      ],
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-QX-2027-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-QX-2027"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 29psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다."
+      ],
+      "driverProhibitions": [
+        "6mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -30°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/QX/2027/ko_KR",
+          "documentSha256": "8c2a0e72b60e91160b14b029bdad7b2c019809c5ca4c91b24435bf62badb6b1b",
+          "locator": {
+            "pdfPages1Based": [
+              334,
+              335,
+              336,
+              337,
+              338,
+              339
+            ]
+          },
+          "passageSha256": "aee1d46d0ea81cebef1913ab11bfbffc25f2be89e3ad31790729f1e0df9e4bfa"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 29,
+        "damageNotRepairableAtOrAboveMm": 6,
+        "temperatureNoUseAtOrBelowC": -30
+      },
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-HR-2026-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-HR-2026"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 42psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다.",
+        "1톤 2WD 후륜은 손상 타이어를 임시 탈거해야 한다. 전원 OFF, 평지·주차브레이크·대각선 고임목·전원 OFF를 유지하고 지정 잭 지점에만 설치한다. 승객을 내리고 최소 높이만 든다. 접촉면 청소 후 휠을 맞추고 대각선 순서로 2–3회에 나누어 15–20kgf·m로 체결한다. 약 1,000km 후 풀림을 재점검한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -30°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다.",
+        "잭으로 든 상태에서 시동·하부 진입·흔들기 금지. 잭 최대 하중 초과 금지. 잭 녹색 정지 마크가 보이면 더 올리지 않는다. 내릴 때 밸브를 2회 이상 풀지 않는다.",
+        "휠 볼트/너트에 오일 도포, 렌치 밟기·파이프 연장 금지."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다.",
+        "TMK 연결은 배터리 +/− 클램프인데 재압력 조정 절에 다용도 소켓 연결 문구가 공존한다. 실제 키트 확인 전 연결 자동 안내 보류.",
+        "기온 -30°C 이상 허용 문구와 -30°C 이하 금지가 함께 있어 경계값 자동 판단 보류."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HR/2026/ko_KR",
+          "documentSha256": "ff0d2aeb0ff0bd775c13c60dfd516d50b044319650277ca87270b73aae024b78",
+          "locator": {
+            "pdfPages1Based": [
+              265,
+              266,
+              267,
+              268,
+              269,
+              270,
+              271,
+              272,
+              273,
+              274,
+              275,
+              276,
+              277,
+              278,
+              279,
+              280,
+              281,
+              282
+            ]
+          },
+          "passageSha256": "b7e93f1cd3de4b702499851e9bc21642b605ede7bcbffc813ce4265ff4f2f1bb"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 42,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -30
+      },
+      "sourceAmbiguities": [
+        "TMK 전원 연결 방식의 문맥 불일치",
+        "영하 30도 경계 포함 여부"
+      ],
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    },
+    {
+      "ruleId": "HY-REF-HREV-2026-TIRE_REPAIR",
+      "documentIds": [
+        "HYUNDAI-HREV-2026"
+      ],
+      "topic": "TIRE_REPAIR",
+      "conditions": [
+        "장착된 해당 차량용 TMK로 트레드의 작은 펑크만 임시 수리한다. 측면·심한 손상은 수리 대상이 아니다."
+      ],
+      "orderedActions": [
+        "안전하고 단단한 평지에 세우고 주차브레이크를 체결한다. 키트 설명서·유효기간을 확인하고 속도 제한 라벨을 잘 보이는 곳에 붙인다.",
+        "컴프레서를 끈 상태에서 봉합제와 호스를 정확히 고정하고, 해당 키트의 전원 연결 그림과 순서에 따라 연결한다. 시동 상태에서 규정 공기압까지 약 5–7분 주입한다.",
+        "압력이 42psi 이하이면 출발하지 않는다. 충족되면 컴프레서를 끄고 호스·전원을 분리하여 보관한다.",
+        "봉합제 분배는 해당 문서의 20km/h 이상, 7–10km 또는 약 10분 조건을 확인한다. 최대 80km/h를 지키고 이상 진동·소음·거친 주행이면 감속하여 안전 정차 후 견인 점검한다.",
+        "안전 정차 후 봉합제를 연결하지 않고 직접 호스로 공기압을 재측정·조정한다. 측정 시 컴프레서를 끈다. 규정 공기압이 유지되지 않으면 운행을 중단하고 서비스/견인을 요청한다.",
+        "임시 수리 후 200km 이내 정비소에서 타이어를 점검/교체한다. 센서와 휠의 잔여 봉합제를 제거하고 사용한 용기·주입 호스는 교환한다.",
+        "1톤 2WD 후륜은 손상 타이어를 임시 탈거해야 한다. 전원 OFF, 평지·주차브레이크·대각선 고임목·전원 OFF를 유지하고 지정 잭 지점에만 설치한다. 승객을 내리고 최소 높이만 든다. 접촉면 청소 후 휠을 맞추고 대각선 순서로 2–3회에 나누어 15–20kgf·m로 체결한다. 약 1,000km 후 풀림을 재점검한다."
+      ],
+      "driverProhibitions": [
+        "4mm 이상 손상·측면 손상에 TMK 사용 금지.",
+        "주변 기온 -30°C 이하 사용 금지 문구를 보존한다.",
+        "컴프레서를 10분 이상 계속 작동하지 않는다. 박힌 못을 임의로 뽑지 않으며 사용 중 키트를 방치하지 않는다.",
+        "실런트를 먹거나 눈·피부에 닿게 하지 않고 어린이에게 노출하지 않는다.",
+        "압력만 조절할 때 봉합제를 사용하지 않는다.",
+        "잭으로 든 상태에서 시동·하부 진입·흔들기 금지. 잭 최대 하중 초과 금지. 잭 녹색 정지 마크가 보이면 더 올리지 않는다. 내릴 때 밸브를 2회 이상 풀지 않는다.",
+        "휠 볼트/너트에 오일 도포, 렌치 밟기·파이프 연장 금지."
+      ],
+      "applicationConstraints": [
+        "요약은 실제 연결 그림/타이어 규격을 대체하지 않는다. 차종·연식·키트 A/B 사양·타이어 크기·전원 방식 확인이 필요하다.",
+        "재분배 주행 문구가 있어도 저압 주행 금지 및 규정 압력 미유지 운행 중단 조건을 지우지 않는다.",
+        "치료 처방은 이 정비 자료에서 자동 생성하지 않는다. 봉합제 노출 응급 지침은 제품 안내와 전문 의료 조언 대상으로 분리한다.",
+        "TMK 연결은 배터리 +/− 클램프인데 재압력 조정 절에 다용도 소켓 연결 문구가 공존한다. 실제 키트 확인 전 연결 자동 안내 보류.",
+        "기온 -30°C 이상 허용 문구와 -30°C 이하 금지가 함께 있어 경계값 자동 판단 보류.",
+        "EV 타이어 교환 절의 엔진/수동 1단 문구는 실제 차량 적용성이 의심되어 전이 금지."
+      ],
+      "restartCriteria": null,
+      "sources": [
+        {
+          "url": "https://ownersmanual.hyundai.com/full_pdf/HREV/2026/ko_KR",
+          "documentSha256": "5a1c574677a6029a87996732c6c0eed0819650601c08a2a02385c0d9728e4432",
+          "locator": {
+            "pdfPages1Based": [
+              233,
+              234,
+              235,
+              236,
+              237,
+              238,
+              239,
+              240,
+              241,
+              242,
+              243,
+              244,
+              245
+            ]
+          },
+          "passageSha256": "02b427a7b716b65c8a45f405c828bb1492a10a14d4f98c3c6439c8ca5ed4fb81"
+        }
+      ],
+      "reviewStatus": "SOURCE_REVIEWED",
+      "reviewer": "AI",
+      "reviewMethod": "All 826 unique exact-normalized source sentences and document associations directly read; QX/HR/HREV complete page sequences additionally read; high-risk Porter/ST1/Staria EV diagrams visually checked.",
+      "runtimeApproved": false,
+      "expertApproved": false,
+      "structuredEncodingComplete": false,
+      "numericConditions": {
+        "noDriveAtOrBelowPsi": 42,
+        "damageNotRepairableAtOrAboveMm": 4,
+        "temperatureNoUseAtOrBelowC": -30
+      },
+      "sourceAmbiguities": [
+        "TMK 전원 연결 방식의 문맥 불일치",
+        "영하 30도 경계 포함 여부"
+      ],
+      "requiredContext": [
+        "modelCode",
+        "modelYear",
+        "powertrain",
+        "TMKType",
+        "tireSize",
+        "vehiclePressureLabel",
+        "damageLocation",
+        "damageSize",
+        "actualPressure",
+        "ambientTemperature"
+      ]
+    }
+  ],
+  "readingLedger": {
+    "uniqueSourceSentencesRead": 826,
+    "allUnitIndicesRead": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419,
+      420,
+      421,
+      422,
+      423,
+      424,
+      425,
+      426,
+      427,
+      428,
+      429,
+      430,
+      431,
+      432,
+      433,
+      434,
+      435,
+      436,
+      437,
+      438,
+      439,
+      440,
+      441,
+      442,
+      443,
+      444,
+      445,
+      446,
+      447,
+      448,
+      449,
+      450,
+      451,
+      452,
+      453,
+      454,
+      455,
+      456,
+      457,
+      458,
+      459,
+      460,
+      461,
+      462,
+      463,
+      464,
+      465,
+      466,
+      467,
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486,
+      487,
+      488,
+      489,
+      490,
+      491,
+      492,
+      493,
+      494,
+      495,
+      496,
+      497,
+      498,
+      499,
+      500,
+      501,
+      502,
+      503,
+      504,
+      505,
+      506,
+      507,
+      508,
+      509,
+      510,
+      511,
+      512,
+      513,
+      514,
+      515,
+      516,
+      517,
+      518,
+      519,
+      520,
+      521,
+      522,
+      523,
+      524,
+      525,
+      526,
+      527,
+      528,
+      529,
+      530,
+      531,
+      532,
+      533,
+      534,
+      535,
+      536,
+      537,
+      538,
+      539,
+      540,
+      541,
+      542,
+      543,
+      544,
+      545,
+      546,
+      547,
+      548,
+      549,
+      550,
+      551,
+      552,
+      553,
+      554,
+      555,
+      556,
+      557,
+      558,
+      559,
+      560,
+      561,
+      562,
+      563,
+      564,
+      565,
+      566,
+      567,
+      568,
+      569,
+      570,
+      571,
+      572,
+      573,
+      574,
+      575,
+      576,
+      577,
+      578,
+      579,
+      580,
+      581,
+      582,
+      583,
+      584,
+      585,
+      586,
+      587,
+      588,
+      589,
+      590,
+      591,
+      592,
+      593,
+      594,
+      595,
+      596,
+      597,
+      598,
+      599,
+      600,
+      601,
+      602,
+      603,
+      604,
+      605,
+      606,
+      607,
+      608,
+      609,
+      610,
+      611,
+      612,
+      613,
+      614,
+      615,
+      616,
+      617,
+      618,
+      619,
+      620,
+      621,
+      622,
+      623,
+      624,
+      625,
+      626,
+      627,
+      628,
+      629,
+      630,
+      631,
+      632,
+      633,
+      634,
+      635,
+      636,
+      637,
+      638,
+      639,
+      640,
+      641,
+      642,
+      643,
+      644,
+      645,
+      646,
+      647,
+      648,
+      649,
+      650,
+      651,
+      652,
+      653,
+      654,
+      655,
+      656,
+      657,
+      658,
+      659,
+      660,
+      661,
+      662,
+      663,
+      664,
+      665,
+      666,
+      667,
+      668,
+      669,
+      670,
+      671,
+      672,
+      673,
+      674,
+      675,
+      676,
+      677,
+      678,
+      679,
+      680,
+      681,
+      682,
+      683,
+      684,
+      685,
+      686,
+      687,
+      688,
+      689,
+      690,
+      691,
+      692,
+      693,
+      694,
+      695,
+      696,
+      697,
+      698,
+      699,
+      700,
+      701,
+      702,
+      703,
+      704,
+      705,
+      706,
+      707,
+      708,
+      709,
+      710,
+      711,
+      712,
+      713,
+      714,
+      715,
+      716,
+      717,
+      718,
+      719,
+      720,
+      721,
+      722,
+      723,
+      724,
+      725,
+      726,
+      727,
+      728,
+      729,
+      730,
+      731,
+      732,
+      733,
+      734,
+      735,
+      736,
+      737,
+      738,
+      739,
+      740,
+      741,
+      742,
+      743,
+      744,
+      745,
+      746,
+      747,
+      748,
+      749,
+      750,
+      751,
+      752,
+      753,
+      754,
+      755,
+      756,
+      757,
+      758,
+      759,
+      760,
+      761,
+      762,
+      763,
+      764,
+      765,
+      766,
+      767,
+      768,
+      769,
+      770,
+      771,
+      772,
+      773,
+      774,
+      775,
+      776,
+      777,
+      778,
+      779,
+      780,
+      781,
+      782,
+      783,
+      784,
+      785,
+      786,
+      787,
+      788,
+      789,
+      790,
+      791,
+      792,
+      793,
+      794,
+      795,
+      796,
+      797,
+      798,
+      799,
+      800,
+      801,
+      802,
+      803,
+      804,
+      805,
+      806,
+      807,
+      808,
+      809,
+      810,
+      811,
+      812,
+      813,
+      814,
+      815,
+      816,
+      817,
+      818,
+      819,
+      820,
+      821,
+      822,
+      823,
+      824,
+      825
+    ],
+    "sha256": "da7e3cdc57eb96f7ae6c1d7e0fb891a34eb7aead3eb39deadacbba5aa9746ef2",
+    "localPath": ".local\\manual-review\\2026-10-28\\hyundai\\procedures\\tire-repair-sentences.json"
+  },
+  "runtimeApproved": false,
+  "scope": "TMK and explicitly referenced Porter jack/tire removal, not universal roadside towing approval",
+  "finalReadingIndex": "hyundai-source-reading-closure.json"
+}
