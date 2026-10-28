@@ -43,6 +43,60 @@ AGP의 내장 Kotlin 지원을 사용하므로 별도 Kotlin Android 플러그�
 
 ## 실행
 
+### Windows 통합 실행
+
+저장소 루트의 `START.cmd`를 더블클릭하거나 PowerShell에서 실행합니다.
+
+```powershell
+.\scripts\Start-Checkmate.ps1
+```
+
+Pleos AVD와 Android SDK/JDK, uv, Ollama 및 `qwen2.5:7b`가 설치된 환경에서 사용합니다.
+스크립트는 다음 순서로 실행하며, 실패하면 이유를 출력하고 종료 코드 1로 끝납니다.
+
+1. 지정한 AVD를 재사용하거나 실행하고 부팅 완료를 기다립니다.
+2. `uv sync --locked`로 백엔드 의존성을 준비하고 Ollama 모델 설치 여부를 확인합니다.
+3. 정상 CHECKMATE 서버가 있으면 재사용하고, 없으면 localhost:8000에 실행합니다.
+4. 웹 콘솔의 `adb forward`와 앱 서버 연결의 `adb reverse`를 설정합니다.
+5. debug APK를 빌드하고 `install -r`로 기존 앱 데이터를 보존해 설치한 뒤 실행합니다.
+6. 웹 콘솔·API 응답과 앱 프로세스를 확인한 후에만 `READY`와 주소를 출력합니다.
+
+```powershell
+# 이미 빌드한 APK로 빠르게 실행 (코드 변경을 반영하려면 이 옵션을 빼세요)
+.\scripts\Start-Checkmate.ps1 -SkipBuild
+
+# 서비스를 시작하거나 포트를 수정하지 않고 실행 상태만 점검
+.\scripts\Start-Checkmate.ps1 -CheckOnly
+
+# 다른 Pleos AVD 이름이나 SDK 위치를 사용하는 경우
+.\scripts\Start-Checkmate.ps1 -AvdName MyPleos -SdkPath 'D:\Android\Sdk'
+
+# Ollama 없이 검토된 근거 요약으로 새 백엔드 시작
+.\scripts\Start-Checkmate.ps1 -GenerationMode reviewed
+```
+
+기본 AVD는 `Checkmate_Pleos_API_34`, SDK는 `%LOCALAPPDATA%\Android\Sdk`,
+JDK는 Android Studio의 `jbr`입니다. JDK 경로는 `-JavaHome`으로 변경합니다.
+AVD나 모델을 자동 다운로드하지 않으며, 없으면 설치할 항목을 안내합니다.
+새 백엔드는 `-GenerationMode`와 `-OllamaModel`로 설정합니다. 기존 서버는 실행 중인 설정을
+유지하며, 생성 모드가 다르면 재시작 안내 후 중단합니다. 기존 서버의 모델을 변경하려면
+그 서버를 명시적으로 종료한 후 다시 실행해야 합니다.
+
+다른 서비스나 장치가 쓰는 포트 연결을 덮어쓰거나 프로세스를 강제 종료하지 않습니다.
+직접 시작한 백엔드·Ollama는 숨김 실행하고 Pleos 창은 표시합니다.
+로그는 Git에서 제외되는 `.local/logs/`에 저장합니다. `READY`는 실행 환경 점검 결과이며,
+AI 답변 생성 성공이나 화면의 시각 검증을 뜻하지 않습니다.
+
+2026-10-27 실행 스크립트 검증:
+
+- 실행 중인 Pleos·서버 재사용, Gradle debug 빌드, APK 재설치·MainActivity 실행 성공.
+- 개발용 Pleos·백엔드를 종료한 상태에서 `-SkipBuild`로 부팅·서버 시작·연결·앱 실행 성공.
+- 8088 forward와 8000 reverse를 제거하면 `-CheckOnly`가 실패하고, 실행 명령으로 복구됨.
+- 생성 모드 불일치 시 기존 서버 PID를 유지한 채 종료 코드 1 반환. 없는 AVD 점검도 실패로 처리.
+- 최종 점검에서 웹 콘솔·API 문서 HTTP 200, 앱 프로세스 실행 확인. 창 클릭·시각 검증은 미완료.
+
+### Android Studio 실행
+
 1. Android Studio에서 이 저장소의 **`android` 폴더**를 엽니다.
 2. Gradle JDK를 Android Studio 내장 JDK로 지정하고 Gradle Sync를 실행합니다.
 3. SDK 경로는 Android Studio가 생성하는 `local.properties`에서 관리합니다. Git에 올리지 않습니다.
@@ -353,9 +407,31 @@ Pleos API 34 에뮬레이터에서 실제 Qwen 설명·인용 표시, 로컬 요
 - 실제 Qwen2.5:7b TPMS ON 요청에서 READY / AI_GENERATED, 설명 3개·인용 3개 응답을
   확인했습니다(45.38초, 첫 요청은 타임아웃). 이 결과는 지연 시간 보장이 아닙니다.
 
-화면에서는 기간 전환·새로고침·
-기록 없는 기간·주행 제한 후 복귀를 확인해야 합니다. 이전 버전의 에뮬레이터 검증 결과를
-새 요약 화면의 실기 검증으로 간주하지 않습니다.
+2026-10-28 추가 검증 (앱 0.5.0, Pleos Connect 2.1.0 / API 34):
+
+- 이번에는 UI 조작이 가능해 `현재 경고 → 이력 → 정비 전달용 요약`을 실제 화면에서 확인했습니다.
+  오늘·최근 7일·최근 30일 선택, 본문 줄바꿈, 스크롤과 마지막 안내 문구를 확인했습니다.
+  날짜는 에뮬레이터의 `America/Los_Angeles` 시간대 기준입니다.
+- Virtual Console API로 TPMS ON → BLINK → OFF → ON을 입력하고 SDK 수신 화면과 실제 Room
+  데이터베이스를 대조했습니다. 각각 재관측·상태 변경·목록 제외·재관측으로 저장됐으며,
+  동일 ON을 두 번 더 입력해도 기록 수가 증가하지 않았습니다. DB 무결성 검사도 통과했습니다.
+- 새 기록 저장 후 요약 새로고침으로 전체 20개 → 21개 반영을 확인했습니다.
+  OFF는 `제외 전 기록 상태 BLINK · 목록 제외 관측`으로 표시되고 수리 완료로 표현되지 않았습니다.
+- 30일 요약을 연 상태에서 D / 20km/h를 입력하면 Pleos의 `주행 중에는 사용할 수 없습니다`
+  화면으로 차단됐습니다. P / 0km/h 복귀 후 30일 선택을 유지하고 조회 시각이 갱신됐습니다.
+  조회 완료와 제한 전환 사이의 경쟁 조건은 기존 SummaryPresenter 단위 테스트로 검증합니다.
+- 별도 `Checkmate_Verification_Empty_API_34` AVD에서 기존 사용자 데이터와 분리해 빈 이력을
+  확인했습니다. DB 0건과 화면의 전체 변화 0개·경고 종류 0개·상세 0개가 일치하며,
+  `선택 기간에 저장된 경고 변화 기록이 없습니다. 차량 정상 여부를 뜻하지 않습니다.`가 표시됐습니다.
+- 기존 AVD를 종료·재부팅한 뒤 이전 이력 22개를 모든 필드로 비교해 동일함을 확인했습니다.
+  재시작에 따른 관측 공백 2개가 추가됐고 기존 기록은 보존됐습니다. 마지막에는 기존 AVD와 앱을
+  다시 실행하고 P / 0km/h / TPMS OFF, 콘솔·API 응답과 앱 프로세스를 확인했습니다.
+- 백엔드 테스트 27개를 다시 실행해 통과했습니다. Starlette/httpx 사용 중단 예정 경고 1개가 있으며
+  실패는 없습니다. 앞서 완료한 Android 단위 테스트 31개, Room 통합 테스트 3개 및 빌드·Lint 결과와
+  이번 UI 검증을 구분해 기록합니다. 앱 소스 변경 없이 화면 검증을 보완했습니다.
+
+위 결과는 에뮬레이터의 기능 검증입니다. 실차 검증이나 전체 자동차 매뉴얼에 대한 검색·답변
+품질 검증은 포함하지 않습니다. 현재 근거는 검토 요약 3개이며 임베딩·벡터 검색은 아직 없습니다.
 
 실행 중인 로컬 서비스 주소:
 
