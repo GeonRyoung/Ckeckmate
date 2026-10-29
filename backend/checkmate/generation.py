@@ -9,6 +9,7 @@ from pydantic import Field
 
 from .catalog import Chunk
 from .contracts import Contract, ExplanationRequest, Section, Status
+from .graph import AnswerRejected
 from .retrieval import LexicalRanker, OllamaEmbeddingRanker
 from .service import ExplanationService
 
@@ -97,12 +98,13 @@ class GeneratingService(ExplanationService):
 
     def compose(self, req, chunks, revision):
         response = super().compose(req, chunks, revision)
+        # Provider errors propagate to the graph, which answers TEMPORARILY_UNAVAILABLE without
+        # exposing request bodies, provider errors or an unvalidated partial answer.
+        output = self.generator.generate(req, chunks)
         try:
-            output = self.generator.generate(req, chunks)
             validate_generated(output, chunks)
-        except (httpx.HTTPError, ValueError, KeyError, TypeError):
-            # Never expose request bodies, provider errors or an unvalidated partial answer.
-            return self.failure(req, Status.TEMPORARILY_UNAVAILABLE)
+        except ValueError as error:
+            raise AnswerRejected(str(error)) from error
         response.sections = output.sections
         response.mode = "AI_GENERATED"
         response.versions.prompt = PROMPT_VERSION

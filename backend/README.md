@@ -11,6 +11,28 @@
 공식 원문 전체를 복제한 데이터셋이 아닙니다. 경고별 지원 상태와 한계 안내는 `service.WARNING_SCOPE`에 있습니다.
 빨간 브레이크 경고(`PARKING_BRAKE`)는 브레이크액 부족·브레이크 이상과 겹쳐 아직 지원하지 않습니다.
 
+## 처리 흐름 (LangGraph)
+
+`checkmate/graph.py`가 요청 하나를 LangGraph `StateGraph`로 처리합니다. API 계약과 응답은 그래프 도입 전과 같습니다.
+
+```
+START → check_scope ─(프로필 없음·미지원 프로필/경고/상태)→ END
+            ↓
+         retrieve ─(근거 없음 / 임베딩 서버 오류)→ END
+            ↓
+          answer ⇄ (생성 초안이 검증에 실패하면 1회 재시도, 다시 실패하면 TEMPORARILY_UNAVAILABLE)
+            ↓
+           END
+```
+
+- 각 노드는 `ExplanationService`의 `check_scope`·`find_evidence`·`answer`만 호출합니다. 프로필·경고 필터,
+  상태 범위, 인용·수치 검증은 기존 코드 그대로입니다. 그래프 상태의 `trace`로 지나간 경로를 확인할 수 있습니다.
+- 재시도는 검증 실패(`AnswerRejected`: 가짜 인용·근거 없는 수치·근거 누락)일 때만 합니다.
+  모델 시간 초과·통신 오류는 다시 시도해도 대기만 늘어나므로 바로 종료합니다.
+- 벡터 DB와 LangChain 검색기 래퍼는 쓰지 않습니다. 근거가 10개라 메모리 비교로 충분하고(질문당 0.1~2.6초,
+  그래프 자체 부하 약 2.7ms), 근거가 수천 개로 늘면 `QuestionRanker`를 벡터 DB 구현으로 교체합니다.
+  LangGraph가 의존하는 `langchain-core`만 설치됩니다.
+
 ## 데이터와 API 계약
 
 - `checkmate/contracts.py`: 요청·응답의 Pydantic 계약. 자유 질문·위치·VIN·이력·메모를 받지 않습니다.

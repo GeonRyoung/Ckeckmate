@@ -1,6 +1,6 @@
 import httpx
 
-from .catalog import Catalog, Chunk, load_catalog
+from .catalog import Catalog, Chunk, Profile, load_catalog
 from .contracts import Citation, ExplanationRequest, ExplanationResponse, Section, Status, Versions
 from .retrieval import LexicalRanker, QuestionRanker
 
@@ -63,29 +63,41 @@ class ExplanationService:
             status=status, message=MESSAGES[status], limitations=limitations(req.warning.type),
             versions=Versions(index=self.catalog.indexVersion))
 
+    retrieval_errors = (httpx.HTTPError, ValueError, KeyError, TypeError)
+    answer_errors = (httpx.HTTPError, ValueError, KeyError, TypeError)
+
+    @property
+    def graph(self):
+        if not hasattr(self, "_graph"):
+            from .graph import build_graph
+            self._graph = build_graph(self)
+        return self._graph
+
     def explain(self, req: ExplanationRequest) -> ExplanationResponse:
+        return self.graph.invoke({"req": req})["response"]
+
+    def check_scope(self, req: ExplanationRequest) -> tuple[Profile | None, Status | None]:
         if req.profileId is None:
-            return self.failure(req, Status.PROFILE_REQUIRED)
+            return None, Status.PROFILE_REQUIRED
         profile = next((p for p in self.catalog.profiles if p.id == req.profileId), None)
         if profile is None:
-            return self.failure(req, Status.PROFILE_UNSUPPORTED)
+            return None, Status.PROFILE_UNSUPPORTED
         if req.warning.type not in profile.supportedWarnings:
-            return self.failure(req, Status.WARNING_UNSUPPORTED)
+            return None, Status.WARNING_UNSUPPORTED
         if req.warning.rawState not in WARNING_SCOPE.get(req.warning.type, (set(), []))[0]:
-            return self.failure(req, Status.STATE_UNSUPPORTED)
+            return None, Status.STATE_UNSUPPORTED
+        return profile, None
+
+    def find_evidence(self, req: ExplanationRequest, profile: Profile) -> list[Chunk]:
         if req.intent == "QUESTION":
             pool = candidates(self.catalog, profile.id, req.warning.type)
-            try:
-                # Ranking order is kept: the most relevant reviewed evidence comes first.
-                chunks = self.ranker.rank(req.question, pool)[:QUESTION_TOP_K] if pool else []
-            except (httpx.HTTPError, ValueError, KeyError, TypeError):
-                return self.failure(req, Status.TEMPORARILY_UNAVAILABLE)
-        else:
-            chunks = retrieve(self.catalog, profile.id, req.warning.type)
-            # The first overview uses the same reviewed evidence for ON and BLINK, not a diagnosis.
-            chunks.sort(key=lambda c: (c.kind != "MEANING", c.id))
-        if not chunks:
-            return self.failure(req, Status.NO_EVIDENCE)
+            # Ranking order is kept: the most relevant reviewed evidence comes first.
+            return self.ranker.rank(req.question, pool)[:QUESTION_TOP_K] if pool else []
+        chunks = retrieve(self.catalog, profile.id, req.warning.type)
+        # The first overview uses the same reviewed evidence for ON and BLINK, not a diagnosis.
+        return sorted(chunks, key=lambda c: (c.kind != "MEANING", c.id))
+
+    def answer(self, req: ExplanationRequest, profile: Profile, chunks: list[Chunk]) -> ExplanationResponse:
         doc = next(d for d in self.catalog.documents if d.id == profile.documentId)
         return self.compose(req, chunks, doc.revision)
 
