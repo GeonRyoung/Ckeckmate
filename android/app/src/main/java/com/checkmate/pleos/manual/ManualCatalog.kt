@@ -37,7 +37,8 @@ object ManualCatalog {
         checkedOn = "2026-10-28",
         source = ManualSource(
             documentTitle = "2025 아이오닉 5 취급설명서",
-            section = "타이어 공기압 경보 시스템 (TPMS) · PDF 138, 493–496쪽",
+            // Each guide narrows this to its own section and pages.
+            section = "TPMS · 전자식 주차 브레이크 (EPB) · PDF 138, 331–333, 493–496쪽",
             url = "https://ownersmanual.hyundai.com/full_pdf/NE1/2025/ko_KR",
             contentSha256 = "7c92b1e3b1326d6811340e664111897fc66f23b6ae96788e2d76e6f99eb30725",
         ),

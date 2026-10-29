@@ -15,7 +15,7 @@ from .contracts import ExplanationRequest
 from .retrieval import LexicalRanker
 from .service import candidates
 
-DEFAULT_CASES = Path(__file__).parents[1] / "evals/tpms_ioniq5_2025.json"
+DEFAULT_CASES = Path(__file__).parents[1] / "evals/ioniq5_2025.json"
 
 
 def load_cases(path: Path = DEFAULT_CASES) -> dict:

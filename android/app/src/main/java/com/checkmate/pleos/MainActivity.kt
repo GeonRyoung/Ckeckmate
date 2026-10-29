@@ -15,7 +15,7 @@ import android.content.Intent
 import android.content.ActivityNotFoundException
 import android.net.Uri
 import com.checkmate.pleos.manual.GuideStatus
-import com.checkmate.pleos.manual.TpmsGuide
+import com.checkmate.pleos.manual.ManualGuides
 import com.checkmate.pleos.manual.TpmsSignalMapping
 import android.widget.Button
 import android.widget.TextView
@@ -161,7 +161,7 @@ class MainActivity : AppCompatActivity() {
             val item = selection ?: return@setOnClickListener
             val current = monitor.current.firstOrNull { it.reading.type == item.type }
             val rawState = if (!item.historical && current != null) current.reading.state else item.state
-            val source = TpmsGuide.get(manualPreferences.selectedId, item.type, rawState).source ?: return@setOnClickListener
+            val source = ManualGuides.get(manualPreferences.selectedId, item.type, rawState).source ?: return@setOnClickListener
             try {
                 startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(source.url)))
                 binding.sourceOpenStatus.text = ""
@@ -427,15 +427,16 @@ class MainActivity : AppCompatActivity() {
             clearServerExplanation()
             remoteContext = context
         }
-        val guide = TpmsGuide.get(manualPreferences.selectedId, item.type, state)
-        val pattern = if (guide.status == GuideStatus.READY) "관측 순서 대조\n" + TpmsSignalMapping.describe(state,
+        val guide = ManualGuides.get(manualPreferences.selectedId, item.type, state)
+        // Order matching is defined only for TPMS (blink-then-on); other warnings show none.
+        val pattern = if (guide.status == GuideStatus.READY && item.type == "TPMS") "관측 순서 대조\n" + TpmsSignalMapping.describe(state,
             !item.historical && monitor.isCurrent && current != null, monitor.events).text + "\n\n" else ""
         binding.guideTitle.text = guide.title
         binding.guideBody.text = guide.explanation
         binding.guideLimits.text = pattern + guide.observationLimit
         binding.guideCitation.text = guide.source?.let { source ->
             val profile = manualPreferences.selected!!
-            "출처 · ${source.documentTitle}\n${source.section} — 저압 타이어 감지 / 타이어 공기압 경보 시스템 이상\n" +
+            "출처 · ${source.documentTitle}\n${source.section}\n" +
                 "문서 버전 ${profile.documentRevision} · 확인 ${profile.checkedOn}\n${source.url}"
         }.orEmpty()
         binding.sourceCard.isVisible = guide.source != null

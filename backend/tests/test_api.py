@@ -68,6 +68,22 @@ def test_blink_does_not_change_evidence_into_a_diagnosis():
         assert on["limitations"] == blink["limitations"]
 
 
+def test_epb_overview_uses_only_epb_evidence_and_its_own_limits():
+    with TestClient(create_app()) as client:
+        data = client.post("/v1/explanations", json=payload(type="ELECTRONIC_PARKING_BRAKE")).json()
+        tpms = client.post("/v1/explanations", json=payload()).json()
+    assert data["status"] == "READY"
+    assert [c["id"] for c in data["citations"]][0] == "epb-10-overview"
+    assert all(c["id"].startswith("epb-") for c in data["citations"]) and len(data["citations"]) == 5
+    assert "약 3초" in data["limitations"][0] and data["limitations"] != tpms["limitations"]
+
+
+def test_epb_blink_is_not_described_because_the_manual_only_describes_a_lit_lamp():
+    with TestClient(create_app()) as client:
+        data = client.post("/v1/explanations", json=payload(type="ELECTRONIC_PARKING_BRAKE", state="BLINK")).json()
+    assert data["status"] == "STATE_UNSUPPORTED" and data["sections"] == []
+
+
 def test_extra_fields_are_rejected_by_http_contract():
     with TestClient(create_app()) as client:
         assert client.post("/v1/explanations", json={**payload(), "vin": "private"}).status_code == 422

@@ -50,10 +50,10 @@ def fake_embedder(calls):
 def test_embedding_ranker_orders_by_similarity_and_caches_chunk_vectors():
     calls = []
     ranker = OllamaEmbeddingRanker("bge-m3", "http://ollama", transport=fake_embedder(calls))
-    chunks = load_catalog().chunks
+    chunks = [c for c in load_catalog().chunks if "TPMS" in c.warningTags]
     assert ranker.rank("예비 타이어를 달았어요", chunks)[0].id == "tpms-50-other-causes"
     ranker.rank("예비 타이어", chunks)
-    assert calls == [5, 1, 1]  # chunks embedded once, then only the question
+    assert calls == [len(chunks), 1, 1]  # chunks embedded once, then only the question
 
 
 def test_embedding_failure_is_unavailable_not_a_guess():

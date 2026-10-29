@@ -53,7 +53,8 @@ def test_ollama_request_and_response_contract():
         assert "properties" in body["format"]
         assert body["model"] == "qwen2.5:7b"
         assert len(body["messages"]) == 2
-        output = Stub().generate(request(), load_catalog().chunks)
+        sent = {e["id"] for e in json.loads(body["messages"][1]["content"])["evidence"]}
+        output = Stub().generate(request(), [c for c in load_catalog().chunks if c.id in sent])
         return httpx.Response(200, json={"model": body["model"], "done": True, "done_reason": "stop",
                                        "message": {"content": output.model_dump_json()}})
     service = GeneratingService(OllamaGenerator("qwen2.5:7b", "http://local-test", httpx.MockTransport(handler)))
