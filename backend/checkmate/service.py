@@ -57,6 +57,8 @@ class ExplanationService:
     def __init__(self, catalog: Catalog | None = None, ranker: QuestionRanker | None = None):
         self.catalog = catalog if catalog is not None else load_catalog()
         self.ranker = ranker or LexicalRanker()
+        if hasattr(self.ranker, "bind"):
+            self.ranker.bind(self.catalog)  # index rankers sync against this catalog
 
     def failure(self, req: ExplanationRequest, status: Status) -> ExplanationResponse:
         return ExplanationResponse(requestId=req.requestId, profileId=req.profileId, warning=req.warning,

@@ -2,6 +2,7 @@ import json
 import os
 import re
 import threading
+from pathlib import Path
 from typing import Protocol
 
 import httpx
@@ -10,7 +11,7 @@ from pydantic import Field
 from .catalog import Chunk
 from .contracts import Contract, ExplanationRequest, Section, Status
 from .graph import AnswerRejected
-from .retrieval import LexicalRanker, OllamaEmbeddingRanker
+from .retrieval import LexicalRanker, OllamaEmbedder, OllamaEmbeddingRanker
 from .service import ExplanationService
 
 PROMPT_VERSION = "manual-evidence-ko-v3"
@@ -114,12 +115,21 @@ class GeneratingService(ExplanationService):
 
 def configured_ranker():
     retrieval = os.getenv("CHECKMATE_RETRIEVAL", "lexical")
+    model = os.getenv("OLLAMA_EMBED_MODEL", "bge-m3")
+    base_url = os.getenv("OLLAMA_BASE_URL", "http://127.0.0.1:11434")
     if retrieval == "lexical":
         return LexicalRanker()
-    if retrieval != "embedding":
-        raise ValueError("CHECKMATE_RETRIEVAL must be lexical or embedding")
-    return OllamaEmbeddingRanker(model=os.getenv("OLLAMA_EMBED_MODEL", "bge-m3"),
-        base_url=os.getenv("OLLAMA_BASE_URL", "http://127.0.0.1:11434"))
+    if retrieval == "embedding":
+        return OllamaEmbeddingRanker(model=model, base_url=base_url)
+    if retrieval != "qdrant":
+        raise ValueError("CHECKMATE_RETRIEVAL must be lexical, embedding or qdrant")
+    from qdrant_client import QdrantClient
+    from .vectorstore import QdrantRanker
+    # Local file mode by default; set CHECKMATE_QDRANT_URL to use a Qdrant server instead.
+    url = os.getenv("CHECKMATE_QDRANT_URL")
+    client = QdrantClient(url=url) if url else QdrantClient(
+        path=os.getenv("CHECKMATE_QDRANT_PATH", str(Path(__file__).parents[1] / ".local/qdrant")))
+    return QdrantRanker(OllamaEmbedder(model, base_url), client)
 
 
 def configured_service():

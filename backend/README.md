@@ -29,9 +29,24 @@ START → check_scope ─(프로필 없음·미지원 프로필/경고/상태)�
   상태 범위, 인용·수치 검증은 기존 코드 그대로입니다. 그래프 상태의 `trace`로 지나간 경로를 확인할 수 있습니다.
 - 재시도는 검증 실패(`AnswerRejected`: 가짜 인용·근거 없는 수치·근거 누락)일 때만 합니다.
   모델 시간 초과·통신 오류는 다시 시도해도 대기만 늘어나므로 바로 종료합니다.
-- 벡터 DB와 LangChain 검색기 래퍼는 쓰지 않습니다. 근거가 10개라 메모리 비교로 충분하고(질문당 0.1~2.6초,
-  그래프 자체 부하 약 2.7ms), 근거가 수천 개로 늘면 `QuestionRanker`를 벡터 DB 구현으로 교체합니다.
-  LangGraph가 의존하는 `langchain-core`만 설치됩니다.
+- 그래프 자체 부하는 요청당 약 2.7ms입니다. LangChain 검색기·LLM 래퍼는 쓰지 않고, LangGraph가 의존하는
+  `langchain-core`만 설치됩니다.
+
+## 벡터 DB (Qdrant)
+
+`CHECKMATE_RETRIEVAL=qdrant`이면 질문 검색에 Qdrant(`checkmate/vectorstore.py`)를 씁니다.
+
+- **원본은 `manuals.json`**: Qdrant에는 bge-m3 벡터와 필터용 메타데이터(`chunkId`·`profileId`·`warningTags`·
+  `retrievalApproved`·`textSha256`)만 저장합니다. 운전자에게 보이는 문장은 항상 카탈로그에서 가져오므로
+  색인이 오래되거나 변조돼도 순서만 바뀔 뿐 근거 문장이 바뀌거나 다른 차종 근거가 섞이지 않습니다.
+- **동기화**: 첫 질문 때 카탈로그와 비교해 새로 추가되거나 해시가 바뀐 근거만 임베딩하고, 사라진 근거는 지웁니다.
+  노트북 CPU에서 첫 동기화(모델 로딩 포함) 약 30초, 변경이 없으면 0초입니다.
+- **이중 경계**: Qdrant 필터(근거 ID·프로필·경고·승인)와 서비스의 후보 목록이 모두 맞아야 결과에 포함됩니다.
+  해시가 다른 색인 항목은 맨 뒤로 보냅니다. 색인 오류는 `TEMPORARILY_UNAVAILABLE`입니다.
+- **저장 위치**: 기본은 로컬 파일 `backend/.local/qdrant`(git 제외)이며 컬렉션은 임베딩 모델별
+  (`manual_chunks__bge_m3`)로 나눕니다. 로컬 파일 모드는 **한 프로세스만** 열 수 있으므로 서버 실행 중에는
+  평가 스크립트를 따로 돌릴 수 없습니다. `CHECKMATE_QDRANT_URL`을 주면 Qdrant 서버를 씁니다.
+- 2026-10-30 평가: 메모리 임베딩 검색과 같은 결과(개요 39/39, 질문 39/39, hit@1 0.735, hit@2 0.941).
 
 ## 데이터와 API 계약
 
