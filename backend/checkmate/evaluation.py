@@ -29,6 +29,8 @@ def check_case(service, data: dict, case: dict, intent: str = "WARNING_OVERVIEW"
         question=case["question"] if intent == "QUESTION" else None)
     res = service.explain(req)
     expected = case.get("expectedStatus", "READY")
+    if intent == "QUESTION" and "expectedQuestionStatus" in case:
+        expected = case["expectedQuestionStatus"]
     if res.status != expected:
         return [f"status {res.status} != {expected}"]
     if expected != "READY":
@@ -48,8 +50,12 @@ def check_case(service, data: dict, case: dict, intent: str = "WARNING_OVERVIEW"
     return failures
 
 
+def answerable(case: dict) -> bool:
+    return case.get("expectedStatus", "READY") == "READY" and not case.get("questionOnly")
+
+
 def hit_rates(ranker, catalog, data: dict, ks=(1, 2)) -> dict:
-    ready = [c for c in data["cases"] if c.get("expectedStatus", "READY") == "READY"]
+    ready = [c for c in data["cases"] if answerable(c)]
     hits, misses = {k: 0 for k in ks}, []
     for case in ready:
         pool = candidates(catalog, data["profileId"], case.get("type", "TPMS"))
@@ -65,9 +71,16 @@ def hit_rates(ranker, catalog, data: dict, ks=(1, 2)) -> dict:
 def evaluate(service, data: dict) -> dict:
     report = {"evalVersion": data["evalVersion"], "mode": service.mode}
     for intent in ("WARNING_OVERVIEW", "QUESTION"):
-        results = [{"id": c["id"], "failures": check_case(service, data, c, intent)} for c in data["cases"]]
+        cases = [c for c in data["cases"] if intent == "QUESTION" or not c.get("questionOnly")]
+        results = [{"id": c["id"], "failures": check_case(service, data, c, intent)} for c in cases]
         report[intent] = {"passed": sum(not r["failures"] for r in results), "total": len(results),
                           "failures": [r for r in results if r["failures"]]}
+    failed = {f["id"] for f in report["QUESTION"]["failures"]}
+    off = [c["id"] for c in data["cases"] if c.get("expectedQuestionStatus") == "NO_EVIDENCE"]
+    report["abstention"] = {"minScore": getattr(service.ranker, "min_score", None),
+        "offTopicAbstained": sum(i not in failed for i in off), "offTopicTotal": len(off),
+        "validWronglyAbstained": [f["id"] for f in report["QUESTION"]["failures"]
+                                  if any("NO_EVIDENCE" in x for x in f["failures"])]}
     report["retrieval"] = hit_rates(service.ranker, service.catalog, data)
     report["baseline"] = hit_rates(LexicalRanker(), service.catalog, data)
     return report

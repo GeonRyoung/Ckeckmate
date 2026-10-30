@@ -1,7 +1,7 @@
 {
-  "evalVersion": "ioniq5-2025-tpms-epb-v2",
+  "evalVersion": "ioniq5-2025-tpms-epb-v3",
   "profileId": "hyundai-ioniq5-2025-ev-kr-ko-r1.27",
-  "notes": "relevantChunks는 질문에 답하는 데 필요한 검토 요약 ID. mustInclude는 그룹별로 하나 이상 포함돼야 하는 표현(원문 수치·조건). 문구는 AI 생성에서도 유지돼야 하는 핵심어로 고른다. 전체 응답에 공통 금지 표현(forbidden)을 함께 적용한다. 사례에 type이 없으면 TPMS.",
+  "notes": "relevantChunks는 질문에 답하는 데 필요한 검토 요약 ID. mustInclude는 그룹별로 하나 이상 포함돼야 하는 표현(원문 수치·조건). 문구는 AI 생성에서도 유지돼야 하는 핵심어로 고른다. 전체 응답에 공통 금지 표현(forbidden)을 함께 적용한다. 사례에 type이 없으면 TPMS. questionOnly 사례는 질문 요청에서만 채점하며 expectedQuestionStatus를 기대한다(근거 없음 보류).",
   "forbidden": [
     "고장입니다",
     "고장이 확정",
@@ -545,6 +545,100 @@
       "state": "BLINK",
       "type": "ELECTRONIC_PARKING_BRAKE",
       "expectedStatus": "STATE_UNSUPPORTED"
+    },
+    {
+      "id": "off-wiper",
+      "question": "와이퍼가 안 움직여요",
+      "state": "ON",
+      "expectedQuestionStatus": "NO_EVIDENCE",
+      "questionOnly": true
+    },
+    {
+      "id": "off-aircon",
+      "question": "에어컨에서 냄새가 나요",
+      "state": "ON",
+      "expectedQuestionStatus": "NO_EVIDENCE",
+      "questionOnly": true
+    },
+    {
+      "id": "off-charging-cable",
+      "question": "충전 케이블이 안 빠져요",
+      "state": "ON",
+      "expectedQuestionStatus": "NO_EVIDENCE",
+      "questionOnly": true
+    },
+    {
+      "id": "off-navigation",
+      "question": "내비게이션 업데이트는 어떻게 하나요",
+      "state": "ON",
+      "expectedQuestionStatus": "NO_EVIDENCE",
+      "questionOnly": true
+    },
+    {
+      "id": "off-cross-epb",
+      "question": "주차 브레이크가 안 풀려요",
+      "state": "ON",
+      "expectedQuestionStatus": "NO_EVIDENCE",
+      "questionOnly": true,
+      "note": "EPB 질문을 TPMS 경고에서 물음"
+    },
+    {
+      "id": "off-cross-abs",
+      "question": "급브레이크 밟을 때 페달이 떨려요",
+      "state": "ON",
+      "expectedQuestionStatus": "NO_EVIDENCE",
+      "questionOnly": true,
+      "note": "ABS 문맥, TPMS 근거 없음"
+    },
+    {
+      "id": "epb-off-wiper",
+      "question": "와이퍼가 안 움직여요",
+      "state": "ON",
+      "expectedQuestionStatus": "NO_EVIDENCE",
+      "questionOnly": true,
+      "type": "ELECTRONIC_PARKING_BRAKE"
+    },
+    {
+      "id": "epb-off-seat",
+      "question": "운전석 시트 열선이 안 켜져요",
+      "state": "ON",
+      "expectedQuestionStatus": "NO_EVIDENCE",
+      "questionOnly": true,
+      "type": "ELECTRONIC_PARKING_BRAKE"
+    },
+    {
+      "id": "epb-off-range",
+      "question": "주행 가능 거리가 갑자기 줄었어요",
+      "state": "ON",
+      "expectedQuestionStatus": "NO_EVIDENCE",
+      "questionOnly": true,
+      "type": "ELECTRONIC_PARKING_BRAKE"
+    },
+    {
+      "id": "epb-off-music",
+      "question": "블루투스 음악이 끊겨요",
+      "state": "ON",
+      "expectedQuestionStatus": "NO_EVIDENCE",
+      "questionOnly": true,
+      "type": "ELECTRONIC_PARKING_BRAKE"
+    },
+    {
+      "id": "epb-off-cross-tpms",
+      "question": "타이어 공기압은 얼마로 맞춰야 하나요",
+      "state": "ON",
+      "expectedQuestionStatus": "NO_EVIDENCE",
+      "questionOnly": true,
+      "type": "ELECTRONIC_PARKING_BRAKE",
+      "note": "TPMS 질문을 EPB 경고에서 물음"
+    },
+    {
+      "id": "epb-off-cross-spare",
+      "question": "예비 타이어로 바꿨어요",
+      "state": "ON",
+      "expectedQuestionStatus": "NO_EVIDENCE",
+      "questionOnly": true,
+      "type": "ELECTRONIC_PARKING_BRAKE",
+      "note": "TPMS 문맥, EPB 근거 없음"
     }
   ]
 }

@@ -29,6 +29,8 @@ MESSAGES = {
     Status.NO_EVIDENCE: "선택한 범위에서 설명에 사용할 근거를 찾지 못했습니다.",
     Status.TEMPORARILY_UNAVAILABLE: "설명 서버를 일시적으로 사용할 수 없습니다. 잠시 후 다시 시도해 주세요.",
 }
+OFF_TOPIC_MESSAGE = ("선택한 경고의 매뉴얼 근거에서 이 질문에 해당하는 내용을 찾지 못했습니다. "
+                     "경고별 전체 안내를 확인하거나 다른 경고를 선택해 주세요.")
 
 
 # Measured on evals/ioniq5_2025.json with bge-m3: TPMS hit@2 0.909, hit@3 1.0 (2026-10-28);
@@ -60,9 +62,9 @@ class ExplanationService:
         if hasattr(self.ranker, "bind"):
             self.ranker.bind(self.catalog)  # index rankers sync against this catalog
 
-    def failure(self, req: ExplanationRequest, status: Status) -> ExplanationResponse:
+    def failure(self, req: ExplanationRequest, status: Status, message: str | None = None) -> ExplanationResponse:
         return ExplanationResponse(requestId=req.requestId, profileId=req.profileId, warning=req.warning,
-            status=status, message=MESSAGES[status], limitations=limitations(req.warning.type),
+            status=status, message=message or MESSAGES[status], limitations=limitations(req.warning.type),
             versions=Versions(index=self.catalog.indexVersion))
 
     retrieval_errors = (httpx.HTTPError, ValueError, KeyError, TypeError)
@@ -90,14 +92,22 @@ class ExplanationService:
             return None, Status.STATE_UNSUPPORTED
         return profile, None
 
-    def find_evidence(self, req: ExplanationRequest, profile: Profile) -> list[Chunk]:
+    def find_evidence(self, req: ExplanationRequest, profile: Profile) -> list[tuple[Chunk, float | None]]:
         if req.intent == "QUESTION":
             pool = candidates(self.catalog, profile.id, req.warning.type)
             # Ranking order is kept: the most relevant reviewed evidence comes first.
-            return self.ranker.rank(req.question, pool)[:QUESTION_TOP_K] if pool else []
+            return self.ranker.rank_scored(req.question, pool)[:QUESTION_TOP_K] if pool else []
         chunks = retrieve(self.catalog, profile.id, req.warning.type)
         # The first overview uses the same reviewed evidence for ON and BLINK, not a diagnosis.
-        return sorted(chunks, key=lambda c: (c.kind != "MEANING", c.id))
+        return [(c, None) for c in sorted(chunks, key=lambda c: (c.kind != "MEANING", c.id))]
+
+    def abstain_score(self, req: ExplanationRequest, scored: list[tuple[Chunk, float | None]]) -> float | None:
+        """The top score when a question is too far from every reviewed chunk, else None."""
+        threshold = getattr(self.ranker, "min_score", None)
+        if req.intent != "QUESTION" or threshold is None or not scored:
+            return None
+        top = scored[0][1]
+        return top if top is not None and top < threshold else None
 
     def answer(self, req: ExplanationRequest, profile: Profile, chunks: list[Chunk]) -> ExplanationResponse:
         doc = next(d for d in self.catalog.documents if d.id == profile.documentId)

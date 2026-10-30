@@ -11,7 +11,7 @@ from pydantic import Field
 from .catalog import Chunk
 from .contracts import Contract, ExplanationRequest, Section, Status
 from .graph import AnswerRejected
-from .retrieval import LexicalRanker, OllamaEmbedder, OllamaEmbeddingRanker
+from .retrieval import LexicalRanker, OllamaEmbedder, OllamaEmbeddingRanker, configured_min_score
 from .service import ExplanationService
 
 PROMPT_VERSION = "manual-evidence-ko-v3"
@@ -120,7 +120,7 @@ def configured_ranker():
     if retrieval == "lexical":
         return LexicalRanker()
     if retrieval == "embedding":
-        return OllamaEmbeddingRanker(model=model, base_url=base_url)
+        return OllamaEmbeddingRanker(model=model, base_url=base_url, min_score=configured_min_score())
     if retrieval != "qdrant":
         raise ValueError("CHECKMATE_RETRIEVAL must be lexical, embedding or qdrant")
     from qdrant_client import QdrantClient
@@ -129,7 +129,7 @@ def configured_ranker():
     url = os.getenv("CHECKMATE_QDRANT_URL")
     client = QdrantClient(url=url) if url else QdrantClient(
         path=os.getenv("CHECKMATE_QDRANT_PATH", str(Path(__file__).parents[1] / ".local/qdrant")))
-    return QdrantRanker(OllamaEmbedder(model, base_url), client)
+    return QdrantRanker(OllamaEmbedder(model, base_url), client, min_score=configured_min_score())
 
 
 def configured_service():

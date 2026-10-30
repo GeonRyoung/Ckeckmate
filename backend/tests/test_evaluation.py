@@ -12,7 +12,9 @@ def test_eval_cases_reference_existing_evidence_of_their_own_warning():
     assert len({c["id"] for c in data["cases"]}) == len(data["cases"])
     assert REFUSALS == {c["id"] for c in data["cases"] if c.get("expectedStatus", "READY") != "READY"}
     for case in data["cases"]:
-        if case["id"] not in REFUSALS:
+        if case.get("questionOnly"):
+            assert case["expectedQuestionStatus"] == "NO_EVIDENCE" and "relevantChunks" not in case, case["id"]
+        elif case["id"] not in REFUSALS:
             assert case["relevantChunks"] and case["mustInclude"], case["id"]
             assert all(case.get("type", "TPMS") in tags[c] for c in case["relevantChunks"]), case["id"]
 
@@ -21,7 +23,7 @@ def test_reviewed_overview_passes_every_case_and_refusals_hold_for_questions():
     data = load_cases()
     report = evaluate(ExplanationService(), data)
     assert report["WARNING_OVERVIEW"]["failures"] == []
-    assert report["WARNING_OVERVIEW"]["passed"] == len(data["cases"])
+    assert report["WARNING_OVERVIEW"]["passed"] == len([c for c in data["cases"] if not c.get("questionOnly")])
     assert not REFUSALS & {f["id"] for f in report["QUESTION"]["failures"]}
     assert report["baseline"]["ranker"] == "lexical-bigram-v1"
 

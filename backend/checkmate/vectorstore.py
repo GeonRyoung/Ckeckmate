@@ -11,7 +11,7 @@ import uuid
 from qdrant_client import QdrantClient, models
 
 from .catalog import Catalog, Chunk
-from .retrieval import OllamaEmbedder, embedding_text
+from .retrieval import DEFAULT_MIN_SCORE, OllamaEmbedder, _RankMixin, embedding_text
 
 
 class RetrievalUnavailable(ValueError):
@@ -22,8 +22,10 @@ def point_id(chunk_id: str) -> str:
     return str(uuid.uuid5(uuid.NAMESPACE_URL, "checkmate-chunk:" + chunk_id))
 
 
-class QdrantRanker:
-    def __init__(self, embed: OllamaEmbedder, client: QdrantClient, collection_prefix: str = "manual_chunks"):
+class QdrantRanker(_RankMixin):
+    def __init__(self, embed: OllamaEmbedder, client: QdrantClient, collection_prefix: str = "manual_chunks",
+                 min_score: float | None = DEFAULT_MIN_SCORE):
+        self.min_score = min_score
         self.embed = embed
         self.client = client
         # One collection per embedding model: vectors of different models are never mixed.
@@ -74,7 +76,7 @@ class QdrantRanker:
         self._synced = True
         return {"embedded": len(changed), "deleted": len(stale), "total": len(wanted)}
 
-    def rank(self, question: str, chunks: list[Chunk]) -> list[Chunk]:
+    def rank_scored(self, question: str, chunks: list[Chunk]) -> list[tuple[Chunk, float]]:
         if not chunks:
             return []
         with self._lock:
@@ -93,8 +95,8 @@ class QdrantRanker:
         hits = self._db(self.client.query_points, self.collection, query=query, query_filter=query_filter,
             limit=len(chunks), with_payload=["chunkId", "textSha256"]).points
         pool = {c.id: c for c in chunks}
-        ranked = [pool[h.payload["chunkId"]] for h in hits
+        ranked = [(pool[h.payload["chunkId"]], h.score) for h in hits
                   if h.payload.get("chunkId") in pool and h.payload.get("textSha256") == pool[h.payload["chunkId"]].textSha256]
-        seen = {c.id for c in ranked}
-        # Chunks the index did not return (e.g. hash mismatch) stay last rather than disappearing.
-        return ranked + sorted((c for c in chunks if c.id not in seen), key=lambda c: c.id)
+        seen = {c.id for c, _ in ranked}
+        # Chunks the index did not return (e.g. hash mismatch) stay last with no score rather than disappearing.
+        return ranked + [(c, -1.0) for c in sorted(chunks, key=lambda c: c.id) if c.id not in seen]

@@ -44,9 +44,10 @@ def test_out_of_scope_requests_stop_before_retrieval():
 
 def test_reviewed_path_and_question_path():
     overview = run(ExplanationService(), request())
-    assert overview["trace"] == ["check_scope:ok", "retrieve:5", "answer:REVIEWED_RETRIEVAL"]
+    assert overview["trace"] == ["check_scope:ok", "retrieve:5", "grade:ok", "answer:REVIEWED_RETRIEVAL"]
     question = run(ExplanationService(), request(question="예비 타이어로 바꿨어요"))
-    assert question["trace"] == ["check_scope:ok", "retrieve:3", "answer:REVIEWED_RETRIEVAL"]
+    # The lexical baseline has uncalibrated scores, so it never abstains.
+    assert question["trace"] == ["check_scope:ok", "retrieve:3", "grade:ok", "answer:REVIEWED_RETRIEVAL"]
 
 
 def test_rejected_draft_is_retried_once_then_accepted():

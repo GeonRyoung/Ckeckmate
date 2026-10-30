@@ -75,12 +75,34 @@ def test_index_failure_is_unavailable_not_a_guess():
     assert response.status == "TEMPORARILY_UNAVAILABLE" and response.sections == []
 
 
-def test_service_question_through_qdrant_cites_only_selected_warning():
+def question(service, type, text):
+    return ExplanationRequest(requestId=uuid4(), profileId=service.catalog.profiles[0].id,
+        warning={"type": type, "rawState": "ON"}, intent="QUESTION", question=text)
+
+
+def test_question_about_another_warning_abstains_instead_of_citing_unrelated_evidence():
     r, embed = ranker()
     service = ExplanationService(ranker=r)
-    req = ExplanationRequest(requestId=uuid4(), profileId=service.catalog.profiles[0].id,
-        warning={"type": "ELECTRONIC_PARKING_BRAKE", "rawState": "ON"}, intent="QUESTION", question="체인 감았어요")
-    response = service.explain(req)
-    assert response.status == "READY"
-    assert all(c.chunkId.startswith("epb-") for c in response.citations)
+    # "Chains" only matches TPMS evidence; asked under the EPB warning it must not borrow EPB text.
+    state = service.graph.invoke({"req": question(service, "ELECTRONIC_PARKING_BRAKE", "체인 감았어요")})
+    assert state["response"].status == "NO_EVIDENCE" and state["response"].sections == []
+    assert "다른 경고" in state["response"].message
+    assert state["trace"][-1].startswith("grade:abstain:")
     assert embed.calls[0] == 1 and embed.calls[1] == 10  # dimension probe, then the catalog once
+
+
+def test_question_close_to_the_selected_warning_is_answered_from_it_only():
+    r, _ = ranker()
+    response = ExplanationService(ranker=r).explain(question(ExplanationService(), "TPMS", "체인 감았어요"))
+    assert response.status == "READY"
+    assert all(c.chunkId.startswith("tpms-") for c in response.citations)
+
+
+def test_min_score_comes_from_the_environment(monkeypatch, tmp_path):
+    from checkmate.generation import configured_ranker
+    monkeypatch.setenv("CHECKMATE_RETRIEVAL", "qdrant")
+    monkeypatch.setenv("CHECKMATE_QDRANT_PATH", str(tmp_path))
+    monkeypatch.setenv("CHECKMATE_MIN_SCORE", "0.42")
+    r = configured_ranker()
+    assert r.min_score == 0.42 and r.collection == "manual_chunks__bge_m3"
+    r.client.close()

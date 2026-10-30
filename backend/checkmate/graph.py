@@ -1,6 +1,7 @@
 """LangGraph flow for one explanation request.
 
-check_scope -> retrieve -> answer (-> answer again once if the generated draft is rejected) -> END.
+check_scope -> retrieve -> grade -> answer (-> answer again once if the generated draft is rejected) -> END.
+grade abstains when a free question is too far from every reviewed chunk of the selected warning.
 Each node only calls ExplanationService hooks, so retrieval/generation stay swappable and every
 guard (profile/warning filter, state scope, citation/number validation) is the existing code.
 """
@@ -11,6 +12,7 @@ from langgraph.graph import END, START, StateGraph
 
 from .catalog import Chunk, Profile
 from .contracts import ExplanationRequest, ExplanationResponse, Status
+from .service import OFF_TOPIC_MESSAGE
 
 MAX_ANSWER_ATTEMPTS = 2
 
@@ -22,6 +24,7 @@ class AnswerRejected(ValueError):
 class ExplanationState(TypedDict, total=False):
     req: ExplanationRequest
     profile: Profile
+    scored: list[tuple[Chunk, float | None]]
     chunks: list[Chunk]
     attempts: int
     response: ExplanationResponse
@@ -37,13 +40,21 @@ def build_graph(service):
 
     def retrieve(state):
         try:
-            chunks = service.find_evidence(state["req"], state["profile"])
+            scored = service.find_evidence(state["req"], state["profile"])
         except service.retrieval_errors:
             return {"response": service.failure(state["req"], Status.TEMPORARILY_UNAVAILABLE),
                     "trace": ["retrieve:unavailable"]}
-        if not chunks:
+        if not scored:
             return {"response": service.failure(state["req"], Status.NO_EVIDENCE), "trace": ["retrieve:empty"]}
-        return {"chunks": chunks, "trace": [f"retrieve:{len(chunks)}"]}
+        return {"scored": scored, "trace": [f"retrieve:{len(scored)}"]}
+
+    def grade(state):
+        top = service.abstain_score(state["req"], state["scored"])
+        if top is not None:
+            # Answering with the nearest unrelated evidence would mislead more than saying nothing.
+            return {"response": service.failure(state["req"], Status.NO_EVIDENCE, OFF_TOPIC_MESSAGE),
+                    "trace": [f"grade:abstain:{top:.3f}"]}
+        return {"chunks": [c for c, _ in state["scored"]], "trace": ["grade:ok"]}
 
     def answer(state):
         attempts = state.get("attempts", 0) + 1
@@ -66,9 +77,11 @@ def build_graph(service):
     graph = StateGraph(ExplanationState)
     graph.add_node("check_scope", check_scope)
     graph.add_node("retrieve", retrieve)
+    graph.add_node("grade", grade)
     graph.add_node("answer", answer)
     graph.add_edge(START, "check_scope")
     graph.add_conditional_edges("check_scope", done_or("retrieve"), ["retrieve", END])
-    graph.add_conditional_edges("retrieve", done_or("answer"), ["answer", END])
+    graph.add_conditional_edges("retrieve", done_or("grade"), ["grade", END])
+    graph.add_conditional_edges("grade", done_or("answer"), ["answer", END])
     graph.add_conditional_edges("answer", done_or("answer"), ["answer", END])
     return graph.compile()
