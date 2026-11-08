@@ -162,6 +162,7 @@ class AssistancePanel(
         generation++
         reportLoading = false
         voice.stop()
+        status.text = ""
         preview?.dismiss()
         preview = null
     }

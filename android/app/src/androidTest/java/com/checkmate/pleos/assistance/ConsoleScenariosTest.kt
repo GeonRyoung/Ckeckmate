@@ -28,7 +28,8 @@ import java.net.HttpURLConnection
 import java.net.URL
 
 /** Opt-in E2E. All warning/UX signals enter through the real emulator console and Vehicle SDK.
- * No reflection, monitor mutation, permission override or mocked network responses.
+ * No monitor mutation, permission override or mocked network responses.
+ * Reflection only reads the released voice handle after lifecycle cancellation.
  * Run only with scripts/verify_three_scenarios.py on the named verification AVD.
  */
 @RunWith(AndroidJUnit4::class)
@@ -71,6 +72,19 @@ class ConsoleScenariosTest {
         scenario.onActivity { diagnostic = text(it.window.decorView) }
         File(evidence, "failure.txt").writeText("$description\n$diagnostic")
         fail("Timed out: $description; see console-scenarios/failure.txt")
+    }
+
+    // Read-only lifecycle assertion; vehicle state still enters through the real SDK.
+    private fun assertVoiceReleased(activity: MainActivity) {
+        val panel = MainActivity::class.java.getDeclaredField("assistancePanel").apply { isAccessible = true }.get(activity)
+        val voice = AssistancePanel::class.java.getDeclaredField("voice").apply { isAccessible = true }.get(panel)
+        assertNull(VoiceController::class.java.getDeclaredField("tts").apply { isAccessible = true }.get(voice))
+    }
+
+    private fun voiceStopFinished(activity: MainActivity): Boolean {
+        val panel = MainActivity::class.java.getDeclaredField("assistancePanel").apply { isAccessible = true }.get(activity)
+        val voice = AssistancePanel::class.java.getDeclaredField("voice").apply { isAccessible = true }.get(panel)
+        return VoiceController::class.java.getDeclaredField("pendingTtsStops").apply { isAccessible = true }.getInt(voice) == 0
     }
 
     private fun screenshot(name: String) {
@@ -156,6 +170,59 @@ class ConsoleScenariosTest {
                     activity.findViewById<ScrollView>(R.id.content_scroll).scrollTo(0, root.top + answer.top)
                 }
                 screenshot("$id-answer")
+                if (id == "tpms-first") {
+                    android.util.Log.i("CheckmateVoice", "verification start ${result.getString("runId")}")
+                    fun clickVoice(label: String) = scenario.onActivity { activity ->
+                        views(activity.findViewById(R.id.assistance_panel)).filterIsInstance<Button>()
+                            .single { it.text == label }.performClick()
+                    }
+                    clickVoice("질문 답변 읽어주기")
+                    awaitUi(scenario, "official TTS answer starts", 40) {
+                        text(it.findViewById(R.id.assistance_panel)).contains("안내를 읽고 있습니다")
+                    }
+                    result.put("answerTtsStarted", true)
+                    clickVoice("음성 중지")
+                    awaitUi(scenario, "answer stop IPC acknowledgment") { voiceStopFinished(it) }
+                    clickVoice("상황 안내 읽어주기")
+                    awaitUi(scenario, "official TTS guidance completes", 90) {
+                        text(it.findViewById(R.id.assistance_panel)).contains("음성 안내를 마쳤습니다")
+                    }
+                    result.put("guidanceTtsCompleted", true)
+                    scenario.onActivity { activity ->
+                        val buttons = views(activity.findViewById(R.id.assistance_panel)).filterIsInstance<Button>()
+                        buttons.single { it.text == "상황 안내 읽어주기" }.performClick()
+                        buttons.single { it.text == "음성 중지" }.performClick()
+                    }
+                    SystemClock.sleep(1500)
+                    scenario.onActivity {
+                        assertTrue(text(it.findViewById(R.id.assistance_panel)).contains("음성을 중지했습니다"))
+                        assertVoiceReleased(it)
+                    }
+                    clickVoice("상황 안내 읽어주기")
+                    awaitUi(scenario, "TTS restarts after cancellation", 40) {
+                        text(it.findViewById(R.id.assistance_panel)).contains("안내를 읽고 있습니다")
+                    }
+                    scenario.moveToState(androidx.lifecycle.Lifecycle.State.CREATED)
+                    scenario.onActivity { assertVoiceReleased(it) }
+                    awaitUi(scenario, "background stop IPC acknowledgment") { voiceStopFinished(it) }
+                    scenario.moveToState(androidx.lifecycle.Lifecycle.State.RESUMED)
+                    result.put("backgroundReleasedTts", true)
+                    awaitUi(scenario, "foreground SDK reacquisition") {
+                        it.findViewById<TextView>(R.id.connection_status).text.contains("유효한 차량 데이터 수신") &&
+                            views(it.findViewById(R.id.assistance_panel)).filterIsInstance<Button>()
+                                .any { button -> button.text == "정비 요청서 미리보기" && button.isEnabled }
+                    }
+                    // Resuming reacquires vehicle context and deliberately clears prior drafts/answer.
+                    scenario.onActivity { activity ->
+                        val root = activity.findViewById<LinearLayout>(R.id.assistance_panel)
+                        views(root).filterIsInstance<Button>().single { it.text == title }.performClick()
+                        views(root).filterIsInstance<EditText>()[1].setText("검증 시나리오 $id: $title")
+                    }
+                    clickVoice("상황 안내 읽어주기")
+                    awaitUi(scenario, "TTS active before driving restriction", 40) {
+                        text(it.findViewById(R.id.assistance_panel)).contains("안내를 읽고 있습니다")
+                    }
+                }
                 scenario.onActivity { activity ->
                     views(activity.findViewById(R.id.assistance_panel)).filterIsInstance<Button>()
                         .single { it.text == "정비 요청서 미리보기" }.performClick()
@@ -185,6 +252,11 @@ class ConsoleScenariosTest {
                         }
                 }
                 result.put("restrictionClosedReport", true)
+                if (id == "tpms-first") {
+                    scenario.onActivity { assertVoiceReleased(it) }
+                    awaitUi(scenario, "driving stop IPC acknowledgment") { voiceStopFinished(it) }
+                    result.put("drivingReleasedTts", true)
+                }
                 console("/vehicle/controls?speed=0&accelerator=0&brake=0&steering=0")
                 console("/vehicle/gear?gear=Park")
                 awaitUi(scenario, "parked recovery") { it.findViewById<View>(R.id.details).isShown }

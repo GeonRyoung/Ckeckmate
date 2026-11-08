@@ -51,8 +51,7 @@ dependencies {
     ksp(libs.room.compiler)
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test:runner:1.5.2")
-    // Official SDK compatibility probe; production voice integration follows runtime verification.
-    debugImplementation("ai.pleos.playground:TextToSpeech:3.3.1")
+    implementation("ai.pleos.playground:TextToSpeech:3.3.1")
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.json:json:20240303")
 }
