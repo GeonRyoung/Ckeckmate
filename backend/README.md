@@ -3,6 +3,25 @@
 앱은 SDK 관측 사실을 관리하고 서버는 선택한 매뉴얼의 근거와 설명만 제공합니다.
 데이터는 2025 아이오닉 5 국내용 한국어 공식 PDF 기준 직접 작성한 검토 요약 10개입니다.
 
+## GPU 없는 노트북에서 실행
+
+Qwen 문장 생성 없이, bge-m3를 CPU에서 실행해 Qdrant로 검토된 근거를 검색합니다.
+기존 임계값과 차종·경고 필터를 유지하며 답변은 검토 요약입니다.
+
+```powershell
+# backend 폴더에서 실행 (이미 8000번 서버가 있으면 설정을 확인하고 사용)
+$env:CHECKMATE_GENERATION = 'reviewed'
+$env:CHECKMATE_RETRIEVAL = 'qdrant'
+$env:OLLAMA_EMBED_NUM_GPU = '0'
+uv run uvicorn checkmate.main:app --host 127.0.0.1 --port 8000
+```
+
+`GET /health`에서 `generationMode=reviewed`, `retrievalMode=qdrant:manual_chunks__bge_m3`,
+`embeddingNumGpu=0`을 확인합니다. 이 값은 구성 확인이며 실제 응답 성공은 질문 요청으로 확인해야 합니다.
+`OLLAMA_EMBED_NUM_GPU`를 생략하면 기존 Ollama 자동 장치 선택을 유지합니다. `0`은 CPU,
+음수나 정수가 아닌 값은 시작 시 거부합니다. Ollama `/api/ps`의 bge-m3 `size_vram=0`으로 실행 장치도 확인할 수 있습니다.
+최초 모델 로딩과 모델 준비 후 응답 지연은 구분해서 측정합니다.
+
 | SDK 경고 | 근거 | 설명하는 상태 |
 |---|---|---|
 | `TPMS` | 5개 · PDF 138, 493, 495, 496쪽 | `ON`, `BLINK` |

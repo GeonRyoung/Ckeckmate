@@ -21,7 +21,7 @@ class ExplanationClient(private val baseUrl: String) {
     private var activeCall: Call? = null
     private var task: Future<*>? = null
 
-    fun request(id: String, context: RemoteContext, profile: ManualProfile, callback: (Result<RemoteExplanation>) -> Unit) {
+    fun request(id: String, context: RemoteContext, profile: ManualProfile, question: String? = null, callback: (Result<RemoteExplanation>) -> Unit) {
         cancel()
         val call = Call()
         activeCall = call
@@ -30,7 +30,7 @@ class ExplanationClient(private val baseUrl: String) {
                 val profiles = JSONObject(exchange(call, "/v1/manual-profiles", null)).getJSONArray("profiles")
                 val supported = (0 until profiles.length()).any { profiles.getJSONObject(it).getString("id") == profile.id }
                 if (!supported) RemoteExplanation("PROFILE_UNSUPPORTED")
-                else ExplanationJson.parse(exchange(call, "/v1/explanations", ExplanationJson.request(id, context)), id, context, profile)
+                else ExplanationJson.parse(exchange(call, "/v1/explanations", ExplanationJson.request(id, context, question)), id, context, profile)
             }
             if (!call.cancelled.get()) main.post { callback(result) }
         }

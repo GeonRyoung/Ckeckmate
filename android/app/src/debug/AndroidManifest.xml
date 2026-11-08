@@ -1,3 +1,4 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="pleos.car.permission.TTS_SERVICE" />
     <application android:networkSecurityConfig="@xml/debug_network_security" />
 </manifest>

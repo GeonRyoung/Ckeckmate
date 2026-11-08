@@ -64,11 +64,18 @@ class OllamaEmbedder:
         self.model = model
         self.base_url = base_url.rstrip("/")
         self.transport = transport
+        device = os.getenv("OLLAMA_EMBED_NUM_GPU")
+        self.num_gpu = None if device is None else int(device)
+        if self.num_gpu is not None and self.num_gpu < 0:
+            raise ValueError("OLLAMA_EMBED_NUM_GPU must be non-negative (0 selects CPU)")
 
     def __call__(self, texts: list[str]) -> list[list[float]]:
         # The first call loads the model; on a CPU-only laptop that alone took over 30 seconds.
         with httpx.Client(timeout=httpx.Timeout(90, connect=3), transport=self.transport, trust_env=False) as client:
-            response = client.post(self.base_url + "/api/embed", json={"model": self.model, "input": texts})
+            payload = {"model": self.model, "input": texts}
+            if self.num_gpu is not None:
+                payload["options"] = {"num_gpu": self.num_gpu}
+            response = client.post(self.base_url + "/api/embed", json=payload)
             response.raise_for_status()
             vectors = response.json()["embeddings"]
         if len(vectors) != len(texts) or any(not v for v in vectors):

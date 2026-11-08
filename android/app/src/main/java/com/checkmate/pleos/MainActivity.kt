@@ -40,6 +40,9 @@ import java.time.ZoneId
 import java.time.format.DateTimeFormatter
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var assistancePanel: com.checkmate.pleos.assistance.AssistancePanel
+    private var foreground = false
+    private var remoteQuestion: String? = null
     private val explanationClient = ExplanationClient(BuildConfig.EXPLANATION_BASE_URL)
     private val remoteGate = RemoteRequestGate()
     private var remoteContext: RemoteContext? = null
@@ -99,6 +102,9 @@ class MainActivity : AppCompatActivity() {
             }
         }
         repository = HistoryRepository.get(this)
+        assistancePanel = com.checkmate.pleos.assistance.AssistancePanel(this, binding.assistancePanel, repository) {
+            requestServerExplanation(it)
+        }
         manualPreferences = ManualPreferences(this)
         val summaryPeriod = runCatching {
             SummaryPeriod.valueOf(savedInstanceState?.getString("summaryPeriod").orEmpty())
@@ -203,6 +209,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
+        foreground = true
         monitor.waiting()
         uxSource.start()
         beginSession()
@@ -210,6 +217,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onStop() {
+        foreground = false
+        detailsAllowed = false
+        assistancePanel.suspend()
+        summaryPanel.setActive(false)
         clearServerExplanation()
         source.stop()
         uxSource.stop()
@@ -313,7 +324,7 @@ class MainActivity : AppCompatActivity() {
         binding.historyPanel.isVisible = historyVisible
         binding.serviceSummary.root.isVisible = screen == Screen.SUMMARY
         binding.showSummary.isEnabled = detailsAllowed
-        summaryPanel.setActive(detailsAllowed && screen == Screen.SUMMARY)
+        summaryPanel.setActive(foreground && detailsAllowed && screen == Screen.SUMMARY)
         binding.showCurrent.isSelected = screen == Screen.CURRENT || (screen == Screen.DETAIL && selection?.historical != true)
         binding.showHistory.isSelected = screen == Screen.HISTORY || screen == Screen.SUMMARY || (screen == Screen.DETAIL && selection?.historical == true)
         binding.showProfile.isSelected = screen == Screen.PROFILE
@@ -407,7 +418,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun renderDetail() {
-        val item = selection ?: return
+        val item = selection ?: run {
+            assistancePanel.update(null, false, false, false)
+            return
+        }
         binding.detailTitle.text = "${item.type} 경고 상세"
         val current = monitor.current.firstOrNull { it.reading.type == item.type }
         binding.detailContext.text = when {
@@ -445,6 +459,14 @@ class MainActivity : AppCompatActivity() {
         binding.openSource.isVisible = guide.source != null
         binding.openSource.isEnabled = detailsAllowed && guide.source != null
         val canRequest = guide.source != null && BuildConfig.EXPLANATION_BASE_URL.isNotEmpty()
+        assistancePanel.update(context, foreground && detailsAllowed && screen == Screen.DETAIL, canRequest, remoteLoading)
+        assistancePanel.showAnswer(remoteQuestion?.let { question ->
+            "질문: $question\n\n" + when {
+                remoteLoading -> "답변을 기다리고 있습니다."
+                remoteExplanation?.status == "READY" -> remoteExplanation!!.let { "${it.body}\n\n${it.limits}\n\n${it.citations}" }
+                else -> "$remoteMessage\n질문에 대한 답변을 제공하지 못했습니다. 아래의 전체 매뉴얼 안내를 참고하세요."
+            }
+        }.orEmpty())
         binding.serverNotice.isVisible = canRequest
         binding.requestServer.isVisible = canRequest
         binding.requestServer.isEnabled = detailsAllowed && !remoteLoading && canRequest
@@ -456,7 +478,7 @@ class MainActivity : AppCompatActivity() {
             remoteMessage.isNotEmpty() -> remoteMessage
             else -> ""
         }
-        remoteExplanation?.takeIf { it.status == "READY" }?.let { remote ->
+        remoteExplanation?.takeIf { it.status == "READY" && remoteQuestion == null }?.let { remote ->
             binding.guideTitle.text = if (remote.mode == "AI_GENERATED") "AI 설명 · 서버" else "검토 요약 검색 · 서버"
             binding.guideBody.text = remote.body
             // Keep the local observation boundary even if a future server omits a specific warning.
@@ -466,16 +488,18 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun clearServerExplanation() {
+        if (::assistancePanel.isInitialized) assistancePanel.stopVoice()
         remoteGate.invalidate()
         explanationClient.cancel()
         remoteContext = null
         remoteExplanation = null
         remoteLoading = false
         remoteMessage = ""
+        remoteQuestion = null
     }
 
-    private fun requestServerExplanation() {
-        if (!detailsAllowed || screen != Screen.DETAIL || remoteLoading) return
+    private fun requestServerExplanation(question: String? = null) {
+        if (!foreground || !detailsAllowed || screen != Screen.DETAIL || remoteLoading) return
         val profile = manualPreferences.selected ?: return
         val context = remoteContext ?: return
         if (BuildConfig.EXPLANATION_BASE_URL.isEmpty()) return
@@ -484,8 +508,9 @@ class MainActivity : AppCompatActivity() {
         remoteLoading = true
         remoteExplanation = null
         remoteMessage = ""
+        remoteQuestion = question
         render()
-        explanationClient.request(requestId, context, profile) { result ->
+        explanationClient.request(requestId, context, profile, question) { result ->
             if (isDestroyed || !remoteGate.accepts(ticket) || !detailsAllowed ||
                 screen != Screen.DETAIL || remoteContext != context) return@request
             remoteLoading = false
@@ -503,6 +528,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onDestroy() {
+        assistancePanel.close()
         summaryPanel.setActive(false)
         remoteGate.invalidate()
         explanationClient.close()

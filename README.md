@@ -16,8 +16,126 @@ Pleos 차량 경고를 매뉴얼 기반 설명, 관측 이력, 정비 전달용 
 - 2025 아이오닉 5 한국어 매뉴얼 프로필 선택·보존 및 TPMS 오프라인 설명·출처 표시
 - FastAPI 설명 API, 프로필 범위 검색, Ollama/Qwen 생성 및 앱의 명시적 서버 요청
 - 정비 전달용 관측 요약: 오늘·최근 7일·최근 30일 전체 집계, 공백 구분, 최근 50개 상세
-- 대규모 원문 데이터·임베딩 검색, 사용자 메모는 후속 구현
-- 근처 현대·기아 정비점 검색 및 전화 연결은 지원 여부 검증 후 추가할 옵션
+- bge-m3 임베딩·Qdrant 검색, LangGraph 처리 흐름과 근거 부족 질문 보류
+- TPMS·EPB 상황별 안내 6개, 앱 질문 입력, 정비 요청서 미리보기·사용자 공유
+- 버튼 방식 한국어 음성 입력·읽기 (기기 음성 서비스 필요), 현대 공식 정비소 검색 페이지 연결
+
+## 공식 음성 SDK 사전 검증 (2026-11-08)
+
+Pleos TextToSpeech 3.3.1의 `ON_DEVICE`, `Locale.KOREA`를 별도 계측 시험으로 확인했습니다.
+검증용 AVD에서 `initialized → ready → start → done`을 수신하여 1개 시험이 통과했습니다.
+앱 등록 키나 Qwen을 사용하지 않았습니다. 현재 AVD는 무음 실행이므로 실제 스피커 청취는
+검증하지 않았으며, 마이크 인식(STT)과 앱의 기존 읽기 버튼 연결도 후속 작업입니다.
+SDK 의존성과 `TTS_SERVICE` 권한은 현재 debug 빌드에만 추가되어 있습니다.
+
+앱과 androidTest APK를 검증용 AVD에 설치한 뒤 명시적으로 실행합니다:
+
+```powershell
+adb -s emulator-5554 emu avd name # Checkmate_Verification_Empty_API_34 확인
+adb -s emulator-5554 shell am instrument -w -e voiceProbe true -e class com.checkmate.pleos.assistance.PleosTtsProbeTest com.checkmate.pleos.test/androidx.test.runner.AndroidJUnitRunner
+```
+
+결과는 앱 내부 `files/pleos-tts-probe.json`에 기록됩니다. 로컬 확인본은
+`.local/verification/voice/pleos-tts-probe.json`입니다. opt-in 인자가 없으면 시험을 건너뜁니다.
+공식 문서: [TTS](https://document.pleos.ai/en/docs/pleos-only/connect-sdk-pleos/TextToSpeech/intro),
+[STT](https://document.pleos.ai/en/docs/pleos-only/connect-sdk-pleos/SpeechToText/intro).
+STT도 문서상 ON_DEVICE 모드는 앱 등록이 필요 없지만, 현재 환경의 인식 성공은 아직 검증하지 않았습니다.
+
+## 상황 안내와 정비 요청 (2026-11-08)
+
+지원 범위는 **2025 아이오닉 5 한국어 매뉴얼의 TPMS ON/BLINK, EPB ON**입니다.
+실제 수신 경고 또는 저장 이력의 상세 화면에서 이용하며, 경고 이벤트를 만들어 내는 시연 모드는 없습니다.
+
+1. 매뉴얼 프로필을 선택하고 경고 상세의 **상황별 도움받기**에서 직접 확인한 상황을 선택합니다.
+   TPMS는 최초 점등·깜빡인 뒤 점등·공기압 조절 후 재점등, EPB는 점등·해제 불가·재시동 후 지속의 6개입니다.
+2. 각 상황의 확인 질문과 검토된 매뉴얼 요약을 표시합니다. 선택한 상황은 사용자 진술이며 센서로 확인한 진단이 아닙니다.
+3. 추가 질문을 수정한 뒤 **질문 보내기**를 누르면 기존 설명 API의 `QUESTION` 요청으로 보냅니다.
+   질문 답변은 전체 매뉴얼 안내와 분리되며, 실패·근거 부족 시 질문 답변을 만들어 내지 않습니다.
+4. 증상과 이미 시도한 조치를 입력하고 **정비 요청서 미리보기**를 누릅니다.
+   선택한 경고 관측, 사용자 선택 프로필·상황·증상·조치, 최근 7일 전체 경고 집계·관측 공백을 합칩니다.
+   과거 이력과 이전 수신 상태는 현재 차량 상태와 구분합니다. 이력 조회 실패 시 완성된 요청서처럼 표시하지 않습니다.
+5. 미리보기에서 **공유 앱 선택**을 누른 뒤 사용자가 수신처와 전송을 결정합니다.
+   자동 정비소 접수·예약 API 연동은 없으며, 공유 앱 실행을 전송 성공으로 표시하지 않습니다.
+   **현대 공식 정비소 찾기**는 [공식 검색/예약 페이지](https://www.hyundai.com/kr/ko/service-membership/service-network/service-reservation-search)를 엽니다.
+
+### 음성 및 개인정보 범위
+
+- **음성으로 질문/증상 입력**은 Android `SpeechRecognizer`와 런타임 마이크 권한을 사용합니다.
+  인식한 문장을 화면에서 확인·수정한 뒤 사용자가 질문을 전송합니다. 인식 서비스는 오디오를 서버에서 처리할 수 있습니다.
+- **상황 안내/질문 답변 읽어주기**는 Android `TextToSpeech`의 한국어 엔진을 사용합니다.
+  인식 서비스·한국어 읽기 엔진이 없으면 사용할 수 없는 이유를 표시합니다. Pleos 전용 음성 SDK 연동은 아직 아닙니다.
+- 음성은 버튼으로 시작하며 상시 청취하지 않습니다. 주행 제한·화면 이탈·경고 문맥 변경 시 중단합니다.
+  음성 인식 결과나 마이크 권한 응답이 늦게 도착해도 이전 화면에 적용하지 않습니다.
+- 증상·조치는 설명 API로 보내지 않으며 이 화면의 임시 입력입니다. 경고·프로필·화면 변경 시 초기화됩니다.
+  이름·연락처·차량번호를 자동 수집하거나 요청서에 넣지 않습니다.
+- release 빌드는 기존 정책대로 HTTPS 설명 서버 설정이 필요합니다. 미설정 시 서버 질문을 비활성화하지만 로컬 상황 안내는 제공합니다.
+
+### 검증 범위
+
+새 단위 테스트는 미지원 프로필·경고·상태 차단, 6개 상황의 질문 요청 범위,
+빈 질문·길이 제한, 사용자 진술과 차량 관측의 분리, 이력 없는 요청서 거부를 확인합니다.
+`AssistanceUiTest`는 **합성 입력**으로 앱 화면을 검증합니다. 실제 Vehicle SDK 수신,
+실차 주행 제한, 물리 마이크·스피커, 정비소 접수 성공을 증명하지 않습니다.
+
+2026-11-08 1차 구현 검증 결과:
+
+- debug APK 빌드, Android 단위 테스트 **47개**, backend 테스트 **55개** 통과.
+- Android Lint **오류 0개, 경고 43개** (기존 버전 권고 및 문자열 국제화 등 포함).
+- `Checkmate_Verification_Empty_API_34`에서 instrumentation 테스트 **4개** 통과.
+  6개 상황 선택·안내·질문 채움, 사용 제한 시 임시 입력 초기화,
+  실제 로컬 DB 조회 후 요청서 미리보기, 제한 전환 시 미리보기 닫힘을 검증했습니다.
+- Gradle `connectedDebugAndroidTest --offline`는 UTP 실행 도구 캐시 누락으로 실행되지 않아,
+  빌드된 app/test APK를 설치하고 `adb shell am instrument -w`로 위 테스트를 실행했습니다.
+- 해당 에뮬레이터에서 발견된 음성 인식 서비스는 `exported=false`입니다.
+  외부 앱이 사용할 수 있는 인식 서비스가 없으면 권한 요청 전에 텍스트 입력을 안내합니다.
+- APK SHA-256: `36499BA7EA66644BCED9D63F9703369A70581C52753C16ECDCAF7E7CB3782F44`.
+
+실제 마이크·한국어 음성 출력, 서명된 release APK와 공식 정비소 실제 접수 연동은
+별도 검증·연동이 필요합니다. 아래 3개 외의 전체 사용자 흐름은 검증 완료로 보지 않습니다.
+
+## 실연동 시연 3개 검증 (2026-11-08)
+
+`Checkmate_Verification_Empty_API_34`의 Virtual Console에서 실제 시뮬레이터 신호를 넣고,
+**Vehicle SDK → 앱 상황 안내 → 실제 HTTP 질문 → CPU bge-m3/Qdrant → 출처 표시 → Room 이력 요청서**까지 검증했습니다.
+기존 `AssistanceUiTest`와 달리 앱 상태·수신값·주행 허용값을 직접 주입하지 않고 실제 콘솔 및 SDK 경로를 사용합니다.
+이것은 **에뮬레이터 실연동 검증**이며 실차 검증이나 실제 고장 진단이 아닙니다.
+
+| 시나리오 | 확인한 동작 | 최종 앱 질문 응답 시간 |
+|---|---|---|
+| TPMS 최초 점등 | OFF → ON 수신, 감속·급조향 회피 근거, 정비 요청서 | 587 ms |
+| TPMS 깜빡임 → 점등 | BLINK → ON 순서 관측, 시스템 이상 설명·즉시 점검 근거, 정비 요청서 | 510 ms |
+| EPB 지속 점등 | ON 수신 후 3.5초 유지, 초기 점검 점등 구분 안내·지속 시 점검 근거, 정비 요청서 | 517 ms |
+
+각 시나리오에서 D·30 km/h 전환 시 상세 화면과 공유 전 요청서 창이 닫히고, 0 km/h·P로 복귀하면
+상세 사용이 다시 허용됨을 확인했습니다. 모든 테스트 후 두 경고를 OFF, 속도 0, 기어 P로 복원했습니다.
+외부 공유나 정비소 전송은 실행하지 않았습니다. 1초 BLINK 시험은 상태 순서 검증이며 매뉴얼의 약 1분 조건을 충족했다는 뜻이 아닙니다.
+
+- **Qwen 미사용**, `generationMode=reviewed`, `retrievalMode=qdrant:manual_chunks__bge_m3`, `embeddingNumGpu=0`.
+- Ollama 실행 상태의 bge-m3 `size_vram=0` 확인. 위 응답 시간은 모델 준비 후 질문 버튼부터 화면 답변까지 각 1회 측정이며 p95나 최초 로딩 보장이 아닙니다.
+- 최초 실행에서는 TPMS의 모호한 질문에 저압 대처 근거가 빠져 1개가 실패했습니다.
+  기본 질문을 “타이어 공기압 경고가 처음 켜졌는데 어떻게 대처해야 하나요?”로 명확히 하고 필수 대처 근거를 다시 검사했습니다.
+  임의 자유질문 전반의 품질이 개선됐다는 의미는 아닙니다. 전체 로컬 매뉴얼 안내는 질문 답변과 별도로 유지됩니다.
+- 요청서의 밝은 배경·밝은 글자 문제를 다크 테마로 수정하고, 최종 화면 캡처에서 가독성을 확인했습니다.
+- 최종 결과: **3/3 실연동 시나리오**, Android 단위 테스트 **47개**, backend 테스트 **57개**, Lint **오류 0 / 경고 43**.
+- 최종 APK SHA-256: `0eae5d2d62e167a402c8e3d75ff07313b31aa596a10e2098d8736d8b9793bbab`.
+- 로컬 증빙: `.local/verification/three-scenarios/20261108T072628Z/`의 `result.json`, 시나리오별 JSON,
+  안내·답변·요청서 PNG 9개, `instrumentation.txt`. 이전 실패 실행도 별도 폴더에 보존합니다.
+
+CPU 시연 환경 시작 (기존 서버 재사용 시 `/health` 설정도 확인):
+
+```powershell
+$env:CHECKMATE_RETRIEVAL = 'qdrant'
+$env:OLLAMA_EMBED_NUM_GPU = '0'
+.\scripts\Start-Checkmate.ps1 -GenerationMode reviewed
+```
+
+자동화 재검증은 **검증용 AVD만** 허용합니다. debug 앱·androidTest APK를 빌드하고,
+검증용 AVD의 `8088 → 8088` forward와 `8000 → 8000` reverse, 위 CPU 서버를 준비한 뒤 실행합니다.
+스크립트는 AVD·포트·서버 모드·CPU 설정을 검사하고 콘솔 세션을 유지합니다. DB를 삭제하지 않습니다.
+
+```powershell
+python -X utf8 scripts/verify_three_scenarios.py
+```
 
 ## 프로젝트 구조
 
@@ -455,7 +573,7 @@ Pleos API 34 에뮬레이터에서 실제 Qwen 설명·인용 표시, 로컬 요
   이번 UI 검증을 구분해 기록합니다. 앱 소스 변경 없이 화면 검증을 보완했습니다.
 
 위 결과는 에뮬레이터의 기능 검증입니다. 실차 검증이나 전체 자동차 매뉴얼에 대한 검색·답변
-품질 검증은 포함하지 않습니다. 현재 근거는 검토 요약 3개이며 임베딩·벡터 검색은 아직 없습니다.
+품질 검증은 포함하지 않습니다. 해당 UI 검증 당시 범위이며, 이후 추가된 TPMS·EPB 10개 근거와 임베딩·Qdrant 검색의 현재 상태는 `backend/README.md`를 참고하세요.
 
 실행 중인 로컬 서비스 주소:
 

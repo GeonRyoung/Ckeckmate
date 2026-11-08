@@ -21,9 +21,15 @@ object ExplanationJson {
     private val statuses = setOf("READY", "PROFILE_REQUIRED", "PROFILE_UNSUPPORTED", "WARNING_UNSUPPORTED",
         "STATE_UNSUPPORTED", "NO_EVIDENCE", "TEMPORARILY_UNAVAILABLE")
 
-    fun request(id: String, context: RemoteContext): String = JSONObject()
-        .put("requestId", id).put("profileId", context.profileId).put("intent", "WARNING_OVERVIEW")
-        .put("warning", JSONObject().put("type", context.type).put("rawState", context.rawState)).toString()
+    fun request(id: String, context: RemoteContext, question: String? = null): String {
+        val cleaned = question?.trim()
+        require(cleaned == null || cleaned.length in 1..300) { "Question must be 1 to 300 characters" }
+        return JSONObject()
+            .put("requestId", id).put("profileId", context.profileId)
+            .put("intent", if (cleaned == null) "WARNING_OVERVIEW" else "QUESTION")
+            .put("warning", JSONObject().put("type", context.type).put("rawState", context.rawState))
+            .apply { if (cleaned != null) put("question", cleaned) }.toString()
+    }
 
     fun parse(raw: String, id: String, context: RemoteContext, profile: ManualProfile): RemoteExplanation {
         val root = JSONObject(raw)

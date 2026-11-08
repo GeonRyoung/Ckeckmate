@@ -7,9 +7,26 @@ from fastapi.testclient import TestClient
 from checkmate.catalog import load_catalog
 from checkmate.main import create_app
 from checkmate.retrieval import OllamaEmbeddingRanker
+from checkmate.retrieval import OllamaEmbedder
 from checkmate.service import QUESTION_TOP_K, ExplanationService
 
 PROFILE = load_catalog().profiles[0].id
+
+
+def test_explicit_cpu_embedding_option_reaches_ollama(monkeypatch):
+    monkeypatch.setenv("OLLAMA_EMBED_NUM_GPU", "0")
+    def handler(request):
+        payload = __import__("json").loads(request.content)
+        assert payload["options"] == {"num_gpu": 0}
+        return httpx.Response(200, json={"embeddings": [[1.0, 0.0]]})
+    embed = OllamaEmbedder("bge-m3", "http://ollama", httpx.MockTransport(handler))
+    assert embed(["질문"]) == [[1.0, 0.0]]
+
+
+def test_invalid_embedding_device_configuration_is_rejected(monkeypatch):
+    monkeypatch.setenv("OLLAMA_EMBED_NUM_GPU", "-1")
+    with pytest.raises(ValueError):
+        OllamaEmbedder("bge-m3", "http://ollama")
 
 
 def ask(question=None, intent="QUESTION", profile=PROFILE, type="TPMS"):

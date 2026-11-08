@@ -15,7 +15,9 @@ def create_app(service: ExplanationService | None = None) -> FastAPI:
 
     @app.get("/health")
     def health():
-        return {"status": "ok", "generationMode": service.mode, "indexVersion": service.catalog.indexVersion}
+        embed = getattr(service.ranker, "embed", None)
+        return {"status": "ok", "generationMode": service.mode, "indexVersion": service.catalog.indexVersion,
+                "retrievalMode": service.ranker.name, "embeddingNumGpu": getattr(embed, "num_gpu", None)}
 
     @app.get("/v1/manual-profiles")
     def profiles():

@@ -7,4 +7,10 @@
         <item name="android:windowLightNavigationBar">false</item>
         <item name="android:windowBackground">@color/background</item>
     </style>
+    <style name="ThemeOverlay.Checkmate.Dialog" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:colorBackground">@color/surface</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
 </resources>
