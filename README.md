@@ -64,8 +64,11 @@ https://nexus-playground.pleos.ai/repository/raw-releases/connect-avd/2.x/crp-sy
 
 ## APK
 
-- 위치: [`apk/박건령_CHECKMATE_release.apk`](apk/)
-- 실행 가능한 release 빌드입니다. 설치 후 앱 목록의 **CHECKMATE**로 실행합니다.
+- 위치: [`apk/박건령_CHECKMATE_release.apk`](apk/%EB%B0%95%EA%B1%B4%EB%A0%B9_CHECKMATE_release.apk)
+- 서명된 release 빌드, 버전 1.0.0 (versionCode 3), 패키지 `com.checkmate.pleos`, 약 31MB
+- SHA-256 `f6e15f633a66d484c40e50ea2d1ffbb9405c6a548fbe032be0fcb00a200a0d99`
+- Pleos Connect Emulator v2.1.0에 설치·실행해 Vehicle SDK 수신, 경고 카드, 상세 화면 동작을 확인했습니다 (2026-11-12).
+- 설치 후 앱 목록의 **CHECKMATE**로 실행합니다. 같은 패키지의 debug 앱이 설치되어 있으면 서명이 달라 먼저 제거해야 합니다.
 
 ## 실행 방법
 

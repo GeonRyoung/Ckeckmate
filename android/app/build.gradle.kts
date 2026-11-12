@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.ksp)
@@ -12,8 +14,8 @@ android {
         applicationId = "com.checkmate.pleos"
         minSdk = 28
         targetSdk = 35
-        versionCode = 2
-        versionName = "0.5.0"
+        versionCode = 3
+        versionName = "1.0.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -27,6 +29,18 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
 
+    // Release signing comes from android/keystore.properties (git-ignored), never from the repo.
+    val keystoreFile = rootProject.file("keystore.properties")
+    val releaseSigning = if (keystoreFile.exists()) {
+        val props = Properties().apply { keystoreFile.inputStream().use { load(it) } }
+        signingConfigs.create("release") {
+            storeFile = rootProject.file(props.getProperty("storeFile"))
+            storePassword = props.getProperty("storePassword")
+            keyAlias = props.getProperty("keyAlias")
+            keyPassword = props.getProperty("keyPassword")
+        }
+    } else null
+
     buildTypes {
         debug {
             buildConfigField("String", "EXPLANATION_BASE_URL", "\"http://127.0.0.1:8000\"")
@@ -37,7 +51,8 @@ android {
                 "checkmateServerUrl must be an HTTPS origin"
             }
             buildConfigField("String", "EXPLANATION_BASE_URL", "\"$serverUrl\"")
-            // Signing is configured locally when preparing a submission build.
+            // Without keystore.properties the release APK stays unsigned (not installable).
+            releaseSigning?.let { signingConfig = it }
             isMinifyEnabled = false
         }
     }
