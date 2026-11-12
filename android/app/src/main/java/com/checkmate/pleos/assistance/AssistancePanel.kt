@@ -20,6 +20,16 @@ import com.checkmate.pleos.history.HistoryRepository
 import com.checkmate.pleos.manual.ManualCatalog
 import com.checkmate.pleos.summary.ServiceSummaryFormatter
 import com.checkmate.pleos.summary.SummaryPeriod
+import com.checkmate.pleos.ui.card
+import com.checkmate.pleos.ui.dp
+import com.checkmate.pleos.ui.margins
+import com.checkmate.pleos.ui.optionRow
+import com.checkmate.pleos.ui.styledText
+import com.checkmate.pleos.ui.uiButton
+import android.text.Editable
+import android.text.TextWatcher
+import android.util.TypedValue
+import android.view.ViewGroup
 import java.time.ZoneId
 
 /** No simulated vehicle events. Scenarios describe what the user reports about a real selection. */
@@ -36,52 +46,91 @@ class AssistancePanel(
     private var reportLoading = false
     private var preview: AlertDialog? = null
     private val scenarioButtons = LinearLayout(activity).apply { orientation = LinearLayout.VERTICAL }
-    private val guidance = label("")
+    private val guidance = softBox()
     private val question = input("이 경고에 대해 질문하세요 (300자)", 300)
     private val symptoms = input("직접 겪은 증상과 발생 상황 (1000자)", 1000)
     private val actions = input("이미 시도한 조치와 이후 상태 (1000자)", 1000)
-    private val status = label("")
-    private val answer = label("")
-    private val send = button("질문 보내기") {
+    private val status = softBox()
+    private val answer = softBox()
+    private val send = button("질문 보내기", primary = true) {
         val text = question.text.toString().trim()
         if (text.isEmpty()) status.text = "질문을 입력해 주세요."
         else { voice.stop(); ask(text) }
     }
-    private val report = button("정비 요청서 미리보기") { prepareReport() }
+    private val report = button("정비 요청서 미리보기", primary = true, icon = R.drawable.ic_description) { prepareReport() }
     private val voice = VoiceController(activity, { active }, { status.text = it })
 
     init {
-        root.addView(label("상황별 도움받기", 26f))
-        root.addView(label("직접 확인한 상황을 선택하세요. 선택한 문장은 차량 센서로 확인된 사실과 구분합니다."))
-        root.addView(scenarioButtons)
-        root.addView(guidance)
-        root.addView(button("상황 안내 읽어주기") {
-            selected?.let { voice.speak("선택한 상황에 대한 매뉴얼 안내입니다. ${it.guidance} 확인 질문입니다. ${it.check}") }
-                ?: run { status.text = "먼저 상황을 선택해 주세요." }
+        root.addView(status, LinearLayout.LayoutParams(-1, -2).margins(bottom = activity.dp(20)))
+
+        root.addView(section("Your situation", "어떤 상황인가요?",
+            "직접 확인한 상황을 선택하세요. 선택한 문장은 차량 센서로 확인된 사실과 구분합니다.").apply {
+            addView(scenarioButtons, LinearLayout.LayoutParams(-1, -2).margins(top = activity.dp(20)))
+            addView(guidance, LinearLayout.LayoutParams(-1, -2).margins(top = activity.dp(8)))
+            addView(button("상황 안내 읽어주기", icon = R.drawable.ic_volume_up) {
+                selected?.let { voice.speak("선택한 상황에 대한 매뉴얼 안내입니다. ${it.guidance} 확인 질문입니다. ${it.check}") }
+                    ?: run { status.text = "먼저 상황을 선택해 주세요." }
+            })
+        }, sectionParams(0))
+
+        root.addView(section("Ask", "질문하기",
+            "질문은 선택한 매뉴얼·경고 상태와 함께 설명 서버로 전송됩니다. 이름·연락처·차량번호는 입력하지 마세요.").apply {
+            addView(question, LinearLayout.LayoutParams(-1, -2).margins(top = activity.dp(20)))
+            addView(row(button("음성으로 질문 입력", icon = R.drawable.ic_mic) { listenInto(question, 300) }, send))
+            addView(answer, LinearLayout.LayoutParams(-1, -2).margins(top = activity.dp(8)))
+            addView(row(
+                button("질문 답변 읽어주기", icon = R.drawable.ic_volume_up) {
+                    if (answer.text.isNotBlank()) voice.speak(answer.text.toString())
+                    else status.text = "먼저 질문을 보내 답변을 받아 주세요."
+                },
+                button("음성 중지", icon = R.drawable.ic_stop_circle) { voice.stop(); status.text = "음성을 중지했습니다." },
+            ))
+            addView(caption("질문 답변은 왼쪽의 전체 매뉴얼 안내를 대신하지 않습니다."))
+        }, sectionParams(24))
+
+        root.addView(section("Service handoff", "정비소에 전달할 내용",
+            "증상·조치는 이 화면에서만 보관합니다. 경고·프로필·화면이 바뀌면 지워집니다. 음성 인식 서비스는 오디오를 서버에서 처리할 수 있습니다.").apply {
+            addView(symptoms, LinearLayout.LayoutParams(-1, -2).margins(top = activity.dp(20)))
+            addView(button("음성으로 증상 입력", icon = R.drawable.ic_mic) { listenInto(symptoms, 1000) })
+            addView(actions, LinearLayout.LayoutParams(-1, -2).margins(top = activity.dp(8)))
+            addView(report)
+            addView(button("현대 공식 정비소 찾기", icon = R.drawable.ic_search) {
+                open(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.hyundai.com/kr/ko/service-membership/service-network/service-reservation-search")))
+            })
+            addView(caption("정비소 찾기는 공식 웹사이트를 엽니다. 요청서를 자동 접수하지 않습니다. 미리보기에서 내용을 확인하고, 수신처가 안내한 방법으로 공유하세요."))
+        }, sectionParams(24))
+    }
+
+    private fun sectionParams(top: Int) = LinearLayout.LayoutParams(-1, -2).margins(top = activity.dp(top))
+
+    private fun section(eyebrow: String, title: String, help: String) = activity.card().apply {
+        addView(activity.styledText(R.style.Text_Checkmate_Eyebrow, eyebrow))
+        addView(activity.styledText(R.style.Text_Checkmate_CardTitle, title, 26f),
+            LinearLayout.LayoutParams(-2, -2).margins(top = activity.dp(8)))
+        addView(activity.styledText(R.style.Text_Checkmate_Caption, help, 17f),
+            LinearLayout.LayoutParams(-1, -2).margins(top = activity.dp(6)))
+    }
+
+    private fun row(first: Button, second: Button) = LinearLayout(activity).apply {
+        orientation = LinearLayout.HORIZONTAL
+        addView(first, LinearLayout.LayoutParams(0, -2, 1f).margins(top = activity.dp(12), end = activity.dp(12)))
+        addView(second, LinearLayout.LayoutParams(0, -2, 1f).margins(top = activity.dp(12)))
+    }
+
+    private fun caption(value: String) = activity.styledText(R.style.Text_Checkmate_Caption, value, 16f).apply {
+        layoutParams = LinearLayout.LayoutParams(-1, -2).margins(top = activity.dp(14))
+    }
+
+    /** Soft tinted box that hides itself while empty. */
+    private fun softBox() = activity.styledText(R.style.Text_Checkmate_Body, "", 19f).apply {
+        setBackgroundResource(R.drawable.soft_box)
+        setPadding(activity.dp(24), activity.dp(20), activity.dp(24), activity.dp(20))
+        visibility = View.GONE
+        addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) = Unit
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) = Unit
+            override fun afterTextChanged(s: Editable?) { visibility = if (s.isNullOrBlank()) View.GONE else View.VISIBLE }
         })
-        root.addView(label("추가 질문", 24f))
-        root.addView(question)
-        root.addView(label("질문은 선택한 매뉴얼·경고 상태와 함께 설명 서버로 전송됩니다. 이름·연락처·차량번호는 입력하지 마세요."))
-        root.addView(button("음성으로 질문 입력") { listenInto(question, 300) })
-        root.addView(send)
-        root.addView(answer)
-        root.addView(button("질문 답변 읽어주기") {
-            if (answer.text.isNotBlank()) voice.speak(answer.text.toString())
-            else status.text = "먼저 질문을 보내 답변을 받아 주세요."
-        })
-        root.addView(label("질문 답변은 아래의 전체 매뉴얼 안내를 대신하지 않습니다."))
-        root.addView(label("정비소에 전달할 내용", 24f))
-        root.addView(symptoms)
-        root.addView(button("음성으로 증상 입력") { listenInto(symptoms, 1000) })
-        root.addView(actions)
-        root.addView(label("증상·조치는 이 화면에서만 보관합니다. 경고·프로필·화면이 바뀌면 지워집니다. 음성 인식 서비스는 오디오를 서버에서 처리할 수 있습니다."))
-        root.addView(report)
-        root.addView(button("현대 공식 정비소 찾기") {
-            open(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.hyundai.com/kr/ko/service-membership/service-network/service-reservation-search")))
-        })
-        root.addView(label("정비소 찾기는 공식 웹사이트를 엽니다. 요청서를 자동 접수하지 않습니다. 미리보기에서 내용을 확인하고, 수신처가 안내한 방법으로 공유하세요."))
-        root.addView(button("음성 중지") { voice.stop(); status.text = "음성을 중지했습니다." })
-        root.addView(status)
     }
 
     private fun listenInto(target: EditText, limit: Int) {
@@ -98,13 +147,14 @@ class AssistancePanel(
             context = next
             scenarioButtons.removeAllViews()
             choices.forEach { scenario ->
-                scenarioButtons.addView(button(scenario.title) {
+                scenarioButtons.addView(option(scenario.title) {
                     voice.stop()
                     selected = scenario
-                    guidance.text = "선택한 상황: ${scenario.title}\n\n확인할 내용\n${scenario.check}\n\n대처 안내\n${scenario.guidance}\n\n출처: 2025 아이오닉 5 취급설명서 · PDF ${scenario.pages}쪽"
+                    for (i in 0 until scenarioButtons.childCount) scenarioButtons.getChildAt(i).isSelected = scenarioButtons.getChildAt(i).tag == scenario.id
+                    guidance.text = "확인할 내용\n${scenario.check}\n\n대처 안내\n${scenario.guidance}\n\n출처 · 2025 아이오닉 5 취급설명서 PDF ${scenario.pages}쪽"
                     question.setText(scenario.question)
                     status.text = "선택한 상황의 안내입니다. 추가 질문은 내용을 확인한 뒤 보내세요."
-                })
+                }.apply { tag = scenario.id })
             }
         }
         if (active && !enabled) reset()
@@ -133,7 +183,11 @@ class AssistancePanel(
             result.fold(onSuccess = { summary ->
                 val body = ServiceRequest.format(profile.label, snapshot, situation, symptomText, actionText,
                     ServiceSummaryFormatter.format(summary, zone), zone)
-                val text = label(body, 22f).apply { setPadding(24, 24, 24, 24); setTextIsSelectable(true) }
+                val text = label(body, 21f).apply {
+                    setPadding(activity.dp(40), activity.dp(24), activity.dp(40), activity.dp(24))
+                    setLineSpacing(activity.dp(8).toFloat(), 1f)
+                    setTextIsSelectable(true)
+                }
                 val scroll = ScrollView(activity).apply {
                     setBackgroundColor(activity.getColor(R.color.surface))
                     addView(text)
@@ -148,7 +202,9 @@ class AssistancePanel(
                                 putExtra(Intent.EXTRA_TEXT, body)
                             }, "수신처와 내용을 확인한 뒤 전송하세요"))
                         }
-                    }.show()
+                    }.show().also { dialog ->
+                        dialog.window?.setLayout(activity.dp(1200), ViewGroup.LayoutParams.WRAP_CONTENT)
+                    }
                 status.text = "공유 앱을 열어도 정비소의 접수·전송 완료를 확인할 수는 없습니다."
             }, onFailure = { status.text = "이력을 읽지 못해 요청서를 만들지 않았습니다. 다시 시도해 주세요." })
         }
@@ -175,6 +231,7 @@ class AssistancePanel(
         actions.text.clear()
         guidance.text = ""
         status.text = ""
+        for (i in 0 until scenarioButtons.childCount) scenarioButtons.getChildAt(i).isSelected = false
     }
 
     fun close() { suspend(); voice.close() }
@@ -188,16 +245,19 @@ class AssistancePanel(
     }
 
     private fun label(value: String, size: Float = 18f) = TextView(activity).apply {
-        text = value; textSize = size
+        text = value
+        setTextSize(TypedValue.COMPLEX_UNIT_SP, size)
         setTextColor(activity.getColor(R.color.text_primary))
-        setPadding(0, 12, 0, 12)
     }
 
     private fun input(hintText: String, limit: Int) = EditText(activity).apply {
-        hint = hintText; textSize = 20f
+        hint = hintText
+        setTextSize(TypedValue.COMPLEX_UNIT_SP, 20f)
         contentDescription = hintText
         setTextColor(activity.getColor(R.color.text_primary))
-        setHintTextColor(activity.getColor(R.color.text_secondary))
+        setHintTextColor(activity.getColor(R.color.text_tertiary))
+        setBackgroundResource(R.drawable.input_background)
+        setPadding(activity.dp(22), activity.dp(18), activity.dp(22), activity.dp(18))
         inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_FLAG_MULTI_LINE or InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS
         filters = arrayOf(InputFilter.LengthFilter(limit))
         minLines = 2; maxLines = 5
@@ -206,13 +266,13 @@ class AssistancePanel(
         layoutParams = LinearLayout.LayoutParams(-1, -2)
     }
 
-    private fun button(title: String, action: () -> Unit) = Button(activity).apply {
-        text = title; textSize = 20f; isAllCaps = false
-        minHeight = (64 * resources.displayMetrics.density).toInt()
-        setTextColor(activity.getColor(R.color.button_text))
-        backgroundTintList = null
-        setBackgroundResource(R.drawable.button_background)
-        layoutParams = LinearLayout.LayoutParams(-1, -2).apply { bottomMargin = 12 }
+    private fun option(title: String, action: () -> Unit) = activity.optionRow(title).apply {
         setOnClickListener { if (active) action() }
     }
+
+    private fun button(title: String, primary: Boolean = false, icon: Int? = null, action: () -> Unit) =
+        activity.uiButton(title, primary, icon).apply {
+            layoutParams = LinearLayout.LayoutParams(-1, -2).margins(top = activity.dp(12))
+            setOnClickListener { if (active) action() }
+        }
 }

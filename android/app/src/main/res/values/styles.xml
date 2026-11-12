@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Break Korean text between words (eojeol), not mid-word. Ignored below API 33. -->
+    <style name="Widget.Checkmate.TextView" parent="android:Widget.TextView">
+        <item name="android:lineBreakWordStyle">phrase</item>
+    </style>
+    <!-- Text -->
+    <style name="Text.Checkmate.Eyebrow" parent="">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/accent_label</item>
+        <item name="android:fontFamily">@font/pretendard</item><item name="android:textFontWeight">600</item>
+        <item name="android:letterSpacing">0.14</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="Text.Checkmate.Title" parent="">
+        <item name="android:lineBreakWordStyle">phrase</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">@font/pretendard</item><item name="android:textFontWeight">700</item>
+    </style>
+    <style name="Text.Checkmate.Subtitle" parent="">
+        <item name="android:lineBreakWordStyle">phrase</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:lineSpacingExtra">6dp</item>
+    </style>
+    <style name="Text.Checkmate.CardTitle" parent="">
+        <item name="android:lineBreakWordStyle">phrase</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">@font/pretendard</item><item name="android:textFontWeight">700</item>
+    </style>
+    <style name="Text.Checkmate.Body" parent="">
+        <item name="android:lineBreakWordStyle">phrase</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:lineSpacingExtra">8dp</item>
+    </style>
+    <style name="Text.Checkmate.Caption" parent="">
+        <item name="android:lineBreakWordStyle">phrase</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:lineSpacingExtra">5dp</item>
+    </style>
+
+    <!-- Containers -->
+    <style name="Widget.Checkmate.Card" parent="">
+        <item name="android:background">@drawable/card_background</item>
+        <item name="android:padding">32dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Buttons -->
+    <style name="Widget.Checkmate.Button" parent="Widget.AppCompat.Button">
+        <item name="android:minHeight">72dp</item>
+        <item name="android:minWidth">160dp</item>
+        <item name="android:paddingLeft">28dp</item>
+        <item name="android:paddingRight">28dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:fontFamily">@font/pretendard</item><item name="android:textFontWeight">600</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:lineBreakWordStyle">phrase</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="backgroundTint">@null</item>
+    </style>
+    <style name="Widget.Checkmate.Button.Primary">
+        <item name="android:background">@drawable/button_primary</item>
+        <item name="android:textColor">@color/button_primary_text</item>
+    </style>
+    <style name="Widget.Checkmate.Button.Text">
+        <item name="android:background">@drawable/button_text_background</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+    </style>
+    <style name="Widget.Checkmate.NavItem" parent="Widget.AppCompat.Button">
+        <item name="android:minHeight">76dp</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:paddingLeft">22dp</item>
+        <item name="android:paddingRight">22dp</item>
+        <item name="android:drawablePadding">18dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/pretendard</item><item name="android:textFontWeight">600</item>
+        <item name="android:background">@drawable/nav_background</item>
+        <item name="android:textColor">@color/nav_text</item>
+        <item name="drawableTint">@color/nav_text</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="backgroundTint">@null</item>
+    </style>
+    <style name="Widget.Checkmate.Segment" parent="Widget.Checkmate.Button">
+        <item name="android:background">@drawable/segment_background</item>
+        <item name="android:textColor">@color/segment_text</item>
+        <item name="android:minWidth">120dp</item>
+        <item name="android:minHeight">64dp</item>
+    </style>
+</resources>

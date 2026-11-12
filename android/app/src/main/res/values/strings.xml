@@ -32,7 +32,7 @@
     <string name="history_next">이전 기록</string>
     <string name="ui_brand">CHECKMATE</string>
     <string name="ui_ux_status">사용 가능 상태 확인 중</string>
-    <string name="ui_restriction_notice">상세 내용은 사용 가능한 상태에서 확인하세요.</string>
+    <string name="ui_restriction_notice">안전을 위해 주행 중에는 상세 화면을 표시하지 않습니다</string>
     <string name="ui_show_current">현재 경고</string>
     <string name="ui_show_history">이력</string>
     <string name="ui_show_profile">매뉴얼</string>
@@ -40,7 +40,7 @@
     <string name="ui_warning_list">차량 정보를 확인하고 있습니다.</string>
     <string name="ui_connection_status">수신 대기</string>
     <string name="ui_retry">다시 연결</string>
-    <string name="ui_toggle_diagnostics">최근 관측 변화 펼치기</string>
+    <string name="ui_toggle_diagnostics">전체 변화 보기</string>
     <string name="ui_event_scope">앱이 관측한 변화입니다. 목록 제외는 수리 완료를 뜻하지 않습니다.</string>
     <string name="ui_history_title">경고 이력</string>
     <string name="ui_history_description">과거 관측 기록입니다. 기록을 누르면 상세를 볼 수 있습니다.</string>
@@ -73,4 +73,20 @@
     <string name="summary_failed">요약을 불러오지 못했습니다. 요약 새로고침으로 다시 시도하세요.</string>
     <string name="summary_ready">조회 시점의 저장 기록입니다. 경고별 집계는 전체 기록, 최근 변화 상세는 최대 50개입니다.</string>
     <string name="summary_waiting">요약을 준비하고 있습니다.</string>
+    <string name="ui_tagline">경고등을 매뉴얼로 읽어 드립니다</string>
+    <string name="ui_vehicle_none">차량 매뉴얼 미선택</string>
+    <string name="ui_vehicle_hint">매뉴얼에서 차량을 선택하세요</string>
+    <string name="ui_show_detail">경고 상세</string>
+    <string name="summary_nav">정비 요약</string>
+    <string name="ui_sidebar_note">안내는 안전하게 정차한 뒤 확인하세요.
+차량 취급설명서와 정비사의 안내를 우선해 주세요.</string>
+    <string name="ui_restriction_detail">정차 후 다시 확인할 수 있어요</string>
+    <string name="ui_empty_title">수신된 경고가 없습니다</string>
+    <string name="ui_empty_body">차량이 보낸 경고 신호가 없을 때의 화면입니다.
+차량 전체가 정상이라는 뜻은 아닙니다.</string>
+    <string name="ui_connection_title">차량 연결 상태</string>
+    <string name="ui_current_footnote">이 화면은 수신된 경고 상태를 안내하며, 고장 원인을 진단하지 않습니다.</string>
+    <string name="ui_history_card_title">최근 관측 기록</string>
+    <string name="ui_profile_card_title">설명에 사용할 매뉴얼</string>
+    <string name="ui_profile_source_empty">매뉴얼을 선택하면 원문 정보가 표시됩니다.</string>
 </resources>

@@ -47,7 +47,7 @@ class AssistanceUiTest {
                 fun openWarning(type: String) {
                     activity.findViewById<Button>(R.id.show_current).performClick()
                     val cards = activity.findViewById<LinearLayout>(R.id.warning_cards)
-                    views(cards).filterIsInstance<Button>().single { it.text.startsWith("$type ·") }.performClick()
+                    views(cards).filterIsInstance<Button>().single { it.tag == "open:$type" }.performClick()
                 }
                 listOf("TPMS", "ELECTRONIC_PARKING_BRAKE").forEach { type ->
                     openWarning(type)

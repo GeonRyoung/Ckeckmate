@@ -127,7 +127,7 @@ class ConsoleScenariosTest {
                 if (type == "ELECTRONIC_PARKING_BRAKE") SystemClock.sleep(3500)
                 scenario.onActivity { activity ->
                     views(activity.findViewById(R.id.warning_cards)).filterIsInstance<Button>()
-                        .single { it.text.startsWith("$type · ON") }.performClick()
+                        .single { it.tag == "open:$type" }.performClick()
                 }
                 awaitUi(scenario, "scenario panel") { it.findViewById<View>(R.id.assistance_panel).isShown }
                 scenario.onActivity { activity ->

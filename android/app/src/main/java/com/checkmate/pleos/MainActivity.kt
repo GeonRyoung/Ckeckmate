@@ -34,6 +34,15 @@ import com.checkmate.pleos.vehicle.WarningMonitor
 import com.checkmate.pleos.history.HistoryRepository
 import com.checkmate.pleos.summary.ServiceSummaryPanel
 import com.checkmate.pleos.summary.SummaryPeriod
+import com.checkmate.pleos.ui.WarningLabels
+import com.checkmate.pleos.ui.card
+import com.checkmate.pleos.ui.chip
+import com.checkmate.pleos.ui.margins
+import com.checkmate.pleos.ui.optionRow
+import com.checkmate.pleos.ui.styledText
+import com.checkmate.pleos.ui.uiButton
+import android.widget.ImageView
+import android.content.res.ColorStateList
 import java.util.UUID
 import java.time.Instant
 import java.time.ZoneId
@@ -83,6 +92,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var uxSource: UxRestrictionSource
     private var detailsAllowed = false
     private val timeFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss").withZone(ZoneId.systemDefault())
+    private val clockFormat = DateTimeFormatter.ofPattern("HH:mm").withZone(ZoneId.systemDefault())
+    private val dayFormat = DateTimeFormatter.ofPattern("M월 d일").withZone(ZoneId.systemDefault())
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -90,17 +101,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         ViewCompat.setOnApplyWindowInsetsListener(binding.root) { view, insets ->
             val bars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            val margin = (24 * resources.displayMetrics.density).toInt()
-            view.setPadding(bars.left + margin, bars.top + margin, bars.right + margin, bars.bottom + margin)
+            view.setPadding(bars.left, bars.top, bars.right, bars.bottom)
             insets
         }
         ViewCompat.requestApplyInsets(binding.root)
-        binding.contentScroll.doOnLayout { scroll ->
-            binding.content.layoutParams = binding.content.layoutParams.apply {
-                width = minOf(scroll.width, dp(1080))
-                (this as android.widget.FrameLayout.LayoutParams).gravity = android.view.Gravity.CENTER_HORIZONTAL
-            }
-        }
         repository = HistoryRepository.get(this)
         assistancePanel = com.checkmate.pleos.assistance.AssistancePanel(this, binding.assistancePanel, repository) {
             requestServerExplanation(it)
@@ -124,9 +128,9 @@ class MainActivity : AppCompatActivity() {
             if (screen == Screen.DETAIL && selection == null) screen = Screen.CURRENT
         }
         ManualCatalog.profiles.forEach { profile ->
-            binding.profileOptions.addView(actionButton(profile.label) {
-                manualPreferences.select(profile.id)
-                render()
+            binding.profileOptions.addView(optionRow(profile.label).apply {
+                tag = profile.id
+                setOnClickListener { if (detailsAllowed) { manualPreferences.select(profile.id); render() } }
             })
         }
         source = PleosWarningSource(this,
@@ -144,7 +148,7 @@ class MainActivity : AppCompatActivity() {
         uxSource = UxRestrictionSource(this) { allowed, message ->
             if (!allowed) clearServerExplanation()
             detailsAllowed = allowed
-            binding.uxStatus.text = message
+            binding.uxStatus.text = if (allowed) "정차 중 · 상세 화면 사용 가능" else message
             render()
         }
         binding.showCurrent.setOnClickListener { navigate(Screen.CURRENT) }
@@ -155,6 +159,8 @@ class MainActivity : AppCompatActivity() {
         }
         binding.showProfile.setOnClickListener { navigate(Screen.PROFILE) }
         binding.showSummary.setOnClickListener { navigate(Screen.SUMMARY) }
+        binding.showSummaryNav.setOnClickListener { navigate(Screen.SUMMARY) }
+        binding.showDetail.setOnClickListener { if (selection != null) navigate(Screen.DETAIL) }
         binding.detailChooseProfile.setOnClickListener { navigate(Screen.PROFILE) }
         binding.detailBack.setOnClickListener {
             navigate(if (selection?.historical == true) Screen.HISTORY else Screen.CURRENT)
@@ -280,20 +286,8 @@ class MainActivity : AppCompatActivity() {
                 historyTotal = page.total
                 historyCount = page.events.size
                 binding.historyEntries.text = if (page.events.isEmpty()) getString(R.string.history_empty) else ""
-                page.events.forEach { event ->
-                    if (event.warningType != null) {
-                        binding.historyCards.addView(actionButton("${time(event.observedAt)}\n${event.message}  ›") {
-                            selection = WarningSelection(event.warningType, event.rawState, event.observedAt, true, event.message)
-                            navigate(Screen.DETAIL)
-                        })
-                    } else {
-                        binding.historyCards.addView(TextView(this).apply {
-                            text = "${time(event.observedAt)}\n${event.message}"
-                            textSize = 18f
-                            setTextColor(getColor(R.color.text_secondary))
-                            setPadding(16, 20, 16, 20)
-                        })
-                    }
+                page.events.forEachIndexed { index, event ->
+                    binding.historyCards.addView(historyRow(event, index > 0))
                 }
                 binding.historyPage.text = getString(R.string.history_page,
                     page.total, if (page.events.isEmpty()) 0 else requestedOffset + 1,
@@ -307,10 +301,66 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun time(at: Long) = timeFormat.format(Instant.ofEpochMilli(at))
+    private fun clock(at: Long) = clockFormat.format(Instant.ofEpochMilli(at))
+    private fun day(at: Long) = dayFormat.format(Instant.ofEpochMilli(at))
+    private fun semibold() = android.graphics.Typeface.create(resources.getFont(R.font.pretendard), 600, false)
+
+    private fun historyRow(event: com.checkmate.pleos.history.WarningEvent, divided: Boolean): View {
+        val gap = event.eventKind.contains("GAP") || event.eventKind.contains("INTERRUPT")
+        val row = LinearLayout(this).apply {
+            orientation = LinearLayout.HORIZONTAL
+            gravity = android.view.Gravity.CENTER_VERTICAL
+            setPadding(dp(20), dp(20), dp(20), dp(20))
+            if (gap) setBackgroundResource(R.drawable.gap_box)
+            else if (event.warningType != null) setBackgroundResource(R.drawable.button_text_background)
+            layoutParams = LinearLayout.LayoutParams(-1, -2).margins(top = if (gap) dp(8) else 0, bottom = if (gap) dp(8) else 0)
+        }
+        row.addView(styledText(R.style.Text_Checkmate_Caption, clock(event.observedAt), 20f).apply {
+            layoutParams = LinearLayout.LayoutParams(dp(92), -2)
+        })
+        row.addView(ImageView(this).apply {
+            setImageResource(if (event.warningType != null) R.drawable.dot_ring else R.drawable.dot_ring_gray)
+            layoutParams = LinearLayout.LayoutParams(dp(16), dp(16)).margins(end = dp(20))
+        })
+        val texts = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            layoutParams = LinearLayout.LayoutParams(0, -2, 1f)
+        }
+        val title = when {
+            event.warningType != null -> WarningLabels.name(event.warningType)
+            gap -> "관측 공백"
+            else -> event.message.substringBefore(" · ")
+        }
+        texts.addView(styledText(R.style.Text_Checkmate_Body, title, 21f).apply { typeface = semibold() })
+        texts.addView(styledText(R.style.Text_Checkmate_Caption, "${day(event.observedAt)} · ${event.message}", 16f))
+        row.addView(texts)
+        if (event.warningType != null) {
+            val severity = WarningLabels.severity(event.warningType, event.rawState)
+            row.addView(chip(WarningLabels.state(event.rawState), severity.chip, severity.text).apply {
+                layoutParams = LinearLayout.LayoutParams(-2, -2).margins(start = dp(16))
+            })
+            row.contentDescription = "${time(event.observedAt)} ${event.message}"
+            row.isClickable = true
+            row.setOnClickListener {
+                if (!detailsAllowed) return@setOnClickListener
+                selection = WarningSelection(event.warningType, event.rawState, event.observedAt, true, event.message)
+                navigate(Screen.DETAIL)
+            }
+        }
+        if (!divided || gap) return row
+        return LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            addView(View(context).apply {
+                setBackgroundColor(getColor(R.color.divider))
+                layoutParams = LinearLayout.LayoutParams(-1, dp(1)).margins(start = dp(20), end = dp(20))
+            })
+            addView(row)
+        }
+    }
 
     private fun render() {
         binding.details.isVisible = detailsAllowed
-        binding.restrictionNotice.isVisible = !detailsAllowed
+        binding.restrictionPanel.isVisible = !detailsAllowed
         binding.retry.isEnabled = detailsAllowed
         binding.previousPage.isEnabled = detailsAllowed && !historyLoading && historyOffset > 0
         binding.nextPage.isEnabled = detailsAllowed && !historyLoading && historyCount > 0 &&
@@ -320,7 +370,7 @@ class MainActivity : AppCompatActivity() {
         binding.detailPanel.isVisible = screen == Screen.DETAIL
         binding.profilePanel.isVisible = screen == Screen.PROFILE
         binding.diagnosticsPanel.isVisible = diagnosticsVisible
-        binding.toggleDiagnostics.text = if (diagnosticsVisible) "최근 관측 변화 접기" else "최근 관측 변화 펼치기"
+        binding.toggleDiagnostics.text = if (diagnosticsVisible) "간단히 보기" else "전체 변화 보기"
         binding.historyPanel.isVisible = historyVisible
         binding.serviceSummary.root.isVisible = screen == Screen.SUMMARY
         binding.showSummary.isEnabled = detailsAllowed
@@ -328,9 +378,23 @@ class MainActivity : AppCompatActivity() {
         binding.showCurrent.isSelected = screen == Screen.CURRENT || (screen == Screen.DETAIL && selection?.historical != true)
         binding.showHistory.isSelected = screen == Screen.HISTORY || screen == Screen.SUMMARY || (screen == Screen.DETAIL && selection?.historical == true)
         binding.showProfile.isSelected = screen == Screen.PROFILE
+        binding.showCurrent.isSelected = screen == Screen.CURRENT
+        binding.showHistory.isSelected = screen == Screen.HISTORY
+        binding.showDetail.isSelected = screen == Screen.DETAIL
+        binding.showSummaryNav.isSelected = screen == Screen.SUMMARY
         binding.showCurrent.isEnabled = detailsAllowed && screen != Screen.CURRENT
         binding.showHistory.isEnabled = detailsAllowed && screen != Screen.HISTORY
         binding.showProfile.isEnabled = detailsAllowed && screen != Screen.PROFILE
+        binding.showDetail.isEnabled = detailsAllowed && selection != null && screen != Screen.DETAIL
+        binding.showSummaryNav.isEnabled = detailsAllowed && screen != Screen.SUMMARY
+        val active = if (monitor.isCurrent) monitor.current.size else 0
+        binding.currentBadge.isVisible = active > 0
+        binding.currentBadge.text = active.toString()
+        binding.restrictionDetail.text = if (active > 0) "정차 후 다시 확인할 수 있어요 · 현재 경고 ${active}개"
+            else getString(R.string.ui_restriction_detail)
+        binding.emptyCard.isVisible = monitor.current.isEmpty()
+        binding.emptyTitle.text = if (monitor.isCurrent) getString(R.string.ui_empty_title) else "차량 상태를 확인하고 있습니다"
+        binding.connectionDot.setImageResource(if (monitor.isCurrent) R.drawable.dot_live else R.drawable.dot_idle)
         renderProfile()
         renderWarningCards()
         renderDetail()
@@ -343,15 +407,14 @@ class MainActivity : AppCompatActivity() {
         binding.lastReceived.text = monitor.lastReceivedAt?.let {
             getString(R.string.last_received, time(it))
         } ?: getString(R.string.no_received_time)
+        binding.breadcrumb.text = "내 차량  /  " + (manualPreferences.selected?.let { vehicleName(it) } ?: "매뉴얼 미선택")
         binding.warningList.text = when {
             !monitor.isCurrent && monitor.lastReceivedAt == null -> getString(R.string.no_vehicle_data)
             !monitor.isCurrent -> getString(R.string.previous_data, warningText())
             monitor.current.isEmpty() -> getString(R.string.no_warnings)
-            else -> "${monitor.current.size}개의 경고가 관측됐습니다. 경고를 눌러 상세를 확인하세요."
+            else -> "지금 확인이 필요한 신호가 ${monitor.current.size}개 있습니다."
         }
-        binding.eventLog.text = monitor.events.joinToString("\n\n") {
-            "${time(it.at)} · ${it.message}"
-        }.ifEmpty { getString(R.string.no_events) }
+        renderRecentEvents()
     }
 
     private fun navigate(target: Screen) {
@@ -392,14 +455,111 @@ class MainActivity : AppCompatActivity() {
         setOnClickListener { if (detailsAllowed) action() }
     }
 
+    private var renderedEvents: Pair<List<com.checkmate.pleos.vehicle.Observation>, Boolean>? = null
+
+    private fun vehicleName(profile: com.checkmate.pleos.manual.ManualProfile) =
+        "${profile.modelYear} ${profile.model.removePrefix("현대 ")}"
+
+    private fun renderRecentEvents() {
+        val key = monitor.events to diagnosticsVisible
+        if (renderedEvents == key) return
+        renderedEvents = key
+        binding.recentEvents.removeAllViews()
+        val shown = if (diagnosticsVisible) monitor.events else monitor.events.take(4)
+        if (shown.isEmpty()) {
+            binding.recentEvents.addView(styledText(R.style.Text_Checkmate_Caption, getString(R.string.no_events)))
+        }
+        shown.forEachIndexed { index, event ->
+            if (index > 0) binding.recentEvents.addView(View(this).apply {
+                setBackgroundColor(getColor(R.color.divider))
+                layoutParams = LinearLayout.LayoutParams(-1, dp(1))
+            })
+            binding.recentEvents.addView(LinearLayout(this).apply {
+                orientation = LinearLayout.HORIZONTAL
+                setPadding(0, dp(14), 0, dp(14))
+                addView(styledText(R.style.Text_Checkmate_Caption, clock(event.at), 18f).apply {
+                    layoutParams = LinearLayout.LayoutParams(dp(72), -2)
+                })
+                addView(styledText(R.style.Text_Checkmate_Body, eventLabel(event), 18f).apply {
+                    layoutParams = LinearLayout.LayoutParams(0, -2, 1f)
+                })
+            })
+        }
+        binding.toggleDiagnostics.isVisible = monitor.events.size > 4 || diagnosticsVisible
+    }
+
+    private fun eventLabel(event: com.checkmate.pleos.vehicle.Observation): String {
+        val type = event.warningType ?: return event.message
+        return if (event.kind == "REMOVED_FROM_LIST") "${WarningLabels.name(type)} 목록 제외"
+            else "${WarningLabels.name(type)} ${WarningLabels.state(event.rawState)}"
+    }
+
     private fun renderWarningCards() {
         if (renderedWarnings == monitor.current) return
         renderedWarnings = monitor.current.toList()
         binding.warningCards.removeAllViews()
-        monitor.current.forEach { warning ->
-            binding.warningCards.addView(actionButton("${warning.reading.type} · ${warning.reading.state}  ›\n${time(warning.observedAt)} 관측") {
-                selection = WarningSelection(warning.reading.type, warning.reading.state, warning.observedAt, false, "")
+        monitor.current.forEachIndexed { index, warning ->
+            binding.warningCards.addView(warningCard(warning).apply {
+                layoutParams = LinearLayout.LayoutParams(-1, -2).margins(top = if (index > 0) dp(24) else 0)
+            })
+        }
+    }
+
+    private fun warningCard(warning: com.checkmate.pleos.vehicle.ObservedWarning): View {
+        val type = warning.reading.type
+        val state = warning.reading.state
+        val severity = WarningLabels.severity(type, state)
+        val open = {
+            if (detailsAllowed) {
+                selection = WarningSelection(type, state, warning.observedAt, false, "")
                 navigate(Screen.DETAIL)
+            }
+        }
+        return card(severity.card).apply {
+            setPadding(dp(40), dp(36), dp(40), dp(36))
+            addView(LinearLayout(context).apply {
+                orientation = LinearLayout.HORIZONTAL
+                gravity = android.view.Gravity.CENTER_VERTICAL
+                addView(chip("●  " + WarningLabels.state(state), severity.chip, severity.text))
+                addView(android.widget.Space(context), LinearLayout.LayoutParams(0, 1, 1f))
+                addView(styledText(R.style.Text_Checkmate_Caption, "$type · $state  ·  ${severity.label}", 17f))
+            })
+            addView(ImageView(context).apply {
+                setImageResource(WarningLabels.icon(type))
+                imageTintList = ColorStateList.valueOf(getColor(severity.icon))
+                layoutParams = LinearLayout.LayoutParams(dp(88), dp(88)).margins(top = dp(28))
+            })
+            addView(styledText(R.style.Text_Checkmate_Title, WarningLabels.name(type), 36f).apply {
+                layoutParams = LinearLayout.LayoutParams(-2, -2).margins(top = dp(20))
+            })
+            addView(styledText(R.style.Text_Checkmate_Subtitle, WarningLabels.hint(type, state), 22f).apply {
+                layoutParams = LinearLayout.LayoutParams(-2, -2).margins(top = dp(12))
+            })
+            addView(View(context).apply {
+                setBackgroundColor(getColor(R.color.divider))
+                layoutParams = LinearLayout.LayoutParams(-1, dp(1)).margins(top = dp(28), bottom = dp(24))
+            })
+            addView(LinearLayout(context).apply {
+                orientation = LinearLayout.HORIZONTAL
+                gravity = android.view.Gravity.CENTER_VERTICAL
+                addView(styledText(R.style.Text_Checkmate_Caption, "최초 관측 시각", 18f))
+                addView(styledText(R.style.Text_Checkmate_CardTitle, clock(warning.observedAt), 28f).apply {
+                    layoutParams = LinearLayout.LayoutParams(-2, -2).margins(start = dp(20))
+                })
+            })
+            addView(LinearLayout(context).apply {
+                orientation = LinearLayout.HORIZONTAL
+                layoutParams = LinearLayout.LayoutParams(-1, -2).margins(top = dp(28))
+                addView(uiButton("원인과 대처 보기", primary = true, icon = R.drawable.ic_arrow_forward).apply {
+                    tag = "open:$type"
+                    contentDescription = "${WarningLabels.name(type)} 원인과 대처 보기"
+                    setOnClickListener { open() }
+                })
+                addView(uiButton("상황별 도움받기").apply {
+                    tag = "help:$type"
+                    layoutParams = LinearLayout.LayoutParams(-2, -2).margins(start = dp(16))
+                    setOnClickListener { open() }
+                })
             })
         }
     }
@@ -415,6 +575,14 @@ class MainActivity : AppCompatActivity() {
             "${it.source.documentTitle}\n문서 버전 ${it.documentRevision} · 확인 ${it.checkedOn}\n${it.source.section}\n${it.source.url}"
         }.orEmpty()
         binding.clearProfile.isEnabled = detailsAllowed && manualPreferences.selectedId != null
+        for (i in 0 until binding.profileOptions.childCount) {
+            val option = binding.profileOptions.getChildAt(i)
+            option.isSelected = option.tag == manualPreferences.selectedId
+        }
+        binding.selectedProfile.text = if (profile != null) "현재 선택 · ${profile.label}" else description
+        binding.sidebarVehicle.text = profile?.let { vehicleName(it) } ?: getString(R.string.ui_vehicle_none)
+        binding.sidebarProfile.text = profile?.let { "${it.powertrain} · ${it.language} 매뉴얼 기준" } ?: getString(R.string.ui_vehicle_hint)
+        if (profile == null) binding.profileSource.text = getString(R.string.ui_profile_source_empty)
     }
 
     private fun renderDetail() {
@@ -422,7 +590,7 @@ class MainActivity : AppCompatActivity() {
             assistancePanel.update(null, false, false, false)
             return
         }
-        binding.detailTitle.text = "${item.type} 경고 상세"
+        binding.detailTitle.text = WarningLabels.name(item.type)
         val current = monitor.current.firstOrNull { it.reading.type == item.type }
         binding.detailContext.text = when {
             item.historical -> "과거 관측 기록 · 현재 차량 상태가 아닙니다."
@@ -432,6 +600,13 @@ class MainActivity : AppCompatActivity() {
         }
         val state = if (!item.historical && current != null) current.reading.state else item.state
         val at = if (!item.historical && current != null) current.observedAt else item.at
+        val severity = WarningLabels.severity(item.type, state)
+        binding.detailIcon.setImageResource(WarningLabels.icon(item.type))
+        binding.detailIcon.imageTintList = ColorStateList.valueOf(getColor(severity.icon))
+        binding.detailStateChip.text = WarningLabels.state(state)
+        binding.detailStateChip.setBackgroundResource(severity.chip)
+        binding.detailStateChip.setTextColor(getColor(severity.text))
+        binding.detailSeverityChip.text = "심각도 · ${severity.label}"
         binding.detailFacts.text = "${item.type} · 기록 상태값 ${state ?: "없음"}\n관측 시각 ${time(at)}" +
             if (item.historical) "\n${item.message}\n출처: Pleos Vehicle SDK" else ""
         val profile = manualPreferences.selected

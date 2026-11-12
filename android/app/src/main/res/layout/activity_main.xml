@@ -1,86 +1,986 @@
-<?xml version="1.0" ?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="24dp" android:background="@color/background">
-    <TextView android:id="@+id/brand" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/ui_brand" android:textSize="24sp" android:textColor="@color/accent" android:lineSpacingExtra="6dp" android:fontFamily="sans-serif-medium" android:letterSpacing="0.08"/>
-    <TextView android:id="@+id/ux_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:text="@string/ui_ux_status" android:textSize="18sp" android:textColor="@color/text_secondary" android:lineSpacingExtra="6dp"/>
-    <TextView android:id="@+id/restriction_notice" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/ui_restriction_notice" android:textSize="22sp" android:textColor="@color/text_primary" android:lineSpacingExtra="6dp"/>
-    <LinearLayout android:id="@+id/details" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:orientation="vertical">
-        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="6dp" android:background="@drawable/status_background" android:layout_marginBottom="24dp">
-            <Button android:textColor="@color/nav_text" android:id="@+id/show_current" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:minHeight="64dp" android:textAllCaps="false" android:text="@string/ui_show_current" android:textSize="22sp" android:background="@drawable/nav_background" android:fontFamily="sans-serif-medium" android:paddingLeft="24dp" android:paddingRight="24dp" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_marginBottom="0dp" android:stateListAnimator="@null" android:layout_marginStart="4dp" android:layout_marginEnd="4dp"/>
-            <Button android:textColor="@color/nav_text" android:id="@+id/show_history" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:minHeight="64dp" android:textAllCaps="false" android:text="@string/ui_show_history" android:textSize="22sp" android:background="@drawable/nav_background" android:fontFamily="sans-serif-medium" android:paddingLeft="24dp" android:paddingRight="24dp" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_marginBottom="0dp" android:stateListAnimator="@null" android:layout_marginStart="4dp" android:layout_marginEnd="4dp"/>
-            <Button android:textColor="@color/nav_text" android:id="@+id/show_profile" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:minHeight="64dp" android:textAllCaps="false" android:text="@string/ui_show_profile" android:textSize="22sp" android:background="@drawable/nav_background" android:fontFamily="sans-serif-medium" android:paddingLeft="24dp" android:paddingRight="24dp" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_marginBottom="0dp" android:stateListAnimator="@null" android:layout_marginStart="4dp" android:layout_marginEnd="4dp"/>
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="horizontal">
+
+    <!-- ============ Sidebar ============ -->
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/sidebar_background"
+        android:orientation="vertical"
+        android:paddingStart="28dp"
+        android:paddingTop="36dp"
+        android:paddingEnd="28dp"
+        android:paddingBottom="28dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_checkmate" />
+            <TextView
+                android:id="@+id/brand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:letterSpacing="0.12"
+                android:text="@string/ui_brand"
+                android:textColor="@color/text_primary"
+                android:textFontWeight="700"
+                android:textSize="26sp" />
         </LinearLayout>
-        <ScrollView android:id="@+id/content_scroll" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:fillViewport="true">
-            <LinearLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:paddingBottom="24dp">
-                <LinearLayout android:id="@+id/current_panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
-                    <TextView android:id="@+id/current_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="@string/ui_current_title" android:textSize="32sp" android:textColor="@color/text_primary" android:lineSpacingExtra="6dp" android:fontFamily="sans-serif-medium" android:layout_marginTop="8dp"/>
-                    <TextView android:id="@+id/warning_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24dp" android:text="@string/ui_warning_list" android:textSize="20sp" android:textColor="@color/text_secondary" android:lineSpacingExtra="6dp"/>
-                    <LinearLayout android:id="@+id/warning_cards" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"/>
-                    <LinearLayout android:id="@+id/connection_card" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/status_background" android:padding="24dp" android:layout_marginBottom="24dp">
-                        <TextView android:id="@+id/connection_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/ui_connection_status" android:textSize="20sp" android:textColor="@color/text_primary" android:lineSpacingExtra="6dp"/>
-                        <TextView android:id="@+id/last_received" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="" android:textSize="18sp" android:textColor="@color/text_secondary" android:lineSpacingExtra="6dp"/>
-                        <Button android:textColor="@color/button_text" android:id="@+id/retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="64dp" android:textAllCaps="false" android:text="@string/ui_retry" android:textSize="20sp" android:background="@drawable/button_background" android:fontFamily="sans-serif-medium" android:paddingLeft="24dp" android:paddingRight="24dp" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_marginBottom="12dp" android:stateListAnimator="@null" android:minWidth="180dp"/>
-                    </LinearLayout>
-                    <Button android:textColor="@color/button_text" android:id="@+id/toggle_diagnostics" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="64dp" android:textAllCaps="false" android:text="@string/ui_toggle_diagnostics" android:textSize="20sp" android:background="@drawable/button_background" android:fontFamily="sans-serif-medium" android:paddingLeft="24dp" android:paddingRight="24dp" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_marginBottom="12dp" android:stateListAnimator="@null" android:minWidth="180dp"/>
-                    <LinearLayout android:id="@+id/diagnostics_panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
-                        <TextView android:id="@+id/event_scope" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/ui_event_scope" android:textSize="16sp" android:textColor="@color/text_secondary" android:lineSpacingExtra="6dp"/>
-                        <TextView android:id="@+id/event_log" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="" android:textSize="18sp" android:textColor="@color/text_primary" android:lineSpacingExtra="6dp"/>
-                    </LinearLayout>
-                </LinearLayout>
-                <LinearLayout android:id="@+id/history_panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
-                    <TextView android:id="@+id/history_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="@string/ui_history_title" android:textSize="32sp" android:textColor="@color/text_primary" android:lineSpacingExtra="6dp" android:fontFamily="sans-serif-medium" android:layout_marginTop="8dp"/>
-                    <TextView android:id="@+id/history_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24dp" android:text="@string/ui_history_description" android:textSize="20sp" android:textColor="@color/text_secondary" android:lineSpacingExtra="6dp"/>
-                    <Button android:id="@+id/show_summary" style="@style/Widget.Checkmate.SummaryButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/summary_title" />
-                    <TextView android:id="@+id/history_page" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="" android:textSize="18sp" android:textColor="@color/text_primary" android:lineSpacingExtra="6dp"/>
-                    <Button android:textColor="@color/button_text" android:id="@+id/refresh_history" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="64dp" android:textAllCaps="false" android:text="@string/ui_refresh_history" android:textSize="20sp" android:background="@drawable/button_background" android:fontFamily="sans-serif-medium" android:paddingLeft="24dp" android:paddingRight="24dp" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_marginBottom="12dp" android:stateListAnimator="@null" android:minWidth="180dp"/>
-                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
-                        <Button android:textColor="@color/button_text" android:id="@+id/previous_page" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:minHeight="64dp" android:textAllCaps="false" android:text="@string/ui_previous_page" android:textSize="20sp" android:background="@drawable/button_background" android:fontFamily="sans-serif-medium" android:paddingLeft="24dp" android:paddingRight="24dp" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_marginBottom="12dp" android:stateListAnimator="@null" android:layout_marginEnd="8dp"/>
-                        <Button android:textColor="@color/button_text" android:id="@+id/next_page" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:minHeight="64dp" android:textAllCaps="false" android:text="@string/ui_next_page" android:textSize="20sp" android:background="@drawable/button_background" android:fontFamily="sans-serif-medium" android:paddingLeft="24dp" android:paddingRight="24dp" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_marginBottom="12dp" android:stateListAnimator="@null" android:layout_marginEnd="8dp"/>
-                    </LinearLayout>
-                    <TextView android:id="@+id/history_entries" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="" android:textSize="18sp" android:textColor="@color/text_primary" android:lineSpacingExtra="6dp"/>
-                    <LinearLayout android:id="@+id/history_cards" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"/>
-                </LinearLayout>
-                <include android:id="@+id/service_summary" layout="@layout/panel_service_summary" />
-                <LinearLayout android:id="@+id/detail_panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
-                    <Button android:textColor="@color/button_text" android:id="@+id/detail_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="64dp" android:textAllCaps="false" android:text="@string/ui_detail_back" android:textSize="20sp" android:background="@drawable/button_background" android:fontFamily="sans-serif-medium" android:paddingLeft="24dp" android:paddingRight="24dp" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_marginBottom="12dp" android:stateListAnimator="@null" android:minWidth="180dp"/>
-                    <TextView android:id="@+id/detail_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="@string/ui_detail_title" android:textSize="32sp" android:textColor="@color/text_primary" android:lineSpacingExtra="6dp" android:fontFamily="sans-serif-medium" android:layout_marginTop="8dp"/>
-                    <LinearLayout android:id="@+id/facts_card" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/status_background" android:padding="24dp" android:layout_marginBottom="24dp">
-                        <TextView android:id="@+id/detail_context" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="" android:textSize="18sp" android:textColor="@color/text_secondary" android:lineSpacingExtra="6dp"/>
-                        <TextView android:id="@+id/detail_facts" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="" android:textSize="24sp" android:textColor="@color/text_primary" android:lineSpacingExtra="8dp"/>
-                    </LinearLayout>
-                    <LinearLayout android:id="@+id/assistance_panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp" android:layout_marginBottom="24dp" android:background="@drawable/status_background" />
-                    <LinearLayout android:id="@+id/manual_card" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/status_background" android:padding="24dp" android:layout_marginBottom="24dp">
-                        <TextView android:id="@+id/manual_profile_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/ui_manual_profile_label" android:textSize="24sp" android:textColor="@color/text_primary" android:lineSpacingExtra="6dp" android:fontFamily="sans-serif-medium"/>
-                        <TextView android:id="@+id/detail_profile" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/ui_detail_profile" android:textSize="18sp" android:textColor="@color/text_primary" android:lineSpacingExtra="6dp"/>
-                        <Button android:textColor="@color/button_text" android:id="@+id/detail_choose_profile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="64dp" android:textAllCaps="false" android:text="@string/ui_detail_choose_profile" android:textSize="20sp" android:background="@drawable/button_background" android:fontFamily="sans-serif-medium" android:paddingLeft="24dp" android:paddingRight="24dp" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_marginBottom="12dp" android:stateListAnimator="@null" android:minWidth="180dp"/>
-                        <TextView android:id="@+id/server_notice" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/server_notice" android:textSize="18sp" android:textColor="@color/text_secondary" android:lineSpacingExtra="6dp"/>
-                        <Button android:id="@+id/request_server" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/request_server" android:textSize="18sp" android:textColor="@color/button_text" android:lineSpacingExtra="6dp" android:minHeight="64dp" android:padding="16dp" android:background="@drawable/button_background" android:fontFamily="sans-serif-medium"/>
-                        <Button android:id="@+id/use_local" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/use_local" android:textSize="18sp" android:textColor="@color/button_text" android:lineSpacingExtra="6dp" android:minHeight="64dp" android:padding="16dp" android:background="@drawable/button_background" android:fontFamily="sans-serif-medium"/>
-                        <TextView android:id="@+id/server_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="" android:textSize="18sp" android:textColor="@color/text_secondary" android:lineSpacingExtra="6dp"/>
-                        <TextView android:id="@+id/guide_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="" android:textSize="24sp" android:textColor="@color/text_primary" android:lineSpacingExtra="6dp" android:fontFamily="sans-serif-medium"/>
-                        <TextView android:id="@+id/guide_body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="" android:textSize="24sp" android:textColor="@color/text_primary" android:lineSpacingExtra="8dp"/>
-                    </LinearLayout>
-                    <LinearLayout android:id="@+id/limits_card" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp" android:layout_marginBottom="24dp" android:background="@drawable/status_background">
-                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/limits_heading" android:textSize="22sp" android:fontFamily="sans-serif-medium" android:textColor="@color/text_primary" android:layout_marginBottom="12dp"/>
-                        <TextView android:id="@+id/guide_limits" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:text="" android:textSize="20sp" android:textColor="@color/text_secondary" android:lineSpacingExtra="6dp"/>
-                    </LinearLayout>
-                    <LinearLayout android:id="@+id/source_card" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp" android:layout_marginBottom="24dp" android:background="@drawable/status_background">
-                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/source_heading" android:textSize="22sp" android:fontFamily="sans-serif-medium" android:textColor="@color/text_primary" android:layout_marginBottom="12dp"/>
-                        <TextView android:id="@+id/guide_citation" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:text="" android:textSize="18sp" android:textColor="@color/text_secondary" android:textIsSelectable="true" android:lineSpacingExtra="6dp"/>
-                        <Button android:id="@+id/open_source" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/open_manual_source" android:textSize="20sp" android:textColor="@color/button_text" android:minHeight="64dp" android:background="@drawable/button_background" android:fontFamily="sans-serif-medium" android:paddingLeft="24dp" android:paddingRight="24dp" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_marginBottom="12dp" android:stateListAnimator="@null" android:minWidth="180dp"/>
-                        <TextView android:id="@+id/source_open_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="" android:textSize="18sp" android:textColor="@color/text_secondary" android:lineSpacingExtra="6dp"/>
-                    </LinearLayout>
-                </LinearLayout>
-                <LinearLayout android:id="@+id/profile_panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
-                    <Button android:textColor="@color/button_text" android:id="@+id/profile_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="64dp" android:text="@string/ui_profile_back" android:textSize="20sp" android:background="@drawable/button_background" android:fontFamily="sans-serif-medium" android:paddingLeft="24dp" android:paddingRight="24dp" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_marginBottom="12dp" android:stateListAnimator="@null" android:minWidth="180dp"/>
-                    <TextView android:id="@+id/profile_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="@string/ui_profile_title" android:textSize="32sp" android:textColor="@color/text_primary" android:lineSpacingExtra="6dp" android:fontFamily="sans-serif-medium" android:layout_marginTop="8dp"/>
-                    <TextView android:id="@+id/profile_help" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24dp" android:text="@string/ui_profile_help" android:textSize="20sp" android:textColor="@color/text_secondary" android:lineSpacingExtra="6dp"/>
-                    <TextView android:id="@+id/selected_profile" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="" android:textSize="20sp" android:textColor="@color/text_primary" android:lineSpacingExtra="6dp"/>
-                    <LinearLayout android:id="@+id/profile_options" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"/>
-                    <Button android:textColor="@color/button_text" android:id="@+id/clear_profile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="64dp" android:textAllCaps="false" android:text="@string/ui_clear_profile" android:textSize="20sp" android:background="@drawable/button_background" android:fontFamily="sans-serif-medium" android:paddingLeft="24dp" android:paddingRight="24dp" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_marginBottom="12dp" android:stateListAnimator="@null" android:minWidth="180dp"/>
-                    <TextView android:id="@+id/profile_source" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="" android:textSize="18sp" android:textColor="@color/text_secondary" android:lineSpacingExtra="6dp"/>
-                </LinearLayout>
-            </LinearLayout>
-        </ScrollView>
-        <TextView android:id="@+id/storage_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="0dp" android:text="" android:textSize="16sp" android:textColor="@color/text_secondary" android:lineSpacingExtra="6dp" android:layout_marginTop="12dp"/>
+
+        <TextView
+            style="@style/Text.Checkmate.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/ui_tagline" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/vehicle_card"
+            android:orientation="vertical"
+            android:padding="24dp">
+            <TextView
+                style="@style/Text.Checkmate.Eyebrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My vehicle"
+                android:textColor="@color/text_secondary" />
+            <TextView
+                android:id="@+id/sidebar_vehicle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/ui_vehicle_none"
+                android:textColor="@color/text_primary"
+                android:textFontWeight="700"
+                android:textSize="23sp" />
+            <TextView
+                android:id="@+id/sidebar_profile"
+                style="@style/Text.Checkmate.Caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/ui_vehicle_hint"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+            <Button
+                android:id="@+id/show_current"
+                style="@style/Widget.Checkmate.NavItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_grid_view"
+                android:text="@string/ui_show_current" />
+            <TextView
+                android:id="@+id/current_badge"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/badge"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textFontWeight="700"
+                android:textSize="17sp"
+                android:visibility="gone" />
+        </FrameLayout>
+        <Button
+            android:id="@+id/show_detail"
+            style="@style/Widget.Checkmate.NavItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:drawableStart="@drawable/ic_info"
+            android:text="@string/ui_show_detail" />
+        <Button
+            android:id="@+id/show_history"
+            style="@style/Widget.Checkmate.NavItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:drawableStart="@drawable/ic_schedule"
+            android:text="@string/ui_show_history" />
+        <Button
+            android:id="@+id/show_summary_nav"
+            style="@style/Widget.Checkmate.NavItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:drawableStart="@drawable/ic_description"
+            android:text="@string/summary_nav" />
+        <Button
+            android:id="@+id/show_profile"
+            style="@style/Widget.Checkmate.NavItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_menu_book"
+            android:text="@string/ui_show_profile" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            style="@style/Text.Checkmate.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ui_sidebar_note"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/storage_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/text_tertiary"
+            android:textSize="15sp" />
     </LinearLayout>
+
+    <!-- ============ Main ============ -->
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <!-- Driving restriction -->
+        <LinearLayout
+            android:id="@+id/restriction_panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="48dp">
+            <LinearLayout
+                style="@style/Widget.Checkmate.Card"
+                android:layout_width="760dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="56dp"
+                android:paddingBottom="56dp">
+                <ImageView
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_directions_car"
+                    app:tint="@color/accent" />
+                <TextView
+                    android:id="@+id/restriction_notice"
+                    style="@style/Text.Checkmate.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:gravity="center"
+                    android:text="@string/ui_restriction_notice"
+                    android:textSize="34sp" />
+                <TextView
+                    android:id="@+id/restriction_detail"
+                    style="@style/Text.Checkmate.Subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:gravity="center"
+                    android:text="@string/ui_restriction_detail"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Top bar -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="48dp"
+                android:paddingTop="28dp"
+                android:paddingEnd="48dp">
+                <TextView
+                    android:id="@+id/breadcrumb"
+                    style="@style/Text.Checkmate.Caption"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+                <TextView
+                    android:id="@+id/ux_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/chip_neutral"
+                    android:paddingStart="16dp"
+                    android:paddingTop="8dp"
+                    android:paddingEnd="16dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/ui_ux_status"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <ScrollView
+                android:id="@+id/content_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fillViewport="true"
+                android:scrollbarStyle="outsideOverlay">
+                <LinearLayout
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="48dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="48dp"
+                    android:paddingBottom="48dp">
+
+                    <!-- ===== Current ===== -->
+                    <LinearLayout
+                        android:id="@+id/current_panel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            style="@style/Text.Checkmate.Eyebrow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Current signal" />
+                        <TextView
+                            android:id="@+id/current_title"
+                            style="@style/Text.Checkmate.Title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/ui_current_title" />
+                        <TextView
+                            android:id="@+id/warning_list"
+                            style="@style/Text.Checkmate.Subtitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/ui_warning_list" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:baselineAligned="false"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:orientation="vertical">
+                                <LinearLayout
+                                    android:id="@+id/warning_cards"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical" />
+                                <LinearLayout
+                                    android:id="@+id/empty_card"
+                                    style="@style/Widget.Checkmate.Card"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_horizontal"
+                                    android:paddingTop="64dp"
+                                    android:paddingBottom="64dp">
+                                    <ImageView
+                                        android:id="@+id/empty_icon"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:contentDescription="@null"
+                                        android:src="@drawable/ic_check_circle"
+                                        app:tint="@color/accent" />
+                                    <TextView
+                                        android:id="@+id/empty_title"
+                                        style="@style/Text.Checkmate.CardTitle"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="20dp"
+                                        android:text="@string/ui_empty_title"
+                                        android:textSize="30sp" />
+                                    <TextView
+                                        android:id="@+id/empty_body"
+                                        style="@style/Text.Checkmate.Subtitle"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:gravity="center"
+                                        android:text="@string/ui_empty_body" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="28dp"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+                                <LinearLayout
+                                    android:id="@+id/connection_card"
+                                    style="@style/Widget.Checkmate.Card"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        style="@style/Text.Checkmate.Eyebrow"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Live connection" />
+                                    <TextView
+                                        style="@style/Text.Checkmate.CardTitle"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="@string/ui_connection_title"
+                                        android:textSize="24sp" />
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="18dp"
+                                        android:gravity="center_vertical"
+                                        android:orientation="horizontal">
+                                        <ImageView
+                                            android:id="@+id/connection_dot"
+                                            android:layout_width="12dp"
+                                            android:layout_height="12dp"
+                                            android:contentDescription="@null"
+                                            android:src="@drawable/dot_idle" />
+                                        <TextView
+                                            android:id="@+id/connection_status"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="12dp"
+                                            android:layout_weight="1"
+                                            android:text="@string/ui_connection_status"
+                                            android:textColor="@color/text_primary"
+                                            android:textFontWeight="600"
+                                            android:textSize="21sp" />
+                                    </LinearLayout>
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1.5dp"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_marginBottom="16dp"
+                                        android:background="@color/divider" />
+                                    <TextView
+                                        android:id="@+id/last_received"
+                                        style="@style/Text.Checkmate.Caption"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content" />
+                                    <Button
+                                        android:id="@+id/retry"
+                                        style="@style/Widget.Checkmate.Button"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="20dp"
+                                        android:drawableStart="@drawable/ic_refresh"
+                                        android:drawablePadding="12dp"
+                                        android:gravity="start|center_vertical"
+                                        android:text="@string/ui_retry"
+                                        app:drawableTint="@color/button_text" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    style="@style/Widget.Checkmate.Card"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="24dp">
+                                    <TextView
+                                        style="@style/Text.Checkmate.CardTitle"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/event_heading"
+                                        android:textSize="24sp" />
+                                    <LinearLayout
+                                        android:id="@+id/recent_events"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="12dp"
+                                        android:orientation="vertical" />
+                                    <LinearLayout
+                                        android:id="@+id/diagnostics_panel"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical">
+                                        <TextView
+                                            android:id="@+id/event_scope"
+                                            style="@style/Text.Checkmate.Caption"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="12dp"
+                                            android:text="@string/ui_event_scope"
+                                            android:textSize="16sp" />
+                                    </LinearLayout>
+                                    <Button
+                                        android:id="@+id/toggle_diagnostics"
+                                        style="@style/Widget.Checkmate.Button.Text"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:minHeight="56dp"
+                                        android:text="@string/ui_toggle_diagnostics"
+                                        android:textColor="@color/accent"
+                                        android:textSize="19sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="24dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:contentDescription="@null"
+                                android:src="@drawable/ic_info"
+                                app:tint="@color/text_tertiary" />
+                            <TextView
+                                style="@style/Text.Checkmate.Caption"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:text="@string/ui_current_footnote"
+                                android:textSize="17sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- ===== History ===== -->
+                    <LinearLayout
+                        android:id="@+id/history_panel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="bottom"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+                                <TextView
+                                    style="@style/Text.Checkmate.Eyebrow"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Observation log" />
+                                <TextView
+                                    android:id="@+id/history_title"
+                                    style="@style/Text.Checkmate.Title"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="@string/ui_history_title" />
+                                <TextView
+                                    android:id="@+id/history_description"
+                                    style="@style/Text.Checkmate.Subtitle"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="@string/ui_history_description" />
+                            </LinearLayout>
+                            <Button
+                                android:id="@+id/show_summary"
+                                style="@style/Widget.Checkmate.Button"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_description"
+                                android:drawablePadding="10dp"
+                                android:text="@string/summary_title"
+                                app:drawableTint="@color/button_text" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            style="@style/Widget.Checkmate.Card"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:paddingBottom="16dp">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+                                <TextView
+                                    style="@style/Text.Checkmate.CardTitle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="@string/ui_history_card_title"
+                                    android:textSize="24sp" />
+                                <TextView
+                                    android:id="@+id/history_page"
+                                    style="@style/Text.Checkmate.Caption"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+                            <TextView
+                                android:id="@+id/history_entries"
+                                style="@style/Text.Checkmate.Caption"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="12dp" />
+                            <LinearLayout
+                                android:id="@+id/history_cards"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:orientation="vertical" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="24dp"
+                            android:orientation="horizontal">
+                            <Button
+                                android:id="@+id/previous_page"
+                                style="@style/Widget.Checkmate.Button"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="12dp"
+                                android:text="@string/ui_previous_page" />
+                            <Button
+                                android:id="@+id/next_page"
+                                style="@style/Widget.Checkmate.Button"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/ui_next_page" />
+                            <Space
+                                android:layout_width="0dp"
+                                android:layout_height="1dp"
+                                android:layout_weight="1" />
+                            <Button
+                                android:id="@+id/refresh_history"
+                                style="@style/Widget.Checkmate.Button"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_refresh"
+                                android:drawablePadding="10dp"
+                                android:text="@string/ui_refresh_history"
+                                app:drawableTint="@color/button_text" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <include
+                        android:id="@+id/service_summary"
+                        layout="@layout/panel_service_summary" />
+
+                    <!-- ===== Detail ===== -->
+                    <LinearLayout
+                        android:id="@+id/detail_panel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <Button
+                            android:id="@+id/detail_back"
+                            style="@style/Widget.Checkmate.Button.Text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="-12dp"
+                            android:drawableStart="@drawable/ic_arrow_back"
+                            android:drawablePadding="10dp"
+                            android:minHeight="56dp"
+                            android:text="@string/ui_detail_back"
+                            android:textColor="@color/text_secondary"
+                            android:textSize="19sp"
+                            app:drawableTint="@color/text_secondary" />
+                        <TextView
+                            style="@style/Text.Checkmate.Eyebrow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Signal guide" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:id="@+id/detail_icon"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginEnd="18dp"
+                                android:contentDescription="@null"
+                                android:src="@drawable/ic_warning"
+                                app:tint="@color/amber_icon" />
+                            <TextView
+                                android:id="@+id/detail_title"
+                                style="@style/Text.Checkmate.Title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/ui_detail_title" />
+                            <TextView
+                                android:id="@+id/detail_state_chip"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:background="@drawable/chip_amber"
+                                android:paddingStart="14dp"
+                                android:paddingTop="6dp"
+                                android:paddingEnd="14dp"
+                                android:paddingBottom="6dp"
+                                android:textColor="@color/amber_text"
+                                android:textFontWeight="600"
+                                android:textSize="18sp" />
+                            <TextView
+                                android:id="@+id/detail_severity_chip"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@drawable/chip_neutral"
+                                android:paddingStart="14dp"
+                                android:paddingTop="6dp"
+                                android:paddingEnd="14dp"
+                                android:paddingBottom="6dp"
+                                android:textColor="@color/text_secondary"
+                                android:textFontWeight="600"
+                                android:textSize="18sp" />
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/detail_context"
+                            style="@style/Text.Checkmate.Subtitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:baselineAligned="false"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:id="@+id/manual_card"
+                                    style="@style/Widget.Checkmate.Card"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        style="@style/Text.Checkmate.Eyebrow"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Manual summary" />
+                                    <TextView
+                                        android:id="@+id/guide_title"
+                                        style="@style/Text.Checkmate.CardTitle"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp" />
+                                    <TextView
+                                        android:id="@+id/guide_body"
+                                        style="@style/Text.Checkmate.Body"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="16dp" />
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1.5dp"
+                                        android:layout_marginTop="24dp"
+                                        android:layout_marginBottom="20dp"
+                                        android:background="@color/divider" />
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_vertical"
+                                        android:orientation="horizontal">
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:orientation="vertical">
+                                            <TextView
+                                                android:id="@+id/manual_profile_label"
+                                                style="@style/Text.Checkmate.Caption"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="@string/ui_manual_profile_label"
+                                                android:textSize="16sp" />
+                                            <TextView
+                                                android:id="@+id/detail_profile"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="2dp"
+                                                android:text="@string/ui_detail_profile"
+                                                android:textColor="@color/text_primary"
+                                                android:textSize="19sp" />
+                                        </LinearLayout>
+                                        <Button
+                                            android:id="@+id/detail_choose_profile"
+                                            style="@style/Widget.Checkmate.Button"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:minHeight="60dp"
+                                            android:text="@string/ui_detail_choose_profile"
+                                            android:textSize="19sp" />
+                                    </LinearLayout>
+                                    <TextView
+                                        android:id="@+id/server_notice"
+                                        style="@style/Text.Checkmate.Caption"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="20dp"
+                                        android:text="@string/server_notice"
+                                        android:textSize="16sp" />
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="12dp"
+                                        android:orientation="horizontal">
+                                        <Button
+                                            android:id="@+id/request_server"
+                                            style="@style/Widget.Checkmate.Button"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginEnd="12dp"
+                                            android:minHeight="60dp"
+                                            android:text="@string/request_server"
+                                            android:textSize="19sp" />
+                                        <Button
+                                            android:id="@+id/use_local"
+                                            style="@style/Widget.Checkmate.Button"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:minHeight="60dp"
+                                            android:text="@string/use_local"
+                                            android:textSize="19sp" />
+                                    </LinearLayout>
+                                    <TextView
+                                        android:id="@+id/server_status"
+                                        style="@style/Text.Checkmate.Caption"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/facts_card"
+                                    style="@style/Widget.Checkmate.Card"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="24dp">
+                                    <TextView
+                                        style="@style/Text.Checkmate.Eyebrow"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Vehicle observation" />
+                                    <TextView
+                                        android:id="@+id/detail_facts"
+                                        style="@style/Text.Checkmate.Body"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="12dp"
+                                        android:textSize="20sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/limits_card"
+                                    style="@style/Widget.Checkmate.Card"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="24dp">
+                                    <TextView
+                                        style="@style/Text.Checkmate.CardTitle"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/limits_heading"
+                                        android:textSize="22sp" />
+                                    <TextView
+                                        android:id="@+id/guide_limits"
+                                        style="@style/Text.Checkmate.Caption"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="12dp"
+                                        android:textSize="19sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/source_card"
+                                    style="@style/Widget.Checkmate.Card"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="24dp">
+                                    <TextView
+                                        style="@style/Text.Checkmate.CardTitle"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/source_heading"
+                                        android:textSize="22sp" />
+                                    <TextView
+                                        android:id="@+id/guide_citation"
+                                        style="@style/Text.Checkmate.Caption"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="12dp"
+                                        android:textIsSelectable="true" />
+                                    <Button
+                                        android:id="@+id/open_source"
+                                        style="@style/Widget.Checkmate.Button"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="16dp"
+                                        android:minHeight="60dp"
+                                        android:text="@string/open_manual_source"
+                                        android:textSize="19sp" />
+                                    <TextView
+                                        android:id="@+id/source_open_status"
+                                        style="@style/Text.Checkmate.Caption"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/assistance_panel"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="28dp"
+                                android:layout_weight="1"
+                                android:orientation="vertical" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- ===== Manual profile ===== -->
+                    <LinearLayout
+                        android:id="@+id/profile_panel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <Button
+                            android:id="@+id/profile_back"
+                            style="@style/Widget.Checkmate.Button.Text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="-12dp"
+                            android:drawableStart="@drawable/ic_arrow_back"
+                            android:drawablePadding="10dp"
+                            android:minHeight="56dp"
+                            android:text="@string/ui_profile_back"
+                            android:textColor="@color/text_secondary"
+                            android:textSize="19sp"
+                            app:drawableTint="@color/text_secondary" />
+                        <TextView
+                            style="@style/Text.Checkmate.Eyebrow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Owner's manual" />
+                        <TextView
+                            android:id="@+id/profile_title"
+                            style="@style/Text.Checkmate.Title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/ui_profile_title" />
+                        <TextView
+                            android:id="@+id/profile_help"
+                            style="@style/Text.Checkmate.Subtitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/ui_profile_help" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:baselineAligned="false"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                style="@style/Widget.Checkmate.Card"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+                                <TextView
+                                    style="@style/Text.Checkmate.CardTitle"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/ui_profile_card_title"
+                                    android:textSize="24sp" />
+                                <TextView
+                                    android:id="@+id/selected_profile"
+                                    style="@style/Text.Checkmate.Caption"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_marginBottom="20dp" />
+                                <LinearLayout
+                                    android:id="@+id/profile_options"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical" />
+                                <Button
+                                    android:id="@+id/clear_profile"
+                                    style="@style/Widget.Checkmate.Button"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="@string/ui_clear_profile" />
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/Widget.Checkmate.Card"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="28dp"
+                                android:layout_weight="1">
+                                <TextView
+                                    style="@style/Text.Checkmate.Eyebrow"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Source" />
+                                <TextView
+                                    style="@style/Text.Checkmate.CardTitle"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="@string/source_heading"
+                                    android:textSize="24sp" />
+                                <TextView
+                                    android:id="@+id/profile_source"
+                                    style="@style/Text.Checkmate.Caption"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="12dp"
+                                    android:text="@string/ui_profile_source_empty"
+                                    android:textIsSelectable="true" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </FrameLayout>
 </LinearLayout>

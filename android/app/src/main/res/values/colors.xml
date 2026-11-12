@@ -1,7 +1,24 @@
 <resources>
-    <color name="background">#101820</color>
-    <color name="surface">#1E2A35</color>
-    <color name="accent">#80D8CB</color>
-    <color name="text_primary">#F4F7FA</color>
-    <color name="text_secondary">#BCC8D3</color>
+    <!-- Light "clear care" palette. Names kept from the earlier theme so existing references stay valid. -->
+    <color name="background">#EDF1F0</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="sidebar">#F8FAF9</color>
+    <color name="border">#DCE3E1</color>
+    <color name="divider">#E7ECEA</color>
+    <color name="accent">#155E5A</color>
+    <color name="accent_pressed">#0F4744</color>
+    <color name="accent_soft">#E2EEEC</color>
+    <color name="accent_label">#1F7A72</color>
+    <color name="text_primary">#15202B</color>
+    <color name="text_secondary">#5C6971</color>
+    <color name="text_tertiary">#8A969C</color>
+    <color name="text_disabled">#A9B3B7</color>
+    <color name="amber_bg">#FCF0D9</color>
+    <color name="amber_text">#8A5A0B</color>
+    <color name="amber_border">#E6CB93</color>
+    <color name="amber_icon">#A8690A</color>
+    <color name="red_bg">#FBE5E2</color>
+    <color name="red_text">#A12A1F</color>
+    <color name="red_border">#EDB3AC</color>
+    <color name="live">#1E8A63</color>
 </resources>
